@@ -1,6 +1,6 @@
 {
-    "name": "GIT_USER_ID/GIT_REPO_ID",
-    "description": "",
+    "name": "industryarena/ShopwareSDK6",
+    "description": "Shopware API SDK  V6 API from swagger-codegen",
     "keywords": [
         "swagger",
         "php",
