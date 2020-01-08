@@ -1,0 +1,10 @@
+# NumberRangeRelationshipsType
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**links** | [**\Swagger\Client\Model\NumberRangeRelationshipsTypeLinks**](NumberRangeRelationshipsTypeLinks.md) |  | [optional] 
+**data** | [**\Swagger\Client\Model\NumberRangeRelationshipsTypeData**](NumberRangeRelationshipsTypeData.md) |  | [optional] 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+
