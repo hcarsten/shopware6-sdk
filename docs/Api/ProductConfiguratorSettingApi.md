@@ -1,4 +1,4 @@
-# Swagger\Client\ProductConfiguratorSettingApi
+# ShopwareSDK6\ProductConfiguratorSettingApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProductConfiguratorSetting**](ProductConfiguratorSettingApi.md#updateproductconfiguratorsetting) | **PATCH** /product-configurator-setting/{id} | Partially update information about a Product Configurator Setting resource
 
 # **createProductConfiguratorSetting**
-> \Swagger\Client\Model\InlineResponse200177 createProductConfiguratorSetting($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200177 createProductConfiguratorSetting($body, $_response)
 
 Create a new Product Configurator Setting resources
 
@@ -22,12 +22,12 @@ Create a new Product Configurator Setting resources. All required fields must be
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductConfiguratorSettingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductConfiguratorSettingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body116(); // \Swagger\Client\Model\Body116 | 
+$body = new \ShopwareSDK6\Model\Body116(); // \ShopwareSDK6\Model\Body116 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body116**](../Model/Body116.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body116**](../Model/Body116.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
+[**\ShopwareSDK6\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProductConfiguratorSetting**
-> \Swagger\Client\Model\InlineResponse200177 createProductConfiguratorSetting($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200177 createProductConfiguratorSetting($body, $_response)
 
 Create a new Product Configurator Setting resources
 
@@ -73,12 +73,12 @@ Create a new Product Configurator Setting resources. All required fields must be
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductConfiguratorSettingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductConfiguratorSettingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\ProductConfiguratorSettingFlat(); // \Swagger\Client\Model\ProductConfiguratorSettingFlat | 
+$body = new \ShopwareSDK6\Model\ProductConfiguratorSettingFlat(); // \ShopwareSDK6\Model\ProductConfiguratorSettingFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ProductConfiguratorSettingFlat**](../Model/ProductConfiguratorSettingFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductConfiguratorSettingFlat**](../Model/ProductConfiguratorSettingFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
+[**\ShopwareSDK6\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product Configurator Setting resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductConfiguratorSettingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductConfiguratorSettingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductConfiguratorSetting**
-> \Swagger\Client\Model\InlineResponse200177 getProductConfiguratorSetting($id)
+> \ShopwareSDK6\Model\InlineResponse200177 getProductConfiguratorSetting($id)
 
 Detailed information about a Product Configurator Setting resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product Configurator Setting resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductConfiguratorSettingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductConfiguratorSettingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
+[**\ShopwareSDK6\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductConfiguratorSettingList**
-> \Swagger\Client\Model\InlineResponse200175 getProductConfiguratorSettingList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200175 getProductConfiguratorSettingList($limit, $page, $query)
 
 List with basic information of Product Configurator Setting resources
 
@@ -217,7 +217,7 @@ List with basic information of Product Configurator Setting resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductConfiguratorSettingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductConfiguratorSettingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200175**](../Model/InlineResponse200175.md)
+[**\ShopwareSDK6\Model\InlineResponse200175**](../Model/InlineResponse200175.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductConfiguratorSetting**
-> \Swagger\Client\Model\InlineResponse200177 updateProductConfiguratorSetting($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200177 updateProductConfiguratorSetting($id, $body, $_response)
 
 Partially update information about a Product Configurator Setting resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product Configurator Setting resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductConfiguratorSettingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductConfiguratorSettingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_configurator_setting
-$body = new \Swagger\Client\Model\Body117(); // \Swagger\Client\Model\Body117 | Partially update information about a Product Configurator Setting resource.
+$body = new \ShopwareSDK6\Model\Body117(); // \ShopwareSDK6\Model\Body117 | Partially update information about a Product Configurator Setting resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_configurator_setting |
- **body** | [**\Swagger\Client\Model\Body117**](../Model/Body117.md)| Partially update information about a Product Configurator Setting resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body117**](../Model/Body117.md)| Partially update information about a Product Configurator Setting resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
+[**\ShopwareSDK6\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductConfiguratorSetting**
-> \Swagger\Client\Model\InlineResponse200177 updateProductConfiguratorSetting($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200177 updateProductConfiguratorSetting($id, $body, $_response)
 
 Partially update information about a Product Configurator Setting resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product Configurator Setting resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductConfiguratorSettingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductConfiguratorSettingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_configurator_setting
-$body = new \Swagger\Client\Model\ProductConfiguratorSettingFlat(); // \Swagger\Client\Model\ProductConfiguratorSettingFlat | Partially update information about a Product Configurator Setting resource.
+$body = new \ShopwareSDK6\Model\ProductConfiguratorSettingFlat(); // \ShopwareSDK6\Model\ProductConfiguratorSettingFlat | Partially update information about a Product Configurator Setting resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_configurator_setting |
- **body** | [**\Swagger\Client\Model\ProductConfiguratorSettingFlat**](../Model/ProductConfiguratorSettingFlat.md)| Partially update information about a Product Configurator Setting resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductConfiguratorSettingFlat**](../Model/ProductConfiguratorSettingFlat.md)| Partially update information about a Product Configurator Setting resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
+[**\ShopwareSDK6\Model\InlineResponse200177**](../Model/InlineResponse200177.md)
 
 ### Authorization
 

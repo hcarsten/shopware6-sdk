@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace ShopwareSDK6\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use ShopwareSDK6\ApiException;
+use ShopwareSDK6\Configuration;
+use ShopwareSDK6\HeaderSelector;
+use ShopwareSDK6\ObjectSerializer;
 
 /**
  * TaxApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class TaxApi
      *
      * Create a new Tax resources
      *
-     * @param  \Swagger\Client\Model\Body194 $body body (optional)
+     * @param  \ShopwareSDK6\Model\Body194 $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200294
+     * @return \ShopwareSDK6\Model\InlineResponse200294
      */
     public function createTax($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class TaxApi
      *
      * Create a new Tax resources
      *
-     * @param  \Swagger\Client\Model\Body194 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body194 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
      */
     public function createTaxWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->createTaxRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class TaxApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200294',
+                        '\ShopwareSDK6\Model\InlineResponse200294',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class TaxApi
      *
      * Create a new Tax resources
      *
-     * @param  \Swagger\Client\Model\Body194 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body194 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class TaxApi
      *
      * Create a new Tax resources
      *
-     * @param  \Swagger\Client\Model\Body194 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body194 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class TaxApi
      */
     public function createTaxAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->createTaxRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class TaxApi
     /**
      * Create request for operation 'createTax'
      *
-     * @param  \Swagger\Client\Model\Body194 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body194 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class TaxApi
      *
      * Create a new Tax resources
      *
-     * @param  \Swagger\Client\Model\TaxFlat $body body (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200294
+     * @return \ShopwareSDK6\Model\InlineResponse200294
      */
     public function createTax($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class TaxApi
      *
      * Create a new Tax resources
      *
-     * @param  \Swagger\Client\Model\TaxFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
      */
     public function createTaxWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->createTaxRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class TaxApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200294',
+                        '\ShopwareSDK6\Model\InlineResponse200294',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class TaxApi
      *
      * Create a new Tax resources
      *
-     * @param  \Swagger\Client\Model\TaxFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class TaxApi
      *
      * Create a new Tax resources
      *
-     * @param  \Swagger\Client\Model\TaxFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class TaxApi
      */
     public function createTaxAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->createTaxRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class TaxApi
     /**
      * Create request for operation 'createTax'
      *
-     * @param  \Swagger\Client\Model\TaxFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class TaxApi
      * @param  string $id Identifier for the tax (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class TaxApi
      * @param  string $id Identifier for the tax (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class TaxApi
      *
      * @param  string $id Identifier for the tax (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200294
+     * @return \ShopwareSDK6\Model\InlineResponse200294
      */
     public function getTax($id)
     {
@@ -864,13 +864,13 @@ class TaxApi
      *
      * @param  string $id Identifier for the tax (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTaxWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->getTaxRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class TaxApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200294',
+                        '\ShopwareSDK6\Model\InlineResponse200294',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class TaxApi
      */
     public function getTaxAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->getTaxRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class TaxApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200292
+     * @return \ShopwareSDK6\Model\InlineResponse200292
      */
     public function getTaxList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class TaxApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200292, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200292, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTaxListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200292';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200292';
         $request = $this->getTaxListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class TaxApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200292',
+                        '\ShopwareSDK6\Model\InlineResponse200292',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class TaxApi
      */
     public function getTaxListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200292';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200292';
         $request = $this->getTaxListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class TaxApi
      * Partially update information about a Tax resource
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\Body195 $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body195 $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200294
+     * @return \ShopwareSDK6\Model\InlineResponse200294
      */
     public function updateTax($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class TaxApi
      * Partially update information about a Tax resource
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\Body195 $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body195 $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateTaxWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->updateTaxRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class TaxApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200294',
+                        '\ShopwareSDK6\Model\InlineResponse200294',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class TaxApi
      * Partially update information about a Tax resource
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\Body195 $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body195 $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class TaxApi
      * Partially update information about a Tax resource
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\Body195 $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body195 $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class TaxApi
      */
     public function updateTaxAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->updateTaxRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class TaxApi
      * Create request for operation 'updateTax'
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\Body195 $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body195 $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class TaxApi
      * Partially update information about a Tax resource
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200294
+     * @return \ShopwareSDK6\Model\InlineResponse200294
      */
     public function updateTax($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class TaxApi
      * Partially update information about a Tax resource
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200294, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateTaxWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->updateTaxRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class TaxApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200294',
+                        '\ShopwareSDK6\Model\InlineResponse200294',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class TaxApi
      * Partially update information about a Tax resource
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class TaxApi
      * Partially update information about a Tax resource
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class TaxApi
      */
     public function updateTaxAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200294';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200294';
         $request = $this->updateTaxRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class TaxApi
      * Create request for operation 'updateTax'
      *
      * @param  string $id Identifier for the tax (required)
-     * @param  \Swagger\Client\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
+     * @param  \ShopwareSDK6\Model\TaxFlat $body Partially update information about a Tax resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

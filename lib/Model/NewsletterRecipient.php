@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * NewsletterRecipient Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class NewsletterRecipient extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\NewsletterRecipientAttributes',
-'links' => '\Swagger\Client\Model\NewsletterRecipientLinks',
-'relationships' => '\Swagger\Client\Model\NewsletterRecipientRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\NewsletterRecipientAttributes',
+'links' => '\ShopwareSDK6\Model\NewsletterRecipientLinks',
+'relationships' => '\ShopwareSDK6\Model\NewsletterRecipientRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class NewsletterRecipient extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\NewsletterRecipientAttributes
+     * @return \ShopwareSDK6\Model\NewsletterRecipientAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class NewsletterRecipient extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\NewsletterRecipientAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\NewsletterRecipientAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class NewsletterRecipient extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\NewsletterRecipientLinks
+     * @return \ShopwareSDK6\Model\NewsletterRecipientLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class NewsletterRecipient extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\NewsletterRecipientLinks $links links
+     * @param \ShopwareSDK6\Model\NewsletterRecipientLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class NewsletterRecipient extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\NewsletterRecipientRelationships
+     * @return \ShopwareSDK6\Model\NewsletterRecipientRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class NewsletterRecipient extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\NewsletterRecipientRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\NewsletterRecipientRelationships $relationships relationships
      *
      * @return $this
      */

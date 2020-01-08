@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * StateMachineHistoryFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,10 +66,10 @@ class StateMachineHistoryFlat implements ModelInterface, ArrayAccess
 'user_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'state_machine' => '\Swagger\Client\Model\StateMachineFlat',
-'from_state_machine_state' => '\Swagger\Client\Model\StateMachineStateFlat',
-'to_state_machine_state' => '\Swagger\Client\Model\StateMachineStateFlat',
-'user' => '\Swagger\Client\Model\UserFlat'    ];
+'state_machine' => '\ShopwareSDK6\Model\StateMachineFlat',
+'from_state_machine_state' => '\ShopwareSDK6\Model\StateMachineStateFlat',
+'to_state_machine_state' => '\ShopwareSDK6\Model\StateMachineStateFlat',
+'user' => '\ShopwareSDK6\Model\UserFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -538,7 +538,7 @@ class StateMachineHistoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine
      *
-     * @return \Swagger\Client\Model\StateMachineFlat
+     * @return \ShopwareSDK6\Model\StateMachineFlat
      */
     public function getStateMachine()
     {
@@ -548,7 +548,7 @@ class StateMachineHistoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine
      *
-     * @param \Swagger\Client\Model\StateMachineFlat $state_machine state_machine
+     * @param \ShopwareSDK6\Model\StateMachineFlat $state_machine state_machine
      *
      * @return $this
      */
@@ -562,7 +562,7 @@ class StateMachineHistoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets from_state_machine_state
      *
-     * @return \Swagger\Client\Model\StateMachineStateFlat
+     * @return \ShopwareSDK6\Model\StateMachineStateFlat
      */
     public function getFromStateMachineState()
     {
@@ -572,7 +572,7 @@ class StateMachineHistoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets from_state_machine_state
      *
-     * @param \Swagger\Client\Model\StateMachineStateFlat $from_state_machine_state from_state_machine_state
+     * @param \ShopwareSDK6\Model\StateMachineStateFlat $from_state_machine_state from_state_machine_state
      *
      * @return $this
      */
@@ -586,7 +586,7 @@ class StateMachineHistoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets to_state_machine_state
      *
-     * @return \Swagger\Client\Model\StateMachineStateFlat
+     * @return \ShopwareSDK6\Model\StateMachineStateFlat
      */
     public function getToStateMachineState()
     {
@@ -596,7 +596,7 @@ class StateMachineHistoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets to_state_machine_state
      *
-     * @param \Swagger\Client\Model\StateMachineStateFlat $to_state_machine_state to_state_machine_state
+     * @param \ShopwareSDK6\Model\StateMachineStateFlat $to_state_machine_state to_state_machine_state
      *
      * @return $this
      */
@@ -610,7 +610,7 @@ class StateMachineHistoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\UserFlat
+     * @return \ShopwareSDK6\Model\UserFlat
      */
     public function getUser()
     {
@@ -620,7 +620,7 @@ class StateMachineHistoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\UserFlat $user user
+     * @param \ShopwareSDK6\Model\UserFlat $user user
      *
      * @return $this
      */

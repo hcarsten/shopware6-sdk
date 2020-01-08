@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\SalesChannelRelationshipsCustomerGroupLinks**](SalesChannelRelationshipsCustomerGroupLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\CustomerRelationshipsGroupData**](CustomerRelationshipsGroupData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\SalesChannelRelationshipsCustomerGroupLinks**](SalesChannelRelationshipsCustomerGroupLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\CustomerRelationshipsGroupData**](CustomerRelationshipsGroupData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

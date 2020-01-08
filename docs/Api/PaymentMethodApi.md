@@ -1,4 +1,4 @@
-# Swagger\Client\PaymentMethodApi
+# ShopwareSDK6\PaymentMethodApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updatePaymentMethod**](PaymentMethodApi.md#updatepaymentmethod) | **PATCH** /payment-method/{id} | Partially update information about a Payment Method resource
 
 # **createPaymentMethod**
-> \Swagger\Client\Model\InlineResponse200168 createPaymentMethod($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200168 createPaymentMethod($body, $_response)
 
 Create a new Payment Method resources
 
@@ -22,12 +22,12 @@ Create a new Payment Method resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PaymentMethodApi(
+$apiInstance = new ShopwareSDK6\Api\PaymentMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body110(); // \Swagger\Client\Model\Body110 | 
+$body = new \ShopwareSDK6\Model\Body110(); // \ShopwareSDK6\Model\Body110 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body110**](../Model/Body110.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body110**](../Model/Body110.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
+[**\ShopwareSDK6\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createPaymentMethod**
-> \Swagger\Client\Model\InlineResponse200168 createPaymentMethod($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200168 createPaymentMethod($body, $_response)
 
 Create a new Payment Method resources
 
@@ -73,12 +73,12 @@ Create a new Payment Method resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PaymentMethodApi(
+$apiInstance = new ShopwareSDK6\Api\PaymentMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\PaymentMethodFlat(); // \Swagger\Client\Model\PaymentMethodFlat | 
+$body = new \ShopwareSDK6\Model\PaymentMethodFlat(); // \ShopwareSDK6\Model\PaymentMethodFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\PaymentMethodFlat**](../Model/PaymentMethodFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\PaymentMethodFlat**](../Model/PaymentMethodFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
+[**\ShopwareSDK6\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Payment Method resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PaymentMethodApi(
+$apiInstance = new ShopwareSDK6\Api\PaymentMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPaymentMethod**
-> \Swagger\Client\Model\InlineResponse200168 getPaymentMethod($id)
+> \ShopwareSDK6\Model\InlineResponse200168 getPaymentMethod($id)
 
 Detailed information about a Payment Method resource
 
@@ -170,7 +170,7 @@ Detailed information about a Payment Method resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PaymentMethodApi(
+$apiInstance = new ShopwareSDK6\Api\PaymentMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
+[**\ShopwareSDK6\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPaymentMethodList**
-> \Swagger\Client\Model\InlineResponse200166 getPaymentMethodList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200166 getPaymentMethodList($limit, $page, $query)
 
 List with basic information of Payment Method resources
 
@@ -217,7 +217,7 @@ List with basic information of Payment Method resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PaymentMethodApi(
+$apiInstance = new ShopwareSDK6\Api\PaymentMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200166**](../Model/InlineResponse200166.md)
+[**\ShopwareSDK6\Model\InlineResponse200166**](../Model/InlineResponse200166.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePaymentMethod**
-> \Swagger\Client\Model\InlineResponse200168 updatePaymentMethod($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200168 updatePaymentMethod($id, $body, $_response)
 
 Partially update information about a Payment Method resource
 
@@ -268,13 +268,13 @@ Partially update information about a Payment Method resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PaymentMethodApi(
+$apiInstance = new ShopwareSDK6\Api\PaymentMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the payment_method
-$body = new \Swagger\Client\Model\Body111(); // \Swagger\Client\Model\Body111 | Partially update information about a Payment Method resource.
+$body = new \ShopwareSDK6\Model\Body111(); // \ShopwareSDK6\Model\Body111 | Partially update information about a Payment Method resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the payment_method |
- **body** | [**\Swagger\Client\Model\Body111**](../Model/Body111.md)| Partially update information about a Payment Method resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body111**](../Model/Body111.md)| Partially update information about a Payment Method resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
+[**\ShopwareSDK6\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePaymentMethod**
-> \Swagger\Client\Model\InlineResponse200168 updatePaymentMethod($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200168 updatePaymentMethod($id, $body, $_response)
 
 Partially update information about a Payment Method resource
 
@@ -319,13 +319,13 @@ Partially update information about a Payment Method resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PaymentMethodApi(
+$apiInstance = new ShopwareSDK6\Api\PaymentMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the payment_method
-$body = new \Swagger\Client\Model\PaymentMethodFlat(); // \Swagger\Client\Model\PaymentMethodFlat | Partially update information about a Payment Method resource.
+$body = new \ShopwareSDK6\Model\PaymentMethodFlat(); // \ShopwareSDK6\Model\PaymentMethodFlat | Partially update information about a Payment Method resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the payment_method |
- **body** | [**\Swagger\Client\Model\PaymentMethodFlat**](../Model/PaymentMethodFlat.md)| Partially update information about a Payment Method resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\PaymentMethodFlat**](../Model/PaymentMethodFlat.md)| Partially update information about a Payment Method resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
+[**\ShopwareSDK6\Model\InlineResponse200168**](../Model/InlineResponse200168.md)
 
 ### Authorization
 

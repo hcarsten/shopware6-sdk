@@ -16,13 +16,13 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**sales_channel_default_assignments** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**orders** | [**\Swagger\Client\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
-**shipping_method_prices** | [**\Swagger\Client\Model\ShippingMethodPriceFlat**](ShippingMethodPriceFlat.md) |  | [optional] 
-**sales_channels** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**sales_channel_domains** | [**\Swagger\Client\Model\SalesChannelDomainFlat**](SalesChannelDomainFlat.md) |  | [optional] 
-**promotion_discount_prices** | [**\Swagger\Client\Model\PromotionDiscountPricesFlat**](PromotionDiscountPricesFlat.md) |  | [optional] 
-**product_exports** | [**\Swagger\Client\Model\ProductExportFlat**](ProductExportFlat.md) |  | [optional] 
+**sales_channel_default_assignments** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**orders** | [**\ShopwareSDK6\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
+**shipping_method_prices** | [**\ShopwareSDK6\Model\ShippingMethodPriceFlat**](ShippingMethodPriceFlat.md) |  | [optional] 
+**sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**sales_channel_domains** | [**\ShopwareSDK6\Model\SalesChannelDomainFlat**](SalesChannelDomainFlat.md) |  | [optional] 
+**promotion_discount_prices** | [**\ShopwareSDK6\Model\PromotionDiscountPricesFlat**](PromotionDiscountPricesFlat.md) |  | [optional] 
+**product_exports** | [**\ShopwareSDK6\Model\ProductExportFlat**](ProductExportFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

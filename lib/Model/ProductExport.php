@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductExport Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductExport extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ProductExportAttributes',
-'links' => '\Swagger\Client\Model\ProductExportLinks',
-'relationships' => '\Swagger\Client\Model\ProductExportRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ProductExportAttributes',
+'links' => '\ShopwareSDK6\Model\ProductExportLinks',
+'relationships' => '\ShopwareSDK6\Model\ProductExportRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductExport extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ProductExportAttributes
+     * @return \ShopwareSDK6\Model\ProductExportAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductExport extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ProductExportAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ProductExportAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductExport extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductExportLinks
+     * @return \ShopwareSDK6\Model\ProductExportLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductExport extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductExportLinks $links links
+     * @param \ShopwareSDK6\Model\ProductExportLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductExport extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ProductExportRelationships
+     * @return \ShopwareSDK6\Model\ProductExportRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductExport extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ProductExportRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ProductExportRelationships $relationships relationships
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomerGroupRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CustomerGroupRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'customers' => '\Swagger\Client\Model\CustomerGroupRelationshipsCustomers',
-'sales_channels' => '\Swagger\Client\Model\CustomerGroupRelationshipsSalesChannels'    ];
+        'customers' => '\ShopwareSDK6\Model\CustomerGroupRelationshipsCustomers',
+'sales_channels' => '\ShopwareSDK6\Model\CustomerGroupRelationshipsSalesChannels'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CustomerGroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \Swagger\Client\Model\CustomerGroupRelationshipsCustomers
+     * @return \ShopwareSDK6\Model\CustomerGroupRelationshipsCustomers
      */
     public function getCustomers()
     {
@@ -215,7 +215,7 @@ class CustomerGroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \Swagger\Client\Model\CustomerGroupRelationshipsCustomers $customers customers
+     * @param \ShopwareSDK6\Model\CustomerGroupRelationshipsCustomers $customers customers
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CustomerGroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\CustomerGroupRelationshipsSalesChannels
+     * @return \ShopwareSDK6\Model\CustomerGroupRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -239,7 +239,7 @@ class CustomerGroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\CustomerGroupRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\CustomerGroupRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */

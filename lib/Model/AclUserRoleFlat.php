@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * AclUserRoleFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,8 +61,8 @@ class AclUserRoleFlat implements ModelInterface, ArrayAccess
 'acl_role_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'user' => '\Swagger\Client\Model\UserFlat',
-'acl_role' => '\Swagger\Client\Model\AclRoleFlat'    ];
+'user' => '\ShopwareSDK6\Model\UserFlat',
+'acl_role' => '\ShopwareSDK6\Model\AclRoleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -367,7 +367,7 @@ class AclUserRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\UserFlat
+     * @return \ShopwareSDK6\Model\UserFlat
      */
     public function getUser()
     {
@@ -377,7 +377,7 @@ class AclUserRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\UserFlat $user user
+     * @param \ShopwareSDK6\Model\UserFlat $user user
      *
      * @return $this
      */
@@ -391,7 +391,7 @@ class AclUserRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets acl_role
      *
-     * @return \Swagger\Client\Model\AclRoleFlat
+     * @return \ShopwareSDK6\Model\AclRoleFlat
      */
     public function getAclRole()
     {
@@ -401,7 +401,7 @@ class AclUserRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets acl_role
      *
-     * @param \Swagger\Client\Model\AclRoleFlat $acl_role acl_role
+     * @param \ShopwareSDK6\Model\AclRoleFlat $acl_role acl_role
      *
      * @return $this
      */

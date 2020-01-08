@@ -11,19 +11,19 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**parent** | [**\Swagger\Client\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
-**locale** | [**\Swagger\Client\Model\LocaleFlat**](LocaleFlat.md) |  | [optional] 
-**translation_code** | [**\Swagger\Client\Model\LocaleFlat**](LocaleFlat.md) |  | [optional] 
-**children** | [**\Swagger\Client\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
-**sales_channels** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**sales_channel_default_assignments** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**sales_channel_domains** | [**\Swagger\Client\Model\SalesChannelDomainFlat**](SalesChannelDomainFlat.md) |  | [optional] 
-**customers** | [**\Swagger\Client\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
-**newsletter_recipients** | [**\Swagger\Client\Model\NewsletterRecipientFlat**](NewsletterRecipientFlat.md) |  | [optional] 
-**orders** | [**\Swagger\Client\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
-**product_search_keywords** | [**\Swagger\Client\Model\ProductSearchKeywordFlat**](ProductSearchKeywordFlat.md) |  | [optional] 
-**product_keyword_dictionaries** | [**\Swagger\Client\Model\ProductKeywordDictionaryFlat**](ProductKeywordDictionaryFlat.md) |  | [optional] 
-**product_reviews** | [**\Swagger\Client\Model\ProductReviewFlat**](ProductReviewFlat.md) |  | [optional] 
+**parent** | [**\ShopwareSDK6\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
+**locale** | [**\ShopwareSDK6\Model\LocaleFlat**](LocaleFlat.md) |  | [optional] 
+**translation_code** | [**\ShopwareSDK6\Model\LocaleFlat**](LocaleFlat.md) |  | [optional] 
+**children** | [**\ShopwareSDK6\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
+**sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**sales_channel_default_assignments** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**sales_channel_domains** | [**\ShopwareSDK6\Model\SalesChannelDomainFlat**](SalesChannelDomainFlat.md) |  | [optional] 
+**customers** | [**\ShopwareSDK6\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
+**newsletter_recipients** | [**\ShopwareSDK6\Model\NewsletterRecipientFlat**](NewsletterRecipientFlat.md) |  | [optional] 
+**orders** | [**\ShopwareSDK6\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
+**product_search_keywords** | [**\ShopwareSDK6\Model\ProductSearchKeywordFlat**](ProductSearchKeywordFlat.md) |  | [optional] 
+**product_keyword_dictionaries** | [**\ShopwareSDK6\Model\ProductKeywordDictionaryFlat**](ProductKeywordDictionaryFlat.md) |  | [optional] 
+**product_reviews** | [**\ShopwareSDK6\Model\ProductReviewFlat**](ProductReviewFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

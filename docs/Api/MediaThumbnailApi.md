@@ -1,4 +1,4 @@
-# Swagger\Client\MediaThumbnailApi
+# ShopwareSDK6\MediaThumbnailApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateMediaThumbnail**](MediaThumbnailApi.md#updatemediathumbnail) | **PATCH** /media-thumbnail/{id} | Partially update information about a Media Thumbnail resource
 
 # **createMediaThumbnail**
-> \Swagger\Client\Model\InlineResponse200123 createMediaThumbnail($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200123 createMediaThumbnail($body, $_response)
 
 Create a new Media Thumbnail resources
 
@@ -22,12 +22,12 @@ Create a new Media Thumbnail resources. All required fields must be provided in 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaThumbnailApi(
+$apiInstance = new ShopwareSDK6\Api\MediaThumbnailApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body80(); // \Swagger\Client\Model\Body80 | 
+$body = new \ShopwareSDK6\Model\Body80(); // \ShopwareSDK6\Model\Body80 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body80**](../Model/Body80.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body80**](../Model/Body80.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
+[**\ShopwareSDK6\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createMediaThumbnail**
-> \Swagger\Client\Model\InlineResponse200123 createMediaThumbnail($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200123 createMediaThumbnail($body, $_response)
 
 Create a new Media Thumbnail resources
 
@@ -73,12 +73,12 @@ Create a new Media Thumbnail resources. All required fields must be provided in 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaThumbnailApi(
+$apiInstance = new ShopwareSDK6\Api\MediaThumbnailApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\MediaThumbnailFlat(); // \Swagger\Client\Model\MediaThumbnailFlat | 
+$body = new \ShopwareSDK6\Model\MediaThumbnailFlat(); // \ShopwareSDK6\Model\MediaThumbnailFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\MediaThumbnailFlat**](../Model/MediaThumbnailFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\MediaThumbnailFlat**](../Model/MediaThumbnailFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
+[**\ShopwareSDK6\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Media Thumbnail resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaThumbnailApi(
+$apiInstance = new ShopwareSDK6\Api\MediaThumbnailApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMediaThumbnail**
-> \Swagger\Client\Model\InlineResponse200123 getMediaThumbnail($id)
+> \ShopwareSDK6\Model\InlineResponse200123 getMediaThumbnail($id)
 
 Detailed information about a Media Thumbnail resource
 
@@ -170,7 +170,7 @@ Detailed information about a Media Thumbnail resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaThumbnailApi(
+$apiInstance = new ShopwareSDK6\Api\MediaThumbnailApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
+[**\ShopwareSDK6\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMediaThumbnailList**
-> \Swagger\Client\Model\InlineResponse200121 getMediaThumbnailList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200121 getMediaThumbnailList($limit, $page, $query)
 
 List with basic information of Media Thumbnail resources
 
@@ -217,7 +217,7 @@ List with basic information of Media Thumbnail resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaThumbnailApi(
+$apiInstance = new ShopwareSDK6\Api\MediaThumbnailApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200121**](../Model/InlineResponse200121.md)
+[**\ShopwareSDK6\Model\InlineResponse200121**](../Model/InlineResponse200121.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMediaThumbnail**
-> \Swagger\Client\Model\InlineResponse200123 updateMediaThumbnail($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200123 updateMediaThumbnail($id, $body, $_response)
 
 Partially update information about a Media Thumbnail resource
 
@@ -268,13 +268,13 @@ Partially update information about a Media Thumbnail resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaThumbnailApi(
+$apiInstance = new ShopwareSDK6\Api\MediaThumbnailApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the media_thumbnail
-$body = new \Swagger\Client\Model\Body81(); // \Swagger\Client\Model\Body81 | Partially update information about a Media Thumbnail resource.
+$body = new \ShopwareSDK6\Model\Body81(); // \ShopwareSDK6\Model\Body81 | Partially update information about a Media Thumbnail resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the media_thumbnail |
- **body** | [**\Swagger\Client\Model\Body81**](../Model/Body81.md)| Partially update information about a Media Thumbnail resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body81**](../Model/Body81.md)| Partially update information about a Media Thumbnail resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
+[**\ShopwareSDK6\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMediaThumbnail**
-> \Swagger\Client\Model\InlineResponse200123 updateMediaThumbnail($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200123 updateMediaThumbnail($id, $body, $_response)
 
 Partially update information about a Media Thumbnail resource
 
@@ -319,13 +319,13 @@ Partially update information about a Media Thumbnail resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaThumbnailApi(
+$apiInstance = new ShopwareSDK6\Api\MediaThumbnailApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the media_thumbnail
-$body = new \Swagger\Client\Model\MediaThumbnailFlat(); // \Swagger\Client\Model\MediaThumbnailFlat | Partially update information about a Media Thumbnail resource.
+$body = new \ShopwareSDK6\Model\MediaThumbnailFlat(); // \ShopwareSDK6\Model\MediaThumbnailFlat | Partially update information about a Media Thumbnail resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the media_thumbnail |
- **body** | [**\Swagger\Client\Model\MediaThumbnailFlat**](../Model/MediaThumbnailFlat.md)| Partially update information about a Media Thumbnail resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\MediaThumbnailFlat**](../Model/MediaThumbnailFlat.md)| Partially update information about a Media Thumbnail resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
+[**\ShopwareSDK6\Model\InlineResponse200123**](../Model/InlineResponse200123.md)
 
 ### Authorization
 

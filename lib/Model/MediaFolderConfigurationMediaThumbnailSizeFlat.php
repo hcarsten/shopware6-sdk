@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaFolderConfigurationMediaThumbnailSizeFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class MediaFolderConfigurationMediaThumbnailSizeFlat implements ModelInterface, 
         'id' => 'string',
 'media_folder_configuration_id' => 'string',
 'media_thumbnail_size_id' => 'string',
-'media_folder_configuration' => '\Swagger\Client\Model\MediaFolderConfigurationFlat',
-'media_thumbnail_size' => '\Swagger\Client\Model\MediaThumbnailSizeFlat'    ];
+'media_folder_configuration' => '\ShopwareSDK6\Model\MediaFolderConfigurationFlat',
+'media_thumbnail_size' => '\ShopwareSDK6\Model\MediaThumbnailSizeFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class MediaFolderConfigurationMediaThumbnailSizeFlat implements ModelInterface, 
     /**
      * Gets media_folder_configuration
      *
-     * @return \Swagger\Client\Model\MediaFolderConfigurationFlat
+     * @return \ShopwareSDK6\Model\MediaFolderConfigurationFlat
      */
     public function getMediaFolderConfiguration()
     {
@@ -311,7 +311,7 @@ class MediaFolderConfigurationMediaThumbnailSizeFlat implements ModelInterface, 
     /**
      * Sets media_folder_configuration
      *
-     * @param \Swagger\Client\Model\MediaFolderConfigurationFlat $media_folder_configuration media_folder_configuration
+     * @param \ShopwareSDK6\Model\MediaFolderConfigurationFlat $media_folder_configuration media_folder_configuration
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class MediaFolderConfigurationMediaThumbnailSizeFlat implements ModelInterface, 
     /**
      * Gets media_thumbnail_size
      *
-     * @return \Swagger\Client\Model\MediaThumbnailSizeFlat
+     * @return \ShopwareSDK6\Model\MediaThumbnailSizeFlat
      */
     public function getMediaThumbnailSize()
     {
@@ -335,7 +335,7 @@ class MediaFolderConfigurationMediaThumbnailSizeFlat implements ModelInterface, 
     /**
      * Sets media_thumbnail_size
      *
-     * @param \Swagger\Client\Model\MediaThumbnailSizeFlat $media_thumbnail_size media_thumbnail_size
+     * @param \ShopwareSDK6\Model\MediaThumbnailSizeFlat $media_thumbnail_size media_thumbnail_size
      *
      * @return $this
      */

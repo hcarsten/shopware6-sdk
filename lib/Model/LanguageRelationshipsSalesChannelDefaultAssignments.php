@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LanguageRelationshipsSalesChannelDefaultAssignments Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LanguageRelationshipsSalesChannelDefaultAssignments implements ModelInterf
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsLinks',
-'data' => '\Swagger\Client\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsLinks',
+'data' => '\ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LanguageRelationshipsSalesChannelDefaultAssignments implements ModelInterf
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsLinks
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class LanguageRelationshipsSalesChannelDefaultAssignments implements ModelInterf
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsLinks $links links
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LanguageRelationshipsSalesChannelDefaultAssignments implements ModelInterf
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsData[]
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class LanguageRelationshipsSalesChannelDefaultAssignments implements ModelInterf
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsData[] $data data
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDefaultAssignmentsData[] $data data
      *
      * @return $this
      */

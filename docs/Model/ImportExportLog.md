@@ -5,9 +5,9 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | [****](.md) |  | [optional] 
 **id** | [****](.md) |  | [optional] 
-**attributes** | [**\Swagger\Client\Model\ImportExportLogAttributes**](ImportExportLogAttributes.md) |  | [optional] 
-**links** | [**\Swagger\Client\Model\ImportExportLogLinks**](ImportExportLogLinks.md) |  | [optional] 
-**relationships** | [**\Swagger\Client\Model\ImportExportLogRelationships**](ImportExportLogRelationships.md) |  | [optional] 
+**attributes** | [**\ShopwareSDK6\Model\ImportExportLogAttributes**](ImportExportLogAttributes.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\ImportExportLogLinks**](ImportExportLogLinks.md) |  | [optional] 
+**relationships** | [**\ShopwareSDK6\Model\ImportExportLogRelationships**](ImportExportLogRelationships.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SeoUrlTemplateRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class SeoUrlTemplateRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sales_channel' => '\Swagger\Client\Model\SeoUrlTemplateRelationshipsSalesChannel'    ];
+        'sales_channel' => '\ShopwareSDK6\Model\SeoUrlTemplateRelationshipsSalesChannel'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class SeoUrlTemplateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\SeoUrlTemplateRelationshipsSalesChannel
+     * @return \ShopwareSDK6\Model\SeoUrlTemplateRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -209,7 +209,7 @@ class SeoUrlTemplateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\SeoUrlTemplateRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\SeoUrlTemplateRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */

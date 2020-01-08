@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LocaleFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,8 +64,8 @@ class LocaleFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'languages' => '\Swagger\Client\Model\LanguageFlat',
-'users' => '\Swagger\Client\Model\UserFlat'    ];
+'languages' => '\ShopwareSDK6\Model\LanguageFlat',
+'users' => '\ShopwareSDK6\Model\UserFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -460,7 +460,7 @@ class LocaleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets languages
      *
-     * @return \Swagger\Client\Model\LanguageFlat
+     * @return \ShopwareSDK6\Model\LanguageFlat
      */
     public function getLanguages()
     {
@@ -470,7 +470,7 @@ class LocaleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets languages
      *
-     * @param \Swagger\Client\Model\LanguageFlat $languages languages
+     * @param \ShopwareSDK6\Model\LanguageFlat $languages languages
      *
      * @return $this
      */
@@ -484,7 +484,7 @@ class LocaleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets users
      *
-     * @return \Swagger\Client\Model\UserFlat
+     * @return \ShopwareSDK6\Model\UserFlat
      */
     public function getUsers()
     {
@@ -494,7 +494,7 @@ class LocaleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets users
      *
-     * @param \Swagger\Client\Model\UserFlat $users users
+     * @param \ShopwareSDK6\Model\UserFlat $users users
      *
      * @return $this
      */

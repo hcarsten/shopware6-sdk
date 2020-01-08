@@ -1,4 +1,4 @@
-# Swagger\Client\CustomerGroupApi
+# ShopwareSDK6\CustomerGroupApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCustomerGroup**](CustomerGroupApi.md#updatecustomergroup) | **PATCH** /customer-group/{id} | Partially update information about a Customer Group resource
 
 # **createCustomerGroup**
-> \Swagger\Client\Model\InlineResponse20048 createCustomerGroup($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20048 createCustomerGroup($body, $_response)
 
 Create a new Customer Group resources
 
@@ -22,12 +22,12 @@ Create a new Customer Group resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerGroupApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerGroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body30(); // \Swagger\Client\Model\Body30 | 
+$body = new \ShopwareSDK6\Model\Body30(); // \ShopwareSDK6\Model\Body30 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body30**](../Model/Body30.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body30**](../Model/Body30.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
+[**\ShopwareSDK6\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCustomerGroup**
-> \Swagger\Client\Model\InlineResponse20048 createCustomerGroup($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20048 createCustomerGroup($body, $_response)
 
 Create a new Customer Group resources
 
@@ -73,12 +73,12 @@ Create a new Customer Group resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerGroupApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerGroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\CustomerGroupFlat(); // \Swagger\Client\Model\CustomerGroupFlat | 
+$body = new \ShopwareSDK6\Model\CustomerGroupFlat(); // \ShopwareSDK6\Model\CustomerGroupFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\CustomerGroupFlat**](../Model/CustomerGroupFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\CustomerGroupFlat**](../Model/CustomerGroupFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
+[**\ShopwareSDK6\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Customer Group resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerGroupApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerGroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCustomerGroup**
-> \Swagger\Client\Model\InlineResponse20048 getCustomerGroup($id)
+> \ShopwareSDK6\Model\InlineResponse20048 getCustomerGroup($id)
 
 Detailed information about a Customer Group resource
 
@@ -170,7 +170,7 @@ Detailed information about a Customer Group resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerGroupApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerGroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
+[**\ShopwareSDK6\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCustomerGroupList**
-> \Swagger\Client\Model\InlineResponse20046 getCustomerGroupList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20046 getCustomerGroupList($limit, $page, $query)
 
 List with basic information of Customer Group resources
 
@@ -217,7 +217,7 @@ List with basic information of Customer Group resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerGroupApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerGroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20046**](../Model/InlineResponse20046.md)
+[**\ShopwareSDK6\Model\InlineResponse20046**](../Model/InlineResponse20046.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCustomerGroup**
-> \Swagger\Client\Model\InlineResponse20048 updateCustomerGroup($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20048 updateCustomerGroup($id, $body, $_response)
 
 Partially update information about a Customer Group resource
 
@@ -268,13 +268,13 @@ Partially update information about a Customer Group resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerGroupApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerGroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the customer_group
-$body = new \Swagger\Client\Model\Body31(); // \Swagger\Client\Model\Body31 | Partially update information about a Customer Group resource.
+$body = new \ShopwareSDK6\Model\Body31(); // \ShopwareSDK6\Model\Body31 | Partially update information about a Customer Group resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the customer_group |
- **body** | [**\Swagger\Client\Model\Body31**](../Model/Body31.md)| Partially update information about a Customer Group resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body31**](../Model/Body31.md)| Partially update information about a Customer Group resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
+[**\ShopwareSDK6\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCustomerGroup**
-> \Swagger\Client\Model\InlineResponse20048 updateCustomerGroup($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20048 updateCustomerGroup($id, $body, $_response)
 
 Partially update information about a Customer Group resource
 
@@ -319,13 +319,13 @@ Partially update information about a Customer Group resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerGroupApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerGroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the customer_group
-$body = new \Swagger\Client\Model\CustomerGroupFlat(); // \Swagger\Client\Model\CustomerGroupFlat | Partially update information about a Customer Group resource.
+$body = new \ShopwareSDK6\Model\CustomerGroupFlat(); // \ShopwareSDK6\Model\CustomerGroupFlat | Partially update information about a Customer Group resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the customer_group |
- **body** | [**\Swagger\Client\Model\CustomerGroupFlat**](../Model/CustomerGroupFlat.md)| Partially update information about a Customer Group resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\CustomerGroupFlat**](../Model/CustomerGroupFlat.md)| Partially update information about a Customer Group resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
+[**\ShopwareSDK6\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
 
 ### Authorization
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * InlineResponse2003 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -54,7 +54,7 @@ class InlineResponse2003 extends Success
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\AclResource'    ];
+        'data' => '\ShopwareSDK6\Model\AclResource'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -193,7 +193,7 @@ class InlineResponse2003 extends Success
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\AclResource
+     * @return \ShopwareSDK6\Model\AclResource
      */
     public function getData()
     {
@@ -203,7 +203,7 @@ class InlineResponse2003 extends Success
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\AclResource $data data
+     * @param \ShopwareSDK6\Model\AclResource $data data
      *
      * @return $this
      */

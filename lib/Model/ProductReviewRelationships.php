@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductReviewRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class ProductReviewRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\Swagger\Client\Model\ProductReviewRelationshipsProduct',
-'customer' => '\Swagger\Client\Model\ProductReviewRelationshipsCustomer',
-'sales_channel' => '\Swagger\Client\Model\ProductReviewRelationshipsSalesChannel',
-'language' => '\Swagger\Client\Model\ProductReviewRelationshipsLanguage'    ];
+        'product' => '\ShopwareSDK6\Model\ProductReviewRelationshipsProduct',
+'customer' => '\ShopwareSDK6\Model\ProductReviewRelationshipsCustomer',
+'sales_channel' => '\ShopwareSDK6\Model\ProductReviewRelationshipsSalesChannel',
+'language' => '\ShopwareSDK6\Model\ProductReviewRelationshipsLanguage'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -217,7 +217,7 @@ class ProductReviewRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\ProductReviewRelationshipsProduct
+     * @return \ShopwareSDK6\Model\ProductReviewRelationshipsProduct
      */
     public function getProduct()
     {
@@ -227,7 +227,7 @@ class ProductReviewRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\ProductReviewRelationshipsProduct $product product
+     * @param \ShopwareSDK6\Model\ProductReviewRelationshipsProduct $product product
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class ProductReviewRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \Swagger\Client\Model\ProductReviewRelationshipsCustomer
+     * @return \ShopwareSDK6\Model\ProductReviewRelationshipsCustomer
      */
     public function getCustomer()
     {
@@ -251,7 +251,7 @@ class ProductReviewRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \Swagger\Client\Model\ProductReviewRelationshipsCustomer $customer customer
+     * @param \ShopwareSDK6\Model\ProductReviewRelationshipsCustomer $customer customer
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class ProductReviewRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\ProductReviewRelationshipsSalesChannel
+     * @return \ShopwareSDK6\Model\ProductReviewRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -275,7 +275,7 @@ class ProductReviewRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\ProductReviewRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\ProductReviewRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductReviewRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\ProductReviewRelationshipsLanguage
+     * @return \ShopwareSDK6\Model\ProductReviewRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -299,7 +299,7 @@ class ProductReviewRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\ProductReviewRelationshipsLanguage $language language
+     * @param \ShopwareSDK6\Model\ProductReviewRelationshipsLanguage $language language
      *
      * @return $this
      */

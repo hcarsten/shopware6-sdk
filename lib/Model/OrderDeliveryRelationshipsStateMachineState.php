@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderDeliveryRelationshipsStateMachineState Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class OrderDeliveryRelationshipsStateMachineState implements ModelInterface, Arr
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\OrderDeliveryRelationshipsStateMachineStateLinks',
-'data' => '\Swagger\Client\Model\OrderRelationshipsStateMachineStateData'    ];
+        'links' => '\ShopwareSDK6\Model\OrderDeliveryRelationshipsStateMachineStateLinks',
+'data' => '\ShopwareSDK6\Model\OrderRelationshipsStateMachineStateData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class OrderDeliveryRelationshipsStateMachineState implements ModelInterface, Arr
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderDeliveryRelationshipsStateMachineStateLinks
+     * @return \ShopwareSDK6\Model\OrderDeliveryRelationshipsStateMachineStateLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class OrderDeliveryRelationshipsStateMachineState implements ModelInterface, Arr
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderDeliveryRelationshipsStateMachineStateLinks $links links
+     * @param \ShopwareSDK6\Model\OrderDeliveryRelationshipsStateMachineStateLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class OrderDeliveryRelationshipsStateMachineState implements ModelInterface, Arr
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\OrderRelationshipsStateMachineStateData
+     * @return \ShopwareSDK6\Model\OrderRelationshipsStateMachineStateData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class OrderDeliveryRelationshipsStateMachineState implements ModelInterface, Arr
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\OrderRelationshipsStateMachineStateData $data data
+     * @param \ShopwareSDK6\Model\OrderRelationshipsStateMachineStateData $data data
      *
      * @return $this
      */

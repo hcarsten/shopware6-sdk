@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**folder** | [**\Swagger\Client\Model\MediaFolderFlat**](MediaFolderFlat.md) |  | [optional] 
+**folder** | [**\ShopwareSDK6\Model\MediaFolderFlat**](MediaFolderFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

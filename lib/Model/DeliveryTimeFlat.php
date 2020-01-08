@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DeliveryTimeFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,8 +65,8 @@ class DeliveryTimeFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'shipping_methods' => '\Swagger\Client\Model\ShippingMethodFlat',
-'products' => '\Swagger\Client\Model\ProductFlat'    ];
+'shipping_methods' => '\ShopwareSDK6\Model\ShippingMethodFlat',
+'products' => '\ShopwareSDK6\Model\ProductFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -493,7 +493,7 @@ class DeliveryTimeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \Swagger\Client\Model\ShippingMethodFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodFlat
      */
     public function getShippingMethods()
     {
@@ -503,7 +503,7 @@ class DeliveryTimeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \Swagger\Client\Model\ShippingMethodFlat $shipping_methods shipping_methods
+     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -517,7 +517,7 @@ class DeliveryTimeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \Swagger\Client\Model\ProductFlat
+     * @return \ShopwareSDK6\Model\ProductFlat
      */
     public function getProducts()
     {
@@ -527,7 +527,7 @@ class DeliveryTimeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \Swagger\Client\Model\ProductFlat $products products
+     * @param \ShopwareSDK6\Model\ProductFlat $products products
      *
      * @return $this
      */

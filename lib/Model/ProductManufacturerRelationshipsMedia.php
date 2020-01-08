@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductManufacturerRelationshipsMedia Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductManufacturerRelationshipsMedia implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ProductManufacturerRelationshipsMediaLinks',
-'data' => '\Swagger\Client\Model\CategoryRelationshipsMediaData'    ];
+        'links' => '\ShopwareSDK6\Model\ProductManufacturerRelationshipsMediaLinks',
+'data' => '\ShopwareSDK6\Model\CategoryRelationshipsMediaData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductManufacturerRelationshipsMedia implements ModelInterface, ArrayAcce
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductManufacturerRelationshipsMediaLinks
+     * @return \ShopwareSDK6\Model\ProductManufacturerRelationshipsMediaLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ProductManufacturerRelationshipsMedia implements ModelInterface, ArrayAcce
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductManufacturerRelationshipsMediaLinks $links links
+     * @param \ShopwareSDK6\Model\ProductManufacturerRelationshipsMediaLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductManufacturerRelationshipsMedia implements ModelInterface, ArrayAcce
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CategoryRelationshipsMediaData
+     * @return \ShopwareSDK6\Model\CategoryRelationshipsMediaData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ProductManufacturerRelationshipsMedia implements ModelInterface, ArrayAcce
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CategoryRelationshipsMediaData $data data
+     * @param \ShopwareSDK6\Model\CategoryRelationshipsMediaData $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * StateMachineTransitionRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'state_machine' => '\Swagger\Client\Model\StateMachineTransitionRelationshipsStateMachine',
-'from_state_machine_state' => '\Swagger\Client\Model\StateMachineTransitionRelationshipsFromStateMachineState',
-'to_state_machine_state' => '\Swagger\Client\Model\StateMachineTransitionRelationshipsToStateMachineState'    ];
+        'state_machine' => '\ShopwareSDK6\Model\StateMachineTransitionRelationshipsStateMachine',
+'from_state_machine_state' => '\ShopwareSDK6\Model\StateMachineTransitionRelationshipsFromStateMachineState',
+'to_state_machine_state' => '\ShopwareSDK6\Model\StateMachineTransitionRelationshipsToStateMachineState'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine
      *
-     * @return \Swagger\Client\Model\StateMachineTransitionRelationshipsStateMachine
+     * @return \ShopwareSDK6\Model\StateMachineTransitionRelationshipsStateMachine
      */
     public function getStateMachine()
     {
@@ -221,7 +221,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine
      *
-     * @param \Swagger\Client\Model\StateMachineTransitionRelationshipsStateMachine $state_machine state_machine
+     * @param \ShopwareSDK6\Model\StateMachineTransitionRelationshipsStateMachine $state_machine state_machine
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets from_state_machine_state
      *
-     * @return \Swagger\Client\Model\StateMachineTransitionRelationshipsFromStateMachineState
+     * @return \ShopwareSDK6\Model\StateMachineTransitionRelationshipsFromStateMachineState
      */
     public function getFromStateMachineState()
     {
@@ -245,7 +245,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets from_state_machine_state
      *
-     * @param \Swagger\Client\Model\StateMachineTransitionRelationshipsFromStateMachineState $from_state_machine_state from_state_machine_state
+     * @param \ShopwareSDK6\Model\StateMachineTransitionRelationshipsFromStateMachineState $from_state_machine_state from_state_machine_state
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets to_state_machine_state
      *
-     * @return \Swagger\Client\Model\StateMachineTransitionRelationshipsToStateMachineState
+     * @return \ShopwareSDK6\Model\StateMachineTransitionRelationshipsToStateMachineState
      */
     public function getToStateMachineState()
     {
@@ -269,7 +269,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets to_state_machine_state
      *
-     * @param \Swagger\Client\Model\StateMachineTransitionRelationshipsToStateMachineState $to_state_machine_state to_state_machine_state
+     * @param \ShopwareSDK6\Model\StateMachineTransitionRelationshipsToStateMachineState $to_state_machine_state to_state_machine_state
      *
      * @return $this
      */

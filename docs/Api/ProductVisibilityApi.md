@@ -1,4 +1,4 @@
-# Swagger\Client\ProductVisibilityApi
+# ShopwareSDK6\ProductVisibilityApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProductVisibility**](ProductVisibilityApi.md#updateproductvisibility) | **PATCH** /product-visibility/{id} | Partially update information about a Product Visibility resource
 
 # **createProductVisibility**
-> \Swagger\Client\Model\InlineResponse200210 createProductVisibility($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200210 createProductVisibility($body, $_response)
 
 Create a new Product Visibility resources
 
@@ -22,12 +22,12 @@ Create a new Product Visibility resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductVisibilityApi(
+$apiInstance = new ShopwareSDK6\Api\ProductVisibilityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body138(); // \Swagger\Client\Model\Body138 | 
+$body = new \ShopwareSDK6\Model\Body138(); // \ShopwareSDK6\Model\Body138 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body138**](../Model/Body138.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body138**](../Model/Body138.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
+[**\ShopwareSDK6\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProductVisibility**
-> \Swagger\Client\Model\InlineResponse200210 createProductVisibility($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200210 createProductVisibility($body, $_response)
 
 Create a new Product Visibility resources
 
@@ -73,12 +73,12 @@ Create a new Product Visibility resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductVisibilityApi(
+$apiInstance = new ShopwareSDK6\Api\ProductVisibilityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\ProductVisibilityFlat(); // \Swagger\Client\Model\ProductVisibilityFlat | 
+$body = new \ShopwareSDK6\Model\ProductVisibilityFlat(); // \ShopwareSDK6\Model\ProductVisibilityFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ProductVisibilityFlat**](../Model/ProductVisibilityFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductVisibilityFlat**](../Model/ProductVisibilityFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
+[**\ShopwareSDK6\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product Visibility resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductVisibilityApi(
+$apiInstance = new ShopwareSDK6\Api\ProductVisibilityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductVisibility**
-> \Swagger\Client\Model\InlineResponse200210 getProductVisibility($id)
+> \ShopwareSDK6\Model\InlineResponse200210 getProductVisibility($id)
 
 Detailed information about a Product Visibility resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product Visibility resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductVisibilityApi(
+$apiInstance = new ShopwareSDK6\Api\ProductVisibilityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
+[**\ShopwareSDK6\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductVisibilityList**
-> \Swagger\Client\Model\InlineResponse200208 getProductVisibilityList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200208 getProductVisibilityList($limit, $page, $query)
 
 List with basic information of Product Visibility resources
 
@@ -217,7 +217,7 @@ List with basic information of Product Visibility resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductVisibilityApi(
+$apiInstance = new ShopwareSDK6\Api\ProductVisibilityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200208**](../Model/InlineResponse200208.md)
+[**\ShopwareSDK6\Model\InlineResponse200208**](../Model/InlineResponse200208.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductVisibility**
-> \Swagger\Client\Model\InlineResponse200210 updateProductVisibility($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200210 updateProductVisibility($id, $body, $_response)
 
 Partially update information about a Product Visibility resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product Visibility resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductVisibilityApi(
+$apiInstance = new ShopwareSDK6\Api\ProductVisibilityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_visibility
-$body = new \Swagger\Client\Model\Body139(); // \Swagger\Client\Model\Body139 | Partially update information about a Product Visibility resource.
+$body = new \ShopwareSDK6\Model\Body139(); // \ShopwareSDK6\Model\Body139 | Partially update information about a Product Visibility resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_visibility |
- **body** | [**\Swagger\Client\Model\Body139**](../Model/Body139.md)| Partially update information about a Product Visibility resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body139**](../Model/Body139.md)| Partially update information about a Product Visibility resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
+[**\ShopwareSDK6\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductVisibility**
-> \Swagger\Client\Model\InlineResponse200210 updateProductVisibility($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200210 updateProductVisibility($id, $body, $_response)
 
 Partially update information about a Product Visibility resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product Visibility resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductVisibilityApi(
+$apiInstance = new ShopwareSDK6\Api\ProductVisibilityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_visibility
-$body = new \Swagger\Client\Model\ProductVisibilityFlat(); // \Swagger\Client\Model\ProductVisibilityFlat | Partially update information about a Product Visibility resource.
+$body = new \ShopwareSDK6\Model\ProductVisibilityFlat(); // \ShopwareSDK6\Model\ProductVisibilityFlat | Partially update information about a Product Visibility resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_visibility |
- **body** | [**\Swagger\Client\Model\ProductVisibilityFlat**](../Model/ProductVisibilityFlat.md)| Partially update information about a Product Visibility resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductVisibilityFlat**](../Model/ProductVisibilityFlat.md)| Partially update information about a Product Visibility resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
+[**\ShopwareSDK6\Model\InlineResponse200210**](../Model/InlineResponse200210.md)
 
 ### Authorization
 

@@ -1,4 +1,4 @@
-# Swagger\Client\SystemConfigApi
+# ShopwareSDK6\SystemConfigApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateSystemConfig**](SystemConfigApi.md#updatesystemconfig) | **PATCH** /system-config/{id} | Partially update information about a System Config resource
 
 # **createSystemConfig**
-> \Swagger\Client\Model\InlineResponse200288 createSystemConfig($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200288 createSystemConfig($body, $_response)
 
 Create a new System Config resources
 
@@ -22,12 +22,12 @@ Create a new System Config resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SystemConfigApi(
+$apiInstance = new ShopwareSDK6\Api\SystemConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body190(); // \Swagger\Client\Model\Body190 | 
+$body = new \ShopwareSDK6\Model\Body190(); // \ShopwareSDK6\Model\Body190 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body190**](../Model/Body190.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body190**](../Model/Body190.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
+[**\ShopwareSDK6\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createSystemConfig**
-> \Swagger\Client\Model\InlineResponse200288 createSystemConfig($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200288 createSystemConfig($body, $_response)
 
 Create a new System Config resources
 
@@ -73,12 +73,12 @@ Create a new System Config resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SystemConfigApi(
+$apiInstance = new ShopwareSDK6\Api\SystemConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\SystemConfigFlat(); // \Swagger\Client\Model\SystemConfigFlat | 
+$body = new \ShopwareSDK6\Model\SystemConfigFlat(); // \ShopwareSDK6\Model\SystemConfigFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\SystemConfigFlat**](../Model/SystemConfigFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\SystemConfigFlat**](../Model/SystemConfigFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
+[**\ShopwareSDK6\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a System Config resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SystemConfigApi(
+$apiInstance = new ShopwareSDK6\Api\SystemConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSystemConfig**
-> \Swagger\Client\Model\InlineResponse200288 getSystemConfig($id)
+> \ShopwareSDK6\Model\InlineResponse200288 getSystemConfig($id)
 
 Detailed information about a System Config resource
 
@@ -170,7 +170,7 @@ Detailed information about a System Config resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SystemConfigApi(
+$apiInstance = new ShopwareSDK6\Api\SystemConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
+[**\ShopwareSDK6\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSystemConfigList**
-> \Swagger\Client\Model\InlineResponse200286 getSystemConfigList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200286 getSystemConfigList($limit, $page, $query)
 
 List with basic information of System Config resources
 
@@ -217,7 +217,7 @@ List with basic information of System Config resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SystemConfigApi(
+$apiInstance = new ShopwareSDK6\Api\SystemConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200286**](../Model/InlineResponse200286.md)
+[**\ShopwareSDK6\Model\InlineResponse200286**](../Model/InlineResponse200286.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSystemConfig**
-> \Swagger\Client\Model\InlineResponse200288 updateSystemConfig($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200288 updateSystemConfig($id, $body, $_response)
 
 Partially update information about a System Config resource
 
@@ -268,13 +268,13 @@ Partially update information about a System Config resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SystemConfigApi(
+$apiInstance = new ShopwareSDK6\Api\SystemConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the system_config
-$body = new \Swagger\Client\Model\Body191(); // \Swagger\Client\Model\Body191 | Partially update information about a System Config resource.
+$body = new \ShopwareSDK6\Model\Body191(); // \ShopwareSDK6\Model\Body191 | Partially update information about a System Config resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the system_config |
- **body** | [**\Swagger\Client\Model\Body191**](../Model/Body191.md)| Partially update information about a System Config resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body191**](../Model/Body191.md)| Partially update information about a System Config resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
+[**\ShopwareSDK6\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSystemConfig**
-> \Swagger\Client\Model\InlineResponse200288 updateSystemConfig($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200288 updateSystemConfig($id, $body, $_response)
 
 Partially update information about a System Config resource
 
@@ -319,13 +319,13 @@ Partially update information about a System Config resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SystemConfigApi(
+$apiInstance = new ShopwareSDK6\Api\SystemConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the system_config
-$body = new \Swagger\Client\Model\SystemConfigFlat(); // \Swagger\Client\Model\SystemConfigFlat | Partially update information about a System Config resource.
+$body = new \ShopwareSDK6\Model\SystemConfigFlat(); // \ShopwareSDK6\Model\SystemConfigFlat | Partially update information about a System Config resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the system_config |
- **body** | [**\Swagger\Client\Model\SystemConfigFlat**](../Model/SystemConfigFlat.md)| Partially update information about a System Config resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\SystemConfigFlat**](../Model/SystemConfigFlat.md)| Partially update information about a System Config resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
+[**\ShopwareSDK6\Model\InlineResponse200288**](../Model/InlineResponse200288.md)
 
 ### Authorization
 

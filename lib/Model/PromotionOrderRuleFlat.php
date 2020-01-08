@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionOrderRuleFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class PromotionOrderRuleFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'promotion_id' => 'string',
 'rule_id' => 'string',
-'promotion' => '\Swagger\Client\Model\PromotionFlat',
-'rule' => '\Swagger\Client\Model\RuleFlat'    ];
+'promotion' => '\ShopwareSDK6\Model\PromotionFlat',
+'rule' => '\ShopwareSDK6\Model\RuleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class PromotionOrderRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion
      *
-     * @return \Swagger\Client\Model\PromotionFlat
+     * @return \ShopwareSDK6\Model\PromotionFlat
      */
     public function getPromotion()
     {
@@ -311,7 +311,7 @@ class PromotionOrderRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion
      *
-     * @param \Swagger\Client\Model\PromotionFlat $promotion promotion
+     * @param \ShopwareSDK6\Model\PromotionFlat $promotion promotion
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class PromotionOrderRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets rule
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getRule()
     {
@@ -335,7 +335,7 @@ class PromotionOrderRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets rule
      *
-     * @param \Swagger\Client\Model\RuleFlat $rule rule
+     * @param \ShopwareSDK6\Model\RuleFlat $rule rule
      *
      * @return $this
      */

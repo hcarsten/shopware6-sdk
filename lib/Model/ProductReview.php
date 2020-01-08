@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductReview Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductReview extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ProductReviewAttributes',
-'links' => '\Swagger\Client\Model\ProductReviewLinks',
-'relationships' => '\Swagger\Client\Model\ProductReviewRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ProductReviewAttributes',
+'links' => '\ShopwareSDK6\Model\ProductReviewLinks',
+'relationships' => '\ShopwareSDK6\Model\ProductReviewRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductReview extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ProductReviewAttributes
+     * @return \ShopwareSDK6\Model\ProductReviewAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductReview extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ProductReviewAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ProductReviewAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductReview extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductReviewLinks
+     * @return \ShopwareSDK6\Model\ProductReviewLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductReview extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductReviewLinks $links links
+     * @param \ShopwareSDK6\Model\ProductReviewLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductReview extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ProductReviewRelationships
+     * @return \ShopwareSDK6\Model\ProductReviewRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductReview extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ProductReviewRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ProductReviewRelationships $relationships relationships
      *
      * @return $this
      */

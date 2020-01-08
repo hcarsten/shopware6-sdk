@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\RuleRelationshipsPromotionDiscountsLinks**](RuleRelationshipsPromotionDiscountsLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\RuleRelationshipsPromotionDiscountsData[]**](RuleRelationshipsPromotionDiscountsData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\RuleRelationshipsPromotionDiscountsLinks**](RuleRelationshipsPromotionDiscountsLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\RuleRelationshipsPromotionDiscountsData[]**](RuleRelationshipsPromotionDiscountsData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

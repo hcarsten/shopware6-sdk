@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductCrossSelling Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductCrossSelling extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ProductCrossSellingAttributes',
-'links' => '\Swagger\Client\Model\ProductCrossSellingLinks',
-'relationships' => '\Swagger\Client\Model\ProductCrossSellingRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ProductCrossSellingAttributes',
+'links' => '\ShopwareSDK6\Model\ProductCrossSellingLinks',
+'relationships' => '\ShopwareSDK6\Model\ProductCrossSellingRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductCrossSelling extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ProductCrossSellingAttributes
+     * @return \ShopwareSDK6\Model\ProductCrossSellingAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductCrossSelling extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ProductCrossSellingAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ProductCrossSellingAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductCrossSelling extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductCrossSellingLinks
+     * @return \ShopwareSDK6\Model\ProductCrossSellingLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductCrossSelling extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductCrossSellingLinks $links links
+     * @param \ShopwareSDK6\Model\ProductCrossSellingLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductCrossSelling extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ProductCrossSellingRelationships
+     * @return \ShopwareSDK6\Model\ProductCrossSellingRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductCrossSelling extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ProductCrossSellingRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ProductCrossSellingRelationships $relationships relationships
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ShippingMethodRelationshipsOrderDeliveries Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ShippingMethodRelationshipsOrderDeliveries implements ModelInterface, Arra
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ShippingMethodRelationshipsOrderDeliveriesLinks',
-'data' => '\Swagger\Client\Model\ShippingMethodRelationshipsOrderDeliveriesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsOrderDeliveriesLinks',
+'data' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsOrderDeliveriesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ShippingMethodRelationshipsOrderDeliveries implements ModelInterface, Arra
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsOrderDeliveriesLinks
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsOrderDeliveriesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ShippingMethodRelationshipsOrderDeliveries implements ModelInterface, Arra
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsOrderDeliveriesLinks $links links
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsOrderDeliveriesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ShippingMethodRelationshipsOrderDeliveries implements ModelInterface, Arra
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsOrderDeliveriesData[]
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsOrderDeliveriesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ShippingMethodRelationshipsOrderDeliveries implements ModelInterface, Arra
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsOrderDeliveriesData[] $data data
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsOrderDeliveriesData[] $data data
      *
      * @return $this
      */

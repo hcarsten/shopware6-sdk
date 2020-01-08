@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ImportExportLog Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ImportExportLog extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ImportExportLogAttributes',
-'links' => '\Swagger\Client\Model\ImportExportLogLinks',
-'relationships' => '\Swagger\Client\Model\ImportExportLogRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ImportExportLogAttributes',
+'links' => '\ShopwareSDK6\Model\ImportExportLogLinks',
+'relationships' => '\ShopwareSDK6\Model\ImportExportLogRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ImportExportLog extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ImportExportLogAttributes
+     * @return \ShopwareSDK6\Model\ImportExportLogAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ImportExportLog extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ImportExportLogAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ImportExportLogAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ImportExportLog extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ImportExportLogLinks
+     * @return \ShopwareSDK6\Model\ImportExportLogLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ImportExportLog extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ImportExportLogLinks $links links
+     * @param \ShopwareSDK6\Model\ImportExportLogLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ImportExportLog extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ImportExportLogRelationships
+     * @return \ShopwareSDK6\Model\ImportExportLogRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ImportExportLog extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ImportExportLogRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ImportExportLogRelationships $relationships relationships
      *
      * @return $this
      */

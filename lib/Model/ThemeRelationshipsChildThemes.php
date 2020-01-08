@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ThemeRelationshipsChildThemes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ThemeRelationshipsChildThemes implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ThemeRelationshipsChildThemesLinks',
-'data' => '\Swagger\Client\Model\ThemeRelationshipsChildThemesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\ThemeRelationshipsChildThemesLinks',
+'data' => '\ShopwareSDK6\Model\ThemeRelationshipsChildThemesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ThemeRelationshipsChildThemes implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ThemeRelationshipsChildThemesLinks
+     * @return \ShopwareSDK6\Model\ThemeRelationshipsChildThemesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ThemeRelationshipsChildThemes implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ThemeRelationshipsChildThemesLinks $links links
+     * @param \ShopwareSDK6\Model\ThemeRelationshipsChildThemesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ThemeRelationshipsChildThemes implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ThemeRelationshipsChildThemesData[]
+     * @return \ShopwareSDK6\Model\ThemeRelationshipsChildThemesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ThemeRelationshipsChildThemes implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ThemeRelationshipsChildThemesData[] $data data
+     * @param \ShopwareSDK6\Model\ThemeRelationshipsChildThemesData[] $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderTransactionAttributes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class OrderTransactionAttributes implements ModelInterface, ArrayAccess
 'order_id' => 'string',
 'order_version_id' => 'string',
 'payment_method_id' => 'string',
-'amount' => '\Swagger\Client\Model\OrderAttributesShippingCosts',
+'amount' => '\ShopwareSDK6\Model\OrderAttributesShippingCosts',
 'state_id' => 'string',
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
@@ -361,7 +361,7 @@ class OrderTransactionAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets amount
      *
-     * @return \Swagger\Client\Model\OrderAttributesShippingCosts
+     * @return \ShopwareSDK6\Model\OrderAttributesShippingCosts
      */
     public function getAmount()
     {
@@ -371,7 +371,7 @@ class OrderTransactionAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets amount
      *
-     * @param \Swagger\Client\Model\OrderAttributesShippingCosts $amount amount
+     * @param \ShopwareSDK6\Model\OrderAttributesShippingCosts $amount amount
      *
      * @return $this
      */

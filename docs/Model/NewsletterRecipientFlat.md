@@ -20,10 +20,10 @@ Name | Type | Description | Notes
 **sales_channel_id** | **string** |  | 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**tags** | [**\Swagger\Client\Model\TagFlat**](TagFlat.md) |  | [optional] 
-**salutation** | [**\Swagger\Client\Model\SalutationFlat**](SalutationFlat.md) |  | [optional] 
-**language** | [**\Swagger\Client\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
-**sales_channel** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**tags** | [**\ShopwareSDK6\Model\TagFlat**](TagFlat.md) |  | [optional] 
+**salutation** | [**\ShopwareSDK6\Model\SalutationFlat**](SalutationFlat.md) |  | [optional] 
+**language** | [**\ShopwareSDK6\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
+**sales_channel** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

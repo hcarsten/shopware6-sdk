@@ -15,10 +15,10 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**shipping_method** | [**\Swagger\Client\Model\ShippingMethodFlat**](ShippingMethodFlat.md) |  | [optional] 
-**currency** | [**\Swagger\Client\Model\CurrencyFlat**](CurrencyFlat.md) |  | [optional] 
-**rule** | [**\Swagger\Client\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
-**calculation_rule** | [**\Swagger\Client\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
+**shipping_method** | [**\ShopwareSDK6\Model\ShippingMethodFlat**](ShippingMethodFlat.md) |  | [optional] 
+**currency** | [**\ShopwareSDK6\Model\CurrencyFlat**](CurrencyFlat.md) |  | [optional] 
+**rule** | [**\ShopwareSDK6\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
+**calculation_rule** | [**\ShopwareSDK6\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

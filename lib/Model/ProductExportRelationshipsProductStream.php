@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductExportRelationshipsProductStream Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductExportRelationshipsProductStream implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ProductExportRelationshipsProductStreamLinks',
-'data' => '\Swagger\Client\Model\ProductCrossSellingRelationshipsProductStreamData'    ];
+        'links' => '\ShopwareSDK6\Model\ProductExportRelationshipsProductStreamLinks',
+'data' => '\ShopwareSDK6\Model\ProductCrossSellingRelationshipsProductStreamData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductExportRelationshipsProductStream implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductExportRelationshipsProductStreamLinks
+     * @return \ShopwareSDK6\Model\ProductExportRelationshipsProductStreamLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ProductExportRelationshipsProductStream implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductExportRelationshipsProductStreamLinks $links links
+     * @param \ShopwareSDK6\Model\ProductExportRelationshipsProductStreamLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductExportRelationshipsProductStream implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ProductCrossSellingRelationshipsProductStreamData
+     * @return \ShopwareSDK6\Model\ProductCrossSellingRelationshipsProductStreamData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ProductExportRelationshipsProductStream implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ProductCrossSellingRelationshipsProductStreamData $data data
+     * @param \ShopwareSDK6\Model\ProductCrossSellingRelationshipsProductStreamData $data data
      *
      * @return $this
      */

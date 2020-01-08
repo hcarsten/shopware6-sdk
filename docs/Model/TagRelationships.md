@@ -3,13 +3,13 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**products** | [**\Swagger\Client\Model\TagRelationshipsProducts**](TagRelationshipsProducts.md) |  | [optional] 
-**media** | [**\Swagger\Client\Model\TagRelationshipsMedia**](TagRelationshipsMedia.md) |  | [optional] 
-**categories** | [**\Swagger\Client\Model\TagRelationshipsCategories**](TagRelationshipsCategories.md) |  | [optional] 
-**customers** | [**\Swagger\Client\Model\TagRelationshipsCustomers**](TagRelationshipsCustomers.md) |  | [optional] 
-**orders** | [**\Swagger\Client\Model\TagRelationshipsOrders**](TagRelationshipsOrders.md) |  | [optional] 
-**shipping_methods** | [**\Swagger\Client\Model\TagRelationshipsShippingMethods**](TagRelationshipsShippingMethods.md) |  | [optional] 
-**newsletter_recipients** | [**\Swagger\Client\Model\TagRelationshipsNewsletterRecipients**](TagRelationshipsNewsletterRecipients.md) |  | [optional] 
+**products** | [**\ShopwareSDK6\Model\TagRelationshipsProducts**](TagRelationshipsProducts.md) |  | [optional] 
+**media** | [**\ShopwareSDK6\Model\TagRelationshipsMedia**](TagRelationshipsMedia.md) |  | [optional] 
+**categories** | [**\ShopwareSDK6\Model\TagRelationshipsCategories**](TagRelationshipsCategories.md) |  | [optional] 
+**customers** | [**\ShopwareSDK6\Model\TagRelationshipsCustomers**](TagRelationshipsCustomers.md) |  | [optional] 
+**orders** | [**\ShopwareSDK6\Model\TagRelationshipsOrders**](TagRelationshipsOrders.md) |  | [optional] 
+**shipping_methods** | [**\ShopwareSDK6\Model\TagRelationshipsShippingMethods**](TagRelationshipsShippingMethods.md) |  | [optional] 
+**newsletter_recipients** | [**\ShopwareSDK6\Model\TagRelationshipsNewsletterRecipients**](TagRelationshipsNewsletterRecipients.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Rule Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Rule extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\RuleAttributes',
-'links' => '\Swagger\Client\Model\RuleLinks',
-'relationships' => '\Swagger\Client\Model\RuleRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\RuleAttributes',
+'links' => '\ShopwareSDK6\Model\RuleLinks',
+'relationships' => '\ShopwareSDK6\Model\RuleRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Rule extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\RuleAttributes
+     * @return \ShopwareSDK6\Model\RuleAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Rule extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\RuleAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\RuleAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Rule extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\RuleLinks
+     * @return \ShopwareSDK6\Model\RuleLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Rule extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\RuleLinks $links links
+     * @param \ShopwareSDK6\Model\RuleLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Rule extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\RuleRelationships
+     * @return \ShopwareSDK6\Model\RuleRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Rule extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\RuleRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\RuleRelationships $relationships relationships
      *
      * @return $this
      */

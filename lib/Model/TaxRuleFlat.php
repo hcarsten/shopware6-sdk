@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * TaxRuleFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,13 +60,13 @@ class TaxRuleFlat implements ModelInterface, ArrayAccess
 'tax_rule_type_id' => 'string',
 'country_id' => 'string',
 'tax_rate' => 'float',
-'data' => '\Swagger\Client\Model\TaxRuleAttributesData',
+'data' => '\ShopwareSDK6\Model\TaxRuleAttributesData',
 'tax_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'type' => '\Swagger\Client\Model\TaxRuleTypeFlat',
-'country' => '\Swagger\Client\Model\CountryFlat',
-'tax' => '\Swagger\Client\Model\TaxFlat'    ];
+'type' => '\ShopwareSDK6\Model\TaxRuleTypeFlat',
+'country' => '\ShopwareSDK6\Model\CountryFlat',
+'tax' => '\ShopwareSDK6\Model\TaxFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -373,7 +373,7 @@ class TaxRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\TaxRuleAttributesData
+     * @return \ShopwareSDK6\Model\TaxRuleAttributesData
      */
     public function getData()
     {
@@ -383,7 +383,7 @@ class TaxRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\TaxRuleAttributesData $data data
+     * @param \ShopwareSDK6\Model\TaxRuleAttributesData $data data
      *
      * @return $this
      */
@@ -469,7 +469,7 @@ class TaxRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets type
      *
-     * @return \Swagger\Client\Model\TaxRuleTypeFlat
+     * @return \ShopwareSDK6\Model\TaxRuleTypeFlat
      */
     public function getType()
     {
@@ -479,7 +479,7 @@ class TaxRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets type
      *
-     * @param \Swagger\Client\Model\TaxRuleTypeFlat $type type
+     * @param \ShopwareSDK6\Model\TaxRuleTypeFlat $type type
      *
      * @return $this
      */
@@ -493,7 +493,7 @@ class TaxRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\CountryFlat
+     * @return \ShopwareSDK6\Model\CountryFlat
      */
     public function getCountry()
     {
@@ -503,7 +503,7 @@ class TaxRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\CountryFlat $country country
+     * @param \ShopwareSDK6\Model\CountryFlat $country country
      *
      * @return $this
      */
@@ -517,7 +517,7 @@ class TaxRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tax
      *
-     * @return \Swagger\Client\Model\TaxFlat
+     * @return \ShopwareSDK6\Model\TaxFlat
      */
     public function getTax()
     {
@@ -527,7 +527,7 @@ class TaxRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tax
      *
-     * @param \Swagger\Client\Model\TaxFlat $tax tax
+     * @param \ShopwareSDK6\Model\TaxFlat $tax tax
      *
      * @return $this
      */

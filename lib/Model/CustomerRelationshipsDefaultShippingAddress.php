@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomerRelationshipsDefaultShippingAddress Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CustomerRelationshipsDefaultShippingAddress implements ModelInterface, Arr
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CustomerRelationshipsDefaultShippingAddressLinks',
-'data' => '\Swagger\Client\Model\CustomerRelationshipsDefaultBillingAddressData'    ];
+        'links' => '\ShopwareSDK6\Model\CustomerRelationshipsDefaultShippingAddressLinks',
+'data' => '\ShopwareSDK6\Model\CustomerRelationshipsDefaultBillingAddressData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CustomerRelationshipsDefaultShippingAddress implements ModelInterface, Arr
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsDefaultShippingAddressLinks
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsDefaultShippingAddressLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CustomerRelationshipsDefaultShippingAddress implements ModelInterface, Arr
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsDefaultShippingAddressLinks $links links
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsDefaultShippingAddressLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CustomerRelationshipsDefaultShippingAddress implements ModelInterface, Arr
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsDefaultBillingAddressData
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsDefaultBillingAddressData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CustomerRelationshipsDefaultShippingAddress implements ModelInterface, Arr
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsDefaultBillingAddressData $data data
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsDefaultBillingAddressData $data data
      *
      * @return $this
      */

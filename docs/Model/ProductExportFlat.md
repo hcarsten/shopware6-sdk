@@ -22,11 +22,11 @@ Name | Type | Description | Notes
 **footer_template** | **string** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**product_stream** | [**\Swagger\Client\Model\ProductStreamFlat**](ProductStreamFlat.md) |  | [optional] 
-**storefront_sales_channel** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**sales_channel** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**sales_channel_domain** | [**\Swagger\Client\Model\SalesChannelDomainFlat**](SalesChannelDomainFlat.md) |  | [optional] 
-**currency** | [**\Swagger\Client\Model\CurrencyFlat**](CurrencyFlat.md) |  | [optional] 
+**product_stream** | [**\ShopwareSDK6\Model\ProductStreamFlat**](ProductStreamFlat.md) |  | [optional] 
+**storefront_sales_channel** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**sales_channel** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**sales_channel_domain** | [**\ShopwareSDK6\Model\SalesChannelDomainFlat**](SalesChannelDomainFlat.md) |  | [optional] 
+**currency** | [**\ShopwareSDK6\Model\CurrencyFlat**](CurrencyFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

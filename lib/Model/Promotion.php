@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Promotion Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Promotion extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\PromotionAttributes',
-'links' => '\Swagger\Client\Model\PromotionLinks',
-'relationships' => '\Swagger\Client\Model\PromotionRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\PromotionAttributes',
+'links' => '\ShopwareSDK6\Model\PromotionLinks',
+'relationships' => '\ShopwareSDK6\Model\PromotionRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Promotion extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\PromotionAttributes
+     * @return \ShopwareSDK6\Model\PromotionAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Promotion extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\PromotionAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\PromotionAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Promotion extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PromotionLinks
+     * @return \ShopwareSDK6\Model\PromotionLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Promotion extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PromotionLinks $links links
+     * @param \ShopwareSDK6\Model\PromotionLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Promotion extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\PromotionRelationships
+     * @return \ShopwareSDK6\Model\PromotionRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Promotion extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\PromotionRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\PromotionRelationships $relationships relationships
      *
      * @return $this
      */

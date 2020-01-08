@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * NumberRangeSalesChannelRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class NumberRangeSalesChannelRelationships implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'number_range' => '\Swagger\Client\Model\NumberRangeSalesChannelRelationshipsNumberRange',
-'sales_channel' => '\Swagger\Client\Model\NumberRangeSalesChannelRelationshipsSalesChannel',
-'number_range_type' => '\Swagger\Client\Model\NumberRangeSalesChannelRelationshipsNumberRangeType'    ];
+        'number_range' => '\ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRange',
+'sales_channel' => '\ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsSalesChannel',
+'number_range_type' => '\ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRangeType'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class NumberRangeSalesChannelRelationships implements ModelInterface, ArrayAcces
     /**
      * Gets number_range
      *
-     * @return \Swagger\Client\Model\NumberRangeSalesChannelRelationshipsNumberRange
+     * @return \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRange
      */
     public function getNumberRange()
     {
@@ -221,7 +221,7 @@ class NumberRangeSalesChannelRelationships implements ModelInterface, ArrayAcces
     /**
      * Sets number_range
      *
-     * @param \Swagger\Client\Model\NumberRangeSalesChannelRelationshipsNumberRange $number_range number_range
+     * @param \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRange $number_range number_range
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class NumberRangeSalesChannelRelationships implements ModelInterface, ArrayAcces
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\NumberRangeSalesChannelRelationshipsSalesChannel
+     * @return \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -245,7 +245,7 @@ class NumberRangeSalesChannelRelationships implements ModelInterface, ArrayAcces
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\NumberRangeSalesChannelRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class NumberRangeSalesChannelRelationships implements ModelInterface, ArrayAcces
     /**
      * Gets number_range_type
      *
-     * @return \Swagger\Client\Model\NumberRangeSalesChannelRelationshipsNumberRangeType
+     * @return \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRangeType
      */
     public function getNumberRangeType()
     {
@@ -269,7 +269,7 @@ class NumberRangeSalesChannelRelationships implements ModelInterface, ArrayAcces
     /**
      * Sets number_range_type
      *
-     * @param \Swagger\Client\Model\NumberRangeSalesChannelRelationshipsNumberRangeType $number_range_type number_range_type
+     * @param \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRangeType $number_range_type number_range_type
      *
      * @return $this
      */

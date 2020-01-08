@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Success Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class Success implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'meta' => '\Swagger\Client\Model\Meta',
+        'meta' => '\ShopwareSDK6\Model\Meta',
 'links' => '',
-'data' => '\Swagger\Client\Model\Data',
-'included' => '\Swagger\Client\Model\Resource[]'    ];
+'data' => '\ShopwareSDK6\Model\Data',
+'included' => '\ShopwareSDK6\Model\Resource[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -220,7 +220,7 @@ class Success implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \Swagger\Client\Model\Meta
+     * @return \ShopwareSDK6\Model\Meta
      */
     public function getMeta()
     {
@@ -230,7 +230,7 @@ class Success implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \Swagger\Client\Model\Meta $meta meta
+     * @param \ShopwareSDK6\Model\Meta $meta meta
      *
      * @return $this
      */
@@ -268,7 +268,7 @@ class Success implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\Data
+     * @return \ShopwareSDK6\Model\Data
      */
     public function getData()
     {
@@ -278,7 +278,7 @@ class Success implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\Data $data data
+     * @param \ShopwareSDK6\Model\Data $data data
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class Success implements ModelInterface, ArrayAccess
     /**
      * Gets included
      *
-     * @return \Swagger\Client\Model\Resource[]
+     * @return \ShopwareSDK6\Model\Resource[]
      */
     public function getIncluded()
     {
@@ -302,7 +302,7 @@ class Success implements ModelInterface, ArrayAccess
     /**
      * Sets included
      *
-     * @param \Swagger\Client\Model\Resource[] $included To reduce the number of HTTP requests, servers **MAY** allow responses that include related resources along with the requested primary resources. Such responses are called \"compound documents\".
+     * @param \ShopwareSDK6\Model\Resource[] $included To reduce the number of HTTP requests, servers **MAY** allow responses that include related resources along with the requested primary resources. Such responses are called \"compound documents\".
      *
      * @return $this
      */

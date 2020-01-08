@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CountryRelationshipsSalesChannelDefaultAssignments Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CountryRelationshipsSalesChannelDefaultAssignments implements ModelInterfa
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CountryRelationshipsSalesChannelDefaultAssignmentsLinks',
-'data' => '\Swagger\Client\Model\CountryRelationshipsSalesChannelDefaultAssignmentsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\CountryRelationshipsSalesChannelDefaultAssignmentsLinks',
+'data' => '\ShopwareSDK6\Model\CountryRelationshipsSalesChannelDefaultAssignmentsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CountryRelationshipsSalesChannelDefaultAssignments implements ModelInterfa
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CountryRelationshipsSalesChannelDefaultAssignmentsLinks
+     * @return \ShopwareSDK6\Model\CountryRelationshipsSalesChannelDefaultAssignmentsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CountryRelationshipsSalesChannelDefaultAssignments implements ModelInterfa
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CountryRelationshipsSalesChannelDefaultAssignmentsLinks $links links
+     * @param \ShopwareSDK6\Model\CountryRelationshipsSalesChannelDefaultAssignmentsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CountryRelationshipsSalesChannelDefaultAssignments implements ModelInterfa
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CountryRelationshipsSalesChannelDefaultAssignmentsData[]
+     * @return \ShopwareSDK6\Model\CountryRelationshipsSalesChannelDefaultAssignmentsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CountryRelationshipsSalesChannelDefaultAssignments implements ModelInterfa
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CountryRelationshipsSalesChannelDefaultAssignmentsData[] $data data
+     * @param \ShopwareSDK6\Model\CountryRelationshipsSalesChannelDefaultAssignmentsData[] $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderTransaction Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class OrderTransaction extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\OrderTransactionAttributes',
-'links' => '\Swagger\Client\Model\OrderTransactionLinks',
-'relationships' => '\Swagger\Client\Model\OrderTransactionRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\OrderTransactionAttributes',
+'links' => '\ShopwareSDK6\Model\OrderTransactionLinks',
+'relationships' => '\ShopwareSDK6\Model\OrderTransactionRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class OrderTransaction extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\OrderTransactionAttributes
+     * @return \ShopwareSDK6\Model\OrderTransactionAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class OrderTransaction extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\OrderTransactionAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\OrderTransactionAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class OrderTransaction extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderTransactionLinks
+     * @return \ShopwareSDK6\Model\OrderTransactionLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class OrderTransaction extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderTransactionLinks $links links
+     * @param \ShopwareSDK6\Model\OrderTransactionLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class OrderTransaction extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\OrderTransactionRelationships
+     * @return \ShopwareSDK6\Model\OrderTransactionRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class OrderTransaction extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\OrderTransactionRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\OrderTransactionRelationships $relationships relationships
      *
      * @return $this
      */

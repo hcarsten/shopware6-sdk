@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductManufacturerRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductManufacturerRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'media' => '\Swagger\Client\Model\ProductManufacturerRelationshipsMedia',
-'products' => '\Swagger\Client\Model\ProductManufacturerRelationshipsProducts'    ];
+        'media' => '\ShopwareSDK6\Model\ProductManufacturerRelationshipsMedia',
+'products' => '\ShopwareSDK6\Model\ProductManufacturerRelationshipsProducts'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductManufacturerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \Swagger\Client\Model\ProductManufacturerRelationshipsMedia
+     * @return \ShopwareSDK6\Model\ProductManufacturerRelationshipsMedia
      */
     public function getMedia()
     {
@@ -215,7 +215,7 @@ class ProductManufacturerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \Swagger\Client\Model\ProductManufacturerRelationshipsMedia $media media
+     * @param \ShopwareSDK6\Model\ProductManufacturerRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductManufacturerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \Swagger\Client\Model\ProductManufacturerRelationshipsProducts
+     * @return \ShopwareSDK6\Model\ProductManufacturerRelationshipsProducts
      */
     public function getProducts()
     {
@@ -239,7 +239,7 @@ class ProductManufacturerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \Swagger\Client\Model\ProductManufacturerRelationshipsProducts $products products
+     * @param \ShopwareSDK6\Model\ProductManufacturerRelationshipsProducts $products products
      *
      * @return $this
      */

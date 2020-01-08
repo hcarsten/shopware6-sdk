@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionDiscountRelationshipsPromotionDiscountPrices Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PromotionDiscountRelationshipsPromotionDiscountPrices implements ModelInte
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PromotionDiscountRelationshipsPromotionDiscountPricesLinks',
-'data' => '\Swagger\Client\Model\PromotionDiscountRelationshipsPromotionDiscountPricesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionDiscountPricesLinks',
+'data' => '\ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionDiscountPricesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PromotionDiscountRelationshipsPromotionDiscountPrices implements ModelInte
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PromotionDiscountRelationshipsPromotionDiscountPricesLinks
+     * @return \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionDiscountPricesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PromotionDiscountRelationshipsPromotionDiscountPrices implements ModelInte
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PromotionDiscountRelationshipsPromotionDiscountPricesLinks $links links
+     * @param \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionDiscountPricesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PromotionDiscountRelationshipsPromotionDiscountPrices implements ModelInte
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\PromotionDiscountRelationshipsPromotionDiscountPricesData[]
+     * @return \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionDiscountPricesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PromotionDiscountRelationshipsPromotionDiscountPrices implements ModelInte
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\PromotionDiscountRelationshipsPromotionDiscountPricesData[] $data data
+     * @param \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionDiscountPricesData[] $data data
      *
      * @return $this
      */

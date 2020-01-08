@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductRelationshipsDeliveryTime Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductRelationshipsDeliveryTime implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ProductRelationshipsDeliveryTimeLinks',
-'data' => '\Swagger\Client\Model\ProductRelationshipsDeliveryTimeData'    ];
+        'links' => '\ShopwareSDK6\Model\ProductRelationshipsDeliveryTimeLinks',
+'data' => '\ShopwareSDK6\Model\ProductRelationshipsDeliveryTimeData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductRelationshipsDeliveryTime implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductRelationshipsDeliveryTimeLinks
+     * @return \ShopwareSDK6\Model\ProductRelationshipsDeliveryTimeLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ProductRelationshipsDeliveryTime implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductRelationshipsDeliveryTimeLinks $links links
+     * @param \ShopwareSDK6\Model\ProductRelationshipsDeliveryTimeLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductRelationshipsDeliveryTime implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ProductRelationshipsDeliveryTimeData
+     * @return \ShopwareSDK6\Model\ProductRelationshipsDeliveryTimeData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ProductRelationshipsDeliveryTime implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ProductRelationshipsDeliveryTimeData $data data
+     * @param \ShopwareSDK6\Model\ProductRelationshipsDeliveryTimeData $data data
      *
      * @return $this
      */

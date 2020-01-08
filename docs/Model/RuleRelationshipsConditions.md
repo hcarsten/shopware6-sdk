@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\RuleRelationshipsConditionsLinks**](RuleRelationshipsConditionsLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\RuleRelationshipsConditionsData[]**](RuleRelationshipsConditionsData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\RuleRelationshipsConditionsLinks**](RuleRelationshipsConditionsLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\RuleRelationshipsConditionsData[]**](RuleRelationshipsConditionsData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

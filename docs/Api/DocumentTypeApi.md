@@ -1,4 +1,4 @@
-# Swagger\Client\DocumentTypeApi
+# ShopwareSDK6\DocumentTypeApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateDocumentType**](DocumentTypeApi.md#updatedocumenttype) | **PATCH** /document-type/{id} | Partially update information about a Document Type resource
 
 # **createDocumentType**
-> \Swagger\Client\Model\InlineResponse20069 createDocumentType($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20069 createDocumentType($body, $_response)
 
 Create a new Document Type resources
 
@@ -22,12 +22,12 @@ Create a new Document Type resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentTypeApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body44(); // \Swagger\Client\Model\Body44 | 
+$body = new \ShopwareSDK6\Model\Body44(); // \ShopwareSDK6\Model\Body44 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body44**](../Model/Body44.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body44**](../Model/Body44.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
+[**\ShopwareSDK6\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createDocumentType**
-> \Swagger\Client\Model\InlineResponse20069 createDocumentType($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20069 createDocumentType($body, $_response)
 
 Create a new Document Type resources
 
@@ -73,12 +73,12 @@ Create a new Document Type resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentTypeApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\DocumentTypeFlat(); // \Swagger\Client\Model\DocumentTypeFlat | 
+$body = new \ShopwareSDK6\Model\DocumentTypeFlat(); // \ShopwareSDK6\Model\DocumentTypeFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\DocumentTypeFlat**](../Model/DocumentTypeFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\DocumentTypeFlat**](../Model/DocumentTypeFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
+[**\ShopwareSDK6\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Document Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentTypeApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDocumentType**
-> \Swagger\Client\Model\InlineResponse20069 getDocumentType($id)
+> \ShopwareSDK6\Model\InlineResponse20069 getDocumentType($id)
 
 Detailed information about a Document Type resource
 
@@ -170,7 +170,7 @@ Detailed information about a Document Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentTypeApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
+[**\ShopwareSDK6\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDocumentTypeList**
-> \Swagger\Client\Model\InlineResponse20067 getDocumentTypeList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20067 getDocumentTypeList($limit, $page, $query)
 
 List with basic information of Document Type resources
 
@@ -217,7 +217,7 @@ List with basic information of Document Type resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentTypeApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20067**](../Model/InlineResponse20067.md)
+[**\ShopwareSDK6\Model\InlineResponse20067**](../Model/InlineResponse20067.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDocumentType**
-> \Swagger\Client\Model\InlineResponse20069 updateDocumentType($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20069 updateDocumentType($id, $body, $_response)
 
 Partially update information about a Document Type resource
 
@@ -268,13 +268,13 @@ Partially update information about a Document Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentTypeApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the document_type
-$body = new \Swagger\Client\Model\Body45(); // \Swagger\Client\Model\Body45 | Partially update information about a Document Type resource.
+$body = new \ShopwareSDK6\Model\Body45(); // \ShopwareSDK6\Model\Body45 | Partially update information about a Document Type resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the document_type |
- **body** | [**\Swagger\Client\Model\Body45**](../Model/Body45.md)| Partially update information about a Document Type resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body45**](../Model/Body45.md)| Partially update information about a Document Type resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
+[**\ShopwareSDK6\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDocumentType**
-> \Swagger\Client\Model\InlineResponse20069 updateDocumentType($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20069 updateDocumentType($id, $body, $_response)
 
 Partially update information about a Document Type resource
 
@@ -319,13 +319,13 @@ Partially update information about a Document Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentTypeApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the document_type
-$body = new \Swagger\Client\Model\DocumentTypeFlat(); // \Swagger\Client\Model\DocumentTypeFlat | Partially update information about a Document Type resource.
+$body = new \ShopwareSDK6\Model\DocumentTypeFlat(); // \ShopwareSDK6\Model\DocumentTypeFlat | Partially update information about a Document Type resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the document_type |
- **body** | [**\Swagger\Client\Model\DocumentTypeFlat**](../Model/DocumentTypeFlat.md)| Partially update information about a Document Type resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\DocumentTypeFlat**](../Model/DocumentTypeFlat.md)| Partially update information about a Document Type resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
+[**\ShopwareSDK6\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
 
 ### Authorization
 

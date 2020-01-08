@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **tax_rule_type_id** | **string** |  | 
 **country_id** | **string** |  | 
 **tax_rate** | **float** |  | 
-**data** | [**\Swagger\Client\Model\TaxRuleAttributesData**](TaxRuleAttributesData.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\TaxRuleAttributesData**](TaxRuleAttributesData.md) |  | [optional] 
 **tax_id** | **string** |  | 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 

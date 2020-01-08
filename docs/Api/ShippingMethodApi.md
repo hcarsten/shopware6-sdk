@@ -1,4 +1,4 @@
-# Swagger\Client\ShippingMethodApi
+# ShopwareSDK6\ShippingMethodApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateShippingMethod**](ShippingMethodApi.md#updateshippingmethod) | **PATCH** /shipping-method/{id} | Partially update information about a Shipping Method resource
 
 # **createShippingMethod**
-> \Swagger\Client\Model\InlineResponse200264 createShippingMethod($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200264 createShippingMethod($body, $_response)
 
 Create a new Shipping Method resources
 
@@ -22,12 +22,12 @@ Create a new Shipping Method resources. All required fields must be provided in 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ShippingMethodApi(
+$apiInstance = new ShopwareSDK6\Api\ShippingMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body174(); // \Swagger\Client\Model\Body174 | 
+$body = new \ShopwareSDK6\Model\Body174(); // \ShopwareSDK6\Model\Body174 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body174**](../Model/Body174.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body174**](../Model/Body174.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
+[**\ShopwareSDK6\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createShippingMethod**
-> \Swagger\Client\Model\InlineResponse200264 createShippingMethod($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200264 createShippingMethod($body, $_response)
 
 Create a new Shipping Method resources
 
@@ -73,12 +73,12 @@ Create a new Shipping Method resources. All required fields must be provided in 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ShippingMethodApi(
+$apiInstance = new ShopwareSDK6\Api\ShippingMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\ShippingMethodFlat(); // \Swagger\Client\Model\ShippingMethodFlat | 
+$body = new \ShopwareSDK6\Model\ShippingMethodFlat(); // \ShopwareSDK6\Model\ShippingMethodFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ShippingMethodFlat**](../Model/ShippingMethodFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\ShippingMethodFlat**](../Model/ShippingMethodFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
+[**\ShopwareSDK6\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Shipping Method resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ShippingMethodApi(
+$apiInstance = new ShopwareSDK6\Api\ShippingMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getShippingMethod**
-> \Swagger\Client\Model\InlineResponse200264 getShippingMethod($id)
+> \ShopwareSDK6\Model\InlineResponse200264 getShippingMethod($id)
 
 Detailed information about a Shipping Method resource
 
@@ -170,7 +170,7 @@ Detailed information about a Shipping Method resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ShippingMethodApi(
+$apiInstance = new ShopwareSDK6\Api\ShippingMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
+[**\ShopwareSDK6\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getShippingMethodList**
-> \Swagger\Client\Model\InlineResponse200262 getShippingMethodList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200262 getShippingMethodList($limit, $page, $query)
 
 List with basic information of Shipping Method resources
 
@@ -217,7 +217,7 @@ List with basic information of Shipping Method resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ShippingMethodApi(
+$apiInstance = new ShopwareSDK6\Api\ShippingMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200262**](../Model/InlineResponse200262.md)
+[**\ShopwareSDK6\Model\InlineResponse200262**](../Model/InlineResponse200262.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateShippingMethod**
-> \Swagger\Client\Model\InlineResponse200264 updateShippingMethod($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200264 updateShippingMethod($id, $body, $_response)
 
 Partially update information about a Shipping Method resource
 
@@ -268,13 +268,13 @@ Partially update information about a Shipping Method resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ShippingMethodApi(
+$apiInstance = new ShopwareSDK6\Api\ShippingMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the shipping_method
-$body = new \Swagger\Client\Model\Body175(); // \Swagger\Client\Model\Body175 | Partially update information about a Shipping Method resource.
+$body = new \ShopwareSDK6\Model\Body175(); // \ShopwareSDK6\Model\Body175 | Partially update information about a Shipping Method resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the shipping_method |
- **body** | [**\Swagger\Client\Model\Body175**](../Model/Body175.md)| Partially update information about a Shipping Method resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body175**](../Model/Body175.md)| Partially update information about a Shipping Method resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
+[**\ShopwareSDK6\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateShippingMethod**
-> \Swagger\Client\Model\InlineResponse200264 updateShippingMethod($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200264 updateShippingMethod($id, $body, $_response)
 
 Partially update information about a Shipping Method resource
 
@@ -319,13 +319,13 @@ Partially update information about a Shipping Method resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ShippingMethodApi(
+$apiInstance = new ShopwareSDK6\Api\ShippingMethodApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the shipping_method
-$body = new \Swagger\Client\Model\ShippingMethodFlat(); // \Swagger\Client\Model\ShippingMethodFlat | Partially update information about a Shipping Method resource.
+$body = new \ShopwareSDK6\Model\ShippingMethodFlat(); // \ShopwareSDK6\Model\ShippingMethodFlat | Partially update information about a Shipping Method resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the shipping_method |
- **body** | [**\Swagger\Client\Model\ShippingMethodFlat**](../Model/ShippingMethodFlat.md)| Partially update information about a Shipping Method resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\ShippingMethodFlat**](../Model/ShippingMethodFlat.md)| Partially update information about a Shipping Method resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
+[**\ShopwareSDK6\Model\InlineResponse200264**](../Model/InlineResponse200264.md)
 
 ### Authorization
 

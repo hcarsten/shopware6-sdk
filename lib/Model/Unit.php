@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Unit Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Unit extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\UnitAttributes',
-'links' => '\Swagger\Client\Model\UnitLinks',
-'relationships' => '\Swagger\Client\Model\UnitRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\UnitAttributes',
+'links' => '\ShopwareSDK6\Model\UnitLinks',
+'relationships' => '\ShopwareSDK6\Model\UnitRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Unit extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\UnitAttributes
+     * @return \ShopwareSDK6\Model\UnitAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Unit extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\UnitAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\UnitAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Unit extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\UnitLinks
+     * @return \ShopwareSDK6\Model\UnitLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Unit extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\UnitLinks $links links
+     * @param \ShopwareSDK6\Model\UnitLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Unit extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\UnitRelationships
+     * @return \ShopwareSDK6\Model\UnitRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Unit extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\UnitRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\UnitRelationships $relationships relationships
      *
      * @return $this
      */

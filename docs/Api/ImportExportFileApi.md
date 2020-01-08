@@ -1,4 +1,4 @@
-# Swagger\Client\ImportExportFileApi
+# ShopwareSDK6\ImportExportFileApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateImportExportFile**](ImportExportFileApi.md#updateimportexportfile) | **PATCH** /import-export-file/{id} | Partially update information about a Import Export File resource
 
 # **createImportExportFile**
-> \Swagger\Client\Model\InlineResponse20075 createImportExportFile($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20075 createImportExportFile($body, $_response)
 
 Create a new Import Export File resources
 
@@ -22,12 +22,12 @@ Create a new Import Export File resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportFileApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportFileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body48(); // \Swagger\Client\Model\Body48 | 
+$body = new \ShopwareSDK6\Model\Body48(); // \ShopwareSDK6\Model\Body48 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body48**](../Model/Body48.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body48**](../Model/Body48.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\ShopwareSDK6\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createImportExportFile**
-> \Swagger\Client\Model\InlineResponse20075 createImportExportFile($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20075 createImportExportFile($body, $_response)
 
 Create a new Import Export File resources
 
@@ -73,12 +73,12 @@ Create a new Import Export File resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportFileApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportFileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\ImportExportFileFlat(); // \Swagger\Client\Model\ImportExportFileFlat | 
+$body = new \ShopwareSDK6\Model\ImportExportFileFlat(); // \ShopwareSDK6\Model\ImportExportFileFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ImportExportFileFlat**](../Model/ImportExportFileFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\ImportExportFileFlat**](../Model/ImportExportFileFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\ShopwareSDK6\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Import Export File resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportFileApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportFileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getImportExportFile**
-> \Swagger\Client\Model\InlineResponse20075 getImportExportFile($id)
+> \ShopwareSDK6\Model\InlineResponse20075 getImportExportFile($id)
 
 Detailed information about a Import Export File resource
 
@@ -170,7 +170,7 @@ Detailed information about a Import Export File resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportFileApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportFileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\ShopwareSDK6\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getImportExportFileList**
-> \Swagger\Client\Model\InlineResponse20073 getImportExportFileList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20073 getImportExportFileList($limit, $page, $query)
 
 List with basic information of Import Export File resources
 
@@ -217,7 +217,7 @@ List with basic information of Import Export File resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportFileApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportFileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20073**](../Model/InlineResponse20073.md)
+[**\ShopwareSDK6\Model\InlineResponse20073**](../Model/InlineResponse20073.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateImportExportFile**
-> \Swagger\Client\Model\InlineResponse20075 updateImportExportFile($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20075 updateImportExportFile($id, $body, $_response)
 
 Partially update information about a Import Export File resource
 
@@ -268,13 +268,13 @@ Partially update information about a Import Export File resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportFileApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportFileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the import_export_file
-$body = new \Swagger\Client\Model\Body49(); // \Swagger\Client\Model\Body49 | Partially update information about a Import Export File resource.
+$body = new \ShopwareSDK6\Model\Body49(); // \ShopwareSDK6\Model\Body49 | Partially update information about a Import Export File resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the import_export_file |
- **body** | [**\Swagger\Client\Model\Body49**](../Model/Body49.md)| Partially update information about a Import Export File resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body49**](../Model/Body49.md)| Partially update information about a Import Export File resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\ShopwareSDK6\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateImportExportFile**
-> \Swagger\Client\Model\InlineResponse20075 updateImportExportFile($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20075 updateImportExportFile($id, $body, $_response)
 
 Partially update information about a Import Export File resource
 
@@ -319,13 +319,13 @@ Partially update information about a Import Export File resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportFileApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportFileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the import_export_file
-$body = new \Swagger\Client\Model\ImportExportFileFlat(); // \Swagger\Client\Model\ImportExportFileFlat | Partially update information about a Import Export File resource.
+$body = new \ShopwareSDK6\Model\ImportExportFileFlat(); // \ShopwareSDK6\Model\ImportExportFileFlat | Partially update information about a Import Export File resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the import_export_file |
- **body** | [**\Swagger\Client\Model\ImportExportFileFlat**](../Model/ImportExportFileFlat.md)| Partially update information about a Import Export File resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\ImportExportFileFlat**](../Model/ImportExportFileFlat.md)| Partially update information about a Import Export File resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\ShopwareSDK6\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
 
 ### Authorization
 

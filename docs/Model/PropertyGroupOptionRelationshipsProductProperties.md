@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\PropertyGroupOptionRelationshipsProductPropertiesLinks**](PropertyGroupOptionRelationshipsProductPropertiesLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\PropertyGroupOptionRelationshipsProductPropertiesData[]**](PropertyGroupOptionRelationshipsProductPropertiesData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductPropertiesLinks**](PropertyGroupOptionRelationshipsProductPropertiesLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductPropertiesData[]**](PropertyGroupOptionRelationshipsProductPropertiesData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderAttributes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,12 +66,12 @@ class OrderAttributes implements ModelInterface, ArrayAccess
 'sales_channel_id' => 'string',
 'order_date_time' => '\DateTime',
 'order_date' => 'string',
-'price' => '\Swagger\Client\Model\OrderAttributesPrice',
+'price' => '\ShopwareSDK6\Model\OrderAttributesPrice',
 'amount_total' => 'float',
 'amount_net' => 'float',
 'position_price' => 'float',
 'tax_status' => 'string',
-'shipping_costs' => '\Swagger\Client\Model\OrderAttributesShippingCosts',
+'shipping_costs' => '\ShopwareSDK6\Model\OrderAttributesShippingCosts',
 'shipping_total' => 'float',
 'currency_factor' => 'float',
 'deep_link_code' => 'string',
@@ -610,7 +610,7 @@ class OrderAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets price
      *
-     * @return \Swagger\Client\Model\OrderAttributesPrice
+     * @return \ShopwareSDK6\Model\OrderAttributesPrice
      */
     public function getPrice()
     {
@@ -620,7 +620,7 @@ class OrderAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets price
      *
-     * @param \Swagger\Client\Model\OrderAttributesPrice $price price
+     * @param \ShopwareSDK6\Model\OrderAttributesPrice $price price
      *
      * @return $this
      */
@@ -730,7 +730,7 @@ class OrderAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_costs
      *
-     * @return \Swagger\Client\Model\OrderAttributesShippingCosts
+     * @return \ShopwareSDK6\Model\OrderAttributesShippingCosts
      */
     public function getShippingCosts()
     {
@@ -740,7 +740,7 @@ class OrderAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_costs
      *
-     * @param \Swagger\Client\Model\OrderAttributesShippingCosts $shipping_costs shipping_costs
+     * @param \ShopwareSDK6\Model\OrderAttributesShippingCosts $shipping_costs shipping_costs
      *
      * @return $this
      */

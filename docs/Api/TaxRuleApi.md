@@ -1,4 +1,4 @@
-# Swagger\Client\TaxRuleApi
+# ShopwareSDK6\TaxRuleApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateTaxRule**](TaxRuleApi.md#updatetaxrule) | **PATCH** /tax-rule/{id} | Partially update information about a Tax Rule resource
 
 # **createTaxRule**
-> \Swagger\Client\Model\InlineResponse200297 createTaxRule($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200297 createTaxRule($body, $_response)
 
 Create a new Tax Rule resources
 
@@ -22,12 +22,12 @@ Create a new Tax Rule resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TaxRuleApi(
+$apiInstance = new ShopwareSDK6\Api\TaxRuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body196(); // \Swagger\Client\Model\Body196 | 
+$body = new \ShopwareSDK6\Model\Body196(); // \ShopwareSDK6\Model\Body196 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body196**](../Model/Body196.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body196**](../Model/Body196.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
+[**\ShopwareSDK6\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createTaxRule**
-> \Swagger\Client\Model\InlineResponse200297 createTaxRule($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200297 createTaxRule($body, $_response)
 
 Create a new Tax Rule resources
 
@@ -73,12 +73,12 @@ Create a new Tax Rule resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TaxRuleApi(
+$apiInstance = new ShopwareSDK6\Api\TaxRuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\TaxRuleFlat(); // \Swagger\Client\Model\TaxRuleFlat | 
+$body = new \ShopwareSDK6\Model\TaxRuleFlat(); // \ShopwareSDK6\Model\TaxRuleFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\TaxRuleFlat**](../Model/TaxRuleFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\TaxRuleFlat**](../Model/TaxRuleFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
+[**\ShopwareSDK6\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Tax Rule resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TaxRuleApi(
+$apiInstance = new ShopwareSDK6\Api\TaxRuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTaxRule**
-> \Swagger\Client\Model\InlineResponse200297 getTaxRule($id)
+> \ShopwareSDK6\Model\InlineResponse200297 getTaxRule($id)
 
 Detailed information about a Tax Rule resource
 
@@ -170,7 +170,7 @@ Detailed information about a Tax Rule resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TaxRuleApi(
+$apiInstance = new ShopwareSDK6\Api\TaxRuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
+[**\ShopwareSDK6\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTaxRuleList**
-> \Swagger\Client\Model\InlineResponse200295 getTaxRuleList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200295 getTaxRuleList($limit, $page, $query)
 
 List with basic information of Tax Rule resources
 
@@ -217,7 +217,7 @@ List with basic information of Tax Rule resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TaxRuleApi(
+$apiInstance = new ShopwareSDK6\Api\TaxRuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200295**](../Model/InlineResponse200295.md)
+[**\ShopwareSDK6\Model\InlineResponse200295**](../Model/InlineResponse200295.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateTaxRule**
-> \Swagger\Client\Model\InlineResponse200297 updateTaxRule($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200297 updateTaxRule($id, $body, $_response)
 
 Partially update information about a Tax Rule resource
 
@@ -268,13 +268,13 @@ Partially update information about a Tax Rule resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TaxRuleApi(
+$apiInstance = new ShopwareSDK6\Api\TaxRuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the tax_rule
-$body = new \Swagger\Client\Model\Body197(); // \Swagger\Client\Model\Body197 | Partially update information about a Tax Rule resource.
+$body = new \ShopwareSDK6\Model\Body197(); // \ShopwareSDK6\Model\Body197 | Partially update information about a Tax Rule resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the tax_rule |
- **body** | [**\Swagger\Client\Model\Body197**](../Model/Body197.md)| Partially update information about a Tax Rule resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body197**](../Model/Body197.md)| Partially update information about a Tax Rule resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
+[**\ShopwareSDK6\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateTaxRule**
-> \Swagger\Client\Model\InlineResponse200297 updateTaxRule($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200297 updateTaxRule($id, $body, $_response)
 
 Partially update information about a Tax Rule resource
 
@@ -319,13 +319,13 @@ Partially update information about a Tax Rule resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TaxRuleApi(
+$apiInstance = new ShopwareSDK6\Api\TaxRuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the tax_rule
-$body = new \Swagger\Client\Model\TaxRuleFlat(); // \Swagger\Client\Model\TaxRuleFlat | Partially update information about a Tax Rule resource.
+$body = new \ShopwareSDK6\Model\TaxRuleFlat(); // \ShopwareSDK6\Model\TaxRuleFlat | Partially update information about a Tax Rule resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the tax_rule |
- **body** | [**\Swagger\Client\Model\TaxRuleFlat**](../Model/TaxRuleFlat.md)| Partially update information about a Tax Rule resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\TaxRuleFlat**](../Model/TaxRuleFlat.md)| Partially update information about a Tax Rule resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
+[**\ShopwareSDK6\Model\InlineResponse200297**](../Model/InlineResponse200297.md)
 
 ### Authorization
 

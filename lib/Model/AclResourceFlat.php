@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * AclResourceFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,7 +62,7 @@ class AclResourceFlat implements ModelInterface, ArrayAccess
 'acl_role_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'acl_role' => '\Swagger\Client\Model\AclRoleFlat'    ];
+'acl_role' => '\ShopwareSDK6\Model\AclRoleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -394,7 +394,7 @@ class AclResourceFlat implements ModelInterface, ArrayAccess
     /**
      * Gets acl_role
      *
-     * @return \Swagger\Client\Model\AclRoleFlat
+     * @return \ShopwareSDK6\Model\AclRoleFlat
      */
     public function getAclRole()
     {
@@ -404,7 +404,7 @@ class AclResourceFlat implements ModelInterface, ArrayAccess
     /**
      * Sets acl_role
      *
-     * @param \Swagger\Client\Model\AclRoleFlat $acl_role acl_role
+     * @param \ShopwareSDK6\Model\AclRoleFlat $acl_role acl_role
      *
      * @return $this
      */

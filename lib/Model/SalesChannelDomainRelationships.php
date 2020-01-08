@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelDomainRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,11 +56,11 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sales_channel' => '\Swagger\Client\Model\SalesChannelDomainRelationshipsSalesChannel',
-'language' => '\Swagger\Client\Model\SalesChannelDomainRelationshipsLanguage',
-'currency' => '\Swagger\Client\Model\SalesChannelDomainRelationshipsCurrency',
-'snippet_set' => '\Swagger\Client\Model\SalesChannelDomainRelationshipsSnippetSet',
-'product_exports' => '\Swagger\Client\Model\SalesChannelDomainRelationshipsProductExports'    ];
+        'sales_channel' => '\ShopwareSDK6\Model\SalesChannelDomainRelationshipsSalesChannel',
+'language' => '\ShopwareSDK6\Model\SalesChannelDomainRelationshipsLanguage',
+'currency' => '\ShopwareSDK6\Model\SalesChannelDomainRelationshipsCurrency',
+'snippet_set' => '\ShopwareSDK6\Model\SalesChannelDomainRelationshipsSnippetSet',
+'product_exports' => '\ShopwareSDK6\Model\SalesChannelDomainRelationshipsProductExports'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -223,7 +223,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainRelationshipsSalesChannel
+     * @return \ShopwareSDK6\Model\SalesChannelDomainRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -233,7 +233,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\SalesChannelDomainRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainRelationshipsLanguage
+     * @return \ShopwareSDK6\Model\SalesChannelDomainRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -257,7 +257,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainRelationshipsLanguage $language language
+     * @param \ShopwareSDK6\Model\SalesChannelDomainRelationshipsLanguage $language language
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainRelationshipsCurrency
+     * @return \ShopwareSDK6\Model\SalesChannelDomainRelationshipsCurrency
      */
     public function getCurrency()
     {
@@ -281,7 +281,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainRelationshipsCurrency $currency currency
+     * @param \ShopwareSDK6\Model\SalesChannelDomainRelationshipsCurrency $currency currency
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets snippet_set
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainRelationshipsSnippetSet
+     * @return \ShopwareSDK6\Model\SalesChannelDomainRelationshipsSnippetSet
      */
     public function getSnippetSet()
     {
@@ -305,7 +305,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets snippet_set
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainRelationshipsSnippetSet $snippet_set snippet_set
+     * @param \ShopwareSDK6\Model\SalesChannelDomainRelationshipsSnippetSet $snippet_set snippet_set
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_exports
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainRelationshipsProductExports
+     * @return \ShopwareSDK6\Model\SalesChannelDomainRelationshipsProductExports
      */
     public function getProductExports()
     {
@@ -329,7 +329,7 @@ class SalesChannelDomainRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_exports
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainRelationshipsProductExports $product_exports product_exports
+     * @param \ShopwareSDK6\Model\SalesChannelDomainRelationshipsProductExports $product_exports product_exports
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderLineItemRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class OrderLineItemRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'cover' => '\Swagger\Client\Model\OrderLineItemRelationshipsCover',
-'order' => '\Swagger\Client\Model\OrderLineItemRelationshipsOrder',
-'product' => '\Swagger\Client\Model\OrderLineItemRelationshipsProduct',
-'order_delivery_positions' => '\Swagger\Client\Model\OrderLineItemRelationshipsOrderDeliveryPositions'    ];
+        'cover' => '\ShopwareSDK6\Model\OrderLineItemRelationshipsCover',
+'order' => '\ShopwareSDK6\Model\OrderLineItemRelationshipsOrder',
+'product' => '\ShopwareSDK6\Model\OrderLineItemRelationshipsProduct',
+'order_delivery_positions' => '\ShopwareSDK6\Model\OrderLineItemRelationshipsOrderDeliveryPositions'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -217,7 +217,7 @@ class OrderLineItemRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets cover
      *
-     * @return \Swagger\Client\Model\OrderLineItemRelationshipsCover
+     * @return \ShopwareSDK6\Model\OrderLineItemRelationshipsCover
      */
     public function getCover()
     {
@@ -227,7 +227,7 @@ class OrderLineItemRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets cover
      *
-     * @param \Swagger\Client\Model\OrderLineItemRelationshipsCover $cover cover
+     * @param \ShopwareSDK6\Model\OrderLineItemRelationshipsCover $cover cover
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class OrderLineItemRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \Swagger\Client\Model\OrderLineItemRelationshipsOrder
+     * @return \ShopwareSDK6\Model\OrderLineItemRelationshipsOrder
      */
     public function getOrder()
     {
@@ -251,7 +251,7 @@ class OrderLineItemRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \Swagger\Client\Model\OrderLineItemRelationshipsOrder $order order
+     * @param \ShopwareSDK6\Model\OrderLineItemRelationshipsOrder $order order
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class OrderLineItemRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\OrderLineItemRelationshipsProduct
+     * @return \ShopwareSDK6\Model\OrderLineItemRelationshipsProduct
      */
     public function getProduct()
     {
@@ -275,7 +275,7 @@ class OrderLineItemRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\OrderLineItemRelationshipsProduct $product product
+     * @param \ShopwareSDK6\Model\OrderLineItemRelationshipsProduct $product product
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class OrderLineItemRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_delivery_positions
      *
-     * @return \Swagger\Client\Model\OrderLineItemRelationshipsOrderDeliveryPositions
+     * @return \ShopwareSDK6\Model\OrderLineItemRelationshipsOrderDeliveryPositions
      */
     public function getOrderDeliveryPositions()
     {
@@ -299,7 +299,7 @@ class OrderLineItemRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_delivery_positions
      *
-     * @param \Swagger\Client\Model\OrderLineItemRelationshipsOrderDeliveryPositions $order_delivery_positions order_delivery_positions
+     * @param \ShopwareSDK6\Model\OrderLineItemRelationshipsOrderDeliveryPositions $order_delivery_positions order_delivery_positions
      *
      * @return $this
      */

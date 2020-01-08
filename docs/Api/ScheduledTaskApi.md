@@ -1,4 +1,4 @@
-# Swagger\Client\ScheduledTaskApi
+# ShopwareSDK6\ScheduledTaskApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateScheduledTask**](ScheduledTaskApi.md#updatescheduledtask) | **PATCH** /scheduled-task/{id} | Partially update information about a Scheduled Task resource
 
 # **createScheduledTask**
-> \Swagger\Client\Model\InlineResponse200255 createScheduledTask($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200255 createScheduledTask($body, $_response)
 
 Create a new Scheduled Task resources
 
@@ -22,12 +22,12 @@ Create a new Scheduled Task resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ScheduledTaskApi(
+$apiInstance = new ShopwareSDK6\Api\ScheduledTaskApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body168(); // \Swagger\Client\Model\Body168 | 
+$body = new \ShopwareSDK6\Model\Body168(); // \ShopwareSDK6\Model\Body168 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body168**](../Model/Body168.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body168**](../Model/Body168.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
+[**\ShopwareSDK6\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createScheduledTask**
-> \Swagger\Client\Model\InlineResponse200255 createScheduledTask($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200255 createScheduledTask($body, $_response)
 
 Create a new Scheduled Task resources
 
@@ -73,12 +73,12 @@ Create a new Scheduled Task resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ScheduledTaskApi(
+$apiInstance = new ShopwareSDK6\Api\ScheduledTaskApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\ScheduledTaskFlat(); // \Swagger\Client\Model\ScheduledTaskFlat | 
+$body = new \ShopwareSDK6\Model\ScheduledTaskFlat(); // \ShopwareSDK6\Model\ScheduledTaskFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ScheduledTaskFlat**](../Model/ScheduledTaskFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\ScheduledTaskFlat**](../Model/ScheduledTaskFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
+[**\ShopwareSDK6\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Scheduled Task resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ScheduledTaskApi(
+$apiInstance = new ShopwareSDK6\Api\ScheduledTaskApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getScheduledTask**
-> \Swagger\Client\Model\InlineResponse200255 getScheduledTask($id)
+> \ShopwareSDK6\Model\InlineResponse200255 getScheduledTask($id)
 
 Detailed information about a Scheduled Task resource
 
@@ -170,7 +170,7 @@ Detailed information about a Scheduled Task resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ScheduledTaskApi(
+$apiInstance = new ShopwareSDK6\Api\ScheduledTaskApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
+[**\ShopwareSDK6\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getScheduledTaskList**
-> \Swagger\Client\Model\InlineResponse200253 getScheduledTaskList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200253 getScheduledTaskList($limit, $page, $query)
 
 List with basic information of Scheduled Task resources
 
@@ -217,7 +217,7 @@ List with basic information of Scheduled Task resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ScheduledTaskApi(
+$apiInstance = new ShopwareSDK6\Api\ScheduledTaskApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200253**](../Model/InlineResponse200253.md)
+[**\ShopwareSDK6\Model\InlineResponse200253**](../Model/InlineResponse200253.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateScheduledTask**
-> \Swagger\Client\Model\InlineResponse200255 updateScheduledTask($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200255 updateScheduledTask($id, $body, $_response)
 
 Partially update information about a Scheduled Task resource
 
@@ -268,13 +268,13 @@ Partially update information about a Scheduled Task resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ScheduledTaskApi(
+$apiInstance = new ShopwareSDK6\Api\ScheduledTaskApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the scheduled_task
-$body = new \Swagger\Client\Model\Body169(); // \Swagger\Client\Model\Body169 | Partially update information about a Scheduled Task resource.
+$body = new \ShopwareSDK6\Model\Body169(); // \ShopwareSDK6\Model\Body169 | Partially update information about a Scheduled Task resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the scheduled_task |
- **body** | [**\Swagger\Client\Model\Body169**](../Model/Body169.md)| Partially update information about a Scheduled Task resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body169**](../Model/Body169.md)| Partially update information about a Scheduled Task resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
+[**\ShopwareSDK6\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateScheduledTask**
-> \Swagger\Client\Model\InlineResponse200255 updateScheduledTask($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200255 updateScheduledTask($id, $body, $_response)
 
 Partially update information about a Scheduled Task resource
 
@@ -319,13 +319,13 @@ Partially update information about a Scheduled Task resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ScheduledTaskApi(
+$apiInstance = new ShopwareSDK6\Api\ScheduledTaskApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the scheduled_task
-$body = new \Swagger\Client\Model\ScheduledTaskFlat(); // \Swagger\Client\Model\ScheduledTaskFlat | Partially update information about a Scheduled Task resource.
+$body = new \ShopwareSDK6\Model\ScheduledTaskFlat(); // \ShopwareSDK6\Model\ScheduledTaskFlat | Partially update information about a Scheduled Task resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the scheduled_task |
- **body** | [**\Swagger\Client\Model\ScheduledTaskFlat**](../Model/ScheduledTaskFlat.md)| Partially update information about a Scheduled Task resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\ScheduledTaskFlat**](../Model/ScheduledTaskFlat.md)| Partially update information about a Scheduled Task resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
+[**\ShopwareSDK6\Model\InlineResponse200255**](../Model/InlineResponse200255.md)
 
 ### Authorization
 

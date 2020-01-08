@@ -3,9 +3,9 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**state_machine_state** | [**\Swagger\Client\Model\OrderTransactionRelationshipsStateMachineState**](OrderTransactionRelationshipsStateMachineState.md) |  | [optional] 
-**order** | [**\Swagger\Client\Model\OrderTransactionRelationshipsOrder**](OrderTransactionRelationshipsOrder.md) |  | [optional] 
-**payment_method** | [**\Swagger\Client\Model\OrderTransactionRelationshipsPaymentMethod**](OrderTransactionRelationshipsPaymentMethod.md) |  | [optional] 
+**state_machine_state** | [**\ShopwareSDK6\Model\OrderTransactionRelationshipsStateMachineState**](OrderTransactionRelationshipsStateMachineState.md) |  | [optional] 
+**order** | [**\ShopwareSDK6\Model\OrderTransactionRelationshipsOrder**](OrderTransactionRelationshipsOrder.md) |  | [optional] 
+**payment_method** | [**\ShopwareSDK6\Model\OrderTransactionRelationshipsPaymentMethod**](OrderTransactionRelationshipsPaymentMethod.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

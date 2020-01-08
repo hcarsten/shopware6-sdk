@@ -18,9 +18,9 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**page** | [**\Swagger\Client\Model\CmsPageFlat**](CmsPageFlat.md) |  | [optional] 
-**background_media** | [**\Swagger\Client\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**blocks** | [**\Swagger\Client\Model\CmsBlockFlat**](CmsBlockFlat.md) |  | [optional] 
+**page** | [**\ShopwareSDK6\Model\CmsPageFlat**](CmsPageFlat.md) |  | [optional] 
+**background_media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**blocks** | [**\ShopwareSDK6\Model\CmsBlockFlat**](CmsBlockFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

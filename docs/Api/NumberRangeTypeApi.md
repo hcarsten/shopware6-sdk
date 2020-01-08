@@ -1,4 +1,4 @@
-# Swagger\Client\NumberRangeTypeApi
+# ShopwareSDK6\NumberRangeTypeApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateNumberRangeType**](NumberRangeTypeApi.md#updatenumberrangetype) | **PATCH** /number-range-type/{id} | Partially update information about a Number Range Type resource
 
 # **createNumberRangeType**
-> \Swagger\Client\Model\InlineResponse200144 createNumberRangeType($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200144 createNumberRangeType($body, $_response)
 
 Create a new Number Range Type resources
 
@@ -22,12 +22,12 @@ Create a new Number Range Type resources. All required fields must be provided i
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeTypeApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body94(); // \Swagger\Client\Model\Body94 | 
+$body = new \ShopwareSDK6\Model\Body94(); // \ShopwareSDK6\Model\Body94 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body94**](../Model/Body94.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body94**](../Model/Body94.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
+[**\ShopwareSDK6\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createNumberRangeType**
-> \Swagger\Client\Model\InlineResponse200144 createNumberRangeType($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200144 createNumberRangeType($body, $_response)
 
 Create a new Number Range Type resources
 
@@ -73,12 +73,12 @@ Create a new Number Range Type resources. All required fields must be provided i
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeTypeApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\NumberRangeTypeFlat(); // \Swagger\Client\Model\NumberRangeTypeFlat | 
+$body = new \ShopwareSDK6\Model\NumberRangeTypeFlat(); // \ShopwareSDK6\Model\NumberRangeTypeFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\NumberRangeTypeFlat**](../Model/NumberRangeTypeFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\NumberRangeTypeFlat**](../Model/NumberRangeTypeFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
+[**\ShopwareSDK6\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Number Range Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeTypeApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNumberRangeType**
-> \Swagger\Client\Model\InlineResponse200144 getNumberRangeType($id)
+> \ShopwareSDK6\Model\InlineResponse200144 getNumberRangeType($id)
 
 Detailed information about a Number Range Type resource
 
@@ -170,7 +170,7 @@ Detailed information about a Number Range Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeTypeApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
+[**\ShopwareSDK6\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNumberRangeTypeList**
-> \Swagger\Client\Model\InlineResponse200142 getNumberRangeTypeList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200142 getNumberRangeTypeList($limit, $page, $query)
 
 List with basic information of Number Range Type resources
 
@@ -217,7 +217,7 @@ List with basic information of Number Range Type resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeTypeApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200142**](../Model/InlineResponse200142.md)
+[**\ShopwareSDK6\Model\InlineResponse200142**](../Model/InlineResponse200142.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateNumberRangeType**
-> \Swagger\Client\Model\InlineResponse200144 updateNumberRangeType($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200144 updateNumberRangeType($id, $body, $_response)
 
 Partially update information about a Number Range Type resource
 
@@ -268,13 +268,13 @@ Partially update information about a Number Range Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeTypeApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the number_range_type
-$body = new \Swagger\Client\Model\Body95(); // \Swagger\Client\Model\Body95 | Partially update information about a Number Range Type resource.
+$body = new \ShopwareSDK6\Model\Body95(); // \ShopwareSDK6\Model\Body95 | Partially update information about a Number Range Type resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the number_range_type |
- **body** | [**\Swagger\Client\Model\Body95**](../Model/Body95.md)| Partially update information about a Number Range Type resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body95**](../Model/Body95.md)| Partially update information about a Number Range Type resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
+[**\ShopwareSDK6\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateNumberRangeType**
-> \Swagger\Client\Model\InlineResponse200144 updateNumberRangeType($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200144 updateNumberRangeType($id, $body, $_response)
 
 Partially update information about a Number Range Type resource
 
@@ -319,13 +319,13 @@ Partially update information about a Number Range Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeTypeApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the number_range_type
-$body = new \Swagger\Client\Model\NumberRangeTypeFlat(); // \Swagger\Client\Model\NumberRangeTypeFlat | Partially update information about a Number Range Type resource.
+$body = new \ShopwareSDK6\Model\NumberRangeTypeFlat(); // \ShopwareSDK6\Model\NumberRangeTypeFlat | Partially update information about a Number Range Type resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the number_range_type |
- **body** | [**\Swagger\Client\Model\NumberRangeTypeFlat**](../Model/NumberRangeTypeFlat.md)| Partially update information about a Number Range Type resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\NumberRangeTypeFlat**](../Model/NumberRangeTypeFlat.md)| Partially update information about a Number Range Type resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
+[**\ShopwareSDK6\Model\InlineResponse200144**](../Model/InlineResponse200144.md)
 
 ### Authorization
 

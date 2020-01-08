@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MessageQueueStats Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MessageQueueStats extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\MessageQueueStatsAttributes',
-'links' => '\Swagger\Client\Model\MessageQueueStatsLinks'    ];
+'attributes' => '\ShopwareSDK6\Model\MessageQueueStatsAttributes',
+'links' => '\ShopwareSDK6\Model\MessageQueueStatsLinks'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -259,7 +259,7 @@ class MessageQueueStats extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\MessageQueueStatsAttributes
+     * @return \ShopwareSDK6\Model\MessageQueueStatsAttributes
      */
     public function getAttributes()
     {
@@ -269,7 +269,7 @@ class MessageQueueStats extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\MessageQueueStatsAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\MessageQueueStatsAttributes $attributes attributes
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class MessageQueueStats extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MessageQueueStatsLinks
+     * @return \ShopwareSDK6\Model\MessageQueueStatsLinks
      */
     public function getLinks()
     {
@@ -293,7 +293,7 @@ class MessageQueueStats extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MessageQueueStatsLinks $links links
+     * @param \ShopwareSDK6\Model\MessageQueueStatsLinks $links links
      *
      * @return $this
      */

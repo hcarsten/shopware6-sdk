@@ -1,4 +1,4 @@
-# Swagger\Client\CustomFieldApi
+# ShopwareSDK6\CustomFieldApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCustomField**](CustomFieldApi.md#updatecustomfield) | **PATCH** /custom-field/{id} | Partially update information about a Custom Field resource
 
 # **createCustomField**
-> \Swagger\Client\Model\InlineResponse20033 createCustomField($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20033 createCustomField($body, $_response)
 
 Create a new Custom Field resources
 
@@ -22,12 +22,12 @@ Create a new Custom Field resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomFieldApi(
+$apiInstance = new ShopwareSDK6\Api\CustomFieldApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body20(); // \Swagger\Client\Model\Body20 | 
+$body = new \ShopwareSDK6\Model\Body20(); // \ShopwareSDK6\Model\Body20 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body20**](../Model/Body20.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body20**](../Model/Body20.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
+[**\ShopwareSDK6\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCustomField**
-> \Swagger\Client\Model\InlineResponse20033 createCustomField($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20033 createCustomField($body, $_response)
 
 Create a new Custom Field resources
 
@@ -73,12 +73,12 @@ Create a new Custom Field resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomFieldApi(
+$apiInstance = new ShopwareSDK6\Api\CustomFieldApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\CustomFieldFlat(); // \Swagger\Client\Model\CustomFieldFlat | 
+$body = new \ShopwareSDK6\Model\CustomFieldFlat(); // \ShopwareSDK6\Model\CustomFieldFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\CustomFieldFlat**](../Model/CustomFieldFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\CustomFieldFlat**](../Model/CustomFieldFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
+[**\ShopwareSDK6\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Custom Field resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomFieldApi(
+$apiInstance = new ShopwareSDK6\Api\CustomFieldApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCustomField**
-> \Swagger\Client\Model\InlineResponse20033 getCustomField($id)
+> \ShopwareSDK6\Model\InlineResponse20033 getCustomField($id)
 
 Detailed information about a Custom Field resource
 
@@ -170,7 +170,7 @@ Detailed information about a Custom Field resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomFieldApi(
+$apiInstance = new ShopwareSDK6\Api\CustomFieldApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
+[**\ShopwareSDK6\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCustomFieldList**
-> \Swagger\Client\Model\InlineResponse20031 getCustomFieldList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20031 getCustomFieldList($limit, $page, $query)
 
 List with basic information of Custom Field resources
 
@@ -217,7 +217,7 @@ List with basic information of Custom Field resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomFieldApi(
+$apiInstance = new ShopwareSDK6\Api\CustomFieldApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20031**](../Model/InlineResponse20031.md)
+[**\ShopwareSDK6\Model\InlineResponse20031**](../Model/InlineResponse20031.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCustomField**
-> \Swagger\Client\Model\InlineResponse20033 updateCustomField($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20033 updateCustomField($id, $body, $_response)
 
 Partially update information about a Custom Field resource
 
@@ -268,13 +268,13 @@ Partially update information about a Custom Field resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomFieldApi(
+$apiInstance = new ShopwareSDK6\Api\CustomFieldApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the custom_field
-$body = new \Swagger\Client\Model\Body21(); // \Swagger\Client\Model\Body21 | Partially update information about a Custom Field resource.
+$body = new \ShopwareSDK6\Model\Body21(); // \ShopwareSDK6\Model\Body21 | Partially update information about a Custom Field resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the custom_field |
- **body** | [**\Swagger\Client\Model\Body21**](../Model/Body21.md)| Partially update information about a Custom Field resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body21**](../Model/Body21.md)| Partially update information about a Custom Field resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
+[**\ShopwareSDK6\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCustomField**
-> \Swagger\Client\Model\InlineResponse20033 updateCustomField($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20033 updateCustomField($id, $body, $_response)
 
 Partially update information about a Custom Field resource
 
@@ -319,13 +319,13 @@ Partially update information about a Custom Field resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomFieldApi(
+$apiInstance = new ShopwareSDK6\Api\CustomFieldApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the custom_field
-$body = new \Swagger\Client\Model\CustomFieldFlat(); // \Swagger\Client\Model\CustomFieldFlat | Partially update information about a Custom Field resource.
+$body = new \ShopwareSDK6\Model\CustomFieldFlat(); // \ShopwareSDK6\Model\CustomFieldFlat | Partially update information about a Custom Field resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the custom_field |
- **body** | [**\Swagger\Client\Model\CustomFieldFlat**](../Model/CustomFieldFlat.md)| Partially update information about a Custom Field resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\CustomFieldFlat**](../Model/CustomFieldFlat.md)| Partially update information about a Custom Field resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
+[**\ShopwareSDK6\Model\InlineResponse20033**](../Model/InlineResponse20033.md)
 
 ### Authorization
 

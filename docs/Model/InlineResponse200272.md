@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **total** | **int** |  | [optional] 
-**data** | [**\Swagger\Client\Model\SnippetSetFlat[]**](SnippetSetFlat.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\SnippetSetFlat[]**](SnippetSetFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

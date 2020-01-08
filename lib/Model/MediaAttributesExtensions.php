@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaAttributesExtensions Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaAttributesExtensions implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'themes' => '\Swagger\Client\Model\MediaAttributesExtensionsThemes',
-'theme_media' => '\Swagger\Client\Model\MediaAttributesExtensionsThemeMedia'    ];
+        'themes' => '\ShopwareSDK6\Model\MediaAttributesExtensionsThemes',
+'theme_media' => '\ShopwareSDK6\Model\MediaAttributesExtensionsThemeMedia'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaAttributesExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets themes
      *
-     * @return \Swagger\Client\Model\MediaAttributesExtensionsThemes
+     * @return \ShopwareSDK6\Model\MediaAttributesExtensionsThemes
      */
     public function getThemes()
     {
@@ -215,7 +215,7 @@ class MediaAttributesExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets themes
      *
-     * @param \Swagger\Client\Model\MediaAttributesExtensionsThemes $themes themes
+     * @param \ShopwareSDK6\Model\MediaAttributesExtensionsThemes $themes themes
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaAttributesExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets theme_media
      *
-     * @return \Swagger\Client\Model\MediaAttributesExtensionsThemeMedia
+     * @return \ShopwareSDK6\Model\MediaAttributesExtensionsThemeMedia
      */
     public function getThemeMedia()
     {
@@ -239,7 +239,7 @@ class MediaAttributesExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets theme_media
      *
-     * @param \Swagger\Client\Model\MediaAttributesExtensionsThemeMedia $theme_media theme_media
+     * @param \ShopwareSDK6\Model\MediaAttributesExtensionsThemeMedia $theme_media theme_media
      *
      * @return $this
      */

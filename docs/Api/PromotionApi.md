@@ -1,4 +1,4 @@
-# Swagger\Client\PromotionApi
+# ShopwareSDK6\PromotionApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updatePromotion**](PromotionApi.md#updatepromotion) | **PATCH** /promotion/{id} | Partially update information about a Promotion resource
 
 # **createPromotion**
-> \Swagger\Client\Model\InlineResponse200213 createPromotion($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200213 createPromotion($body, $_response)
 
 Create a new Promotion resources
 
@@ -22,12 +22,12 @@ Create a new Promotion resources. All required fields must be provided in order 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PromotionApi(
+$apiInstance = new ShopwareSDK6\Api\PromotionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body140(); // \Swagger\Client\Model\Body140 | 
+$body = new \ShopwareSDK6\Model\Body140(); // \ShopwareSDK6\Model\Body140 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body140**](../Model/Body140.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body140**](../Model/Body140.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
+[**\ShopwareSDK6\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createPromotion**
-> \Swagger\Client\Model\InlineResponse200213 createPromotion($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200213 createPromotion($body, $_response)
 
 Create a new Promotion resources
 
@@ -73,12 +73,12 @@ Create a new Promotion resources. All required fields must be provided in order 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PromotionApi(
+$apiInstance = new ShopwareSDK6\Api\PromotionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\PromotionFlat(); // \Swagger\Client\Model\PromotionFlat | 
+$body = new \ShopwareSDK6\Model\PromotionFlat(); // \ShopwareSDK6\Model\PromotionFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\PromotionFlat**](../Model/PromotionFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\PromotionFlat**](../Model/PromotionFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
+[**\ShopwareSDK6\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Promotion resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PromotionApi(
+$apiInstance = new ShopwareSDK6\Api\PromotionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPromotion**
-> \Swagger\Client\Model\InlineResponse200213 getPromotion($id)
+> \ShopwareSDK6\Model\InlineResponse200213 getPromotion($id)
 
 Detailed information about a Promotion resource
 
@@ -170,7 +170,7 @@ Detailed information about a Promotion resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PromotionApi(
+$apiInstance = new ShopwareSDK6\Api\PromotionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
+[**\ShopwareSDK6\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPromotionList**
-> \Swagger\Client\Model\InlineResponse200211 getPromotionList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200211 getPromotionList($limit, $page, $query)
 
 List with basic information of Promotion resources
 
@@ -217,7 +217,7 @@ List with basic information of Promotion resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PromotionApi(
+$apiInstance = new ShopwareSDK6\Api\PromotionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200211**](../Model/InlineResponse200211.md)
+[**\ShopwareSDK6\Model\InlineResponse200211**](../Model/InlineResponse200211.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePromotion**
-> \Swagger\Client\Model\InlineResponse200213 updatePromotion($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200213 updatePromotion($id, $body, $_response)
 
 Partially update information about a Promotion resource
 
@@ -268,13 +268,13 @@ Partially update information about a Promotion resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PromotionApi(
+$apiInstance = new ShopwareSDK6\Api\PromotionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the promotion
-$body = new \Swagger\Client\Model\Body141(); // \Swagger\Client\Model\Body141 | Partially update information about a Promotion resource.
+$body = new \ShopwareSDK6\Model\Body141(); // \ShopwareSDK6\Model\Body141 | Partially update information about a Promotion resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the promotion |
- **body** | [**\Swagger\Client\Model\Body141**](../Model/Body141.md)| Partially update information about a Promotion resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body141**](../Model/Body141.md)| Partially update information about a Promotion resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
+[**\ShopwareSDK6\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePromotion**
-> \Swagger\Client\Model\InlineResponse200213 updatePromotion($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200213 updatePromotion($id, $body, $_response)
 
 Partially update information about a Promotion resource
 
@@ -319,13 +319,13 @@ Partially update information about a Promotion resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PromotionApi(
+$apiInstance = new ShopwareSDK6\Api\PromotionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the promotion
-$body = new \Swagger\Client\Model\PromotionFlat(); // \Swagger\Client\Model\PromotionFlat | Partially update information about a Promotion resource.
+$body = new \ShopwareSDK6\Model\PromotionFlat(); // \ShopwareSDK6\Model\PromotionFlat | Partially update information about a Promotion resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the promotion |
- **body** | [**\Swagger\Client\Model\PromotionFlat**](../Model/PromotionFlat.md)| Partially update information about a Promotion resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\PromotionFlat**](../Model/PromotionFlat.md)| Partially update information about a Promotion resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
+[**\ShopwareSDK6\Model\InlineResponse200213**](../Model/InlineResponse200213.md)
 
 ### Authorization
 

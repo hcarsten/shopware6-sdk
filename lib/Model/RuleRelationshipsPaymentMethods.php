@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * RuleRelationshipsPaymentMethods Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class RuleRelationshipsPaymentMethods implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\RuleRelationshipsPaymentMethodsLinks',
-'data' => '\Swagger\Client\Model\RuleRelationshipsPaymentMethodsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\RuleRelationshipsPaymentMethodsLinks',
+'data' => '\ShopwareSDK6\Model\RuleRelationshipsPaymentMethodsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class RuleRelationshipsPaymentMethods implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\RuleRelationshipsPaymentMethodsLinks
+     * @return \ShopwareSDK6\Model\RuleRelationshipsPaymentMethodsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class RuleRelationshipsPaymentMethods implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\RuleRelationshipsPaymentMethodsLinks $links links
+     * @param \ShopwareSDK6\Model\RuleRelationshipsPaymentMethodsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class RuleRelationshipsPaymentMethods implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\RuleRelationshipsPaymentMethodsData[]
+     * @return \ShopwareSDK6\Model\RuleRelationshipsPaymentMethodsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class RuleRelationshipsPaymentMethods implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\RuleRelationshipsPaymentMethodsData[] $data data
+     * @param \ShopwareSDK6\Model\RuleRelationshipsPaymentMethodsData[] $data data
      *
      * @return $this
      */

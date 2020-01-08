@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * InlineResponse200279 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -54,7 +54,7 @@ class InlineResponse200279 extends Success
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\StateMachineHistory'    ];
+        'data' => '\ShopwareSDK6\Model\StateMachineHistory'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -193,7 +193,7 @@ class InlineResponse200279 extends Success
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\StateMachineHistory
+     * @return \ShopwareSDK6\Model\StateMachineHistory
      */
     public function getData()
     {
@@ -203,7 +203,7 @@ class InlineResponse200279 extends Success
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\StateMachineHistory $data data
+     * @param \ShopwareSDK6\Model\StateMachineHistory $data data
      *
      * @return $this
      */

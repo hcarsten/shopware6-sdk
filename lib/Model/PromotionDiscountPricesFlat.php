@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionDiscountPricesFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,8 +62,8 @@ class PromotionDiscountPricesFlat implements ModelInterface, ArrayAccess
 'price' => 'float',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'promotion_discount' => '\Swagger\Client\Model\PromotionDiscountFlat',
-'currency' => '\Swagger\Client\Model\CurrencyFlat'    ];
+'promotion_discount' => '\ShopwareSDK6\Model\PromotionDiscountFlat',
+'currency' => '\ShopwareSDK6\Model\CurrencyFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -400,7 +400,7 @@ class PromotionDiscountPricesFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_discount
      *
-     * @return \Swagger\Client\Model\PromotionDiscountFlat
+     * @return \ShopwareSDK6\Model\PromotionDiscountFlat
      */
     public function getPromotionDiscount()
     {
@@ -410,7 +410,7 @@ class PromotionDiscountPricesFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_discount
      *
-     * @param \Swagger\Client\Model\PromotionDiscountFlat $promotion_discount promotion_discount
+     * @param \ShopwareSDK6\Model\PromotionDiscountFlat $promotion_discount promotion_discount
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class PromotionDiscountPricesFlat implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\CurrencyFlat
+     * @return \ShopwareSDK6\Model\CurrencyFlat
      */
     public function getCurrency()
     {
@@ -434,7 +434,7 @@ class PromotionDiscountPricesFlat implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\CurrencyFlat $currency currency
+     * @param \ShopwareSDK6\Model\CurrencyFlat $currency currency
      *
      * @return $this
      */

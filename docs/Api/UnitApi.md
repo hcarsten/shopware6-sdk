@@ -1,4 +1,4 @@
-# Swagger\Client\UnitApi
+# ShopwareSDK6\UnitApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateUnit**](UnitApi.md#updateunit) | **PATCH** /unit/{id} | Partially update information about a Unit resource
 
 # **createUnit**
-> \Swagger\Client\Model\InlineResponse200306 createUnit($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200306 createUnit($body, $_response)
 
 Create a new Unit resources
 
@@ -22,12 +22,12 @@ Create a new Unit resources. All required fields must be provided in order to cr
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UnitApi(
+$apiInstance = new ShopwareSDK6\Api\UnitApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body202(); // \Swagger\Client\Model\Body202 | 
+$body = new \ShopwareSDK6\Model\Body202(); // \ShopwareSDK6\Model\Body202 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body202**](../Model/Body202.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body202**](../Model/Body202.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
+[**\ShopwareSDK6\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createUnit**
-> \Swagger\Client\Model\InlineResponse200306 createUnit($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200306 createUnit($body, $_response)
 
 Create a new Unit resources
 
@@ -73,12 +73,12 @@ Create a new Unit resources. All required fields must be provided in order to cr
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UnitApi(
+$apiInstance = new ShopwareSDK6\Api\UnitApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\UnitFlat(); // \Swagger\Client\Model\UnitFlat | 
+$body = new \ShopwareSDK6\Model\UnitFlat(); // \ShopwareSDK6\Model\UnitFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\UnitFlat**](../Model/UnitFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\UnitFlat**](../Model/UnitFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
+[**\ShopwareSDK6\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Unit resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UnitApi(
+$apiInstance = new ShopwareSDK6\Api\UnitApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUnit**
-> \Swagger\Client\Model\InlineResponse200306 getUnit($id)
+> \ShopwareSDK6\Model\InlineResponse200306 getUnit($id)
 
 Detailed information about a Unit resource
 
@@ -170,7 +170,7 @@ Detailed information about a Unit resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UnitApi(
+$apiInstance = new ShopwareSDK6\Api\UnitApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
+[**\ShopwareSDK6\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUnitList**
-> \Swagger\Client\Model\InlineResponse200304 getUnitList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200304 getUnitList($limit, $page, $query)
 
 List with basic information of Unit resources
 
@@ -217,7 +217,7 @@ List with basic information of Unit resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UnitApi(
+$apiInstance = new ShopwareSDK6\Api\UnitApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200304**](../Model/InlineResponse200304.md)
+[**\ShopwareSDK6\Model\InlineResponse200304**](../Model/InlineResponse200304.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateUnit**
-> \Swagger\Client\Model\InlineResponse200306 updateUnit($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200306 updateUnit($id, $body, $_response)
 
 Partially update information about a Unit resource
 
@@ -268,13 +268,13 @@ Partially update information about a Unit resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UnitApi(
+$apiInstance = new ShopwareSDK6\Api\UnitApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the unit
-$body = new \Swagger\Client\Model\Body203(); // \Swagger\Client\Model\Body203 | Partially update information about a Unit resource.
+$body = new \ShopwareSDK6\Model\Body203(); // \ShopwareSDK6\Model\Body203 | Partially update information about a Unit resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the unit |
- **body** | [**\Swagger\Client\Model\Body203**](../Model/Body203.md)| Partially update information about a Unit resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body203**](../Model/Body203.md)| Partially update information about a Unit resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
+[**\ShopwareSDK6\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateUnit**
-> \Swagger\Client\Model\InlineResponse200306 updateUnit($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200306 updateUnit($id, $body, $_response)
 
 Partially update information about a Unit resource
 
@@ -319,13 +319,13 @@ Partially update information about a Unit resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\UnitApi(
+$apiInstance = new ShopwareSDK6\Api\UnitApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the unit
-$body = new \Swagger\Client\Model\UnitFlat(); // \Swagger\Client\Model\UnitFlat | Partially update information about a Unit resource.
+$body = new \ShopwareSDK6\Model\UnitFlat(); // \ShopwareSDK6\Model\UnitFlat | Partially update information about a Unit resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the unit |
- **body** | [**\Swagger\Client\Model\UnitFlat**](../Model/UnitFlat.md)| Partially update information about a Unit resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\UnitFlat**](../Model/UnitFlat.md)| Partially update information about a Unit resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
+[**\ShopwareSDK6\Model\InlineResponse200306**](../Model/InlineResponse200306.md)
 
 ### Authorization
 

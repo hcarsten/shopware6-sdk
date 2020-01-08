@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DeadMessageFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -69,7 +69,7 @@ class DeadMessageFlat implements ModelInterface, ArrayAccess
 'scheduled_task_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'scheduled_task' => '\Swagger\Client\Model\ScheduledTaskFlat'    ];
+'scheduled_task' => '\ShopwareSDK6\Model\ScheduledTaskFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -622,7 +622,7 @@ class DeadMessageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets scheduled_task
      *
-     * @return \Swagger\Client\Model\ScheduledTaskFlat
+     * @return \ShopwareSDK6\Model\ScheduledTaskFlat
      */
     public function getScheduledTask()
     {
@@ -632,7 +632,7 @@ class DeadMessageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets scheduled_task
      *
-     * @param \Swagger\Client\Model\ScheduledTaskFlat $scheduled_task scheduled_task
+     * @param \ShopwareSDK6\Model\ScheduledTaskFlat $scheduled_task scheduled_task
      *
      * @return $this
      */

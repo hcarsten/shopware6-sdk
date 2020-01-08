@@ -1,4 +1,4 @@
-# Swagger\Client\ProductExportApi
+# ShopwareSDK6\ProductExportApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProductExport**](ProductExportApi.md#updateproductexport) | **PATCH** /product-export/{id} | Partially update information about a Product Export resource
 
 # **createProductExport**
-> \Swagger\Client\Model\InlineResponse200183 createProductExport($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200183 createProductExport($body, $_response)
 
 Create a new Product Export resources
 
@@ -22,12 +22,12 @@ Create a new Product Export resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductExportApi(
+$apiInstance = new ShopwareSDK6\Api\ProductExportApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body120(); // \Swagger\Client\Model\Body120 | 
+$body = new \ShopwareSDK6\Model\Body120(); // \ShopwareSDK6\Model\Body120 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body120**](../Model/Body120.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body120**](../Model/Body120.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
+[**\ShopwareSDK6\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProductExport**
-> \Swagger\Client\Model\InlineResponse200183 createProductExport($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200183 createProductExport($body, $_response)
 
 Create a new Product Export resources
 
@@ -73,12 +73,12 @@ Create a new Product Export resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductExportApi(
+$apiInstance = new ShopwareSDK6\Api\ProductExportApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\ProductExportFlat(); // \Swagger\Client\Model\ProductExportFlat | 
+$body = new \ShopwareSDK6\Model\ProductExportFlat(); // \ShopwareSDK6\Model\ProductExportFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ProductExportFlat**](../Model/ProductExportFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductExportFlat**](../Model/ProductExportFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
+[**\ShopwareSDK6\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product Export resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductExportApi(
+$apiInstance = new ShopwareSDK6\Api\ProductExportApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductExport**
-> \Swagger\Client\Model\InlineResponse200183 getProductExport($id)
+> \ShopwareSDK6\Model\InlineResponse200183 getProductExport($id)
 
 Detailed information about a Product Export resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product Export resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductExportApi(
+$apiInstance = new ShopwareSDK6\Api\ProductExportApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
+[**\ShopwareSDK6\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductExportList**
-> \Swagger\Client\Model\InlineResponse200181 getProductExportList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200181 getProductExportList($limit, $page, $query)
 
 List with basic information of Product Export resources
 
@@ -217,7 +217,7 @@ List with basic information of Product Export resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductExportApi(
+$apiInstance = new ShopwareSDK6\Api\ProductExportApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200181**](../Model/InlineResponse200181.md)
+[**\ShopwareSDK6\Model\InlineResponse200181**](../Model/InlineResponse200181.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductExport**
-> \Swagger\Client\Model\InlineResponse200183 updateProductExport($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200183 updateProductExport($id, $body, $_response)
 
 Partially update information about a Product Export resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product Export resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductExportApi(
+$apiInstance = new ShopwareSDK6\Api\ProductExportApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_export
-$body = new \Swagger\Client\Model\Body121(); // \Swagger\Client\Model\Body121 | Partially update information about a Product Export resource.
+$body = new \ShopwareSDK6\Model\Body121(); // \ShopwareSDK6\Model\Body121 | Partially update information about a Product Export resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_export |
- **body** | [**\Swagger\Client\Model\Body121**](../Model/Body121.md)| Partially update information about a Product Export resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body121**](../Model/Body121.md)| Partially update information about a Product Export resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
+[**\ShopwareSDK6\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductExport**
-> \Swagger\Client\Model\InlineResponse200183 updateProductExport($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200183 updateProductExport($id, $body, $_response)
 
 Partially update information about a Product Export resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product Export resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductExportApi(
+$apiInstance = new ShopwareSDK6\Api\ProductExportApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_export
-$body = new \Swagger\Client\Model\ProductExportFlat(); // \Swagger\Client\Model\ProductExportFlat | Partially update information about a Product Export resource.
+$body = new \ShopwareSDK6\Model\ProductExportFlat(); // \ShopwareSDK6\Model\ProductExportFlat | Partially update information about a Product Export resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_export |
- **body** | [**\Swagger\Client\Model\ProductExportFlat**](../Model/ProductExportFlat.md)| Partially update information about a Product Export resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductExportFlat**](../Model/ProductExportFlat.md)| Partially update information about a Product Export resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
+[**\ShopwareSDK6\Model\InlineResponse200183**](../Model/InlineResponse200183.md)
 
 ### Authorization
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderAddress Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class OrderAddress extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\OrderAddressAttributes',
-'links' => '\Swagger\Client\Model\OrderAddressLinks',
-'relationships' => '\Swagger\Client\Model\OrderAddressRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\OrderAddressAttributes',
+'links' => '\ShopwareSDK6\Model\OrderAddressLinks',
+'relationships' => '\ShopwareSDK6\Model\OrderAddressRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class OrderAddress extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\OrderAddressAttributes
+     * @return \ShopwareSDK6\Model\OrderAddressAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class OrderAddress extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\OrderAddressAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\OrderAddressAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class OrderAddress extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderAddressLinks
+     * @return \ShopwareSDK6\Model\OrderAddressLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class OrderAddress extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderAddressLinks $links links
+     * @param \ShopwareSDK6\Model\OrderAddressLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class OrderAddress extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\OrderAddressRelationships
+     * @return \ShopwareSDK6\Model\OrderAddressRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class OrderAddress extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\OrderAddressRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\OrderAddressRelationships $relationships relationships
      *
      * @return $this
      */

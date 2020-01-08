@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CmsBlockRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CmsBlockRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'section' => '\Swagger\Client\Model\CmsBlockRelationshipsSection',
-'background_media' => '\Swagger\Client\Model\CmsBlockRelationshipsBackgroundMedia',
-'slots' => '\Swagger\Client\Model\CmsBlockRelationshipsSlots'    ];
+        'section' => '\ShopwareSDK6\Model\CmsBlockRelationshipsSection',
+'background_media' => '\ShopwareSDK6\Model\CmsBlockRelationshipsBackgroundMedia',
+'slots' => '\ShopwareSDK6\Model\CmsBlockRelationshipsSlots'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class CmsBlockRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets section
      *
-     * @return \Swagger\Client\Model\CmsBlockRelationshipsSection
+     * @return \ShopwareSDK6\Model\CmsBlockRelationshipsSection
      */
     public function getSection()
     {
@@ -221,7 +221,7 @@ class CmsBlockRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets section
      *
-     * @param \Swagger\Client\Model\CmsBlockRelationshipsSection $section section
+     * @param \ShopwareSDK6\Model\CmsBlockRelationshipsSection $section section
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class CmsBlockRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets background_media
      *
-     * @return \Swagger\Client\Model\CmsBlockRelationshipsBackgroundMedia
+     * @return \ShopwareSDK6\Model\CmsBlockRelationshipsBackgroundMedia
      */
     public function getBackgroundMedia()
     {
@@ -245,7 +245,7 @@ class CmsBlockRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets background_media
      *
-     * @param \Swagger\Client\Model\CmsBlockRelationshipsBackgroundMedia $background_media background_media
+     * @param \ShopwareSDK6\Model\CmsBlockRelationshipsBackgroundMedia $background_media background_media
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class CmsBlockRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets slots
      *
-     * @return \Swagger\Client\Model\CmsBlockRelationshipsSlots
+     * @return \ShopwareSDK6\Model\CmsBlockRelationshipsSlots
      */
     public function getSlots()
     {
@@ -269,7 +269,7 @@ class CmsBlockRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets slots
      *
-     * @param \Swagger\Client\Model\CmsBlockRelationshipsSlots $slots slots
+     * @param \ShopwareSDK6\Model\CmsBlockRelationshipsSlots $slots slots
      *
      * @return $this
      */

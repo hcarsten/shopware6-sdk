@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PropertyGroup Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class PropertyGroup extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\PropertyGroupAttributes',
-'links' => '\Swagger\Client\Model\PropertyGroupLinks',
-'relationships' => '\Swagger\Client\Model\PropertyGroupRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\PropertyGroupAttributes',
+'links' => '\ShopwareSDK6\Model\PropertyGroupLinks',
+'relationships' => '\ShopwareSDK6\Model\PropertyGroupRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class PropertyGroup extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\PropertyGroupAttributes
+     * @return \ShopwareSDK6\Model\PropertyGroupAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class PropertyGroup extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\PropertyGroupAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\PropertyGroupAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class PropertyGroup extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PropertyGroupLinks
+     * @return \ShopwareSDK6\Model\PropertyGroupLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class PropertyGroup extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PropertyGroupLinks $links links
+     * @param \ShopwareSDK6\Model\PropertyGroupLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class PropertyGroup extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\PropertyGroupRelationships
+     * @return \ShopwareSDK6\Model\PropertyGroupRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class PropertyGroup extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\PropertyGroupRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\PropertyGroupRelationships $relationships relationships
      *
      * @return $this
      */

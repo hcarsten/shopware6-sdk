@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * TaxRelationshipsRules Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class TaxRelationshipsRules implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\TaxRelationshipsRulesLinks',
-'data' => '\Swagger\Client\Model\TaxRelationshipsRulesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\TaxRelationshipsRulesLinks',
+'data' => '\ShopwareSDK6\Model\TaxRelationshipsRulesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class TaxRelationshipsRules implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\TaxRelationshipsRulesLinks
+     * @return \ShopwareSDK6\Model\TaxRelationshipsRulesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class TaxRelationshipsRules implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\TaxRelationshipsRulesLinks $links links
+     * @param \ShopwareSDK6\Model\TaxRelationshipsRulesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class TaxRelationshipsRules implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\TaxRelationshipsRulesData[]
+     * @return \ShopwareSDK6\Model\TaxRelationshipsRulesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class TaxRelationshipsRules implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\TaxRelationshipsRulesData[] $data data
+     * @param \ShopwareSDK6\Model\TaxRelationshipsRulesData[] $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DocumentBaseConfigSalesChannelRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'document_type' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType',
-'document_base_config' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig',
-'sales_channel' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel'    ];
+        'document_type' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType',
+'document_base_config' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig',
+'sales_channel' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Gets document_type
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType
      */
     public function getDocumentType()
     {
@@ -221,7 +221,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Sets document_type
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType $document_type document_type
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType $document_type document_type
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Gets document_base_config
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig
      */
     public function getDocumentBaseConfig()
     {
@@ -245,7 +245,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Sets document_base_config
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig $document_base_config document_base_config
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig $document_base_config document_base_config
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -269,7 +269,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */

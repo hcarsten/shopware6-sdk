@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ImportExportProfileFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,7 +66,7 @@ class ImportExportProfileFlat implements ModelInterface, ArrayAccess
 'mapping' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'import_export_logs' => '\Swagger\Client\Model\ImportExportLogFlat'    ];
+'import_export_logs' => '\ShopwareSDK6\Model\ImportExportLogFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -514,7 +514,7 @@ class ImportExportProfileFlat implements ModelInterface, ArrayAccess
     /**
      * Gets import_export_logs
      *
-     * @return \Swagger\Client\Model\ImportExportLogFlat
+     * @return \ShopwareSDK6\Model\ImportExportLogFlat
      */
     public function getImportExportLogs()
     {
@@ -524,7 +524,7 @@ class ImportExportProfileFlat implements ModelInterface, ArrayAccess
     /**
      * Sets import_export_logs
      *
-     * @param \Swagger\Client\Model\ImportExportLogFlat $import_export_logs import_export_logs
+     * @param \ShopwareSDK6\Model\ImportExportLogFlat $import_export_logs import_export_logs
      *
      * @return $this
      */

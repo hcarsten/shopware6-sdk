@@ -15,9 +15,9 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**product_stream** | [**\Swagger\Client\Model\ProductStreamFlat**](ProductStreamFlat.md) |  | [optional] 
-**parent** | [**\Swagger\Client\Model\ProductStreamFilterFlat**](ProductStreamFilterFlat.md) |  | [optional] 
-**queries** | [**\Swagger\Client\Model\ProductStreamFilterFlat**](ProductStreamFilterFlat.md) |  | [optional] 
+**product_stream** | [**\ShopwareSDK6\Model\ProductStreamFlat**](ProductStreamFlat.md) |  | [optional] 
+**parent** | [**\ShopwareSDK6\Model\ProductStreamFilterFlat**](ProductStreamFilterFlat.md) |  | [optional] 
+**queries** | [**\ShopwareSDK6\Model\ProductStreamFilterFlat**](ProductStreamFilterFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

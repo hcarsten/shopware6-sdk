@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\DocumentTypeRelationshipsDocumentsLinks**](DocumentTypeRelationshipsDocumentsLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\DocumentTypeRelationshipsDocumentsData[]**](DocumentTypeRelationshipsDocumentsData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\DocumentTypeRelationshipsDocumentsLinks**](DocumentTypeRelationshipsDocumentsLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\DocumentTypeRelationshipsDocumentsData[]**](DocumentTypeRelationshipsDocumentsData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

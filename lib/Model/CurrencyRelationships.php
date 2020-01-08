@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CurrencyRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,13 +56,13 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sales_channel_default_assignments' => '\Swagger\Client\Model\CurrencyRelationshipsSalesChannelDefaultAssignments',
-'orders' => '\Swagger\Client\Model\CurrencyRelationshipsOrders',
-'shipping_method_prices' => '\Swagger\Client\Model\CurrencyRelationshipsShippingMethodPrices',
-'sales_channels' => '\Swagger\Client\Model\CurrencyRelationshipsSalesChannels',
-'sales_channel_domains' => '\Swagger\Client\Model\CurrencyRelationshipsSalesChannelDomains',
-'promotion_discount_prices' => '\Swagger\Client\Model\CurrencyRelationshipsPromotionDiscountPrices',
-'product_exports' => '\Swagger\Client\Model\CurrencyRelationshipsProductExports'    ];
+        'sales_channel_default_assignments' => '\ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDefaultAssignments',
+'orders' => '\ShopwareSDK6\Model\CurrencyRelationshipsOrders',
+'shipping_method_prices' => '\ShopwareSDK6\Model\CurrencyRelationshipsShippingMethodPrices',
+'sales_channels' => '\ShopwareSDK6\Model\CurrencyRelationshipsSalesChannels',
+'sales_channel_domains' => '\ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDomains',
+'promotion_discount_prices' => '\ShopwareSDK6\Model\CurrencyRelationshipsPromotionDiscountPrices',
+'product_exports' => '\ShopwareSDK6\Model\CurrencyRelationshipsProductExports'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -235,7 +235,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsSalesChannelDefaultAssignments
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDefaultAssignments
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -245,7 +245,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsOrders
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsOrders
      */
     public function getOrders()
     {
@@ -269,7 +269,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsOrders $orders orders
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsOrders $orders orders
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method_prices
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsShippingMethodPrices
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsShippingMethodPrices
      */
     public function getShippingMethodPrices()
     {
@@ -293,7 +293,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method_prices
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsShippingMethodPrices $shipping_method_prices shipping_method_prices
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsShippingMethodPrices $shipping_method_prices shipping_method_prices
      *
      * @return $this
      */
@@ -307,7 +307,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsSalesChannels
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -317,7 +317,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_domains
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsSalesChannelDomains
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDomains
      */
     public function getSalesChannelDomains()
     {
@@ -341,7 +341,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_domains
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsSalesChannelDomains $sales_channel_domains sales_channel_domains
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDomains $sales_channel_domains sales_channel_domains
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_discount_prices
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsPromotionDiscountPrices
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsPromotionDiscountPrices
      */
     public function getPromotionDiscountPrices()
     {
@@ -365,7 +365,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_discount_prices
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsPromotionDiscountPrices $promotion_discount_prices promotion_discount_prices
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsPromotionDiscountPrices $promotion_discount_prices promotion_discount_prices
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_exports
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsProductExports
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsProductExports
      */
     public function getProductExports()
     {
@@ -389,7 +389,7 @@ class CurrencyRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_exports
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsProductExports $product_exports product_exports
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsProductExports $product_exports product_exports
      *
      * @return $this
      */

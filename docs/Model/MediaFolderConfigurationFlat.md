@@ -12,8 +12,8 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**media_folders** | [**\Swagger\Client\Model\MediaFolderFlat**](MediaFolderFlat.md) |  | [optional] 
-**media_thumbnail_sizes** | [**\Swagger\Client\Model\MediaThumbnailSizeFlat**](MediaThumbnailSizeFlat.md) |  | [optional] 
+**media_folders** | [**\ShopwareSDK6\Model\MediaFolderFlat**](MediaFolderFlat.md) |  | [optional] 
+**media_thumbnail_sizes** | [**\ShopwareSDK6\Model\MediaThumbnailSizeFlat**](MediaThumbnailSizeFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

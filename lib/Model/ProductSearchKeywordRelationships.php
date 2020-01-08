@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductSearchKeywordRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\Swagger\Client\Model\ProductSearchKeywordRelationshipsProduct',
-'language' => '\Swagger\Client\Model\ProductSearchKeywordRelationshipsLanguage'    ];
+        'product' => '\ShopwareSDK6\Model\ProductSearchKeywordRelationshipsProduct',
+'language' => '\ShopwareSDK6\Model\ProductSearchKeywordRelationshipsLanguage'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\ProductSearchKeywordRelationshipsProduct
+     * @return \ShopwareSDK6\Model\ProductSearchKeywordRelationshipsProduct
      */
     public function getProduct()
     {
@@ -215,7 +215,7 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\ProductSearchKeywordRelationshipsProduct $product product
+     * @param \ShopwareSDK6\Model\ProductSearchKeywordRelationshipsProduct $product product
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\ProductSearchKeywordRelationshipsLanguage
+     * @return \ShopwareSDK6\Model\ProductSearchKeywordRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -239,7 +239,7 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\ProductSearchKeywordRelationshipsLanguage $language language
+     * @param \ShopwareSDK6\Model\ProductSearchKeywordRelationshipsLanguage $language language
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderDeliveryPositionRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class OrderDeliveryPositionRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'order_delivery' => '\Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderDelivery',
-'order_line_item' => '\Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderLineItem'    ];
+        'order_delivery' => '\ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderDelivery',
+'order_line_item' => '\ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderLineItem'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class OrderDeliveryPositionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_delivery
      *
-     * @return \Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderDelivery
+     * @return \ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderDelivery
      */
     public function getOrderDelivery()
     {
@@ -215,7 +215,7 @@ class OrderDeliveryPositionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_delivery
      *
-     * @param \Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderDelivery $order_delivery order_delivery
+     * @param \ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderDelivery $order_delivery order_delivery
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class OrderDeliveryPositionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_line_item
      *
-     * @return \Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderLineItem
+     * @return \ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderLineItem
      */
     public function getOrderLineItem()
     {
@@ -239,7 +239,7 @@ class OrderDeliveryPositionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_line_item
      *
-     * @param \Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderLineItem $order_line_item order_line_item
+     * @param \ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderLineItem $order_line_item order_line_item
      *
      * @return $this
      */

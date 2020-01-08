@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CmsBlock Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CmsBlock extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\CmsBlockAttributes',
-'links' => '\Swagger\Client\Model\CmsBlockLinks',
-'relationships' => '\Swagger\Client\Model\CmsBlockRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\CmsBlockAttributes',
+'links' => '\ShopwareSDK6\Model\CmsBlockLinks',
+'relationships' => '\ShopwareSDK6\Model\CmsBlockRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CmsBlock extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\CmsBlockAttributes
+     * @return \ShopwareSDK6\Model\CmsBlockAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CmsBlock extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\CmsBlockAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\CmsBlockAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CmsBlock extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CmsBlockLinks
+     * @return \ShopwareSDK6\Model\CmsBlockLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CmsBlock extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CmsBlockLinks $links links
+     * @param \ShopwareSDK6\Model\CmsBlockLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CmsBlock extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\CmsBlockRelationships
+     * @return \ShopwareSDK6\Model\CmsBlockRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CmsBlock extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\CmsBlockRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\CmsBlockRelationships $relationships relationships
      *
      * @return $this
      */

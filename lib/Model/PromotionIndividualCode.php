@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionIndividualCode Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class PromotionIndividualCode extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\PromotionIndividualCodeAttributes',
-'links' => '\Swagger\Client\Model\PromotionIndividualCodeLinks',
-'relationships' => '\Swagger\Client\Model\PromotionIndividualCodeRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\PromotionIndividualCodeAttributes',
+'links' => '\ShopwareSDK6\Model\PromotionIndividualCodeLinks',
+'relationships' => '\ShopwareSDK6\Model\PromotionIndividualCodeRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class PromotionIndividualCode extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\PromotionIndividualCodeAttributes
+     * @return \ShopwareSDK6\Model\PromotionIndividualCodeAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class PromotionIndividualCode extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\PromotionIndividualCodeAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\PromotionIndividualCodeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class PromotionIndividualCode extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PromotionIndividualCodeLinks
+     * @return \ShopwareSDK6\Model\PromotionIndividualCodeLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class PromotionIndividualCode extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PromotionIndividualCodeLinks $links links
+     * @param \ShopwareSDK6\Model\PromotionIndividualCodeLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class PromotionIndividualCode extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\PromotionIndividualCodeRelationships
+     * @return \ShopwareSDK6\Model\PromotionIndividualCodeRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class PromotionIndividualCode extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\PromotionIndividualCodeRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\PromotionIndividualCodeRelationships $relationships relationships
      *
      * @return $this
      */

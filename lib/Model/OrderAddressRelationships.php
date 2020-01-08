@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderAddressRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,11 +56,11 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'country' => '\Swagger\Client\Model\OrderAddressRelationshipsCountry',
-'country_state' => '\Swagger\Client\Model\OrderAddressRelationshipsCountryState',
-'order' => '\Swagger\Client\Model\OrderAddressRelationshipsOrder',
-'salutation' => '\Swagger\Client\Model\OrderAddressRelationshipsSalutation',
-'order_deliveries' => '\Swagger\Client\Model\OrderAddressRelationshipsOrderDeliveries'    ];
+        'country' => '\ShopwareSDK6\Model\OrderAddressRelationshipsCountry',
+'country_state' => '\ShopwareSDK6\Model\OrderAddressRelationshipsCountryState',
+'order' => '\ShopwareSDK6\Model\OrderAddressRelationshipsOrder',
+'salutation' => '\ShopwareSDK6\Model\OrderAddressRelationshipsSalutation',
+'order_deliveries' => '\ShopwareSDK6\Model\OrderAddressRelationshipsOrderDeliveries'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -223,7 +223,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\OrderAddressRelationshipsCountry
+     * @return \ShopwareSDK6\Model\OrderAddressRelationshipsCountry
      */
     public function getCountry()
     {
@@ -233,7 +233,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\OrderAddressRelationshipsCountry $country country
+     * @param \ShopwareSDK6\Model\OrderAddressRelationshipsCountry $country country
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets country_state
      *
-     * @return \Swagger\Client\Model\OrderAddressRelationshipsCountryState
+     * @return \ShopwareSDK6\Model\OrderAddressRelationshipsCountryState
      */
     public function getCountryState()
     {
@@ -257,7 +257,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets country_state
      *
-     * @param \Swagger\Client\Model\OrderAddressRelationshipsCountryState $country_state country_state
+     * @param \ShopwareSDK6\Model\OrderAddressRelationshipsCountryState $country_state country_state
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \Swagger\Client\Model\OrderAddressRelationshipsOrder
+     * @return \ShopwareSDK6\Model\OrderAddressRelationshipsOrder
      */
     public function getOrder()
     {
@@ -281,7 +281,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \Swagger\Client\Model\OrderAddressRelationshipsOrder $order order
+     * @param \ShopwareSDK6\Model\OrderAddressRelationshipsOrder $order order
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \Swagger\Client\Model\OrderAddressRelationshipsSalutation
+     * @return \ShopwareSDK6\Model\OrderAddressRelationshipsSalutation
      */
     public function getSalutation()
     {
@@ -305,7 +305,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \Swagger\Client\Model\OrderAddressRelationshipsSalutation $salutation salutation
+     * @param \ShopwareSDK6\Model\OrderAddressRelationshipsSalutation $salutation salutation
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_deliveries
      *
-     * @return \Swagger\Client\Model\OrderAddressRelationshipsOrderDeliveries
+     * @return \ShopwareSDK6\Model\OrderAddressRelationshipsOrderDeliveries
      */
     public function getOrderDeliveries()
     {
@@ -329,7 +329,7 @@ class OrderAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_deliveries
      *
-     * @param \Swagger\Client\Model\OrderAddressRelationshipsOrderDeliveries $order_deliveries order_deliveries
+     * @param \ShopwareSDK6\Model\OrderAddressRelationshipsOrderDeliveries $order_deliveries order_deliveries
      *
      * @return $this
      */

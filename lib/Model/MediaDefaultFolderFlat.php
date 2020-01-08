@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaDefaultFolderFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,7 +62,7 @@ class MediaDefaultFolderFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'folder' => '\Swagger\Client\Model\MediaFolderFlat'    ];
+'folder' => '\ShopwareSDK6\Model\MediaFolderFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -391,7 +391,7 @@ class MediaDefaultFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets folder
      *
-     * @return \Swagger\Client\Model\MediaFolderFlat
+     * @return \ShopwareSDK6\Model\MediaFolderFlat
      */
     public function getFolder()
     {
@@ -401,7 +401,7 @@ class MediaDefaultFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets folder
      *
-     * @param \Swagger\Client\Model\MediaFolderFlat $folder folder
+     * @param \ShopwareSDK6\Model\MediaFolderFlat $folder folder
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Salutation Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Salutation extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\SalutationAttributes',
-'links' => '\Swagger\Client\Model\SalutationLinks',
-'relationships' => '\Swagger\Client\Model\SalutationRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\SalutationAttributes',
+'links' => '\ShopwareSDK6\Model\SalutationLinks',
+'relationships' => '\ShopwareSDK6\Model\SalutationRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Salutation extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\SalutationAttributes
+     * @return \ShopwareSDK6\Model\SalutationAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Salutation extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\SalutationAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\SalutationAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Salutation extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalutationLinks
+     * @return \ShopwareSDK6\Model\SalutationLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Salutation extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalutationLinks $links links
+     * @param \ShopwareSDK6\Model\SalutationLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Salutation extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\SalutationRelationships
+     * @return \ShopwareSDK6\Model\SalutationRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Salutation extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\SalutationRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\SalutationRelationships $relationships relationships
      *
      * @return $this
      */

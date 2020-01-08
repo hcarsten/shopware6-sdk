@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PaymentMethodRelationshipsOrderTransactions Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PaymentMethodRelationshipsOrderTransactions implements ModelInterface, Arr
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PaymentMethodRelationshipsOrderTransactionsLinks',
-'data' => '\Swagger\Client\Model\PaymentMethodRelationshipsOrderTransactionsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsOrderTransactionsLinks',
+'data' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsOrderTransactionsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PaymentMethodRelationshipsOrderTransactions implements ModelInterface, Arr
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PaymentMethodRelationshipsOrderTransactionsLinks
+     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsOrderTransactionsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PaymentMethodRelationshipsOrderTransactions implements ModelInterface, Arr
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PaymentMethodRelationshipsOrderTransactionsLinks $links links
+     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsOrderTransactionsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PaymentMethodRelationshipsOrderTransactions implements ModelInterface, Arr
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\PaymentMethodRelationshipsOrderTransactionsData[]
+     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsOrderTransactionsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PaymentMethodRelationshipsOrderTransactions implements ModelInterface, Arr
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\PaymentMethodRelationshipsOrderTransactionsData[] $data data
+     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsOrderTransactionsData[] $data data
      *
      * @return $this
      */

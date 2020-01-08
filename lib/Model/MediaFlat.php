@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -75,26 +75,26 @@ class MediaFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'extensions' => '\Swagger\Client\Model\MediaFlatExtensions',
-'tags' => '\Swagger\Client\Model\TagFlat',
-'thumbnails' => '\Swagger\Client\Model\MediaThumbnailFlat',
-'user' => '\Swagger\Client\Model\UserFlat',
-'categories' => '\Swagger\Client\Model\CategoryFlat',
-'product_manufacturers' => '\Swagger\Client\Model\ProductManufacturerFlat',
-'product_media' => '\Swagger\Client\Model\ProductMediaFlat',
-'avatar_user' => '\Swagger\Client\Model\UserFlat',
-'media_folder' => '\Swagger\Client\Model\MediaFolderFlat',
-'property_group_options' => '\Swagger\Client\Model\PropertyGroupOptionFlat',
-'mail_template_media' => '\Swagger\Client\Model\MailTemplateMediaFlat',
-'document_base_configs' => '\Swagger\Client\Model\DocumentBaseConfigFlat',
-'shipping_methods' => '\Swagger\Client\Model\ShippingMethodFlat',
-'payment_methods' => '\Swagger\Client\Model\PaymentMethodFlat',
-'product_configurator_settings' => '\Swagger\Client\Model\ProductConfiguratorSettingFlat',
-'order_line_items' => '\Swagger\Client\Model\OrderLineItemFlat',
-'cms_blocks' => '\Swagger\Client\Model\CmsBlockFlat',
-'cms_sections' => '\Swagger\Client\Model\CmsSectionFlat',
-'cms_pages' => '\Swagger\Client\Model\CmsPageFlat',
-'documents' => '\Swagger\Client\Model\DocumentFlat'    ];
+'extensions' => '\ShopwareSDK6\Model\MediaFlatExtensions',
+'tags' => '\ShopwareSDK6\Model\TagFlat',
+'thumbnails' => '\ShopwareSDK6\Model\MediaThumbnailFlat',
+'user' => '\ShopwareSDK6\Model\UserFlat',
+'categories' => '\ShopwareSDK6\Model\CategoryFlat',
+'product_manufacturers' => '\ShopwareSDK6\Model\ProductManufacturerFlat',
+'product_media' => '\ShopwareSDK6\Model\ProductMediaFlat',
+'avatar_user' => '\ShopwareSDK6\Model\UserFlat',
+'media_folder' => '\ShopwareSDK6\Model\MediaFolderFlat',
+'property_group_options' => '\ShopwareSDK6\Model\PropertyGroupOptionFlat',
+'mail_template_media' => '\ShopwareSDK6\Model\MailTemplateMediaFlat',
+'document_base_configs' => '\ShopwareSDK6\Model\DocumentBaseConfigFlat',
+'shipping_methods' => '\ShopwareSDK6\Model\ShippingMethodFlat',
+'payment_methods' => '\ShopwareSDK6\Model\PaymentMethodFlat',
+'product_configurator_settings' => '\ShopwareSDK6\Model\ProductConfiguratorSettingFlat',
+'order_line_items' => '\ShopwareSDK6\Model\OrderLineItemFlat',
+'cms_blocks' => '\ShopwareSDK6\Model\CmsBlockFlat',
+'cms_sections' => '\ShopwareSDK6\Model\CmsSectionFlat',
+'cms_pages' => '\ShopwareSDK6\Model\CmsPageFlat',
+'documents' => '\ShopwareSDK6\Model\DocumentFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -889,7 +889,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets extensions
      *
-     * @return \Swagger\Client\Model\MediaFlatExtensions
+     * @return \ShopwareSDK6\Model\MediaFlatExtensions
      */
     public function getExtensions()
     {
@@ -899,7 +899,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets extensions
      *
-     * @param \Swagger\Client\Model\MediaFlatExtensions $extensions extensions
+     * @param \ShopwareSDK6\Model\MediaFlatExtensions $extensions extensions
      *
      * @return $this
      */
@@ -913,7 +913,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \Swagger\Client\Model\TagFlat
+     * @return \ShopwareSDK6\Model\TagFlat
      */
     public function getTags()
     {
@@ -923,7 +923,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \Swagger\Client\Model\TagFlat $tags tags
+     * @param \ShopwareSDK6\Model\TagFlat $tags tags
      *
      * @return $this
      */
@@ -937,7 +937,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets thumbnails
      *
-     * @return \Swagger\Client\Model\MediaThumbnailFlat
+     * @return \ShopwareSDK6\Model\MediaThumbnailFlat
      */
     public function getThumbnails()
     {
@@ -947,7 +947,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets thumbnails
      *
-     * @param \Swagger\Client\Model\MediaThumbnailFlat $thumbnails thumbnails
+     * @param \ShopwareSDK6\Model\MediaThumbnailFlat $thumbnails thumbnails
      *
      * @return $this
      */
@@ -961,7 +961,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\UserFlat
+     * @return \ShopwareSDK6\Model\UserFlat
      */
     public function getUser()
     {
@@ -971,7 +971,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\UserFlat $user user
+     * @param \ShopwareSDK6\Model\UserFlat $user user
      *
      * @return $this
      */
@@ -985,7 +985,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \Swagger\Client\Model\CategoryFlat
+     * @return \ShopwareSDK6\Model\CategoryFlat
      */
     public function getCategories()
     {
@@ -995,7 +995,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \Swagger\Client\Model\CategoryFlat $categories categories
+     * @param \ShopwareSDK6\Model\CategoryFlat $categories categories
      *
      * @return $this
      */
@@ -1009,7 +1009,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_manufacturers
      *
-     * @return \Swagger\Client\Model\ProductManufacturerFlat
+     * @return \ShopwareSDK6\Model\ProductManufacturerFlat
      */
     public function getProductManufacturers()
     {
@@ -1019,7 +1019,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_manufacturers
      *
-     * @param \Swagger\Client\Model\ProductManufacturerFlat $product_manufacturers product_manufacturers
+     * @param \ShopwareSDK6\Model\ProductManufacturerFlat $product_manufacturers product_manufacturers
      *
      * @return $this
      */
@@ -1033,7 +1033,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_media
      *
-     * @return \Swagger\Client\Model\ProductMediaFlat
+     * @return \ShopwareSDK6\Model\ProductMediaFlat
      */
     public function getProductMedia()
     {
@@ -1043,7 +1043,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_media
      *
-     * @param \Swagger\Client\Model\ProductMediaFlat $product_media product_media
+     * @param \ShopwareSDK6\Model\ProductMediaFlat $product_media product_media
      *
      * @return $this
      */
@@ -1057,7 +1057,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets avatar_user
      *
-     * @return \Swagger\Client\Model\UserFlat
+     * @return \ShopwareSDK6\Model\UserFlat
      */
     public function getAvatarUser()
     {
@@ -1067,7 +1067,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets avatar_user
      *
-     * @param \Swagger\Client\Model\UserFlat $avatar_user avatar_user
+     * @param \ShopwareSDK6\Model\UserFlat $avatar_user avatar_user
      *
      * @return $this
      */
@@ -1081,7 +1081,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media_folder
      *
-     * @return \Swagger\Client\Model\MediaFolderFlat
+     * @return \ShopwareSDK6\Model\MediaFolderFlat
      */
     public function getMediaFolder()
     {
@@ -1091,7 +1091,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media_folder
      *
-     * @param \Swagger\Client\Model\MediaFolderFlat $media_folder media_folder
+     * @param \ShopwareSDK6\Model\MediaFolderFlat $media_folder media_folder
      *
      * @return $this
      */
@@ -1105,7 +1105,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets property_group_options
      *
-     * @return \Swagger\Client\Model\PropertyGroupOptionFlat
+     * @return \ShopwareSDK6\Model\PropertyGroupOptionFlat
      */
     public function getPropertyGroupOptions()
     {
@@ -1115,7 +1115,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets property_group_options
      *
-     * @param \Swagger\Client\Model\PropertyGroupOptionFlat $property_group_options property_group_options
+     * @param \ShopwareSDK6\Model\PropertyGroupOptionFlat $property_group_options property_group_options
      *
      * @return $this
      */
@@ -1129,7 +1129,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets mail_template_media
      *
-     * @return \Swagger\Client\Model\MailTemplateMediaFlat
+     * @return \ShopwareSDK6\Model\MailTemplateMediaFlat
      */
     public function getMailTemplateMedia()
     {
@@ -1139,7 +1139,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets mail_template_media
      *
-     * @param \Swagger\Client\Model\MailTemplateMediaFlat $mail_template_media mail_template_media
+     * @param \ShopwareSDK6\Model\MailTemplateMediaFlat $mail_template_media mail_template_media
      *
      * @return $this
      */
@@ -1153,7 +1153,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets document_base_configs
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigFlat
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigFlat
      */
     public function getDocumentBaseConfigs()
     {
@@ -1163,7 +1163,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets document_base_configs
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigFlat $document_base_configs document_base_configs
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigFlat $document_base_configs document_base_configs
      *
      * @return $this
      */
@@ -1177,7 +1177,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \Swagger\Client\Model\ShippingMethodFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodFlat
      */
     public function getShippingMethods()
     {
@@ -1187,7 +1187,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \Swagger\Client\Model\ShippingMethodFlat $shipping_methods shipping_methods
+     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -1201,7 +1201,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets payment_methods
      *
-     * @return \Swagger\Client\Model\PaymentMethodFlat
+     * @return \ShopwareSDK6\Model\PaymentMethodFlat
      */
     public function getPaymentMethods()
     {
@@ -1211,7 +1211,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets payment_methods
      *
-     * @param \Swagger\Client\Model\PaymentMethodFlat $payment_methods payment_methods
+     * @param \ShopwareSDK6\Model\PaymentMethodFlat $payment_methods payment_methods
      *
      * @return $this
      */
@@ -1225,7 +1225,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_configurator_settings
      *
-     * @return \Swagger\Client\Model\ProductConfiguratorSettingFlat
+     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingFlat
      */
     public function getProductConfiguratorSettings()
     {
@@ -1235,7 +1235,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_configurator_settings
      *
-     * @param \Swagger\Client\Model\ProductConfiguratorSettingFlat $product_configurator_settings product_configurator_settings
+     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingFlat $product_configurator_settings product_configurator_settings
      *
      * @return $this
      */
@@ -1249,7 +1249,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_line_items
      *
-     * @return \Swagger\Client\Model\OrderLineItemFlat
+     * @return \ShopwareSDK6\Model\OrderLineItemFlat
      */
     public function getOrderLineItems()
     {
@@ -1259,7 +1259,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_line_items
      *
-     * @param \Swagger\Client\Model\OrderLineItemFlat $order_line_items order_line_items
+     * @param \ShopwareSDK6\Model\OrderLineItemFlat $order_line_items order_line_items
      *
      * @return $this
      */
@@ -1273,7 +1273,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets cms_blocks
      *
-     * @return \Swagger\Client\Model\CmsBlockFlat
+     * @return \ShopwareSDK6\Model\CmsBlockFlat
      */
     public function getCmsBlocks()
     {
@@ -1283,7 +1283,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets cms_blocks
      *
-     * @param \Swagger\Client\Model\CmsBlockFlat $cms_blocks cms_blocks
+     * @param \ShopwareSDK6\Model\CmsBlockFlat $cms_blocks cms_blocks
      *
      * @return $this
      */
@@ -1297,7 +1297,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets cms_sections
      *
-     * @return \Swagger\Client\Model\CmsSectionFlat
+     * @return \ShopwareSDK6\Model\CmsSectionFlat
      */
     public function getCmsSections()
     {
@@ -1307,7 +1307,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets cms_sections
      *
-     * @param \Swagger\Client\Model\CmsSectionFlat $cms_sections cms_sections
+     * @param \ShopwareSDK6\Model\CmsSectionFlat $cms_sections cms_sections
      *
      * @return $this
      */
@@ -1321,7 +1321,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets cms_pages
      *
-     * @return \Swagger\Client\Model\CmsPageFlat
+     * @return \ShopwareSDK6\Model\CmsPageFlat
      */
     public function getCmsPages()
     {
@@ -1331,7 +1331,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets cms_pages
      *
-     * @param \Swagger\Client\Model\CmsPageFlat $cms_pages cms_pages
+     * @param \ShopwareSDK6\Model\CmsPageFlat $cms_pages cms_pages
      *
      * @return $this
      */
@@ -1345,7 +1345,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Swagger\Client\Model\DocumentFlat
+     * @return \ShopwareSDK6\Model\DocumentFlat
      */
     public function getDocuments()
     {
@@ -1355,7 +1355,7 @@ class MediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Swagger\Client\Model\DocumentFlat $documents documents
+     * @param \ShopwareSDK6\Model\DocumentFlat $documents documents
      *
      * @return $this
      */

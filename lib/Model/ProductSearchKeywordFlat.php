@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductSearchKeywordFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,8 +65,8 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
 'ranking' => 'float',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'product' => '\Swagger\Client\Model\ProductFlat',
-'language' => '\Swagger\Client\Model\LanguageFlat'    ];
+'product' => '\ShopwareSDK6\Model\ProductFlat',
+'language' => '\ShopwareSDK6\Model\LanguageFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -493,7 +493,7 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\ProductFlat
+     * @return \ShopwareSDK6\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -503,7 +503,7 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\ProductFlat $product product
+     * @param \ShopwareSDK6\Model\ProductFlat $product product
      *
      * @return $this
      */
@@ -517,7 +517,7 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\LanguageFlat
+     * @return \ShopwareSDK6\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -527,7 +527,7 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\LanguageFlat $language language
+     * @param \ShopwareSDK6\Model\LanguageFlat $language language
      *
      * @return $this
      */

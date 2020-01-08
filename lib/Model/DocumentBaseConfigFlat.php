@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DocumentBaseConfigFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -67,9 +67,9 @@ class DocumentBaseConfigFlat implements ModelInterface, ArrayAccess
 'config' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'document_type' => '\Swagger\Client\Model\DocumentTypeFlat',
-'logo' => '\Swagger\Client\Model\MediaFlat',
-'sales_channels' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelFlat'    ];
+'document_type' => '\ShopwareSDK6\Model\DocumentTypeFlat',
+'logo' => '\ShopwareSDK6\Model\MediaFlat',
+'sales_channels' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -559,7 +559,7 @@ class DocumentBaseConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Gets document_type
      *
-     * @return \Swagger\Client\Model\DocumentTypeFlat
+     * @return \ShopwareSDK6\Model\DocumentTypeFlat
      */
     public function getDocumentType()
     {
@@ -569,7 +569,7 @@ class DocumentBaseConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Sets document_type
      *
-     * @param \Swagger\Client\Model\DocumentTypeFlat $document_type document_type
+     * @param \ShopwareSDK6\Model\DocumentTypeFlat $document_type document_type
      *
      * @return $this
      */
@@ -583,7 +583,7 @@ class DocumentBaseConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Gets logo
      *
-     * @return \Swagger\Client\Model\MediaFlat
+     * @return \ShopwareSDK6\Model\MediaFlat
      */
     public function getLogo()
     {
@@ -593,7 +593,7 @@ class DocumentBaseConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Sets logo
      *
-     * @param \Swagger\Client\Model\MediaFlat $logo logo
+     * @param \ShopwareSDK6\Model\MediaFlat $logo logo
      *
      * @return $this
      */
@@ -607,7 +607,7 @@ class DocumentBaseConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelFlat
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -617,7 +617,7 @@ class DocumentBaseConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelFlat $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */

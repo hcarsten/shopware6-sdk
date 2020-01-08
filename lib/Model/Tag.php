@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Tag Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Tag extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\TagAttributes',
-'links' => '\Swagger\Client\Model\TagLinks',
-'relationships' => '\Swagger\Client\Model\TagRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\TagAttributes',
+'links' => '\ShopwareSDK6\Model\TagLinks',
+'relationships' => '\ShopwareSDK6\Model\TagRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Tag extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\TagAttributes
+     * @return \ShopwareSDK6\Model\TagAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Tag extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\TagAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\TagAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Tag extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\TagLinks
+     * @return \ShopwareSDK6\Model\TagLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Tag extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\TagLinks $links links
+     * @param \ShopwareSDK6\Model\TagLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Tag extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\TagRelationships
+     * @return \ShopwareSDK6\Model\TagRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Tag extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\TagRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\TagRelationships $relationships relationships
      *
      * @return $this
      */

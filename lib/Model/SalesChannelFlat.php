@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -83,38 +83,38 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'extensions' => '\Swagger\Client\Model\SalesChannelFlatExtensions',
-'currencies' => '\Swagger\Client\Model\CurrencyFlat',
-'languages' => '\Swagger\Client\Model\LanguageFlat',
-'countries' => '\Swagger\Client\Model\CountryFlat',
-'payment_methods' => '\Swagger\Client\Model\PaymentMethodFlat',
-'shipping_methods' => '\Swagger\Client\Model\ShippingMethodFlat',
-'type' => '\Swagger\Client\Model\SalesChannelTypeFlat',
-'language' => '\Swagger\Client\Model\LanguageFlat',
-'customer_group' => '\Swagger\Client\Model\CustomerGroupFlat',
-'currency' => '\Swagger\Client\Model\CurrencyFlat',
-'payment_method' => '\Swagger\Client\Model\PaymentMethodFlat',
-'shipping_method' => '\Swagger\Client\Model\ShippingMethodFlat',
-'country' => '\Swagger\Client\Model\CountryFlat',
-'orders' => '\Swagger\Client\Model\OrderFlat',
-'customers' => '\Swagger\Client\Model\CustomerFlat',
-'domains' => '\Swagger\Client\Model\SalesChannelDomainFlat',
-'system_configs' => '\Swagger\Client\Model\SystemConfigFlat',
-'navigation_category' => '\Swagger\Client\Model\CategoryFlat',
-'footer_category' => '\Swagger\Client\Model\CategoryFlat',
-'service_category' => '\Swagger\Client\Model\CategoryFlat',
-'product_visibilities' => '\Swagger\Client\Model\ProductVisibilityFlat',
-'mail_header_footer' => '\Swagger\Client\Model\MailHeaderFooterFlat',
-'newsletter_recipients' => '\Swagger\Client\Model\NewsletterRecipientFlat',
-'mail_templates' => '\Swagger\Client\Model\MailTemplateSalesChannelFlat',
-'number_range_sales_channels' => '\Swagger\Client\Model\NumberRangeSalesChannelFlat',
-'promotion_sales_channels' => '\Swagger\Client\Model\PromotionSalesChannelFlat',
-'document_base_config_sales_channels' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelFlat',
-'product_reviews' => '\Swagger\Client\Model\ProductReviewFlat',
-'seo_urls' => '\Swagger\Client\Model\SeoUrlFlat',
-'seo_url_templates' => '\Swagger\Client\Model\SeoUrlTemplateFlat',
-'main_categories' => '\Swagger\Client\Model\MainCategoryFlat',
-'product_exports' => '\Swagger\Client\Model\ProductExportFlat'    ];
+'extensions' => '\ShopwareSDK6\Model\SalesChannelFlatExtensions',
+'currencies' => '\ShopwareSDK6\Model\CurrencyFlat',
+'languages' => '\ShopwareSDK6\Model\LanguageFlat',
+'countries' => '\ShopwareSDK6\Model\CountryFlat',
+'payment_methods' => '\ShopwareSDK6\Model\PaymentMethodFlat',
+'shipping_methods' => '\ShopwareSDK6\Model\ShippingMethodFlat',
+'type' => '\ShopwareSDK6\Model\SalesChannelTypeFlat',
+'language' => '\ShopwareSDK6\Model\LanguageFlat',
+'customer_group' => '\ShopwareSDK6\Model\CustomerGroupFlat',
+'currency' => '\ShopwareSDK6\Model\CurrencyFlat',
+'payment_method' => '\ShopwareSDK6\Model\PaymentMethodFlat',
+'shipping_method' => '\ShopwareSDK6\Model\ShippingMethodFlat',
+'country' => '\ShopwareSDK6\Model\CountryFlat',
+'orders' => '\ShopwareSDK6\Model\OrderFlat',
+'customers' => '\ShopwareSDK6\Model\CustomerFlat',
+'domains' => '\ShopwareSDK6\Model\SalesChannelDomainFlat',
+'system_configs' => '\ShopwareSDK6\Model\SystemConfigFlat',
+'navigation_category' => '\ShopwareSDK6\Model\CategoryFlat',
+'footer_category' => '\ShopwareSDK6\Model\CategoryFlat',
+'service_category' => '\ShopwareSDK6\Model\CategoryFlat',
+'product_visibilities' => '\ShopwareSDK6\Model\ProductVisibilityFlat',
+'mail_header_footer' => '\ShopwareSDK6\Model\MailHeaderFooterFlat',
+'newsletter_recipients' => '\ShopwareSDK6\Model\NewsletterRecipientFlat',
+'mail_templates' => '\ShopwareSDK6\Model\MailTemplateSalesChannelFlat',
+'number_range_sales_channels' => '\ShopwareSDK6\Model\NumberRangeSalesChannelFlat',
+'promotion_sales_channels' => '\ShopwareSDK6\Model\PromotionSalesChannelFlat',
+'document_base_config_sales_channels' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat',
+'product_reviews' => '\ShopwareSDK6\Model\ProductReviewFlat',
+'seo_urls' => '\ShopwareSDK6\Model\SeoUrlFlat',
+'seo_url_templates' => '\ShopwareSDK6\Model\SeoUrlTemplateFlat',
+'main_categories' => '\ShopwareSDK6\Model\MainCategoryFlat',
+'product_exports' => '\ShopwareSDK6\Model\ProductExportFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -1231,7 +1231,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets extensions
      *
-     * @return \Swagger\Client\Model\SalesChannelFlatExtensions
+     * @return \ShopwareSDK6\Model\SalesChannelFlatExtensions
      */
     public function getExtensions()
     {
@@ -1241,7 +1241,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets extensions
      *
-     * @param \Swagger\Client\Model\SalesChannelFlatExtensions $extensions extensions
+     * @param \ShopwareSDK6\Model\SalesChannelFlatExtensions $extensions extensions
      *
      * @return $this
      */
@@ -1255,7 +1255,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets currencies
      *
-     * @return \Swagger\Client\Model\CurrencyFlat
+     * @return \ShopwareSDK6\Model\CurrencyFlat
      */
     public function getCurrencies()
     {
@@ -1265,7 +1265,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets currencies
      *
-     * @param \Swagger\Client\Model\CurrencyFlat $currencies currencies
+     * @param \ShopwareSDK6\Model\CurrencyFlat $currencies currencies
      *
      * @return $this
      */
@@ -1279,7 +1279,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets languages
      *
-     * @return \Swagger\Client\Model\LanguageFlat
+     * @return \ShopwareSDK6\Model\LanguageFlat
      */
     public function getLanguages()
     {
@@ -1289,7 +1289,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets languages
      *
-     * @param \Swagger\Client\Model\LanguageFlat $languages languages
+     * @param \ShopwareSDK6\Model\LanguageFlat $languages languages
      *
      * @return $this
      */
@@ -1303,7 +1303,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets countries
      *
-     * @return \Swagger\Client\Model\CountryFlat
+     * @return \ShopwareSDK6\Model\CountryFlat
      */
     public function getCountries()
     {
@@ -1313,7 +1313,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets countries
      *
-     * @param \Swagger\Client\Model\CountryFlat $countries countries
+     * @param \ShopwareSDK6\Model\CountryFlat $countries countries
      *
      * @return $this
      */
@@ -1327,7 +1327,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets payment_methods
      *
-     * @return \Swagger\Client\Model\PaymentMethodFlat
+     * @return \ShopwareSDK6\Model\PaymentMethodFlat
      */
     public function getPaymentMethods()
     {
@@ -1337,7 +1337,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets payment_methods
      *
-     * @param \Swagger\Client\Model\PaymentMethodFlat $payment_methods payment_methods
+     * @param \ShopwareSDK6\Model\PaymentMethodFlat $payment_methods payment_methods
      *
      * @return $this
      */
@@ -1351,7 +1351,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \Swagger\Client\Model\ShippingMethodFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodFlat
      */
     public function getShippingMethods()
     {
@@ -1361,7 +1361,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \Swagger\Client\Model\ShippingMethodFlat $shipping_methods shipping_methods
+     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -1375,7 +1375,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets type
      *
-     * @return \Swagger\Client\Model\SalesChannelTypeFlat
+     * @return \ShopwareSDK6\Model\SalesChannelTypeFlat
      */
     public function getType()
     {
@@ -1385,7 +1385,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets type
      *
-     * @param \Swagger\Client\Model\SalesChannelTypeFlat $type type
+     * @param \ShopwareSDK6\Model\SalesChannelTypeFlat $type type
      *
      * @return $this
      */
@@ -1399,7 +1399,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\LanguageFlat
+     * @return \ShopwareSDK6\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -1409,7 +1409,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\LanguageFlat $language language
+     * @param \ShopwareSDK6\Model\LanguageFlat $language language
      *
      * @return $this
      */
@@ -1423,7 +1423,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customer_group
      *
-     * @return \Swagger\Client\Model\CustomerGroupFlat
+     * @return \ShopwareSDK6\Model\CustomerGroupFlat
      */
     public function getCustomerGroup()
     {
@@ -1433,7 +1433,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customer_group
      *
-     * @param \Swagger\Client\Model\CustomerGroupFlat $customer_group customer_group
+     * @param \ShopwareSDK6\Model\CustomerGroupFlat $customer_group customer_group
      *
      * @return $this
      */
@@ -1447,7 +1447,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\CurrencyFlat
+     * @return \ShopwareSDK6\Model\CurrencyFlat
      */
     public function getCurrency()
     {
@@ -1457,7 +1457,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\CurrencyFlat $currency currency
+     * @param \ShopwareSDK6\Model\CurrencyFlat $currency currency
      *
      * @return $this
      */
@@ -1471,7 +1471,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets payment_method
      *
-     * @return \Swagger\Client\Model\PaymentMethodFlat
+     * @return \ShopwareSDK6\Model\PaymentMethodFlat
      */
     public function getPaymentMethod()
     {
@@ -1481,7 +1481,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets payment_method
      *
-     * @param \Swagger\Client\Model\PaymentMethodFlat $payment_method payment_method
+     * @param \ShopwareSDK6\Model\PaymentMethodFlat $payment_method payment_method
      *
      * @return $this
      */
@@ -1495,7 +1495,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method
      *
-     * @return \Swagger\Client\Model\ShippingMethodFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodFlat
      */
     public function getShippingMethod()
     {
@@ -1505,7 +1505,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method
      *
-     * @param \Swagger\Client\Model\ShippingMethodFlat $shipping_method shipping_method
+     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_method shipping_method
      *
      * @return $this
      */
@@ -1519,7 +1519,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\CountryFlat
+     * @return \ShopwareSDK6\Model\CountryFlat
      */
     public function getCountry()
     {
@@ -1529,7 +1529,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\CountryFlat $country country
+     * @param \ShopwareSDK6\Model\CountryFlat $country country
      *
      * @return $this
      */
@@ -1543,7 +1543,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Swagger\Client\Model\OrderFlat
+     * @return \ShopwareSDK6\Model\OrderFlat
      */
     public function getOrders()
     {
@@ -1553,7 +1553,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Swagger\Client\Model\OrderFlat $orders orders
+     * @param \ShopwareSDK6\Model\OrderFlat $orders orders
      *
      * @return $this
      */
@@ -1567,7 +1567,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \Swagger\Client\Model\CustomerFlat
+     * @return \ShopwareSDK6\Model\CustomerFlat
      */
     public function getCustomers()
     {
@@ -1577,7 +1577,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \Swagger\Client\Model\CustomerFlat $customers customers
+     * @param \ShopwareSDK6\Model\CustomerFlat $customers customers
      *
      * @return $this
      */
@@ -1591,7 +1591,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets domains
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainFlat
+     * @return \ShopwareSDK6\Model\SalesChannelDomainFlat
      */
     public function getDomains()
     {
@@ -1601,7 +1601,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets domains
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainFlat $domains domains
+     * @param \ShopwareSDK6\Model\SalesChannelDomainFlat $domains domains
      *
      * @return $this
      */
@@ -1615,7 +1615,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets system_configs
      *
-     * @return \Swagger\Client\Model\SystemConfigFlat
+     * @return \ShopwareSDK6\Model\SystemConfigFlat
      */
     public function getSystemConfigs()
     {
@@ -1625,7 +1625,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets system_configs
      *
-     * @param \Swagger\Client\Model\SystemConfigFlat $system_configs system_configs
+     * @param \ShopwareSDK6\Model\SystemConfigFlat $system_configs system_configs
      *
      * @return $this
      */
@@ -1639,7 +1639,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets navigation_category
      *
-     * @return \Swagger\Client\Model\CategoryFlat
+     * @return \ShopwareSDK6\Model\CategoryFlat
      */
     public function getNavigationCategory()
     {
@@ -1649,7 +1649,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets navigation_category
      *
-     * @param \Swagger\Client\Model\CategoryFlat $navigation_category navigation_category
+     * @param \ShopwareSDK6\Model\CategoryFlat $navigation_category navigation_category
      *
      * @return $this
      */
@@ -1663,7 +1663,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets footer_category
      *
-     * @return \Swagger\Client\Model\CategoryFlat
+     * @return \ShopwareSDK6\Model\CategoryFlat
      */
     public function getFooterCategory()
     {
@@ -1673,7 +1673,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets footer_category
      *
-     * @param \Swagger\Client\Model\CategoryFlat $footer_category footer_category
+     * @param \ShopwareSDK6\Model\CategoryFlat $footer_category footer_category
      *
      * @return $this
      */
@@ -1687,7 +1687,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets service_category
      *
-     * @return \Swagger\Client\Model\CategoryFlat
+     * @return \ShopwareSDK6\Model\CategoryFlat
      */
     public function getServiceCategory()
     {
@@ -1697,7 +1697,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets service_category
      *
-     * @param \Swagger\Client\Model\CategoryFlat $service_category service_category
+     * @param \ShopwareSDK6\Model\CategoryFlat $service_category service_category
      *
      * @return $this
      */
@@ -1711,7 +1711,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_visibilities
      *
-     * @return \Swagger\Client\Model\ProductVisibilityFlat
+     * @return \ShopwareSDK6\Model\ProductVisibilityFlat
      */
     public function getProductVisibilities()
     {
@@ -1721,7 +1721,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_visibilities
      *
-     * @param \Swagger\Client\Model\ProductVisibilityFlat $product_visibilities product_visibilities
+     * @param \ShopwareSDK6\Model\ProductVisibilityFlat $product_visibilities product_visibilities
      *
      * @return $this
      */
@@ -1735,7 +1735,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets mail_header_footer
      *
-     * @return \Swagger\Client\Model\MailHeaderFooterFlat
+     * @return \ShopwareSDK6\Model\MailHeaderFooterFlat
      */
     public function getMailHeaderFooter()
     {
@@ -1745,7 +1745,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets mail_header_footer
      *
-     * @param \Swagger\Client\Model\MailHeaderFooterFlat $mail_header_footer mail_header_footer
+     * @param \ShopwareSDK6\Model\MailHeaderFooterFlat $mail_header_footer mail_header_footer
      *
      * @return $this
      */
@@ -1759,7 +1759,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets newsletter_recipients
      *
-     * @return \Swagger\Client\Model\NewsletterRecipientFlat
+     * @return \ShopwareSDK6\Model\NewsletterRecipientFlat
      */
     public function getNewsletterRecipients()
     {
@@ -1769,7 +1769,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets newsletter_recipients
      *
-     * @param \Swagger\Client\Model\NewsletterRecipientFlat $newsletter_recipients newsletter_recipients
+     * @param \ShopwareSDK6\Model\NewsletterRecipientFlat $newsletter_recipients newsletter_recipients
      *
      * @return $this
      */
@@ -1783,7 +1783,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets mail_templates
      *
-     * @return \Swagger\Client\Model\MailTemplateSalesChannelFlat
+     * @return \ShopwareSDK6\Model\MailTemplateSalesChannelFlat
      */
     public function getMailTemplates()
     {
@@ -1793,7 +1793,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets mail_templates
      *
-     * @param \Swagger\Client\Model\MailTemplateSalesChannelFlat $mail_templates mail_templates
+     * @param \ShopwareSDK6\Model\MailTemplateSalesChannelFlat $mail_templates mail_templates
      *
      * @return $this
      */
@@ -1807,7 +1807,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets number_range_sales_channels
      *
-     * @return \Swagger\Client\Model\NumberRangeSalesChannelFlat
+     * @return \ShopwareSDK6\Model\NumberRangeSalesChannelFlat
      */
     public function getNumberRangeSalesChannels()
     {
@@ -1817,7 +1817,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets number_range_sales_channels
      *
-     * @param \Swagger\Client\Model\NumberRangeSalesChannelFlat $number_range_sales_channels number_range_sales_channels
+     * @param \ShopwareSDK6\Model\NumberRangeSalesChannelFlat $number_range_sales_channels number_range_sales_channels
      *
      * @return $this
      */
@@ -1831,7 +1831,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_sales_channels
      *
-     * @return \Swagger\Client\Model\PromotionSalesChannelFlat
+     * @return \ShopwareSDK6\Model\PromotionSalesChannelFlat
      */
     public function getPromotionSalesChannels()
     {
@@ -1841,7 +1841,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_sales_channels
      *
-     * @param \Swagger\Client\Model\PromotionSalesChannelFlat $promotion_sales_channels promotion_sales_channels
+     * @param \ShopwareSDK6\Model\PromotionSalesChannelFlat $promotion_sales_channels promotion_sales_channels
      *
      * @return $this
      */
@@ -1855,7 +1855,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets document_base_config_sales_channels
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelFlat
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat
      */
     public function getDocumentBaseConfigSalesChannels()
     {
@@ -1865,7 +1865,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets document_base_config_sales_channels
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelFlat $document_base_config_sales_channels document_base_config_sales_channels
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat $document_base_config_sales_channels document_base_config_sales_channels
      *
      * @return $this
      */
@@ -1879,7 +1879,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_reviews
      *
-     * @return \Swagger\Client\Model\ProductReviewFlat
+     * @return \ShopwareSDK6\Model\ProductReviewFlat
      */
     public function getProductReviews()
     {
@@ -1889,7 +1889,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_reviews
      *
-     * @param \Swagger\Client\Model\ProductReviewFlat $product_reviews product_reviews
+     * @param \ShopwareSDK6\Model\ProductReviewFlat $product_reviews product_reviews
      *
      * @return $this
      */
@@ -1903,7 +1903,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets seo_urls
      *
-     * @return \Swagger\Client\Model\SeoUrlFlat
+     * @return \ShopwareSDK6\Model\SeoUrlFlat
      */
     public function getSeoUrls()
     {
@@ -1913,7 +1913,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets seo_urls
      *
-     * @param \Swagger\Client\Model\SeoUrlFlat $seo_urls seo_urls
+     * @param \ShopwareSDK6\Model\SeoUrlFlat $seo_urls seo_urls
      *
      * @return $this
      */
@@ -1927,7 +1927,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets seo_url_templates
      *
-     * @return \Swagger\Client\Model\SeoUrlTemplateFlat
+     * @return \ShopwareSDK6\Model\SeoUrlTemplateFlat
      */
     public function getSeoUrlTemplates()
     {
@@ -1937,7 +1937,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets seo_url_templates
      *
-     * @param \Swagger\Client\Model\SeoUrlTemplateFlat $seo_url_templates seo_url_templates
+     * @param \ShopwareSDK6\Model\SeoUrlTemplateFlat $seo_url_templates seo_url_templates
      *
      * @return $this
      */
@@ -1951,7 +1951,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets main_categories
      *
-     * @return \Swagger\Client\Model\MainCategoryFlat
+     * @return \ShopwareSDK6\Model\MainCategoryFlat
      */
     public function getMainCategories()
     {
@@ -1961,7 +1961,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets main_categories
      *
-     * @param \Swagger\Client\Model\MainCategoryFlat $main_categories main_categories
+     * @param \ShopwareSDK6\Model\MainCategoryFlat $main_categories main_categories
      *
      * @return $this
      */
@@ -1975,7 +1975,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_exports
      *
-     * @return \Swagger\Client\Model\ProductExportFlat
+     * @return \ShopwareSDK6\Model\ProductExportFlat
      */
     public function getProductExports()
     {
@@ -1985,7 +1985,7 @@ class SalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_exports
      *
-     * @param \Swagger\Client\Model\ProductExportFlat $product_exports product_exports
+     * @param \ShopwareSDK6\Model\ProductExportFlat $product_exports product_exports
      *
      * @return $this
      */

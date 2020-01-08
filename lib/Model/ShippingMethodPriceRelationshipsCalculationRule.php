@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ShippingMethodPriceRelationshipsCalculationRule Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ShippingMethodPriceRelationshipsCalculationRule implements ModelInterface,
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ShippingMethodPriceRelationshipsCalculationRuleLinks',
-'data' => '\Swagger\Client\Model\PaymentMethodRelationshipsAvailabilityRuleData'    ];
+        'links' => '\ShopwareSDK6\Model\ShippingMethodPriceRelationshipsCalculationRuleLinks',
+'data' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsAvailabilityRuleData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ShippingMethodPriceRelationshipsCalculationRule implements ModelInterface,
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ShippingMethodPriceRelationshipsCalculationRuleLinks
+     * @return \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsCalculationRuleLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ShippingMethodPriceRelationshipsCalculationRule implements ModelInterface,
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ShippingMethodPriceRelationshipsCalculationRuleLinks $links links
+     * @param \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsCalculationRuleLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ShippingMethodPriceRelationshipsCalculationRule implements ModelInterface,
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\PaymentMethodRelationshipsAvailabilityRuleData
+     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsAvailabilityRuleData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ShippingMethodPriceRelationshipsCalculationRule implements ModelInterface,
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\PaymentMethodRelationshipsAvailabilityRuleData $data data
+     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsAvailabilityRuleData $data data
      *
      * @return $this
      */

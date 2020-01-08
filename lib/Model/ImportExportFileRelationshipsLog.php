@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ImportExportFileRelationshipsLog Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ImportExportFileRelationshipsLog implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ImportExportFileRelationshipsLogLinks',
-'data' => '\Swagger\Client\Model\ImportExportFileRelationshipsLogData'    ];
+        'links' => '\ShopwareSDK6\Model\ImportExportFileRelationshipsLogLinks',
+'data' => '\ShopwareSDK6\Model\ImportExportFileRelationshipsLogData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ImportExportFileRelationshipsLog implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ImportExportFileRelationshipsLogLinks
+     * @return \ShopwareSDK6\Model\ImportExportFileRelationshipsLogLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ImportExportFileRelationshipsLog implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ImportExportFileRelationshipsLogLinks $links links
+     * @param \ShopwareSDK6\Model\ImportExportFileRelationshipsLogLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ImportExportFileRelationshipsLog implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ImportExportFileRelationshipsLogData
+     * @return \ShopwareSDK6\Model\ImportExportFileRelationshipsLogData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ImportExportFileRelationshipsLog implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ImportExportFileRelationshipsLogData $data data
+     * @param \ShopwareSDK6\Model\ImportExportFileRelationshipsLogData $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * NewsletterRecipientRelationshipsTags Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class NewsletterRecipientRelationshipsTags implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\NewsletterRecipientRelationshipsTagsLinks',
-'data' => '\Swagger\Client\Model\NewsletterRecipientRelationshipsTagsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\NewsletterRecipientRelationshipsTagsLinks',
+'data' => '\ShopwareSDK6\Model\NewsletterRecipientRelationshipsTagsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class NewsletterRecipientRelationshipsTags implements ModelInterface, ArrayAcces
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\NewsletterRecipientRelationshipsTagsLinks
+     * @return \ShopwareSDK6\Model\NewsletterRecipientRelationshipsTagsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class NewsletterRecipientRelationshipsTags implements ModelInterface, ArrayAcces
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\NewsletterRecipientRelationshipsTagsLinks $links links
+     * @param \ShopwareSDK6\Model\NewsletterRecipientRelationshipsTagsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class NewsletterRecipientRelationshipsTags implements ModelInterface, ArrayAcces
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\NewsletterRecipientRelationshipsTagsData[]
+     * @return \ShopwareSDK6\Model\NewsletterRecipientRelationshipsTagsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class NewsletterRecipientRelationshipsTags implements ModelInterface, ArrayAcces
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\NewsletterRecipientRelationshipsTagsData[] $data data
+     * @param \ShopwareSDK6\Model\NewsletterRecipientRelationshipsTagsData[] $data data
      *
      * @return $this
      */

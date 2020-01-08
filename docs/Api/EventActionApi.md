@@ -1,4 +1,4 @@
-# Swagger\Client\EventActionApi
+# ShopwareSDK6\EventActionApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateEventAction**](EventActionApi.md#updateeventaction) | **PATCH** /event-action/{id} | Partially update information about a Event Action resource
 
 # **createEventAction**
-> \Swagger\Client\Model\InlineResponse20072 createEventAction($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20072 createEventAction($body, $_response)
 
 Create a new Event Action resources
 
@@ -22,12 +22,12 @@ Create a new Event Action resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\EventActionApi(
+$apiInstance = new ShopwareSDK6\Api\EventActionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body46(); // \Swagger\Client\Model\Body46 | 
+$body = new \ShopwareSDK6\Model\Body46(); // \ShopwareSDK6\Model\Body46 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body46**](../Model/Body46.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body46**](../Model/Body46.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\ShopwareSDK6\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createEventAction**
-> \Swagger\Client\Model\InlineResponse20072 createEventAction($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20072 createEventAction($body, $_response)
 
 Create a new Event Action resources
 
@@ -73,12 +73,12 @@ Create a new Event Action resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\EventActionApi(
+$apiInstance = new ShopwareSDK6\Api\EventActionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\EventActionFlat(); // \Swagger\Client\Model\EventActionFlat | 
+$body = new \ShopwareSDK6\Model\EventActionFlat(); // \ShopwareSDK6\Model\EventActionFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\EventActionFlat**](../Model/EventActionFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\EventActionFlat**](../Model/EventActionFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\ShopwareSDK6\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Event Action resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\EventActionApi(
+$apiInstance = new ShopwareSDK6\Api\EventActionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getEventAction**
-> \Swagger\Client\Model\InlineResponse20072 getEventAction($id)
+> \ShopwareSDK6\Model\InlineResponse20072 getEventAction($id)
 
 Detailed information about a Event Action resource
 
@@ -170,7 +170,7 @@ Detailed information about a Event Action resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\EventActionApi(
+$apiInstance = new ShopwareSDK6\Api\EventActionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\ShopwareSDK6\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getEventActionList**
-> \Swagger\Client\Model\InlineResponse20070 getEventActionList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20070 getEventActionList($limit, $page, $query)
 
 List with basic information of Event Action resources
 
@@ -217,7 +217,7 @@ List with basic information of Event Action resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\EventActionApi(
+$apiInstance = new ShopwareSDK6\Api\EventActionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20070**](../Model/InlineResponse20070.md)
+[**\ShopwareSDK6\Model\InlineResponse20070**](../Model/InlineResponse20070.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateEventAction**
-> \Swagger\Client\Model\InlineResponse20072 updateEventAction($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20072 updateEventAction($id, $body, $_response)
 
 Partially update information about a Event Action resource
 
@@ -268,13 +268,13 @@ Partially update information about a Event Action resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\EventActionApi(
+$apiInstance = new ShopwareSDK6\Api\EventActionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the event_action
-$body = new \Swagger\Client\Model\Body47(); // \Swagger\Client\Model\Body47 | Partially update information about a Event Action resource.
+$body = new \ShopwareSDK6\Model\Body47(); // \ShopwareSDK6\Model\Body47 | Partially update information about a Event Action resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the event_action |
- **body** | [**\Swagger\Client\Model\Body47**](../Model/Body47.md)| Partially update information about a Event Action resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body47**](../Model/Body47.md)| Partially update information about a Event Action resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\ShopwareSDK6\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateEventAction**
-> \Swagger\Client\Model\InlineResponse20072 updateEventAction($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20072 updateEventAction($id, $body, $_response)
 
 Partially update information about a Event Action resource
 
@@ -319,13 +319,13 @@ Partially update information about a Event Action resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\EventActionApi(
+$apiInstance = new ShopwareSDK6\Api\EventActionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the event_action
-$body = new \Swagger\Client\Model\EventActionFlat(); // \Swagger\Client\Model\EventActionFlat | Partially update information about a Event Action resource.
+$body = new \ShopwareSDK6\Model\EventActionFlat(); // \ShopwareSDK6\Model\EventActionFlat | Partially update information about a Event Action resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the event_action |
- **body** | [**\Swagger\Client\Model\EventActionFlat**](../Model/EventActionFlat.md)| Partially update information about a Event Action resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\EventActionFlat**](../Model/EventActionFlat.md)| Partially update information about a Event Action resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\ShopwareSDK6\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
 
 ### Authorization
 

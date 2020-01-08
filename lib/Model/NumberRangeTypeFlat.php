@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * NumberRangeTypeFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,8 +64,8 @@ class NumberRangeTypeFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'number_ranges' => '\Swagger\Client\Model\NumberRangeFlat',
-'number_range_sales_channels' => '\Swagger\Client\Model\NumberRangeSalesChannelFlat'    ];
+'number_ranges' => '\ShopwareSDK6\Model\NumberRangeFlat',
+'number_range_sales_channels' => '\ShopwareSDK6\Model\NumberRangeSalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -457,7 +457,7 @@ class NumberRangeTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets number_ranges
      *
-     * @return \Swagger\Client\Model\NumberRangeFlat
+     * @return \ShopwareSDK6\Model\NumberRangeFlat
      */
     public function getNumberRanges()
     {
@@ -467,7 +467,7 @@ class NumberRangeTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets number_ranges
      *
-     * @param \Swagger\Client\Model\NumberRangeFlat $number_ranges number_ranges
+     * @param \ShopwareSDK6\Model\NumberRangeFlat $number_ranges number_ranges
      *
      * @return $this
      */
@@ -481,7 +481,7 @@ class NumberRangeTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets number_range_sales_channels
      *
-     * @return \Swagger\Client\Model\NumberRangeSalesChannelFlat
+     * @return \ShopwareSDK6\Model\NumberRangeSalesChannelFlat
      */
     public function getNumberRangeSalesChannels()
     {
@@ -491,7 +491,7 @@ class NumberRangeTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets number_range_sales_channels
      *
-     * @param \Swagger\Client\Model\NumberRangeSalesChannelFlat $number_range_sales_channels number_range_sales_channels
+     * @param \ShopwareSDK6\Model\NumberRangeSalesChannelFlat $number_range_sales_channels number_range_sales_channels
      *
      * @return $this
      */

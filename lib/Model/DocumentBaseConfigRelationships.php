@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DocumentBaseConfigRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class DocumentBaseConfigRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'document_type' => '\Swagger\Client\Model\DocumentBaseConfigRelationshipsDocumentType',
-'logo' => '\Swagger\Client\Model\DocumentBaseConfigRelationshipsLogo',
-'sales_channels' => '\Swagger\Client\Model\DocumentBaseConfigRelationshipsSalesChannels'    ];
+        'document_type' => '\ShopwareSDK6\Model\DocumentBaseConfigRelationshipsDocumentType',
+'logo' => '\ShopwareSDK6\Model\DocumentBaseConfigRelationshipsLogo',
+'sales_channels' => '\ShopwareSDK6\Model\DocumentBaseConfigRelationshipsSalesChannels'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class DocumentBaseConfigRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets document_type
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigRelationshipsDocumentType
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigRelationshipsDocumentType
      */
     public function getDocumentType()
     {
@@ -221,7 +221,7 @@ class DocumentBaseConfigRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets document_type
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigRelationshipsDocumentType $document_type document_type
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigRelationshipsDocumentType $document_type document_type
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class DocumentBaseConfigRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets logo
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigRelationshipsLogo
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigRelationshipsLogo
      */
     public function getLogo()
     {
@@ -245,7 +245,7 @@ class DocumentBaseConfigRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets logo
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigRelationshipsLogo $logo logo
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigRelationshipsLogo $logo logo
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class DocumentBaseConfigRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigRelationshipsSalesChannels
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -269,7 +269,7 @@ class DocumentBaseConfigRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ImportExportProfile Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ImportExportProfile extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ImportExportProfileAttributes',
-'links' => '\Swagger\Client\Model\ImportExportProfileLinks',
-'relationships' => '\Swagger\Client\Model\ImportExportProfileRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ImportExportProfileAttributes',
+'links' => '\ShopwareSDK6\Model\ImportExportProfileLinks',
+'relationships' => '\ShopwareSDK6\Model\ImportExportProfileRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ImportExportProfile extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ImportExportProfileAttributes
+     * @return \ShopwareSDK6\Model\ImportExportProfileAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ImportExportProfile extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ImportExportProfileAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ImportExportProfileAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ImportExportProfile extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ImportExportProfileLinks
+     * @return \ShopwareSDK6\Model\ImportExportProfileLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ImportExportProfile extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ImportExportProfileLinks $links links
+     * @param \ShopwareSDK6\Model\ImportExportProfileLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ImportExportProfile extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ImportExportProfileRelationships
+     * @return \ShopwareSDK6\Model\ImportExportProfileRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ImportExportProfile extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ImportExportProfileRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ImportExportProfileRelationships $relationships relationships
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductConfiguratorSettingRelationshipsOption Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductConfiguratorSettingRelationshipsOption implements ModelInterface, A
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ProductConfiguratorSettingRelationshipsOptionLinks',
-'data' => '\Swagger\Client\Model\ProductConfiguratorSettingRelationshipsOptionData'    ];
+        'links' => '\ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsOptionLinks',
+'data' => '\ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsOptionData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductConfiguratorSettingRelationshipsOption implements ModelInterface, A
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductConfiguratorSettingRelationshipsOptionLinks
+     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsOptionLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ProductConfiguratorSettingRelationshipsOption implements ModelInterface, A
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductConfiguratorSettingRelationshipsOptionLinks $links links
+     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsOptionLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductConfiguratorSettingRelationshipsOption implements ModelInterface, A
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ProductConfiguratorSettingRelationshipsOptionData
+     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsOptionData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ProductConfiguratorSettingRelationshipsOption implements ModelInterface, A
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ProductConfiguratorSettingRelationshipsOptionData $data data
+     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsOptionData $data data
      *
      * @return $this
      */

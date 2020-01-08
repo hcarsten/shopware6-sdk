@@ -1,4 +1,4 @@
-# Swagger\Client\SalesChannelApi
+# ShopwareSDK6\SalesChannelApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateSalesChannel**](SalesChannelApi.md#updatesaleschannel) | **PATCH** /sales-channel/{id} | Partially update information about a Sales Channel resource
 
 # **createSalesChannel**
-> \Swagger\Client\Model\InlineResponse200243 createSalesChannel($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200243 createSalesChannel($body, $_response)
 
 Create a new Sales Channel resources
 
@@ -22,12 +22,12 @@ Create a new Sales Channel resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\SalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body160(); // \Swagger\Client\Model\Body160 | 
+$body = new \ShopwareSDK6\Model\Body160(); // \ShopwareSDK6\Model\Body160 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body160**](../Model/Body160.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body160**](../Model/Body160.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
+[**\ShopwareSDK6\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createSalesChannel**
-> \Swagger\Client\Model\InlineResponse200243 createSalesChannel($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200243 createSalesChannel($body, $_response)
 
 Create a new Sales Channel resources
 
@@ -73,12 +73,12 @@ Create a new Sales Channel resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\SalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\SalesChannelFlat(); // \Swagger\Client\Model\SalesChannelFlat | 
+$body = new \ShopwareSDK6\Model\SalesChannelFlat(); // \ShopwareSDK6\Model\SalesChannelFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\SalesChannelFlat**](../Model/SalesChannelFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\SalesChannelFlat**](../Model/SalesChannelFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
+[**\ShopwareSDK6\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Sales Channel resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\SalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSalesChannel**
-> \Swagger\Client\Model\InlineResponse200243 getSalesChannel($id)
+> \ShopwareSDK6\Model\InlineResponse200243 getSalesChannel($id)
 
 Detailed information about a Sales Channel resource
 
@@ -170,7 +170,7 @@ Detailed information about a Sales Channel resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\SalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
+[**\ShopwareSDK6\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSalesChannelList**
-> \Swagger\Client\Model\InlineResponse200241 getSalesChannelList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200241 getSalesChannelList($limit, $page, $query)
 
 List with basic information of Sales Channel resources
 
@@ -217,7 +217,7 @@ List with basic information of Sales Channel resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\SalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200241**](../Model/InlineResponse200241.md)
+[**\ShopwareSDK6\Model\InlineResponse200241**](../Model/InlineResponse200241.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSalesChannel**
-> \Swagger\Client\Model\InlineResponse200243 updateSalesChannel($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200243 updateSalesChannel($id, $body, $_response)
 
 Partially update information about a Sales Channel resource
 
@@ -268,13 +268,13 @@ Partially update information about a Sales Channel resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\SalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the sales_channel
-$body = new \Swagger\Client\Model\Body161(); // \Swagger\Client\Model\Body161 | Partially update information about a Sales Channel resource.
+$body = new \ShopwareSDK6\Model\Body161(); // \ShopwareSDK6\Model\Body161 | Partially update information about a Sales Channel resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the sales_channel |
- **body** | [**\Swagger\Client\Model\Body161**](../Model/Body161.md)| Partially update information about a Sales Channel resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body161**](../Model/Body161.md)| Partially update information about a Sales Channel resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
+[**\ShopwareSDK6\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSalesChannel**
-> \Swagger\Client\Model\InlineResponse200243 updateSalesChannel($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200243 updateSalesChannel($id, $body, $_response)
 
 Partially update information about a Sales Channel resource
 
@@ -319,13 +319,13 @@ Partially update information about a Sales Channel resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\SalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\SalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the sales_channel
-$body = new \Swagger\Client\Model\SalesChannelFlat(); // \Swagger\Client\Model\SalesChannelFlat | Partially update information about a Sales Channel resource.
+$body = new \ShopwareSDK6\Model\SalesChannelFlat(); // \ShopwareSDK6\Model\SalesChannelFlat | Partially update information about a Sales Channel resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the sales_channel |
- **body** | [**\Swagger\Client\Model\SalesChannelFlat**](../Model/SalesChannelFlat.md)| Partially update information about a Sales Channel resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\SalesChannelFlat**](../Model/SalesChannelFlat.md)| Partially update information about a Sales Channel resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
+[**\ShopwareSDK6\Model\InlineResponse200243**](../Model/InlineResponse200243.md)
 
 ### Authorization
 

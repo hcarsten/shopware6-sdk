@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,37 +56,37 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'currencies' => '\Swagger\Client\Model\SalesChannelRelationshipsCurrencies',
-'languages' => '\Swagger\Client\Model\SalesChannelRelationshipsLanguages',
-'countries' => '\Swagger\Client\Model\SalesChannelRelationshipsCountries',
-'payment_methods' => '\Swagger\Client\Model\SalesChannelRelationshipsPaymentMethods',
-'shipping_methods' => '\Swagger\Client\Model\SalesChannelRelationshipsShippingMethods',
-'type' => '\Swagger\Client\Model\SalesChannelRelationshipsType',
-'language' => '\Swagger\Client\Model\SalesChannelRelationshipsLanguage',
-'customer_group' => '\Swagger\Client\Model\SalesChannelRelationshipsCustomerGroup',
-'currency' => '\Swagger\Client\Model\SalesChannelRelationshipsCurrency',
-'payment_method' => '\Swagger\Client\Model\SalesChannelRelationshipsPaymentMethod',
-'shipping_method' => '\Swagger\Client\Model\SalesChannelRelationshipsShippingMethod',
-'country' => '\Swagger\Client\Model\SalesChannelRelationshipsCountry',
-'orders' => '\Swagger\Client\Model\SalesChannelRelationshipsOrders',
-'customers' => '\Swagger\Client\Model\SalesChannelRelationshipsCustomers',
-'domains' => '\Swagger\Client\Model\SalesChannelRelationshipsDomains',
-'system_configs' => '\Swagger\Client\Model\SalesChannelRelationshipsSystemConfigs',
-'navigation_category' => '\Swagger\Client\Model\SalesChannelRelationshipsNavigationCategory',
-'footer_category' => '\Swagger\Client\Model\SalesChannelRelationshipsFooterCategory',
-'service_category' => '\Swagger\Client\Model\SalesChannelRelationshipsServiceCategory',
-'product_visibilities' => '\Swagger\Client\Model\SalesChannelRelationshipsProductVisibilities',
-'mail_header_footer' => '\Swagger\Client\Model\SalesChannelRelationshipsMailHeaderFooter',
-'newsletter_recipients' => '\Swagger\Client\Model\SalesChannelRelationshipsNewsletterRecipients',
-'mail_templates' => '\Swagger\Client\Model\SalesChannelRelationshipsMailTemplates',
-'number_range_sales_channels' => '\Swagger\Client\Model\SalesChannelRelationshipsNumberRangeSalesChannels',
-'promotion_sales_channels' => '\Swagger\Client\Model\SalesChannelRelationshipsPromotionSalesChannels',
-'document_base_config_sales_channels' => '\Swagger\Client\Model\SalesChannelRelationshipsDocumentBaseConfigSalesChannels',
-'product_reviews' => '\Swagger\Client\Model\SalesChannelRelationshipsProductReviews',
-'seo_urls' => '\Swagger\Client\Model\SalesChannelRelationshipsSeoUrls',
-'seo_url_templates' => '\Swagger\Client\Model\SalesChannelRelationshipsSeoUrlTemplates',
-'main_categories' => '\Swagger\Client\Model\SalesChannelRelationshipsMainCategories',
-'product_exports' => '\Swagger\Client\Model\SalesChannelRelationshipsProductExports'    ];
+        'currencies' => '\ShopwareSDK6\Model\SalesChannelRelationshipsCurrencies',
+'languages' => '\ShopwareSDK6\Model\SalesChannelRelationshipsLanguages',
+'countries' => '\ShopwareSDK6\Model\SalesChannelRelationshipsCountries',
+'payment_methods' => '\ShopwareSDK6\Model\SalesChannelRelationshipsPaymentMethods',
+'shipping_methods' => '\ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethods',
+'type' => '\ShopwareSDK6\Model\SalesChannelRelationshipsType',
+'language' => '\ShopwareSDK6\Model\SalesChannelRelationshipsLanguage',
+'customer_group' => '\ShopwareSDK6\Model\SalesChannelRelationshipsCustomerGroup',
+'currency' => '\ShopwareSDK6\Model\SalesChannelRelationshipsCurrency',
+'payment_method' => '\ShopwareSDK6\Model\SalesChannelRelationshipsPaymentMethod',
+'shipping_method' => '\ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethod',
+'country' => '\ShopwareSDK6\Model\SalesChannelRelationshipsCountry',
+'orders' => '\ShopwareSDK6\Model\SalesChannelRelationshipsOrders',
+'customers' => '\ShopwareSDK6\Model\SalesChannelRelationshipsCustomers',
+'domains' => '\ShopwareSDK6\Model\SalesChannelRelationshipsDomains',
+'system_configs' => '\ShopwareSDK6\Model\SalesChannelRelationshipsSystemConfigs',
+'navigation_category' => '\ShopwareSDK6\Model\SalesChannelRelationshipsNavigationCategory',
+'footer_category' => '\ShopwareSDK6\Model\SalesChannelRelationshipsFooterCategory',
+'service_category' => '\ShopwareSDK6\Model\SalesChannelRelationshipsServiceCategory',
+'product_visibilities' => '\ShopwareSDK6\Model\SalesChannelRelationshipsProductVisibilities',
+'mail_header_footer' => '\ShopwareSDK6\Model\SalesChannelRelationshipsMailHeaderFooter',
+'newsletter_recipients' => '\ShopwareSDK6\Model\SalesChannelRelationshipsNewsletterRecipients',
+'mail_templates' => '\ShopwareSDK6\Model\SalesChannelRelationshipsMailTemplates',
+'number_range_sales_channels' => '\ShopwareSDK6\Model\SalesChannelRelationshipsNumberRangeSalesChannels',
+'promotion_sales_channels' => '\ShopwareSDK6\Model\SalesChannelRelationshipsPromotionSalesChannels',
+'document_base_config_sales_channels' => '\ShopwareSDK6\Model\SalesChannelRelationshipsDocumentBaseConfigSalesChannels',
+'product_reviews' => '\ShopwareSDK6\Model\SalesChannelRelationshipsProductReviews',
+'seo_urls' => '\ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrls',
+'seo_url_templates' => '\ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrlTemplates',
+'main_categories' => '\ShopwareSDK6\Model\SalesChannelRelationshipsMainCategories',
+'product_exports' => '\ShopwareSDK6\Model\SalesChannelRelationshipsProductExports'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -379,7 +379,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets currencies
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsCurrencies
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsCurrencies
      */
     public function getCurrencies()
     {
@@ -389,7 +389,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets currencies
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsCurrencies $currencies currencies
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsCurrencies $currencies currencies
      *
      * @return $this
      */
@@ -403,7 +403,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets languages
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsLanguages
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsLanguages
      */
     public function getLanguages()
     {
@@ -413,7 +413,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets languages
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsLanguages $languages languages
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsLanguages $languages languages
      *
      * @return $this
      */
@@ -427,7 +427,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets countries
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsCountries
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsCountries
      */
     public function getCountries()
     {
@@ -437,7 +437,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets countries
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsCountries $countries countries
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsCountries $countries countries
      *
      * @return $this
      */
@@ -451,7 +451,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets payment_methods
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsPaymentMethods
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsPaymentMethods
      */
     public function getPaymentMethods()
     {
@@ -461,7 +461,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets payment_methods
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsPaymentMethods $payment_methods payment_methods
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsPaymentMethods $payment_methods payment_methods
      *
      * @return $this
      */
@@ -475,7 +475,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsShippingMethods
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethods
      */
     public function getShippingMethods()
     {
@@ -485,7 +485,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsShippingMethods $shipping_methods shipping_methods
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethods $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -499,7 +499,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets type
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsType
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsType
      */
     public function getType()
     {
@@ -509,7 +509,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets type
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsType $type type
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsType $type type
      *
      * @return $this
      */
@@ -523,7 +523,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsLanguage
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -533,7 +533,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsLanguage $language language
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsLanguage $language language
      *
      * @return $this
      */
@@ -547,7 +547,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customer_group
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsCustomerGroup
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsCustomerGroup
      */
     public function getCustomerGroup()
     {
@@ -557,7 +557,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customer_group
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsCustomerGroup $customer_group customer_group
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsCustomerGroup $customer_group customer_group
      *
      * @return $this
      */
@@ -571,7 +571,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsCurrency
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsCurrency
      */
     public function getCurrency()
     {
@@ -581,7 +581,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsCurrency $currency currency
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsCurrency $currency currency
      *
      * @return $this
      */
@@ -595,7 +595,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets payment_method
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsPaymentMethod
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsPaymentMethod
      */
     public function getPaymentMethod()
     {
@@ -605,7 +605,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets payment_method
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsPaymentMethod $payment_method payment_method
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsPaymentMethod $payment_method payment_method
      *
      * @return $this
      */
@@ -619,7 +619,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsShippingMethod
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethod
      */
     public function getShippingMethod()
     {
@@ -629,7 +629,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsShippingMethod $shipping_method shipping_method
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethod $shipping_method shipping_method
      *
      * @return $this
      */
@@ -643,7 +643,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsCountry
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsCountry
      */
     public function getCountry()
     {
@@ -653,7 +653,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsCountry $country country
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsCountry $country country
      *
      * @return $this
      */
@@ -667,7 +667,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsOrders
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsOrders
      */
     public function getOrders()
     {
@@ -677,7 +677,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsOrders $orders orders
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsOrders $orders orders
      *
      * @return $this
      */
@@ -691,7 +691,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsCustomers
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsCustomers
      */
     public function getCustomers()
     {
@@ -701,7 +701,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsCustomers $customers customers
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsCustomers $customers customers
      *
      * @return $this
      */
@@ -715,7 +715,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets domains
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsDomains
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsDomains
      */
     public function getDomains()
     {
@@ -725,7 +725,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets domains
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsDomains $domains domains
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsDomains $domains domains
      *
      * @return $this
      */
@@ -739,7 +739,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets system_configs
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsSystemConfigs
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsSystemConfigs
      */
     public function getSystemConfigs()
     {
@@ -749,7 +749,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets system_configs
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsSystemConfigs $system_configs system_configs
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsSystemConfigs $system_configs system_configs
      *
      * @return $this
      */
@@ -763,7 +763,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets navigation_category
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsNavigationCategory
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsNavigationCategory
      */
     public function getNavigationCategory()
     {
@@ -773,7 +773,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets navigation_category
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsNavigationCategory $navigation_category navigation_category
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsNavigationCategory $navigation_category navigation_category
      *
      * @return $this
      */
@@ -787,7 +787,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets footer_category
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsFooterCategory
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsFooterCategory
      */
     public function getFooterCategory()
     {
@@ -797,7 +797,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets footer_category
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsFooterCategory $footer_category footer_category
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsFooterCategory $footer_category footer_category
      *
      * @return $this
      */
@@ -811,7 +811,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets service_category
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsServiceCategory
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsServiceCategory
      */
     public function getServiceCategory()
     {
@@ -821,7 +821,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets service_category
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsServiceCategory $service_category service_category
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsServiceCategory $service_category service_category
      *
      * @return $this
      */
@@ -835,7 +835,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_visibilities
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsProductVisibilities
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsProductVisibilities
      */
     public function getProductVisibilities()
     {
@@ -845,7 +845,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_visibilities
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsProductVisibilities $product_visibilities product_visibilities
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsProductVisibilities $product_visibilities product_visibilities
      *
      * @return $this
      */
@@ -859,7 +859,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets mail_header_footer
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsMailHeaderFooter
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsMailHeaderFooter
      */
     public function getMailHeaderFooter()
     {
@@ -869,7 +869,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets mail_header_footer
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsMailHeaderFooter $mail_header_footer mail_header_footer
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsMailHeaderFooter $mail_header_footer mail_header_footer
      *
      * @return $this
      */
@@ -883,7 +883,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets newsletter_recipients
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsNewsletterRecipients
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsNewsletterRecipients
      */
     public function getNewsletterRecipients()
     {
@@ -893,7 +893,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets newsletter_recipients
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsNewsletterRecipients $newsletter_recipients newsletter_recipients
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsNewsletterRecipients $newsletter_recipients newsletter_recipients
      *
      * @return $this
      */
@@ -907,7 +907,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets mail_templates
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsMailTemplates
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsMailTemplates
      */
     public function getMailTemplates()
     {
@@ -917,7 +917,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets mail_templates
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsMailTemplates $mail_templates mail_templates
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsMailTemplates $mail_templates mail_templates
      *
      * @return $this
      */
@@ -931,7 +931,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets number_range_sales_channels
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsNumberRangeSalesChannels
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsNumberRangeSalesChannels
      */
     public function getNumberRangeSalesChannels()
     {
@@ -941,7 +941,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets number_range_sales_channels
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsNumberRangeSalesChannels $number_range_sales_channels number_range_sales_channels
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsNumberRangeSalesChannels $number_range_sales_channels number_range_sales_channels
      *
      * @return $this
      */
@@ -955,7 +955,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_sales_channels
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsPromotionSalesChannels
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsPromotionSalesChannels
      */
     public function getPromotionSalesChannels()
     {
@@ -965,7 +965,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_sales_channels
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsPromotionSalesChannels $promotion_sales_channels promotion_sales_channels
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsPromotionSalesChannels $promotion_sales_channels promotion_sales_channels
      *
      * @return $this
      */
@@ -979,7 +979,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets document_base_config_sales_channels
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsDocumentBaseConfigSalesChannels
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsDocumentBaseConfigSalesChannels
      */
     public function getDocumentBaseConfigSalesChannels()
     {
@@ -989,7 +989,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets document_base_config_sales_channels
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsDocumentBaseConfigSalesChannels $document_base_config_sales_channels document_base_config_sales_channels
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsDocumentBaseConfigSalesChannels $document_base_config_sales_channels document_base_config_sales_channels
      *
      * @return $this
      */
@@ -1003,7 +1003,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_reviews
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsProductReviews
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsProductReviews
      */
     public function getProductReviews()
     {
@@ -1013,7 +1013,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_reviews
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsProductReviews $product_reviews product_reviews
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsProductReviews $product_reviews product_reviews
      *
      * @return $this
      */
@@ -1027,7 +1027,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets seo_urls
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsSeoUrls
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrls
      */
     public function getSeoUrls()
     {
@@ -1037,7 +1037,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets seo_urls
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsSeoUrls $seo_urls seo_urls
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrls $seo_urls seo_urls
      *
      * @return $this
      */
@@ -1051,7 +1051,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets seo_url_templates
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsSeoUrlTemplates
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrlTemplates
      */
     public function getSeoUrlTemplates()
     {
@@ -1061,7 +1061,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets seo_url_templates
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsSeoUrlTemplates $seo_url_templates seo_url_templates
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrlTemplates $seo_url_templates seo_url_templates
      *
      * @return $this
      */
@@ -1075,7 +1075,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets main_categories
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsMainCategories
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsMainCategories
      */
     public function getMainCategories()
     {
@@ -1085,7 +1085,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets main_categories
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsMainCategories $main_categories main_categories
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsMainCategories $main_categories main_categories
      *
      * @return $this
      */
@@ -1099,7 +1099,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_exports
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsProductExports
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsProductExports
      */
     public function getProductExports()
     {
@@ -1109,7 +1109,7 @@ class SalesChannelRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_exports
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsProductExports $product_exports product_exports
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsProductExports $product_exports product_exports
      *
      * @return $this
      */

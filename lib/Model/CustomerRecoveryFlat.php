@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomerRecoveryFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,7 +61,7 @@ class CustomerRecoveryFlat implements ModelInterface, ArrayAccess
 'customer_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'customer' => '\Swagger\Client\Model\CustomerFlat'    ];
+'customer' => '\ShopwareSDK6\Model\CustomerFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -361,7 +361,7 @@ class CustomerRecoveryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \Swagger\Client\Model\CustomerFlat
+     * @return \ShopwareSDK6\Model\CustomerFlat
      */
     public function getCustomer()
     {
@@ -371,7 +371,7 @@ class CustomerRecoveryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \Swagger\Client\Model\CustomerFlat $customer customer
+     * @param \ShopwareSDK6\Model\CustomerFlat $customer customer
      *
      * @return $this
      */

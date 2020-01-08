@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomerGroup Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CustomerGroup extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\CustomerGroupAttributes',
-'links' => '\Swagger\Client\Model\CustomerGroupLinks',
-'relationships' => '\Swagger\Client\Model\CustomerGroupRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\CustomerGroupAttributes',
+'links' => '\ShopwareSDK6\Model\CustomerGroupLinks',
+'relationships' => '\ShopwareSDK6\Model\CustomerGroupRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CustomerGroup extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\CustomerGroupAttributes
+     * @return \ShopwareSDK6\Model\CustomerGroupAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CustomerGroup extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\CustomerGroupAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\CustomerGroupAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CustomerGroup extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CustomerGroupLinks
+     * @return \ShopwareSDK6\Model\CustomerGroupLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CustomerGroup extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CustomerGroupLinks $links links
+     * @param \ShopwareSDK6\Model\CustomerGroupLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CustomerGroup extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\CustomerGroupRelationships
+     * @return \ShopwareSDK6\Model\CustomerGroupRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CustomerGroup extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\CustomerGroupRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\CustomerGroupRelationships $relationships relationships
      *
      * @return $this
      */

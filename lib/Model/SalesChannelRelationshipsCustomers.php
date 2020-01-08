@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelRelationshipsCustomers Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelRelationshipsCustomers implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\SalesChannelRelationshipsCustomersLinks',
-'data' => '\Swagger\Client\Model\SalesChannelRelationshipsCustomersData[]'    ];
+        'links' => '\ShopwareSDK6\Model\SalesChannelRelationshipsCustomersLinks',
+'data' => '\ShopwareSDK6\Model\SalesChannelRelationshipsCustomersData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelRelationshipsCustomers implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsCustomersLinks
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsCustomersLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelRelationshipsCustomers implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsCustomersLinks $links links
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsCustomersLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelRelationshipsCustomers implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsCustomersData[]
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsCustomersData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelRelationshipsCustomers implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsCustomersData[] $data data
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsCustomersData[] $data data
      *
      * @return $this
      */

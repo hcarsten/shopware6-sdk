@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ShippingMethodRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,14 +56,14 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'delivery_time' => '\Swagger\Client\Model\ShippingMethodRelationshipsDeliveryTime',
-'availability_rule' => '\Swagger\Client\Model\ShippingMethodRelationshipsAvailabilityRule',
-'prices' => '\Swagger\Client\Model\ShippingMethodRelationshipsPrices',
-'media' => '\Swagger\Client\Model\ShippingMethodRelationshipsMedia',
-'tags' => '\Swagger\Client\Model\ShippingMethodRelationshipsTags',
-'order_deliveries' => '\Swagger\Client\Model\ShippingMethodRelationshipsOrderDeliveries',
-'sales_channels' => '\Swagger\Client\Model\ShippingMethodRelationshipsSalesChannels',
-'sales_channel_default_assignments' => '\Swagger\Client\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignments'    ];
+        'delivery_time' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsDeliveryTime',
+'availability_rule' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsAvailabilityRule',
+'prices' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsPrices',
+'media' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsMedia',
+'tags' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsTags',
+'order_deliveries' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsOrderDeliveries',
+'sales_channels' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannels',
+'sales_channel_default_assignments' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignments'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -241,7 +241,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_time
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsDeliveryTime
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsDeliveryTime
      */
     public function getDeliveryTime()
     {
@@ -251,7 +251,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_time
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsDeliveryTime $delivery_time delivery_time
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsDeliveryTime $delivery_time delivery_time
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets availability_rule
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsAvailabilityRule
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsAvailabilityRule
      */
     public function getAvailabilityRule()
     {
@@ -275,7 +275,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets availability_rule
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsAvailabilityRule $availability_rule availability_rule
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsAvailabilityRule $availability_rule availability_rule
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets prices
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsPrices
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsPrices
      */
     public function getPrices()
     {
@@ -299,7 +299,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets prices
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsPrices $prices prices
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsPrices $prices prices
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsMedia
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsMedia
      */
     public function getMedia()
     {
@@ -323,7 +323,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsMedia $media media
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -337,7 +337,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsTags
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsTags
      */
     public function getTags()
     {
@@ -347,7 +347,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsTags $tags tags
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsTags $tags tags
      *
      * @return $this
      */
@@ -361,7 +361,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_deliveries
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsOrderDeliveries
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsOrderDeliveries
      */
     public function getOrderDeliveries()
     {
@@ -371,7 +371,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_deliveries
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsOrderDeliveries $order_deliveries order_deliveries
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsOrderDeliveries $order_deliveries order_deliveries
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsSalesChannels
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -395,7 +395,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */
@@ -409,7 +409,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignments
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignments
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -419,7 +419,7 @@ class ShippingMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */

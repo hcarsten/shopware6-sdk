@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CurrencyRelationshipsSalesChannelDefaultAssignments Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CurrencyRelationshipsSalesChannelDefaultAssignments implements ModelInterf
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsLinks',
-'data' => '\Swagger\Client\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsLinks',
+'data' => '\ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CurrencyRelationshipsSalesChannelDefaultAssignments implements ModelInterf
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsLinks
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CurrencyRelationshipsSalesChannelDefaultAssignments implements ModelInterf
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsLinks $links links
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CurrencyRelationshipsSalesChannelDefaultAssignments implements ModelInterf
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsData[]
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CurrencyRelationshipsSalesChannelDefaultAssignments implements ModelInterf
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsData[] $data data
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDefaultAssignmentsData[] $data data
      *
      * @return $this
      */

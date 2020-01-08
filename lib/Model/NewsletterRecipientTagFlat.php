@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * NewsletterRecipientTagFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class NewsletterRecipientTagFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'newsletter_recipient_id' => 'string',
 'tag_id' => 'string',
-'newsletter_recipient' => '\Swagger\Client\Model\NewsletterRecipientFlat',
-'tag' => '\Swagger\Client\Model\TagFlat'    ];
+'newsletter_recipient' => '\ShopwareSDK6\Model\NewsletterRecipientFlat',
+'tag' => '\ShopwareSDK6\Model\TagFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class NewsletterRecipientTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets newsletter_recipient
      *
-     * @return \Swagger\Client\Model\NewsletterRecipientFlat
+     * @return \ShopwareSDK6\Model\NewsletterRecipientFlat
      */
     public function getNewsletterRecipient()
     {
@@ -311,7 +311,7 @@ class NewsletterRecipientTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets newsletter_recipient
      *
-     * @param \Swagger\Client\Model\NewsletterRecipientFlat $newsletter_recipient newsletter_recipient
+     * @param \ShopwareSDK6\Model\NewsletterRecipientFlat $newsletter_recipient newsletter_recipient
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class NewsletterRecipientTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tag
      *
-     * @return \Swagger\Client\Model\TagFlat
+     * @return \ShopwareSDK6\Model\TagFlat
      */
     public function getTag()
     {
@@ -335,7 +335,7 @@ class NewsletterRecipientTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tag
      *
-     * @param \Swagger\Client\Model\TagFlat $tag tag
+     * @param \ShopwareSDK6\Model\TagFlat $tag tag
      *
      * @return $this
      */

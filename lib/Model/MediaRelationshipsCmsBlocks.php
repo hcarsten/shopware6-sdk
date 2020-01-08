@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaRelationshipsCmsBlocks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaRelationshipsCmsBlocks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\MediaRelationshipsCmsBlocksLinks',
-'data' => '\Swagger\Client\Model\MediaRelationshipsCmsBlocksData[]'    ];
+        'links' => '\ShopwareSDK6\Model\MediaRelationshipsCmsBlocksLinks',
+'data' => '\ShopwareSDK6\Model\MediaRelationshipsCmsBlocksData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaRelationshipsCmsBlocks implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsCmsBlocksLinks
+     * @return \ShopwareSDK6\Model\MediaRelationshipsCmsBlocksLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MediaRelationshipsCmsBlocks implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsCmsBlocksLinks $links links
+     * @param \ShopwareSDK6\Model\MediaRelationshipsCmsBlocksLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaRelationshipsCmsBlocks implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsCmsBlocksData[]
+     * @return \ShopwareSDK6\Model\MediaRelationshipsCmsBlocksData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MediaRelationshipsCmsBlocks implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsCmsBlocksData[] $data data
+     * @param \ShopwareSDK6\Model\MediaRelationshipsCmsBlocksData[] $data data
      *
      * @return $this
      */

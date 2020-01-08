@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DeadMessageRelationshipsScheduledTask Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class DeadMessageRelationshipsScheduledTask implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\DeadMessageRelationshipsScheduledTaskLinks',
-'data' => '\Swagger\Client\Model\DeadMessageRelationshipsScheduledTaskData'    ];
+        'links' => '\ShopwareSDK6\Model\DeadMessageRelationshipsScheduledTaskLinks',
+'data' => '\ShopwareSDK6\Model\DeadMessageRelationshipsScheduledTaskData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class DeadMessageRelationshipsScheduledTask implements ModelInterface, ArrayAcce
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\DeadMessageRelationshipsScheduledTaskLinks
+     * @return \ShopwareSDK6\Model\DeadMessageRelationshipsScheduledTaskLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class DeadMessageRelationshipsScheduledTask implements ModelInterface, ArrayAcce
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\DeadMessageRelationshipsScheduledTaskLinks $links links
+     * @param \ShopwareSDK6\Model\DeadMessageRelationshipsScheduledTaskLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class DeadMessageRelationshipsScheduledTask implements ModelInterface, ArrayAcce
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\DeadMessageRelationshipsScheduledTaskData
+     * @return \ShopwareSDK6\Model\DeadMessageRelationshipsScheduledTaskData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class DeadMessageRelationshipsScheduledTask implements ModelInterface, ArrayAcce
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\DeadMessageRelationshipsScheduledTaskData $data data
+     * @param \ShopwareSDK6\Model\DeadMessageRelationshipsScheduledTaskData $data data
      *
      * @return $this
      */

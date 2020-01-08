@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SeoUrlFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -70,8 +70,8 @@ class SeoUrlFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'language' => '\Swagger\Client\Model\LanguageFlat',
-'sales_channel' => '\Swagger\Client\Model\SalesChannelFlat'    ];
+'language' => '\ShopwareSDK6\Model\LanguageFlat',
+'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -646,7 +646,7 @@ class SeoUrlFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\LanguageFlat
+     * @return \ShopwareSDK6\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -656,7 +656,7 @@ class SeoUrlFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\LanguageFlat $language language
+     * @param \ShopwareSDK6\Model\LanguageFlat $language language
      *
      * @return $this
      */
@@ -670,7 +670,7 @@ class SeoUrlFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\SalesChannelFlat
+     * @return \ShopwareSDK6\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -680,7 +680,7 @@ class SeoUrlFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */

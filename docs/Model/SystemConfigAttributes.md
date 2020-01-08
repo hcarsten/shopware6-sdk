@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **configuration_key** | **string** |  | 
-**configuration_value** | [**\Swagger\Client\Model\SystemConfigAttributesConfigurationValue**](SystemConfigAttributesConfigurationValue.md) |  | 
+**configuration_value** | [**\ShopwareSDK6\Model\SystemConfigAttributesConfigurationValue**](SystemConfigAttributesConfigurationValue.md) |  | 
 **sales_channel_id** | **string** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 

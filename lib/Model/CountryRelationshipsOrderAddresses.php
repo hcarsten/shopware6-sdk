@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CountryRelationshipsOrderAddresses Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CountryRelationshipsOrderAddresses implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CountryRelationshipsOrderAddressesLinks',
-'data' => '\Swagger\Client\Model\CountryRelationshipsOrderAddressesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\CountryRelationshipsOrderAddressesLinks',
+'data' => '\ShopwareSDK6\Model\CountryRelationshipsOrderAddressesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CountryRelationshipsOrderAddresses implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CountryRelationshipsOrderAddressesLinks
+     * @return \ShopwareSDK6\Model\CountryRelationshipsOrderAddressesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CountryRelationshipsOrderAddresses implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CountryRelationshipsOrderAddressesLinks $links links
+     * @param \ShopwareSDK6\Model\CountryRelationshipsOrderAddressesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CountryRelationshipsOrderAddresses implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CountryRelationshipsOrderAddressesData[]
+     * @return \ShopwareSDK6\Model\CountryRelationshipsOrderAddressesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CountryRelationshipsOrderAddresses implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CountryRelationshipsOrderAddressesData[] $data data
+     * @param \ShopwareSDK6\Model\CountryRelationshipsOrderAddressesData[] $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CmsSection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CmsSection extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\CmsSectionAttributes',
-'links' => '\Swagger\Client\Model\CmsSectionLinks',
-'relationships' => '\Swagger\Client\Model\CmsSectionRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\CmsSectionAttributes',
+'links' => '\ShopwareSDK6\Model\CmsSectionLinks',
+'relationships' => '\ShopwareSDK6\Model\CmsSectionRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CmsSection extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\CmsSectionAttributes
+     * @return \ShopwareSDK6\Model\CmsSectionAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CmsSection extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\CmsSectionAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\CmsSectionAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CmsSection extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CmsSectionLinks
+     * @return \ShopwareSDK6\Model\CmsSectionLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CmsSection extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CmsSectionLinks $links links
+     * @param \ShopwareSDK6\Model\CmsSectionLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CmsSection extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\CmsSectionRelationships
+     * @return \ShopwareSDK6\Model\CmsSectionRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CmsSection extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\CmsSectionRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\CmsSectionRelationships $relationships relationships
      *
      * @return $this
      */

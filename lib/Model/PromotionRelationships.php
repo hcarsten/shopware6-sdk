@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,14 +56,14 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'setgroups' => '\Swagger\Client\Model\PromotionRelationshipsSetgroups',
-'sales_channels' => '\Swagger\Client\Model\PromotionRelationshipsSalesChannels',
-'discounts' => '\Swagger\Client\Model\PromotionRelationshipsDiscounts',
-'individual_codes' => '\Swagger\Client\Model\PromotionRelationshipsIndividualCodes',
-'persona_rules' => '\Swagger\Client\Model\PromotionRelationshipsPersonaRules',
-'persona_customers' => '\Swagger\Client\Model\PromotionRelationshipsPersonaCustomers',
-'order_rules' => '\Swagger\Client\Model\PromotionRelationshipsOrderRules',
-'cart_rules' => '\Swagger\Client\Model\PromotionRelationshipsCartRules'    ];
+        'setgroups' => '\ShopwareSDK6\Model\PromotionRelationshipsSetgroups',
+'sales_channels' => '\ShopwareSDK6\Model\PromotionRelationshipsSalesChannels',
+'discounts' => '\ShopwareSDK6\Model\PromotionRelationshipsDiscounts',
+'individual_codes' => '\ShopwareSDK6\Model\PromotionRelationshipsIndividualCodes',
+'persona_rules' => '\ShopwareSDK6\Model\PromotionRelationshipsPersonaRules',
+'persona_customers' => '\ShopwareSDK6\Model\PromotionRelationshipsPersonaCustomers',
+'order_rules' => '\ShopwareSDK6\Model\PromotionRelationshipsOrderRules',
+'cart_rules' => '\ShopwareSDK6\Model\PromotionRelationshipsCartRules'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -241,7 +241,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets setgroups
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsSetgroups
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsSetgroups
      */
     public function getSetgroups()
     {
@@ -251,7 +251,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets setgroups
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsSetgroups $setgroups setgroups
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsSetgroups $setgroups setgroups
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsSalesChannels
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -275,7 +275,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets discounts
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsDiscounts
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsDiscounts
      */
     public function getDiscounts()
     {
@@ -299,7 +299,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets discounts
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsDiscounts $discounts discounts
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsDiscounts $discounts discounts
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets individual_codes
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsIndividualCodes
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsIndividualCodes
      */
     public function getIndividualCodes()
     {
@@ -323,7 +323,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets individual_codes
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsIndividualCodes $individual_codes individual_codes
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsIndividualCodes $individual_codes individual_codes
      *
      * @return $this
      */
@@ -337,7 +337,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets persona_rules
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsPersonaRules
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsPersonaRules
      */
     public function getPersonaRules()
     {
@@ -347,7 +347,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets persona_rules
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsPersonaRules $persona_rules persona_rules
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsPersonaRules $persona_rules persona_rules
      *
      * @return $this
      */
@@ -361,7 +361,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets persona_customers
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsPersonaCustomers
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsPersonaCustomers
      */
     public function getPersonaCustomers()
     {
@@ -371,7 +371,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets persona_customers
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsPersonaCustomers $persona_customers persona_customers
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsPersonaCustomers $persona_customers persona_customers
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_rules
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsOrderRules
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsOrderRules
      */
     public function getOrderRules()
     {
@@ -395,7 +395,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_rules
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsOrderRules $order_rules order_rules
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsOrderRules $order_rules order_rules
      *
      * @return $this
      */
@@ -409,7 +409,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets cart_rules
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsCartRules
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsCartRules
      */
     public function getCartRules()
     {
@@ -419,7 +419,7 @@ class PromotionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets cart_rules
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsCartRules $cart_rules cart_rules
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsCartRules $cart_rules cart_rules
      *
      * @return $this
      */

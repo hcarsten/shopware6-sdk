@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig implements M
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigLinks',
-'data' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigData'    ];
+        'links' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigLinks',
+'data' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig implements M
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigLinks
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig implements M
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigLinks $links links
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig implements M
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigData
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig implements M
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigData $data data
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfigData $data data
      *
      * @return $this
      */

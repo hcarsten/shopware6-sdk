@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * StateMachineStateRelationshipsToStateMachineHistoryEntries Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class StateMachineStateRelationshipsToStateMachineHistoryEntries implements Mode
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesLinks',
-'data' => '\Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesLinks',
+'data' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class StateMachineStateRelationshipsToStateMachineHistoryEntries implements Mode
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesLinks
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class StateMachineStateRelationshipsToStateMachineHistoryEntries implements Mode
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesLinks $links links
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class StateMachineStateRelationshipsToStateMachineHistoryEntries implements Mode
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesData[]
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class StateMachineStateRelationshipsToStateMachineHistoryEntries implements Mode
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesData[] $data data
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineHistoryEntriesData[] $data data
      *
      * @return $this
      */

@@ -14,9 +14,9 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**product** | [**\Swagger\Client\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**media** | [**\Swagger\Client\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**option** | [**\Swagger\Client\Model\PropertyGroupOptionFlat**](PropertyGroupOptionFlat.md) |  | [optional] 
+**product** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**option** | [**\ShopwareSDK6\Model\PropertyGroupOptionFlat**](PropertyGroupOptionFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

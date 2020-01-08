@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductStreamFilterFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -68,9 +68,9 @@ class ProductStreamFilterFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'product_stream' => '\Swagger\Client\Model\ProductStreamFlat',
-'parent' => '\Swagger\Client\Model\ProductStreamFilterFlat',
-'queries' => '\Swagger\Client\Model\ProductStreamFilterFlat'    ];
+'product_stream' => '\ShopwareSDK6\Model\ProductStreamFlat',
+'parent' => '\ShopwareSDK6\Model\ProductStreamFilterFlat',
+'queries' => '\ShopwareSDK6\Model\ProductStreamFilterFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -583,7 +583,7 @@ class ProductStreamFilterFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_stream
      *
-     * @return \Swagger\Client\Model\ProductStreamFlat
+     * @return \ShopwareSDK6\Model\ProductStreamFlat
      */
     public function getProductStream()
     {
@@ -593,7 +593,7 @@ class ProductStreamFilterFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_stream
      *
-     * @param \Swagger\Client\Model\ProductStreamFlat $product_stream product_stream
+     * @param \ShopwareSDK6\Model\ProductStreamFlat $product_stream product_stream
      *
      * @return $this
      */
@@ -607,7 +607,7 @@ class ProductStreamFilterFlat implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \Swagger\Client\Model\ProductStreamFilterFlat
+     * @return \ShopwareSDK6\Model\ProductStreamFilterFlat
      */
     public function getParent()
     {
@@ -617,7 +617,7 @@ class ProductStreamFilterFlat implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \Swagger\Client\Model\ProductStreamFilterFlat $parent parent
+     * @param \ShopwareSDK6\Model\ProductStreamFilterFlat $parent parent
      *
      * @return $this
      */
@@ -631,7 +631,7 @@ class ProductStreamFilterFlat implements ModelInterface, ArrayAccess
     /**
      * Gets queries
      *
-     * @return \Swagger\Client\Model\ProductStreamFilterFlat
+     * @return \ShopwareSDK6\Model\ProductStreamFilterFlat
      */
     public function getQueries()
     {
@@ -641,7 +641,7 @@ class ProductStreamFilterFlat implements ModelInterface, ArrayAccess
     /**
      * Sets queries
      *
-     * @param \Swagger\Client\Model\ProductStreamFilterFlat $queries queries
+     * @param \ShopwareSDK6\Model\ProductStreamFilterFlat $queries queries
      *
      * @return $this
      */

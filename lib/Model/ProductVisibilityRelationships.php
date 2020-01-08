@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductVisibilityRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductVisibilityRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sales_channel' => '\Swagger\Client\Model\ProductVisibilityRelationshipsSalesChannel',
-'product' => '\Swagger\Client\Model\ProductVisibilityRelationshipsProduct'    ];
+        'sales_channel' => '\ShopwareSDK6\Model\ProductVisibilityRelationshipsSalesChannel',
+'product' => '\ShopwareSDK6\Model\ProductVisibilityRelationshipsProduct'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductVisibilityRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\ProductVisibilityRelationshipsSalesChannel
+     * @return \ShopwareSDK6\Model\ProductVisibilityRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -215,7 +215,7 @@ class ProductVisibilityRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\ProductVisibilityRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\ProductVisibilityRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductVisibilityRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\ProductVisibilityRelationshipsProduct
+     * @return \ShopwareSDK6\Model\ProductVisibilityRelationshipsProduct
      */
     public function getProduct()
     {
@@ -239,7 +239,7 @@ class ProductVisibilityRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\ProductVisibilityRelationshipsProduct $product product
+     * @param \ShopwareSDK6\Model\ProductVisibilityRelationshipsProduct $product product
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * InlineResponse200128 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class InlineResponse200128 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'total' => 'int',
-'data' => '\Swagger\Client\Model\MessageQueueStatsFlat[]'    ];
+'data' => '\ShopwareSDK6\Model\MessageQueueStatsFlat[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -229,7 +229,7 @@ class InlineResponse200128 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\MessageQueueStatsFlat[]
+     * @return \ShopwareSDK6\Model\MessageQueueStatsFlat[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class InlineResponse200128 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\MessageQueueStatsFlat[] $data data
+     * @param \ShopwareSDK6\Model\MessageQueueStatsFlat[] $data data
      *
      * @return $this
      */

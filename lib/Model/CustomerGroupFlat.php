@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomerGroupFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,8 +63,8 @@ class CustomerGroupFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'customers' => '\Swagger\Client\Model\CustomerFlat',
-'sales_channels' => '\Swagger\Client\Model\SalesChannelFlat'    ];
+'customers' => '\ShopwareSDK6\Model\CustomerFlat',
+'sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -424,7 +424,7 @@ class CustomerGroupFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \Swagger\Client\Model\CustomerFlat
+     * @return \ShopwareSDK6\Model\CustomerFlat
      */
     public function getCustomers()
     {
@@ -434,7 +434,7 @@ class CustomerGroupFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \Swagger\Client\Model\CustomerFlat $customers customers
+     * @param \ShopwareSDK6\Model\CustomerFlat $customers customers
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class CustomerGroupFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\SalesChannelFlat
+     * @return \ShopwareSDK6\Model\SalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -458,7 +458,7 @@ class CustomerGroupFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\SalesChannelFlat $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */

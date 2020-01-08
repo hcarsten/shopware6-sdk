@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelAttributes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -82,7 +82,7 @@ class SalesChannelAttributes implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'extensions' => '\Swagger\Client\Model\SalesChannelAttributesExtensions'    ];
+'extensions' => '\ShopwareSDK6\Model\SalesChannelAttributesExtensions'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -1015,7 +1015,7 @@ class SalesChannelAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets extensions
      *
-     * @return \Swagger\Client\Model\SalesChannelAttributesExtensions
+     * @return \ShopwareSDK6\Model\SalesChannelAttributesExtensions
      */
     public function getExtensions()
     {
@@ -1025,7 +1025,7 @@ class SalesChannelAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets extensions
      *
-     * @param \Swagger\Client\Model\SalesChannelAttributesExtensions $extensions extensions
+     * @param \ShopwareSDK6\Model\SalesChannelAttributesExtensions $extensions extensions
      *
      * @return $this
      */

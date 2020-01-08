@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DocumentRelationshipsReferencedDocument Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class DocumentRelationshipsReferencedDocument implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\DocumentRelationshipsReferencedDocumentLinks',
-'data' => '\Swagger\Client\Model\DocumentRelationshipsReferencedDocumentData'    ];
+        'links' => '\ShopwareSDK6\Model\DocumentRelationshipsReferencedDocumentLinks',
+'data' => '\ShopwareSDK6\Model\DocumentRelationshipsReferencedDocumentData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class DocumentRelationshipsReferencedDocument implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\DocumentRelationshipsReferencedDocumentLinks
+     * @return \ShopwareSDK6\Model\DocumentRelationshipsReferencedDocumentLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class DocumentRelationshipsReferencedDocument implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\DocumentRelationshipsReferencedDocumentLinks $links links
+     * @param \ShopwareSDK6\Model\DocumentRelationshipsReferencedDocumentLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class DocumentRelationshipsReferencedDocument implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\DocumentRelationshipsReferencedDocumentData
+     * @return \ShopwareSDK6\Model\DocumentRelationshipsReferencedDocumentData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class DocumentRelationshipsReferencedDocument implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\DocumentRelationshipsReferencedDocumentData $data data
+     * @param \ShopwareSDK6\Model\DocumentRelationshipsReferencedDocumentData $data data
      *
      * @return $this
      */

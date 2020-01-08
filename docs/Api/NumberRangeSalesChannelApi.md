@@ -1,4 +1,4 @@
-# Swagger\Client\NumberRangeSalesChannelApi
+# ShopwareSDK6\NumberRangeSalesChannelApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateNumberRangeSalesChannel**](NumberRangeSalesChannelApi.md#updatenumberrangesaleschannel) | **PATCH** /number-range-sales-channel/{id} | Partially update information about a Number Range Sales Channel resource
 
 # **createNumberRangeSalesChannel**
-> \Swagger\Client\Model\InlineResponse200138 createNumberRangeSalesChannel($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200138 createNumberRangeSalesChannel($body, $_response)
 
 Create a new Number Range Sales Channel resources
 
@@ -22,12 +22,12 @@ Create a new Number Range Sales Channel resources. All required fields must be p
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeSalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeSalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body90(); // \Swagger\Client\Model\Body90 | 
+$body = new \ShopwareSDK6\Model\Body90(); // \ShopwareSDK6\Model\Body90 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body90**](../Model/Body90.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body90**](../Model/Body90.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
+[**\ShopwareSDK6\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createNumberRangeSalesChannel**
-> \Swagger\Client\Model\InlineResponse200138 createNumberRangeSalesChannel($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200138 createNumberRangeSalesChannel($body, $_response)
 
 Create a new Number Range Sales Channel resources
 
@@ -73,12 +73,12 @@ Create a new Number Range Sales Channel resources. All required fields must be p
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeSalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeSalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\NumberRangeSalesChannelFlat(); // \Swagger\Client\Model\NumberRangeSalesChannelFlat | 
+$body = new \ShopwareSDK6\Model\NumberRangeSalesChannelFlat(); // \ShopwareSDK6\Model\NumberRangeSalesChannelFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\NumberRangeSalesChannelFlat**](../Model/NumberRangeSalesChannelFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\NumberRangeSalesChannelFlat**](../Model/NumberRangeSalesChannelFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
+[**\ShopwareSDK6\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Number Range Sales Channel resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeSalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeSalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNumberRangeSalesChannel**
-> \Swagger\Client\Model\InlineResponse200138 getNumberRangeSalesChannel($id)
+> \ShopwareSDK6\Model\InlineResponse200138 getNumberRangeSalesChannel($id)
 
 Detailed information about a Number Range Sales Channel resource
 
@@ -170,7 +170,7 @@ Detailed information about a Number Range Sales Channel resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeSalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeSalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
+[**\ShopwareSDK6\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNumberRangeSalesChannelList**
-> \Swagger\Client\Model\InlineResponse200136 getNumberRangeSalesChannelList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200136 getNumberRangeSalesChannelList($limit, $page, $query)
 
 List with basic information of Number Range Sales Channel resources
 
@@ -217,7 +217,7 @@ List with basic information of Number Range Sales Channel resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeSalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeSalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200136**](../Model/InlineResponse200136.md)
+[**\ShopwareSDK6\Model\InlineResponse200136**](../Model/InlineResponse200136.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateNumberRangeSalesChannel**
-> \Swagger\Client\Model\InlineResponse200138 updateNumberRangeSalesChannel($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200138 updateNumberRangeSalesChannel($id, $body, $_response)
 
 Partially update information about a Number Range Sales Channel resource
 
@@ -268,13 +268,13 @@ Partially update information about a Number Range Sales Channel resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeSalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeSalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the number_range_sales_channel
-$body = new \Swagger\Client\Model\Body91(); // \Swagger\Client\Model\Body91 | Partially update information about a Number Range Sales Channel resource.
+$body = new \ShopwareSDK6\Model\Body91(); // \ShopwareSDK6\Model\Body91 | Partially update information about a Number Range Sales Channel resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the number_range_sales_channel |
- **body** | [**\Swagger\Client\Model\Body91**](../Model/Body91.md)| Partially update information about a Number Range Sales Channel resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body91**](../Model/Body91.md)| Partially update information about a Number Range Sales Channel resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
+[**\ShopwareSDK6\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateNumberRangeSalesChannel**
-> \Swagger\Client\Model\InlineResponse200138 updateNumberRangeSalesChannel($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200138 updateNumberRangeSalesChannel($id, $body, $_response)
 
 Partially update information about a Number Range Sales Channel resource
 
@@ -319,13 +319,13 @@ Partially update information about a Number Range Sales Channel resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\NumberRangeSalesChannelApi(
+$apiInstance = new ShopwareSDK6\Api\NumberRangeSalesChannelApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the number_range_sales_channel
-$body = new \Swagger\Client\Model\NumberRangeSalesChannelFlat(); // \Swagger\Client\Model\NumberRangeSalesChannelFlat | Partially update information about a Number Range Sales Channel resource.
+$body = new \ShopwareSDK6\Model\NumberRangeSalesChannelFlat(); // \ShopwareSDK6\Model\NumberRangeSalesChannelFlat | Partially update information about a Number Range Sales Channel resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the number_range_sales_channel |
- **body** | [**\Swagger\Client\Model\NumberRangeSalesChannelFlat**](../Model/NumberRangeSalesChannelFlat.md)| Partially update information about a Number Range Sales Channel resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\NumberRangeSalesChannelFlat**](../Model/NumberRangeSalesChannelFlat.md)| Partially update information about a Number Range Sales Channel resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
+[**\ShopwareSDK6\Model\InlineResponse200138**](../Model/InlineResponse200138.md)
 
 ### Authorization
 

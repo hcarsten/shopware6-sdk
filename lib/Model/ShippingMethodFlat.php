@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ShippingMethodFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -67,14 +67,14 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'delivery_time' => '\Swagger\Client\Model\DeliveryTimeFlat',
-'availability_rule' => '\Swagger\Client\Model\RuleFlat',
-'prices' => '\Swagger\Client\Model\ShippingMethodPriceFlat',
-'media' => '\Swagger\Client\Model\MediaFlat',
-'tags' => '\Swagger\Client\Model\TagFlat',
-'order_deliveries' => '\Swagger\Client\Model\OrderDeliveryFlat',
-'sales_channels' => '\Swagger\Client\Model\SalesChannelFlat',
-'sales_channel_default_assignments' => '\Swagger\Client\Model\SalesChannelFlat'    ];
+'delivery_time' => '\ShopwareSDK6\Model\DeliveryTimeFlat',
+'availability_rule' => '\ShopwareSDK6\Model\RuleFlat',
+'prices' => '\ShopwareSDK6\Model\ShippingMethodPriceFlat',
+'media' => '\ShopwareSDK6\Model\MediaFlat',
+'tags' => '\ShopwareSDK6\Model\TagFlat',
+'order_deliveries' => '\ShopwareSDK6\Model\OrderDeliveryFlat',
+'sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat',
+'sales_channel_default_assignments' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -586,7 +586,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_time
      *
-     * @return \Swagger\Client\Model\DeliveryTimeFlat
+     * @return \ShopwareSDK6\Model\DeliveryTimeFlat
      */
     public function getDeliveryTime()
     {
@@ -596,7 +596,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_time
      *
-     * @param \Swagger\Client\Model\DeliveryTimeFlat $delivery_time delivery_time
+     * @param \ShopwareSDK6\Model\DeliveryTimeFlat $delivery_time delivery_time
      *
      * @return $this
      */
@@ -610,7 +610,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets availability_rule
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getAvailabilityRule()
     {
@@ -620,7 +620,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets availability_rule
      *
-     * @param \Swagger\Client\Model\RuleFlat $availability_rule availability_rule
+     * @param \ShopwareSDK6\Model\RuleFlat $availability_rule availability_rule
      *
      * @return $this
      */
@@ -634,7 +634,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets prices
      *
-     * @return \Swagger\Client\Model\ShippingMethodPriceFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodPriceFlat
      */
     public function getPrices()
     {
@@ -644,7 +644,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets prices
      *
-     * @param \Swagger\Client\Model\ShippingMethodPriceFlat $prices prices
+     * @param \ShopwareSDK6\Model\ShippingMethodPriceFlat $prices prices
      *
      * @return $this
      */
@@ -658,7 +658,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \Swagger\Client\Model\MediaFlat
+     * @return \ShopwareSDK6\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -668,7 +668,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \Swagger\Client\Model\MediaFlat $media media
+     * @param \ShopwareSDK6\Model\MediaFlat $media media
      *
      * @return $this
      */
@@ -682,7 +682,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \Swagger\Client\Model\TagFlat
+     * @return \ShopwareSDK6\Model\TagFlat
      */
     public function getTags()
     {
@@ -692,7 +692,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \Swagger\Client\Model\TagFlat $tags tags
+     * @param \ShopwareSDK6\Model\TagFlat $tags tags
      *
      * @return $this
      */
@@ -706,7 +706,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_deliveries
      *
-     * @return \Swagger\Client\Model\OrderDeliveryFlat
+     * @return \ShopwareSDK6\Model\OrderDeliveryFlat
      */
     public function getOrderDeliveries()
     {
@@ -716,7 +716,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_deliveries
      *
-     * @param \Swagger\Client\Model\OrderDeliveryFlat $order_deliveries order_deliveries
+     * @param \ShopwareSDK6\Model\OrderDeliveryFlat $order_deliveries order_deliveries
      *
      * @return $this
      */
@@ -730,7 +730,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\SalesChannelFlat
+     * @return \ShopwareSDK6\Model\SalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -740,7 +740,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\SalesChannelFlat $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */
@@ -754,7 +754,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \Swagger\Client\Model\SalesChannelFlat
+     * @return \ShopwareSDK6\Model\SalesChannelFlat
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -764,7 +764,7 @@ class ShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \Swagger\Client\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */

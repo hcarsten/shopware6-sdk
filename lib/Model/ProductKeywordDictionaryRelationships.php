@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductKeywordDictionaryRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class ProductKeywordDictionaryRelationships implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'language' => '\Swagger\Client\Model\ProductKeywordDictionaryRelationshipsLanguage'    ];
+        'language' => '\ShopwareSDK6\Model\ProductKeywordDictionaryRelationshipsLanguage'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class ProductKeywordDictionaryRelationships implements ModelInterface, ArrayAcce
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\ProductKeywordDictionaryRelationshipsLanguage
+     * @return \ShopwareSDK6\Model\ProductKeywordDictionaryRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -209,7 +209,7 @@ class ProductKeywordDictionaryRelationships implements ModelInterface, ArrayAcce
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\ProductKeywordDictionaryRelationshipsLanguage $language language
+     * @param \ShopwareSDK6\Model\ProductKeywordDictionaryRelationshipsLanguage $language language
      *
      * @return $this
      */

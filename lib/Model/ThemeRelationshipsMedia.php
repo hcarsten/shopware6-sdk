@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ThemeRelationshipsMedia Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ThemeRelationshipsMedia implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ThemeRelationshipsMediaLinks',
-'data' => '\Swagger\Client\Model\ThemeRelationshipsMediaData[]'    ];
+        'links' => '\ShopwareSDK6\Model\ThemeRelationshipsMediaLinks',
+'data' => '\ShopwareSDK6\Model\ThemeRelationshipsMediaData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ThemeRelationshipsMedia implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ThemeRelationshipsMediaLinks
+     * @return \ShopwareSDK6\Model\ThemeRelationshipsMediaLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ThemeRelationshipsMedia implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ThemeRelationshipsMediaLinks $links links
+     * @param \ShopwareSDK6\Model\ThemeRelationshipsMediaLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ThemeRelationshipsMedia implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ThemeRelationshipsMediaData[]
+     * @return \ShopwareSDK6\Model\ThemeRelationshipsMediaData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ThemeRelationshipsMedia implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ThemeRelationshipsMediaData[] $data data
+     * @param \ShopwareSDK6\Model\ThemeRelationshipsMediaData[] $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaRelationshipsProductManufacturers Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaRelationshipsProductManufacturers implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\MediaRelationshipsProductManufacturersLinks',
-'data' => '\Swagger\Client\Model\MediaRelationshipsProductManufacturersData[]'    ];
+        'links' => '\ShopwareSDK6\Model\MediaRelationshipsProductManufacturersLinks',
+'data' => '\ShopwareSDK6\Model\MediaRelationshipsProductManufacturersData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaRelationshipsProductManufacturers implements ModelInterface, ArrayAcc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsProductManufacturersLinks
+     * @return \ShopwareSDK6\Model\MediaRelationshipsProductManufacturersLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MediaRelationshipsProductManufacturers implements ModelInterface, ArrayAcc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsProductManufacturersLinks $links links
+     * @param \ShopwareSDK6\Model\MediaRelationshipsProductManufacturersLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaRelationshipsProductManufacturers implements ModelInterface, ArrayAcc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsProductManufacturersData[]
+     * @return \ShopwareSDK6\Model\MediaRelationshipsProductManufacturersData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MediaRelationshipsProductManufacturers implements ModelInterface, ArrayAcc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsProductManufacturersData[] $data data
+     * @param \ShopwareSDK6\Model\MediaRelationshipsProductManufacturersData[] $data data
      *
      * @return $this
      */

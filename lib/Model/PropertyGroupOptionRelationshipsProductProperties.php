@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PropertyGroupOptionRelationshipsProductProperties Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PropertyGroupOptionRelationshipsProductProperties implements ModelInterfac
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PropertyGroupOptionRelationshipsProductPropertiesLinks',
-'data' => '\Swagger\Client\Model\PropertyGroupOptionRelationshipsProductPropertiesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductPropertiesLinks',
+'data' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductPropertiesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PropertyGroupOptionRelationshipsProductProperties implements ModelInterfac
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PropertyGroupOptionRelationshipsProductPropertiesLinks
+     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductPropertiesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PropertyGroupOptionRelationshipsProductProperties implements ModelInterfac
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PropertyGroupOptionRelationshipsProductPropertiesLinks $links links
+     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductPropertiesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PropertyGroupOptionRelationshipsProductProperties implements ModelInterfac
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\PropertyGroupOptionRelationshipsProductPropertiesData[]
+     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductPropertiesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PropertyGroupOptionRelationshipsProductProperties implements ModelInterfac
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\PropertyGroupOptionRelationshipsProductPropertiesData[] $data data
+     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductPropertiesData[] $data data
      *
      * @return $this
      */

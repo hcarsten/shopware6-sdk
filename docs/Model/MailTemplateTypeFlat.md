@@ -11,8 +11,8 @@ Name | Type | Description | Notes
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **custom_fields** | **object** |  | [optional] 
 **translated** | **object** |  | [optional] 
-**mail_templates** | [**\Swagger\Client\Model\MailTemplateFlat**](MailTemplateFlat.md) |  | [optional] 
-**sales_channels** | [**\Swagger\Client\Model\MailTemplateSalesChannelFlat**](MailTemplateSalesChannelFlat.md) |  | [optional] 
+**mail_templates** | [**\ShopwareSDK6\Model\MailTemplateFlat**](MailTemplateFlat.md) |  | [optional] 
+**sales_channels** | [**\ShopwareSDK6\Model\MailTemplateSalesChannelFlat**](MailTemplateSalesChannelFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

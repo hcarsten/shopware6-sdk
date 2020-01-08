@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MainCategory Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MainCategory extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\MainCategoryAttributes',
-'links' => '\Swagger\Client\Model\MainCategoryLinks',
-'relationships' => '\Swagger\Client\Model\MainCategoryRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\MainCategoryAttributes',
+'links' => '\ShopwareSDK6\Model\MainCategoryLinks',
+'relationships' => '\ShopwareSDK6\Model\MainCategoryRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MainCategory extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\MainCategoryAttributes
+     * @return \ShopwareSDK6\Model\MainCategoryAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MainCategory extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\MainCategoryAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\MainCategoryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MainCategory extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MainCategoryLinks
+     * @return \ShopwareSDK6\Model\MainCategoryLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MainCategory extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MainCategoryLinks $links links
+     * @param \ShopwareSDK6\Model\MainCategoryLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MainCategory extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\MainCategoryRelationships
+     * @return \ShopwareSDK6\Model\MainCategoryRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MainCategory extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\MainCategoryRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\MainCategoryRelationships $relationships relationships
      *
      * @return $this
      */

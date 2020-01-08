@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Error Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,13 +57,13 @@ class Error implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'string',
-'links' => '\Swagger\Client\Model\Links',
+'links' => '\ShopwareSDK6\Model\Links',
 'status' => 'string',
 'code' => 'string',
 'title' => 'string',
 'detail' => 'string',
-'source' => '\Swagger\Client\Model\ErrorSource',
-'meta' => '\Swagger\Client\Model\Meta'    ];
+'source' => '\ShopwareSDK6\Model\ErrorSource',
+'meta' => '\ShopwareSDK6\Model\Meta'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Error implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\Links
+     * @return \ShopwareSDK6\Model\Links
      */
     public function getLinks()
     {
@@ -275,7 +275,7 @@ class Error implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\Links $links links
+     * @param \ShopwareSDK6\Model\Links $links links
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class Error implements ModelInterface, ArrayAccess
     /**
      * Gets source
      *
-     * @return \Swagger\Client\Model\ErrorSource
+     * @return \ShopwareSDK6\Model\ErrorSource
      */
     public function getSource()
     {
@@ -395,7 +395,7 @@ class Error implements ModelInterface, ArrayAccess
     /**
      * Sets source
      *
-     * @param \Swagger\Client\Model\ErrorSource $source source
+     * @param \ShopwareSDK6\Model\ErrorSource $source source
      *
      * @return $this
      */
@@ -409,7 +409,7 @@ class Error implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \Swagger\Client\Model\Meta
+     * @return \ShopwareSDK6\Model\Meta
      */
     public function getMeta()
     {
@@ -419,7 +419,7 @@ class Error implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \Swagger\Client\Model\Meta $meta meta
+     * @param \ShopwareSDK6\Model\Meta $meta meta
      *
      * @return $this
      */

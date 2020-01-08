@@ -18,10 +18,10 @@ Name | Type | Description | Notes
 **comment** | **string** |  | [optional] 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
-**product** | [**\Swagger\Client\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**customer** | [**\Swagger\Client\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
-**sales_channel** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**language** | [**\Swagger\Client\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
+**product** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**customer** | [**\ShopwareSDK6\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
+**sales_channel** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**language** | [**\ShopwareSDK6\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

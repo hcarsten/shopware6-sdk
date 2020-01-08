@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderLineItem Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class OrderLineItem extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\OrderLineItemAttributes',
-'links' => '\Swagger\Client\Model\OrderLineItemLinks',
-'relationships' => '\Swagger\Client\Model\OrderLineItemRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\OrderLineItemAttributes',
+'links' => '\ShopwareSDK6\Model\OrderLineItemLinks',
+'relationships' => '\ShopwareSDK6\Model\OrderLineItemRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class OrderLineItem extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\OrderLineItemAttributes
+     * @return \ShopwareSDK6\Model\OrderLineItemAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class OrderLineItem extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\OrderLineItemAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\OrderLineItemAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class OrderLineItem extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderLineItemLinks
+     * @return \ShopwareSDK6\Model\OrderLineItemLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class OrderLineItem extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderLineItemLinks $links links
+     * @param \ShopwareSDK6\Model\OrderLineItemLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class OrderLineItem extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\OrderLineItemRelationships
+     * @return \ShopwareSDK6\Model\OrderLineItemRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class OrderLineItem extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\OrderLineItemRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\OrderLineItemRelationships $relationships relationships
      *
      * @return $this
      */

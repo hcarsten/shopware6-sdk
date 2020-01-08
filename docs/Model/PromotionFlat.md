@@ -23,14 +23,14 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**setgroups** | [**\Swagger\Client\Model\PromotionSetgroupFlat**](PromotionSetgroupFlat.md) |  | [optional] 
-**sales_channels** | [**\Swagger\Client\Model\PromotionSalesChannelFlat**](PromotionSalesChannelFlat.md) |  | [optional] 
-**discounts** | [**\Swagger\Client\Model\PromotionDiscountFlat**](PromotionDiscountFlat.md) |  | [optional] 
-**individual_codes** | [**\Swagger\Client\Model\PromotionIndividualCodeFlat**](PromotionIndividualCodeFlat.md) |  | [optional] 
-**persona_rules** | [**\Swagger\Client\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
-**persona_customers** | [**\Swagger\Client\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
-**order_rules** | [**\Swagger\Client\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
-**cart_rules** | [**\Swagger\Client\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
+**setgroups** | [**\ShopwareSDK6\Model\PromotionSetgroupFlat**](PromotionSetgroupFlat.md) |  | [optional] 
+**sales_channels** | [**\ShopwareSDK6\Model\PromotionSalesChannelFlat**](PromotionSalesChannelFlat.md) |  | [optional] 
+**discounts** | [**\ShopwareSDK6\Model\PromotionDiscountFlat**](PromotionDiscountFlat.md) |  | [optional] 
+**individual_codes** | [**\ShopwareSDK6\Model\PromotionIndividualCodeFlat**](PromotionIndividualCodeFlat.md) |  | [optional] 
+**persona_rules** | [**\ShopwareSDK6\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
+**persona_customers** | [**\ShopwareSDK6\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
+**order_rules** | [**\ShopwareSDK6\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
+**cart_rules** | [**\ShopwareSDK6\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CategoryTagFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,8 +60,8 @@ class CategoryTagFlat implements ModelInterface, ArrayAccess
 'category_id' => 'string',
 'category_version_id' => 'string',
 'tag_id' => 'string',
-'category' => '\Swagger\Client\Model\CategoryFlat',
-'tag' => '\Swagger\Client\Model\TagFlat'    ];
+'category' => '\ShopwareSDK6\Model\CategoryFlat',
+'tag' => '\ShopwareSDK6\Model\TagFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -331,7 +331,7 @@ class CategoryTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets category
      *
-     * @return \Swagger\Client\Model\CategoryFlat
+     * @return \ShopwareSDK6\Model\CategoryFlat
      */
     public function getCategory()
     {
@@ -341,7 +341,7 @@ class CategoryTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets category
      *
-     * @param \Swagger\Client\Model\CategoryFlat $category category
+     * @param \ShopwareSDK6\Model\CategoryFlat $category category
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class CategoryTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tag
      *
-     * @return \Swagger\Client\Model\TagFlat
+     * @return \ShopwareSDK6\Model\TagFlat
      */
     public function getTag()
     {
@@ -365,7 +365,7 @@ class CategoryTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tag
      *
-     * @param \Swagger\Client\Model\TagFlat $tag tag
+     * @param \ShopwareSDK6\Model\TagFlat $tag tag
      *
      * @return $this
      */

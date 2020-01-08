@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductCategoryFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,8 +61,8 @@ class ProductCategoryFlat implements ModelInterface, ArrayAccess
 'product_version_id' => 'string',
 'category_id' => 'string',
 'category_version_id' => 'string',
-'product' => '\Swagger\Client\Model\ProductFlat',
-'category' => '\Swagger\Client\Model\CategoryFlat'    ];
+'product' => '\ShopwareSDK6\Model\ProductFlat',
+'category' => '\ShopwareSDK6\Model\CategoryFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -361,7 +361,7 @@ class ProductCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\ProductFlat
+     * @return \ShopwareSDK6\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -371,7 +371,7 @@ class ProductCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\ProductFlat $product product
+     * @param \ShopwareSDK6\Model\ProductFlat $product product
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class ProductCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets category
      *
-     * @return \Swagger\Client\Model\CategoryFlat
+     * @return \ShopwareSDK6\Model\CategoryFlat
      */
     public function getCategory()
     {
@@ -395,7 +395,7 @@ class ProductCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets category
      *
-     * @param \Swagger\Client\Model\CategoryFlat $category category
+     * @param \ShopwareSDK6\Model\CategoryFlat $category category
      *
      * @return $this
      */

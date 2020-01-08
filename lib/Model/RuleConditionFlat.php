@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * RuleConditionFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,9 +65,9 @@ class RuleConditionFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'rule' => '\Swagger\Client\Model\RuleFlat',
-'parent' => '\Swagger\Client\Model\RuleConditionFlat',
-'children' => '\Swagger\Client\Model\RuleConditionFlat'    ];
+'rule' => '\ShopwareSDK6\Model\RuleFlat',
+'parent' => '\ShopwareSDK6\Model\RuleConditionFlat',
+'children' => '\ShopwareSDK6\Model\RuleConditionFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -490,7 +490,7 @@ class RuleConditionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets rule
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getRule()
     {
@@ -500,7 +500,7 @@ class RuleConditionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets rule
      *
-     * @param \Swagger\Client\Model\RuleFlat $rule rule
+     * @param \ShopwareSDK6\Model\RuleFlat $rule rule
      *
      * @return $this
      */
@@ -514,7 +514,7 @@ class RuleConditionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \Swagger\Client\Model\RuleConditionFlat
+     * @return \ShopwareSDK6\Model\RuleConditionFlat
      */
     public function getParent()
     {
@@ -524,7 +524,7 @@ class RuleConditionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \Swagger\Client\Model\RuleConditionFlat $parent parent
+     * @param \ShopwareSDK6\Model\RuleConditionFlat $parent parent
      *
      * @return $this
      */
@@ -538,7 +538,7 @@ class RuleConditionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \Swagger\Client\Model\RuleConditionFlat
+     * @return \ShopwareSDK6\Model\RuleConditionFlat
      */
     public function getChildren()
     {
@@ -548,7 +548,7 @@ class RuleConditionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \Swagger\Client\Model\RuleConditionFlat $children children
+     * @param \ShopwareSDK6\Model\RuleConditionFlat $children children
      *
      * @return $this
      */

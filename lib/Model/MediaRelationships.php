@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,25 +56,25 @@ class MediaRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'tags' => '\Swagger\Client\Model\MediaRelationshipsTags',
-'thumbnails' => '\Swagger\Client\Model\MediaRelationshipsThumbnails',
-'user' => '\Swagger\Client\Model\MediaRelationshipsUser',
-'categories' => '\Swagger\Client\Model\MediaRelationshipsCategories',
-'product_manufacturers' => '\Swagger\Client\Model\MediaRelationshipsProductManufacturers',
-'product_media' => '\Swagger\Client\Model\MediaRelationshipsProductMedia',
-'avatar_user' => '\Swagger\Client\Model\MediaRelationshipsAvatarUser',
-'media_folder' => '\Swagger\Client\Model\MediaRelationshipsMediaFolder',
-'property_group_options' => '\Swagger\Client\Model\MediaRelationshipsPropertyGroupOptions',
-'mail_template_media' => '\Swagger\Client\Model\MediaRelationshipsMailTemplateMedia',
-'document_base_configs' => '\Swagger\Client\Model\MediaRelationshipsDocumentBaseConfigs',
-'shipping_methods' => '\Swagger\Client\Model\MediaRelationshipsShippingMethods',
-'payment_methods' => '\Swagger\Client\Model\MediaRelationshipsPaymentMethods',
-'product_configurator_settings' => '\Swagger\Client\Model\MediaRelationshipsProductConfiguratorSettings',
-'order_line_items' => '\Swagger\Client\Model\MediaRelationshipsOrderLineItems',
-'cms_blocks' => '\Swagger\Client\Model\MediaRelationshipsCmsBlocks',
-'cms_sections' => '\Swagger\Client\Model\MediaRelationshipsCmsSections',
-'cms_pages' => '\Swagger\Client\Model\MediaRelationshipsCmsPages',
-'documents' => '\Swagger\Client\Model\MediaRelationshipsDocuments'    ];
+        'tags' => '\ShopwareSDK6\Model\MediaRelationshipsTags',
+'thumbnails' => '\ShopwareSDK6\Model\MediaRelationshipsThumbnails',
+'user' => '\ShopwareSDK6\Model\MediaRelationshipsUser',
+'categories' => '\ShopwareSDK6\Model\MediaRelationshipsCategories',
+'product_manufacturers' => '\ShopwareSDK6\Model\MediaRelationshipsProductManufacturers',
+'product_media' => '\ShopwareSDK6\Model\MediaRelationshipsProductMedia',
+'avatar_user' => '\ShopwareSDK6\Model\MediaRelationshipsAvatarUser',
+'media_folder' => '\ShopwareSDK6\Model\MediaRelationshipsMediaFolder',
+'property_group_options' => '\ShopwareSDK6\Model\MediaRelationshipsPropertyGroupOptions',
+'mail_template_media' => '\ShopwareSDK6\Model\MediaRelationshipsMailTemplateMedia',
+'document_base_configs' => '\ShopwareSDK6\Model\MediaRelationshipsDocumentBaseConfigs',
+'shipping_methods' => '\ShopwareSDK6\Model\MediaRelationshipsShippingMethods',
+'payment_methods' => '\ShopwareSDK6\Model\MediaRelationshipsPaymentMethods',
+'product_configurator_settings' => '\ShopwareSDK6\Model\MediaRelationshipsProductConfiguratorSettings',
+'order_line_items' => '\ShopwareSDK6\Model\MediaRelationshipsOrderLineItems',
+'cms_blocks' => '\ShopwareSDK6\Model\MediaRelationshipsCmsBlocks',
+'cms_sections' => '\ShopwareSDK6\Model\MediaRelationshipsCmsSections',
+'cms_pages' => '\ShopwareSDK6\Model\MediaRelationshipsCmsPages',
+'documents' => '\ShopwareSDK6\Model\MediaRelationshipsDocuments'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -307,7 +307,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsTags
+     * @return \ShopwareSDK6\Model\MediaRelationshipsTags
      */
     public function getTags()
     {
@@ -317,7 +317,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsTags $tags tags
+     * @param \ShopwareSDK6\Model\MediaRelationshipsTags $tags tags
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets thumbnails
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsThumbnails
+     * @return \ShopwareSDK6\Model\MediaRelationshipsThumbnails
      */
     public function getThumbnails()
     {
@@ -341,7 +341,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets thumbnails
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsThumbnails $thumbnails thumbnails
+     * @param \ShopwareSDK6\Model\MediaRelationshipsThumbnails $thumbnails thumbnails
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsUser
+     * @return \ShopwareSDK6\Model\MediaRelationshipsUser
      */
     public function getUser()
     {
@@ -365,7 +365,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsUser $user user
+     * @param \ShopwareSDK6\Model\MediaRelationshipsUser $user user
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsCategories
+     * @return \ShopwareSDK6\Model\MediaRelationshipsCategories
      */
     public function getCategories()
     {
@@ -389,7 +389,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsCategories $categories categories
+     * @param \ShopwareSDK6\Model\MediaRelationshipsCategories $categories categories
      *
      * @return $this
      */
@@ -403,7 +403,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_manufacturers
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsProductManufacturers
+     * @return \ShopwareSDK6\Model\MediaRelationshipsProductManufacturers
      */
     public function getProductManufacturers()
     {
@@ -413,7 +413,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_manufacturers
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsProductManufacturers $product_manufacturers product_manufacturers
+     * @param \ShopwareSDK6\Model\MediaRelationshipsProductManufacturers $product_manufacturers product_manufacturers
      *
      * @return $this
      */
@@ -427,7 +427,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_media
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsProductMedia
+     * @return \ShopwareSDK6\Model\MediaRelationshipsProductMedia
      */
     public function getProductMedia()
     {
@@ -437,7 +437,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_media
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsProductMedia $product_media product_media
+     * @param \ShopwareSDK6\Model\MediaRelationshipsProductMedia $product_media product_media
      *
      * @return $this
      */
@@ -451,7 +451,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets avatar_user
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsAvatarUser
+     * @return \ShopwareSDK6\Model\MediaRelationshipsAvatarUser
      */
     public function getAvatarUser()
     {
@@ -461,7 +461,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets avatar_user
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsAvatarUser $avatar_user avatar_user
+     * @param \ShopwareSDK6\Model\MediaRelationshipsAvatarUser $avatar_user avatar_user
      *
      * @return $this
      */
@@ -475,7 +475,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media_folder
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsMediaFolder
+     * @return \ShopwareSDK6\Model\MediaRelationshipsMediaFolder
      */
     public function getMediaFolder()
     {
@@ -485,7 +485,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media_folder
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsMediaFolder $media_folder media_folder
+     * @param \ShopwareSDK6\Model\MediaRelationshipsMediaFolder $media_folder media_folder
      *
      * @return $this
      */
@@ -499,7 +499,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets property_group_options
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsPropertyGroupOptions
+     * @return \ShopwareSDK6\Model\MediaRelationshipsPropertyGroupOptions
      */
     public function getPropertyGroupOptions()
     {
@@ -509,7 +509,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets property_group_options
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsPropertyGroupOptions $property_group_options property_group_options
+     * @param \ShopwareSDK6\Model\MediaRelationshipsPropertyGroupOptions $property_group_options property_group_options
      *
      * @return $this
      */
@@ -523,7 +523,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets mail_template_media
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsMailTemplateMedia
+     * @return \ShopwareSDK6\Model\MediaRelationshipsMailTemplateMedia
      */
     public function getMailTemplateMedia()
     {
@@ -533,7 +533,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets mail_template_media
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsMailTemplateMedia $mail_template_media mail_template_media
+     * @param \ShopwareSDK6\Model\MediaRelationshipsMailTemplateMedia $mail_template_media mail_template_media
      *
      * @return $this
      */
@@ -547,7 +547,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets document_base_configs
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsDocumentBaseConfigs
+     * @return \ShopwareSDK6\Model\MediaRelationshipsDocumentBaseConfigs
      */
     public function getDocumentBaseConfigs()
     {
@@ -557,7 +557,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets document_base_configs
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsDocumentBaseConfigs $document_base_configs document_base_configs
+     * @param \ShopwareSDK6\Model\MediaRelationshipsDocumentBaseConfigs $document_base_configs document_base_configs
      *
      * @return $this
      */
@@ -571,7 +571,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsShippingMethods
+     * @return \ShopwareSDK6\Model\MediaRelationshipsShippingMethods
      */
     public function getShippingMethods()
     {
@@ -581,7 +581,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsShippingMethods $shipping_methods shipping_methods
+     * @param \ShopwareSDK6\Model\MediaRelationshipsShippingMethods $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -595,7 +595,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets payment_methods
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsPaymentMethods
+     * @return \ShopwareSDK6\Model\MediaRelationshipsPaymentMethods
      */
     public function getPaymentMethods()
     {
@@ -605,7 +605,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets payment_methods
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsPaymentMethods $payment_methods payment_methods
+     * @param \ShopwareSDK6\Model\MediaRelationshipsPaymentMethods $payment_methods payment_methods
      *
      * @return $this
      */
@@ -619,7 +619,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_configurator_settings
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsProductConfiguratorSettings
+     * @return \ShopwareSDK6\Model\MediaRelationshipsProductConfiguratorSettings
      */
     public function getProductConfiguratorSettings()
     {
@@ -629,7 +629,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_configurator_settings
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsProductConfiguratorSettings $product_configurator_settings product_configurator_settings
+     * @param \ShopwareSDK6\Model\MediaRelationshipsProductConfiguratorSettings $product_configurator_settings product_configurator_settings
      *
      * @return $this
      */
@@ -643,7 +643,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_line_items
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsOrderLineItems
+     * @return \ShopwareSDK6\Model\MediaRelationshipsOrderLineItems
      */
     public function getOrderLineItems()
     {
@@ -653,7 +653,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_line_items
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsOrderLineItems $order_line_items order_line_items
+     * @param \ShopwareSDK6\Model\MediaRelationshipsOrderLineItems $order_line_items order_line_items
      *
      * @return $this
      */
@@ -667,7 +667,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets cms_blocks
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsCmsBlocks
+     * @return \ShopwareSDK6\Model\MediaRelationshipsCmsBlocks
      */
     public function getCmsBlocks()
     {
@@ -677,7 +677,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets cms_blocks
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsCmsBlocks $cms_blocks cms_blocks
+     * @param \ShopwareSDK6\Model\MediaRelationshipsCmsBlocks $cms_blocks cms_blocks
      *
      * @return $this
      */
@@ -691,7 +691,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets cms_sections
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsCmsSections
+     * @return \ShopwareSDK6\Model\MediaRelationshipsCmsSections
      */
     public function getCmsSections()
     {
@@ -701,7 +701,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets cms_sections
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsCmsSections $cms_sections cms_sections
+     * @param \ShopwareSDK6\Model\MediaRelationshipsCmsSections $cms_sections cms_sections
      *
      * @return $this
      */
@@ -715,7 +715,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets cms_pages
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsCmsPages
+     * @return \ShopwareSDK6\Model\MediaRelationshipsCmsPages
      */
     public function getCmsPages()
     {
@@ -725,7 +725,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets cms_pages
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsCmsPages $cms_pages cms_pages
+     * @param \ShopwareSDK6\Model\MediaRelationshipsCmsPages $cms_pages cms_pages
      *
      * @return $this
      */
@@ -739,7 +739,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsDocuments
+     * @return \ShopwareSDK6\Model\MediaRelationshipsDocuments
      */
     public function getDocuments()
     {
@@ -749,7 +749,7 @@ class MediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsDocuments $documents documents
+     * @param \ShopwareSDK6\Model\MediaRelationshipsDocuments $documents documents
      *
      * @return $this
      */

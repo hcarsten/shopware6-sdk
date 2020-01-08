@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductCrossSellingRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductCrossSellingRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\Swagger\Client\Model\ProductCrossSellingRelationshipsProduct',
-'product_stream' => '\Swagger\Client\Model\ProductCrossSellingRelationshipsProductStream'    ];
+        'product' => '\ShopwareSDK6\Model\ProductCrossSellingRelationshipsProduct',
+'product_stream' => '\ShopwareSDK6\Model\ProductCrossSellingRelationshipsProductStream'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductCrossSellingRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\ProductCrossSellingRelationshipsProduct
+     * @return \ShopwareSDK6\Model\ProductCrossSellingRelationshipsProduct
      */
     public function getProduct()
     {
@@ -215,7 +215,7 @@ class ProductCrossSellingRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\ProductCrossSellingRelationshipsProduct $product product
+     * @param \ShopwareSDK6\Model\ProductCrossSellingRelationshipsProduct $product product
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductCrossSellingRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_stream
      *
-     * @return \Swagger\Client\Model\ProductCrossSellingRelationshipsProductStream
+     * @return \ShopwareSDK6\Model\ProductCrossSellingRelationshipsProductStream
      */
     public function getProductStream()
     {
@@ -239,7 +239,7 @@ class ProductCrossSellingRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_stream
      *
-     * @param \Swagger\Client\Model\ProductCrossSellingRelationshipsProductStream $product_stream product_stream
+     * @param \ShopwareSDK6\Model\ProductCrossSellingRelationshipsProductStream $product_stream product_stream
      *
      * @return $this
      */

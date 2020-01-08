@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DocumentBaseConfigSalesChannel Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class DocumentBaseConfigSalesChannel extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelAttributes',
-'links' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelLinks',
-'relationships' => '\Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelAttributes',
+'links' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelLinks',
+'relationships' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class DocumentBaseConfigSalesChannel extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelAttributes
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class DocumentBaseConfigSalesChannel extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class DocumentBaseConfigSalesChannel extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelLinks
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class DocumentBaseConfigSalesChannel extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelLinks $links links
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class DocumentBaseConfigSalesChannel extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationships
+     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class DocumentBaseConfigSalesChannel extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\DocumentBaseConfigSalesChannelRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationships $relationships relationships
      *
      * @return $this
      */

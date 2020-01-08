@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaRelationshipsMediaFolder Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaRelationshipsMediaFolder implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\MediaRelationshipsMediaFolderLinks',
-'data' => '\Swagger\Client\Model\MediaRelationshipsMediaFolderData'    ];
+        'links' => '\ShopwareSDK6\Model\MediaRelationshipsMediaFolderLinks',
+'data' => '\ShopwareSDK6\Model\MediaRelationshipsMediaFolderData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaRelationshipsMediaFolder implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsMediaFolderLinks
+     * @return \ShopwareSDK6\Model\MediaRelationshipsMediaFolderLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MediaRelationshipsMediaFolder implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsMediaFolderLinks $links links
+     * @param \ShopwareSDK6\Model\MediaRelationshipsMediaFolderLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaRelationshipsMediaFolder implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\MediaRelationshipsMediaFolderData
+     * @return \ShopwareSDK6\Model\MediaRelationshipsMediaFolderData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MediaRelationshipsMediaFolder implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\MediaRelationshipsMediaFolderData $data data
+     * @param \ShopwareSDK6\Model\MediaRelationshipsMediaFolderData $data data
      *
      * @return $this
      */

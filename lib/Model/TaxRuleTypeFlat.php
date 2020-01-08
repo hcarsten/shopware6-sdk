@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * TaxRuleTypeFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,7 +63,7 @@ class TaxRuleTypeFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'rules' => '\Swagger\Client\Model\TaxRuleFlat'    ];
+'rules' => '\ShopwareSDK6\Model\TaxRuleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -424,7 +424,7 @@ class TaxRuleTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets rules
      *
-     * @return \Swagger\Client\Model\TaxRuleFlat
+     * @return \ShopwareSDK6\Model\TaxRuleFlat
      */
     public function getRules()
     {
@@ -434,7 +434,7 @@ class TaxRuleTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets rules
      *
-     * @param \Swagger\Client\Model\TaxRuleFlat $rules rules
+     * @param \ShopwareSDK6\Model\TaxRuleFlat $rules rules
      *
      * @return $this
      */

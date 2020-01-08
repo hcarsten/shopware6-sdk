@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomerRecoveryRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class CustomerRecoveryRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'customer' => '\Swagger\Client\Model\CustomerRecoveryRelationshipsCustomer'    ];
+        'customer' => '\ShopwareSDK6\Model\CustomerRecoveryRelationshipsCustomer'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class CustomerRecoveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \Swagger\Client\Model\CustomerRecoveryRelationshipsCustomer
+     * @return \ShopwareSDK6\Model\CustomerRecoveryRelationshipsCustomer
      */
     public function getCustomer()
     {
@@ -209,7 +209,7 @@ class CustomerRecoveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \Swagger\Client\Model\CustomerRecoveryRelationshipsCustomer $customer customer
+     * @param \ShopwareSDK6\Model\CustomerRecoveryRelationshipsCustomer $customer customer
      *
      * @return $this
      */

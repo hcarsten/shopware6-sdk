@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaFolderConfigurationRelationshipsMediaThumbnailSizes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaFolderConfigurationRelationshipsMediaThumbnailSizes implements ModelI
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesLinks',
-'data' => '\Swagger\Client\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesLinks',
+'data' => '\ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaFolderConfigurationRelationshipsMediaThumbnailSizes implements ModelI
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesLinks
+     * @return \ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MediaFolderConfigurationRelationshipsMediaThumbnailSizes implements ModelI
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesLinks $links links
+     * @param \ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaFolderConfigurationRelationshipsMediaThumbnailSizes implements ModelI
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesData[]
+     * @return \ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MediaFolderConfigurationRelationshipsMediaThumbnailSizes implements ModelI
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesData[] $data data
+     * @param \ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizesData[] $data data
      *
      * @return $this
      */

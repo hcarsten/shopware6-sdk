@@ -14,15 +14,15 @@ Name | Type | Description | Notes
 **tracking_codes** | **string[]** |  | 
 **shipping_date_earliest** | [**\DateTime**](\DateTime.md) |  | 
 **shipping_date_latest** | [**\DateTime**](\DateTime.md) |  | 
-**shipping_costs** | [**\Swagger\Client\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
+**shipping_costs** | [**\ShopwareSDK6\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**state_machine_state** | [**\Swagger\Client\Model\StateMachineStateFlat**](StateMachineStateFlat.md) |  | [optional] 
-**order** | [**\Swagger\Client\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
-**shipping_order_address** | [**\Swagger\Client\Model\OrderAddressFlat**](OrderAddressFlat.md) |  | [optional] 
-**shipping_method** | [**\Swagger\Client\Model\ShippingMethodFlat**](ShippingMethodFlat.md) |  | [optional] 
-**positions** | [**\Swagger\Client\Model\OrderDeliveryPositionFlat**](OrderDeliveryPositionFlat.md) |  | [optional] 
+**state_machine_state** | [**\ShopwareSDK6\Model\StateMachineStateFlat**](StateMachineStateFlat.md) |  | [optional] 
+**order** | [**\ShopwareSDK6\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
+**shipping_order_address** | [**\ShopwareSDK6\Model\OrderAddressFlat**](OrderAddressFlat.md) |  | [optional] 
+**shipping_method** | [**\ShopwareSDK6\Model\ShippingMethodFlat**](ShippingMethodFlat.md) |  | [optional] 
+**positions** | [**\ShopwareSDK6\Model\OrderDeliveryPositionFlat**](OrderDeliveryPositionFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

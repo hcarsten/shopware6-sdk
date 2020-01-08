@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * RuleCondition Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class RuleCondition extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\RuleConditionAttributes',
-'links' => '\Swagger\Client\Model\RuleConditionLinks',
-'relationships' => '\Swagger\Client\Model\RuleConditionRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\RuleConditionAttributes',
+'links' => '\ShopwareSDK6\Model\RuleConditionLinks',
+'relationships' => '\ShopwareSDK6\Model\RuleConditionRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class RuleCondition extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\RuleConditionAttributes
+     * @return \ShopwareSDK6\Model\RuleConditionAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class RuleCondition extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\RuleConditionAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\RuleConditionAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class RuleCondition extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\RuleConditionLinks
+     * @return \ShopwareSDK6\Model\RuleConditionLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class RuleCondition extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\RuleConditionLinks $links links
+     * @param \ShopwareSDK6\Model\RuleConditionLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class RuleCondition extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\RuleConditionRelationships
+     * @return \ShopwareSDK6\Model\RuleConditionRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class RuleCondition extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\RuleConditionRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\RuleConditionRelationships $relationships relationships
      *
      * @return $this
      */

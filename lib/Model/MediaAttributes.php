@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaAttributes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -74,7 +74,7 @@ class MediaAttributes implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'extensions' => '\Swagger\Client\Model\MediaAttributesExtensions'    ];
+'extensions' => '\ShopwareSDK6\Model\MediaAttributesExtensions'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -745,7 +745,7 @@ class MediaAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets extensions
      *
-     * @return \Swagger\Client\Model\MediaAttributesExtensions
+     * @return \ShopwareSDK6\Model\MediaAttributesExtensions
      */
     public function getExtensions()
     {
@@ -755,7 +755,7 @@ class MediaAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets extensions
      *
-     * @param \Swagger\Client\Model\MediaAttributesExtensions $extensions extensions
+     * @param \ShopwareSDK6\Model\MediaAttributesExtensions $extensions extensions
      *
      * @return $this
      */

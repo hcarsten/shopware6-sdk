@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionSetgroupFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,8 +63,8 @@ class PromotionSetgroupFlat implements ModelInterface, ArrayAccess
 'value' => 'float',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'promotion' => '\Swagger\Client\Model\PromotionFlat',
-'set_group_rules' => '\Swagger\Client\Model\RuleFlat'    ];
+'promotion' => '\ShopwareSDK6\Model\PromotionFlat',
+'set_group_rules' => '\ShopwareSDK6\Model\RuleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -433,7 +433,7 @@ class PromotionSetgroupFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion
      *
-     * @return \Swagger\Client\Model\PromotionFlat
+     * @return \ShopwareSDK6\Model\PromotionFlat
      */
     public function getPromotion()
     {
@@ -443,7 +443,7 @@ class PromotionSetgroupFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion
      *
-     * @param \Swagger\Client\Model\PromotionFlat $promotion promotion
+     * @param \ShopwareSDK6\Model\PromotionFlat $promotion promotion
      *
      * @return $this
      */
@@ -457,7 +457,7 @@ class PromotionSetgroupFlat implements ModelInterface, ArrayAccess
     /**
      * Gets set_group_rules
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getSetGroupRules()
     {
@@ -467,7 +467,7 @@ class PromotionSetgroupFlat implements ModelInterface, ArrayAccess
     /**
      * Sets set_group_rules
      *
-     * @param \Swagger\Client\Model\RuleFlat $set_group_rules set_group_rules
+     * @param \ShopwareSDK6\Model\RuleFlat $set_group_rules set_group_rules
      *
      * @return $this
      */

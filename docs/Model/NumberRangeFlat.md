@@ -14,9 +14,9 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**type** | [**\Swagger\Client\Model\NumberRangeTypeFlat**](NumberRangeTypeFlat.md) |  | [optional] 
-**number_range_sales_channels** | [**\Swagger\Client\Model\NumberRangeSalesChannelFlat**](NumberRangeSalesChannelFlat.md) |  | [optional] 
-**state** | [**\Swagger\Client\Model\NumberRangeStateFlat**](NumberRangeStateFlat.md) |  | [optional] 
+**type** | [**\ShopwareSDK6\Model\NumberRangeTypeFlat**](NumberRangeTypeFlat.md) |  | [optional] 
+**number_range_sales_channels** | [**\ShopwareSDK6\Model\NumberRangeSalesChannelFlat**](NumberRangeSalesChannelFlat.md) |  | [optional] 
+**state** | [**\ShopwareSDK6\Model\NumberRangeStateFlat**](NumberRangeStateFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

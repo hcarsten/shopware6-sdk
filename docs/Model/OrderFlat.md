@@ -14,12 +14,12 @@ Name | Type | Description | Notes
 **sales_channel_id** | **string** |  | 
 **order_date_time** | [**\DateTime**](\DateTime.md) |  | 
 **order_date** | **string** |  | [optional] 
-**price** | [**\Swagger\Client\Model\OrderAttributesPrice**](OrderAttributesPrice.md) |  | [optional] 
+**price** | [**\ShopwareSDK6\Model\OrderAttributesPrice**](OrderAttributesPrice.md) |  | [optional] 
 **amount_total** | **float** |  | [optional] 
 **amount_net** | **float** |  | [optional] 
 **position_price** | **float** |  | [optional] 
 **tax_status** | **string** |  | [optional] 
-**shipping_costs** | [**\Swagger\Client\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
+**shipping_costs** | [**\ShopwareSDK6\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
 **shipping_total** | **float** |  | [optional] 
 **currency_factor** | **float** |  | 
 **deep_link_code** | **string** |  | [optional] 
@@ -29,17 +29,17 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**state_machine_state** | [**\Swagger\Client\Model\StateMachineStateFlat**](StateMachineStateFlat.md) |  | [optional] 
-**order_customer** | [**\Swagger\Client\Model\OrderCustomerFlat**](OrderCustomerFlat.md) |  | [optional] 
-**currency** | [**\Swagger\Client\Model\CurrencyFlat**](CurrencyFlat.md) |  | [optional] 
-**language** | [**\Swagger\Client\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
-**sales_channel** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**addresses** | [**\Swagger\Client\Model\OrderAddressFlat**](OrderAddressFlat.md) |  | [optional] 
-**deliveries** | [**\Swagger\Client\Model\OrderDeliveryFlat**](OrderDeliveryFlat.md) |  | [optional] 
-**line_items** | [**\Swagger\Client\Model\OrderLineItemFlat**](OrderLineItemFlat.md) |  | [optional] 
-**transactions** | [**\Swagger\Client\Model\OrderTransactionFlat**](OrderTransactionFlat.md) |  | [optional] 
-**documents** | [**\Swagger\Client\Model\DocumentFlat**](DocumentFlat.md) |  | [optional] 
-**tags** | [**\Swagger\Client\Model\TagFlat**](TagFlat.md) |  | [optional] 
+**state_machine_state** | [**\ShopwareSDK6\Model\StateMachineStateFlat**](StateMachineStateFlat.md) |  | [optional] 
+**order_customer** | [**\ShopwareSDK6\Model\OrderCustomerFlat**](OrderCustomerFlat.md) |  | [optional] 
+**currency** | [**\ShopwareSDK6\Model\CurrencyFlat**](CurrencyFlat.md) |  | [optional] 
+**language** | [**\ShopwareSDK6\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
+**sales_channel** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**addresses** | [**\ShopwareSDK6\Model\OrderAddressFlat**](OrderAddressFlat.md) |  | [optional] 
+**deliveries** | [**\ShopwareSDK6\Model\OrderDeliveryFlat**](OrderDeliveryFlat.md) |  | [optional] 
+**line_items** | [**\ShopwareSDK6\Model\OrderLineItemFlat**](OrderLineItemFlat.md) |  | [optional] 
+**transactions** | [**\ShopwareSDK6\Model\OrderTransactionFlat**](OrderTransactionFlat.md) |  | [optional] 
+**documents** | [**\ShopwareSDK6\Model\DocumentFlat**](DocumentFlat.md) |  | [optional] 
+**tags** | [**\ShopwareSDK6\Model\TagFlat**](TagFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

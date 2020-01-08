@@ -1,4 +1,4 @@
-# Swagger\Client\DeadMessageApi
+# ShopwareSDK6\DeadMessageApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateDeadMessage**](DeadMessageApi.md#updatedeadmessage) | **PATCH** /dead-message/{id} | Partially update information about a Dead Message resource
 
 # **createDeadMessage**
-> \Swagger\Client\Model\InlineResponse20054 createDeadMessage($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20054 createDeadMessage($body, $_response)
 
 Create a new Dead Message resources
 
@@ -22,12 +22,12 @@ Create a new Dead Message resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeadMessageApi(
+$apiInstance = new ShopwareSDK6\Api\DeadMessageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body34(); // \Swagger\Client\Model\Body34 | 
+$body = new \ShopwareSDK6\Model\Body34(); // \ShopwareSDK6\Model\Body34 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body34**](../Model/Body34.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body34**](../Model/Body34.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+[**\ShopwareSDK6\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createDeadMessage**
-> \Swagger\Client\Model\InlineResponse20054 createDeadMessage($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20054 createDeadMessage($body, $_response)
 
 Create a new Dead Message resources
 
@@ -73,12 +73,12 @@ Create a new Dead Message resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeadMessageApi(
+$apiInstance = new ShopwareSDK6\Api\DeadMessageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\DeadMessageFlat(); // \Swagger\Client\Model\DeadMessageFlat | 
+$body = new \ShopwareSDK6\Model\DeadMessageFlat(); // \ShopwareSDK6\Model\DeadMessageFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\DeadMessageFlat**](../Model/DeadMessageFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\DeadMessageFlat**](../Model/DeadMessageFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+[**\ShopwareSDK6\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Dead Message resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeadMessageApi(
+$apiInstance = new ShopwareSDK6\Api\DeadMessageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDeadMessage**
-> \Swagger\Client\Model\InlineResponse20054 getDeadMessage($id)
+> \ShopwareSDK6\Model\InlineResponse20054 getDeadMessage($id)
 
 Detailed information about a Dead Message resource
 
@@ -170,7 +170,7 @@ Detailed information about a Dead Message resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeadMessageApi(
+$apiInstance = new ShopwareSDK6\Api\DeadMessageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+[**\ShopwareSDK6\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDeadMessageList**
-> \Swagger\Client\Model\InlineResponse20052 getDeadMessageList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20052 getDeadMessageList($limit, $page, $query)
 
 List with basic information of Dead Message resources
 
@@ -217,7 +217,7 @@ List with basic information of Dead Message resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeadMessageApi(
+$apiInstance = new ShopwareSDK6\Api\DeadMessageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
+[**\ShopwareSDK6\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDeadMessage**
-> \Swagger\Client\Model\InlineResponse20054 updateDeadMessage($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20054 updateDeadMessage($id, $body, $_response)
 
 Partially update information about a Dead Message resource
 
@@ -268,13 +268,13 @@ Partially update information about a Dead Message resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeadMessageApi(
+$apiInstance = new ShopwareSDK6\Api\DeadMessageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the dead_message
-$body = new \Swagger\Client\Model\Body35(); // \Swagger\Client\Model\Body35 | Partially update information about a Dead Message resource.
+$body = new \ShopwareSDK6\Model\Body35(); // \ShopwareSDK6\Model\Body35 | Partially update information about a Dead Message resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the dead_message |
- **body** | [**\Swagger\Client\Model\Body35**](../Model/Body35.md)| Partially update information about a Dead Message resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body35**](../Model/Body35.md)| Partially update information about a Dead Message resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+[**\ShopwareSDK6\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDeadMessage**
-> \Swagger\Client\Model\InlineResponse20054 updateDeadMessage($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20054 updateDeadMessage($id, $body, $_response)
 
 Partially update information about a Dead Message resource
 
@@ -319,13 +319,13 @@ Partially update information about a Dead Message resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeadMessageApi(
+$apiInstance = new ShopwareSDK6\Api\DeadMessageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the dead_message
-$body = new \Swagger\Client\Model\DeadMessageFlat(); // \Swagger\Client\Model\DeadMessageFlat | Partially update information about a Dead Message resource.
+$body = new \ShopwareSDK6\Model\DeadMessageFlat(); // \ShopwareSDK6\Model\DeadMessageFlat | Partially update information about a Dead Message resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the dead_message |
- **body** | [**\Swagger\Client\Model\DeadMessageFlat**](../Model/DeadMessageFlat.md)| Partially update information about a Dead Message resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\DeadMessageFlat**](../Model/DeadMessageFlat.md)| Partially update information about a Dead Message resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+[**\ShopwareSDK6\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
 
 ### Authorization
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductStreamFilterRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductStreamFilterRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product_stream' => '\Swagger\Client\Model\ProductStreamFilterRelationshipsProductStream',
-'parent' => '\Swagger\Client\Model\ProductStreamFilterRelationshipsParent',
-'queries' => '\Swagger\Client\Model\ProductStreamFilterRelationshipsQueries'    ];
+        'product_stream' => '\ShopwareSDK6\Model\ProductStreamFilterRelationshipsProductStream',
+'parent' => '\ShopwareSDK6\Model\ProductStreamFilterRelationshipsParent',
+'queries' => '\ShopwareSDK6\Model\ProductStreamFilterRelationshipsQueries'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class ProductStreamFilterRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_stream
      *
-     * @return \Swagger\Client\Model\ProductStreamFilterRelationshipsProductStream
+     * @return \ShopwareSDK6\Model\ProductStreamFilterRelationshipsProductStream
      */
     public function getProductStream()
     {
@@ -221,7 +221,7 @@ class ProductStreamFilterRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_stream
      *
-     * @param \Swagger\Client\Model\ProductStreamFilterRelationshipsProductStream $product_stream product_stream
+     * @param \ShopwareSDK6\Model\ProductStreamFilterRelationshipsProductStream $product_stream product_stream
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class ProductStreamFilterRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \Swagger\Client\Model\ProductStreamFilterRelationshipsParent
+     * @return \ShopwareSDK6\Model\ProductStreamFilterRelationshipsParent
      */
     public function getParent()
     {
@@ -245,7 +245,7 @@ class ProductStreamFilterRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \Swagger\Client\Model\ProductStreamFilterRelationshipsParent $parent parent
+     * @param \ShopwareSDK6\Model\ProductStreamFilterRelationshipsParent $parent parent
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class ProductStreamFilterRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets queries
      *
-     * @return \Swagger\Client\Model\ProductStreamFilterRelationshipsQueries
+     * @return \ShopwareSDK6\Model\ProductStreamFilterRelationshipsQueries
      */
     public function getQueries()
     {
@@ -269,7 +269,7 @@ class ProductStreamFilterRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets queries
      *
-     * @param \Swagger\Client\Model\ProductStreamFilterRelationshipsQueries $queries queries
+     * @param \ShopwareSDK6\Model\ProductStreamFilterRelationshipsQueries $queries queries
      *
      * @return $this
      */

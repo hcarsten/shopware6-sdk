@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductPrice Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductPrice extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ProductPriceAttributes',
-'links' => '\Swagger\Client\Model\ProductPriceLinks',
-'relationships' => '\Swagger\Client\Model\ProductPriceRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ProductPriceAttributes',
+'links' => '\ShopwareSDK6\Model\ProductPriceLinks',
+'relationships' => '\ShopwareSDK6\Model\ProductPriceRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductPrice extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ProductPriceAttributes
+     * @return \ShopwareSDK6\Model\ProductPriceAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductPrice extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ProductPriceAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ProductPriceAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductPrice extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductPriceLinks
+     * @return \ShopwareSDK6\Model\ProductPriceLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductPrice extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductPriceLinks $links links
+     * @param \ShopwareSDK6\Model\ProductPriceLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductPrice extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ProductPriceRelationships
+     * @return \ShopwareSDK6\Model\ProductPriceRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductPrice extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ProductPriceRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ProductPriceRelationships $relationships relationships
      *
      * @return $this
      */

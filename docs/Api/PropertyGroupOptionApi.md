@@ -1,4 +1,4 @@
-# Swagger\Client\PropertyGroupOptionApi
+# ShopwareSDK6\PropertyGroupOptionApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updatePropertyGroupOption**](PropertyGroupOptionApi.md#updatepropertygroupoption) | **PATCH** /property-group-option/{id} | Partially update information about a Property Group Option resource
 
 # **createPropertyGroupOption**
-> \Swagger\Client\Model\InlineResponse200234 createPropertyGroupOption($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200234 createPropertyGroupOption($body, $_response)
 
 Create a new Property Group Option resources
 
@@ -22,12 +22,12 @@ Create a new Property Group Option resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PropertyGroupOptionApi(
+$apiInstance = new ShopwareSDK6\Api\PropertyGroupOptionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body154(); // \Swagger\Client\Model\Body154 | 
+$body = new \ShopwareSDK6\Model\Body154(); // \ShopwareSDK6\Model\Body154 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body154**](../Model/Body154.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body154**](../Model/Body154.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
+[**\ShopwareSDK6\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createPropertyGroupOption**
-> \Swagger\Client\Model\InlineResponse200234 createPropertyGroupOption($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200234 createPropertyGroupOption($body, $_response)
 
 Create a new Property Group Option resources
 
@@ -73,12 +73,12 @@ Create a new Property Group Option resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PropertyGroupOptionApi(
+$apiInstance = new ShopwareSDK6\Api\PropertyGroupOptionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\PropertyGroupOptionFlat(); // \Swagger\Client\Model\PropertyGroupOptionFlat | 
+$body = new \ShopwareSDK6\Model\PropertyGroupOptionFlat(); // \ShopwareSDK6\Model\PropertyGroupOptionFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\PropertyGroupOptionFlat**](../Model/PropertyGroupOptionFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\PropertyGroupOptionFlat**](../Model/PropertyGroupOptionFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
+[**\ShopwareSDK6\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Property Group Option resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PropertyGroupOptionApi(
+$apiInstance = new ShopwareSDK6\Api\PropertyGroupOptionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPropertyGroupOption**
-> \Swagger\Client\Model\InlineResponse200234 getPropertyGroupOption($id)
+> \ShopwareSDK6\Model\InlineResponse200234 getPropertyGroupOption($id)
 
 Detailed information about a Property Group Option resource
 
@@ -170,7 +170,7 @@ Detailed information about a Property Group Option resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PropertyGroupOptionApi(
+$apiInstance = new ShopwareSDK6\Api\PropertyGroupOptionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
+[**\ShopwareSDK6\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPropertyGroupOptionList**
-> \Swagger\Client\Model\InlineResponse200232 getPropertyGroupOptionList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200232 getPropertyGroupOptionList($limit, $page, $query)
 
 List with basic information of Property Group Option resources
 
@@ -217,7 +217,7 @@ List with basic information of Property Group Option resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PropertyGroupOptionApi(
+$apiInstance = new ShopwareSDK6\Api\PropertyGroupOptionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200232**](../Model/InlineResponse200232.md)
+[**\ShopwareSDK6\Model\InlineResponse200232**](../Model/InlineResponse200232.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePropertyGroupOption**
-> \Swagger\Client\Model\InlineResponse200234 updatePropertyGroupOption($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200234 updatePropertyGroupOption($id, $body, $_response)
 
 Partially update information about a Property Group Option resource
 
@@ -268,13 +268,13 @@ Partially update information about a Property Group Option resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PropertyGroupOptionApi(
+$apiInstance = new ShopwareSDK6\Api\PropertyGroupOptionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the property_group_option
-$body = new \Swagger\Client\Model\Body155(); // \Swagger\Client\Model\Body155 | Partially update information about a Property Group Option resource.
+$body = new \ShopwareSDK6\Model\Body155(); // \ShopwareSDK6\Model\Body155 | Partially update information about a Property Group Option resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the property_group_option |
- **body** | [**\Swagger\Client\Model\Body155**](../Model/Body155.md)| Partially update information about a Property Group Option resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body155**](../Model/Body155.md)| Partially update information about a Property Group Option resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
+[**\ShopwareSDK6\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePropertyGroupOption**
-> \Swagger\Client\Model\InlineResponse200234 updatePropertyGroupOption($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200234 updatePropertyGroupOption($id, $body, $_response)
 
 Partially update information about a Property Group Option resource
 
@@ -319,13 +319,13 @@ Partially update information about a Property Group Option resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PropertyGroupOptionApi(
+$apiInstance = new ShopwareSDK6\Api\PropertyGroupOptionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the property_group_option
-$body = new \Swagger\Client\Model\PropertyGroupOptionFlat(); // \Swagger\Client\Model\PropertyGroupOptionFlat | Partially update information about a Property Group Option resource.
+$body = new \ShopwareSDK6\Model\PropertyGroupOptionFlat(); // \ShopwareSDK6\Model\PropertyGroupOptionFlat | Partially update information about a Property Group Option resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the property_group_option |
- **body** | [**\Swagger\Client\Model\PropertyGroupOptionFlat**](../Model/PropertyGroupOptionFlat.md)| Partially update information about a Property Group Option resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\PropertyGroupOptionFlat**](../Model/PropertyGroupOptionFlat.md)| Partially update information about a Property Group Option resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
+[**\ShopwareSDK6\Model\InlineResponse200234**](../Model/InlineResponse200234.md)
 
 ### Authorization
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Body208 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class Body208 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\UserRecovery',
-'included' => '\Swagger\Client\Model\Resource[]'    ];
+        'data' => '\ShopwareSDK6\Model\UserRecovery',
+'included' => '\ShopwareSDK6\Model\Resource[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class Body208 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\UserRecovery
+     * @return \ShopwareSDK6\Model\UserRecovery
      */
     public function getData()
     {
@@ -215,7 +215,7 @@ class Body208 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\UserRecovery $data data
+     * @param \ShopwareSDK6\Model\UserRecovery $data data
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class Body208 implements ModelInterface, ArrayAccess
     /**
      * Gets included
      *
-     * @return \Swagger\Client\Model\Resource[]
+     * @return \ShopwareSDK6\Model\Resource[]
      */
     public function getIncluded()
     {
@@ -239,7 +239,7 @@ class Body208 implements ModelInterface, ArrayAccess
     /**
      * Sets included
      *
-     * @param \Swagger\Client\Model\Resource[] $included included
+     * @param \ShopwareSDK6\Model\Resource[] $included included
      *
      * @return $this
      */

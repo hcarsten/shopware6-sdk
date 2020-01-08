@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelRelationshipsShippingMethods Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelRelationshipsShippingMethods implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\SalesChannelRelationshipsShippingMethodsLinks',
-'data' => '\Swagger\Client\Model\SalesChannelRelationshipsShippingMethodsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethodsLinks',
+'data' => '\ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethodsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelRelationshipsShippingMethods implements ModelInterface, ArrayA
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsShippingMethodsLinks
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethodsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelRelationshipsShippingMethods implements ModelInterface, ArrayA
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsShippingMethodsLinks $links links
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethodsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelRelationshipsShippingMethods implements ModelInterface, ArrayA
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsShippingMethodsData[]
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethodsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelRelationshipsShippingMethods implements ModelInterface, ArrayA
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsShippingMethodsData[] $data data
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsShippingMethodsData[] $data data
      *
      * @return $this
      */

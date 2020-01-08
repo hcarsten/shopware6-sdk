@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomerRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,20 +56,20 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'group' => '\Swagger\Client\Model\CustomerRelationshipsGroup',
-'default_payment_method' => '\Swagger\Client\Model\CustomerRelationshipsDefaultPaymentMethod',
-'sales_channel' => '\Swagger\Client\Model\CustomerRelationshipsSalesChannel',
-'language' => '\Swagger\Client\Model\CustomerRelationshipsLanguage',
-'last_payment_method' => '\Swagger\Client\Model\CustomerRelationshipsLastPaymentMethod',
-'default_billing_address' => '\Swagger\Client\Model\CustomerRelationshipsDefaultBillingAddress',
-'default_shipping_address' => '\Swagger\Client\Model\CustomerRelationshipsDefaultShippingAddress',
-'salutation' => '\Swagger\Client\Model\CustomerRelationshipsSalutation',
-'addresses' => '\Swagger\Client\Model\CustomerRelationshipsAddresses',
-'order_customers' => '\Swagger\Client\Model\CustomerRelationshipsOrderCustomers',
-'tags' => '\Swagger\Client\Model\CustomerRelationshipsTags',
-'promotions' => '\Swagger\Client\Model\CustomerRelationshipsPromotions',
-'product_reviews' => '\Swagger\Client\Model\CustomerRelationshipsProductReviews',
-'recovery_customer' => '\Swagger\Client\Model\CustomerRelationshipsRecoveryCustomer'    ];
+        'group' => '\ShopwareSDK6\Model\CustomerRelationshipsGroup',
+'default_payment_method' => '\ShopwareSDK6\Model\CustomerRelationshipsDefaultPaymentMethod',
+'sales_channel' => '\ShopwareSDK6\Model\CustomerRelationshipsSalesChannel',
+'language' => '\ShopwareSDK6\Model\CustomerRelationshipsLanguage',
+'last_payment_method' => '\ShopwareSDK6\Model\CustomerRelationshipsLastPaymentMethod',
+'default_billing_address' => '\ShopwareSDK6\Model\CustomerRelationshipsDefaultBillingAddress',
+'default_shipping_address' => '\ShopwareSDK6\Model\CustomerRelationshipsDefaultShippingAddress',
+'salutation' => '\ShopwareSDK6\Model\CustomerRelationshipsSalutation',
+'addresses' => '\ShopwareSDK6\Model\CustomerRelationshipsAddresses',
+'order_customers' => '\ShopwareSDK6\Model\CustomerRelationshipsOrderCustomers',
+'tags' => '\ShopwareSDK6\Model\CustomerRelationshipsTags',
+'promotions' => '\ShopwareSDK6\Model\CustomerRelationshipsPromotions',
+'product_reviews' => '\ShopwareSDK6\Model\CustomerRelationshipsProductReviews',
+'recovery_customer' => '\ShopwareSDK6\Model\CustomerRelationshipsRecoveryCustomer'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -277,7 +277,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets group
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsGroup
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsGroup
      */
     public function getGroup()
     {
@@ -287,7 +287,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets group
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsGroup $group group
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsGroup $group group
      *
      * @return $this
      */
@@ -301,7 +301,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets default_payment_method
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsDefaultPaymentMethod
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsDefaultPaymentMethod
      */
     public function getDefaultPaymentMethod()
     {
@@ -311,7 +311,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets default_payment_method
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsDefaultPaymentMethod $default_payment_method default_payment_method
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsDefaultPaymentMethod $default_payment_method default_payment_method
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsSalesChannel
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -335,7 +335,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */
@@ -349,7 +349,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsLanguage
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -359,7 +359,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsLanguage $language language
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsLanguage $language language
      *
      * @return $this
      */
@@ -373,7 +373,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets last_payment_method
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsLastPaymentMethod
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsLastPaymentMethod
      */
     public function getLastPaymentMethod()
     {
@@ -383,7 +383,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets last_payment_method
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsLastPaymentMethod $last_payment_method last_payment_method
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsLastPaymentMethod $last_payment_method last_payment_method
      *
      * @return $this
      */
@@ -397,7 +397,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets default_billing_address
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsDefaultBillingAddress
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsDefaultBillingAddress
      */
     public function getDefaultBillingAddress()
     {
@@ -407,7 +407,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets default_billing_address
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsDefaultBillingAddress $default_billing_address default_billing_address
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsDefaultBillingAddress $default_billing_address default_billing_address
      *
      * @return $this
      */
@@ -421,7 +421,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets default_shipping_address
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsDefaultShippingAddress
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsDefaultShippingAddress
      */
     public function getDefaultShippingAddress()
     {
@@ -431,7 +431,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets default_shipping_address
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsDefaultShippingAddress $default_shipping_address default_shipping_address
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsDefaultShippingAddress $default_shipping_address default_shipping_address
      *
      * @return $this
      */
@@ -445,7 +445,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsSalutation
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsSalutation
      */
     public function getSalutation()
     {
@@ -455,7 +455,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsSalutation $salutation salutation
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsSalutation $salutation salutation
      *
      * @return $this
      */
@@ -469,7 +469,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets addresses
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsAddresses
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsAddresses
      */
     public function getAddresses()
     {
@@ -479,7 +479,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets addresses
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsAddresses $addresses addresses
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsAddresses $addresses addresses
      *
      * @return $this
      */
@@ -493,7 +493,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_customers
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsOrderCustomers
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsOrderCustomers
      */
     public function getOrderCustomers()
     {
@@ -503,7 +503,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_customers
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsOrderCustomers $order_customers order_customers
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsOrderCustomers $order_customers order_customers
      *
      * @return $this
      */
@@ -517,7 +517,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsTags
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsTags
      */
     public function getTags()
     {
@@ -527,7 +527,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsTags $tags tags
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsTags $tags tags
      *
      * @return $this
      */
@@ -541,7 +541,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets promotions
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsPromotions
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsPromotions
      */
     public function getPromotions()
     {
@@ -551,7 +551,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets promotions
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsPromotions $promotions promotions
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsPromotions $promotions promotions
      *
      * @return $this
      */
@@ -565,7 +565,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_reviews
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsProductReviews
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsProductReviews
      */
     public function getProductReviews()
     {
@@ -575,7 +575,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_reviews
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsProductReviews $product_reviews product_reviews
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsProductReviews $product_reviews product_reviews
      *
      * @return $this
      */
@@ -589,7 +589,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets recovery_customer
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsRecoveryCustomer
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsRecoveryCustomer
      */
     public function getRecoveryCustomer()
     {
@@ -599,7 +599,7 @@ class CustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets recovery_customer
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsRecoveryCustomer $recovery_customer recovery_customer
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsRecoveryCustomer $recovery_customer recovery_customer
      *
      * @return $this
      */

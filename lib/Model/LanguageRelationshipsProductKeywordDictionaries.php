@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LanguageRelationshipsProductKeywordDictionaries Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LanguageRelationshipsProductKeywordDictionaries implements ModelInterface,
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\LanguageRelationshipsProductKeywordDictionariesLinks',
-'data' => '\Swagger\Client\Model\LanguageRelationshipsProductKeywordDictionariesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\LanguageRelationshipsProductKeywordDictionariesLinks',
+'data' => '\ShopwareSDK6\Model\LanguageRelationshipsProductKeywordDictionariesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LanguageRelationshipsProductKeywordDictionaries implements ModelInterface,
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsProductKeywordDictionariesLinks
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsProductKeywordDictionariesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class LanguageRelationshipsProductKeywordDictionaries implements ModelInterface,
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsProductKeywordDictionariesLinks $links links
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsProductKeywordDictionariesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LanguageRelationshipsProductKeywordDictionaries implements ModelInterface,
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsProductKeywordDictionariesData[]
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsProductKeywordDictionariesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class LanguageRelationshipsProductKeywordDictionaries implements ModelInterface,
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsProductKeywordDictionariesData[] $data data
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsProductKeywordDictionariesData[] $data data
      *
      * @return $this
      */

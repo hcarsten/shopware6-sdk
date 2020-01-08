@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -67,12 +67,12 @@ class OrderFlat implements ModelInterface, ArrayAccess
 'sales_channel_id' => 'string',
 'order_date_time' => '\DateTime',
 'order_date' => 'string',
-'price' => '\Swagger\Client\Model\OrderAttributesPrice',
+'price' => '\ShopwareSDK6\Model\OrderAttributesPrice',
 'amount_total' => 'float',
 'amount_net' => 'float',
 'position_price' => 'float',
 'tax_status' => 'string',
-'shipping_costs' => '\Swagger\Client\Model\OrderAttributesShippingCosts',
+'shipping_costs' => '\ShopwareSDK6\Model\OrderAttributesShippingCosts',
 'shipping_total' => 'float',
 'currency_factor' => 'float',
 'deep_link_code' => 'string',
@@ -82,17 +82,17 @@ class OrderFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'state_machine_state' => '\Swagger\Client\Model\StateMachineStateFlat',
-'order_customer' => '\Swagger\Client\Model\OrderCustomerFlat',
-'currency' => '\Swagger\Client\Model\CurrencyFlat',
-'language' => '\Swagger\Client\Model\LanguageFlat',
-'sales_channel' => '\Swagger\Client\Model\SalesChannelFlat',
-'addresses' => '\Swagger\Client\Model\OrderAddressFlat',
-'deliveries' => '\Swagger\Client\Model\OrderDeliveryFlat',
-'line_items' => '\Swagger\Client\Model\OrderLineItemFlat',
-'transactions' => '\Swagger\Client\Model\OrderTransactionFlat',
-'documents' => '\Swagger\Client\Model\DocumentFlat',
-'tags' => '\Swagger\Client\Model\TagFlat'    ];
+'state_machine_state' => '\ShopwareSDK6\Model\StateMachineStateFlat',
+'order_customer' => '\ShopwareSDK6\Model\OrderCustomerFlat',
+'currency' => '\ShopwareSDK6\Model\CurrencyFlat',
+'language' => '\ShopwareSDK6\Model\LanguageFlat',
+'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat',
+'addresses' => '\ShopwareSDK6\Model\OrderAddressFlat',
+'deliveries' => '\ShopwareSDK6\Model\OrderDeliveryFlat',
+'line_items' => '\ShopwareSDK6\Model\OrderLineItemFlat',
+'transactions' => '\ShopwareSDK6\Model\OrderTransactionFlat',
+'documents' => '\ShopwareSDK6\Model\DocumentFlat',
+'tags' => '\ShopwareSDK6\Model\TagFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -706,7 +706,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets price
      *
-     * @return \Swagger\Client\Model\OrderAttributesPrice
+     * @return \ShopwareSDK6\Model\OrderAttributesPrice
      */
     public function getPrice()
     {
@@ -716,7 +716,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets price
      *
-     * @param \Swagger\Client\Model\OrderAttributesPrice $price price
+     * @param \ShopwareSDK6\Model\OrderAttributesPrice $price price
      *
      * @return $this
      */
@@ -826,7 +826,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_costs
      *
-     * @return \Swagger\Client\Model\OrderAttributesShippingCosts
+     * @return \ShopwareSDK6\Model\OrderAttributesShippingCosts
      */
     public function getShippingCosts()
     {
@@ -836,7 +836,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_costs
      *
-     * @param \Swagger\Client\Model\OrderAttributesShippingCosts $shipping_costs shipping_costs
+     * @param \ShopwareSDK6\Model\OrderAttributesShippingCosts $shipping_costs shipping_costs
      *
      * @return $this
      */
@@ -1066,7 +1066,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine_state
      *
-     * @return \Swagger\Client\Model\StateMachineStateFlat
+     * @return \ShopwareSDK6\Model\StateMachineStateFlat
      */
     public function getStateMachineState()
     {
@@ -1076,7 +1076,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine_state
      *
-     * @param \Swagger\Client\Model\StateMachineStateFlat $state_machine_state state_machine_state
+     * @param \ShopwareSDK6\Model\StateMachineStateFlat $state_machine_state state_machine_state
      *
      * @return $this
      */
@@ -1090,7 +1090,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_customer
      *
-     * @return \Swagger\Client\Model\OrderCustomerFlat
+     * @return \ShopwareSDK6\Model\OrderCustomerFlat
      */
     public function getOrderCustomer()
     {
@@ -1100,7 +1100,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_customer
      *
-     * @param \Swagger\Client\Model\OrderCustomerFlat $order_customer order_customer
+     * @param \ShopwareSDK6\Model\OrderCustomerFlat $order_customer order_customer
      *
      * @return $this
      */
@@ -1114,7 +1114,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\CurrencyFlat
+     * @return \ShopwareSDK6\Model\CurrencyFlat
      */
     public function getCurrency()
     {
@@ -1124,7 +1124,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\CurrencyFlat $currency currency
+     * @param \ShopwareSDK6\Model\CurrencyFlat $currency currency
      *
      * @return $this
      */
@@ -1138,7 +1138,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\LanguageFlat
+     * @return \ShopwareSDK6\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -1148,7 +1148,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\LanguageFlat $language language
+     * @param \ShopwareSDK6\Model\LanguageFlat $language language
      *
      * @return $this
      */
@@ -1162,7 +1162,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\SalesChannelFlat
+     * @return \ShopwareSDK6\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -1172,7 +1172,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */
@@ -1186,7 +1186,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets addresses
      *
-     * @return \Swagger\Client\Model\OrderAddressFlat
+     * @return \ShopwareSDK6\Model\OrderAddressFlat
      */
     public function getAddresses()
     {
@@ -1196,7 +1196,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets addresses
      *
-     * @param \Swagger\Client\Model\OrderAddressFlat $addresses addresses
+     * @param \ShopwareSDK6\Model\OrderAddressFlat $addresses addresses
      *
      * @return $this
      */
@@ -1210,7 +1210,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets deliveries
      *
-     * @return \Swagger\Client\Model\OrderDeliveryFlat
+     * @return \ShopwareSDK6\Model\OrderDeliveryFlat
      */
     public function getDeliveries()
     {
@@ -1220,7 +1220,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets deliveries
      *
-     * @param \Swagger\Client\Model\OrderDeliveryFlat $deliveries deliveries
+     * @param \ShopwareSDK6\Model\OrderDeliveryFlat $deliveries deliveries
      *
      * @return $this
      */
@@ -1234,7 +1234,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets line_items
      *
-     * @return \Swagger\Client\Model\OrderLineItemFlat
+     * @return \ShopwareSDK6\Model\OrderLineItemFlat
      */
     public function getLineItems()
     {
@@ -1244,7 +1244,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets line_items
      *
-     * @param \Swagger\Client\Model\OrderLineItemFlat $line_items line_items
+     * @param \ShopwareSDK6\Model\OrderLineItemFlat $line_items line_items
      *
      * @return $this
      */
@@ -1258,7 +1258,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets transactions
      *
-     * @return \Swagger\Client\Model\OrderTransactionFlat
+     * @return \ShopwareSDK6\Model\OrderTransactionFlat
      */
     public function getTransactions()
     {
@@ -1268,7 +1268,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets transactions
      *
-     * @param \Swagger\Client\Model\OrderTransactionFlat $transactions transactions
+     * @param \ShopwareSDK6\Model\OrderTransactionFlat $transactions transactions
      *
      * @return $this
      */
@@ -1282,7 +1282,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Swagger\Client\Model\DocumentFlat
+     * @return \ShopwareSDK6\Model\DocumentFlat
      */
     public function getDocuments()
     {
@@ -1292,7 +1292,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Swagger\Client\Model\DocumentFlat $documents documents
+     * @param \ShopwareSDK6\Model\DocumentFlat $documents documents
      *
      * @return $this
      */
@@ -1306,7 +1306,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \Swagger\Client\Model\TagFlat
+     * @return \ShopwareSDK6\Model\TagFlat
      */
     public function getTags()
     {
@@ -1316,7 +1316,7 @@ class OrderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \Swagger\Client\Model\TagFlat $tags tags
+     * @param \ShopwareSDK6\Model\TagFlat $tags tags
      *
      * @return $this
      */

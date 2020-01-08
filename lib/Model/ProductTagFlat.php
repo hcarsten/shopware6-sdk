@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductTagFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,8 +60,8 @@ class ProductTagFlat implements ModelInterface, ArrayAccess
 'product_id' => 'string',
 'product_version_id' => 'string',
 'tag_id' => 'string',
-'product' => '\Swagger\Client\Model\ProductFlat',
-'tag' => '\Swagger\Client\Model\TagFlat'    ];
+'product' => '\ShopwareSDK6\Model\ProductFlat',
+'tag' => '\ShopwareSDK6\Model\TagFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -331,7 +331,7 @@ class ProductTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\ProductFlat
+     * @return \ShopwareSDK6\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -341,7 +341,7 @@ class ProductTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\ProductFlat $product product
+     * @param \ShopwareSDK6\Model\ProductFlat $product product
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class ProductTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tag
      *
-     * @return \Swagger\Client\Model\TagFlat
+     * @return \ShopwareSDK6\Model\TagFlat
      */
     public function getTag()
     {
@@ -365,7 +365,7 @@ class ProductTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tag
      *
-     * @param \Swagger\Client\Model\TagFlat $tag tag
+     * @param \ShopwareSDK6\Model\TagFlat $tag tag
      *
      * @return $this
      */

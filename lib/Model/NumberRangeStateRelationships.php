@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * NumberRangeStateRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class NumberRangeStateRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'number_range' => '\Swagger\Client\Model\NumberRangeStateRelationshipsNumberRange'    ];
+        'number_range' => '\ShopwareSDK6\Model\NumberRangeStateRelationshipsNumberRange'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class NumberRangeStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets number_range
      *
-     * @return \Swagger\Client\Model\NumberRangeStateRelationshipsNumberRange
+     * @return \ShopwareSDK6\Model\NumberRangeStateRelationshipsNumberRange
      */
     public function getNumberRange()
     {
@@ -209,7 +209,7 @@ class NumberRangeStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets number_range
      *
-     * @param \Swagger\Client\Model\NumberRangeStateRelationshipsNumberRange $number_range number_range
+     * @param \ShopwareSDK6\Model\NumberRangeStateRelationshipsNumberRange $number_range number_range
      *
      * @return $this
      */

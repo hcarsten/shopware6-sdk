@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalutationRelationshipsNewsletterRecipients Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalutationRelationshipsNewsletterRecipients implements ModelInterface, Arr
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\SalutationRelationshipsNewsletterRecipientsLinks',
-'data' => '\Swagger\Client\Model\SalutationRelationshipsNewsletterRecipientsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\SalutationRelationshipsNewsletterRecipientsLinks',
+'data' => '\ShopwareSDK6\Model\SalutationRelationshipsNewsletterRecipientsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalutationRelationshipsNewsletterRecipients implements ModelInterface, Arr
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalutationRelationshipsNewsletterRecipientsLinks
+     * @return \ShopwareSDK6\Model\SalutationRelationshipsNewsletterRecipientsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalutationRelationshipsNewsletterRecipients implements ModelInterface, Arr
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalutationRelationshipsNewsletterRecipientsLinks $links links
+     * @param \ShopwareSDK6\Model\SalutationRelationshipsNewsletterRecipientsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalutationRelationshipsNewsletterRecipients implements ModelInterface, Arr
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\SalutationRelationshipsNewsletterRecipientsData[]
+     * @return \ShopwareSDK6\Model\SalutationRelationshipsNewsletterRecipientsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalutationRelationshipsNewsletterRecipients implements ModelInterface, Arr
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\SalutationRelationshipsNewsletterRecipientsData[] $data data
+     * @param \ShopwareSDK6\Model\SalutationRelationshipsNewsletterRecipientsData[] $data data
      *
      * @return $this
      */

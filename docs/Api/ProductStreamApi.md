@@ -1,4 +1,4 @@
-# Swagger\Client\ProductStreamApi
+# ShopwareSDK6\ProductStreamApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProductStream**](ProductStreamApi.md#updateproductstream) | **PATCH** /product-stream/{id} | Partially update information about a Product Stream resource
 
 # **createProductStream**
-> \Swagger\Client\Model\InlineResponse200204 createProductStream($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200204 createProductStream($body, $_response)
 
 Create a new Product Stream resources
 
@@ -22,12 +22,12 @@ Create a new Product Stream resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductStreamApi(
+$apiInstance = new ShopwareSDK6\Api\ProductStreamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body134(); // \Swagger\Client\Model\Body134 | 
+$body = new \ShopwareSDK6\Model\Body134(); // \ShopwareSDK6\Model\Body134 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body134**](../Model/Body134.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body134**](../Model/Body134.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
+[**\ShopwareSDK6\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProductStream**
-> \Swagger\Client\Model\InlineResponse200204 createProductStream($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200204 createProductStream($body, $_response)
 
 Create a new Product Stream resources
 
@@ -73,12 +73,12 @@ Create a new Product Stream resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductStreamApi(
+$apiInstance = new ShopwareSDK6\Api\ProductStreamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\ProductStreamFlat(); // \Swagger\Client\Model\ProductStreamFlat | 
+$body = new \ShopwareSDK6\Model\ProductStreamFlat(); // \ShopwareSDK6\Model\ProductStreamFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ProductStreamFlat**](../Model/ProductStreamFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductStreamFlat**](../Model/ProductStreamFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
+[**\ShopwareSDK6\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product Stream resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductStreamApi(
+$apiInstance = new ShopwareSDK6\Api\ProductStreamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductStream**
-> \Swagger\Client\Model\InlineResponse200204 getProductStream($id)
+> \ShopwareSDK6\Model\InlineResponse200204 getProductStream($id)
 
 Detailed information about a Product Stream resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product Stream resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductStreamApi(
+$apiInstance = new ShopwareSDK6\Api\ProductStreamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
+[**\ShopwareSDK6\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductStreamList**
-> \Swagger\Client\Model\InlineResponse200202 getProductStreamList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200202 getProductStreamList($limit, $page, $query)
 
 List with basic information of Product Stream resources
 
@@ -217,7 +217,7 @@ List with basic information of Product Stream resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductStreamApi(
+$apiInstance = new ShopwareSDK6\Api\ProductStreamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200202**](../Model/InlineResponse200202.md)
+[**\ShopwareSDK6\Model\InlineResponse200202**](../Model/InlineResponse200202.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductStream**
-> \Swagger\Client\Model\InlineResponse200204 updateProductStream($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200204 updateProductStream($id, $body, $_response)
 
 Partially update information about a Product Stream resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product Stream resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductStreamApi(
+$apiInstance = new ShopwareSDK6\Api\ProductStreamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_stream
-$body = new \Swagger\Client\Model\Body135(); // \Swagger\Client\Model\Body135 | Partially update information about a Product Stream resource.
+$body = new \ShopwareSDK6\Model\Body135(); // \ShopwareSDK6\Model\Body135 | Partially update information about a Product Stream resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_stream |
- **body** | [**\Swagger\Client\Model\Body135**](../Model/Body135.md)| Partially update information about a Product Stream resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body135**](../Model/Body135.md)| Partially update information about a Product Stream resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
+[**\ShopwareSDK6\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductStream**
-> \Swagger\Client\Model\InlineResponse200204 updateProductStream($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200204 updateProductStream($id, $body, $_response)
 
 Partially update information about a Product Stream resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product Stream resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductStreamApi(
+$apiInstance = new ShopwareSDK6\Api\ProductStreamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_stream
-$body = new \Swagger\Client\Model\ProductStreamFlat(); // \Swagger\Client\Model\ProductStreamFlat | Partially update information about a Product Stream resource.
+$body = new \ShopwareSDK6\Model\ProductStreamFlat(); // \ShopwareSDK6\Model\ProductStreamFlat | Partially update information about a Product Stream resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_stream |
- **body** | [**\Swagger\Client\Model\ProductStreamFlat**](../Model/ProductStreamFlat.md)| Partially update information about a Product Stream resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductStreamFlat**](../Model/ProductStreamFlat.md)| Partially update information about a Product Stream resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
+[**\ShopwareSDK6\Model\InlineResponse200204**](../Model/InlineResponse200204.md)
 
 ### Authorization
 

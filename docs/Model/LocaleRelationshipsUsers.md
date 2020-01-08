@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\LocaleRelationshipsUsersLinks**](LocaleRelationshipsUsersLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\LocaleRelationshipsUsersData[]**](LocaleRelationshipsUsersData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\LocaleRelationshipsUsersLinks**](LocaleRelationshipsUsersLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\LocaleRelationshipsUsersData[]**](LocaleRelationshipsUsersData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

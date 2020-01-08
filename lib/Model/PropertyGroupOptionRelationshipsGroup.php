@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PropertyGroupOptionRelationshipsGroup Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PropertyGroupOptionRelationshipsGroupLinks',
-'data' => '\Swagger\Client\Model\PropertyGroupOptionRelationshipsGroupData'    ];
+        'links' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupLinks',
+'data' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PropertyGroupOptionRelationshipsGroupLinks
+     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PropertyGroupOptionRelationshipsGroupLinks $links links
+     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\PropertyGroupOptionRelationshipsGroupData
+     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\PropertyGroupOptionRelationshipsGroupData $data data
+     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupData $data data
      *
      * @return $this
      */

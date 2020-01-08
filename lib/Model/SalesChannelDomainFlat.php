@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelDomainFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,11 +65,11 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'sales_channel' => '\Swagger\Client\Model\SalesChannelFlat',
-'language' => '\Swagger\Client\Model\LanguageFlat',
-'currency' => '\Swagger\Client\Model\CurrencyFlat',
-'snippet_set' => '\Swagger\Client\Model\SnippetSetFlat',
-'product_exports' => '\Swagger\Client\Model\ProductExportFlat'    ];
+'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat',
+'language' => '\ShopwareSDK6\Model\LanguageFlat',
+'currency' => '\ShopwareSDK6\Model\CurrencyFlat',
+'snippet_set' => '\ShopwareSDK6\Model\SnippetSetFlat',
+'product_exports' => '\ShopwareSDK6\Model\ProductExportFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -514,7 +514,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\SalesChannelFlat
+     * @return \ShopwareSDK6\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -524,7 +524,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */
@@ -538,7 +538,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\LanguageFlat
+     * @return \ShopwareSDK6\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -548,7 +548,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\LanguageFlat $language language
+     * @param \ShopwareSDK6\Model\LanguageFlat $language language
      *
      * @return $this
      */
@@ -562,7 +562,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\CurrencyFlat
+     * @return \ShopwareSDK6\Model\CurrencyFlat
      */
     public function getCurrency()
     {
@@ -572,7 +572,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\CurrencyFlat $currency currency
+     * @param \ShopwareSDK6\Model\CurrencyFlat $currency currency
      *
      * @return $this
      */
@@ -586,7 +586,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Gets snippet_set
      *
-     * @return \Swagger\Client\Model\SnippetSetFlat
+     * @return \ShopwareSDK6\Model\SnippetSetFlat
      */
     public function getSnippetSet()
     {
@@ -596,7 +596,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Sets snippet_set
      *
-     * @param \Swagger\Client\Model\SnippetSetFlat $snippet_set snippet_set
+     * @param \ShopwareSDK6\Model\SnippetSetFlat $snippet_set snippet_set
      *
      * @return $this
      */
@@ -610,7 +610,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_exports
      *
-     * @return \Swagger\Client\Model\ProductExportFlat
+     * @return \ShopwareSDK6\Model\ProductExportFlat
      */
     public function getProductExports()
     {
@@ -620,7 +620,7 @@ class SalesChannelDomainFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_exports
      *
-     * @param \Swagger\Client\Model\ProductExportFlat $product_exports product_exports
+     * @param \ShopwareSDK6\Model\ProductExportFlat $product_exports product_exports
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LanguageRelationshipsCustomers Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LanguageRelationshipsCustomers implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\LanguageRelationshipsCustomersLinks',
-'data' => '\Swagger\Client\Model\LanguageRelationshipsCustomersData[]'    ];
+        'links' => '\ShopwareSDK6\Model\LanguageRelationshipsCustomersLinks',
+'data' => '\ShopwareSDK6\Model\LanguageRelationshipsCustomersData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LanguageRelationshipsCustomers implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsCustomersLinks
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsCustomersLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class LanguageRelationshipsCustomers implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsCustomersLinks $links links
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsCustomersLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LanguageRelationshipsCustomers implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsCustomersData[]
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsCustomersData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class LanguageRelationshipsCustomers implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsCustomersData[] $data data
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsCustomersData[] $data data
      *
      * @return $this
      */

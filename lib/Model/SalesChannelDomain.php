@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelDomain Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class SalesChannelDomain extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\SalesChannelDomainAttributes',
-'links' => '\Swagger\Client\Model\SalesChannelDomainLinks',
-'relationships' => '\Swagger\Client\Model\SalesChannelDomainRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\SalesChannelDomainAttributes',
+'links' => '\ShopwareSDK6\Model\SalesChannelDomainLinks',
+'relationships' => '\ShopwareSDK6\Model\SalesChannelDomainRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class SalesChannelDomain extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainAttributes
+     * @return \ShopwareSDK6\Model\SalesChannelDomainAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class SalesChannelDomain extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\SalesChannelDomainAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class SalesChannelDomain extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainLinks
+     * @return \ShopwareSDK6\Model\SalesChannelDomainLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class SalesChannelDomain extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainLinks $links links
+     * @param \ShopwareSDK6\Model\SalesChannelDomainLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class SalesChannelDomain extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainRelationships
+     * @return \ShopwareSDK6\Model\SalesChannelDomainRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class SalesChannelDomain extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\SalesChannelDomainRelationships $relationships relationships
      *
      * @return $this
      */

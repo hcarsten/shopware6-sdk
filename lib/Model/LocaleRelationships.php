@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LocaleRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LocaleRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'languages' => '\Swagger\Client\Model\LocaleRelationshipsLanguages',
-'users' => '\Swagger\Client\Model\LocaleRelationshipsUsers'    ];
+        'languages' => '\ShopwareSDK6\Model\LocaleRelationshipsLanguages',
+'users' => '\ShopwareSDK6\Model\LocaleRelationshipsUsers'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LocaleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets languages
      *
-     * @return \Swagger\Client\Model\LocaleRelationshipsLanguages
+     * @return \ShopwareSDK6\Model\LocaleRelationshipsLanguages
      */
     public function getLanguages()
     {
@@ -215,7 +215,7 @@ class LocaleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets languages
      *
-     * @param \Swagger\Client\Model\LocaleRelationshipsLanguages $languages languages
+     * @param \ShopwareSDK6\Model\LocaleRelationshipsLanguages $languages languages
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LocaleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets users
      *
-     * @return \Swagger\Client\Model\LocaleRelationshipsUsers
+     * @return \ShopwareSDK6\Model\LocaleRelationshipsUsers
      */
     public function getUsers()
     {
@@ -239,7 +239,7 @@ class LocaleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets users
      *
-     * @param \Swagger\Client\Model\LocaleRelationshipsUsers $users users
+     * @param \ShopwareSDK6\Model\LocaleRelationshipsUsers $users users
      *
      * @return $this
      */

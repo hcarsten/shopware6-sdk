@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelAttributesExtensionsThemes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelAttributesExtensionsThemes implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\SalesChannelAttributesExtensionsThemesLinks',
-'data' => '\Swagger\Client\Model\SalesChannelAttributesExtensionsThemesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemesLinks',
+'data' => '\ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelAttributesExtensionsThemes implements ModelInterface, ArrayAcc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalesChannelAttributesExtensionsThemesLinks
+     * @return \ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelAttributesExtensionsThemes implements ModelInterface, ArrayAcc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalesChannelAttributesExtensionsThemesLinks $links links
+     * @param \ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelAttributesExtensionsThemes implements ModelInterface, ArrayAcc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\SalesChannelAttributesExtensionsThemesData[]
+     * @return \ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelAttributesExtensionsThemes implements ModelInterface, ArrayAcc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\SalesChannelAttributesExtensionsThemesData[] $data data
+     * @param \ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemesData[] $data data
      *
      * @return $this
      */

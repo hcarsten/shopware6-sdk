@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomFieldSetRelationshipsRelations Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CustomFieldSetRelationshipsRelations implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CustomFieldSetRelationshipsRelationsLinks',
-'data' => '\Swagger\Client\Model\CustomFieldSetRelationshipsRelationsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\CustomFieldSetRelationshipsRelationsLinks',
+'data' => '\ShopwareSDK6\Model\CustomFieldSetRelationshipsRelationsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CustomFieldSetRelationshipsRelations implements ModelInterface, ArrayAcces
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CustomFieldSetRelationshipsRelationsLinks
+     * @return \ShopwareSDK6\Model\CustomFieldSetRelationshipsRelationsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CustomFieldSetRelationshipsRelations implements ModelInterface, ArrayAcces
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CustomFieldSetRelationshipsRelationsLinks $links links
+     * @param \ShopwareSDK6\Model\CustomFieldSetRelationshipsRelationsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CustomFieldSetRelationshipsRelations implements ModelInterface, ArrayAcces
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CustomFieldSetRelationshipsRelationsData[]
+     * @return \ShopwareSDK6\Model\CustomFieldSetRelationshipsRelationsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CustomFieldSetRelationshipsRelations implements ModelInterface, ArrayAcces
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CustomFieldSetRelationshipsRelationsData[] $data data
+     * @param \ShopwareSDK6\Model\CustomFieldSetRelationshipsRelationsData[] $data data
      *
      * @return $this
      */

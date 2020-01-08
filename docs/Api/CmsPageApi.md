@@ -1,4 +1,4 @@
-# Swagger\Client\CmsPageApi
+# ShopwareSDK6\CmsPageApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCmsPage**](CmsPageApi.md#updatecmspage) | **PATCH** /cms-page/{id} | Partially update information about a Cms Page resource
 
 # **createCmsPage**
-> \Swagger\Client\Model\InlineResponse20015 createCmsPage($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20015 createCmsPage($body, $_response)
 
 Create a new Cms Page resources
 
@@ -22,12 +22,12 @@ Create a new Cms Page resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsPageApi(
+$apiInstance = new ShopwareSDK6\Api\CmsPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body8(); // \Swagger\Client\Model\Body8 | 
+$body = new \ShopwareSDK6\Model\Body8(); // \ShopwareSDK6\Model\Body8 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body8**](../Model/Body8.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body8**](../Model/Body8.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
+[**\ShopwareSDK6\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCmsPage**
-> \Swagger\Client\Model\InlineResponse20015 createCmsPage($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20015 createCmsPage($body, $_response)
 
 Create a new Cms Page resources
 
@@ -73,12 +73,12 @@ Create a new Cms Page resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsPageApi(
+$apiInstance = new ShopwareSDK6\Api\CmsPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\CmsPageFlat(); // \Swagger\Client\Model\CmsPageFlat | 
+$body = new \ShopwareSDK6\Model\CmsPageFlat(); // \ShopwareSDK6\Model\CmsPageFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\CmsPageFlat**](../Model/CmsPageFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\CmsPageFlat**](../Model/CmsPageFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
+[**\ShopwareSDK6\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Cms Page resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsPageApi(
+$apiInstance = new ShopwareSDK6\Api\CmsPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCmsPage**
-> \Swagger\Client\Model\InlineResponse20015 getCmsPage($id)
+> \ShopwareSDK6\Model\InlineResponse20015 getCmsPage($id)
 
 Detailed information about a Cms Page resource
 
@@ -170,7 +170,7 @@ Detailed information about a Cms Page resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsPageApi(
+$apiInstance = new ShopwareSDK6\Api\CmsPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
+[**\ShopwareSDK6\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCmsPageList**
-> \Swagger\Client\Model\InlineResponse20013 getCmsPageList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20013 getCmsPageList($limit, $page, $query)
 
 List with basic information of Cms Page resources
 
@@ -217,7 +217,7 @@ List with basic information of Cms Page resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsPageApi(
+$apiInstance = new ShopwareSDK6\Api\CmsPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20013**](../Model/InlineResponse20013.md)
+[**\ShopwareSDK6\Model\InlineResponse20013**](../Model/InlineResponse20013.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCmsPage**
-> \Swagger\Client\Model\InlineResponse20015 updateCmsPage($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20015 updateCmsPage($id, $body, $_response)
 
 Partially update information about a Cms Page resource
 
@@ -268,13 +268,13 @@ Partially update information about a Cms Page resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsPageApi(
+$apiInstance = new ShopwareSDK6\Api\CmsPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the cms_page
-$body = new \Swagger\Client\Model\Body9(); // \Swagger\Client\Model\Body9 | Partially update information about a Cms Page resource.
+$body = new \ShopwareSDK6\Model\Body9(); // \ShopwareSDK6\Model\Body9 | Partially update information about a Cms Page resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the cms_page |
- **body** | [**\Swagger\Client\Model\Body9**](../Model/Body9.md)| Partially update information about a Cms Page resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body9**](../Model/Body9.md)| Partially update information about a Cms Page resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
+[**\ShopwareSDK6\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCmsPage**
-> \Swagger\Client\Model\InlineResponse20015 updateCmsPage($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20015 updateCmsPage($id, $body, $_response)
 
 Partially update information about a Cms Page resource
 
@@ -319,13 +319,13 @@ Partially update information about a Cms Page resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsPageApi(
+$apiInstance = new ShopwareSDK6\Api\CmsPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the cms_page
-$body = new \Swagger\Client\Model\CmsPageFlat(); // \Swagger\Client\Model\CmsPageFlat | Partially update information about a Cms Page resource.
+$body = new \ShopwareSDK6\Model\CmsPageFlat(); // \ShopwareSDK6\Model\CmsPageFlat | Partially update information about a Cms Page resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the cms_page |
- **body** | [**\Swagger\Client\Model\CmsPageFlat**](../Model/CmsPageFlat.md)| Partially update information about a Cms Page resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\CmsPageFlat**](../Model/CmsPageFlat.md)| Partially update information about a Cms Page resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
+[**\ShopwareSDK6\Model\InlineResponse20015**](../Model/InlineResponse20015.md)
 
 ### Authorization
 

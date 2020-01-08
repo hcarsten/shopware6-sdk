@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * StateMachineRelationshipsTransitions Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class StateMachineRelationshipsTransitions implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\StateMachineRelationshipsTransitionsLinks',
-'data' => '\Swagger\Client\Model\StateMachineRelationshipsTransitionsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\StateMachineRelationshipsTransitionsLinks',
+'data' => '\ShopwareSDK6\Model\StateMachineRelationshipsTransitionsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class StateMachineRelationshipsTransitions implements ModelInterface, ArrayAcces
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StateMachineRelationshipsTransitionsLinks
+     * @return \ShopwareSDK6\Model\StateMachineRelationshipsTransitionsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class StateMachineRelationshipsTransitions implements ModelInterface, ArrayAcces
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StateMachineRelationshipsTransitionsLinks $links links
+     * @param \ShopwareSDK6\Model\StateMachineRelationshipsTransitionsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class StateMachineRelationshipsTransitions implements ModelInterface, ArrayAcces
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\StateMachineRelationshipsTransitionsData[]
+     * @return \ShopwareSDK6\Model\StateMachineRelationshipsTransitionsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class StateMachineRelationshipsTransitions implements ModelInterface, ArrayAcces
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\StateMachineRelationshipsTransitionsData[] $data data
+     * @param \ShopwareSDK6\Model\StateMachineRelationshipsTransitionsData[] $data data
      *
      * @return $this
      */

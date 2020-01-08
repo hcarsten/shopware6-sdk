@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * RuleRelationshipsCartPromotions Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class RuleRelationshipsCartPromotions implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\RuleRelationshipsCartPromotionsLinks',
-'data' => '\Swagger\Client\Model\RuleRelationshipsCartPromotionsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\RuleRelationshipsCartPromotionsLinks',
+'data' => '\ShopwareSDK6\Model\RuleRelationshipsCartPromotionsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class RuleRelationshipsCartPromotions implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\RuleRelationshipsCartPromotionsLinks
+     * @return \ShopwareSDK6\Model\RuleRelationshipsCartPromotionsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class RuleRelationshipsCartPromotions implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\RuleRelationshipsCartPromotionsLinks $links links
+     * @param \ShopwareSDK6\Model\RuleRelationshipsCartPromotionsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class RuleRelationshipsCartPromotions implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\RuleRelationshipsCartPromotionsData[]
+     * @return \ShopwareSDK6\Model\RuleRelationshipsCartPromotionsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class RuleRelationshipsCartPromotions implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\RuleRelationshipsCartPromotionsData[] $data data
+     * @param \ShopwareSDK6\Model\RuleRelationshipsCartPromotionsData[] $data data
      *
      * @return $this
      */

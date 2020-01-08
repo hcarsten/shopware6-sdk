@@ -14,8 +14,8 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**product** | [**\Swagger\Client\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**rule** | [**\Swagger\Client\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
+**product** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**rule** | [**\ShopwareSDK6\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

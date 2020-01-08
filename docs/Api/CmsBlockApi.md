@@ -1,4 +1,4 @@
-# Swagger\Client\CmsBlockApi
+# ShopwareSDK6\CmsBlockApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCmsBlock**](CmsBlockApi.md#updatecmsblock) | **PATCH** /cms-block/{id} | Partially update information about a Cms Block resource
 
 # **createCmsBlock**
-> \Swagger\Client\Model\InlineResponse20012 createCmsBlock($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20012 createCmsBlock($body, $_response)
 
 Create a new Cms Block resources
 
@@ -22,12 +22,12 @@ Create a new Cms Block resources. All required fields must be provided in order 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsBlockApi(
+$apiInstance = new ShopwareSDK6\Api\CmsBlockApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body6(); // \Swagger\Client\Model\Body6 | 
+$body = new \ShopwareSDK6\Model\Body6(); // \ShopwareSDK6\Model\Body6 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body6**](../Model/Body6.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body6**](../Model/Body6.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
+[**\ShopwareSDK6\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCmsBlock**
-> \Swagger\Client\Model\InlineResponse20012 createCmsBlock($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20012 createCmsBlock($body, $_response)
 
 Create a new Cms Block resources
 
@@ -73,12 +73,12 @@ Create a new Cms Block resources. All required fields must be provided in order 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsBlockApi(
+$apiInstance = new ShopwareSDK6\Api\CmsBlockApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\CmsBlockFlat(); // \Swagger\Client\Model\CmsBlockFlat | 
+$body = new \ShopwareSDK6\Model\CmsBlockFlat(); // \ShopwareSDK6\Model\CmsBlockFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\CmsBlockFlat**](../Model/CmsBlockFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\CmsBlockFlat**](../Model/CmsBlockFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
+[**\ShopwareSDK6\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Cms Block resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsBlockApi(
+$apiInstance = new ShopwareSDK6\Api\CmsBlockApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCmsBlock**
-> \Swagger\Client\Model\InlineResponse20012 getCmsBlock($id)
+> \ShopwareSDK6\Model\InlineResponse20012 getCmsBlock($id)
 
 Detailed information about a Cms Block resource
 
@@ -170,7 +170,7 @@ Detailed information about a Cms Block resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsBlockApi(
+$apiInstance = new ShopwareSDK6\Api\CmsBlockApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
+[**\ShopwareSDK6\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCmsBlockList**
-> \Swagger\Client\Model\InlineResponse20010 getCmsBlockList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20010 getCmsBlockList($limit, $page, $query)
 
 List with basic information of Cms Block resources
 
@@ -217,7 +217,7 @@ List with basic information of Cms Block resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsBlockApi(
+$apiInstance = new ShopwareSDK6\Api\CmsBlockApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20010**](../Model/InlineResponse20010.md)
+[**\ShopwareSDK6\Model\InlineResponse20010**](../Model/InlineResponse20010.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCmsBlock**
-> \Swagger\Client\Model\InlineResponse20012 updateCmsBlock($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20012 updateCmsBlock($id, $body, $_response)
 
 Partially update information about a Cms Block resource
 
@@ -268,13 +268,13 @@ Partially update information about a Cms Block resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsBlockApi(
+$apiInstance = new ShopwareSDK6\Api\CmsBlockApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the cms_block
-$body = new \Swagger\Client\Model\Body7(); // \Swagger\Client\Model\Body7 | Partially update information about a Cms Block resource.
+$body = new \ShopwareSDK6\Model\Body7(); // \ShopwareSDK6\Model\Body7 | Partially update information about a Cms Block resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the cms_block |
- **body** | [**\Swagger\Client\Model\Body7**](../Model/Body7.md)| Partially update information about a Cms Block resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body7**](../Model/Body7.md)| Partially update information about a Cms Block resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
+[**\ShopwareSDK6\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCmsBlock**
-> \Swagger\Client\Model\InlineResponse20012 updateCmsBlock($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20012 updateCmsBlock($id, $body, $_response)
 
 Partially update information about a Cms Block resource
 
@@ -319,13 +319,13 @@ Partially update information about a Cms Block resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CmsBlockApi(
+$apiInstance = new ShopwareSDK6\Api\CmsBlockApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the cms_block
-$body = new \Swagger\Client\Model\CmsBlockFlat(); // \Swagger\Client\Model\CmsBlockFlat | Partially update information about a Cms Block resource.
+$body = new \ShopwareSDK6\Model\CmsBlockFlat(); // \ShopwareSDK6\Model\CmsBlockFlat | Partially update information about a Cms Block resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the cms_block |
- **body** | [**\Swagger\Client\Model\CmsBlockFlat**](../Model/CmsBlockFlat.md)| Partially update information about a Cms Block resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\CmsBlockFlat**](../Model/CmsBlockFlat.md)| Partially update information about a Cms Block resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
+[**\ShopwareSDK6\Model\InlineResponse20012**](../Model/InlineResponse20012.md)
 
 ### Authorization
 

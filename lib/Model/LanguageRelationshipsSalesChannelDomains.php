@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LanguageRelationshipsSalesChannelDomains Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LanguageRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\LanguageRelationshipsSalesChannelDomainsLinks',
-'data' => '\Swagger\Client\Model\LanguageRelationshipsSalesChannelDomainsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDomainsLinks',
+'data' => '\ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDomainsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LanguageRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsSalesChannelDomainsLinks
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDomainsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class LanguageRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsSalesChannelDomainsLinks $links links
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDomainsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LanguageRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsSalesChannelDomainsData[]
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDomainsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class LanguageRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsSalesChannelDomainsData[] $data data
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDomainsData[] $data data
      *
      * @return $this
      */

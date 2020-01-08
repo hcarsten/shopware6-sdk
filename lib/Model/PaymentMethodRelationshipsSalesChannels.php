@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PaymentMethodRelationshipsSalesChannels Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PaymentMethodRelationshipsSalesChannels implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PaymentMethodRelationshipsSalesChannelsLinks',
-'data' => '\Swagger\Client\Model\PaymentMethodRelationshipsSalesChannelsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannelsLinks',
+'data' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannelsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PaymentMethodRelationshipsSalesChannels implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PaymentMethodRelationshipsSalesChannelsLinks
+     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannelsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PaymentMethodRelationshipsSalesChannels implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PaymentMethodRelationshipsSalesChannelsLinks $links links
+     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannelsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PaymentMethodRelationshipsSalesChannels implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\PaymentMethodRelationshipsSalesChannelsData[]
+     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannelsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PaymentMethodRelationshipsSalesChannels implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\PaymentMethodRelationshipsSalesChannelsData[] $data data
+     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannelsData[] $data data
      *
      * @return $this
      */

@@ -1,4 +1,4 @@
-# Swagger\Client\MediaFolderApi
+# ShopwareSDK6\MediaFolderApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateMediaFolder**](MediaFolderApi.md#updatemediafolder) | **PATCH** /media-folder/{id} | Partially update information about a Media Folder resource
 
 # **createMediaFolder**
-> \Swagger\Client\Model\InlineResponse200117 createMediaFolder($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200117 createMediaFolder($body, $_response)
 
 Create a new Media Folder resources
 
@@ -22,12 +22,12 @@ Create a new Media Folder resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaFolderApi(
+$apiInstance = new ShopwareSDK6\Api\MediaFolderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body76(); // \Swagger\Client\Model\Body76 | 
+$body = new \ShopwareSDK6\Model\Body76(); // \ShopwareSDK6\Model\Body76 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body76**](../Model/Body76.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body76**](../Model/Body76.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
+[**\ShopwareSDK6\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createMediaFolder**
-> \Swagger\Client\Model\InlineResponse200117 createMediaFolder($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200117 createMediaFolder($body, $_response)
 
 Create a new Media Folder resources
 
@@ -73,12 +73,12 @@ Create a new Media Folder resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaFolderApi(
+$apiInstance = new ShopwareSDK6\Api\MediaFolderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\MediaFolderFlat(); // \Swagger\Client\Model\MediaFolderFlat | 
+$body = new \ShopwareSDK6\Model\MediaFolderFlat(); // \ShopwareSDK6\Model\MediaFolderFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\MediaFolderFlat**](../Model/MediaFolderFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\MediaFolderFlat**](../Model/MediaFolderFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
+[**\ShopwareSDK6\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Media Folder resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaFolderApi(
+$apiInstance = new ShopwareSDK6\Api\MediaFolderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMediaFolder**
-> \Swagger\Client\Model\InlineResponse200117 getMediaFolder($id)
+> \ShopwareSDK6\Model\InlineResponse200117 getMediaFolder($id)
 
 Detailed information about a Media Folder resource
 
@@ -170,7 +170,7 @@ Detailed information about a Media Folder resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaFolderApi(
+$apiInstance = new ShopwareSDK6\Api\MediaFolderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
+[**\ShopwareSDK6\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMediaFolderList**
-> \Swagger\Client\Model\InlineResponse200115 getMediaFolderList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200115 getMediaFolderList($limit, $page, $query)
 
 List with basic information of Media Folder resources
 
@@ -217,7 +217,7 @@ List with basic information of Media Folder resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaFolderApi(
+$apiInstance = new ShopwareSDK6\Api\MediaFolderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200115**](../Model/InlineResponse200115.md)
+[**\ShopwareSDK6\Model\InlineResponse200115**](../Model/InlineResponse200115.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMediaFolder**
-> \Swagger\Client\Model\InlineResponse200117 updateMediaFolder($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200117 updateMediaFolder($id, $body, $_response)
 
 Partially update information about a Media Folder resource
 
@@ -268,13 +268,13 @@ Partially update information about a Media Folder resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaFolderApi(
+$apiInstance = new ShopwareSDK6\Api\MediaFolderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the media_folder
-$body = new \Swagger\Client\Model\Body77(); // \Swagger\Client\Model\Body77 | Partially update information about a Media Folder resource.
+$body = new \ShopwareSDK6\Model\Body77(); // \ShopwareSDK6\Model\Body77 | Partially update information about a Media Folder resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the media_folder |
- **body** | [**\Swagger\Client\Model\Body77**](../Model/Body77.md)| Partially update information about a Media Folder resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body77**](../Model/Body77.md)| Partially update information about a Media Folder resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
+[**\ShopwareSDK6\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMediaFolder**
-> \Swagger\Client\Model\InlineResponse200117 updateMediaFolder($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200117 updateMediaFolder($id, $body, $_response)
 
 Partially update information about a Media Folder resource
 
@@ -319,13 +319,13 @@ Partially update information about a Media Folder resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MediaFolderApi(
+$apiInstance = new ShopwareSDK6\Api\MediaFolderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the media_folder
-$body = new \Swagger\Client\Model\MediaFolderFlat(); // \Swagger\Client\Model\MediaFolderFlat | Partially update information about a Media Folder resource.
+$body = new \ShopwareSDK6\Model\MediaFolderFlat(); // \ShopwareSDK6\Model\MediaFolderFlat | Partially update information about a Media Folder resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the media_folder |
- **body** | [**\Swagger\Client\Model\MediaFolderFlat**](../Model/MediaFolderFlat.md)| Partially update information about a Media Folder resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\MediaFolderFlat**](../Model/MediaFolderFlat.md)| Partially update information about a Media Folder resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
+[**\ShopwareSDK6\Model\InlineResponse200117**](../Model/InlineResponse200117.md)
 
 ### Authorization
 

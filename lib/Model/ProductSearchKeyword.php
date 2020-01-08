@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductSearchKeyword Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductSearchKeyword extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ProductSearchKeywordAttributes',
-'links' => '\Swagger\Client\Model\ProductSearchKeywordLinks',
-'relationships' => '\Swagger\Client\Model\ProductSearchKeywordRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ProductSearchKeywordAttributes',
+'links' => '\ShopwareSDK6\Model\ProductSearchKeywordLinks',
+'relationships' => '\ShopwareSDK6\Model\ProductSearchKeywordRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductSearchKeyword extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ProductSearchKeywordAttributes
+     * @return \ShopwareSDK6\Model\ProductSearchKeywordAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductSearchKeyword extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ProductSearchKeywordAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ProductSearchKeywordAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductSearchKeyword extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductSearchKeywordLinks
+     * @return \ShopwareSDK6\Model\ProductSearchKeywordLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductSearchKeyword extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductSearchKeywordLinks $links links
+     * @param \ShopwareSDK6\Model\ProductSearchKeywordLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductSearchKeyword extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ProductSearchKeywordRelationships
+     * @return \ShopwareSDK6\Model\ProductSearchKeywordRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductSearchKeyword extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ProductSearchKeywordRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ProductSearchKeywordRelationships $relationships relationships
      *
      * @return $this
      */

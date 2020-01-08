@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * EventAction Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class EventAction extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\EventActionAttributes',
-'links' => '\Swagger\Client\Model\EventActionLinks'    ];
+'attributes' => '\ShopwareSDK6\Model\EventActionAttributes',
+'links' => '\ShopwareSDK6\Model\EventActionLinks'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -259,7 +259,7 @@ class EventAction extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\EventActionAttributes
+     * @return \ShopwareSDK6\Model\EventActionAttributes
      */
     public function getAttributes()
     {
@@ -269,7 +269,7 @@ class EventAction extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\EventActionAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\EventActionAttributes $attributes attributes
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class EventAction extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\EventActionLinks
+     * @return \ShopwareSDK6\Model\EventActionLinks
      */
     public function getLinks()
     {
@@ -293,7 +293,7 @@ class EventAction extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\EventActionLinks $links links
+     * @param \ShopwareSDK6\Model\EventActionLinks $links links
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CurrencyFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -69,13 +69,13 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'sales_channel_default_assignments' => '\Swagger\Client\Model\SalesChannelFlat',
-'orders' => '\Swagger\Client\Model\OrderFlat',
-'shipping_method_prices' => '\Swagger\Client\Model\ShippingMethodPriceFlat',
-'sales_channels' => '\Swagger\Client\Model\SalesChannelFlat',
-'sales_channel_domains' => '\Swagger\Client\Model\SalesChannelDomainFlat',
-'promotion_discount_prices' => '\Swagger\Client\Model\PromotionDiscountPricesFlat',
-'product_exports' => '\Swagger\Client\Model\ProductExportFlat'    ];
+'sales_channel_default_assignments' => '\ShopwareSDK6\Model\SalesChannelFlat',
+'orders' => '\ShopwareSDK6\Model\OrderFlat',
+'shipping_method_prices' => '\ShopwareSDK6\Model\ShippingMethodPriceFlat',
+'sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat',
+'sales_channel_domains' => '\ShopwareSDK6\Model\SalesChannelDomainFlat',
+'promotion_discount_prices' => '\ShopwareSDK6\Model\PromotionDiscountPricesFlat',
+'product_exports' => '\ShopwareSDK6\Model\ProductExportFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -649,7 +649,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \Swagger\Client\Model\SalesChannelFlat
+     * @return \ShopwareSDK6\Model\SalesChannelFlat
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -659,7 +659,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \Swagger\Client\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */
@@ -673,7 +673,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Swagger\Client\Model\OrderFlat
+     * @return \ShopwareSDK6\Model\OrderFlat
      */
     public function getOrders()
     {
@@ -683,7 +683,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Swagger\Client\Model\OrderFlat $orders orders
+     * @param \ShopwareSDK6\Model\OrderFlat $orders orders
      *
      * @return $this
      */
@@ -697,7 +697,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method_prices
      *
-     * @return \Swagger\Client\Model\ShippingMethodPriceFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodPriceFlat
      */
     public function getShippingMethodPrices()
     {
@@ -707,7 +707,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method_prices
      *
-     * @param \Swagger\Client\Model\ShippingMethodPriceFlat $shipping_method_prices shipping_method_prices
+     * @param \ShopwareSDK6\Model\ShippingMethodPriceFlat $shipping_method_prices shipping_method_prices
      *
      * @return $this
      */
@@ -721,7 +721,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\SalesChannelFlat
+     * @return \ShopwareSDK6\Model\SalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -731,7 +731,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\SalesChannelFlat $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */
@@ -745,7 +745,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_domains
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainFlat
+     * @return \ShopwareSDK6\Model\SalesChannelDomainFlat
      */
     public function getSalesChannelDomains()
     {
@@ -755,7 +755,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_domains
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainFlat $sales_channel_domains sales_channel_domains
+     * @param \ShopwareSDK6\Model\SalesChannelDomainFlat $sales_channel_domains sales_channel_domains
      *
      * @return $this
      */
@@ -769,7 +769,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_discount_prices
      *
-     * @return \Swagger\Client\Model\PromotionDiscountPricesFlat
+     * @return \ShopwareSDK6\Model\PromotionDiscountPricesFlat
      */
     public function getPromotionDiscountPrices()
     {
@@ -779,7 +779,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_discount_prices
      *
-     * @param \Swagger\Client\Model\PromotionDiscountPricesFlat $promotion_discount_prices promotion_discount_prices
+     * @param \ShopwareSDK6\Model\PromotionDiscountPricesFlat $promotion_discount_prices promotion_discount_prices
      *
      * @return $this
      */
@@ -793,7 +793,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_exports
      *
-     * @return \Swagger\Client\Model\ProductExportFlat
+     * @return \ShopwareSDK6\Model\ProductExportFlat
      */
     public function getProductExports()
     {
@@ -803,7 +803,7 @@ class CurrencyFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_exports
      *
-     * @param \Swagger\Client\Model\ProductExportFlat $product_exports product_exports
+     * @param \ShopwareSDK6\Model\ProductExportFlat $product_exports product_exports
      *
      * @return $this
      */

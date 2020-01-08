@@ -1,4 +1,4 @@
-# Swagger\Client\DocumentApi
+# ShopwareSDK6\DocumentApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateDocument**](DocumentApi.md#updatedocument) | **PATCH** /document/{id} | Partially update information about a Document resource
 
 # **createDocument**
-> \Swagger\Client\Model\InlineResponse20060 createDocument($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20060 createDocument($body, $_response)
 
 Create a new Document resources
 
@@ -22,12 +22,12 @@ Create a new Document resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body38(); // \Swagger\Client\Model\Body38 | 
+$body = new \ShopwareSDK6\Model\Body38(); // \ShopwareSDK6\Model\Body38 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body38**](../Model/Body38.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body38**](../Model/Body38.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
+[**\ShopwareSDK6\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createDocument**
-> \Swagger\Client\Model\InlineResponse20060 createDocument($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20060 createDocument($body, $_response)
 
 Create a new Document resources
 
@@ -73,12 +73,12 @@ Create a new Document resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\DocumentFlat(); // \Swagger\Client\Model\DocumentFlat | 
+$body = new \ShopwareSDK6\Model\DocumentFlat(); // \ShopwareSDK6\Model\DocumentFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\DocumentFlat**](../Model/DocumentFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\DocumentFlat**](../Model/DocumentFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
+[**\ShopwareSDK6\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Document resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDocument**
-> \Swagger\Client\Model\InlineResponse20060 getDocument($id)
+> \ShopwareSDK6\Model\InlineResponse20060 getDocument($id)
 
 Detailed information about a Document resource
 
@@ -170,7 +170,7 @@ Detailed information about a Document resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
+[**\ShopwareSDK6\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDocumentList**
-> \Swagger\Client\Model\InlineResponse20058 getDocumentList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20058 getDocumentList($limit, $page, $query)
 
 List with basic information of Document resources
 
@@ -217,7 +217,7 @@ List with basic information of Document resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20058**](../Model/InlineResponse20058.md)
+[**\ShopwareSDK6\Model\InlineResponse20058**](../Model/InlineResponse20058.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDocument**
-> \Swagger\Client\Model\InlineResponse20060 updateDocument($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20060 updateDocument($id, $body, $_response)
 
 Partially update information about a Document resource
 
@@ -268,13 +268,13 @@ Partially update information about a Document resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the document
-$body = new \Swagger\Client\Model\Body39(); // \Swagger\Client\Model\Body39 | Partially update information about a Document resource.
+$body = new \ShopwareSDK6\Model\Body39(); // \ShopwareSDK6\Model\Body39 | Partially update information about a Document resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the document |
- **body** | [**\Swagger\Client\Model\Body39**](../Model/Body39.md)| Partially update information about a Document resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body39**](../Model/Body39.md)| Partially update information about a Document resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
+[**\ShopwareSDK6\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDocument**
-> \Swagger\Client\Model\InlineResponse20060 updateDocument($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20060 updateDocument($id, $body, $_response)
 
 Partially update information about a Document resource
 
@@ -319,13 +319,13 @@ Partially update information about a Document resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DocumentApi(
+$apiInstance = new ShopwareSDK6\Api\DocumentApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the document
-$body = new \Swagger\Client\Model\DocumentFlat(); // \Swagger\Client\Model\DocumentFlat | Partially update information about a Document resource.
+$body = new \ShopwareSDK6\Model\DocumentFlat(); // \ShopwareSDK6\Model\DocumentFlat | Partially update information about a Document resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the document |
- **body** | [**\Swagger\Client\Model\DocumentFlat**](../Model/DocumentFlat.md)| Partially update information about a Document resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\DocumentFlat**](../Model/DocumentFlat.md)| Partially update information about a Document resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
+[**\ShopwareSDK6\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
 
 ### Authorization
 

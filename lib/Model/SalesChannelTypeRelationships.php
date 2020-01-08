@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelTypeRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class SalesChannelTypeRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sales_channels' => '\Swagger\Client\Model\SalesChannelTypeRelationshipsSalesChannels'    ];
+        'sales_channels' => '\ShopwareSDK6\Model\SalesChannelTypeRelationshipsSalesChannels'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class SalesChannelTypeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\SalesChannelTypeRelationshipsSalesChannels
+     * @return \ShopwareSDK6\Model\SalesChannelTypeRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -209,7 +209,7 @@ class SalesChannelTypeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\SalesChannelTypeRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\SalesChannelTypeRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */

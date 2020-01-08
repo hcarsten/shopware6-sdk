@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelType Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class SalesChannelType extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\SalesChannelTypeAttributes',
-'links' => '\Swagger\Client\Model\SalesChannelTypeLinks',
-'relationships' => '\Swagger\Client\Model\SalesChannelTypeRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\SalesChannelTypeAttributes',
+'links' => '\ShopwareSDK6\Model\SalesChannelTypeLinks',
+'relationships' => '\ShopwareSDK6\Model\SalesChannelTypeRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class SalesChannelType extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\SalesChannelTypeAttributes
+     * @return \ShopwareSDK6\Model\SalesChannelTypeAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class SalesChannelType extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\SalesChannelTypeAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\SalesChannelTypeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class SalesChannelType extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalesChannelTypeLinks
+     * @return \ShopwareSDK6\Model\SalesChannelTypeLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class SalesChannelType extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalesChannelTypeLinks $links links
+     * @param \ShopwareSDK6\Model\SalesChannelTypeLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class SalesChannelType extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\SalesChannelTypeRelationships
+     * @return \ShopwareSDK6\Model\SalesChannelTypeRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class SalesChannelType extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\SalesChannelTypeRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\SalesChannelTypeRelationships $relationships relationships
      *
      * @return $this
      */

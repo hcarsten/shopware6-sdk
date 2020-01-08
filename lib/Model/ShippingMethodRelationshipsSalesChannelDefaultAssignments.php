@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ShippingMethodRelationshipsSalesChannelDefaultAssignments Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ShippingMethodRelationshipsSalesChannelDefaultAssignments implements Model
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsLinks',
-'data' => '\Swagger\Client\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsLinks',
+'data' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ShippingMethodRelationshipsSalesChannelDefaultAssignments implements Model
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsLinks
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ShippingMethodRelationshipsSalesChannelDefaultAssignments implements Model
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsLinks $links links
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ShippingMethodRelationshipsSalesChannelDefaultAssignments implements Model
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsData[]
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ShippingMethodRelationshipsSalesChannelDefaultAssignments implements Model
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsData[] $data data
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsSalesChannelDefaultAssignmentsData[] $data data
      *
      * @return $this
      */

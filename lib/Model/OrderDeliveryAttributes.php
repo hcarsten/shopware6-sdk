@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderDeliveryAttributes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,7 +66,7 @@ class OrderDeliveryAttributes implements ModelInterface, ArrayAccess
 'tracking_codes' => 'string[]',
 'shipping_date_earliest' => '\DateTime',
 'shipping_date_latest' => '\DateTime',
-'shipping_costs' => '\Swagger\Client\Model\OrderAttributesShippingCosts',
+'shipping_costs' => '\ShopwareSDK6\Model\OrderAttributesShippingCosts',
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime'    ];
@@ -544,7 +544,7 @@ class OrderDeliveryAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_costs
      *
-     * @return \Swagger\Client\Model\OrderAttributesShippingCosts
+     * @return \ShopwareSDK6\Model\OrderAttributesShippingCosts
      */
     public function getShippingCosts()
     {
@@ -554,7 +554,7 @@ class OrderDeliveryAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_costs
      *
-     * @param \Swagger\Client\Model\OrderAttributesShippingCosts $shipping_costs shipping_costs
+     * @param \ShopwareSDK6\Model\OrderAttributesShippingCosts $shipping_costs shipping_costs
      *
      * @return $this
      */

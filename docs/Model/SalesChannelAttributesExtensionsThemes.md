@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\SalesChannelAttributesExtensionsThemesLinks**](SalesChannelAttributesExtensionsThemesLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\SalesChannelAttributesExtensionsThemesData[]**](SalesChannelAttributesExtensionsThemesData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemesLinks**](SalesChannelAttributesExtensionsThemesLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemesData[]**](SalesChannelAttributesExtensionsThemesData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

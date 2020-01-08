@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderDeliveryRelationshipsShippingOrderAddress Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class OrderDeliveryRelationshipsShippingOrderAddress implements ModelInterface, 
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\OrderDeliveryRelationshipsShippingOrderAddressLinks',
-'data' => '\Swagger\Client\Model\OrderDeliveryRelationshipsShippingOrderAddressData'    ];
+        'links' => '\ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingOrderAddressLinks',
+'data' => '\ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingOrderAddressData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class OrderDeliveryRelationshipsShippingOrderAddress implements ModelInterface, 
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderDeliveryRelationshipsShippingOrderAddressLinks
+     * @return \ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingOrderAddressLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class OrderDeliveryRelationshipsShippingOrderAddress implements ModelInterface, 
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderDeliveryRelationshipsShippingOrderAddressLinks $links links
+     * @param \ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingOrderAddressLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class OrderDeliveryRelationshipsShippingOrderAddress implements ModelInterface, 
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\OrderDeliveryRelationshipsShippingOrderAddressData
+     * @return \ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingOrderAddressData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class OrderDeliveryRelationshipsShippingOrderAddress implements ModelInterface, 
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\OrderDeliveryRelationshipsShippingOrderAddressData $data data
+     * @param \ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingOrderAddressData $data data
      *
      * @return $this
      */

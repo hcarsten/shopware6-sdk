@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ShippingMethodRelationshipsDeliveryTime Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ShippingMethodRelationshipsDeliveryTime implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ShippingMethodRelationshipsDeliveryTimeLinks',
-'data' => '\Swagger\Client\Model\ProductRelationshipsDeliveryTimeData'    ];
+        'links' => '\ShopwareSDK6\Model\ShippingMethodRelationshipsDeliveryTimeLinks',
+'data' => '\ShopwareSDK6\Model\ProductRelationshipsDeliveryTimeData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ShippingMethodRelationshipsDeliveryTime implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ShippingMethodRelationshipsDeliveryTimeLinks
+     * @return \ShopwareSDK6\Model\ShippingMethodRelationshipsDeliveryTimeLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ShippingMethodRelationshipsDeliveryTime implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ShippingMethodRelationshipsDeliveryTimeLinks $links links
+     * @param \ShopwareSDK6\Model\ShippingMethodRelationshipsDeliveryTimeLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ShippingMethodRelationshipsDeliveryTime implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ProductRelationshipsDeliveryTimeData
+     * @return \ShopwareSDK6\Model\ProductRelationshipsDeliveryTimeData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ShippingMethodRelationshipsDeliveryTime implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ProductRelationshipsDeliveryTimeData $data data
+     * @param \ShopwareSDK6\Model\ProductRelationshipsDeliveryTimeData $data data
      *
      * @return $this
      */

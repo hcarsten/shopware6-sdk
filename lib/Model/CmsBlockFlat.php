@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CmsBlockFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -74,9 +74,9 @@ class CmsBlockFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'section' => '\Swagger\Client\Model\CmsSectionFlat',
-'background_media' => '\Swagger\Client\Model\MediaFlat',
-'slots' => '\Swagger\Client\Model\CmsSlotFlat'    ];
+'section' => '\ShopwareSDK6\Model\CmsSectionFlat',
+'background_media' => '\ShopwareSDK6\Model\MediaFlat',
+'slots' => '\ShopwareSDK6\Model\CmsSlotFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -766,7 +766,7 @@ class CmsBlockFlat implements ModelInterface, ArrayAccess
     /**
      * Gets section
      *
-     * @return \Swagger\Client\Model\CmsSectionFlat
+     * @return \ShopwareSDK6\Model\CmsSectionFlat
      */
     public function getSection()
     {
@@ -776,7 +776,7 @@ class CmsBlockFlat implements ModelInterface, ArrayAccess
     /**
      * Sets section
      *
-     * @param \Swagger\Client\Model\CmsSectionFlat $section section
+     * @param \ShopwareSDK6\Model\CmsSectionFlat $section section
      *
      * @return $this
      */
@@ -790,7 +790,7 @@ class CmsBlockFlat implements ModelInterface, ArrayAccess
     /**
      * Gets background_media
      *
-     * @return \Swagger\Client\Model\MediaFlat
+     * @return \ShopwareSDK6\Model\MediaFlat
      */
     public function getBackgroundMedia()
     {
@@ -800,7 +800,7 @@ class CmsBlockFlat implements ModelInterface, ArrayAccess
     /**
      * Sets background_media
      *
-     * @param \Swagger\Client\Model\MediaFlat $background_media background_media
+     * @param \ShopwareSDK6\Model\MediaFlat $background_media background_media
      *
      * @return $this
      */
@@ -814,7 +814,7 @@ class CmsBlockFlat implements ModelInterface, ArrayAccess
     /**
      * Gets slots
      *
-     * @return \Swagger\Client\Model\CmsSlotFlat
+     * @return \ShopwareSDK6\Model\CmsSlotFlat
      */
     public function getSlots()
     {
@@ -824,7 +824,7 @@ class CmsBlockFlat implements ModelInterface, ArrayAccess
     /**
      * Sets slots
      *
-     * @param \Swagger\Client\Model\CmsSlotFlat $slots slots
+     * @param \ShopwareSDK6\Model\CmsSlotFlat $slots slots
      *
      * @return $this
      */

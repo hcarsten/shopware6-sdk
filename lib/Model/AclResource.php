@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * AclResource Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class AclResource extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\AclResourceAttributes',
-'links' => '\Swagger\Client\Model\AclResourceLinks',
-'relationships' => '\Swagger\Client\Model\AclResourceRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\AclResourceAttributes',
+'links' => '\ShopwareSDK6\Model\AclResourceLinks',
+'relationships' => '\ShopwareSDK6\Model\AclResourceRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class AclResource extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\AclResourceAttributes
+     * @return \ShopwareSDK6\Model\AclResourceAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class AclResource extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\AclResourceAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\AclResourceAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class AclResource extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\AclResourceLinks
+     * @return \ShopwareSDK6\Model\AclResourceLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class AclResource extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\AclResourceLinks $links links
+     * @param \ShopwareSDK6\Model\AclResourceLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class AclResource extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\AclResourceRelationships
+     * @return \ShopwareSDK6\Model\AclResourceRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class AclResource extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\AclResourceRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\AclResourceRelationships $relationships relationships
      *
      * @return $this
      */

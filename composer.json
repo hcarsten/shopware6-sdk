@@ -1,6 +1,6 @@
 {
     "name": "industryarena/ShopwareSDK6",
-    "description": "Shopware API SDK  V6 API from swagger-codegen",
+    "description": "",
     "keywords": [
         "swagger",
         "php",
@@ -28,9 +28,9 @@
         "friendsofphp/php-cs-fixer": "~1.12"
     },
     "autoload": {
-        "psr-4": { "Swagger\\Client\\" : "lib/" }
+        "psr-4": { "ShopwareSDK6\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "Swagger\\Client\\" : "test/" }
+        "psr-4": { "ShopwareSDK6\\" : "test/" }
     }
 }

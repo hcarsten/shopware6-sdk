@@ -1,4 +1,4 @@
-# Swagger\Client\TagApi
+# ShopwareSDK6\TagApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateTag**](TagApi.md#updatetag) | **PATCH** /tag/{id} | Partially update information about a Tag resource
 
 # **createTag**
-> \Swagger\Client\Model\InlineResponse200291 createTag($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200291 createTag($body, $_response)
 
 Create a new Tag resources
 
@@ -22,12 +22,12 @@ Create a new Tag resources. All required fields must be provided in order to cre
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TagApi(
+$apiInstance = new ShopwareSDK6\Api\TagApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body192(); // \Swagger\Client\Model\Body192 | 
+$body = new \ShopwareSDK6\Model\Body192(); // \ShopwareSDK6\Model\Body192 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body192**](../Model/Body192.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body192**](../Model/Body192.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
+[**\ShopwareSDK6\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createTag**
-> \Swagger\Client\Model\InlineResponse200291 createTag($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200291 createTag($body, $_response)
 
 Create a new Tag resources
 
@@ -73,12 +73,12 @@ Create a new Tag resources. All required fields must be provided in order to cre
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TagApi(
+$apiInstance = new ShopwareSDK6\Api\TagApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\TagFlat(); // \Swagger\Client\Model\TagFlat | 
+$body = new \ShopwareSDK6\Model\TagFlat(); // \ShopwareSDK6\Model\TagFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\TagFlat**](../Model/TagFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\TagFlat**](../Model/TagFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
+[**\ShopwareSDK6\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Tag resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TagApi(
+$apiInstance = new ShopwareSDK6\Api\TagApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTag**
-> \Swagger\Client\Model\InlineResponse200291 getTag($id)
+> \ShopwareSDK6\Model\InlineResponse200291 getTag($id)
 
 Detailed information about a Tag resource
 
@@ -170,7 +170,7 @@ Detailed information about a Tag resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TagApi(
+$apiInstance = new ShopwareSDK6\Api\TagApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
+[**\ShopwareSDK6\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTagList**
-> \Swagger\Client\Model\InlineResponse200289 getTagList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200289 getTagList($limit, $page, $query)
 
 List with basic information of Tag resources
 
@@ -217,7 +217,7 @@ List with basic information of Tag resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TagApi(
+$apiInstance = new ShopwareSDK6\Api\TagApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200289**](../Model/InlineResponse200289.md)
+[**\ShopwareSDK6\Model\InlineResponse200289**](../Model/InlineResponse200289.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateTag**
-> \Swagger\Client\Model\InlineResponse200291 updateTag($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200291 updateTag($id, $body, $_response)
 
 Partially update information about a Tag resource
 
@@ -268,13 +268,13 @@ Partially update information about a Tag resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TagApi(
+$apiInstance = new ShopwareSDK6\Api\TagApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the tag
-$body = new \Swagger\Client\Model\Body193(); // \Swagger\Client\Model\Body193 | Partially update information about a Tag resource.
+$body = new \ShopwareSDK6\Model\Body193(); // \ShopwareSDK6\Model\Body193 | Partially update information about a Tag resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the tag |
- **body** | [**\Swagger\Client\Model\Body193**](../Model/Body193.md)| Partially update information about a Tag resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body193**](../Model/Body193.md)| Partially update information about a Tag resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
+[**\ShopwareSDK6\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateTag**
-> \Swagger\Client\Model\InlineResponse200291 updateTag($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200291 updateTag($id, $body, $_response)
 
 Partially update information about a Tag resource
 
@@ -319,13 +319,13 @@ Partially update information about a Tag resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\TagApi(
+$apiInstance = new ShopwareSDK6\Api\TagApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the tag
-$body = new \Swagger\Client\Model\TagFlat(); // \Swagger\Client\Model\TagFlat | Partially update information about a Tag resource.
+$body = new \ShopwareSDK6\Model\TagFlat(); // \ShopwareSDK6\Model\TagFlat | Partially update information about a Tag resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the tag |
- **body** | [**\Swagger\Client\Model\TagFlat**](../Model/TagFlat.md)| Partially update information about a Tag resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\TagFlat**](../Model/TagFlat.md)| Partially update information about a Tag resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
+[**\ShopwareSDK6\Model\InlineResponse200291**](../Model/InlineResponse200291.md)
 
 ### Authorization
 

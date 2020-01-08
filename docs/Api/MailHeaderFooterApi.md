@@ -1,4 +1,4 @@
-# Swagger\Client\MailHeaderFooterApi
+# ShopwareSDK6\MailHeaderFooterApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateMailHeaderFooter**](MailHeaderFooterApi.md#updatemailheaderfooter) | **PATCH** /mail-header-footer/{id} | Partially update information about a Mail Header Footer resource
 
 # **createMailHeaderFooter**
-> \Swagger\Client\Model\InlineResponse20096 createMailHeaderFooter($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20096 createMailHeaderFooter($body, $_response)
 
 Create a new Mail Header Footer resources
 
@@ -22,12 +22,12 @@ Create a new Mail Header Footer resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MailHeaderFooterApi(
+$apiInstance = new ShopwareSDK6\Api\MailHeaderFooterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body62(); // \Swagger\Client\Model\Body62 | 
+$body = new \ShopwareSDK6\Model\Body62(); // \ShopwareSDK6\Model\Body62 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body62**](../Model/Body62.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body62**](../Model/Body62.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
+[**\ShopwareSDK6\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createMailHeaderFooter**
-> \Swagger\Client\Model\InlineResponse20096 createMailHeaderFooter($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20096 createMailHeaderFooter($body, $_response)
 
 Create a new Mail Header Footer resources
 
@@ -73,12 +73,12 @@ Create a new Mail Header Footer resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MailHeaderFooterApi(
+$apiInstance = new ShopwareSDK6\Api\MailHeaderFooterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\MailHeaderFooterFlat(); // \Swagger\Client\Model\MailHeaderFooterFlat | 
+$body = new \ShopwareSDK6\Model\MailHeaderFooterFlat(); // \ShopwareSDK6\Model\MailHeaderFooterFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\MailHeaderFooterFlat**](../Model/MailHeaderFooterFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\MailHeaderFooterFlat**](../Model/MailHeaderFooterFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
+[**\ShopwareSDK6\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Mail Header Footer resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MailHeaderFooterApi(
+$apiInstance = new ShopwareSDK6\Api\MailHeaderFooterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMailHeaderFooter**
-> \Swagger\Client\Model\InlineResponse20096 getMailHeaderFooter($id)
+> \ShopwareSDK6\Model\InlineResponse20096 getMailHeaderFooter($id)
 
 Detailed information about a Mail Header Footer resource
 
@@ -170,7 +170,7 @@ Detailed information about a Mail Header Footer resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MailHeaderFooterApi(
+$apiInstance = new ShopwareSDK6\Api\MailHeaderFooterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
+[**\ShopwareSDK6\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMailHeaderFooterList**
-> \Swagger\Client\Model\InlineResponse20094 getMailHeaderFooterList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20094 getMailHeaderFooterList($limit, $page, $query)
 
 List with basic information of Mail Header Footer resources
 
@@ -217,7 +217,7 @@ List with basic information of Mail Header Footer resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MailHeaderFooterApi(
+$apiInstance = new ShopwareSDK6\Api\MailHeaderFooterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20094**](../Model/InlineResponse20094.md)
+[**\ShopwareSDK6\Model\InlineResponse20094**](../Model/InlineResponse20094.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMailHeaderFooter**
-> \Swagger\Client\Model\InlineResponse20096 updateMailHeaderFooter($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20096 updateMailHeaderFooter($id, $body, $_response)
 
 Partially update information about a Mail Header Footer resource
 
@@ -268,13 +268,13 @@ Partially update information about a Mail Header Footer resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MailHeaderFooterApi(
+$apiInstance = new ShopwareSDK6\Api\MailHeaderFooterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the mail_header_footer
-$body = new \Swagger\Client\Model\Body63(); // \Swagger\Client\Model\Body63 | Partially update information about a Mail Header Footer resource.
+$body = new \ShopwareSDK6\Model\Body63(); // \ShopwareSDK6\Model\Body63 | Partially update information about a Mail Header Footer resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the mail_header_footer |
- **body** | [**\Swagger\Client\Model\Body63**](../Model/Body63.md)| Partially update information about a Mail Header Footer resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body63**](../Model/Body63.md)| Partially update information about a Mail Header Footer resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
+[**\ShopwareSDK6\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMailHeaderFooter**
-> \Swagger\Client\Model\InlineResponse20096 updateMailHeaderFooter($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20096 updateMailHeaderFooter($id, $body, $_response)
 
 Partially update information about a Mail Header Footer resource
 
@@ -319,13 +319,13 @@ Partially update information about a Mail Header Footer resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MailHeaderFooterApi(
+$apiInstance = new ShopwareSDK6\Api\MailHeaderFooterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the mail_header_footer
-$body = new \Swagger\Client\Model\MailHeaderFooterFlat(); // \Swagger\Client\Model\MailHeaderFooterFlat | Partially update information about a Mail Header Footer resource.
+$body = new \ShopwareSDK6\Model\MailHeaderFooterFlat(); // \ShopwareSDK6\Model\MailHeaderFooterFlat | Partially update information about a Mail Header Footer resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the mail_header_footer |
- **body** | [**\Swagger\Client\Model\MailHeaderFooterFlat**](../Model/MailHeaderFooterFlat.md)| Partially update information about a Mail Header Footer resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\MailHeaderFooterFlat**](../Model/MailHeaderFooterFlat.md)| Partially update information about a Mail Header Footer resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
+[**\ShopwareSDK6\Model\InlineResponse20096**](../Model/InlineResponse20096.md)
 
 ### Authorization
 

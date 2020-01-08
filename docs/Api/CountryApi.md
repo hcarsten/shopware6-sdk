@@ -1,4 +1,4 @@
-# Swagger\Client\CountryApi
+# ShopwareSDK6\CountryApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCountry**](CountryApi.md#updatecountry) | **PATCH** /country/{id} | Partially update information about a Country resource
 
 # **createCountry**
-> \Swagger\Client\Model\InlineResponse20024 createCountry($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20024 createCountry($body, $_response)
 
 Create a new Country resources
 
@@ -22,12 +22,12 @@ Create a new Country resources. All required fields must be provided in order to
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CountryApi(
+$apiInstance = new ShopwareSDK6\Api\CountryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body14(); // \Swagger\Client\Model\Body14 | 
+$body = new \ShopwareSDK6\Model\Body14(); // \ShopwareSDK6\Model\Body14 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body14**](../Model/Body14.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body14**](../Model/Body14.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
+[**\ShopwareSDK6\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCountry**
-> \Swagger\Client\Model\InlineResponse20024 createCountry($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20024 createCountry($body, $_response)
 
 Create a new Country resources
 
@@ -73,12 +73,12 @@ Create a new Country resources. All required fields must be provided in order to
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CountryApi(
+$apiInstance = new ShopwareSDK6\Api\CountryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\CountryFlat(); // \Swagger\Client\Model\CountryFlat | 
+$body = new \ShopwareSDK6\Model\CountryFlat(); // \ShopwareSDK6\Model\CountryFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\CountryFlat**](../Model/CountryFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\CountryFlat**](../Model/CountryFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
+[**\ShopwareSDK6\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Country resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CountryApi(
+$apiInstance = new ShopwareSDK6\Api\CountryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCountry**
-> \Swagger\Client\Model\InlineResponse20024 getCountry($id)
+> \ShopwareSDK6\Model\InlineResponse20024 getCountry($id)
 
 Detailed information about a Country resource
 
@@ -170,7 +170,7 @@ Detailed information about a Country resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CountryApi(
+$apiInstance = new ShopwareSDK6\Api\CountryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
+[**\ShopwareSDK6\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCountryList**
-> \Swagger\Client\Model\InlineResponse20022 getCountryList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20022 getCountryList($limit, $page, $query)
 
 List with basic information of Country resources
 
@@ -217,7 +217,7 @@ List with basic information of Country resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CountryApi(
+$apiInstance = new ShopwareSDK6\Api\CountryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20022**](../Model/InlineResponse20022.md)
+[**\ShopwareSDK6\Model\InlineResponse20022**](../Model/InlineResponse20022.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCountry**
-> \Swagger\Client\Model\InlineResponse20024 updateCountry($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20024 updateCountry($id, $body, $_response)
 
 Partially update information about a Country resource
 
@@ -268,13 +268,13 @@ Partially update information about a Country resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CountryApi(
+$apiInstance = new ShopwareSDK6\Api\CountryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the country
-$body = new \Swagger\Client\Model\Body15(); // \Swagger\Client\Model\Body15 | Partially update information about a Country resource.
+$body = new \ShopwareSDK6\Model\Body15(); // \ShopwareSDK6\Model\Body15 | Partially update information about a Country resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the country |
- **body** | [**\Swagger\Client\Model\Body15**](../Model/Body15.md)| Partially update information about a Country resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body15**](../Model/Body15.md)| Partially update information about a Country resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
+[**\ShopwareSDK6\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCountry**
-> \Swagger\Client\Model\InlineResponse20024 updateCountry($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20024 updateCountry($id, $body, $_response)
 
 Partially update information about a Country resource
 
@@ -319,13 +319,13 @@ Partially update information about a Country resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CountryApi(
+$apiInstance = new ShopwareSDK6\Api\CountryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the country
-$body = new \Swagger\Client\Model\CountryFlat(); // \Swagger\Client\Model\CountryFlat | Partially update information about a Country resource.
+$body = new \ShopwareSDK6\Model\CountryFlat(); // \ShopwareSDK6\Model\CountryFlat | Partially update information about a Country resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the country |
- **body** | [**\Swagger\Client\Model\CountryFlat**](../Model/CountryFlat.md)| Partially update information about a Country resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\CountryFlat**](../Model/CountryFlat.md)| Partially update information about a Country resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
+[**\ShopwareSDK6\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
 
 ### Authorization
 

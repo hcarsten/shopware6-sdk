@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Failure Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Failure implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'meta' => '\Swagger\Client\Model\Meta',
-'links' => '\Swagger\Client\Model\Links',
-'errors' => '\Swagger\Client\Model\Error[]'    ];
+        'meta' => '\ShopwareSDK6\Model\Meta',
+'links' => '\ShopwareSDK6\Model\Links',
+'errors' => '\ShopwareSDK6\Model\Error[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -214,7 +214,7 @@ class Failure implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \Swagger\Client\Model\Meta
+     * @return \ShopwareSDK6\Model\Meta
      */
     public function getMeta()
     {
@@ -224,7 +224,7 @@ class Failure implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \Swagger\Client\Model\Meta $meta meta
+     * @param \ShopwareSDK6\Model\Meta $meta meta
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class Failure implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\Links
+     * @return \ShopwareSDK6\Model\Links
      */
     public function getLinks()
     {
@@ -248,7 +248,7 @@ class Failure implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\Links $links links
+     * @param \ShopwareSDK6\Model\Links $links links
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class Failure implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \Swagger\Client\Model\Error[]
+     * @return \ShopwareSDK6\Model\Error[]
      */
     public function getErrors()
     {
@@ -272,7 +272,7 @@ class Failure implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \Swagger\Client\Model\Error[] $errors errors
+     * @param \ShopwareSDK6\Model\Error[] $errors errors
      *
      * @return $this
      */

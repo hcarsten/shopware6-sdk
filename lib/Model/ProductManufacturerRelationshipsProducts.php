@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductManufacturerRelationshipsProducts Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductManufacturerRelationshipsProducts implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ProductManufacturerRelationshipsProductsLinks',
-'data' => '\Swagger\Client\Model\ProductManufacturerRelationshipsProductsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\ProductManufacturerRelationshipsProductsLinks',
+'data' => '\ShopwareSDK6\Model\ProductManufacturerRelationshipsProductsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductManufacturerRelationshipsProducts implements ModelInterface, ArrayA
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductManufacturerRelationshipsProductsLinks
+     * @return \ShopwareSDK6\Model\ProductManufacturerRelationshipsProductsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ProductManufacturerRelationshipsProducts implements ModelInterface, ArrayA
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductManufacturerRelationshipsProductsLinks $links links
+     * @param \ShopwareSDK6\Model\ProductManufacturerRelationshipsProductsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductManufacturerRelationshipsProducts implements ModelInterface, ArrayA
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ProductManufacturerRelationshipsProductsData[]
+     * @return \ShopwareSDK6\Model\ProductManufacturerRelationshipsProductsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ProductManufacturerRelationshipsProducts implements ModelInterface, ArrayA
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ProductManufacturerRelationshipsProductsData[] $data data
+     * @param \ShopwareSDK6\Model\ProductManufacturerRelationshipsProductsData[] $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace ShopwareSDK6;
 
 /**
  * DataTest Class Doc Comment
  *
  * @category    Class
  * @description The document&#x27;s \&quot;primary data\&quot; is a representation of the resource or collection of resources targeted by a request.
- * @package     Swagger\Client
+ * @package     ShopwareSDK6
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

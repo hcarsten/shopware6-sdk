@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace ShopwareSDK6\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use ShopwareSDK6\ApiException;
+use ShopwareSDK6\Configuration;
+use ShopwareSDK6\HeaderSelector;
+use ShopwareSDK6\ObjectSerializer;
 
 /**
  * AdminApiApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,9 +92,9 @@ class AdminApiApi
      * @param  string $term The term to search for (required)
      * @param  int $limit Max amount of resources per entity (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200[]
+     * @return \ShopwareSDK6\Model\InlineResponse200[]
      */
     public function compositeSearch($term, $limit = null)
     {
@@ -108,13 +108,13 @@ class AdminApiApi
      * @param  string $term The term to search for (required)
      * @param  int $limit Max amount of resources per entity (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200[], HTTP status code, HTTP response headers (array of strings)
      */
     public function compositeSearchWithHttpInfo($term, $limit = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200[]';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200[]';
         $request = $this->compositeSearchRequest($term, $limit);
 
         try {
@@ -166,7 +166,7 @@ class AdminApiApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200[]',
+                        '\ShopwareSDK6\Model\InlineResponse200[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -210,7 +210,7 @@ class AdminApiApi
      */
     public function compositeSearchAsyncWithHttpInfo($term, $limit = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200[]';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200[]';
         $request = $this->compositeSearchRequest($term, $limit);
 
         return $this->client

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CmsPageRelationshipsSections Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CmsPageRelationshipsSections implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CmsPageRelationshipsSectionsLinks',
-'data' => '\Swagger\Client\Model\CmsPageRelationshipsSectionsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\CmsPageRelationshipsSectionsLinks',
+'data' => '\ShopwareSDK6\Model\CmsPageRelationshipsSectionsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CmsPageRelationshipsSections implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CmsPageRelationshipsSectionsLinks
+     * @return \ShopwareSDK6\Model\CmsPageRelationshipsSectionsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CmsPageRelationshipsSections implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CmsPageRelationshipsSectionsLinks $links links
+     * @param \ShopwareSDK6\Model\CmsPageRelationshipsSectionsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CmsPageRelationshipsSections implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CmsPageRelationshipsSectionsData[]
+     * @return \ShopwareSDK6\Model\CmsPageRelationshipsSectionsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CmsPageRelationshipsSections implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CmsPageRelationshipsSectionsData[] $data data
+     * @param \ShopwareSDK6\Model\CmsPageRelationshipsSectionsData[] $data data
      *
      * @return $this
      */

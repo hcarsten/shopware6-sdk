@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CurrencyRelationshipsShippingMethodPrices Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CurrencyRelationshipsShippingMethodPrices implements ModelInterface, Array
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CurrencyRelationshipsShippingMethodPricesLinks',
-'data' => '\Swagger\Client\Model\CurrencyRelationshipsShippingMethodPricesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\CurrencyRelationshipsShippingMethodPricesLinks',
+'data' => '\ShopwareSDK6\Model\CurrencyRelationshipsShippingMethodPricesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CurrencyRelationshipsShippingMethodPrices implements ModelInterface, Array
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsShippingMethodPricesLinks
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsShippingMethodPricesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CurrencyRelationshipsShippingMethodPrices implements ModelInterface, Array
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsShippingMethodPricesLinks $links links
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsShippingMethodPricesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CurrencyRelationshipsShippingMethodPrices implements ModelInterface, Array
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CurrencyRelationshipsShippingMethodPricesData[]
+     * @return \ShopwareSDK6\Model\CurrencyRelationshipsShippingMethodPricesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CurrencyRelationshipsShippingMethodPrices implements ModelInterface, Array
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CurrencyRelationshipsShippingMethodPricesData[] $data data
+     * @param \ShopwareSDK6\Model\CurrencyRelationshipsShippingMethodPricesData[] $data data
      *
      * @return $this
      */

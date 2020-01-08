@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SnippetSetFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,8 +63,8 @@ class SnippetSetFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'snippets' => '\Swagger\Client\Model\SnippetFlat',
-'sales_channel_domains' => '\Swagger\Client\Model\SalesChannelDomainFlat'    ];
+'snippets' => '\ShopwareSDK6\Model\SnippetFlat',
+'sales_channel_domains' => '\ShopwareSDK6\Model\SalesChannelDomainFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -430,7 +430,7 @@ class SnippetSetFlat implements ModelInterface, ArrayAccess
     /**
      * Gets snippets
      *
-     * @return \Swagger\Client\Model\SnippetFlat
+     * @return \ShopwareSDK6\Model\SnippetFlat
      */
     public function getSnippets()
     {
@@ -440,7 +440,7 @@ class SnippetSetFlat implements ModelInterface, ArrayAccess
     /**
      * Sets snippets
      *
-     * @param \Swagger\Client\Model\SnippetFlat $snippets snippets
+     * @param \ShopwareSDK6\Model\SnippetFlat $snippets snippets
      *
      * @return $this
      */
@@ -454,7 +454,7 @@ class SnippetSetFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_domains
      *
-     * @return \Swagger\Client\Model\SalesChannelDomainFlat
+     * @return \ShopwareSDK6\Model\SalesChannelDomainFlat
      */
     public function getSalesChannelDomains()
     {
@@ -464,7 +464,7 @@ class SnippetSetFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_domains
      *
-     * @param \Swagger\Client\Model\SalesChannelDomainFlat $sales_channel_domains sales_channel_domains
+     * @param \ShopwareSDK6\Model\SalesChannelDomainFlat $sales_channel_domains sales_channel_domains
      *
      * @return $this
      */

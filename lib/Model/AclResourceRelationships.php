@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * AclResourceRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class AclResourceRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'acl_role' => '\Swagger\Client\Model\AclResourceRelationshipsAclRole'    ];
+        'acl_role' => '\ShopwareSDK6\Model\AclResourceRelationshipsAclRole'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class AclResourceRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets acl_role
      *
-     * @return \Swagger\Client\Model\AclResourceRelationshipsAclRole
+     * @return \ShopwareSDK6\Model\AclResourceRelationshipsAclRole
      */
     public function getAclRole()
     {
@@ -209,7 +209,7 @@ class AclResourceRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets acl_role
      *
-     * @param \Swagger\Client\Model\AclResourceRelationshipsAclRole $acl_role acl_role
+     * @param \ShopwareSDK6\Model\AclResourceRelationshipsAclRole $acl_role acl_role
      *
      * @return $this
      */

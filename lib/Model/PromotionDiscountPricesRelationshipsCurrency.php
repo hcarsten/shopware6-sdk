@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionDiscountPricesRelationshipsCurrency Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PromotionDiscountPricesRelationshipsCurrency implements ModelInterface, Ar
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PromotionDiscountPricesRelationshipsCurrencyLinks',
-'data' => '\Swagger\Client\Model\OrderRelationshipsCurrencyData'    ];
+        'links' => '\ShopwareSDK6\Model\PromotionDiscountPricesRelationshipsCurrencyLinks',
+'data' => '\ShopwareSDK6\Model\OrderRelationshipsCurrencyData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PromotionDiscountPricesRelationshipsCurrency implements ModelInterface, Ar
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PromotionDiscountPricesRelationshipsCurrencyLinks
+     * @return \ShopwareSDK6\Model\PromotionDiscountPricesRelationshipsCurrencyLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PromotionDiscountPricesRelationshipsCurrency implements ModelInterface, Ar
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PromotionDiscountPricesRelationshipsCurrencyLinks $links links
+     * @param \ShopwareSDK6\Model\PromotionDiscountPricesRelationshipsCurrencyLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PromotionDiscountPricesRelationshipsCurrency implements ModelInterface, Ar
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\OrderRelationshipsCurrencyData
+     * @return \ShopwareSDK6\Model\OrderRelationshipsCurrencyData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PromotionDiscountPricesRelationshipsCurrency implements ModelInterface, Ar
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\OrderRelationshipsCurrencyData $data data
+     * @param \ShopwareSDK6\Model\OrderRelationshipsCurrencyData $data data
      *
      * @return $this
      */

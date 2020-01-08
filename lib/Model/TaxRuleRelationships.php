@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * TaxRuleRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class TaxRuleRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'type' => '\Swagger\Client\Model\TaxRuleRelationshipsType',
-'country' => '\Swagger\Client\Model\TaxRuleRelationshipsCountry',
-'tax' => '\Swagger\Client\Model\TaxRuleRelationshipsTax'    ];
+        'type' => '\ShopwareSDK6\Model\TaxRuleRelationshipsType',
+'country' => '\ShopwareSDK6\Model\TaxRuleRelationshipsCountry',
+'tax' => '\ShopwareSDK6\Model\TaxRuleRelationshipsTax'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class TaxRuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets type
      *
-     * @return \Swagger\Client\Model\TaxRuleRelationshipsType
+     * @return \ShopwareSDK6\Model\TaxRuleRelationshipsType
      */
     public function getType()
     {
@@ -221,7 +221,7 @@ class TaxRuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets type
      *
-     * @param \Swagger\Client\Model\TaxRuleRelationshipsType $type type
+     * @param \ShopwareSDK6\Model\TaxRuleRelationshipsType $type type
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class TaxRuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\TaxRuleRelationshipsCountry
+     * @return \ShopwareSDK6\Model\TaxRuleRelationshipsCountry
      */
     public function getCountry()
     {
@@ -245,7 +245,7 @@ class TaxRuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\TaxRuleRelationshipsCountry $country country
+     * @param \ShopwareSDK6\Model\TaxRuleRelationshipsCountry $country country
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class TaxRuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tax
      *
-     * @return \Swagger\Client\Model\TaxRuleRelationshipsTax
+     * @return \ShopwareSDK6\Model\TaxRuleRelationshipsTax
      */
     public function getTax()
     {
@@ -269,7 +269,7 @@ class TaxRuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tax
      *
-     * @param \Swagger\Client\Model\TaxRuleRelationshipsTax $tax tax
+     * @param \ShopwareSDK6\Model\TaxRuleRelationshipsTax $tax tax
      *
      * @return $this
      */

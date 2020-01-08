@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CmsPage Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CmsPage extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\CmsPageAttributes',
-'links' => '\Swagger\Client\Model\CmsPageLinks',
-'relationships' => '\Swagger\Client\Model\CmsPageRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\CmsPageAttributes',
+'links' => '\ShopwareSDK6\Model\CmsPageLinks',
+'relationships' => '\ShopwareSDK6\Model\CmsPageRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CmsPage extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\CmsPageAttributes
+     * @return \ShopwareSDK6\Model\CmsPageAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CmsPage extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\CmsPageAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\CmsPageAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CmsPage extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CmsPageLinks
+     * @return \ShopwareSDK6\Model\CmsPageLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CmsPage extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CmsPageLinks $links links
+     * @param \ShopwareSDK6\Model\CmsPageLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CmsPage extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\CmsPageRelationships
+     * @return \ShopwareSDK6\Model\CmsPageRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CmsPage extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\CmsPageRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\CmsPageRelationships $relationships relationships
      *
      * @return $this
      */

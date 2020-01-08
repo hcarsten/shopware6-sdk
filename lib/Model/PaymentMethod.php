@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PaymentMethod Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class PaymentMethod extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\PaymentMethodAttributes',
-'links' => '\Swagger\Client\Model\PaymentMethodLinks',
-'relationships' => '\Swagger\Client\Model\PaymentMethodRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\PaymentMethodAttributes',
+'links' => '\ShopwareSDK6\Model\PaymentMethodLinks',
+'relationships' => '\ShopwareSDK6\Model\PaymentMethodRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class PaymentMethod extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\PaymentMethodAttributes
+     * @return \ShopwareSDK6\Model\PaymentMethodAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class PaymentMethod extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\PaymentMethodAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\PaymentMethodAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class PaymentMethod extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PaymentMethodLinks
+     * @return \ShopwareSDK6\Model\PaymentMethodLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class PaymentMethod extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PaymentMethodLinks $links links
+     * @param \ShopwareSDK6\Model\PaymentMethodLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class PaymentMethod extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\PaymentMethodRelationships
+     * @return \ShopwareSDK6\Model\PaymentMethodRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class PaymentMethod extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\PaymentMethodRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\PaymentMethodRelationships $relationships relationships
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace ShopwareSDK6\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use ShopwareSDK6\ApiException;
+use ShopwareSDK6\Configuration;
+use ShopwareSDK6\HeaderSelector;
+use ShopwareSDK6\ObjectSerializer;
 
 /**
  * AclResourceApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class AclResourceApi
      *
      * Create a new Acl Resource resources
      *
-     * @param  \Swagger\Client\Model\Body $body body (optional)
+     * @param  \ShopwareSDK6\Model\Body $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2003
+     * @return \ShopwareSDK6\Model\InlineResponse2003
      */
     public function createAclResource($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class AclResourceApi
      *
      * Create a new Acl Resource resources
      *
-     * @param  \Swagger\Client\Model\Body $body (optional)
+     * @param  \ShopwareSDK6\Model\Body $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
      */
     public function createAclResourceWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->createAclResourceRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class AclResourceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2003',
+                        '\ShopwareSDK6\Model\InlineResponse2003',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class AclResourceApi
      *
      * Create a new Acl Resource resources
      *
-     * @param  \Swagger\Client\Model\Body $body (optional)
+     * @param  \ShopwareSDK6\Model\Body $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class AclResourceApi
      *
      * Create a new Acl Resource resources
      *
-     * @param  \Swagger\Client\Model\Body $body (optional)
+     * @param  \ShopwareSDK6\Model\Body $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class AclResourceApi
      */
     public function createAclResourceAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->createAclResourceRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class AclResourceApi
     /**
      * Create request for operation 'createAclResource'
      *
-     * @param  \Swagger\Client\Model\Body $body (optional)
+     * @param  \ShopwareSDK6\Model\Body $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class AclResourceApi
      *
      * Create a new Acl Resource resources
      *
-     * @param  \Swagger\Client\Model\AclResourceFlat $body body (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2003
+     * @return \ShopwareSDK6\Model\InlineResponse2003
      */
     public function createAclResource($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class AclResourceApi
      *
      * Create a new Acl Resource resources
      *
-     * @param  \Swagger\Client\Model\AclResourceFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
      */
     public function createAclResourceWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->createAclResourceRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class AclResourceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2003',
+                        '\ShopwareSDK6\Model\InlineResponse2003',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class AclResourceApi
      *
      * Create a new Acl Resource resources
      *
-     * @param  \Swagger\Client\Model\AclResourceFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class AclResourceApi
      *
      * Create a new Acl Resource resources
      *
-     * @param  \Swagger\Client\Model\AclResourceFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class AclResourceApi
      */
     public function createAclResourceAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->createAclResourceRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class AclResourceApi
     /**
      * Create request for operation 'createAclResource'
      *
-     * @param  \Swagger\Client\Model\AclResourceFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class AclResourceApi
      * @param  string $id Identifier for the acl_resource (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class AclResourceApi
      * @param  string $id Identifier for the acl_resource (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class AclResourceApi
      *
      * @param  string $id Identifier for the acl_resource (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2003
+     * @return \ShopwareSDK6\Model\InlineResponse2003
      */
     public function getAclResource($id)
     {
@@ -864,13 +864,13 @@ class AclResourceApi
      *
      * @param  string $id Identifier for the acl_resource (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
      */
     public function getAclResourceWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->getAclResourceRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class AclResourceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2003',
+                        '\ShopwareSDK6\Model\InlineResponse2003',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class AclResourceApi
      */
     public function getAclResourceAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->getAclResourceRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class AclResourceApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2001
+     * @return \ShopwareSDK6\Model\InlineResponse2001
      */
     public function getAclResourceList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class AclResourceApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2001, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse2001, HTTP status code, HTTP response headers (array of strings)
      */
     public function getAclResourceListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2001';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2001';
         $request = $this->getAclResourceListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class AclResourceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2001',
+                        '\ShopwareSDK6\Model\InlineResponse2001',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class AclResourceApi
      */
     public function getAclResourceListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2001';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2001';
         $request = $this->getAclResourceListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class AclResourceApi
      * Partially update information about a Acl Resource resource
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2003
+     * @return \ShopwareSDK6\Model\InlineResponse2003
      */
     public function updateAclResource($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class AclResourceApi
      * Partially update information about a Acl Resource resource
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateAclResourceWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->updateAclResourceRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class AclResourceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2003',
+                        '\ShopwareSDK6\Model\InlineResponse2003',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class AclResourceApi
      * Partially update information about a Acl Resource resource
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class AclResourceApi
      * Partially update information about a Acl Resource resource
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class AclResourceApi
      */
     public function updateAclResourceAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->updateAclResourceRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class AclResourceApi
      * Create request for operation 'updateAclResource'
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body1 $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class AclResourceApi
      * Partially update information about a Acl Resource resource
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2003
+     * @return \ShopwareSDK6\Model\InlineResponse2003
      */
     public function updateAclResource($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class AclResourceApi
      * Partially update information about a Acl Resource resource
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateAclResourceWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->updateAclResourceRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class AclResourceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2003',
+                        '\ShopwareSDK6\Model\InlineResponse2003',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class AclResourceApi
      * Partially update information about a Acl Resource resource
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class AclResourceApi
      * Partially update information about a Acl Resource resource
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class AclResourceApi
      */
     public function updateAclResourceAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse2003';
         $request = $this->updateAclResourceRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class AclResourceApi
      * Create request for operation 'updateAclResource'
      *
      * @param  string $id Identifier for the acl_resource (required)
-     * @param  \Swagger\Client\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
+     * @param  \ShopwareSDK6\Model\AclResourceFlat $body Partially update information about a Acl Resource resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * NumberRange Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class NumberRange extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\NumberRangeAttributes',
-'links' => '\Swagger\Client\Model\NumberRangeLinks',
-'relationships' => '\Swagger\Client\Model\NumberRangeRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\NumberRangeAttributes',
+'links' => '\ShopwareSDK6\Model\NumberRangeLinks',
+'relationships' => '\ShopwareSDK6\Model\NumberRangeRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class NumberRange extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\NumberRangeAttributes
+     * @return \ShopwareSDK6\Model\NumberRangeAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class NumberRange extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\NumberRangeAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\NumberRangeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class NumberRange extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\NumberRangeLinks
+     * @return \ShopwareSDK6\Model\NumberRangeLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class NumberRange extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\NumberRangeLinks $links links
+     * @param \ShopwareSDK6\Model\NumberRangeLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class NumberRange extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\NumberRangeRelationships
+     * @return \ShopwareSDK6\Model\NumberRangeRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class NumberRange extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\NumberRangeRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\NumberRangeRelationships $relationships relationships
      *
      * @return $this
      */

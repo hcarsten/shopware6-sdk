@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LanguageRelationshipsProductSearchKeywords Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\LanguageRelationshipsProductSearchKeywordsLinks',
-'data' => '\Swagger\Client\Model\LanguageRelationshipsProductSearchKeywordsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsLinks',
+'data' => '\ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsProductSearchKeywordsLinks
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsProductSearchKeywordsLinks $links links
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsProductSearchKeywordsData[]
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsProductSearchKeywordsData[] $data data
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsData[] $data data
      *
      * @return $this
      */

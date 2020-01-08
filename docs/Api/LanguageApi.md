@@ -1,4 +1,4 @@
-# Swagger\Client\LanguageApi
+# ShopwareSDK6\LanguageApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateLanguage**](LanguageApi.md#updatelanguage) | **PATCH** /language/{id} | Partially update information about a Language resource
 
 # **createLanguage**
-> \Swagger\Client\Model\InlineResponse20087 createLanguage($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20087 createLanguage($body, $_response)
 
 Create a new Language resources
 
@@ -22,12 +22,12 @@ Create a new Language resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LanguageApi(
+$apiInstance = new ShopwareSDK6\Api\LanguageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body56(); // \Swagger\Client\Model\Body56 | 
+$body = new \ShopwareSDK6\Model\Body56(); // \ShopwareSDK6\Model\Body56 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body56**](../Model/Body56.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body56**](../Model/Body56.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
+[**\ShopwareSDK6\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createLanguage**
-> \Swagger\Client\Model\InlineResponse20087 createLanguage($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20087 createLanguage($body, $_response)
 
 Create a new Language resources
 
@@ -73,12 +73,12 @@ Create a new Language resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LanguageApi(
+$apiInstance = new ShopwareSDK6\Api\LanguageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\LanguageFlat(); // \Swagger\Client\Model\LanguageFlat | 
+$body = new \ShopwareSDK6\Model\LanguageFlat(); // \ShopwareSDK6\Model\LanguageFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\LanguageFlat**](../Model/LanguageFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\LanguageFlat**](../Model/LanguageFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
+[**\ShopwareSDK6\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Language resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LanguageApi(
+$apiInstance = new ShopwareSDK6\Api\LanguageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getLanguage**
-> \Swagger\Client\Model\InlineResponse20087 getLanguage($id)
+> \ShopwareSDK6\Model\InlineResponse20087 getLanguage($id)
 
 Detailed information about a Language resource
 
@@ -170,7 +170,7 @@ Detailed information about a Language resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LanguageApi(
+$apiInstance = new ShopwareSDK6\Api\LanguageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
+[**\ShopwareSDK6\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getLanguageList**
-> \Swagger\Client\Model\InlineResponse20085 getLanguageList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20085 getLanguageList($limit, $page, $query)
 
 List with basic information of Language resources
 
@@ -217,7 +217,7 @@ List with basic information of Language resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LanguageApi(
+$apiInstance = new ShopwareSDK6\Api\LanguageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20085**](../Model/InlineResponse20085.md)
+[**\ShopwareSDK6\Model\InlineResponse20085**](../Model/InlineResponse20085.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateLanguage**
-> \Swagger\Client\Model\InlineResponse20087 updateLanguage($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20087 updateLanguage($id, $body, $_response)
 
 Partially update information about a Language resource
 
@@ -268,13 +268,13 @@ Partially update information about a Language resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LanguageApi(
+$apiInstance = new ShopwareSDK6\Api\LanguageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the language
-$body = new \Swagger\Client\Model\Body57(); // \Swagger\Client\Model\Body57 | Partially update information about a Language resource.
+$body = new \ShopwareSDK6\Model\Body57(); // \ShopwareSDK6\Model\Body57 | Partially update information about a Language resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the language |
- **body** | [**\Swagger\Client\Model\Body57**](../Model/Body57.md)| Partially update information about a Language resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body57**](../Model/Body57.md)| Partially update information about a Language resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
+[**\ShopwareSDK6\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateLanguage**
-> \Swagger\Client\Model\InlineResponse20087 updateLanguage($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20087 updateLanguage($id, $body, $_response)
 
 Partially update information about a Language resource
 
@@ -319,13 +319,13 @@ Partially update information about a Language resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LanguageApi(
+$apiInstance = new ShopwareSDK6\Api\LanguageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the language
-$body = new \Swagger\Client\Model\LanguageFlat(); // \Swagger\Client\Model\LanguageFlat | Partially update information about a Language resource.
+$body = new \ShopwareSDK6\Model\LanguageFlat(); // \ShopwareSDK6\Model\LanguageFlat | Partially update information about a Language resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the language |
- **body** | [**\Swagger\Client\Model\LanguageFlat**](../Model/LanguageFlat.md)| Partially update information about a Language resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\LanguageFlat**](../Model/LanguageFlat.md)| Partially update information about a Language resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
+[**\ShopwareSDK6\Model\InlineResponse20087**](../Model/InlineResponse20087.md)
 
 ### Authorization
 

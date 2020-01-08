@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CmsSlotFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -68,7 +68,7 @@ class CmsSlotFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'block' => '\Swagger\Client\Model\CmsBlockFlat'    ];
+'block' => '\ShopwareSDK6\Model\CmsBlockFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -577,7 +577,7 @@ class CmsSlotFlat implements ModelInterface, ArrayAccess
     /**
      * Gets block
      *
-     * @return \Swagger\Client\Model\CmsBlockFlat
+     * @return \ShopwareSDK6\Model\CmsBlockFlat
      */
     public function getBlock()
     {
@@ -587,7 +587,7 @@ class CmsSlotFlat implements ModelInterface, ArrayAccess
     /**
      * Sets block
      *
-     * @param \Swagger\Client\Model\CmsBlockFlat $block block
+     * @param \ShopwareSDK6\Model\CmsBlockFlat $block block
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductConfiguratorSetting Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductConfiguratorSetting extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ProductConfiguratorSettingAttributes',
-'links' => '\Swagger\Client\Model\ProductConfiguratorSettingLinks',
-'relationships' => '\Swagger\Client\Model\ProductConfiguratorSettingRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ProductConfiguratorSettingAttributes',
+'links' => '\ShopwareSDK6\Model\ProductConfiguratorSettingLinks',
+'relationships' => '\ShopwareSDK6\Model\ProductConfiguratorSettingRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductConfiguratorSetting extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ProductConfiguratorSettingAttributes
+     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductConfiguratorSetting extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ProductConfiguratorSettingAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductConfiguratorSetting extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductConfiguratorSettingLinks
+     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductConfiguratorSetting extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductConfiguratorSettingLinks $links links
+     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductConfiguratorSetting extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ProductConfiguratorSettingRelationships
+     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductConfiguratorSetting extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ProductConfiguratorSettingRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingRelationships $relationships relationships
      *
      * @return $this
      */

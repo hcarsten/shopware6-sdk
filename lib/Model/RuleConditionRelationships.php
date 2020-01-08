@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * RuleConditionRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class RuleConditionRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'rule' => '\Swagger\Client\Model\RuleConditionRelationshipsRule',
-'parent' => '\Swagger\Client\Model\RuleConditionRelationshipsParent',
-'children' => '\Swagger\Client\Model\RuleConditionRelationshipsChildren'    ];
+        'rule' => '\ShopwareSDK6\Model\RuleConditionRelationshipsRule',
+'parent' => '\ShopwareSDK6\Model\RuleConditionRelationshipsParent',
+'children' => '\ShopwareSDK6\Model\RuleConditionRelationshipsChildren'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class RuleConditionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets rule
      *
-     * @return \Swagger\Client\Model\RuleConditionRelationshipsRule
+     * @return \ShopwareSDK6\Model\RuleConditionRelationshipsRule
      */
     public function getRule()
     {
@@ -221,7 +221,7 @@ class RuleConditionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets rule
      *
-     * @param \Swagger\Client\Model\RuleConditionRelationshipsRule $rule rule
+     * @param \ShopwareSDK6\Model\RuleConditionRelationshipsRule $rule rule
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class RuleConditionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \Swagger\Client\Model\RuleConditionRelationshipsParent
+     * @return \ShopwareSDK6\Model\RuleConditionRelationshipsParent
      */
     public function getParent()
     {
@@ -245,7 +245,7 @@ class RuleConditionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \Swagger\Client\Model\RuleConditionRelationshipsParent $parent parent
+     * @param \ShopwareSDK6\Model\RuleConditionRelationshipsParent $parent parent
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class RuleConditionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \Swagger\Client\Model\RuleConditionRelationshipsChildren
+     * @return \ShopwareSDK6\Model\RuleConditionRelationshipsChildren
      */
     public function getChildren()
     {
@@ -269,7 +269,7 @@ class RuleConditionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \Swagger\Client\Model\RuleConditionRelationshipsChildren $children children
+     * @param \ShopwareSDK6\Model\RuleConditionRelationshipsChildren $children children
      *
      * @return $this
      */

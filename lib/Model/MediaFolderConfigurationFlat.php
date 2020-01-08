@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaFolderConfigurationFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,8 +65,8 @@ class MediaFolderConfigurationFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'media_folders' => '\Swagger\Client\Model\MediaFolderFlat',
-'media_thumbnail_sizes' => '\Swagger\Client\Model\MediaThumbnailSizeFlat'    ];
+'media_folders' => '\ShopwareSDK6\Model\MediaFolderFlat',
+'media_thumbnail_sizes' => '\ShopwareSDK6\Model\MediaThumbnailSizeFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -481,7 +481,7 @@ class MediaFolderConfigurationFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media_folders
      *
-     * @return \Swagger\Client\Model\MediaFolderFlat
+     * @return \ShopwareSDK6\Model\MediaFolderFlat
      */
     public function getMediaFolders()
     {
@@ -491,7 +491,7 @@ class MediaFolderConfigurationFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media_folders
      *
-     * @param \Swagger\Client\Model\MediaFolderFlat $media_folders media_folders
+     * @param \ShopwareSDK6\Model\MediaFolderFlat $media_folders media_folders
      *
      * @return $this
      */
@@ -505,7 +505,7 @@ class MediaFolderConfigurationFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media_thumbnail_sizes
      *
-     * @return \Swagger\Client\Model\MediaThumbnailSizeFlat
+     * @return \ShopwareSDK6\Model\MediaThumbnailSizeFlat
      */
     public function getMediaThumbnailSizes()
     {
@@ -515,7 +515,7 @@ class MediaFolderConfigurationFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media_thumbnail_sizes
      *
-     * @param \Swagger\Client\Model\MediaThumbnailSizeFlat $media_thumbnail_sizes media_thumbnail_sizes
+     * @param \ShopwareSDK6\Model\MediaThumbnailSizeFlat $media_thumbnail_sizes media_thumbnail_sizes
      *
      * @return $this
      */

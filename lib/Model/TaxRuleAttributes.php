@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * TaxRuleAttributes Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class TaxRuleAttributes implements ModelInterface, ArrayAccess
         'tax_rule_type_id' => 'string',
 'country_id' => 'string',
 'tax_rate' => 'float',
-'data' => '\Swagger\Client\Model\TaxRuleAttributesData',
+'data' => '\ShopwareSDK6\Model\TaxRuleAttributesData',
 'tax_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime'    ];
@@ -325,7 +325,7 @@ class TaxRuleAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\TaxRuleAttributesData
+     * @return \ShopwareSDK6\Model\TaxRuleAttributesData
      */
     public function getData()
     {
@@ -335,7 +335,7 @@ class TaxRuleAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\TaxRuleAttributesData $data data
+     * @param \ShopwareSDK6\Model\TaxRuleAttributesData $data data
      *
      * @return $this
      */

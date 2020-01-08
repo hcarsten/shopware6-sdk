@@ -1,4 +1,4 @@
-# Swagger\Client\RuleConditionApi
+# ShopwareSDK6\RuleConditionApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateRuleCondition**](RuleConditionApi.md#updaterulecondition) | **PATCH** /rule-condition/{id} | Partially update information about a Rule Condition resource
 
 # **createRuleCondition**
-> \Swagger\Client\Model\InlineResponse200240 createRuleCondition($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200240 createRuleCondition($body, $_response)
 
 Create a new Rule Condition resources
 
@@ -22,12 +22,12 @@ Create a new Rule Condition resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\RuleConditionApi(
+$apiInstance = new ShopwareSDK6\Api\RuleConditionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body158(); // \Swagger\Client\Model\Body158 | 
+$body = new \ShopwareSDK6\Model\Body158(); // \ShopwareSDK6\Model\Body158 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body158**](../Model/Body158.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body158**](../Model/Body158.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
+[**\ShopwareSDK6\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createRuleCondition**
-> \Swagger\Client\Model\InlineResponse200240 createRuleCondition($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200240 createRuleCondition($body, $_response)
 
 Create a new Rule Condition resources
 
@@ -73,12 +73,12 @@ Create a new Rule Condition resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\RuleConditionApi(
+$apiInstance = new ShopwareSDK6\Api\RuleConditionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\RuleConditionFlat(); // \Swagger\Client\Model\RuleConditionFlat | 
+$body = new \ShopwareSDK6\Model\RuleConditionFlat(); // \ShopwareSDK6\Model\RuleConditionFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\RuleConditionFlat**](../Model/RuleConditionFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\RuleConditionFlat**](../Model/RuleConditionFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
+[**\ShopwareSDK6\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Rule Condition resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\RuleConditionApi(
+$apiInstance = new ShopwareSDK6\Api\RuleConditionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRuleCondition**
-> \Swagger\Client\Model\InlineResponse200240 getRuleCondition($id)
+> \ShopwareSDK6\Model\InlineResponse200240 getRuleCondition($id)
 
 Detailed information about a Rule Condition resource
 
@@ -170,7 +170,7 @@ Detailed information about a Rule Condition resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\RuleConditionApi(
+$apiInstance = new ShopwareSDK6\Api\RuleConditionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
+[**\ShopwareSDK6\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRuleConditionList**
-> \Swagger\Client\Model\InlineResponse200238 getRuleConditionList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200238 getRuleConditionList($limit, $page, $query)
 
 List with basic information of Rule Condition resources
 
@@ -217,7 +217,7 @@ List with basic information of Rule Condition resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\RuleConditionApi(
+$apiInstance = new ShopwareSDK6\Api\RuleConditionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200238**](../Model/InlineResponse200238.md)
+[**\ShopwareSDK6\Model\InlineResponse200238**](../Model/InlineResponse200238.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateRuleCondition**
-> \Swagger\Client\Model\InlineResponse200240 updateRuleCondition($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200240 updateRuleCondition($id, $body, $_response)
 
 Partially update information about a Rule Condition resource
 
@@ -268,13 +268,13 @@ Partially update information about a Rule Condition resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\RuleConditionApi(
+$apiInstance = new ShopwareSDK6\Api\RuleConditionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the rule_condition
-$body = new \Swagger\Client\Model\Body159(); // \Swagger\Client\Model\Body159 | Partially update information about a Rule Condition resource.
+$body = new \ShopwareSDK6\Model\Body159(); // \ShopwareSDK6\Model\Body159 | Partially update information about a Rule Condition resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the rule_condition |
- **body** | [**\Swagger\Client\Model\Body159**](../Model/Body159.md)| Partially update information about a Rule Condition resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body159**](../Model/Body159.md)| Partially update information about a Rule Condition resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
+[**\ShopwareSDK6\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateRuleCondition**
-> \Swagger\Client\Model\InlineResponse200240 updateRuleCondition($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200240 updateRuleCondition($id, $body, $_response)
 
 Partially update information about a Rule Condition resource
 
@@ -319,13 +319,13 @@ Partially update information about a Rule Condition resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\RuleConditionApi(
+$apiInstance = new ShopwareSDK6\Api\RuleConditionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the rule_condition
-$body = new \Swagger\Client\Model\RuleConditionFlat(); // \Swagger\Client\Model\RuleConditionFlat | Partially update information about a Rule Condition resource.
+$body = new \ShopwareSDK6\Model\RuleConditionFlat(); // \ShopwareSDK6\Model\RuleConditionFlat | Partially update information about a Rule Condition resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the rule_condition |
- **body** | [**\Swagger\Client\Model\RuleConditionFlat**](../Model/RuleConditionFlat.md)| Partially update information about a Rule Condition resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\RuleConditionFlat**](../Model/RuleConditionFlat.md)| Partially update information about a Rule Condition resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
+[**\ShopwareSDK6\Model\InlineResponse200240**](../Model/InlineResponse200240.md)
 
 ### Authorization
 

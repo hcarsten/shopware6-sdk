@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * StateMachineTransition Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class StateMachineTransition extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\StateMachineTransitionAttributes',
-'links' => '\Swagger\Client\Model\StateMachineTransitionLinks',
-'relationships' => '\Swagger\Client\Model\StateMachineTransitionRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\StateMachineTransitionAttributes',
+'links' => '\ShopwareSDK6\Model\StateMachineTransitionLinks',
+'relationships' => '\ShopwareSDK6\Model\StateMachineTransitionRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class StateMachineTransition extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\StateMachineTransitionAttributes
+     * @return \ShopwareSDK6\Model\StateMachineTransitionAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class StateMachineTransition extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\StateMachineTransitionAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\StateMachineTransitionAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class StateMachineTransition extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StateMachineTransitionLinks
+     * @return \ShopwareSDK6\Model\StateMachineTransitionLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class StateMachineTransition extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StateMachineTransitionLinks $links links
+     * @param \ShopwareSDK6\Model\StateMachineTransitionLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class StateMachineTransition extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\StateMachineTransitionRelationships
+     * @return \ShopwareSDK6\Model\StateMachineTransitionRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class StateMachineTransition extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\StateMachineTransitionRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\StateMachineTransitionRelationships $relationships relationships
      *
      * @return $this
      */

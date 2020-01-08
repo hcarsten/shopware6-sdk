@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LanguageRelationshipsNewsletterRecipients Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LanguageRelationshipsNewsletterRecipients implements ModelInterface, Array
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\LanguageRelationshipsNewsletterRecipientsLinks',
-'data' => '\Swagger\Client\Model\LanguageRelationshipsNewsletterRecipientsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\LanguageRelationshipsNewsletterRecipientsLinks',
+'data' => '\ShopwareSDK6\Model\LanguageRelationshipsNewsletterRecipientsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LanguageRelationshipsNewsletterRecipients implements ModelInterface, Array
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsNewsletterRecipientsLinks
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsNewsletterRecipientsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class LanguageRelationshipsNewsletterRecipients implements ModelInterface, Array
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsNewsletterRecipientsLinks $links links
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsNewsletterRecipientsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LanguageRelationshipsNewsletterRecipients implements ModelInterface, Array
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsNewsletterRecipientsData[]
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsNewsletterRecipientsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class LanguageRelationshipsNewsletterRecipients implements ModelInterface, Array
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsNewsletterRecipientsData[] $data data
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsNewsletterRecipientsData[] $data data
      *
      * @return $this
      */

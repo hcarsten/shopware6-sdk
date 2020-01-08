@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaDefaultFolder Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MediaDefaultFolder extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\MediaDefaultFolderAttributes',
-'links' => '\Swagger\Client\Model\MediaDefaultFolderLinks',
-'relationships' => '\Swagger\Client\Model\MediaDefaultFolderRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\MediaDefaultFolderAttributes',
+'links' => '\ShopwareSDK6\Model\MediaDefaultFolderLinks',
+'relationships' => '\ShopwareSDK6\Model\MediaDefaultFolderRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MediaDefaultFolder extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\MediaDefaultFolderAttributes
+     * @return \ShopwareSDK6\Model\MediaDefaultFolderAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MediaDefaultFolder extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\MediaDefaultFolderAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\MediaDefaultFolderAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MediaDefaultFolder extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MediaDefaultFolderLinks
+     * @return \ShopwareSDK6\Model\MediaDefaultFolderLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MediaDefaultFolder extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MediaDefaultFolderLinks $links links
+     * @param \ShopwareSDK6\Model\MediaDefaultFolderLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MediaDefaultFolder extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\MediaDefaultFolderRelationships
+     * @return \ShopwareSDK6\Model\MediaDefaultFolderRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MediaDefaultFolder extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\MediaDefaultFolderRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\MediaDefaultFolderRelationships $relationships relationships
      *
      * @return $this
      */

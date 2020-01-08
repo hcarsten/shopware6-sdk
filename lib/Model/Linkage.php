@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Linkage Class Doc Comment
  *
  * @category Class
  * @description The \&quot;type\&quot; and \&quot;id\&quot; to non-empty members.
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class Linkage implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'type' => 'string',
 'id' => 'string',
-'meta' => '\Swagger\Client\Model\Meta'    ];
+'meta' => '\ShopwareSDK6\Model\Meta'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -266,7 +266,7 @@ class Linkage implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \Swagger\Client\Model\Meta
+     * @return \ShopwareSDK6\Model\Meta
      */
     public function getMeta()
     {
@@ -276,7 +276,7 @@ class Linkage implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \Swagger\Client\Model\Meta $meta meta
+     * @param \ShopwareSDK6\Model\Meta $meta meta
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaFolderConfiguration Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MediaFolderConfiguration extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\MediaFolderConfigurationAttributes',
-'links' => '\Swagger\Client\Model\MediaFolderConfigurationLinks',
-'relationships' => '\Swagger\Client\Model\MediaFolderConfigurationRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\MediaFolderConfigurationAttributes',
+'links' => '\ShopwareSDK6\Model\MediaFolderConfigurationLinks',
+'relationships' => '\ShopwareSDK6\Model\MediaFolderConfigurationRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MediaFolderConfiguration extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\MediaFolderConfigurationAttributes
+     * @return \ShopwareSDK6\Model\MediaFolderConfigurationAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MediaFolderConfiguration extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\MediaFolderConfigurationAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\MediaFolderConfigurationAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MediaFolderConfiguration extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MediaFolderConfigurationLinks
+     * @return \ShopwareSDK6\Model\MediaFolderConfigurationLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MediaFolderConfiguration extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MediaFolderConfigurationLinks $links links
+     * @param \ShopwareSDK6\Model\MediaFolderConfigurationLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MediaFolderConfiguration extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\MediaFolderConfigurationRelationships
+     * @return \ShopwareSDK6\Model\MediaFolderConfigurationRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MediaFolderConfiguration extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\MediaFolderConfigurationRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\MediaFolderConfigurationRelationships $relationships relationships
      *
      * @return $this
      */

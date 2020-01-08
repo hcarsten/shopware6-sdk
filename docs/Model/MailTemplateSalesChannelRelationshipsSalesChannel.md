@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\MailTemplateSalesChannelRelationshipsSalesChannelLinks**](MailTemplateSalesChannelRelationshipsSalesChannelLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\CustomerRelationshipsSalesChannelData**](CustomerRelationshipsSalesChannelData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\MailTemplateSalesChannelRelationshipsSalesChannelLinks**](MailTemplateSalesChannelRelationshipsSalesChannelLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\CustomerRelationshipsSalesChannelData**](CustomerRelationshipsSalesChannelData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

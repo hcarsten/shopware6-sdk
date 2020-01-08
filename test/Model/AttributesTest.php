@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace ShopwareSDK6;
 
 /**
  * AttributesTest Class Doc Comment
  *
  * @category    Class
  * @description Members of the attributes object (\&quot;attributes\&quot;) represent information about the resource object in which it&#x27;s defined.
- * @package     Swagger\Client
+ * @package     ShopwareSDK6
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

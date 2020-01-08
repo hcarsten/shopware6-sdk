@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionDiscountRelationshipsPromotion Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PromotionDiscountRelationshipsPromotion implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PromotionDiscountRelationshipsPromotionLinks',
-'data' => '\Swagger\Client\Model\PromotionDiscountRelationshipsPromotionData'    ];
+        'links' => '\ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionLinks',
+'data' => '\ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PromotionDiscountRelationshipsPromotion implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PromotionDiscountRelationshipsPromotionLinks
+     * @return \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PromotionDiscountRelationshipsPromotion implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PromotionDiscountRelationshipsPromotionLinks $links links
+     * @param \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PromotionDiscountRelationshipsPromotion implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\PromotionDiscountRelationshipsPromotionData
+     * @return \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PromotionDiscountRelationshipsPromotion implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\PromotionDiscountRelationshipsPromotionData $data data
+     * @param \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionData $data data
      *
      * @return $this
      */

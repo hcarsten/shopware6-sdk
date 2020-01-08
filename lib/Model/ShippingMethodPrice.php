@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ShippingMethodPrice Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ShippingMethodPrice extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ShippingMethodPriceAttributes',
-'links' => '\Swagger\Client\Model\ShippingMethodPriceLinks',
-'relationships' => '\Swagger\Client\Model\ShippingMethodPriceRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ShippingMethodPriceAttributes',
+'links' => '\ShopwareSDK6\Model\ShippingMethodPriceLinks',
+'relationships' => '\ShopwareSDK6\Model\ShippingMethodPriceRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ShippingMethodPrice extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ShippingMethodPriceAttributes
+     * @return \ShopwareSDK6\Model\ShippingMethodPriceAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ShippingMethodPrice extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ShippingMethodPriceAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ShippingMethodPriceAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ShippingMethodPrice extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ShippingMethodPriceLinks
+     * @return \ShopwareSDK6\Model\ShippingMethodPriceLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ShippingMethodPrice extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ShippingMethodPriceLinks $links links
+     * @param \ShopwareSDK6\Model\ShippingMethodPriceLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ShippingMethodPrice extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ShippingMethodPriceRelationships
+     * @return \ShopwareSDK6\Model\ShippingMethodPriceRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ShippingMethodPrice extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ShippingMethodPriceRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ShippingMethodPriceRelationships $relationships relationships
      *
      * @return $this
      */

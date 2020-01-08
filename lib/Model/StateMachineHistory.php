@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * StateMachineHistory Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class StateMachineHistory extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\StateMachineHistoryAttributes',
-'links' => '\Swagger\Client\Model\StateMachineHistoryLinks',
-'relationships' => '\Swagger\Client\Model\StateMachineHistoryRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\StateMachineHistoryAttributes',
+'links' => '\ShopwareSDK6\Model\StateMachineHistoryLinks',
+'relationships' => '\ShopwareSDK6\Model\StateMachineHistoryRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class StateMachineHistory extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\StateMachineHistoryAttributes
+     * @return \ShopwareSDK6\Model\StateMachineHistoryAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class StateMachineHistory extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\StateMachineHistoryAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\StateMachineHistoryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class StateMachineHistory extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StateMachineHistoryLinks
+     * @return \ShopwareSDK6\Model\StateMachineHistoryLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class StateMachineHistory extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StateMachineHistoryLinks $links links
+     * @param \ShopwareSDK6\Model\StateMachineHistoryLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class StateMachineHistory extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\StateMachineHistoryRelationships
+     * @return \ShopwareSDK6\Model\StateMachineHistoryRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class StateMachineHistory extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\StateMachineHistoryRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\StateMachineHistoryRelationships $relationships relationships
      *
      * @return $this
      */

@@ -31,18 +31,18 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**parent** | [**\Swagger\Client\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
-**children** | [**\Swagger\Client\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
-**media** | [**\Swagger\Client\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**products** | [**\Swagger\Client\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**nested_products** | [**\Swagger\Client\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**tags** | [**\Swagger\Client\Model\TagFlat**](TagFlat.md) |  | [optional] 
-**cms_page** | [**\Swagger\Client\Model\CmsPageFlat**](CmsPageFlat.md) |  | [optional] 
-**navigation_sales_channels** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**footer_sales_channels** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**service_sales_channels** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**main_categories** | [**\Swagger\Client\Model\MainCategoryFlat**](MainCategoryFlat.md) |  | [optional] 
-**seo_urls** | [**\Swagger\Client\Model\SeoUrlFlat**](SeoUrlFlat.md) |  | [optional] 
+**parent** | [**\ShopwareSDK6\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
+**children** | [**\ShopwareSDK6\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
+**media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**products** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**nested_products** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**tags** | [**\ShopwareSDK6\Model\TagFlat**](TagFlat.md) |  | [optional] 
+**cms_page** | [**\ShopwareSDK6\Model\CmsPageFlat**](CmsPageFlat.md) |  | [optional] 
+**navigation_sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**footer_sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**service_sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**main_categories** | [**\ShopwareSDK6\Model\MainCategoryFlat**](MainCategoryFlat.md) |  | [optional] 
+**seo_urls** | [**\ShopwareSDK6\Model\SeoUrlFlat**](SeoUrlFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

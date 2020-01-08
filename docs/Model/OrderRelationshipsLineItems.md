@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\OrderRelationshipsLineItemsLinks**](OrderRelationshipsLineItemsLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\OrderRelationshipsLineItemsData[]**](OrderRelationshipsLineItemsData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\OrderRelationshipsLineItemsLinks**](OrderRelationshipsLineItemsLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\OrderRelationshipsLineItemsData[]**](OrderRelationshipsLineItemsData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

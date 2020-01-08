@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomFieldSetRelationRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class CustomFieldSetRelationRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'custom_field_set' => '\Swagger\Client\Model\CustomFieldSetRelationRelationshipsCustomFieldSet'    ];
+        'custom_field_set' => '\ShopwareSDK6\Model\CustomFieldSetRelationRelationshipsCustomFieldSet'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class CustomFieldSetRelationRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_set
      *
-     * @return \Swagger\Client\Model\CustomFieldSetRelationRelationshipsCustomFieldSet
+     * @return \ShopwareSDK6\Model\CustomFieldSetRelationRelationshipsCustomFieldSet
      */
     public function getCustomFieldSet()
     {
@@ -209,7 +209,7 @@ class CustomFieldSetRelationRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_set
      *
-     * @param \Swagger\Client\Model\CustomFieldSetRelationRelationshipsCustomFieldSet $custom_field_set custom_field_set
+     * @param \ShopwareSDK6\Model\CustomFieldSetRelationRelationshipsCustomFieldSet $custom_field_set custom_field_set
      *
      * @return $this
      */

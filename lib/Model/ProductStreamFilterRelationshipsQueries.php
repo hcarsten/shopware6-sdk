@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductStreamFilterRelationshipsQueries Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductStreamFilterRelationshipsQueries implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ProductStreamFilterRelationshipsQueriesLinks',
-'data' => '\Swagger\Client\Model\ProductStreamFilterRelationshipsQueriesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\ProductStreamFilterRelationshipsQueriesLinks',
+'data' => '\ShopwareSDK6\Model\ProductStreamFilterRelationshipsQueriesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductStreamFilterRelationshipsQueries implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductStreamFilterRelationshipsQueriesLinks
+     * @return \ShopwareSDK6\Model\ProductStreamFilterRelationshipsQueriesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ProductStreamFilterRelationshipsQueries implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductStreamFilterRelationshipsQueriesLinks $links links
+     * @param \ShopwareSDK6\Model\ProductStreamFilterRelationshipsQueriesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductStreamFilterRelationshipsQueries implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ProductStreamFilterRelationshipsQueriesData[]
+     * @return \ShopwareSDK6\Model\ProductStreamFilterRelationshipsQueriesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ProductStreamFilterRelationshipsQueries implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ProductStreamFilterRelationshipsQueriesData[] $data data
+     * @param \ShopwareSDK6\Model\ProductStreamFilterRelationshipsQueriesData[] $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionSetgroup Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class PromotionSetgroup extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\PromotionSetgroupAttributes',
-'links' => '\Swagger\Client\Model\PromotionSetgroupLinks',
-'relationships' => '\Swagger\Client\Model\PromotionSetgroupRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\PromotionSetgroupAttributes',
+'links' => '\ShopwareSDK6\Model\PromotionSetgroupLinks',
+'relationships' => '\ShopwareSDK6\Model\PromotionSetgroupRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class PromotionSetgroup extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\PromotionSetgroupAttributes
+     * @return \ShopwareSDK6\Model\PromotionSetgroupAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class PromotionSetgroup extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\PromotionSetgroupAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\PromotionSetgroupAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class PromotionSetgroup extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PromotionSetgroupLinks
+     * @return \ShopwareSDK6\Model\PromotionSetgroupLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class PromotionSetgroup extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PromotionSetgroupLinks $links links
+     * @param \ShopwareSDK6\Model\PromotionSetgroupLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class PromotionSetgroup extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\PromotionSetgroupRelationships
+     * @return \ShopwareSDK6\Model\PromotionSetgroupRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class PromotionSetgroup extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\PromotionSetgroupRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\PromotionSetgroupRelationships $relationships relationships
      *
      * @return $this
      */

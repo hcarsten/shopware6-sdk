@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\DocumentRelationshipsDocumentMediaFileLinks**](DocumentRelationshipsDocumentMediaFileLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\CategoryRelationshipsMediaData**](CategoryRelationshipsMediaData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\DocumentRelationshipsDocumentMediaFileLinks**](DocumentRelationshipsDocumentMediaFileLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\CategoryRelationshipsMediaData**](CategoryRelationshipsMediaData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

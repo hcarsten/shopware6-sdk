@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelAttributesExtensions Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class SalesChannelAttributesExtensions implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'themes' => '\Swagger\Client\Model\SalesChannelAttributesExtensionsThemes'    ];
+        'themes' => '\ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemes'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class SalesChannelAttributesExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets themes
      *
-     * @return \Swagger\Client\Model\SalesChannelAttributesExtensionsThemes
+     * @return \ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemes
      */
     public function getThemes()
     {
@@ -209,7 +209,7 @@ class SalesChannelAttributesExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets themes
      *
-     * @param \Swagger\Client\Model\SalesChannelAttributesExtensionsThemes $themes themes
+     * @param \ShopwareSDK6\Model\SalesChannelAttributesExtensionsThemes $themes themes
      *
      * @return $this
      */

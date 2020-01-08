@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ScheduledTaskRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class ScheduledTaskRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'dead_messages' => '\Swagger\Client\Model\ScheduledTaskRelationshipsDeadMessages'    ];
+        'dead_messages' => '\ShopwareSDK6\Model\ScheduledTaskRelationshipsDeadMessages'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class ScheduledTaskRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets dead_messages
      *
-     * @return \Swagger\Client\Model\ScheduledTaskRelationshipsDeadMessages
+     * @return \ShopwareSDK6\Model\ScheduledTaskRelationshipsDeadMessages
      */
     public function getDeadMessages()
     {
@@ -209,7 +209,7 @@ class ScheduledTaskRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets dead_messages
      *
-     * @param \Swagger\Client\Model\ScheduledTaskRelationshipsDeadMessages $dead_messages dead_messages
+     * @param \ShopwareSDK6\Model\ScheduledTaskRelationshipsDeadMessages $dead_messages dead_messages
      *
      * @return $this
      */

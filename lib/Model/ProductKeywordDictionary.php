@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductKeywordDictionary Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductKeywordDictionary extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ProductKeywordDictionaryAttributes',
-'links' => '\Swagger\Client\Model\ProductKeywordDictionaryLinks',
-'relationships' => '\Swagger\Client\Model\ProductKeywordDictionaryRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ProductKeywordDictionaryAttributes',
+'links' => '\ShopwareSDK6\Model\ProductKeywordDictionaryLinks',
+'relationships' => '\ShopwareSDK6\Model\ProductKeywordDictionaryRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ProductKeywordDictionaryAttributes
+     * @return \ShopwareSDK6\Model\ProductKeywordDictionaryAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ProductKeywordDictionaryAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ProductKeywordDictionaryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductKeywordDictionaryLinks
+     * @return \ShopwareSDK6\Model\ProductKeywordDictionaryLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductKeywordDictionaryLinks $links links
+     * @param \ShopwareSDK6\Model\ProductKeywordDictionaryLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ProductKeywordDictionaryRelationships
+     * @return \ShopwareSDK6\Model\ProductKeywordDictionaryRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ProductKeywordDictionaryRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ProductKeywordDictionaryRelationships $relationships relationships
      *
      * @return $this
      */

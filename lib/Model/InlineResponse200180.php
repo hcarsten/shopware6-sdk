@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * InlineResponse200180 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -54,7 +54,7 @@ class InlineResponse200180 extends Success
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\ProductCrossSelling'    ];
+        'data' => '\ShopwareSDK6\Model\ProductCrossSelling'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -193,7 +193,7 @@ class InlineResponse200180 extends Success
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ProductCrossSelling
+     * @return \ShopwareSDK6\Model\ProductCrossSelling
      */
     public function getData()
     {
@@ -203,7 +203,7 @@ class InlineResponse200180 extends Success
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ProductCrossSelling $data data
+     * @param \ShopwareSDK6\Model\ProductCrossSelling $data data
      *
      * @return $this
      */

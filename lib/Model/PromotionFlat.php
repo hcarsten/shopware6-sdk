@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -76,14 +76,14 @@ class PromotionFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'setgroups' => '\Swagger\Client\Model\PromotionSetgroupFlat',
-'sales_channels' => '\Swagger\Client\Model\PromotionSalesChannelFlat',
-'discounts' => '\Swagger\Client\Model\PromotionDiscountFlat',
-'individual_codes' => '\Swagger\Client\Model\PromotionIndividualCodeFlat',
-'persona_rules' => '\Swagger\Client\Model\RuleFlat',
-'persona_customers' => '\Swagger\Client\Model\CustomerFlat',
-'order_rules' => '\Swagger\Client\Model\RuleFlat',
-'cart_rules' => '\Swagger\Client\Model\RuleFlat'    ];
+'setgroups' => '\ShopwareSDK6\Model\PromotionSetgroupFlat',
+'sales_channels' => '\ShopwareSDK6\Model\PromotionSalesChannelFlat',
+'discounts' => '\ShopwareSDK6\Model\PromotionDiscountFlat',
+'individual_codes' => '\ShopwareSDK6\Model\PromotionIndividualCodeFlat',
+'persona_rules' => '\ShopwareSDK6\Model\RuleFlat',
+'persona_customers' => '\ShopwareSDK6\Model\CustomerFlat',
+'order_rules' => '\ShopwareSDK6\Model\RuleFlat',
+'cart_rules' => '\ShopwareSDK6\Model\RuleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -871,7 +871,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets setgroups
      *
-     * @return \Swagger\Client\Model\PromotionSetgroupFlat
+     * @return \ShopwareSDK6\Model\PromotionSetgroupFlat
      */
     public function getSetgroups()
     {
@@ -881,7 +881,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets setgroups
      *
-     * @param \Swagger\Client\Model\PromotionSetgroupFlat $setgroups setgroups
+     * @param \ShopwareSDK6\Model\PromotionSetgroupFlat $setgroups setgroups
      *
      * @return $this
      */
@@ -895,7 +895,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\PromotionSalesChannelFlat
+     * @return \ShopwareSDK6\Model\PromotionSalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -905,7 +905,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\PromotionSalesChannelFlat $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\PromotionSalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */
@@ -919,7 +919,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets discounts
      *
-     * @return \Swagger\Client\Model\PromotionDiscountFlat
+     * @return \ShopwareSDK6\Model\PromotionDiscountFlat
      */
     public function getDiscounts()
     {
@@ -929,7 +929,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets discounts
      *
-     * @param \Swagger\Client\Model\PromotionDiscountFlat $discounts discounts
+     * @param \ShopwareSDK6\Model\PromotionDiscountFlat $discounts discounts
      *
      * @return $this
      */
@@ -943,7 +943,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets individual_codes
      *
-     * @return \Swagger\Client\Model\PromotionIndividualCodeFlat
+     * @return \ShopwareSDK6\Model\PromotionIndividualCodeFlat
      */
     public function getIndividualCodes()
     {
@@ -953,7 +953,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets individual_codes
      *
-     * @param \Swagger\Client\Model\PromotionIndividualCodeFlat $individual_codes individual_codes
+     * @param \ShopwareSDK6\Model\PromotionIndividualCodeFlat $individual_codes individual_codes
      *
      * @return $this
      */
@@ -967,7 +967,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets persona_rules
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getPersonaRules()
     {
@@ -977,7 +977,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets persona_rules
      *
-     * @param \Swagger\Client\Model\RuleFlat $persona_rules persona_rules
+     * @param \ShopwareSDK6\Model\RuleFlat $persona_rules persona_rules
      *
      * @return $this
      */
@@ -991,7 +991,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets persona_customers
      *
-     * @return \Swagger\Client\Model\CustomerFlat
+     * @return \ShopwareSDK6\Model\CustomerFlat
      */
     public function getPersonaCustomers()
     {
@@ -1001,7 +1001,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets persona_customers
      *
-     * @param \Swagger\Client\Model\CustomerFlat $persona_customers persona_customers
+     * @param \ShopwareSDK6\Model\CustomerFlat $persona_customers persona_customers
      *
      * @return $this
      */
@@ -1015,7 +1015,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_rules
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getOrderRules()
     {
@@ -1025,7 +1025,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_rules
      *
-     * @param \Swagger\Client\Model\RuleFlat $order_rules order_rules
+     * @param \ShopwareSDK6\Model\RuleFlat $order_rules order_rules
      *
      * @return $this
      */
@@ -1039,7 +1039,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets cart_rules
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getCartRules()
     {
@@ -1049,7 +1049,7 @@ class PromotionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets cart_rules
      *
-     * @param \Swagger\Client\Model\RuleFlat $cart_rules cart_rules
+     * @param \ShopwareSDK6\Model\RuleFlat $cart_rules cart_rules
      *
      * @return $this
      */

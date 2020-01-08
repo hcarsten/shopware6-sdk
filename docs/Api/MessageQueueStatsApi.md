@@ -1,4 +1,4 @@
-# Swagger\Client\MessageQueueStatsApi
+# ShopwareSDK6\MessageQueueStatsApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateMessageQueueStats**](MessageQueueStatsApi.md#updatemessagequeuestats) | **PATCH** /message-queue-stats/{id} | Partially update information about a Message Queue Stats resource
 
 # **createMessageQueueStats**
-> \Swagger\Client\Model\InlineResponse200129 createMessageQueueStats($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200129 createMessageQueueStats($body, $_response)
 
 Create a new Message Queue Stats resources
 
@@ -22,12 +22,12 @@ Create a new Message Queue Stats resources. All required fields must be provided
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MessageQueueStatsApi(
+$apiInstance = new ShopwareSDK6\Api\MessageQueueStatsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body84(); // \Swagger\Client\Model\Body84 | 
+$body = new \ShopwareSDK6\Model\Body84(); // \ShopwareSDK6\Model\Body84 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body84**](../Model/Body84.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body84**](../Model/Body84.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
+[**\ShopwareSDK6\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createMessageQueueStats**
-> \Swagger\Client\Model\InlineResponse200129 createMessageQueueStats($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200129 createMessageQueueStats($body, $_response)
 
 Create a new Message Queue Stats resources
 
@@ -73,12 +73,12 @@ Create a new Message Queue Stats resources. All required fields must be provided
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MessageQueueStatsApi(
+$apiInstance = new ShopwareSDK6\Api\MessageQueueStatsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\MessageQueueStatsFlat(); // \Swagger\Client\Model\MessageQueueStatsFlat | 
+$body = new \ShopwareSDK6\Model\MessageQueueStatsFlat(); // \ShopwareSDK6\Model\MessageQueueStatsFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\MessageQueueStatsFlat**](../Model/MessageQueueStatsFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\MessageQueueStatsFlat**](../Model/MessageQueueStatsFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
+[**\ShopwareSDK6\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Message Queue Stats resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MessageQueueStatsApi(
+$apiInstance = new ShopwareSDK6\Api\MessageQueueStatsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMessageQueueStats**
-> \Swagger\Client\Model\InlineResponse200129 getMessageQueueStats($id)
+> \ShopwareSDK6\Model\InlineResponse200129 getMessageQueueStats($id)
 
 Detailed information about a Message Queue Stats resource
 
@@ -170,7 +170,7 @@ Detailed information about a Message Queue Stats resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MessageQueueStatsApi(
+$apiInstance = new ShopwareSDK6\Api\MessageQueueStatsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
+[**\ShopwareSDK6\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMessageQueueStatsList**
-> \Swagger\Client\Model\InlineResponse200127 getMessageQueueStatsList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200127 getMessageQueueStatsList($limit, $page, $query)
 
 List with basic information of Message Queue Stats resources
 
@@ -217,7 +217,7 @@ List with basic information of Message Queue Stats resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MessageQueueStatsApi(
+$apiInstance = new ShopwareSDK6\Api\MessageQueueStatsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200127**](../Model/InlineResponse200127.md)
+[**\ShopwareSDK6\Model\InlineResponse200127**](../Model/InlineResponse200127.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMessageQueueStats**
-> \Swagger\Client\Model\InlineResponse200129 updateMessageQueueStats($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200129 updateMessageQueueStats($id, $body, $_response)
 
 Partially update information about a Message Queue Stats resource
 
@@ -268,13 +268,13 @@ Partially update information about a Message Queue Stats resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MessageQueueStatsApi(
+$apiInstance = new ShopwareSDK6\Api\MessageQueueStatsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the message_queue_stats
-$body = new \Swagger\Client\Model\Body85(); // \Swagger\Client\Model\Body85 | Partially update information about a Message Queue Stats resource.
+$body = new \ShopwareSDK6\Model\Body85(); // \ShopwareSDK6\Model\Body85 | Partially update information about a Message Queue Stats resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the message_queue_stats |
- **body** | [**\Swagger\Client\Model\Body85**](../Model/Body85.md)| Partially update information about a Message Queue Stats resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body85**](../Model/Body85.md)| Partially update information about a Message Queue Stats resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
+[**\ShopwareSDK6\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMessageQueueStats**
-> \Swagger\Client\Model\InlineResponse200129 updateMessageQueueStats($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200129 updateMessageQueueStats($id, $body, $_response)
 
 Partially update information about a Message Queue Stats resource
 
@@ -319,13 +319,13 @@ Partially update information about a Message Queue Stats resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\MessageQueueStatsApi(
+$apiInstance = new ShopwareSDK6\Api\MessageQueueStatsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the message_queue_stats
-$body = new \Swagger\Client\Model\MessageQueueStatsFlat(); // \Swagger\Client\Model\MessageQueueStatsFlat | Partially update information about a Message Queue Stats resource.
+$body = new \ShopwareSDK6\Model\MessageQueueStatsFlat(); // \ShopwareSDK6\Model\MessageQueueStatsFlat | Partially update information about a Message Queue Stats resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the message_queue_stats |
- **body** | [**\Swagger\Client\Model\MessageQueueStatsFlat**](../Model/MessageQueueStatsFlat.md)| Partially update information about a Message Queue Stats resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\MessageQueueStatsFlat**](../Model/MessageQueueStatsFlat.md)| Partially update information about a Message Queue Stats resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
+[**\ShopwareSDK6\Model\InlineResponse200129**](../Model/InlineResponse200129.md)
 
 ### Authorization
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderDeliveryPositionRelationshipsOrderLineItem Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class OrderDeliveryPositionRelationshipsOrderLineItem implements ModelInterface,
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderLineItemLinks',
-'data' => '\Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderLineItemData'    ];
+        'links' => '\ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderLineItemLinks',
+'data' => '\ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderLineItemData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class OrderDeliveryPositionRelationshipsOrderLineItem implements ModelInterface,
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderLineItemLinks
+     * @return \ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderLineItemLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class OrderDeliveryPositionRelationshipsOrderLineItem implements ModelInterface,
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderLineItemLinks $links links
+     * @param \ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderLineItemLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class OrderDeliveryPositionRelationshipsOrderLineItem implements ModelInterface,
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderLineItemData
+     * @return \ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderLineItemData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class OrderDeliveryPositionRelationshipsOrderLineItem implements ModelInterface,
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\OrderDeliveryPositionRelationshipsOrderLineItemData $data data
+     * @param \ShopwareSDK6\Model\OrderDeliveryPositionRelationshipsOrderLineItemData $data data
      *
      * @return $this
      */

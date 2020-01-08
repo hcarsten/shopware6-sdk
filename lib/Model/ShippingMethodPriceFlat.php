@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ShippingMethodPriceFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -68,10 +68,10 @@ class ShippingMethodPriceFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'shipping_method' => '\Swagger\Client\Model\ShippingMethodFlat',
-'currency' => '\Swagger\Client\Model\CurrencyFlat',
-'rule' => '\Swagger\Client\Model\RuleFlat',
-'calculation_rule' => '\Swagger\Client\Model\RuleFlat'    ];
+'shipping_method' => '\ShopwareSDK6\Model\ShippingMethodFlat',
+'currency' => '\ShopwareSDK6\Model\CurrencyFlat',
+'rule' => '\ShopwareSDK6\Model\RuleFlat',
+'calculation_rule' => '\ShopwareSDK6\Model\RuleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -592,7 +592,7 @@ class ShippingMethodPriceFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method
      *
-     * @return \Swagger\Client\Model\ShippingMethodFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodFlat
      */
     public function getShippingMethod()
     {
@@ -602,7 +602,7 @@ class ShippingMethodPriceFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method
      *
-     * @param \Swagger\Client\Model\ShippingMethodFlat $shipping_method shipping_method
+     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_method shipping_method
      *
      * @return $this
      */
@@ -616,7 +616,7 @@ class ShippingMethodPriceFlat implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\CurrencyFlat
+     * @return \ShopwareSDK6\Model\CurrencyFlat
      */
     public function getCurrency()
     {
@@ -626,7 +626,7 @@ class ShippingMethodPriceFlat implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\CurrencyFlat $currency currency
+     * @param \ShopwareSDK6\Model\CurrencyFlat $currency currency
      *
      * @return $this
      */
@@ -640,7 +640,7 @@ class ShippingMethodPriceFlat implements ModelInterface, ArrayAccess
     /**
      * Gets rule
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getRule()
     {
@@ -650,7 +650,7 @@ class ShippingMethodPriceFlat implements ModelInterface, ArrayAccess
     /**
      * Sets rule
      *
-     * @param \Swagger\Client\Model\RuleFlat $rule rule
+     * @param \ShopwareSDK6\Model\RuleFlat $rule rule
      *
      * @return $this
      */
@@ -664,7 +664,7 @@ class ShippingMethodPriceFlat implements ModelInterface, ArrayAccess
     /**
      * Gets calculation_rule
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getCalculationRule()
     {
@@ -674,7 +674,7 @@ class ShippingMethodPriceFlat implements ModelInterface, ArrayAccess
     /**
      * Sets calculation_rule
      *
-     * @param \Swagger\Client\Model\RuleFlat $calculation_rule calculation_rule
+     * @param \ShopwareSDK6\Model\RuleFlat $calculation_rule calculation_rule
      *
      * @return $this
      */

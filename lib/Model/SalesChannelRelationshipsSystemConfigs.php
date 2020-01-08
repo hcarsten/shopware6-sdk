@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelRelationshipsSystemConfigs Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelRelationshipsSystemConfigs implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\SalesChannelRelationshipsSystemConfigsLinks',
-'data' => '\Swagger\Client\Model\SalesChannelRelationshipsSystemConfigsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\SalesChannelRelationshipsSystemConfigsLinks',
+'data' => '\ShopwareSDK6\Model\SalesChannelRelationshipsSystemConfigsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelRelationshipsSystemConfigs implements ModelInterface, ArrayAcc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsSystemConfigsLinks
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsSystemConfigsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelRelationshipsSystemConfigs implements ModelInterface, ArrayAcc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsSystemConfigsLinks $links links
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsSystemConfigsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelRelationshipsSystemConfigs implements ModelInterface, ArrayAcc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsSystemConfigsData[]
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsSystemConfigsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelRelationshipsSystemConfigs implements ModelInterface, ArrayAcc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsSystemConfigsData[] $data data
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsSystemConfigsData[] $data data
      *
      * @return $this
      */

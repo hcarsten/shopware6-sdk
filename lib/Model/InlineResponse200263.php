@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * InlineResponse200263 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class InlineResponse200263 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'total' => 'int',
-'data' => '\Swagger\Client\Model\ShippingMethodFlat[]'    ];
+'data' => '\ShopwareSDK6\Model\ShippingMethodFlat[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -229,7 +229,7 @@ class InlineResponse200263 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ShippingMethodFlat[]
+     * @return \ShopwareSDK6\Model\ShippingMethodFlat[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class InlineResponse200263 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ShippingMethodFlat[] $data data
+     * @param \ShopwareSDK6\Model\ShippingMethodFlat[] $data data
      *
      * @return $this
      */

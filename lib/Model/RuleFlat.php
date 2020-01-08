@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * RuleFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,17 +65,17 @@ class RuleFlat implements ModelInterface, ArrayAccess
 'module_types' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'conditions' => '\Swagger\Client\Model\RuleConditionFlat',
-'product_prices' => '\Swagger\Client\Model\ProductPriceFlat',
-'shipping_method_prices' => '\Swagger\Client\Model\ShippingMethodPriceFlat',
-'shipping_method_price_calculations' => '\Swagger\Client\Model\ShippingMethodPriceFlat',
-'shipping_methods' => '\Swagger\Client\Model\ShippingMethodFlat',
-'payment_methods' => '\Swagger\Client\Model\PaymentMethodFlat',
-'persona_promotions' => '\Swagger\Client\Model\PromotionFlat',
-'order_promotions' => '\Swagger\Client\Model\PromotionFlat',
-'cart_promotions' => '\Swagger\Client\Model\PromotionFlat',
-'promotion_discounts' => '\Swagger\Client\Model\PromotionDiscountFlat',
-'promotion_set_groups' => '\Swagger\Client\Model\PromotionSetgroupFlat'    ];
+'conditions' => '\ShopwareSDK6\Model\RuleConditionFlat',
+'product_prices' => '\ShopwareSDK6\Model\ProductPriceFlat',
+'shipping_method_prices' => '\ShopwareSDK6\Model\ShippingMethodPriceFlat',
+'shipping_method_price_calculations' => '\ShopwareSDK6\Model\ShippingMethodPriceFlat',
+'shipping_methods' => '\ShopwareSDK6\Model\ShippingMethodFlat',
+'payment_methods' => '\ShopwareSDK6\Model\PaymentMethodFlat',
+'persona_promotions' => '\ShopwareSDK6\Model\PromotionFlat',
+'order_promotions' => '\ShopwareSDK6\Model\PromotionFlat',
+'cart_promotions' => '\ShopwareSDK6\Model\PromotionFlat',
+'promotion_discounts' => '\ShopwareSDK6\Model\PromotionDiscountFlat',
+'promotion_set_groups' => '\ShopwareSDK6\Model\PromotionSetgroupFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -541,7 +541,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets conditions
      *
-     * @return \Swagger\Client\Model\RuleConditionFlat
+     * @return \ShopwareSDK6\Model\RuleConditionFlat
      */
     public function getConditions()
     {
@@ -551,7 +551,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets conditions
      *
-     * @param \Swagger\Client\Model\RuleConditionFlat $conditions conditions
+     * @param \ShopwareSDK6\Model\RuleConditionFlat $conditions conditions
      *
      * @return $this
      */
@@ -565,7 +565,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_prices
      *
-     * @return \Swagger\Client\Model\ProductPriceFlat
+     * @return \ShopwareSDK6\Model\ProductPriceFlat
      */
     public function getProductPrices()
     {
@@ -575,7 +575,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_prices
      *
-     * @param \Swagger\Client\Model\ProductPriceFlat $product_prices product_prices
+     * @param \ShopwareSDK6\Model\ProductPriceFlat $product_prices product_prices
      *
      * @return $this
      */
@@ -589,7 +589,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method_prices
      *
-     * @return \Swagger\Client\Model\ShippingMethodPriceFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodPriceFlat
      */
     public function getShippingMethodPrices()
     {
@@ -599,7 +599,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method_prices
      *
-     * @param \Swagger\Client\Model\ShippingMethodPriceFlat $shipping_method_prices shipping_method_prices
+     * @param \ShopwareSDK6\Model\ShippingMethodPriceFlat $shipping_method_prices shipping_method_prices
      *
      * @return $this
      */
@@ -613,7 +613,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method_price_calculations
      *
-     * @return \Swagger\Client\Model\ShippingMethodPriceFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodPriceFlat
      */
     public function getShippingMethodPriceCalculations()
     {
@@ -623,7 +623,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method_price_calculations
      *
-     * @param \Swagger\Client\Model\ShippingMethodPriceFlat $shipping_method_price_calculations shipping_method_price_calculations
+     * @param \ShopwareSDK6\Model\ShippingMethodPriceFlat $shipping_method_price_calculations shipping_method_price_calculations
      *
      * @return $this
      */
@@ -637,7 +637,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \Swagger\Client\Model\ShippingMethodFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodFlat
      */
     public function getShippingMethods()
     {
@@ -647,7 +647,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \Swagger\Client\Model\ShippingMethodFlat $shipping_methods shipping_methods
+     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -661,7 +661,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets payment_methods
      *
-     * @return \Swagger\Client\Model\PaymentMethodFlat
+     * @return \ShopwareSDK6\Model\PaymentMethodFlat
      */
     public function getPaymentMethods()
     {
@@ -671,7 +671,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets payment_methods
      *
-     * @param \Swagger\Client\Model\PaymentMethodFlat $payment_methods payment_methods
+     * @param \ShopwareSDK6\Model\PaymentMethodFlat $payment_methods payment_methods
      *
      * @return $this
      */
@@ -685,7 +685,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets persona_promotions
      *
-     * @return \Swagger\Client\Model\PromotionFlat
+     * @return \ShopwareSDK6\Model\PromotionFlat
      */
     public function getPersonaPromotions()
     {
@@ -695,7 +695,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets persona_promotions
      *
-     * @param \Swagger\Client\Model\PromotionFlat $persona_promotions persona_promotions
+     * @param \ShopwareSDK6\Model\PromotionFlat $persona_promotions persona_promotions
      *
      * @return $this
      */
@@ -709,7 +709,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_promotions
      *
-     * @return \Swagger\Client\Model\PromotionFlat
+     * @return \ShopwareSDK6\Model\PromotionFlat
      */
     public function getOrderPromotions()
     {
@@ -719,7 +719,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_promotions
      *
-     * @param \Swagger\Client\Model\PromotionFlat $order_promotions order_promotions
+     * @param \ShopwareSDK6\Model\PromotionFlat $order_promotions order_promotions
      *
      * @return $this
      */
@@ -733,7 +733,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets cart_promotions
      *
-     * @return \Swagger\Client\Model\PromotionFlat
+     * @return \ShopwareSDK6\Model\PromotionFlat
      */
     public function getCartPromotions()
     {
@@ -743,7 +743,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets cart_promotions
      *
-     * @param \Swagger\Client\Model\PromotionFlat $cart_promotions cart_promotions
+     * @param \ShopwareSDK6\Model\PromotionFlat $cart_promotions cart_promotions
      *
      * @return $this
      */
@@ -757,7 +757,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_discounts
      *
-     * @return \Swagger\Client\Model\PromotionDiscountFlat
+     * @return \ShopwareSDK6\Model\PromotionDiscountFlat
      */
     public function getPromotionDiscounts()
     {
@@ -767,7 +767,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_discounts
      *
-     * @param \Swagger\Client\Model\PromotionDiscountFlat $promotion_discounts promotion_discounts
+     * @param \ShopwareSDK6\Model\PromotionDiscountFlat $promotion_discounts promotion_discounts
      *
      * @return $this
      */
@@ -781,7 +781,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_set_groups
      *
-     * @return \Swagger\Client\Model\PromotionSetgroupFlat
+     * @return \ShopwareSDK6\Model\PromotionSetgroupFlat
      */
     public function getPromotionSetGroups()
     {
@@ -791,7 +791,7 @@ class RuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_set_groups
      *
-     * @param \Swagger\Client\Model\PromotionSetgroupFlat $promotion_set_groups promotion_set_groups
+     * @param \ShopwareSDK6\Model\PromotionSetgroupFlat $promotion_set_groups promotion_set_groups
      *
      * @return $this
      */

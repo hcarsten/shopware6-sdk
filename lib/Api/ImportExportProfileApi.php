@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace ShopwareSDK6\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use ShopwareSDK6\ApiException;
+use ShopwareSDK6\Configuration;
+use ShopwareSDK6\HeaderSelector;
+use ShopwareSDK6\ObjectSerializer;
 
 /**
  * ImportExportProfileApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class ImportExportProfileApi
      *
      * Create a new Import Export Profile resources
      *
-     * @param  \Swagger\Client\Model\Body52 $body body (optional)
+     * @param  \ShopwareSDK6\Model\Body52 $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20081
+     * @return \ShopwareSDK6\Model\InlineResponse20081
      */
     public function createImportExportProfile($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class ImportExportProfileApi
      *
      * Create a new Import Export Profile resources
      *
-     * @param  \Swagger\Client\Model\Body52 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body52 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function createImportExportProfileWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->createImportExportProfileRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class ImportExportProfileApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20081',
+                        '\ShopwareSDK6\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class ImportExportProfileApi
      *
      * Create a new Import Export Profile resources
      *
-     * @param  \Swagger\Client\Model\Body52 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body52 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class ImportExportProfileApi
      *
      * Create a new Import Export Profile resources
      *
-     * @param  \Swagger\Client\Model\Body52 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body52 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class ImportExportProfileApi
      */
     public function createImportExportProfileAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->createImportExportProfileRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class ImportExportProfileApi
     /**
      * Create request for operation 'createImportExportProfile'
      *
-     * @param  \Swagger\Client\Model\Body52 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body52 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class ImportExportProfileApi
      *
      * Create a new Import Export Profile resources
      *
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body body (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20081
+     * @return \ShopwareSDK6\Model\InlineResponse20081
      */
     public function createImportExportProfile($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class ImportExportProfileApi
      *
      * Create a new Import Export Profile resources
      *
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function createImportExportProfileWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->createImportExportProfileRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class ImportExportProfileApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20081',
+                        '\ShopwareSDK6\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class ImportExportProfileApi
      *
      * Create a new Import Export Profile resources
      *
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class ImportExportProfileApi
      *
      * Create a new Import Export Profile resources
      *
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class ImportExportProfileApi
      */
     public function createImportExportProfileAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->createImportExportProfileRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class ImportExportProfileApi
     /**
      * Create request for operation 'createImportExportProfile'
      *
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class ImportExportProfileApi
      * @param  string $id Identifier for the import_export_profile (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class ImportExportProfileApi
      * @param  string $id Identifier for the import_export_profile (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class ImportExportProfileApi
      *
      * @param  string $id Identifier for the import_export_profile (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20081
+     * @return \ShopwareSDK6\Model\InlineResponse20081
      */
     public function getImportExportProfile($id)
     {
@@ -864,13 +864,13 @@ class ImportExportProfileApi
      *
      * @param  string $id Identifier for the import_export_profile (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function getImportExportProfileWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->getImportExportProfileRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class ImportExportProfileApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20081',
+                        '\ShopwareSDK6\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class ImportExportProfileApi
      */
     public function getImportExportProfileAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->getImportExportProfileRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class ImportExportProfileApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20079
+     * @return \ShopwareSDK6\Model\InlineResponse20079
      */
     public function getImportExportProfileList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class ImportExportProfileApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20079, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse20079, HTTP status code, HTTP response headers (array of strings)
      */
     public function getImportExportProfileListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20079';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20079';
         $request = $this->getImportExportProfileListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class ImportExportProfileApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20079',
+                        '\ShopwareSDK6\Model\InlineResponse20079',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class ImportExportProfileApi
      */
     public function getImportExportProfileListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20079';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20079';
         $request = $this->getImportExportProfileListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class ImportExportProfileApi
      * Partially update information about a Import Export Profile resource
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20081
+     * @return \ShopwareSDK6\Model\InlineResponse20081
      */
     public function updateImportExportProfile($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class ImportExportProfileApi
      * Partially update information about a Import Export Profile resource
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateImportExportProfileWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->updateImportExportProfileRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class ImportExportProfileApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20081',
+                        '\ShopwareSDK6\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class ImportExportProfileApi
      * Partially update information about a Import Export Profile resource
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class ImportExportProfileApi
      * Partially update information about a Import Export Profile resource
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class ImportExportProfileApi
      */
     public function updateImportExportProfileAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->updateImportExportProfileRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class ImportExportProfileApi
      * Create request for operation 'updateImportExportProfile'
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body53 $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class ImportExportProfileApi
      * Partially update information about a Import Export Profile resource
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20081
+     * @return \ShopwareSDK6\Model\InlineResponse20081
      */
     public function updateImportExportProfile($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class ImportExportProfileApi
      * Partially update information about a Import Export Profile resource
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateImportExportProfileWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->updateImportExportProfileRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class ImportExportProfileApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20081',
+                        '\ShopwareSDK6\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class ImportExportProfileApi
      * Partially update information about a Import Export Profile resource
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class ImportExportProfileApi
      * Partially update information about a Import Export Profile resource
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class ImportExportProfileApi
      */
     public function updateImportExportProfileAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20081';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse20081';
         $request = $this->updateImportExportProfileRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class ImportExportProfileApi
      * Create request for operation 'updateImportExportProfile'
      *
      * @param  string $id Identifier for the import_export_profile (required)
-     * @param  \Swagger\Client\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
+     * @param  \ShopwareSDK6\Model\ImportExportProfileFlat $body Partially update information about a Import Export Profile resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * StateMachineFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,9 +64,9 @@ class StateMachineFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'states' => '\Swagger\Client\Model\StateMachineStateFlat',
-'transitions' => '\Swagger\Client\Model\StateMachineTransitionFlat',
-'history_entries' => '\Swagger\Client\Model\StateMachineHistoryFlat'    ];
+'states' => '\ShopwareSDK6\Model\StateMachineStateFlat',
+'transitions' => '\ShopwareSDK6\Model\StateMachineTransitionFlat',
+'history_entries' => '\ShopwareSDK6\Model\StateMachineHistoryFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -463,7 +463,7 @@ class StateMachineFlat implements ModelInterface, ArrayAccess
     /**
      * Gets states
      *
-     * @return \Swagger\Client\Model\StateMachineStateFlat
+     * @return \ShopwareSDK6\Model\StateMachineStateFlat
      */
     public function getStates()
     {
@@ -473,7 +473,7 @@ class StateMachineFlat implements ModelInterface, ArrayAccess
     /**
      * Sets states
      *
-     * @param \Swagger\Client\Model\StateMachineStateFlat $states states
+     * @param \ShopwareSDK6\Model\StateMachineStateFlat $states states
      *
      * @return $this
      */
@@ -487,7 +487,7 @@ class StateMachineFlat implements ModelInterface, ArrayAccess
     /**
      * Gets transitions
      *
-     * @return \Swagger\Client\Model\StateMachineTransitionFlat
+     * @return \ShopwareSDK6\Model\StateMachineTransitionFlat
      */
     public function getTransitions()
     {
@@ -497,7 +497,7 @@ class StateMachineFlat implements ModelInterface, ArrayAccess
     /**
      * Sets transitions
      *
-     * @param \Swagger\Client\Model\StateMachineTransitionFlat $transitions transitions
+     * @param \ShopwareSDK6\Model\StateMachineTransitionFlat $transitions transitions
      *
      * @return $this
      */
@@ -511,7 +511,7 @@ class StateMachineFlat implements ModelInterface, ArrayAccess
     /**
      * Gets history_entries
      *
-     * @return \Swagger\Client\Model\StateMachineHistoryFlat
+     * @return \ShopwareSDK6\Model\StateMachineHistoryFlat
      */
     public function getHistoryEntries()
     {
@@ -521,7 +521,7 @@ class StateMachineFlat implements ModelInterface, ArrayAccess
     /**
      * Sets history_entries
      *
-     * @param \Swagger\Client\Model\StateMachineHistoryFlat $history_entries history_entries
+     * @param \ShopwareSDK6\Model\StateMachineHistoryFlat $history_entries history_entries
      *
      * @return $this
      */

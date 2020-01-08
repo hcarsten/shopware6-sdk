@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DocumentTypeRelationshipsDocuments Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class DocumentTypeRelationshipsDocuments implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\DocumentTypeRelationshipsDocumentsLinks',
-'data' => '\Swagger\Client\Model\DocumentTypeRelationshipsDocumentsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\DocumentTypeRelationshipsDocumentsLinks',
+'data' => '\ShopwareSDK6\Model\DocumentTypeRelationshipsDocumentsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class DocumentTypeRelationshipsDocuments implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\DocumentTypeRelationshipsDocumentsLinks
+     * @return \ShopwareSDK6\Model\DocumentTypeRelationshipsDocumentsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class DocumentTypeRelationshipsDocuments implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\DocumentTypeRelationshipsDocumentsLinks $links links
+     * @param \ShopwareSDK6\Model\DocumentTypeRelationshipsDocumentsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class DocumentTypeRelationshipsDocuments implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\DocumentTypeRelationshipsDocumentsData[]
+     * @return \ShopwareSDK6\Model\DocumentTypeRelationshipsDocumentsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class DocumentTypeRelationshipsDocuments implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\DocumentTypeRelationshipsDocumentsData[] $data data
+     * @param \ShopwareSDK6\Model\DocumentTypeRelationshipsDocumentsData[] $data data
      *
      * @return $this
      */

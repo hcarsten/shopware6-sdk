@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DeliveryTimeRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class DeliveryTimeRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'shipping_methods' => '\Swagger\Client\Model\DeliveryTimeRelationshipsShippingMethods',
-'products' => '\Swagger\Client\Model\DeliveryTimeRelationshipsProducts'    ];
+        'shipping_methods' => '\ShopwareSDK6\Model\DeliveryTimeRelationshipsShippingMethods',
+'products' => '\ShopwareSDK6\Model\DeliveryTimeRelationshipsProducts'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class DeliveryTimeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \Swagger\Client\Model\DeliveryTimeRelationshipsShippingMethods
+     * @return \ShopwareSDK6\Model\DeliveryTimeRelationshipsShippingMethods
      */
     public function getShippingMethods()
     {
@@ -215,7 +215,7 @@ class DeliveryTimeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \Swagger\Client\Model\DeliveryTimeRelationshipsShippingMethods $shipping_methods shipping_methods
+     * @param \ShopwareSDK6\Model\DeliveryTimeRelationshipsShippingMethods $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class DeliveryTimeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \Swagger\Client\Model\DeliveryTimeRelationshipsProducts
+     * @return \ShopwareSDK6\Model\DeliveryTimeRelationshipsProducts
      */
     public function getProducts()
     {
@@ -239,7 +239,7 @@ class DeliveryTimeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \Swagger\Client\Model\DeliveryTimeRelationshipsProducts $products products
+     * @param \ShopwareSDK6\Model\DeliveryTimeRelationshipsProducts $products products
      *
      * @return $this
      */

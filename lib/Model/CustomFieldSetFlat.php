@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomFieldSetFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,8 +62,8 @@ class CustomFieldSetFlat implements ModelInterface, ArrayAccess
 'active' => 'bool',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'custom_fields' => '\Swagger\Client\Model\CustomFieldFlat',
-'relations' => '\Swagger\Client\Model\CustomFieldSetRelationFlat'    ];
+'custom_fields' => '\ShopwareSDK6\Model\CustomFieldFlat',
+'relations' => '\ShopwareSDK6\Model\CustomFieldSetRelationFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -394,7 +394,7 @@ class CustomFieldSetFlat implements ModelInterface, ArrayAccess
     /**
      * Gets custom_fields
      *
-     * @return \Swagger\Client\Model\CustomFieldFlat
+     * @return \ShopwareSDK6\Model\CustomFieldFlat
      */
     public function getCustomFields()
     {
@@ -404,7 +404,7 @@ class CustomFieldSetFlat implements ModelInterface, ArrayAccess
     /**
      * Sets custom_fields
      *
-     * @param \Swagger\Client\Model\CustomFieldFlat $custom_fields custom_fields
+     * @param \ShopwareSDK6\Model\CustomFieldFlat $custom_fields custom_fields
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class CustomFieldSetFlat implements ModelInterface, ArrayAccess
     /**
      * Gets relations
      *
-     * @return \Swagger\Client\Model\CustomFieldSetRelationFlat
+     * @return \ShopwareSDK6\Model\CustomFieldSetRelationFlat
      */
     public function getRelations()
     {
@@ -428,7 +428,7 @@ class CustomFieldSetFlat implements ModelInterface, ArrayAccess
     /**
      * Sets relations
      *
-     * @param \Swagger\Client\Model\CustomFieldSetRelationFlat $relations relations
+     * @param \ShopwareSDK6\Model\CustomFieldSetRelationFlat $relations relations
      *
      * @return $this
      */

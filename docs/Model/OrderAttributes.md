@@ -13,12 +13,12 @@ Name | Type | Description | Notes
 **sales_channel_id** | **string** |  | 
 **order_date_time** | [**\DateTime**](\DateTime.md) |  | 
 **order_date** | **string** |  | [optional] 
-**price** | [**\Swagger\Client\Model\OrderAttributesPrice**](OrderAttributesPrice.md) |  | [optional] 
+**price** | [**\ShopwareSDK6\Model\OrderAttributesPrice**](OrderAttributesPrice.md) |  | [optional] 
 **amount_total** | **float** |  | [optional] 
 **amount_net** | **float** |  | [optional] 
 **position_price** | **float** |  | [optional] 
 **tax_status** | **string** |  | [optional] 
-**shipping_costs** | [**\Swagger\Client\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
+**shipping_costs** | [**\ShopwareSDK6\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
 **shipping_total** | **float** |  | [optional] 
 **currency_factor** | **float** |  | 
 **deep_link_code** | **string** |  | [optional] 

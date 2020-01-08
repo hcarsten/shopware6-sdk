@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * TaxRuleTypeRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class TaxRuleTypeRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'rules' => '\Swagger\Client\Model\TaxRuleTypeRelationshipsRules'    ];
+        'rules' => '\ShopwareSDK6\Model\TaxRuleTypeRelationshipsRules'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class TaxRuleTypeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets rules
      *
-     * @return \Swagger\Client\Model\TaxRuleTypeRelationshipsRules
+     * @return \ShopwareSDK6\Model\TaxRuleTypeRelationshipsRules
      */
     public function getRules()
     {
@@ -209,7 +209,7 @@ class TaxRuleTypeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets rules
      *
-     * @param \Swagger\Client\Model\TaxRuleTypeRelationshipsRules $rules rules
+     * @param \ShopwareSDK6\Model\TaxRuleTypeRelationshipsRules $rules rules
      *
      * @return $this
      */

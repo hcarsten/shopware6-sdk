@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SnippetSetRelationshipsSalesChannelDomains Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SnippetSetRelationshipsSalesChannelDomains implements ModelInterface, Arra
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\SnippetSetRelationshipsSalesChannelDomainsLinks',
-'data' => '\Swagger\Client\Model\SnippetSetRelationshipsSalesChannelDomainsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\SnippetSetRelationshipsSalesChannelDomainsLinks',
+'data' => '\ShopwareSDK6\Model\SnippetSetRelationshipsSalesChannelDomainsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SnippetSetRelationshipsSalesChannelDomains implements ModelInterface, Arra
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SnippetSetRelationshipsSalesChannelDomainsLinks
+     * @return \ShopwareSDK6\Model\SnippetSetRelationshipsSalesChannelDomainsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SnippetSetRelationshipsSalesChannelDomains implements ModelInterface, Arra
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SnippetSetRelationshipsSalesChannelDomainsLinks $links links
+     * @param \ShopwareSDK6\Model\SnippetSetRelationshipsSalesChannelDomainsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SnippetSetRelationshipsSalesChannelDomains implements ModelInterface, Arra
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\SnippetSetRelationshipsSalesChannelDomainsData[]
+     * @return \ShopwareSDK6\Model\SnippetSetRelationshipsSalesChannelDomainsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SnippetSetRelationshipsSalesChannelDomains implements ModelInterface, Arra
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\SnippetSetRelationshipsSalesChannelDomainsData[] $data data
+     * @param \ShopwareSDK6\Model\SnippetSetRelationshipsSalesChannelDomainsData[] $data data
      *
      * @return $this
      */

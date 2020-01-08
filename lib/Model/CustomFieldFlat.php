@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomFieldFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,7 +64,7 @@ class CustomFieldFlat implements ModelInterface, ArrayAccess
 'custom_field_set_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'custom_field_set' => '\Swagger\Client\Model\CustomFieldSetFlat'    ];
+'custom_field_set' => '\ShopwareSDK6\Model\CustomFieldSetFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -451,7 +451,7 @@ class CustomFieldFlat implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_set
      *
-     * @return \Swagger\Client\Model\CustomFieldSetFlat
+     * @return \ShopwareSDK6\Model\CustomFieldSetFlat
      */
     public function getCustomFieldSet()
     {
@@ -461,7 +461,7 @@ class CustomFieldFlat implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_set
      *
-     * @param \Swagger\Client\Model\CustomFieldSetFlat $custom_field_set custom_field_set
+     * @param \ShopwareSDK6\Model\CustomFieldSetFlat $custom_field_set custom_field_set
      *
      * @return $this
      */

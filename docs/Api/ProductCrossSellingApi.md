@@ -1,4 +1,4 @@
-# Swagger\Client\ProductCrossSellingApi
+# ShopwareSDK6\ProductCrossSellingApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProductCrossSelling**](ProductCrossSellingApi.md#updateproductcrossselling) | **PATCH** /product-cross-selling/{id} | Partially update information about a Product Cross Selling resource
 
 # **createProductCrossSelling**
-> \Swagger\Client\Model\InlineResponse200180 createProductCrossSelling($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200180 createProductCrossSelling($body, $_response)
 
 Create a new Product Cross Selling resources
 
@@ -22,12 +22,12 @@ Create a new Product Cross Selling resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductCrossSellingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductCrossSellingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body118(); // \Swagger\Client\Model\Body118 | 
+$body = new \ShopwareSDK6\Model\Body118(); // \ShopwareSDK6\Model\Body118 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body118**](../Model/Body118.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body118**](../Model/Body118.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
+[**\ShopwareSDK6\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProductCrossSelling**
-> \Swagger\Client\Model\InlineResponse200180 createProductCrossSelling($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200180 createProductCrossSelling($body, $_response)
 
 Create a new Product Cross Selling resources
 
@@ -73,12 +73,12 @@ Create a new Product Cross Selling resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductCrossSellingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductCrossSellingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\ProductCrossSellingFlat(); // \Swagger\Client\Model\ProductCrossSellingFlat | 
+$body = new \ShopwareSDK6\Model\ProductCrossSellingFlat(); // \ShopwareSDK6\Model\ProductCrossSellingFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ProductCrossSellingFlat**](../Model/ProductCrossSellingFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductCrossSellingFlat**](../Model/ProductCrossSellingFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
+[**\ShopwareSDK6\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product Cross Selling resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductCrossSellingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductCrossSellingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductCrossSelling**
-> \Swagger\Client\Model\InlineResponse200180 getProductCrossSelling($id)
+> \ShopwareSDK6\Model\InlineResponse200180 getProductCrossSelling($id)
 
 Detailed information about a Product Cross Selling resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product Cross Selling resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductCrossSellingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductCrossSellingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
+[**\ShopwareSDK6\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductCrossSellingList**
-> \Swagger\Client\Model\InlineResponse200178 getProductCrossSellingList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200178 getProductCrossSellingList($limit, $page, $query)
 
 List with basic information of Product Cross Selling resources
 
@@ -217,7 +217,7 @@ List with basic information of Product Cross Selling resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductCrossSellingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductCrossSellingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200178**](../Model/InlineResponse200178.md)
+[**\ShopwareSDK6\Model\InlineResponse200178**](../Model/InlineResponse200178.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductCrossSelling**
-> \Swagger\Client\Model\InlineResponse200180 updateProductCrossSelling($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200180 updateProductCrossSelling($id, $body, $_response)
 
 Partially update information about a Product Cross Selling resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product Cross Selling resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductCrossSellingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductCrossSellingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_cross_selling
-$body = new \Swagger\Client\Model\Body119(); // \Swagger\Client\Model\Body119 | Partially update information about a Product Cross Selling resource.
+$body = new \ShopwareSDK6\Model\Body119(); // \ShopwareSDK6\Model\Body119 | Partially update information about a Product Cross Selling resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_cross_selling |
- **body** | [**\Swagger\Client\Model\Body119**](../Model/Body119.md)| Partially update information about a Product Cross Selling resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body119**](../Model/Body119.md)| Partially update information about a Product Cross Selling resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
+[**\ShopwareSDK6\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductCrossSelling**
-> \Swagger\Client\Model\InlineResponse200180 updateProductCrossSelling($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200180 updateProductCrossSelling($id, $body, $_response)
 
 Partially update information about a Product Cross Selling resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product Cross Selling resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ProductCrossSellingApi(
+$apiInstance = new ShopwareSDK6\Api\ProductCrossSellingApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_cross_selling
-$body = new \Swagger\Client\Model\ProductCrossSellingFlat(); // \Swagger\Client\Model\ProductCrossSellingFlat | Partially update information about a Product Cross Selling resource.
+$body = new \ShopwareSDK6\Model\ProductCrossSellingFlat(); // \ShopwareSDK6\Model\ProductCrossSellingFlat | Partially update information about a Product Cross Selling resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_cross_selling |
- **body** | [**\Swagger\Client\Model\ProductCrossSellingFlat**](../Model/ProductCrossSellingFlat.md)| Partially update information about a Product Cross Selling resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\ProductCrossSellingFlat**](../Model/ProductCrossSellingFlat.md)| Partially update information about a Product Cross Selling resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
+[**\ShopwareSDK6\Model\InlineResponse200180**](../Model/InlineResponse200180.md)
 
 ### Authorization
 

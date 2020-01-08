@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace ShopwareSDK6\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use ShopwareSDK6\ApiException;
+use ShopwareSDK6\Configuration;
+use ShopwareSDK6\HeaderSelector;
+use ShopwareSDK6\ObjectSerializer;
 
 /**
  * ShippingMethodApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class ShippingMethodApi
      *
      * Create a new Shipping Method resources
      *
-     * @param  \Swagger\Client\Model\Body174 $body body (optional)
+     * @param  \ShopwareSDK6\Model\Body174 $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200264
+     * @return \ShopwareSDK6\Model\InlineResponse200264
      */
     public function createShippingMethod($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class ShippingMethodApi
      *
      * Create a new Shipping Method resources
      *
-     * @param  \Swagger\Client\Model\Body174 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body174 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
      */
     public function createShippingMethodWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->createShippingMethodRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class ShippingMethodApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200264',
+                        '\ShopwareSDK6\Model\InlineResponse200264',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class ShippingMethodApi
      *
      * Create a new Shipping Method resources
      *
-     * @param  \Swagger\Client\Model\Body174 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body174 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class ShippingMethodApi
      *
      * Create a new Shipping Method resources
      *
-     * @param  \Swagger\Client\Model\Body174 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body174 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class ShippingMethodApi
      */
     public function createShippingMethodAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->createShippingMethodRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class ShippingMethodApi
     /**
      * Create request for operation 'createShippingMethod'
      *
-     * @param  \Swagger\Client\Model\Body174 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body174 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class ShippingMethodApi
      *
      * Create a new Shipping Method resources
      *
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body body (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200264
+     * @return \ShopwareSDK6\Model\InlineResponse200264
      */
     public function createShippingMethod($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class ShippingMethodApi
      *
      * Create a new Shipping Method resources
      *
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
      */
     public function createShippingMethodWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->createShippingMethodRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class ShippingMethodApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200264',
+                        '\ShopwareSDK6\Model\InlineResponse200264',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class ShippingMethodApi
      *
      * Create a new Shipping Method resources
      *
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class ShippingMethodApi
      *
      * Create a new Shipping Method resources
      *
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class ShippingMethodApi
      */
     public function createShippingMethodAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->createShippingMethodRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class ShippingMethodApi
     /**
      * Create request for operation 'createShippingMethod'
      *
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class ShippingMethodApi
      * @param  string $id Identifier for the shipping_method (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class ShippingMethodApi
      * @param  string $id Identifier for the shipping_method (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class ShippingMethodApi
      *
      * @param  string $id Identifier for the shipping_method (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200264
+     * @return \ShopwareSDK6\Model\InlineResponse200264
      */
     public function getShippingMethod($id)
     {
@@ -864,13 +864,13 @@ class ShippingMethodApi
      *
      * @param  string $id Identifier for the shipping_method (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
      */
     public function getShippingMethodWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->getShippingMethodRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class ShippingMethodApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200264',
+                        '\ShopwareSDK6\Model\InlineResponse200264',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class ShippingMethodApi
      */
     public function getShippingMethodAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->getShippingMethodRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class ShippingMethodApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200262
+     * @return \ShopwareSDK6\Model\InlineResponse200262
      */
     public function getShippingMethodList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class ShippingMethodApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200262, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200262, HTTP status code, HTTP response headers (array of strings)
      */
     public function getShippingMethodListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200262';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200262';
         $request = $this->getShippingMethodListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class ShippingMethodApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200262',
+                        '\ShopwareSDK6\Model\InlineResponse200262',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class ShippingMethodApi
      */
     public function getShippingMethodListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200262';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200262';
         $request = $this->getShippingMethodListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class ShippingMethodApi
      * Partially update information about a Shipping Method resource
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200264
+     * @return \ShopwareSDK6\Model\InlineResponse200264
      */
     public function updateShippingMethod($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class ShippingMethodApi
      * Partially update information about a Shipping Method resource
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateShippingMethodWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->updateShippingMethodRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class ShippingMethodApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200264',
+                        '\ShopwareSDK6\Model\InlineResponse200264',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class ShippingMethodApi
      * Partially update information about a Shipping Method resource
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class ShippingMethodApi
      * Partially update information about a Shipping Method resource
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class ShippingMethodApi
      */
     public function updateShippingMethodAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->updateShippingMethodRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class ShippingMethodApi
      * Create request for operation 'updateShippingMethod'
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body175 $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class ShippingMethodApi
      * Partially update information about a Shipping Method resource
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200264
+     * @return \ShopwareSDK6\Model\InlineResponse200264
      */
     public function updateShippingMethod($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class ShippingMethodApi
      * Partially update information about a Shipping Method resource
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200264, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateShippingMethodWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->updateShippingMethodRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class ShippingMethodApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200264',
+                        '\ShopwareSDK6\Model\InlineResponse200264',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class ShippingMethodApi
      * Partially update information about a Shipping Method resource
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class ShippingMethodApi
      * Partially update information about a Shipping Method resource
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class ShippingMethodApi
      */
     public function updateShippingMethodAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200264';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200264';
         $request = $this->updateShippingMethodRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class ShippingMethodApi
      * Create request for operation 'updateShippingMethod'
      *
      * @param  string $id Identifier for the shipping_method (required)
-     * @param  \Swagger\Client\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
+     * @param  \ShopwareSDK6\Model\ShippingMethodFlat $body Partially update information about a Shipping Method resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

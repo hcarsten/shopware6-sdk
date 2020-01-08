@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * TaxRuleType Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class TaxRuleType extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\TaxRuleTypeAttributes',
-'links' => '\Swagger\Client\Model\TaxRuleTypeLinks',
-'relationships' => '\Swagger\Client\Model\TaxRuleTypeRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\TaxRuleTypeAttributes',
+'links' => '\ShopwareSDK6\Model\TaxRuleTypeLinks',
+'relationships' => '\ShopwareSDK6\Model\TaxRuleTypeRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class TaxRuleType extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\TaxRuleTypeAttributes
+     * @return \ShopwareSDK6\Model\TaxRuleTypeAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class TaxRuleType extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\TaxRuleTypeAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\TaxRuleTypeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class TaxRuleType extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\TaxRuleTypeLinks
+     * @return \ShopwareSDK6\Model\TaxRuleTypeLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class TaxRuleType extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\TaxRuleTypeLinks $links links
+     * @param \ShopwareSDK6\Model\TaxRuleTypeLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class TaxRuleType extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\TaxRuleTypeRelationships
+     * @return \ShopwareSDK6\Model\TaxRuleTypeRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class TaxRuleType extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\TaxRuleTypeRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\TaxRuleTypeRelationships $relationships relationships
      *
      * @return $this
      */

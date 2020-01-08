@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionDiscountFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -68,9 +68,9 @@ class PromotionDiscountFlat implements ModelInterface, ArrayAccess
 'usage_key' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'promotion' => '\Swagger\Client\Model\PromotionFlat',
-'discount_rules' => '\Swagger\Client\Model\RuleFlat',
-'promotion_discount_prices' => '\Swagger\Client\Model\PromotionDiscountPricesFlat'    ];
+'promotion' => '\ShopwareSDK6\Model\PromotionFlat',
+'discount_rules' => '\ShopwareSDK6\Model\RuleFlat',
+'promotion_discount_prices' => '\ShopwareSDK6\Model\PromotionDiscountPricesFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -592,7 +592,7 @@ class PromotionDiscountFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion
      *
-     * @return \Swagger\Client\Model\PromotionFlat
+     * @return \ShopwareSDK6\Model\PromotionFlat
      */
     public function getPromotion()
     {
@@ -602,7 +602,7 @@ class PromotionDiscountFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion
      *
-     * @param \Swagger\Client\Model\PromotionFlat $promotion promotion
+     * @param \ShopwareSDK6\Model\PromotionFlat $promotion promotion
      *
      * @return $this
      */
@@ -616,7 +616,7 @@ class PromotionDiscountFlat implements ModelInterface, ArrayAccess
     /**
      * Gets discount_rules
      *
-     * @return \Swagger\Client\Model\RuleFlat
+     * @return \ShopwareSDK6\Model\RuleFlat
      */
     public function getDiscountRules()
     {
@@ -626,7 +626,7 @@ class PromotionDiscountFlat implements ModelInterface, ArrayAccess
     /**
      * Sets discount_rules
      *
-     * @param \Swagger\Client\Model\RuleFlat $discount_rules discount_rules
+     * @param \ShopwareSDK6\Model\RuleFlat $discount_rules discount_rules
      *
      * @return $this
      */
@@ -640,7 +640,7 @@ class PromotionDiscountFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_discount_prices
      *
-     * @return \Swagger\Client\Model\PromotionDiscountPricesFlat
+     * @return \ShopwareSDK6\Model\PromotionDiscountPricesFlat
      */
     public function getPromotionDiscountPrices()
     {
@@ -650,7 +650,7 @@ class PromotionDiscountFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_discount_prices
      *
-     * @param \Swagger\Client\Model\PromotionDiscountPricesFlat $promotion_discount_prices promotion_discount_prices
+     * @param \ShopwareSDK6\Model\PromotionDiscountPricesFlat $promotion_discount_prices promotion_discount_prices
      *
      * @return $this
      */

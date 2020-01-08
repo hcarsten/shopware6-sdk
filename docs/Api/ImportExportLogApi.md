@@ -1,4 +1,4 @@
-# Swagger\Client\ImportExportLogApi
+# ShopwareSDK6\ImportExportLogApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateImportExportLog**](ImportExportLogApi.md#updateimportexportlog) | **PATCH** /import-export-log/{id} | Partially update information about a Import Export Log resource
 
 # **createImportExportLog**
-> \Swagger\Client\Model\InlineResponse20078 createImportExportLog($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20078 createImportExportLog($body, $_response)
 
 Create a new Import Export Log resources
 
@@ -22,12 +22,12 @@ Create a new Import Export Log resources. All required fields must be provided i
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportLogApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportLogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body50(); // \Swagger\Client\Model\Body50 | 
+$body = new \ShopwareSDK6\Model\Body50(); // \ShopwareSDK6\Model\Body50 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body50**](../Model/Body50.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body50**](../Model/Body50.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
+[**\ShopwareSDK6\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createImportExportLog**
-> \Swagger\Client\Model\InlineResponse20078 createImportExportLog($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20078 createImportExportLog($body, $_response)
 
 Create a new Import Export Log resources
 
@@ -73,12 +73,12 @@ Create a new Import Export Log resources. All required fields must be provided i
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportLogApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportLogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\ImportExportLogFlat(); // \Swagger\Client\Model\ImportExportLogFlat | 
+$body = new \ShopwareSDK6\Model\ImportExportLogFlat(); // \ShopwareSDK6\Model\ImportExportLogFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ImportExportLogFlat**](../Model/ImportExportLogFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\ImportExportLogFlat**](../Model/ImportExportLogFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
+[**\ShopwareSDK6\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Import Export Log resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportLogApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportLogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getImportExportLog**
-> \Swagger\Client\Model\InlineResponse20078 getImportExportLog($id)
+> \ShopwareSDK6\Model\InlineResponse20078 getImportExportLog($id)
 
 Detailed information about a Import Export Log resource
 
@@ -170,7 +170,7 @@ Detailed information about a Import Export Log resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportLogApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportLogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
+[**\ShopwareSDK6\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getImportExportLogList**
-> \Swagger\Client\Model\InlineResponse20076 getImportExportLogList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20076 getImportExportLogList($limit, $page, $query)
 
 List with basic information of Import Export Log resources
 
@@ -217,7 +217,7 @@ List with basic information of Import Export Log resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportLogApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportLogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20076**](../Model/InlineResponse20076.md)
+[**\ShopwareSDK6\Model\InlineResponse20076**](../Model/InlineResponse20076.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateImportExportLog**
-> \Swagger\Client\Model\InlineResponse20078 updateImportExportLog($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20078 updateImportExportLog($id, $body, $_response)
 
 Partially update information about a Import Export Log resource
 
@@ -268,13 +268,13 @@ Partially update information about a Import Export Log resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportLogApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportLogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the import_export_log
-$body = new \Swagger\Client\Model\Body51(); // \Swagger\Client\Model\Body51 | Partially update information about a Import Export Log resource.
+$body = new \ShopwareSDK6\Model\Body51(); // \ShopwareSDK6\Model\Body51 | Partially update information about a Import Export Log resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the import_export_log |
- **body** | [**\Swagger\Client\Model\Body51**](../Model/Body51.md)| Partially update information about a Import Export Log resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body51**](../Model/Body51.md)| Partially update information about a Import Export Log resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
+[**\ShopwareSDK6\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateImportExportLog**
-> \Swagger\Client\Model\InlineResponse20078 updateImportExportLog($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20078 updateImportExportLog($id, $body, $_response)
 
 Partially update information about a Import Export Log resource
 
@@ -319,13 +319,13 @@ Partially update information about a Import Export Log resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\ImportExportLogApi(
+$apiInstance = new ShopwareSDK6\Api\ImportExportLogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the import_export_log
-$body = new \Swagger\Client\Model\ImportExportLogFlat(); // \Swagger\Client\Model\ImportExportLogFlat | Partially update information about a Import Export Log resource.
+$body = new \ShopwareSDK6\Model\ImportExportLogFlat(); // \ShopwareSDK6\Model\ImportExportLogFlat | Partially update information about a Import Export Log resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the import_export_log |
- **body** | [**\Swagger\Client\Model\ImportExportLogFlat**](../Model/ImportExportLogFlat.md)| Partially update information about a Import Export Log resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\ImportExportLogFlat**](../Model/ImportExportLogFlat.md)| Partially update information about a Import Export Log resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
+[**\ShopwareSDK6\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 

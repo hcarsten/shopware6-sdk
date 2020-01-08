@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace ShopwareSDK6\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use ShopwareSDK6\ApiException;
+use ShopwareSDK6\Configuration;
+use ShopwareSDK6\HeaderSelector;
+use ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaThumbnailSizeApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class MediaThumbnailSizeApi
      *
      * Create a new Media Thumbnail Size resources
      *
-     * @param  \Swagger\Client\Model\Body82 $body body (optional)
+     * @param  \ShopwareSDK6\Model\Body82 $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200126
+     * @return \ShopwareSDK6\Model\InlineResponse200126
      */
     public function createMediaThumbnailSize($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class MediaThumbnailSizeApi
      *
      * Create a new Media Thumbnail Size resources
      *
-     * @param  \Swagger\Client\Model\Body82 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body82 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
      */
     public function createMediaThumbnailSizeWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->createMediaThumbnailSizeRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class MediaThumbnailSizeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200126',
+                        '\ShopwareSDK6\Model\InlineResponse200126',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class MediaThumbnailSizeApi
      *
      * Create a new Media Thumbnail Size resources
      *
-     * @param  \Swagger\Client\Model\Body82 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body82 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class MediaThumbnailSizeApi
      *
      * Create a new Media Thumbnail Size resources
      *
-     * @param  \Swagger\Client\Model\Body82 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body82 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class MediaThumbnailSizeApi
      */
     public function createMediaThumbnailSizeAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->createMediaThumbnailSizeRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class MediaThumbnailSizeApi
     /**
      * Create request for operation 'createMediaThumbnailSize'
      *
-     * @param  \Swagger\Client\Model\Body82 $body (optional)
+     * @param  \ShopwareSDK6\Model\Body82 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class MediaThumbnailSizeApi
      *
      * Create a new Media Thumbnail Size resources
      *
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body body (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200126
+     * @return \ShopwareSDK6\Model\InlineResponse200126
      */
     public function createMediaThumbnailSize($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class MediaThumbnailSizeApi
      *
      * Create a new Media Thumbnail Size resources
      *
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
      */
     public function createMediaThumbnailSizeWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->createMediaThumbnailSizeRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class MediaThumbnailSizeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200126',
+                        '\ShopwareSDK6\Model\InlineResponse200126',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class MediaThumbnailSizeApi
      *
      * Create a new Media Thumbnail Size resources
      *
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class MediaThumbnailSizeApi
      *
      * Create a new Media Thumbnail Size resources
      *
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class MediaThumbnailSizeApi
      */
     public function createMediaThumbnailSizeAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->createMediaThumbnailSizeRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class MediaThumbnailSizeApi
     /**
      * Create request for operation 'createMediaThumbnailSize'
      *
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class MediaThumbnailSizeApi
      * @param  string $id Identifier for the media_thumbnail_size (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class MediaThumbnailSizeApi
      * @param  string $id Identifier for the media_thumbnail_size (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class MediaThumbnailSizeApi
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200126
+     * @return \ShopwareSDK6\Model\InlineResponse200126
      */
     public function getMediaThumbnailSize($id)
     {
@@ -864,13 +864,13 @@ class MediaThumbnailSizeApi
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMediaThumbnailSizeWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->getMediaThumbnailSizeRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class MediaThumbnailSizeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200126',
+                        '\ShopwareSDK6\Model\InlineResponse200126',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class MediaThumbnailSizeApi
      */
     public function getMediaThumbnailSizeAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->getMediaThumbnailSizeRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class MediaThumbnailSizeApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200124
+     * @return \ShopwareSDK6\Model\InlineResponse200124
      */
     public function getMediaThumbnailSizeList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class MediaThumbnailSizeApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200124, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200124, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMediaThumbnailSizeListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200124';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200124';
         $request = $this->getMediaThumbnailSizeListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class MediaThumbnailSizeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200124',
+                        '\ShopwareSDK6\Model\InlineResponse200124',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class MediaThumbnailSizeApi
      */
     public function getMediaThumbnailSizeListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200124';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200124';
         $request = $this->getMediaThumbnailSizeListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class MediaThumbnailSizeApi
      * Partially update information about a Media Thumbnail Size resource
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200126
+     * @return \ShopwareSDK6\Model\InlineResponse200126
      */
     public function updateMediaThumbnailSize($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class MediaThumbnailSizeApi
      * Partially update information about a Media Thumbnail Size resource
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateMediaThumbnailSizeWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->updateMediaThumbnailSizeRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class MediaThumbnailSizeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200126',
+                        '\ShopwareSDK6\Model\InlineResponse200126',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class MediaThumbnailSizeApi
      * Partially update information about a Media Thumbnail Size resource
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class MediaThumbnailSizeApi
      * Partially update information about a Media Thumbnail Size resource
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class MediaThumbnailSizeApi
      */
     public function updateMediaThumbnailSizeAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->updateMediaThumbnailSizeRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class MediaThumbnailSizeApi
      * Create request for operation 'updateMediaThumbnailSize'
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\Body83 $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class MediaThumbnailSizeApi
      * Partially update information about a Media Thumbnail Size resource
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse200126
+     * @return \ShopwareSDK6\Model\InlineResponse200126
      */
     public function updateMediaThumbnailSize($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class MediaThumbnailSizeApi
      * Partially update information about a Media Thumbnail Size resource
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \ShopwareSDK6\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \ShopwareSDK6\Model\InlineResponse200126, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateMediaThumbnailSizeWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->updateMediaThumbnailSizeRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class MediaThumbnailSizeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse200126',
+                        '\ShopwareSDK6\Model\InlineResponse200126',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class MediaThumbnailSizeApi
      * Partially update information about a Media Thumbnail Size resource
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class MediaThumbnailSizeApi
      * Partially update information about a Media Thumbnail Size resource
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class MediaThumbnailSizeApi
      */
     public function updateMediaThumbnailSizeAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse200126';
+        $returnType = '\ShopwareSDK6\Model\InlineResponse200126';
         $request = $this->updateMediaThumbnailSizeRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class MediaThumbnailSizeApi
      * Create request for operation 'updateMediaThumbnailSize'
      *
      * @param  string $id Identifier for the media_thumbnail_size (required)
-     * @param  \Swagger\Client\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
+     * @param  \ShopwareSDK6\Model\MediaThumbnailSizeFlat $body Partially update information about a Media Thumbnail Size resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

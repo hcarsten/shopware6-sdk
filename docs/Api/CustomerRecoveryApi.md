@@ -1,4 +1,4 @@
-# Swagger\Client\CustomerRecoveryApi
+# ShopwareSDK6\CustomerRecoveryApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCustomerRecovery**](CustomerRecoveryApi.md#updatecustomerrecovery) | **PATCH** /customer-recovery/{id} | Partially update information about a Customer Recovery resource
 
 # **createCustomerRecovery**
-> \Swagger\Client\Model\InlineResponse20051 createCustomerRecovery($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20051 createCustomerRecovery($body, $_response)
 
 Create a new Customer Recovery resources
 
@@ -22,12 +22,12 @@ Create a new Customer Recovery resources. All required fields must be provided i
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerRecoveryApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerRecoveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body32(); // \Swagger\Client\Model\Body32 | 
+$body = new \ShopwareSDK6\Model\Body32(); // \ShopwareSDK6\Model\Body32 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body32**](../Model/Body32.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body32**](../Model/Body32.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\ShopwareSDK6\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCustomerRecovery**
-> \Swagger\Client\Model\InlineResponse20051 createCustomerRecovery($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20051 createCustomerRecovery($body, $_response)
 
 Create a new Customer Recovery resources
 
@@ -73,12 +73,12 @@ Create a new Customer Recovery resources. All required fields must be provided i
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerRecoveryApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerRecoveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\CustomerRecoveryFlat(); // \Swagger\Client\Model\CustomerRecoveryFlat | 
+$body = new \ShopwareSDK6\Model\CustomerRecoveryFlat(); // \ShopwareSDK6\Model\CustomerRecoveryFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\CustomerRecoveryFlat**](../Model/CustomerRecoveryFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\CustomerRecoveryFlat**](../Model/CustomerRecoveryFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\ShopwareSDK6\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Customer Recovery resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerRecoveryApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerRecoveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCustomerRecovery**
-> \Swagger\Client\Model\InlineResponse20051 getCustomerRecovery($id)
+> \ShopwareSDK6\Model\InlineResponse20051 getCustomerRecovery($id)
 
 Detailed information about a Customer Recovery resource
 
@@ -170,7 +170,7 @@ Detailed information about a Customer Recovery resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerRecoveryApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerRecoveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\ShopwareSDK6\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCustomerRecoveryList**
-> \Swagger\Client\Model\InlineResponse20049 getCustomerRecoveryList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20049 getCustomerRecoveryList($limit, $page, $query)
 
 List with basic information of Customer Recovery resources
 
@@ -217,7 +217,7 @@ List with basic information of Customer Recovery resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerRecoveryApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerRecoveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
+[**\ShopwareSDK6\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCustomerRecovery**
-> \Swagger\Client\Model\InlineResponse20051 updateCustomerRecovery($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20051 updateCustomerRecovery($id, $body, $_response)
 
 Partially update information about a Customer Recovery resource
 
@@ -268,13 +268,13 @@ Partially update information about a Customer Recovery resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerRecoveryApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerRecoveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the customer_recovery
-$body = new \Swagger\Client\Model\Body33(); // \Swagger\Client\Model\Body33 | Partially update information about a Customer Recovery resource.
+$body = new \ShopwareSDK6\Model\Body33(); // \ShopwareSDK6\Model\Body33 | Partially update information about a Customer Recovery resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the customer_recovery |
- **body** | [**\Swagger\Client\Model\Body33**](../Model/Body33.md)| Partially update information about a Customer Recovery resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body33**](../Model/Body33.md)| Partially update information about a Customer Recovery resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\ShopwareSDK6\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCustomerRecovery**
-> \Swagger\Client\Model\InlineResponse20051 updateCustomerRecovery($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20051 updateCustomerRecovery($id, $body, $_response)
 
 Partially update information about a Customer Recovery resource
 
@@ -319,13 +319,13 @@ Partially update information about a Customer Recovery resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CustomerRecoveryApi(
+$apiInstance = new ShopwareSDK6\Api\CustomerRecoveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the customer_recovery
-$body = new \Swagger\Client\Model\CustomerRecoveryFlat(); // \Swagger\Client\Model\CustomerRecoveryFlat | Partially update information about a Customer Recovery resource.
+$body = new \ShopwareSDK6\Model\CustomerRecoveryFlat(); // \ShopwareSDK6\Model\CustomerRecoveryFlat | Partially update information about a Customer Recovery resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the customer_recovery |
- **body** | [**\Swagger\Client\Model\CustomerRecoveryFlat**](../Model/CustomerRecoveryFlat.md)| Partially update information about a Customer Recovery resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\CustomerRecoveryFlat**](../Model/CustomerRecoveryFlat.md)| Partially update information about a Customer Recovery resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\ShopwareSDK6\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 

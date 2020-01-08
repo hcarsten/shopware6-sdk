@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderDeliveryPosition Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class OrderDeliveryPosition extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\OrderDeliveryPositionAttributes',
-'links' => '\Swagger\Client\Model\OrderDeliveryPositionLinks',
-'relationships' => '\Swagger\Client\Model\OrderDeliveryPositionRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\OrderDeliveryPositionAttributes',
+'links' => '\ShopwareSDK6\Model\OrderDeliveryPositionLinks',
+'relationships' => '\ShopwareSDK6\Model\OrderDeliveryPositionRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class OrderDeliveryPosition extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\OrderDeliveryPositionAttributes
+     * @return \ShopwareSDK6\Model\OrderDeliveryPositionAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class OrderDeliveryPosition extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\OrderDeliveryPositionAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\OrderDeliveryPositionAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class OrderDeliveryPosition extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderDeliveryPositionLinks
+     * @return \ShopwareSDK6\Model\OrderDeliveryPositionLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class OrderDeliveryPosition extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderDeliveryPositionLinks $links links
+     * @param \ShopwareSDK6\Model\OrderDeliveryPositionLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class OrderDeliveryPosition extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\OrderDeliveryPositionRelationships
+     * @return \ShopwareSDK6\Model\OrderDeliveryPositionRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class OrderDeliveryPosition extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\OrderDeliveryPositionRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\OrderDeliveryPositionRelationships $relationships relationships
      *
      * @return $this
      */

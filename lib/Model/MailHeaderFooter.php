@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MailHeaderFooter Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MailHeaderFooter extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\MailHeaderFooterAttributes',
-'links' => '\Swagger\Client\Model\MailHeaderFooterLinks',
-'relationships' => '\Swagger\Client\Model\MailHeaderFooterRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\MailHeaderFooterAttributes',
+'links' => '\ShopwareSDK6\Model\MailHeaderFooterLinks',
+'relationships' => '\ShopwareSDK6\Model\MailHeaderFooterRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MailHeaderFooter extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\MailHeaderFooterAttributes
+     * @return \ShopwareSDK6\Model\MailHeaderFooterAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MailHeaderFooter extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\MailHeaderFooterAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\MailHeaderFooterAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MailHeaderFooter extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MailHeaderFooterLinks
+     * @return \ShopwareSDK6\Model\MailHeaderFooterLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MailHeaderFooter extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MailHeaderFooterLinks $links links
+     * @param \ShopwareSDK6\Model\MailHeaderFooterLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MailHeaderFooter extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\MailHeaderFooterRelationships
+     * @return \ShopwareSDK6\Model\MailHeaderFooterRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MailHeaderFooter extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\MailHeaderFooterRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\MailHeaderFooterRelationships $relationships relationships
      *
      * @return $this
      */

@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\Swagger\Client\Model\MediaRelationshipsThumbnailsLinks**](MediaRelationshipsThumbnailsLinks.md) |  | [optional] 
-**data** | [**\Swagger\Client\Model\MediaRelationshipsThumbnailsData[]**](MediaRelationshipsThumbnailsData.md) |  | [optional] 
+**links** | [**\ShopwareSDK6\Model\MediaRelationshipsThumbnailsLinks**](MediaRelationshipsThumbnailsLinks.md) |  | [optional] 
+**data** | [**\ShopwareSDK6\Model\MediaRelationshipsThumbnailsData[]**](MediaRelationshipsThumbnailsData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

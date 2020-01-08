@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MainCategoryRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MainCategoryRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\Swagger\Client\Model\MainCategoryRelationshipsProduct',
-'category' => '\Swagger\Client\Model\MainCategoryRelationshipsCategory',
-'sales_channel' => '\Swagger\Client\Model\MainCategoryRelationshipsSalesChannel'    ];
+        'product' => '\ShopwareSDK6\Model\MainCategoryRelationshipsProduct',
+'category' => '\ShopwareSDK6\Model\MainCategoryRelationshipsCategory',
+'sales_channel' => '\ShopwareSDK6\Model\MainCategoryRelationshipsSalesChannel'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class MainCategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\MainCategoryRelationshipsProduct
+     * @return \ShopwareSDK6\Model\MainCategoryRelationshipsProduct
      */
     public function getProduct()
     {
@@ -221,7 +221,7 @@ class MainCategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\MainCategoryRelationshipsProduct $product product
+     * @param \ShopwareSDK6\Model\MainCategoryRelationshipsProduct $product product
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class MainCategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets category
      *
-     * @return \Swagger\Client\Model\MainCategoryRelationshipsCategory
+     * @return \ShopwareSDK6\Model\MainCategoryRelationshipsCategory
      */
     public function getCategory()
     {
@@ -245,7 +245,7 @@ class MainCategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets category
      *
-     * @param \Swagger\Client\Model\MainCategoryRelationshipsCategory $category category
+     * @param \ShopwareSDK6\Model\MainCategoryRelationshipsCategory $category category
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class MainCategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\MainCategoryRelationshipsSalesChannel
+     * @return \ShopwareSDK6\Model\MainCategoryRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -269,7 +269,7 @@ class MainCategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\MainCategoryRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\MainCategoryRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */

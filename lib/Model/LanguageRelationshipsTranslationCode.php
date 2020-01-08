@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LanguageRelationshipsTranslationCode Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LanguageRelationshipsTranslationCode implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\LanguageRelationshipsTranslationCodeLinks',
-'data' => '\Swagger\Client\Model\LanguageRelationshipsLocaleData'    ];
+        'links' => '\ShopwareSDK6\Model\LanguageRelationshipsTranslationCodeLinks',
+'data' => '\ShopwareSDK6\Model\LanguageRelationshipsLocaleData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LanguageRelationshipsTranslationCode implements ModelInterface, ArrayAcces
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsTranslationCodeLinks
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsTranslationCodeLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class LanguageRelationshipsTranslationCode implements ModelInterface, ArrayAcces
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsTranslationCodeLinks $links links
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsTranslationCodeLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LanguageRelationshipsTranslationCode implements ModelInterface, ArrayAcces
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsLocaleData
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsLocaleData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class LanguageRelationshipsTranslationCode implements ModelInterface, ArrayAcces
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsLocaleData $data data
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsLocaleData $data data
      *
      * @return $this
      */

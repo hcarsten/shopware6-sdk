@@ -1,4 +1,4 @@
-# Swagger\Client\AclRoleApi
+# ShopwareSDK6\AclRoleApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateAclRole**](AclRoleApi.md#updateaclrole) | **PATCH** /acl-role/{id} | Partially update information about a Acl Role resource
 
 # **createAclRole**
-> \Swagger\Client\Model\InlineResponse2006 createAclRole($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse2006 createAclRole($body, $_response)
 
 Create a new Acl Role resources
 
@@ -22,12 +22,12 @@ Create a new Acl Role resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\AclRoleApi(
+$apiInstance = new ShopwareSDK6\Api\AclRoleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body2(); // \Swagger\Client\Model\Body2 | 
+$body = new \ShopwareSDK6\Model\Body2(); // \ShopwareSDK6\Model\Body2 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body2**](../Model/Body2.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body2**](../Model/Body2.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
+[**\ShopwareSDK6\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createAclRole**
-> \Swagger\Client\Model\InlineResponse2006 createAclRole($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse2006 createAclRole($body, $_response)
 
 Create a new Acl Role resources
 
@@ -73,12 +73,12 @@ Create a new Acl Role resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\AclRoleApi(
+$apiInstance = new ShopwareSDK6\Api\AclRoleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\AclRoleFlat(); // \Swagger\Client\Model\AclRoleFlat | 
+$body = new \ShopwareSDK6\Model\AclRoleFlat(); // \ShopwareSDK6\Model\AclRoleFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\AclRoleFlat**](../Model/AclRoleFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\AclRoleFlat**](../Model/AclRoleFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
+[**\ShopwareSDK6\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Acl Role resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\AclRoleApi(
+$apiInstance = new ShopwareSDK6\Api\AclRoleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getAclRole**
-> \Swagger\Client\Model\InlineResponse2006 getAclRole($id)
+> \ShopwareSDK6\Model\InlineResponse2006 getAclRole($id)
 
 Detailed information about a Acl Role resource
 
@@ -170,7 +170,7 @@ Detailed information about a Acl Role resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\AclRoleApi(
+$apiInstance = new ShopwareSDK6\Api\AclRoleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
+[**\ShopwareSDK6\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getAclRoleList**
-> \Swagger\Client\Model\InlineResponse2004 getAclRoleList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse2004 getAclRoleList($limit, $page, $query)
 
 List with basic information of Acl Role resources
 
@@ -217,7 +217,7 @@ List with basic information of Acl Role resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\AclRoleApi(
+$apiInstance = new ShopwareSDK6\Api\AclRoleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2004**](../Model/InlineResponse2004.md)
+[**\ShopwareSDK6\Model\InlineResponse2004**](../Model/InlineResponse2004.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateAclRole**
-> \Swagger\Client\Model\InlineResponse2006 updateAclRole($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse2006 updateAclRole($id, $body, $_response)
 
 Partially update information about a Acl Role resource
 
@@ -268,13 +268,13 @@ Partially update information about a Acl Role resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\AclRoleApi(
+$apiInstance = new ShopwareSDK6\Api\AclRoleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the acl_role
-$body = new \Swagger\Client\Model\Body3(); // \Swagger\Client\Model\Body3 | Partially update information about a Acl Role resource.
+$body = new \ShopwareSDK6\Model\Body3(); // \ShopwareSDK6\Model\Body3 | Partially update information about a Acl Role resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the acl_role |
- **body** | [**\Swagger\Client\Model\Body3**](../Model/Body3.md)| Partially update information about a Acl Role resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body3**](../Model/Body3.md)| Partially update information about a Acl Role resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
+[**\ShopwareSDK6\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateAclRole**
-> \Swagger\Client\Model\InlineResponse2006 updateAclRole($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse2006 updateAclRole($id, $body, $_response)
 
 Partially update information about a Acl Role resource
 
@@ -319,13 +319,13 @@ Partially update information about a Acl Role resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\AclRoleApi(
+$apiInstance = new ShopwareSDK6\Api\AclRoleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the acl_role
-$body = new \Swagger\Client\Model\AclRoleFlat(); // \Swagger\Client\Model\AclRoleFlat | Partially update information about a Acl Role resource.
+$body = new \ShopwareSDK6\Model\AclRoleFlat(); // \ShopwareSDK6\Model\AclRoleFlat | Partially update information about a Acl Role resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the acl_role |
- **body** | [**\Swagger\Client\Model\AclRoleFlat**](../Model/AclRoleFlat.md)| Partially update information about a Acl Role resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\AclRoleFlat**](../Model/AclRoleFlat.md)| Partially update information about a Acl Role resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
+[**\ShopwareSDK6\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
 
 ### Authorization
 

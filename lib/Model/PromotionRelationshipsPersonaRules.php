@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PromotionRelationshipsPersonaRules Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PromotionRelationshipsPersonaRules implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PromotionRelationshipsPersonaRulesLinks',
-'data' => '\Swagger\Client\Model\PromotionRelationshipsPersonaRulesData[]'    ];
+        'links' => '\ShopwareSDK6\Model\PromotionRelationshipsPersonaRulesLinks',
+'data' => '\ShopwareSDK6\Model\PromotionRelationshipsPersonaRulesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PromotionRelationshipsPersonaRules implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsPersonaRulesLinks
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsPersonaRulesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PromotionRelationshipsPersonaRules implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsPersonaRulesLinks $links links
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsPersonaRulesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PromotionRelationshipsPersonaRules implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\PromotionRelationshipsPersonaRulesData[]
+     * @return \ShopwareSDK6\Model\PromotionRelationshipsPersonaRulesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PromotionRelationshipsPersonaRules implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\PromotionRelationshipsPersonaRulesData[] $data data
+     * @param \ShopwareSDK6\Model\PromotionRelationshipsPersonaRulesData[] $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * OrderDeliveryFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -67,15 +67,15 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
 'tracking_codes' => 'string[]',
 'shipping_date_earliest' => '\DateTime',
 'shipping_date_latest' => '\DateTime',
-'shipping_costs' => '\Swagger\Client\Model\OrderAttributesShippingCosts',
+'shipping_costs' => '\ShopwareSDK6\Model\OrderAttributesShippingCosts',
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'state_machine_state' => '\Swagger\Client\Model\StateMachineStateFlat',
-'order' => '\Swagger\Client\Model\OrderFlat',
-'shipping_order_address' => '\Swagger\Client\Model\OrderAddressFlat',
-'shipping_method' => '\Swagger\Client\Model\ShippingMethodFlat',
-'positions' => '\Swagger\Client\Model\OrderDeliveryPositionFlat'    ];
+'state_machine_state' => '\ShopwareSDK6\Model\StateMachineStateFlat',
+'order' => '\ShopwareSDK6\Model\OrderFlat',
+'shipping_order_address' => '\ShopwareSDK6\Model\OrderAddressFlat',
+'shipping_method' => '\ShopwareSDK6\Model\ShippingMethodFlat',
+'positions' => '\ShopwareSDK6\Model\OrderDeliveryPositionFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -604,7 +604,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_costs
      *
-     * @return \Swagger\Client\Model\OrderAttributesShippingCosts
+     * @return \ShopwareSDK6\Model\OrderAttributesShippingCosts
      */
     public function getShippingCosts()
     {
@@ -614,7 +614,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_costs
      *
-     * @param \Swagger\Client\Model\OrderAttributesShippingCosts $shipping_costs shipping_costs
+     * @param \ShopwareSDK6\Model\OrderAttributesShippingCosts $shipping_costs shipping_costs
      *
      * @return $this
      */
@@ -700,7 +700,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine_state
      *
-     * @return \Swagger\Client\Model\StateMachineStateFlat
+     * @return \ShopwareSDK6\Model\StateMachineStateFlat
      */
     public function getStateMachineState()
     {
@@ -710,7 +710,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine_state
      *
-     * @param \Swagger\Client\Model\StateMachineStateFlat $state_machine_state state_machine_state
+     * @param \ShopwareSDK6\Model\StateMachineStateFlat $state_machine_state state_machine_state
      *
      * @return $this
      */
@@ -724,7 +724,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \Swagger\Client\Model\OrderFlat
+     * @return \ShopwareSDK6\Model\OrderFlat
      */
     public function getOrder()
     {
@@ -734,7 +734,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \Swagger\Client\Model\OrderFlat $order order
+     * @param \ShopwareSDK6\Model\OrderFlat $order order
      *
      * @return $this
      */
@@ -748,7 +748,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_order_address
      *
-     * @return \Swagger\Client\Model\OrderAddressFlat
+     * @return \ShopwareSDK6\Model\OrderAddressFlat
      */
     public function getShippingOrderAddress()
     {
@@ -758,7 +758,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_order_address
      *
-     * @param \Swagger\Client\Model\OrderAddressFlat $shipping_order_address shipping_order_address
+     * @param \ShopwareSDK6\Model\OrderAddressFlat $shipping_order_address shipping_order_address
      *
      * @return $this
      */
@@ -772,7 +772,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method
      *
-     * @return \Swagger\Client\Model\ShippingMethodFlat
+     * @return \ShopwareSDK6\Model\ShippingMethodFlat
      */
     public function getShippingMethod()
     {
@@ -782,7 +782,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method
      *
-     * @param \Swagger\Client\Model\ShippingMethodFlat $shipping_method shipping_method
+     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_method shipping_method
      *
      * @return $this
      */
@@ -796,7 +796,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets positions
      *
-     * @return \Swagger\Client\Model\OrderDeliveryPositionFlat
+     * @return \ShopwareSDK6\Model\OrderDeliveryPositionFlat
      */
     public function getPositions()
     {
@@ -806,7 +806,7 @@ class OrderDeliveryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets positions
      *
-     * @param \Swagger\Client\Model\OrderDeliveryPositionFlat $positions positions
+     * @param \ShopwareSDK6\Model\OrderDeliveryPositionFlat $positions positions
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * UserRecovery Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class UserRecovery extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\UserRecoveryAttributes',
-'links' => '\Swagger\Client\Model\UserRecoveryLinks',
-'relationships' => '\Swagger\Client\Model\UserRecoveryRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\UserRecoveryAttributes',
+'links' => '\ShopwareSDK6\Model\UserRecoveryLinks',
+'relationships' => '\ShopwareSDK6\Model\UserRecoveryRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class UserRecovery extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\UserRecoveryAttributes
+     * @return \ShopwareSDK6\Model\UserRecoveryAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class UserRecovery extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\UserRecoveryAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\UserRecoveryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class UserRecovery extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\UserRecoveryLinks
+     * @return \ShopwareSDK6\Model\UserRecoveryLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class UserRecovery extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\UserRecoveryLinks $links links
+     * @param \ShopwareSDK6\Model\UserRecoveryLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class UserRecovery extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\UserRecoveryRelationships
+     * @return \ShopwareSDK6\Model\UserRecoveryRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class UserRecovery extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\UserRecoveryRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\UserRecoveryRelationships $relationships relationships
      *
      * @return $this
      */

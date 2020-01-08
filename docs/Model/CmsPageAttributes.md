@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **name** | **string** |  | 
 **type** | **string** |  | 
 **entity** | **string** |  | [optional] 
-**config** | [**\Swagger\Client\Model\CmsPageAttributesConfig**](CmsPageAttributesConfig.md) |  | [optional] 
+**config** | [**\ShopwareSDK6\Model\CmsPageAttributesConfig**](CmsPageAttributesConfig.md) |  | [optional] 
 **preview_media_id** | **string** |  | [optional] 
 **custom_fields** | **object** |  | [optional] 
 **locked** | **bool** |  | [optional] 

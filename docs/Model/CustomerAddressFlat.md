@@ -23,10 +23,10 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**customer** | [**\Swagger\Client\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
-**country** | [**\Swagger\Client\Model\CountryFlat**](CountryFlat.md) |  | [optional] 
-**country_state** | [**\Swagger\Client\Model\CountryStateFlat**](CountryStateFlat.md) |  | [optional] 
-**salutation** | [**\Swagger\Client\Model\SalutationFlat**](SalutationFlat.md) |  | [optional] 
+**customer** | [**\ShopwareSDK6\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
+**country** | [**\ShopwareSDK6\Model\CountryFlat**](CountryFlat.md) |  | [optional] 
+**country_state** | [**\ShopwareSDK6\Model\CountryStateFlat**](CountryStateFlat.md) |  | [optional] 
+**salutation** | [**\ShopwareSDK6\Model\SalutationFlat**](SalutationFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

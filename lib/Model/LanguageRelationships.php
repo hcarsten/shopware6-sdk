@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LanguageRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,19 +56,19 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'parent' => '\Swagger\Client\Model\LanguageRelationshipsParent',
-'locale' => '\Swagger\Client\Model\LanguageRelationshipsLocale',
-'translation_code' => '\Swagger\Client\Model\LanguageRelationshipsTranslationCode',
-'children' => '\Swagger\Client\Model\LanguageRelationshipsChildren',
-'sales_channels' => '\Swagger\Client\Model\LanguageRelationshipsSalesChannels',
-'sales_channel_default_assignments' => '\Swagger\Client\Model\LanguageRelationshipsSalesChannelDefaultAssignments',
-'sales_channel_domains' => '\Swagger\Client\Model\LanguageRelationshipsSalesChannelDomains',
-'customers' => '\Swagger\Client\Model\LanguageRelationshipsCustomers',
-'newsletter_recipients' => '\Swagger\Client\Model\LanguageRelationshipsNewsletterRecipients',
-'orders' => '\Swagger\Client\Model\LanguageRelationshipsOrders',
-'product_search_keywords' => '\Swagger\Client\Model\LanguageRelationshipsProductSearchKeywords',
-'product_keyword_dictionaries' => '\Swagger\Client\Model\LanguageRelationshipsProductKeywordDictionaries',
-'product_reviews' => '\Swagger\Client\Model\LanguageRelationshipsProductReviews'    ];
+        'parent' => '\ShopwareSDK6\Model\LanguageRelationshipsParent',
+'locale' => '\ShopwareSDK6\Model\LanguageRelationshipsLocale',
+'translation_code' => '\ShopwareSDK6\Model\LanguageRelationshipsTranslationCode',
+'children' => '\ShopwareSDK6\Model\LanguageRelationshipsChildren',
+'sales_channels' => '\ShopwareSDK6\Model\LanguageRelationshipsSalesChannels',
+'sales_channel_default_assignments' => '\ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDefaultAssignments',
+'sales_channel_domains' => '\ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDomains',
+'customers' => '\ShopwareSDK6\Model\LanguageRelationshipsCustomers',
+'newsletter_recipients' => '\ShopwareSDK6\Model\LanguageRelationshipsNewsletterRecipients',
+'orders' => '\ShopwareSDK6\Model\LanguageRelationshipsOrders',
+'product_search_keywords' => '\ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywords',
+'product_keyword_dictionaries' => '\ShopwareSDK6\Model\LanguageRelationshipsProductKeywordDictionaries',
+'product_reviews' => '\ShopwareSDK6\Model\LanguageRelationshipsProductReviews'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -271,7 +271,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsParent
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsParent
      */
     public function getParent()
     {
@@ -281,7 +281,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsParent $parent parent
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsParent $parent parent
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets locale
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsLocale
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsLocale
      */
     public function getLocale()
     {
@@ -305,7 +305,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets locale
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsLocale $locale locale
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsLocale $locale locale
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets translation_code
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsTranslationCode
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsTranslationCode
      */
     public function getTranslationCode()
     {
@@ -329,7 +329,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets translation_code
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsTranslationCode $translation_code translation_code
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsTranslationCode $translation_code translation_code
      *
      * @return $this
      */
@@ -343,7 +343,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsChildren
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsChildren
      */
     public function getChildren()
     {
@@ -353,7 +353,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsChildren $children children
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsChildren $children children
      *
      * @return $this
      */
@@ -367,7 +367,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsSalesChannels
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -377,7 +377,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */
@@ -391,7 +391,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsSalesChannelDefaultAssignments
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDefaultAssignments
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -401,7 +401,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */
@@ -415,7 +415,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_domains
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsSalesChannelDomains
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDomains
      */
     public function getSalesChannelDomains()
     {
@@ -425,7 +425,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_domains
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsSalesChannelDomains $sales_channel_domains sales_channel_domains
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsSalesChannelDomains $sales_channel_domains sales_channel_domains
      *
      * @return $this
      */
@@ -439,7 +439,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsCustomers
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsCustomers
      */
     public function getCustomers()
     {
@@ -449,7 +449,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsCustomers $customers customers
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsCustomers $customers customers
      *
      * @return $this
      */
@@ -463,7 +463,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets newsletter_recipients
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsNewsletterRecipients
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsNewsletterRecipients
      */
     public function getNewsletterRecipients()
     {
@@ -473,7 +473,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets newsletter_recipients
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsNewsletterRecipients $newsletter_recipients newsletter_recipients
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsNewsletterRecipients $newsletter_recipients newsletter_recipients
      *
      * @return $this
      */
@@ -487,7 +487,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsOrders
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsOrders
      */
     public function getOrders()
     {
@@ -497,7 +497,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsOrders $orders orders
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsOrders $orders orders
      *
      * @return $this
      */
@@ -511,7 +511,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_search_keywords
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsProductSearchKeywords
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywords
      */
     public function getProductSearchKeywords()
     {
@@ -521,7 +521,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_search_keywords
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsProductSearchKeywords $product_search_keywords product_search_keywords
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywords $product_search_keywords product_search_keywords
      *
      * @return $this
      */
@@ -535,7 +535,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_keyword_dictionaries
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsProductKeywordDictionaries
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsProductKeywordDictionaries
      */
     public function getProductKeywordDictionaries()
     {
@@ -545,7 +545,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_keyword_dictionaries
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsProductKeywordDictionaries $product_keyword_dictionaries product_keyword_dictionaries
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsProductKeywordDictionaries $product_keyword_dictionaries product_keyword_dictionaries
      *
      * @return $this
      */
@@ -559,7 +559,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_reviews
      *
-     * @return \Swagger\Client\Model\LanguageRelationshipsProductReviews
+     * @return \ShopwareSDK6\Model\LanguageRelationshipsProductReviews
      */
     public function getProductReviews()
     {
@@ -569,7 +569,7 @@ class LanguageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_reviews
      *
-     * @param \Swagger\Client\Model\LanguageRelationshipsProductReviews $product_reviews product_reviews
+     * @param \ShopwareSDK6\Model\LanguageRelationshipsProductReviews $product_reviews product_reviews
      *
      * @return $this
      */

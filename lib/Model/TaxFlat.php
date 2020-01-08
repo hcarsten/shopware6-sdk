@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * TaxFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,8 +62,8 @@ class TaxFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'products' => '\Swagger\Client\Model\ProductFlat',
-'rules' => '\Swagger\Client\Model\TaxRuleFlat'    ];
+'products' => '\ShopwareSDK6\Model\ProductFlat',
+'rules' => '\ShopwareSDK6\Model\TaxRuleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -397,7 +397,7 @@ class TaxFlat implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \Swagger\Client\Model\ProductFlat
+     * @return \ShopwareSDK6\Model\ProductFlat
      */
     public function getProducts()
     {
@@ -407,7 +407,7 @@ class TaxFlat implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \Swagger\Client\Model\ProductFlat $products products
+     * @param \ShopwareSDK6\Model\ProductFlat $products products
      *
      * @return $this
      */
@@ -421,7 +421,7 @@ class TaxFlat implements ModelInterface, ArrayAccess
     /**
      * Gets rules
      *
-     * @return \Swagger\Client\Model\TaxRuleFlat
+     * @return \ShopwareSDK6\Model\TaxRuleFlat
      */
     public function getRules()
     {
@@ -431,7 +431,7 @@ class TaxFlat implements ModelInterface, ArrayAccess
     /**
      * Sets rules
      *
-     * @param \Swagger\Client\Model\TaxRuleFlat $rules rules
+     * @param \ShopwareSDK6\Model\TaxRuleFlat $rules rules
      *
      * @return $this
      */

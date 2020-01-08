@@ -1,4 +1,4 @@
-# Swagger\Client\CurrencyApi
+# ShopwareSDK6\CurrencyApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCurrency**](CurrencyApi.md#updatecurrency) | **PATCH** /currency/{id} | Partially update information about a Currency resource
 
 # **createCurrency**
-> \Swagger\Client\Model\InlineResponse20030 createCurrency($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20030 createCurrency($body, $_response)
 
 Create a new Currency resources
 
@@ -22,12 +22,12 @@ Create a new Currency resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CurrencyApi(
+$apiInstance = new ShopwareSDK6\Api\CurrencyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body18(); // \Swagger\Client\Model\Body18 | 
+$body = new \ShopwareSDK6\Model\Body18(); // \ShopwareSDK6\Model\Body18 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body18**](../Model/Body18.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body18**](../Model/Body18.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
+[**\ShopwareSDK6\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCurrency**
-> \Swagger\Client\Model\InlineResponse20030 createCurrency($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20030 createCurrency($body, $_response)
 
 Create a new Currency resources
 
@@ -73,12 +73,12 @@ Create a new Currency resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CurrencyApi(
+$apiInstance = new ShopwareSDK6\Api\CurrencyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\CurrencyFlat(); // \Swagger\Client\Model\CurrencyFlat | 
+$body = new \ShopwareSDK6\Model\CurrencyFlat(); // \ShopwareSDK6\Model\CurrencyFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\CurrencyFlat**](../Model/CurrencyFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\CurrencyFlat**](../Model/CurrencyFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
+[**\ShopwareSDK6\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Currency resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CurrencyApi(
+$apiInstance = new ShopwareSDK6\Api\CurrencyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCurrency**
-> \Swagger\Client\Model\InlineResponse20030 getCurrency($id)
+> \ShopwareSDK6\Model\InlineResponse20030 getCurrency($id)
 
 Detailed information about a Currency resource
 
@@ -170,7 +170,7 @@ Detailed information about a Currency resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CurrencyApi(
+$apiInstance = new ShopwareSDK6\Api\CurrencyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
+[**\ShopwareSDK6\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCurrencyList**
-> \Swagger\Client\Model\InlineResponse20028 getCurrencyList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20028 getCurrencyList($limit, $page, $query)
 
 List with basic information of Currency resources
 
@@ -217,7 +217,7 @@ List with basic information of Currency resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CurrencyApi(
+$apiInstance = new ShopwareSDK6\Api\CurrencyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20028**](../Model/InlineResponse20028.md)
+[**\ShopwareSDK6\Model\InlineResponse20028**](../Model/InlineResponse20028.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCurrency**
-> \Swagger\Client\Model\InlineResponse20030 updateCurrency($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20030 updateCurrency($id, $body, $_response)
 
 Partially update information about a Currency resource
 
@@ -268,13 +268,13 @@ Partially update information about a Currency resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CurrencyApi(
+$apiInstance = new ShopwareSDK6\Api\CurrencyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the currency
-$body = new \Swagger\Client\Model\Body19(); // \Swagger\Client\Model\Body19 | Partially update information about a Currency resource.
+$body = new \ShopwareSDK6\Model\Body19(); // \ShopwareSDK6\Model\Body19 | Partially update information about a Currency resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the currency |
- **body** | [**\Swagger\Client\Model\Body19**](../Model/Body19.md)| Partially update information about a Currency resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body19**](../Model/Body19.md)| Partially update information about a Currency resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
+[**\ShopwareSDK6\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCurrency**
-> \Swagger\Client\Model\InlineResponse20030 updateCurrency($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20030 updateCurrency($id, $body, $_response)
 
 Partially update information about a Currency resource
 
@@ -319,13 +319,13 @@ Partially update information about a Currency resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CurrencyApi(
+$apiInstance = new ShopwareSDK6\Api\CurrencyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the currency
-$body = new \Swagger\Client\Model\CurrencyFlat(); // \Swagger\Client\Model\CurrencyFlat | Partially update information about a Currency resource.
+$body = new \ShopwareSDK6\Model\CurrencyFlat(); // \ShopwareSDK6\Model\CurrencyFlat | Partially update information about a Currency resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the currency |
- **body** | [**\Swagger\Client\Model\CurrencyFlat**](../Model/CurrencyFlat.md)| Partially update information about a Currency resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\CurrencyFlat**](../Model/CurrencyFlat.md)| Partially update information about a Currency resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
+[**\ShopwareSDK6\Model\InlineResponse20030**](../Model/InlineResponse20030.md)
 
 ### Authorization
 

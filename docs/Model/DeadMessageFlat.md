@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **scheduled_task_id** | **string** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**scheduled_task** | [**\Swagger\Client\Model\ScheduledTaskFlat**](ScheduledTaskFlat.md) |  | [optional] 
+**scheduled_task** | [**\ShopwareSDK6\Model\ScheduledTaskFlat**](ScheduledTaskFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

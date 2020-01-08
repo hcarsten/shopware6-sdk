@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CountryStateRelationshipsCountry Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CountryStateRelationshipsCountry implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CountryStateRelationshipsCountryLinks',
-'data' => '\Swagger\Client\Model\CountryStateRelationshipsCountryData'    ];
+        'links' => '\ShopwareSDK6\Model\CountryStateRelationshipsCountryLinks',
+'data' => '\ShopwareSDK6\Model\CountryStateRelationshipsCountryData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CountryStateRelationshipsCountry implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CountryStateRelationshipsCountryLinks
+     * @return \ShopwareSDK6\Model\CountryStateRelationshipsCountryLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CountryStateRelationshipsCountry implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CountryStateRelationshipsCountryLinks $links links
+     * @param \ShopwareSDK6\Model\CountryStateRelationshipsCountryLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CountryStateRelationshipsCountry implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CountryStateRelationshipsCountryData
+     * @return \ShopwareSDK6\Model\CountryStateRelationshipsCountryData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CountryStateRelationshipsCountry implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CountryStateRelationshipsCountryData $data data
+     * @param \ShopwareSDK6\Model\CountryStateRelationshipsCountryData $data data
      *
      * @return $this
      */

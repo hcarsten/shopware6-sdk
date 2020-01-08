@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ImportExportLogRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ImportExportLogRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'user' => '\Swagger\Client\Model\ImportExportLogRelationshipsUser',
-'profile' => '\Swagger\Client\Model\ImportExportLogRelationshipsProfile',
-'file' => '\Swagger\Client\Model\ImportExportLogRelationshipsFile'    ];
+        'user' => '\ShopwareSDK6\Model\ImportExportLogRelationshipsUser',
+'profile' => '\ShopwareSDK6\Model\ImportExportLogRelationshipsProfile',
+'file' => '\ShopwareSDK6\Model\ImportExportLogRelationshipsFile'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class ImportExportLogRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \Swagger\Client\Model\ImportExportLogRelationshipsUser
+     * @return \ShopwareSDK6\Model\ImportExportLogRelationshipsUser
      */
     public function getUser()
     {
@@ -221,7 +221,7 @@ class ImportExportLogRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \Swagger\Client\Model\ImportExportLogRelationshipsUser $user user
+     * @param \ShopwareSDK6\Model\ImportExportLogRelationshipsUser $user user
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class ImportExportLogRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets profile
      *
-     * @return \Swagger\Client\Model\ImportExportLogRelationshipsProfile
+     * @return \ShopwareSDK6\Model\ImportExportLogRelationshipsProfile
      */
     public function getProfile()
     {
@@ -245,7 +245,7 @@ class ImportExportLogRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets profile
      *
-     * @param \Swagger\Client\Model\ImportExportLogRelationshipsProfile $profile profile
+     * @param \ShopwareSDK6\Model\ImportExportLogRelationshipsProfile $profile profile
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class ImportExportLogRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets file
      *
-     * @return \Swagger\Client\Model\ImportExportLogRelationshipsFile
+     * @return \ShopwareSDK6\Model\ImportExportLogRelationshipsFile
      */
     public function getFile()
     {
@@ -269,7 +269,7 @@ class ImportExportLogRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets file
      *
-     * @param \Swagger\Client\Model\ImportExportLogRelationshipsFile $file file
+     * @param \ShopwareSDK6\Model\ImportExportLogRelationshipsFile $file file
      *
      * @return $this
      */

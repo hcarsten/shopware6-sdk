@@ -1,4 +1,4 @@
-# Swagger\Client\LocaleApi
+# ShopwareSDK6\LocaleApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateLocale**](LocaleApi.md#updatelocale) | **PATCH** /locale/{id} | Partially update information about a Locale resource
 
 # **createLocale**
-> \Swagger\Client\Model\InlineResponse20090 createLocale($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20090 createLocale($body, $_response)
 
 Create a new Locale resources
 
@@ -22,12 +22,12 @@ Create a new Locale resources. All required fields must be provided in order to 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LocaleApi(
+$apiInstance = new ShopwareSDK6\Api\LocaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body58(); // \Swagger\Client\Model\Body58 | 
+$body = new \ShopwareSDK6\Model\Body58(); // \ShopwareSDK6\Model\Body58 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body58**](../Model/Body58.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body58**](../Model/Body58.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
+[**\ShopwareSDK6\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createLocale**
-> \Swagger\Client\Model\InlineResponse20090 createLocale($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20090 createLocale($body, $_response)
 
 Create a new Locale resources
 
@@ -73,12 +73,12 @@ Create a new Locale resources. All required fields must be provided in order to 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LocaleApi(
+$apiInstance = new ShopwareSDK6\Api\LocaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\LocaleFlat(); // \Swagger\Client\Model\LocaleFlat | 
+$body = new \ShopwareSDK6\Model\LocaleFlat(); // \ShopwareSDK6\Model\LocaleFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\LocaleFlat**](../Model/LocaleFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\LocaleFlat**](../Model/LocaleFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
+[**\ShopwareSDK6\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Locale resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LocaleApi(
+$apiInstance = new ShopwareSDK6\Api\LocaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getLocale**
-> \Swagger\Client\Model\InlineResponse20090 getLocale($id)
+> \ShopwareSDK6\Model\InlineResponse20090 getLocale($id)
 
 Detailed information about a Locale resource
 
@@ -170,7 +170,7 @@ Detailed information about a Locale resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LocaleApi(
+$apiInstance = new ShopwareSDK6\Api\LocaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
+[**\ShopwareSDK6\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getLocaleList**
-> \Swagger\Client\Model\InlineResponse20088 getLocaleList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20088 getLocaleList($limit, $page, $query)
 
 List with basic information of Locale resources
 
@@ -217,7 +217,7 @@ List with basic information of Locale resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LocaleApi(
+$apiInstance = new ShopwareSDK6\Api\LocaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20088**](../Model/InlineResponse20088.md)
+[**\ShopwareSDK6\Model\InlineResponse20088**](../Model/InlineResponse20088.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateLocale**
-> \Swagger\Client\Model\InlineResponse20090 updateLocale($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20090 updateLocale($id, $body, $_response)
 
 Partially update information about a Locale resource
 
@@ -268,13 +268,13 @@ Partially update information about a Locale resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LocaleApi(
+$apiInstance = new ShopwareSDK6\Api\LocaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the locale
-$body = new \Swagger\Client\Model\Body59(); // \Swagger\Client\Model\Body59 | Partially update information about a Locale resource.
+$body = new \ShopwareSDK6\Model\Body59(); // \ShopwareSDK6\Model\Body59 | Partially update information about a Locale resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the locale |
- **body** | [**\Swagger\Client\Model\Body59**](../Model/Body59.md)| Partially update information about a Locale resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body59**](../Model/Body59.md)| Partially update information about a Locale resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
+[**\ShopwareSDK6\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateLocale**
-> \Swagger\Client\Model\InlineResponse20090 updateLocale($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20090 updateLocale($id, $body, $_response)
 
 Partially update information about a Locale resource
 
@@ -319,13 +319,13 @@ Partially update information about a Locale resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\LocaleApi(
+$apiInstance = new ShopwareSDK6\Api\LocaleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the locale
-$body = new \Swagger\Client\Model\LocaleFlat(); // \Swagger\Client\Model\LocaleFlat | Partially update information about a Locale resource.
+$body = new \ShopwareSDK6\Model\LocaleFlat(); // \ShopwareSDK6\Model\LocaleFlat | Partially update information about a Locale resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the locale |
- **body** | [**\Swagger\Client\Model\LocaleFlat**](../Model/LocaleFlat.md)| Partially update information about a Locale resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\LocaleFlat**](../Model/LocaleFlat.md)| Partially update information about a Locale resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
+[**\ShopwareSDK6\Model\InlineResponse20090**](../Model/InlineResponse20090.md)
 
 ### Authorization
 

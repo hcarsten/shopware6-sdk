@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * UserFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -68,14 +68,14 @@ class UserFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'locale' => '\Swagger\Client\Model\LocaleFlat',
-'avatar_media' => '\Swagger\Client\Model\MediaFlat',
-'media' => '\Swagger\Client\Model\MediaFlat',
-'access_keys' => '\Swagger\Client\Model\UserAccessKeyFlat',
-'state_machine_history_entries' => '\Swagger\Client\Model\StateMachineHistoryFlat',
-'import_export_log_entries' => '\Swagger\Client\Model\ImportExportLogFlat',
-'acl_roles' => '\Swagger\Client\Model\AclRoleFlat',
-'recovery_user' => '\Swagger\Client\Model\UserRecoveryFlat'    ];
+'locale' => '\ShopwareSDK6\Model\LocaleFlat',
+'avatar_media' => '\ShopwareSDK6\Model\MediaFlat',
+'media' => '\ShopwareSDK6\Model\MediaFlat',
+'access_keys' => '\ShopwareSDK6\Model\UserAccessKeyFlat',
+'state_machine_history_entries' => '\ShopwareSDK6\Model\StateMachineHistoryFlat',
+'import_export_log_entries' => '\ShopwareSDK6\Model\ImportExportLogFlat',
+'acl_roles' => '\ShopwareSDK6\Model\AclRoleFlat',
+'recovery_user' => '\ShopwareSDK6\Model\UserRecoveryFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -622,7 +622,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Gets locale
      *
-     * @return \Swagger\Client\Model\LocaleFlat
+     * @return \ShopwareSDK6\Model\LocaleFlat
      */
     public function getLocale()
     {
@@ -632,7 +632,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Sets locale
      *
-     * @param \Swagger\Client\Model\LocaleFlat $locale locale
+     * @param \ShopwareSDK6\Model\LocaleFlat $locale locale
      *
      * @return $this
      */
@@ -646,7 +646,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Gets avatar_media
      *
-     * @return \Swagger\Client\Model\MediaFlat
+     * @return \ShopwareSDK6\Model\MediaFlat
      */
     public function getAvatarMedia()
     {
@@ -656,7 +656,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Sets avatar_media
      *
-     * @param \Swagger\Client\Model\MediaFlat $avatar_media avatar_media
+     * @param \ShopwareSDK6\Model\MediaFlat $avatar_media avatar_media
      *
      * @return $this
      */
@@ -670,7 +670,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \Swagger\Client\Model\MediaFlat
+     * @return \ShopwareSDK6\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -680,7 +680,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \Swagger\Client\Model\MediaFlat $media media
+     * @param \ShopwareSDK6\Model\MediaFlat $media media
      *
      * @return $this
      */
@@ -694,7 +694,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Gets access_keys
      *
-     * @return \Swagger\Client\Model\UserAccessKeyFlat
+     * @return \ShopwareSDK6\Model\UserAccessKeyFlat
      */
     public function getAccessKeys()
     {
@@ -704,7 +704,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Sets access_keys
      *
-     * @param \Swagger\Client\Model\UserAccessKeyFlat $access_keys access_keys
+     * @param \ShopwareSDK6\Model\UserAccessKeyFlat $access_keys access_keys
      *
      * @return $this
      */
@@ -718,7 +718,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine_history_entries
      *
-     * @return \Swagger\Client\Model\StateMachineHistoryFlat
+     * @return \ShopwareSDK6\Model\StateMachineHistoryFlat
      */
     public function getStateMachineHistoryEntries()
     {
@@ -728,7 +728,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine_history_entries
      *
-     * @param \Swagger\Client\Model\StateMachineHistoryFlat $state_machine_history_entries state_machine_history_entries
+     * @param \ShopwareSDK6\Model\StateMachineHistoryFlat $state_machine_history_entries state_machine_history_entries
      *
      * @return $this
      */
@@ -742,7 +742,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Gets import_export_log_entries
      *
-     * @return \Swagger\Client\Model\ImportExportLogFlat
+     * @return \ShopwareSDK6\Model\ImportExportLogFlat
      */
     public function getImportExportLogEntries()
     {
@@ -752,7 +752,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Sets import_export_log_entries
      *
-     * @param \Swagger\Client\Model\ImportExportLogFlat $import_export_log_entries import_export_log_entries
+     * @param \ShopwareSDK6\Model\ImportExportLogFlat $import_export_log_entries import_export_log_entries
      *
      * @return $this
      */
@@ -766,7 +766,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Gets acl_roles
      *
-     * @return \Swagger\Client\Model\AclRoleFlat
+     * @return \ShopwareSDK6\Model\AclRoleFlat
      */
     public function getAclRoles()
     {
@@ -776,7 +776,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Sets acl_roles
      *
-     * @param \Swagger\Client\Model\AclRoleFlat $acl_roles acl_roles
+     * @param \ShopwareSDK6\Model\AclRoleFlat $acl_roles acl_roles
      *
      * @return $this
      */
@@ -790,7 +790,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Gets recovery_user
      *
-     * @return \Swagger\Client\Model\UserRecoveryFlat
+     * @return \ShopwareSDK6\Model\UserRecoveryFlat
      */
     public function getRecoveryUser()
     {
@@ -800,7 +800,7 @@ class UserFlat implements ModelInterface, ArrayAccess
     /**
      * Sets recovery_user
      *
-     * @param \Swagger\Client\Model\UserRecoveryFlat $recovery_user recovery_user
+     * @param \ShopwareSDK6\Model\UserRecoveryFlat $recovery_user recovery_user
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelRelationshipsMailHeaderFooter Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelRelationshipsMailHeaderFooter implements ModelInterface, Array
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\SalesChannelRelationshipsMailHeaderFooterLinks',
-'data' => '\Swagger\Client\Model\SalesChannelRelationshipsMailHeaderFooterData'    ];
+        'links' => '\ShopwareSDK6\Model\SalesChannelRelationshipsMailHeaderFooterLinks',
+'data' => '\ShopwareSDK6\Model\SalesChannelRelationshipsMailHeaderFooterData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelRelationshipsMailHeaderFooter implements ModelInterface, Array
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsMailHeaderFooterLinks
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsMailHeaderFooterLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelRelationshipsMailHeaderFooter implements ModelInterface, Array
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsMailHeaderFooterLinks $links links
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsMailHeaderFooterLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelRelationshipsMailHeaderFooter implements ModelInterface, Array
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsMailHeaderFooterData
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsMailHeaderFooterData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelRelationshipsMailHeaderFooter implements ModelInterface, Array
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsMailHeaderFooterData $data data
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsMailHeaderFooterData $data data
      *
      * @return $this
      */

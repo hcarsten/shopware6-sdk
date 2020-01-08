@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ThemeRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sales_channels' => '\Swagger\Client\Model\ThemeRelationshipsSalesChannels',
-'media' => '\Swagger\Client\Model\ThemeRelationshipsMedia',
-'preview_media' => '\Swagger\Client\Model\ThemeRelationshipsPreviewMedia',
-'child_themes' => '\Swagger\Client\Model\ThemeRelationshipsChildThemes'    ];
+        'sales_channels' => '\ShopwareSDK6\Model\ThemeRelationshipsSalesChannels',
+'media' => '\ShopwareSDK6\Model\ThemeRelationshipsMedia',
+'preview_media' => '\ShopwareSDK6\Model\ThemeRelationshipsPreviewMedia',
+'child_themes' => '\ShopwareSDK6\Model\ThemeRelationshipsChildThemes'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -217,7 +217,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \Swagger\Client\Model\ThemeRelationshipsSalesChannels
+     * @return \ShopwareSDK6\Model\ThemeRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -227,7 +227,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \Swagger\Client\Model\ThemeRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \ShopwareSDK6\Model\ThemeRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \Swagger\Client\Model\ThemeRelationshipsMedia
+     * @return \ShopwareSDK6\Model\ThemeRelationshipsMedia
      */
     public function getMedia()
     {
@@ -251,7 +251,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \Swagger\Client\Model\ThemeRelationshipsMedia $media media
+     * @param \ShopwareSDK6\Model\ThemeRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets preview_media
      *
-     * @return \Swagger\Client\Model\ThemeRelationshipsPreviewMedia
+     * @return \ShopwareSDK6\Model\ThemeRelationshipsPreviewMedia
      */
     public function getPreviewMedia()
     {
@@ -275,7 +275,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets preview_media
      *
-     * @param \Swagger\Client\Model\ThemeRelationshipsPreviewMedia $preview_media preview_media
+     * @param \ShopwareSDK6\Model\ThemeRelationshipsPreviewMedia $preview_media preview_media
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets child_themes
      *
-     * @return \Swagger\Client\Model\ThemeRelationshipsChildThemes
+     * @return \ShopwareSDK6\Model\ThemeRelationshipsChildThemes
      */
     public function getChildThemes()
     {
@@ -299,7 +299,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets child_themes
      *
-     * @param \Swagger\Client\Model\ThemeRelationshipsChildThemes $child_themes child_themes
+     * @param \ShopwareSDK6\Model\ThemeRelationshipsChildThemes $child_themes child_themes
      *
      * @return $this
      */

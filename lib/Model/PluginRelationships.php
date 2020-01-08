@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * PluginRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class PluginRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'payment_methods' => '\Swagger\Client\Model\PluginRelationshipsPaymentMethods'    ];
+        'payment_methods' => '\ShopwareSDK6\Model\PluginRelationshipsPaymentMethods'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class PluginRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets payment_methods
      *
-     * @return \Swagger\Client\Model\PluginRelationshipsPaymentMethods
+     * @return \ShopwareSDK6\Model\PluginRelationshipsPaymentMethods
      */
     public function getPaymentMethods()
     {
@@ -209,7 +209,7 @@ class PluginRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets payment_methods
      *
-     * @param \Swagger\Client\Model\PluginRelationshipsPaymentMethods $payment_methods payment_methods
+     * @param \ShopwareSDK6\Model\PluginRelationshipsPaymentMethods $payment_methods payment_methods
      *
      * @return $this
      */

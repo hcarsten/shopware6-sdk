@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelRelationshipsType Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelRelationshipsType implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\SalesChannelRelationshipsTypeLinks',
-'data' => '\Swagger\Client\Model\SalesChannelRelationshipsTypeData'    ];
+        'links' => '\ShopwareSDK6\Model\SalesChannelRelationshipsTypeLinks',
+'data' => '\ShopwareSDK6\Model\SalesChannelRelationshipsTypeData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelRelationshipsType implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsTypeLinks
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsTypeLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelRelationshipsType implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsTypeLinks $links links
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsTypeLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelRelationshipsType implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsTypeData
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsTypeData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelRelationshipsType implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsTypeData $data data
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsTypeData $data data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * MediaFolderRelationshipsChildren Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaFolderRelationshipsChildren implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\MediaFolderRelationshipsChildrenLinks',
-'data' => '\Swagger\Client\Model\MediaFolderRelationshipsChildrenData[]'    ];
+        'links' => '\ShopwareSDK6\Model\MediaFolderRelationshipsChildrenLinks',
+'data' => '\ShopwareSDK6\Model\MediaFolderRelationshipsChildrenData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaFolderRelationshipsChildren implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MediaFolderRelationshipsChildrenLinks
+     * @return \ShopwareSDK6\Model\MediaFolderRelationshipsChildrenLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MediaFolderRelationshipsChildren implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MediaFolderRelationshipsChildrenLinks $links links
+     * @param \ShopwareSDK6\Model\MediaFolderRelationshipsChildrenLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaFolderRelationshipsChildren implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\MediaFolderRelationshipsChildrenData[]
+     * @return \ShopwareSDK6\Model\MediaFolderRelationshipsChildrenData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MediaFolderRelationshipsChildren implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\MediaFolderRelationshipsChildrenData[] $data data
+     * @param \ShopwareSDK6\Model\MediaFolderRelationshipsChildrenData[] $data data
      *
      * @return $this
      */

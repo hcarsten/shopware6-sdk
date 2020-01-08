@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CmsPageFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,16 +60,16 @@ class CmsPageFlat implements ModelInterface, ArrayAccess
 'name' => 'string',
 'type' => 'string',
 'entity' => 'string',
-'config' => '\Swagger\Client\Model\CmsPageAttributesConfig',
+'config' => '\ShopwareSDK6\Model\CmsPageAttributesConfig',
 'preview_media_id' => 'string',
 'custom_fields' => 'object',
 'locked' => 'bool',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'sections' => '\Swagger\Client\Model\CmsSectionFlat',
-'preview_media' => '\Swagger\Client\Model\MediaFlat',
-'categories' => '\Swagger\Client\Model\CategoryFlat'    ];
+'sections' => '\ShopwareSDK6\Model\CmsSectionFlat',
+'preview_media' => '\ShopwareSDK6\Model\MediaFlat',
+'categories' => '\ShopwareSDK6\Model\CategoryFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -385,7 +385,7 @@ class CmsPageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets config
      *
-     * @return \Swagger\Client\Model\CmsPageAttributesConfig
+     * @return \ShopwareSDK6\Model\CmsPageAttributesConfig
      */
     public function getConfig()
     {
@@ -395,7 +395,7 @@ class CmsPageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets config
      *
-     * @param \Swagger\Client\Model\CmsPageAttributesConfig $config config
+     * @param \ShopwareSDK6\Model\CmsPageAttributesConfig $config config
      *
      * @return $this
      */
@@ -553,7 +553,7 @@ class CmsPageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sections
      *
-     * @return \Swagger\Client\Model\CmsSectionFlat
+     * @return \ShopwareSDK6\Model\CmsSectionFlat
      */
     public function getSections()
     {
@@ -563,7 +563,7 @@ class CmsPageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sections
      *
-     * @param \Swagger\Client\Model\CmsSectionFlat $sections sections
+     * @param \ShopwareSDK6\Model\CmsSectionFlat $sections sections
      *
      * @return $this
      */
@@ -577,7 +577,7 @@ class CmsPageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets preview_media
      *
-     * @return \Swagger\Client\Model\MediaFlat
+     * @return \ShopwareSDK6\Model\MediaFlat
      */
     public function getPreviewMedia()
     {
@@ -587,7 +587,7 @@ class CmsPageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets preview_media
      *
-     * @param \Swagger\Client\Model\MediaFlat $preview_media preview_media
+     * @param \ShopwareSDK6\Model\MediaFlat $preview_media preview_media
      *
      * @return $this
      */
@@ -601,7 +601,7 @@ class CmsPageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \Swagger\Client\Model\CategoryFlat
+     * @return \ShopwareSDK6\Model\CategoryFlat
      */
     public function getCategories()
     {
@@ -611,7 +611,7 @@ class CmsPageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \Swagger\Client\Model\CategoryFlat $categories categories
+     * @param \ShopwareSDK6\Model\CategoryFlat $categories categories
      *
      * @return $this
      */

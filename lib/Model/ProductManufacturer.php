@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductManufacturer Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductManufacturer extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ProductManufacturerAttributes',
-'links' => '\Swagger\Client\Model\ProductManufacturerLinks',
-'relationships' => '\Swagger\Client\Model\ProductManufacturerRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ProductManufacturerAttributes',
+'links' => '\ShopwareSDK6\Model\ProductManufacturerLinks',
+'relationships' => '\ShopwareSDK6\Model\ProductManufacturerRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductManufacturer extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ProductManufacturerAttributes
+     * @return \ShopwareSDK6\Model\ProductManufacturerAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductManufacturer extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ProductManufacturerAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ProductManufacturerAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductManufacturer extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductManufacturerLinks
+     * @return \ShopwareSDK6\Model\ProductManufacturerLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductManufacturer extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductManufacturerLinks $links links
+     * @param \ShopwareSDK6\Model\ProductManufacturerLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductManufacturer extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ProductManufacturerRelationships
+     * @return \ShopwareSDK6\Model\ProductManufacturerRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductManufacturer extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ProductManufacturerRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ProductManufacturerRelationships $relationships relationships
      *
      * @return $this
      */

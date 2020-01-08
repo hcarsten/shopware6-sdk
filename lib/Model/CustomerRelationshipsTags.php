@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomerRelationshipsTags Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CustomerRelationshipsTags implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CustomerRelationshipsTagsLinks',
-'data' => '\Swagger\Client\Model\CustomerRelationshipsTagsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\CustomerRelationshipsTagsLinks',
+'data' => '\ShopwareSDK6\Model\CustomerRelationshipsTagsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CustomerRelationshipsTags implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsTagsLinks
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsTagsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CustomerRelationshipsTags implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsTagsLinks $links links
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsTagsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CustomerRelationshipsTags implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\CustomerRelationshipsTagsData[]
+     * @return \ShopwareSDK6\Model\CustomerRelationshipsTagsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CustomerRelationshipsTags implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\CustomerRelationshipsTagsData[] $data data
+     * @param \ShopwareSDK6\Model\CustomerRelationshipsTagsData[] $data data
      *
      * @return $this
      */

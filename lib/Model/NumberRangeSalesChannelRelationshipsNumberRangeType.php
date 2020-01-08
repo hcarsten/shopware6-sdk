@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * NumberRangeSalesChannelRelationshipsNumberRangeType Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class NumberRangeSalesChannelRelationshipsNumberRangeType implements ModelInterf
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\NumberRangeSalesChannelRelationshipsNumberRangeTypeLinks',
-'data' => '\Swagger\Client\Model\NumberRangeRelationshipsTypeData'    ];
+        'links' => '\ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRangeTypeLinks',
+'data' => '\ShopwareSDK6\Model\NumberRangeRelationshipsTypeData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class NumberRangeSalesChannelRelationshipsNumberRangeType implements ModelInterf
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\NumberRangeSalesChannelRelationshipsNumberRangeTypeLinks
+     * @return \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRangeTypeLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class NumberRangeSalesChannelRelationshipsNumberRangeType implements ModelInterf
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\NumberRangeSalesChannelRelationshipsNumberRangeTypeLinks $links links
+     * @param \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRangeTypeLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class NumberRangeSalesChannelRelationshipsNumberRangeType implements ModelInterf
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\NumberRangeRelationshipsTypeData
+     * @return \ShopwareSDK6\Model\NumberRangeRelationshipsTypeData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class NumberRangeSalesChannelRelationshipsNumberRangeType implements ModelInterf
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\NumberRangeRelationshipsTypeData $data data
+     * @param \ShopwareSDK6\Model\NumberRangeRelationshipsTypeData $data data
      *
      * @return $this
      */

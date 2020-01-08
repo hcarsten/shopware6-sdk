@@ -16,13 +16,13 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**media** | [**\Swagger\Client\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**availability_rule** | [**\Swagger\Client\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
-**sales_channel_default_assignments** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**plugin** | [**\Swagger\Client\Model\PluginFlat**](PluginFlat.md) |  | [optional] 
-**customers** | [**\Swagger\Client\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
-**order_transactions** | [**\Swagger\Client\Model\OrderTransactionFlat**](OrderTransactionFlat.md) |  | [optional] 
-**sales_channels** | [**\Swagger\Client\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**availability_rule** | [**\ShopwareSDK6\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
+**sales_channel_default_assignments** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**plugin** | [**\ShopwareSDK6\Model\PluginFlat**](PluginFlat.md) |  | [optional] 
+**customers** | [**\ShopwareSDK6\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
+**order_transactions** | [**\ShopwareSDK6\Model\OrderTransactionFlat**](OrderTransactionFlat.md) |  | [optional] 
+**sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Document Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Document extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\DocumentAttributes',
-'links' => '\Swagger\Client\Model\DocumentLinks',
-'relationships' => '\Swagger\Client\Model\DocumentRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\DocumentAttributes',
+'links' => '\ShopwareSDK6\Model\DocumentLinks',
+'relationships' => '\ShopwareSDK6\Model\DocumentRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Document extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\DocumentAttributes
+     * @return \ShopwareSDK6\Model\DocumentAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Document extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\DocumentAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\DocumentAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Document extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\DocumentLinks
+     * @return \ShopwareSDK6\Model\DocumentLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Document extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\DocumentLinks $links links
+     * @param \ShopwareSDK6\Model\DocumentLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Document extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\DocumentRelationships
+     * @return \ShopwareSDK6\Model\DocumentRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Document extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\DocumentRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\DocumentRelationships $relationships relationships
      *
      * @return $this
      */

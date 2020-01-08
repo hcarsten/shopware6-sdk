@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * Currency Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Currency extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\CurrencyAttributes',
-'links' => '\Swagger\Client\Model\CurrencyLinks',
-'relationships' => '\Swagger\Client\Model\CurrencyRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\CurrencyAttributes',
+'links' => '\ShopwareSDK6\Model\CurrencyLinks',
+'relationships' => '\ShopwareSDK6\Model\CurrencyRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Currency extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\CurrencyAttributes
+     * @return \ShopwareSDK6\Model\CurrencyAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Currency extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\CurrencyAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\CurrencyAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Currency extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CurrencyLinks
+     * @return \ShopwareSDK6\Model\CurrencyLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Currency extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CurrencyLinks $links links
+     * @param \ShopwareSDK6\Model\CurrencyLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Currency extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\CurrencyRelationships
+     * @return \ShopwareSDK6\Model\CurrencyRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Currency extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\CurrencyRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\CurrencyRelationships $relationships relationships
      *
      * @return $this
      */

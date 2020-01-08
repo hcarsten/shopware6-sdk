@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **order_id** | **string** |  | 
 **order_version_id** | **string** |  | [optional] 
 **payment_method_id** | **string** |  | 
-**amount** | [**\Swagger\Client\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | 
+**amount** | [**\ShopwareSDK6\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | 
 **state_id** | **string** |  | 
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 

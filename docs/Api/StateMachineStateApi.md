@@ -1,4 +1,4 @@
-# Swagger\Client\StateMachineStateApi
+# ShopwareSDK6\StateMachineStateApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateStateMachineState**](StateMachineStateApi.md#updatestatemachinestate) | **PATCH** /state-machine-state/{id} | Partially update information about a State Machine State resource
 
 # **createStateMachineState**
-> \Swagger\Client\Model\InlineResponse200282 createStateMachineState($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200282 createStateMachineState($body, $_response)
 
 Create a new State Machine State resources
 
@@ -22,12 +22,12 @@ Create a new State Machine State resources. All required fields must be provided
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\StateMachineStateApi(
+$apiInstance = new ShopwareSDK6\Api\StateMachineStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body186(); // \Swagger\Client\Model\Body186 | 
+$body = new \ShopwareSDK6\Model\Body186(); // \ShopwareSDK6\Model\Body186 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body186**](../Model/Body186.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body186**](../Model/Body186.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
+[**\ShopwareSDK6\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createStateMachineState**
-> \Swagger\Client\Model\InlineResponse200282 createStateMachineState($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200282 createStateMachineState($body, $_response)
 
 Create a new State Machine State resources
 
@@ -73,12 +73,12 @@ Create a new State Machine State resources. All required fields must be provided
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\StateMachineStateApi(
+$apiInstance = new ShopwareSDK6\Api\StateMachineStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\StateMachineStateFlat(); // \Swagger\Client\Model\StateMachineStateFlat | 
+$body = new \ShopwareSDK6\Model\StateMachineStateFlat(); // \ShopwareSDK6\Model\StateMachineStateFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\StateMachineStateFlat**](../Model/StateMachineStateFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\StateMachineStateFlat**](../Model/StateMachineStateFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
+[**\ShopwareSDK6\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a State Machine State resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\StateMachineStateApi(
+$apiInstance = new ShopwareSDK6\Api\StateMachineStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStateMachineState**
-> \Swagger\Client\Model\InlineResponse200282 getStateMachineState($id)
+> \ShopwareSDK6\Model\InlineResponse200282 getStateMachineState($id)
 
 Detailed information about a State Machine State resource
 
@@ -170,7 +170,7 @@ Detailed information about a State Machine State resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\StateMachineStateApi(
+$apiInstance = new ShopwareSDK6\Api\StateMachineStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
+[**\ShopwareSDK6\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStateMachineStateList**
-> \Swagger\Client\Model\InlineResponse200280 getStateMachineStateList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse200280 getStateMachineStateList($limit, $page, $query)
 
 List with basic information of State Machine State resources
 
@@ -217,7 +217,7 @@ List with basic information of State Machine State resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\StateMachineStateApi(
+$apiInstance = new ShopwareSDK6\Api\StateMachineStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200280**](../Model/InlineResponse200280.md)
+[**\ShopwareSDK6\Model\InlineResponse200280**](../Model/InlineResponse200280.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateStateMachineState**
-> \Swagger\Client\Model\InlineResponse200282 updateStateMachineState($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200282 updateStateMachineState($id, $body, $_response)
 
 Partially update information about a State Machine State resource
 
@@ -268,13 +268,13 @@ Partially update information about a State Machine State resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\StateMachineStateApi(
+$apiInstance = new ShopwareSDK6\Api\StateMachineStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the state_machine_state
-$body = new \Swagger\Client\Model\Body187(); // \Swagger\Client\Model\Body187 | Partially update information about a State Machine State resource.
+$body = new \ShopwareSDK6\Model\Body187(); // \ShopwareSDK6\Model\Body187 | Partially update information about a State Machine State resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the state_machine_state |
- **body** | [**\Swagger\Client\Model\Body187**](../Model/Body187.md)| Partially update information about a State Machine State resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body187**](../Model/Body187.md)| Partially update information about a State Machine State resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
+[**\ShopwareSDK6\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateStateMachineState**
-> \Swagger\Client\Model\InlineResponse200282 updateStateMachineState($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse200282 updateStateMachineState($id, $body, $_response)
 
 Partially update information about a State Machine State resource
 
@@ -319,13 +319,13 @@ Partially update information about a State Machine State resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\StateMachineStateApi(
+$apiInstance = new ShopwareSDK6\Api\StateMachineStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the state_machine_state
-$body = new \Swagger\Client\Model\StateMachineStateFlat(); // \Swagger\Client\Model\StateMachineStateFlat | Partially update information about a State Machine State resource.
+$body = new \ShopwareSDK6\Model\StateMachineStateFlat(); // \ShopwareSDK6\Model\StateMachineStateFlat | Partially update information about a State Machine State resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the state_machine_state |
- **body** | [**\Swagger\Client\Model\StateMachineStateFlat**](../Model/StateMachineStateFlat.md)| Partially update information about a State Machine State resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\StateMachineStateFlat**](../Model/StateMachineStateFlat.md)| Partially update information about a State Machine State resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
+[**\ShopwareSDK6\Model\InlineResponse200282**](../Model/InlineResponse200282.md)
 
 ### Authorization
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DocumentRelationshipsDependentDocuments Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class DocumentRelationshipsDependentDocuments implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\DocumentRelationshipsDependentDocumentsLinks',
-'data' => '\Swagger\Client\Model\DocumentRelationshipsDependentDocumentsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\DocumentRelationshipsDependentDocumentsLinks',
+'data' => '\ShopwareSDK6\Model\DocumentRelationshipsDependentDocumentsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class DocumentRelationshipsDependentDocuments implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\DocumentRelationshipsDependentDocumentsLinks
+     * @return \ShopwareSDK6\Model\DocumentRelationshipsDependentDocumentsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class DocumentRelationshipsDependentDocuments implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\DocumentRelationshipsDependentDocumentsLinks $links links
+     * @param \ShopwareSDK6\Model\DocumentRelationshipsDependentDocumentsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class DocumentRelationshipsDependentDocuments implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\DocumentRelationshipsDependentDocumentsData[]
+     * @return \ShopwareSDK6\Model\DocumentRelationshipsDependentDocumentsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class DocumentRelationshipsDependentDocuments implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\DocumentRelationshipsDependentDocumentsData[] $data data
+     * @param \ShopwareSDK6\Model\DocumentRelationshipsDependentDocumentsData[] $data data
      *
      * @return $this
      */

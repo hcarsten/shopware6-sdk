@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SalesChannelRelationshipsProductExports Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelRelationshipsProductExports implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\SalesChannelRelationshipsProductExportsLinks',
-'data' => '\Swagger\Client\Model\SalesChannelRelationshipsProductExportsData[]'    ];
+        'links' => '\ShopwareSDK6\Model\SalesChannelRelationshipsProductExportsLinks',
+'data' => '\ShopwareSDK6\Model\SalesChannelRelationshipsProductExportsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelRelationshipsProductExports implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsProductExportsLinks
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsProductExportsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelRelationshipsProductExports implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsProductExportsLinks $links links
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsProductExportsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelRelationshipsProductExports implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\SalesChannelRelationshipsProductExportsData[]
+     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsProductExportsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelRelationshipsProductExports implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\SalesChannelRelationshipsProductExportsData[] $data data
+     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsProductExportsData[] $data data
      *
      * @return $this
      */

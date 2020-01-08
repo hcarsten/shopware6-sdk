@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * UserRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,14 +56,14 @@ class UserRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'locale' => '\Swagger\Client\Model\UserRelationshipsLocale',
-'avatar_media' => '\Swagger\Client\Model\UserRelationshipsAvatarMedia',
-'media' => '\Swagger\Client\Model\UserRelationshipsMedia',
-'access_keys' => '\Swagger\Client\Model\UserRelationshipsAccessKeys',
-'state_machine_history_entries' => '\Swagger\Client\Model\UserRelationshipsStateMachineHistoryEntries',
-'import_export_log_entries' => '\Swagger\Client\Model\UserRelationshipsImportExportLogEntries',
-'acl_roles' => '\Swagger\Client\Model\UserRelationshipsAclRoles',
-'recovery_user' => '\Swagger\Client\Model\UserRelationshipsRecoveryUser'    ];
+        'locale' => '\ShopwareSDK6\Model\UserRelationshipsLocale',
+'avatar_media' => '\ShopwareSDK6\Model\UserRelationshipsAvatarMedia',
+'media' => '\ShopwareSDK6\Model\UserRelationshipsMedia',
+'access_keys' => '\ShopwareSDK6\Model\UserRelationshipsAccessKeys',
+'state_machine_history_entries' => '\ShopwareSDK6\Model\UserRelationshipsStateMachineHistoryEntries',
+'import_export_log_entries' => '\ShopwareSDK6\Model\UserRelationshipsImportExportLogEntries',
+'acl_roles' => '\ShopwareSDK6\Model\UserRelationshipsAclRoles',
+'recovery_user' => '\ShopwareSDK6\Model\UserRelationshipsRecoveryUser'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -241,7 +241,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets locale
      *
-     * @return \Swagger\Client\Model\UserRelationshipsLocale
+     * @return \ShopwareSDK6\Model\UserRelationshipsLocale
      */
     public function getLocale()
     {
@@ -251,7 +251,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets locale
      *
-     * @param \Swagger\Client\Model\UserRelationshipsLocale $locale locale
+     * @param \ShopwareSDK6\Model\UserRelationshipsLocale $locale locale
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets avatar_media
      *
-     * @return \Swagger\Client\Model\UserRelationshipsAvatarMedia
+     * @return \ShopwareSDK6\Model\UserRelationshipsAvatarMedia
      */
     public function getAvatarMedia()
     {
@@ -275,7 +275,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets avatar_media
      *
-     * @param \Swagger\Client\Model\UserRelationshipsAvatarMedia $avatar_media avatar_media
+     * @param \ShopwareSDK6\Model\UserRelationshipsAvatarMedia $avatar_media avatar_media
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \Swagger\Client\Model\UserRelationshipsMedia
+     * @return \ShopwareSDK6\Model\UserRelationshipsMedia
      */
     public function getMedia()
     {
@@ -299,7 +299,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \Swagger\Client\Model\UserRelationshipsMedia $media media
+     * @param \ShopwareSDK6\Model\UserRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets access_keys
      *
-     * @return \Swagger\Client\Model\UserRelationshipsAccessKeys
+     * @return \ShopwareSDK6\Model\UserRelationshipsAccessKeys
      */
     public function getAccessKeys()
     {
@@ -323,7 +323,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets access_keys
      *
-     * @param \Swagger\Client\Model\UserRelationshipsAccessKeys $access_keys access_keys
+     * @param \ShopwareSDK6\Model\UserRelationshipsAccessKeys $access_keys access_keys
      *
      * @return $this
      */
@@ -337,7 +337,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine_history_entries
      *
-     * @return \Swagger\Client\Model\UserRelationshipsStateMachineHistoryEntries
+     * @return \ShopwareSDK6\Model\UserRelationshipsStateMachineHistoryEntries
      */
     public function getStateMachineHistoryEntries()
     {
@@ -347,7 +347,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine_history_entries
      *
-     * @param \Swagger\Client\Model\UserRelationshipsStateMachineHistoryEntries $state_machine_history_entries state_machine_history_entries
+     * @param \ShopwareSDK6\Model\UserRelationshipsStateMachineHistoryEntries $state_machine_history_entries state_machine_history_entries
      *
      * @return $this
      */
@@ -361,7 +361,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets import_export_log_entries
      *
-     * @return \Swagger\Client\Model\UserRelationshipsImportExportLogEntries
+     * @return \ShopwareSDK6\Model\UserRelationshipsImportExportLogEntries
      */
     public function getImportExportLogEntries()
     {
@@ -371,7 +371,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets import_export_log_entries
      *
-     * @param \Swagger\Client\Model\UserRelationshipsImportExportLogEntries $import_export_log_entries import_export_log_entries
+     * @param \ShopwareSDK6\Model\UserRelationshipsImportExportLogEntries $import_export_log_entries import_export_log_entries
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets acl_roles
      *
-     * @return \Swagger\Client\Model\UserRelationshipsAclRoles
+     * @return \ShopwareSDK6\Model\UserRelationshipsAclRoles
      */
     public function getAclRoles()
     {
@@ -395,7 +395,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets acl_roles
      *
-     * @param \Swagger\Client\Model\UserRelationshipsAclRoles $acl_roles acl_roles
+     * @param \ShopwareSDK6\Model\UserRelationshipsAclRoles $acl_roles acl_roles
      *
      * @return $this
      */
@@ -409,7 +409,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets recovery_user
      *
-     * @return \Swagger\Client\Model\UserRelationshipsRecoveryUser
+     * @return \ShopwareSDK6\Model\UserRelationshipsRecoveryUser
      */
     public function getRecoveryUser()
     {
@@ -419,7 +419,7 @@ class UserRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets recovery_user
      *
-     * @param \Swagger\Client\Model\UserRelationshipsRecoveryUser $recovery_user recovery_user
+     * @param \ShopwareSDK6\Model\UserRelationshipsRecoveryUser $recovery_user recovery_user
      *
      * @return $this
      */

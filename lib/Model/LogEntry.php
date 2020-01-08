@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * LogEntry Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LogEntry extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\LogEntryAttributes',
-'links' => '\Swagger\Client\Model\LogEntryLinks'    ];
+'attributes' => '\ShopwareSDK6\Model\LogEntryAttributes',
+'links' => '\ShopwareSDK6\Model\LogEntryLinks'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -259,7 +259,7 @@ class LogEntry extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\LogEntryAttributes
+     * @return \ShopwareSDK6\Model\LogEntryAttributes
      */
     public function getAttributes()
     {
@@ -269,7 +269,7 @@ class LogEntry extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\LogEntryAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\LogEntryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class LogEntry extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\LogEntryLinks
+     * @return \ShopwareSDK6\Model\LogEntryLinks
      */
     public function getLinks()
     {
@@ -293,7 +293,7 @@ class LogEntry extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\LogEntryLinks $links links
+     * @param \ShopwareSDK6\Model\LogEntryLinks $links links
      *
      * @return $this
      */

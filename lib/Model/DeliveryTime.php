@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * DeliveryTime Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class DeliveryTime extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\DeliveryTimeAttributes',
-'links' => '\Swagger\Client\Model\DeliveryTimeLinks',
-'relationships' => '\Swagger\Client\Model\DeliveryTimeRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\DeliveryTimeAttributes',
+'links' => '\ShopwareSDK6\Model\DeliveryTimeLinks',
+'relationships' => '\ShopwareSDK6\Model\DeliveryTimeRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class DeliveryTime extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\DeliveryTimeAttributes
+     * @return \ShopwareSDK6\Model\DeliveryTimeAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class DeliveryTime extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\DeliveryTimeAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\DeliveryTimeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class DeliveryTime extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\DeliveryTimeLinks
+     * @return \ShopwareSDK6\Model\DeliveryTimeLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class DeliveryTime extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\DeliveryTimeLinks $links links
+     * @param \ShopwareSDK6\Model\DeliveryTimeLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class DeliveryTime extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\DeliveryTimeRelationships
+     * @return \ShopwareSDK6\Model\DeliveryTimeRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class DeliveryTime extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\DeliveryTimeRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\DeliveryTimeRelationships $relationships relationships
      *
      * @return $this
      */

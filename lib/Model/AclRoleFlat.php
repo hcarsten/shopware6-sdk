@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * AclRoleFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,8 +60,8 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'name' => 'string',
-'acl_resources' => '\Swagger\Client\Model\AclResourceFlat',
-'users' => '\Swagger\Client\Model\UserFlat'    ];
+'acl_resources' => '\ShopwareSDK6\Model\AclResourceFlat',
+'users' => '\ShopwareSDK6\Model\UserFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -334,7 +334,7 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets acl_resources
      *
-     * @return \Swagger\Client\Model\AclResourceFlat
+     * @return \ShopwareSDK6\Model\AclResourceFlat
      */
     public function getAclResources()
     {
@@ -344,7 +344,7 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets acl_resources
      *
-     * @param \Swagger\Client\Model\AclResourceFlat $acl_resources acl_resources
+     * @param \ShopwareSDK6\Model\AclResourceFlat $acl_resources acl_resources
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets users
      *
-     * @return \Swagger\Client\Model\UserFlat
+     * @return \ShopwareSDK6\Model\UserFlat
      */
     public function getUsers()
     {
@@ -368,7 +368,7 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets users
      *
-     * @param \Swagger\Client\Model\UserFlat $users users
+     * @param \ShopwareSDK6\Model\UserFlat $users users
      *
      * @return $this
      */

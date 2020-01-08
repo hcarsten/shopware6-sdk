@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CustomerAddressRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'customer' => '\Swagger\Client\Model\CustomerAddressRelationshipsCustomer',
-'country' => '\Swagger\Client\Model\CustomerAddressRelationshipsCountry',
-'country_state' => '\Swagger\Client\Model\CustomerAddressRelationshipsCountryState',
-'salutation' => '\Swagger\Client\Model\CustomerAddressRelationshipsSalutation'    ];
+        'customer' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsCustomer',
+'country' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsCountry',
+'country_state' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsCountryState',
+'salutation' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsSalutation'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -217,7 +217,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \Swagger\Client\Model\CustomerAddressRelationshipsCustomer
+     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsCustomer
      */
     public function getCustomer()
     {
@@ -227,7 +227,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \Swagger\Client\Model\CustomerAddressRelationshipsCustomer $customer customer
+     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsCustomer $customer customer
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\CustomerAddressRelationshipsCountry
+     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsCountry
      */
     public function getCountry()
     {
@@ -251,7 +251,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\CustomerAddressRelationshipsCountry $country country
+     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsCountry $country country
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets country_state
      *
-     * @return \Swagger\Client\Model\CustomerAddressRelationshipsCountryState
+     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsCountryState
      */
     public function getCountryState()
     {
@@ -275,7 +275,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets country_state
      *
-     * @param \Swagger\Client\Model\CustomerAddressRelationshipsCountryState $country_state country_state
+     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsCountryState $country_state country_state
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \Swagger\Client\Model\CustomerAddressRelationshipsSalutation
+     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsSalutation
      */
     public function getSalutation()
     {
@@ -299,7 +299,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \Swagger\Client\Model\CustomerAddressRelationshipsSalutation $salutation salutation
+     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsSalutation $salutation salutation
      *
      * @return $this
      */

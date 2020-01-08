@@ -14,9 +14,9 @@ Name | Type | Description | Notes
 **profile_name** | **string** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**user** | [**\Swagger\Client\Model\UserFlat**](UserFlat.md) |  | [optional] 
-**profile** | [**\Swagger\Client\Model\ImportExportProfileFlat**](ImportExportProfileFlat.md) |  | [optional] 
-**file** | [**\Swagger\Client\Model\ImportExportFileFlat**](ImportExportFileFlat.md) |  | [optional] 
+**user** | [**\ShopwareSDK6\Model\UserFlat**](UserFlat.md) |  | [optional] 
+**profile** | [**\ShopwareSDK6\Model\ImportExportProfileFlat**](ImportExportProfileFlat.md) |  | [optional] 
+**file** | [**\ShopwareSDK6\Model\ImportExportFileFlat**](ImportExportFileFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

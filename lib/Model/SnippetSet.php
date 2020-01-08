@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SnippetSet Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class SnippetSet extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\SnippetSetAttributes',
-'links' => '\Swagger\Client\Model\SnippetSetLinks',
-'relationships' => '\Swagger\Client\Model\SnippetSetRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\SnippetSetAttributes',
+'links' => '\ShopwareSDK6\Model\SnippetSetLinks',
+'relationships' => '\ShopwareSDK6\Model\SnippetSetRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class SnippetSet extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\SnippetSetAttributes
+     * @return \ShopwareSDK6\Model\SnippetSetAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class SnippetSet extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\SnippetSetAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\SnippetSetAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class SnippetSet extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SnippetSetLinks
+     * @return \ShopwareSDK6\Model\SnippetSetLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class SnippetSet extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SnippetSetLinks $links links
+     * @param \ShopwareSDK6\Model\SnippetSetLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class SnippetSet extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\SnippetSetRelationships
+     * @return \ShopwareSDK6\Model\SnippetSetRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class SnippetSet extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\SnippetSetRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\SnippetSetRelationships $relationships relationships
      *
      * @return $this
      */

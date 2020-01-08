@@ -13,9 +13,9 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**country** | [**\Swagger\Client\Model\CountryFlat**](CountryFlat.md) |  | [optional] 
-**customer_addresses** | [**\Swagger\Client\Model\CustomerAddressFlat**](CustomerAddressFlat.md) |  | [optional] 
-**order_addresses** | [**\Swagger\Client\Model\OrderAddressFlat**](OrderAddressFlat.md) |  | [optional] 
+**country** | [**\ShopwareSDK6\Model\CountryFlat**](CountryFlat.md) |  | [optional] 
+**customer_addresses** | [**\ShopwareSDK6\Model\CustomerAddressFlat**](CustomerAddressFlat.md) |  | [optional] 
+**order_addresses** | [**\ShopwareSDK6\Model\OrderAddressFlat**](OrderAddressFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

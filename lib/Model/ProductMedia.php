@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ProductMedia Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductMedia extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\ProductMediaAttributes',
-'links' => '\Swagger\Client\Model\ProductMediaLinks',
-'relationships' => '\Swagger\Client\Model\ProductMediaRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\ProductMediaAttributes',
+'links' => '\ShopwareSDK6\Model\ProductMediaLinks',
+'relationships' => '\ShopwareSDK6\Model\ProductMediaRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductMedia extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\ProductMediaAttributes
+     * @return \ShopwareSDK6\Model\ProductMediaAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductMedia extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\ProductMediaAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\ProductMediaAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductMedia extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProductMediaLinks
+     * @return \ShopwareSDK6\Model\ProductMediaLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductMedia extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProductMediaLinks $links links
+     * @param \ShopwareSDK6\Model\ProductMediaLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductMedia extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\ProductMediaRelationships
+     * @return \ShopwareSDK6\Model\ProductMediaRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductMedia extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\ProductMediaRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\ProductMediaRelationships $relationships relationships
      *
      * @return $this
      */

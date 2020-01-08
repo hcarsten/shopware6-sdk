@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * StateMachineHistoryRelationshipsUser Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class StateMachineHistoryRelationshipsUser implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\StateMachineHistoryRelationshipsUserLinks',
-'data' => '\Swagger\Client\Model\ImportExportLogRelationshipsUserData'    ];
+        'links' => '\ShopwareSDK6\Model\StateMachineHistoryRelationshipsUserLinks',
+'data' => '\ShopwareSDK6\Model\ImportExportLogRelationshipsUserData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class StateMachineHistoryRelationshipsUser implements ModelInterface, ArrayAcces
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StateMachineHistoryRelationshipsUserLinks
+     * @return \ShopwareSDK6\Model\StateMachineHistoryRelationshipsUserLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class StateMachineHistoryRelationshipsUser implements ModelInterface, ArrayAcces
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StateMachineHistoryRelationshipsUserLinks $links links
+     * @param \ShopwareSDK6\Model\StateMachineHistoryRelationshipsUserLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class StateMachineHistoryRelationshipsUser implements ModelInterface, ArrayAcces
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ImportExportLogRelationshipsUserData
+     * @return \ShopwareSDK6\Model\ImportExportLogRelationshipsUserData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class StateMachineHistoryRelationshipsUser implements ModelInterface, ArrayAcces
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ImportExportLogRelationshipsUserData $data data
+     * @param \ShopwareSDK6\Model\ImportExportLogRelationshipsUserData $data data
      *
      * @return $this
      */

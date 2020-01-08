@@ -1,4 +1,4 @@
-# Swagger\Client\DeliveryTimeApi
+# ShopwareSDK6\DeliveryTimeApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateDeliveryTime**](DeliveryTimeApi.md#updatedeliverytime) | **PATCH** /delivery-time/{id} | Partially update information about a Delivery Time resource
 
 # **createDeliveryTime**
-> \Swagger\Client\Model\InlineResponse20057 createDeliveryTime($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20057 createDeliveryTime($body, $_response)
 
 Create a new Delivery Time resources
 
@@ -22,12 +22,12 @@ Create a new Delivery Time resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeliveryTimeApi(
+$apiInstance = new ShopwareSDK6\Api\DeliveryTimeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\Body36(); // \Swagger\Client\Model\Body36 | 
+$body = new \ShopwareSDK6\Model\Body36(); // \ShopwareSDK6\Model\Body36 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\Body36**](../Model/Body36.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body36**](../Model/Body36.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
+[**\ShopwareSDK6\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createDeliveryTime**
-> \Swagger\Client\Model\InlineResponse20057 createDeliveryTime($body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20057 createDeliveryTime($body, $_response)
 
 Create a new Delivery Time resources
 
@@ -73,12 +73,12 @@ Create a new Delivery Time resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeliveryTimeApi(
+$apiInstance = new ShopwareSDK6\Api\DeliveryTimeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \Swagger\Client\Model\DeliveryTimeFlat(); // \Swagger\Client\Model\DeliveryTimeFlat | 
+$body = new \ShopwareSDK6\Model\DeliveryTimeFlat(); // \ShopwareSDK6\Model\DeliveryTimeFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\DeliveryTimeFlat**](../Model/DeliveryTimeFlat.md)|  | [optional]
+ **body** | [**\ShopwareSDK6\Model\DeliveryTimeFlat**](../Model/DeliveryTimeFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
+[**\ShopwareSDK6\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Delivery Time resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeliveryTimeApi(
+$apiInstance = new ShopwareSDK6\Api\DeliveryTimeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDeliveryTime**
-> \Swagger\Client\Model\InlineResponse20057 getDeliveryTime($id)
+> \ShopwareSDK6\Model\InlineResponse20057 getDeliveryTime($id)
 
 Detailed information about a Delivery Time resource
 
@@ -170,7 +170,7 @@ Detailed information about a Delivery Time resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeliveryTimeApi(
+$apiInstance = new ShopwareSDK6\Api\DeliveryTimeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
+[**\ShopwareSDK6\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDeliveryTimeList**
-> \Swagger\Client\Model\InlineResponse20055 getDeliveryTimeList($limit, $page, $query)
+> \ShopwareSDK6\Model\InlineResponse20055 getDeliveryTimeList($limit, $page, $query)
 
 List with basic information of Delivery Time resources
 
@@ -217,7 +217,7 @@ List with basic information of Delivery Time resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeliveryTimeApi(
+$apiInstance = new ShopwareSDK6\Api\DeliveryTimeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20055**](../Model/InlineResponse20055.md)
+[**\ShopwareSDK6\Model\InlineResponse20055**](../Model/InlineResponse20055.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDeliveryTime**
-> \Swagger\Client\Model\InlineResponse20057 updateDeliveryTime($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20057 updateDeliveryTime($id, $body, $_response)
 
 Partially update information about a Delivery Time resource
 
@@ -268,13 +268,13 @@ Partially update information about a Delivery Time resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeliveryTimeApi(
+$apiInstance = new ShopwareSDK6\Api\DeliveryTimeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the delivery_time
-$body = new \Swagger\Client\Model\Body37(); // \Swagger\Client\Model\Body37 | Partially update information about a Delivery Time resource.
+$body = new \ShopwareSDK6\Model\Body37(); // \ShopwareSDK6\Model\Body37 | Partially update information about a Delivery Time resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the delivery_time |
- **body** | [**\Swagger\Client\Model\Body37**](../Model/Body37.md)| Partially update information about a Delivery Time resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\Body37**](../Model/Body37.md)| Partially update information about a Delivery Time resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
+[**\ShopwareSDK6\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDeliveryTime**
-> \Swagger\Client\Model\InlineResponse20057 updateDeliveryTime($id, $body, $_response)
+> \ShopwareSDK6\Model\InlineResponse20057 updateDeliveryTime($id, $body, $_response)
 
 Partially update information about a Delivery Time resource
 
@@ -319,13 +319,13 @@ Partially update information about a Delivery Time resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\DeliveryTimeApi(
+$apiInstance = new ShopwareSDK6\Api\DeliveryTimeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the delivery_time
-$body = new \Swagger\Client\Model\DeliveryTimeFlat(); // \Swagger\Client\Model\DeliveryTimeFlat | Partially update information about a Delivery Time resource.
+$body = new \ShopwareSDK6\Model\DeliveryTimeFlat(); // \ShopwareSDK6\Model\DeliveryTimeFlat | Partially update information about a Delivery Time resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the delivery_time |
- **body** | [**\Swagger\Client\Model\DeliveryTimeFlat**](../Model/DeliveryTimeFlat.md)| Partially update information about a Delivery Time resource. | [optional]
+ **body** | [**\ShopwareSDK6\Model\DeliveryTimeFlat**](../Model/DeliveryTimeFlat.md)| Partially update information about a Delivery Time resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
+[**\ShopwareSDK6\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
 
 ### Authorization
 

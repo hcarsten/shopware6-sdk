@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * SystemConfig Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class SystemConfig extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\SystemConfigAttributes',
-'links' => '\Swagger\Client\Model\SystemConfigLinks',
-'relationships' => '\Swagger\Client\Model\SystemConfigRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\SystemConfigAttributes',
+'links' => '\ShopwareSDK6\Model\SystemConfigLinks',
+'relationships' => '\ShopwareSDK6\Model\SystemConfigRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class SystemConfig extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\SystemConfigAttributes
+     * @return \ShopwareSDK6\Model\SystemConfigAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class SystemConfig extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\SystemConfigAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\SystemConfigAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class SystemConfig extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\SystemConfigLinks
+     * @return \ShopwareSDK6\Model\SystemConfigLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class SystemConfig extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\SystemConfigLinks $links links
+     * @param \ShopwareSDK6\Model\SystemConfigLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class SystemConfig extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\SystemConfigRelationships
+     * @return \ShopwareSDK6\Model\SystemConfigRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class SystemConfig extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\SystemConfigRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\SystemConfigRelationships $relationships relationships
      *
      * @return $this
      */

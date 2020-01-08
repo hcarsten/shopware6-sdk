@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * ThemeSalesChannelFlat Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class ThemeSalesChannelFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'sales_channel_id' => 'string',
 'theme_id' => 'string',
-'theme' => '\Swagger\Client\Model\ThemeFlat',
-'sales_channel' => '\Swagger\Client\Model\SalesChannelFlat'    ];
+'theme' => '\ShopwareSDK6\Model\ThemeFlat',
+'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class ThemeSalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets theme
      *
-     * @return \Swagger\Client\Model\ThemeFlat
+     * @return \ShopwareSDK6\Model\ThemeFlat
      */
     public function getTheme()
     {
@@ -311,7 +311,7 @@ class ThemeSalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets theme
      *
-     * @param \Swagger\Client\Model\ThemeFlat $theme theme
+     * @param \ShopwareSDK6\Model\ThemeFlat $theme theme
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class ThemeSalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \Swagger\Client\Model\SalesChannelFlat
+     * @return \ShopwareSDK6\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -335,7 +335,7 @@ class ThemeSalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \Swagger\Client\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */

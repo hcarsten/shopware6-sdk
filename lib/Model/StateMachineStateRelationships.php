@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace ShopwareSDK6\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * StateMachineStateRelationships Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,14 +56,14 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'state_machine' => '\Swagger\Client\Model\StateMachineStateRelationshipsStateMachine',
-'from_state_machine_transitions' => '\Swagger\Client\Model\StateMachineStateRelationshipsFromStateMachineTransitions',
-'to_state_machine_transitions' => '\Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineTransitions',
-'order_transactions' => '\Swagger\Client\Model\StateMachineStateRelationshipsOrderTransactions',
-'order_deliveries' => '\Swagger\Client\Model\StateMachineStateRelationshipsOrderDeliveries',
-'orders' => '\Swagger\Client\Model\StateMachineStateRelationshipsOrders',
-'to_state_machine_history_entries' => '\Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineHistoryEntries',
-'from_state_machine_history_entries' => '\Swagger\Client\Model\StateMachineStateRelationshipsFromStateMachineHistoryEntries'    ];
+        'state_machine' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsStateMachine',
+'from_state_machine_transitions' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsFromStateMachineTransitions',
+'to_state_machine_transitions' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineTransitions',
+'order_transactions' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsOrderTransactions',
+'order_deliveries' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsOrderDeliveries',
+'orders' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsOrders',
+'to_state_machine_history_entries' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineHistoryEntries',
+'from_state_machine_history_entries' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsFromStateMachineHistoryEntries'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -241,7 +241,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsStateMachine
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsStateMachine
      */
     public function getStateMachine()
     {
@@ -251,7 +251,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsStateMachine $state_machine state_machine
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsStateMachine $state_machine state_machine
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets from_state_machine_transitions
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsFromStateMachineTransitions
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsFromStateMachineTransitions
      */
     public function getFromStateMachineTransitions()
     {
@@ -275,7 +275,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets from_state_machine_transitions
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsFromStateMachineTransitions $from_state_machine_transitions from_state_machine_transitions
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsFromStateMachineTransitions $from_state_machine_transitions from_state_machine_transitions
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets to_state_machine_transitions
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineTransitions
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineTransitions
      */
     public function getToStateMachineTransitions()
     {
@@ -299,7 +299,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets to_state_machine_transitions
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineTransitions $to_state_machine_transitions to_state_machine_transitions
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineTransitions $to_state_machine_transitions to_state_machine_transitions
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_transactions
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsOrderTransactions
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsOrderTransactions
      */
     public function getOrderTransactions()
     {
@@ -323,7 +323,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_transactions
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsOrderTransactions $order_transactions order_transactions
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsOrderTransactions $order_transactions order_transactions
      *
      * @return $this
      */
@@ -337,7 +337,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_deliveries
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsOrderDeliveries
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsOrderDeliveries
      */
     public function getOrderDeliveries()
     {
@@ -347,7 +347,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_deliveries
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsOrderDeliveries $order_deliveries order_deliveries
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsOrderDeliveries $order_deliveries order_deliveries
      *
      * @return $this
      */
@@ -361,7 +361,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsOrders
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsOrders
      */
     public function getOrders()
     {
@@ -371,7 +371,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsOrders $orders orders
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsOrders $orders orders
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets to_state_machine_history_entries
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineHistoryEntries
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineHistoryEntries
      */
     public function getToStateMachineHistoryEntries()
     {
@@ -395,7 +395,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets to_state_machine_history_entries
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsToStateMachineHistoryEntries $to_state_machine_history_entries to_state_machine_history_entries
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineHistoryEntries $to_state_machine_history_entries to_state_machine_history_entries
      *
      * @return $this
      */
@@ -409,7 +409,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets from_state_machine_history_entries
      *
-     * @return \Swagger\Client\Model\StateMachineStateRelationshipsFromStateMachineHistoryEntries
+     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsFromStateMachineHistoryEntries
      */
     public function getFromStateMachineHistoryEntries()
     {
@@ -419,7 +419,7 @@ class StateMachineStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets from_state_machine_history_entries
      *
-     * @param \Swagger\Client\Model\StateMachineStateRelationshipsFromStateMachineHistoryEntries $from_state_machine_history_entries from_state_machine_history_entries
+     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsFromStateMachineHistoryEntries $from_state_machine_history_entries from_state_machine_history_entries
      *
      * @return $this
      */

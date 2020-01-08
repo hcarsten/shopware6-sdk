@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace ShopwareSDK6\Model;
+use \ShopwareSDK6\ObjectSerializer;
 
 /**
  * CountryState Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  ShopwareSDK6
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CountryState extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\Swagger\Client\Model\CountryStateAttributes',
-'links' => '\Swagger\Client\Model\CountryStateLinks',
-'relationships' => '\Swagger\Client\Model\CountryStateRelationships'    ];
+'attributes' => '\ShopwareSDK6\Model\CountryStateAttributes',
+'links' => '\ShopwareSDK6\Model\CountryStateLinks',
+'relationships' => '\ShopwareSDK6\Model\CountryStateRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CountryState extends Resource
     /**
      * Gets attributes
      *
-     * @return \Swagger\Client\Model\CountryStateAttributes
+     * @return \ShopwareSDK6\Model\CountryStateAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CountryState extends Resource
     /**
      * Sets attributes
      *
-     * @param \Swagger\Client\Model\CountryStateAttributes $attributes attributes
+     * @param \ShopwareSDK6\Model\CountryStateAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CountryState extends Resource
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CountryStateLinks
+     * @return \ShopwareSDK6\Model\CountryStateLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CountryState extends Resource
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CountryStateLinks $links links
+     * @param \ShopwareSDK6\Model\CountryStateLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CountryState extends Resource
     /**
      * Gets relationships
      *
-     * @return \Swagger\Client\Model\CountryStateRelationships
+     * @return \ShopwareSDK6\Model\CountryStateRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CountryState extends Resource
     /**
      * Sets relationships
      *
-     * @param \Swagger\Client\Model\CountryStateRelationships $relationships relationships
+     * @param \ShopwareSDK6\Model\CountryStateRelationships $relationships relationships
      *
      * @return $this
      */
