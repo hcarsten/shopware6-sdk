@@ -24,7 +24,7 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
     }
   ],
   "require": {
-    "industryarena/shopware6-sdk": "*@dev"
+    "industryarena/shopware6-sdk": "dev-master"
   }
 }
 ```
