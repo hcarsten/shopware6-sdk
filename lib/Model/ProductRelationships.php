@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,28 +56,28 @@ class ProductRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'categories_ro' => '\ShopwareSDK6\Model\ProductRelationshipsCategoriesRo',
-'delivery_time' => '\ShopwareSDK6\Model\ProductRelationshipsDeliveryTime',
-'parent' => '\ShopwareSDK6\Model\ProductRelationshipsParent',
-'children' => '\ShopwareSDK6\Model\ProductRelationshipsChildren',
-'tax' => '\ShopwareSDK6\Model\ProductRelationshipsTax',
-'manufacturer' => '\ShopwareSDK6\Model\ProductRelationshipsManufacturer',
-'unit' => '\ShopwareSDK6\Model\ProductRelationshipsUnit',
-'cover' => '\ShopwareSDK6\Model\ProductRelationshipsCover',
-'prices' => '\ShopwareSDK6\Model\ProductRelationshipsPrices',
-'media' => '\ShopwareSDK6\Model\ProductRelationshipsMedia',
-'cross_sellings' => '\ShopwareSDK6\Model\ProductRelationshipsCrossSellings',
-'properties' => '\ShopwareSDK6\Model\ProductRelationshipsProperties',
-'categories' => '\ShopwareSDK6\Model\ProductRelationshipsCategories',
-'tags' => '\ShopwareSDK6\Model\ProductRelationshipsTags',
-'configurator_settings' => '\ShopwareSDK6\Model\ProductRelationshipsConfiguratorSettings',
-'options' => '\ShopwareSDK6\Model\ProductRelationshipsOptions',
-'visibilities' => '\ShopwareSDK6\Model\ProductRelationshipsVisibilities',
-'search_keywords' => '\ShopwareSDK6\Model\ProductRelationshipsSearchKeywords',
-'product_reviews' => '\ShopwareSDK6\Model\ProductRelationshipsProductReviews',
-'main_categories' => '\ShopwareSDK6\Model\ProductRelationshipsMainCategories',
-'seo_urls' => '\ShopwareSDK6\Model\ProductRelationshipsSeoUrls',
-'order_line_items' => '\ShopwareSDK6\Model\ProductRelationshipsOrderLineItems'    ];
+        'categories_ro' => '\Shopware6SDK\Model\ProductRelationshipsCategoriesRo',
+'delivery_time' => '\Shopware6SDK\Model\ProductRelationshipsDeliveryTime',
+'parent' => '\Shopware6SDK\Model\ProductRelationshipsParent',
+'children' => '\Shopware6SDK\Model\ProductRelationshipsChildren',
+'tax' => '\Shopware6SDK\Model\ProductRelationshipsTax',
+'manufacturer' => '\Shopware6SDK\Model\ProductRelationshipsManufacturer',
+'unit' => '\Shopware6SDK\Model\ProductRelationshipsUnit',
+'cover' => '\Shopware6SDK\Model\ProductRelationshipsCover',
+'prices' => '\Shopware6SDK\Model\ProductRelationshipsPrices',
+'media' => '\Shopware6SDK\Model\ProductRelationshipsMedia',
+'cross_sellings' => '\Shopware6SDK\Model\ProductRelationshipsCrossSellings',
+'properties' => '\Shopware6SDK\Model\ProductRelationshipsProperties',
+'categories' => '\Shopware6SDK\Model\ProductRelationshipsCategories',
+'tags' => '\Shopware6SDK\Model\ProductRelationshipsTags',
+'configurator_settings' => '\Shopware6SDK\Model\ProductRelationshipsConfiguratorSettings',
+'options' => '\Shopware6SDK\Model\ProductRelationshipsOptions',
+'visibilities' => '\Shopware6SDK\Model\ProductRelationshipsVisibilities',
+'search_keywords' => '\Shopware6SDK\Model\ProductRelationshipsSearchKeywords',
+'product_reviews' => '\Shopware6SDK\Model\ProductRelationshipsProductReviews',
+'main_categories' => '\Shopware6SDK\Model\ProductRelationshipsMainCategories',
+'seo_urls' => '\Shopware6SDK\Model\ProductRelationshipsSeoUrls',
+'order_line_items' => '\Shopware6SDK\Model\ProductRelationshipsOrderLineItems'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -325,7 +325,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets categories_ro
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsCategoriesRo
+     * @return \Shopware6SDK\Model\ProductRelationshipsCategoriesRo
      */
     public function getCategoriesRo()
     {
@@ -335,7 +335,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets categories_ro
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsCategoriesRo $categories_ro categories_ro
+     * @param \Shopware6SDK\Model\ProductRelationshipsCategoriesRo $categories_ro categories_ro
      *
      * @return $this
      */
@@ -349,7 +349,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_time
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsDeliveryTime
+     * @return \Shopware6SDK\Model\ProductRelationshipsDeliveryTime
      */
     public function getDeliveryTime()
     {
@@ -359,7 +359,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_time
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsDeliveryTime $delivery_time delivery_time
+     * @param \Shopware6SDK\Model\ProductRelationshipsDeliveryTime $delivery_time delivery_time
      *
      * @return $this
      */
@@ -373,7 +373,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsParent
+     * @return \Shopware6SDK\Model\ProductRelationshipsParent
      */
     public function getParent()
     {
@@ -383,7 +383,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsParent $parent parent
+     * @param \Shopware6SDK\Model\ProductRelationshipsParent $parent parent
      *
      * @return $this
      */
@@ -397,7 +397,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsChildren
+     * @return \Shopware6SDK\Model\ProductRelationshipsChildren
      */
     public function getChildren()
     {
@@ -407,7 +407,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsChildren $children children
+     * @param \Shopware6SDK\Model\ProductRelationshipsChildren $children children
      *
      * @return $this
      */
@@ -421,7 +421,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tax
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsTax
+     * @return \Shopware6SDK\Model\ProductRelationshipsTax
      */
     public function getTax()
     {
@@ -431,7 +431,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tax
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsTax $tax tax
+     * @param \Shopware6SDK\Model\ProductRelationshipsTax $tax tax
      *
      * @return $this
      */
@@ -445,7 +445,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets manufacturer
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsManufacturer
+     * @return \Shopware6SDK\Model\ProductRelationshipsManufacturer
      */
     public function getManufacturer()
     {
@@ -455,7 +455,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets manufacturer
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsManufacturer $manufacturer manufacturer
+     * @param \Shopware6SDK\Model\ProductRelationshipsManufacturer $manufacturer manufacturer
      *
      * @return $this
      */
@@ -469,7 +469,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets unit
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsUnit
+     * @return \Shopware6SDK\Model\ProductRelationshipsUnit
      */
     public function getUnit()
     {
@@ -479,7 +479,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets unit
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsUnit $unit unit
+     * @param \Shopware6SDK\Model\ProductRelationshipsUnit $unit unit
      *
      * @return $this
      */
@@ -493,7 +493,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets cover
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsCover
+     * @return \Shopware6SDK\Model\ProductRelationshipsCover
      */
     public function getCover()
     {
@@ -503,7 +503,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets cover
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsCover $cover cover
+     * @param \Shopware6SDK\Model\ProductRelationshipsCover $cover cover
      *
      * @return $this
      */
@@ -517,7 +517,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets prices
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsPrices
+     * @return \Shopware6SDK\Model\ProductRelationshipsPrices
      */
     public function getPrices()
     {
@@ -527,7 +527,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets prices
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsPrices $prices prices
+     * @param \Shopware6SDK\Model\ProductRelationshipsPrices $prices prices
      *
      * @return $this
      */
@@ -541,7 +541,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsMedia
+     * @return \Shopware6SDK\Model\ProductRelationshipsMedia
      */
     public function getMedia()
     {
@@ -551,7 +551,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\ProductRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -565,7 +565,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets cross_sellings
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsCrossSellings
+     * @return \Shopware6SDK\Model\ProductRelationshipsCrossSellings
      */
     public function getCrossSellings()
     {
@@ -575,7 +575,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets cross_sellings
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsCrossSellings $cross_sellings cross_sellings
+     * @param \Shopware6SDK\Model\ProductRelationshipsCrossSellings $cross_sellings cross_sellings
      *
      * @return $this
      */
@@ -589,7 +589,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets properties
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsProperties
+     * @return \Shopware6SDK\Model\ProductRelationshipsProperties
      */
     public function getProperties()
     {
@@ -599,7 +599,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets properties
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsProperties $properties properties
+     * @param \Shopware6SDK\Model\ProductRelationshipsProperties $properties properties
      *
      * @return $this
      */
@@ -613,7 +613,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsCategories
+     * @return \Shopware6SDK\Model\ProductRelationshipsCategories
      */
     public function getCategories()
     {
@@ -623,7 +623,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsCategories $categories categories
+     * @param \Shopware6SDK\Model\ProductRelationshipsCategories $categories categories
      *
      * @return $this
      */
@@ -637,7 +637,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsTags
+     * @return \Shopware6SDK\Model\ProductRelationshipsTags
      */
     public function getTags()
     {
@@ -647,7 +647,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsTags $tags tags
+     * @param \Shopware6SDK\Model\ProductRelationshipsTags $tags tags
      *
      * @return $this
      */
@@ -661,7 +661,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets configurator_settings
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsConfiguratorSettings
+     * @return \Shopware6SDK\Model\ProductRelationshipsConfiguratorSettings
      */
     public function getConfiguratorSettings()
     {
@@ -671,7 +671,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets configurator_settings
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsConfiguratorSettings $configurator_settings configurator_settings
+     * @param \Shopware6SDK\Model\ProductRelationshipsConfiguratorSettings $configurator_settings configurator_settings
      *
      * @return $this
      */
@@ -685,7 +685,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets options
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsOptions
+     * @return \Shopware6SDK\Model\ProductRelationshipsOptions
      */
     public function getOptions()
     {
@@ -695,7 +695,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets options
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsOptions $options options
+     * @param \Shopware6SDK\Model\ProductRelationshipsOptions $options options
      *
      * @return $this
      */
@@ -709,7 +709,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets visibilities
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsVisibilities
+     * @return \Shopware6SDK\Model\ProductRelationshipsVisibilities
      */
     public function getVisibilities()
     {
@@ -719,7 +719,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets visibilities
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsVisibilities $visibilities visibilities
+     * @param \Shopware6SDK\Model\ProductRelationshipsVisibilities $visibilities visibilities
      *
      * @return $this
      */
@@ -733,7 +733,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets search_keywords
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsSearchKeywords
+     * @return \Shopware6SDK\Model\ProductRelationshipsSearchKeywords
      */
     public function getSearchKeywords()
     {
@@ -743,7 +743,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets search_keywords
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsSearchKeywords $search_keywords search_keywords
+     * @param \Shopware6SDK\Model\ProductRelationshipsSearchKeywords $search_keywords search_keywords
      *
      * @return $this
      */
@@ -757,7 +757,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_reviews
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsProductReviews
+     * @return \Shopware6SDK\Model\ProductRelationshipsProductReviews
      */
     public function getProductReviews()
     {
@@ -767,7 +767,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_reviews
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsProductReviews $product_reviews product_reviews
+     * @param \Shopware6SDK\Model\ProductRelationshipsProductReviews $product_reviews product_reviews
      *
      * @return $this
      */
@@ -781,7 +781,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets main_categories
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsMainCategories
+     * @return \Shopware6SDK\Model\ProductRelationshipsMainCategories
      */
     public function getMainCategories()
     {
@@ -791,7 +791,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets main_categories
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsMainCategories $main_categories main_categories
+     * @param \Shopware6SDK\Model\ProductRelationshipsMainCategories $main_categories main_categories
      *
      * @return $this
      */
@@ -805,7 +805,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets seo_urls
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsSeoUrls
+     * @return \Shopware6SDK\Model\ProductRelationshipsSeoUrls
      */
     public function getSeoUrls()
     {
@@ -815,7 +815,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets seo_urls
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsSeoUrls $seo_urls seo_urls
+     * @param \Shopware6SDK\Model\ProductRelationshipsSeoUrls $seo_urls seo_urls
      *
      * @return $this
      */
@@ -829,7 +829,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_line_items
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsOrderLineItems
+     * @return \Shopware6SDK\Model\ProductRelationshipsOrderLineItems
      */
     public function getOrderLineItems()
     {
@@ -839,7 +839,7 @@ class ProductRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_line_items
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsOrderLineItems $order_line_items order_line_items
+     * @param \Shopware6SDK\Model\ProductRelationshipsOrderLineItems $order_line_items order_line_items
      *
      * @return $this
      */

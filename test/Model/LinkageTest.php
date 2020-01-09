@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace ShopwareSDK6;
+namespace Shopware6SDK;
 
 /**
  * LinkageTest Class Doc Comment
  *
  * @category    Class
  * @description The \&quot;type\&quot; and \&quot;id\&quot; to non-empty members.
- * @package     ShopwareSDK6
+ * @package     Shopware6SDK
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SeoUrlRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SeoUrlRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'language' => '\ShopwareSDK6\Model\SeoUrlRelationshipsLanguage',
-'sales_channel' => '\ShopwareSDK6\Model\SeoUrlRelationshipsSalesChannel'    ];
+        'language' => '\Shopware6SDK\Model\SeoUrlRelationshipsLanguage',
+'sales_channel' => '\Shopware6SDK\Model\SeoUrlRelationshipsSalesChannel'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SeoUrlRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \ShopwareSDK6\Model\SeoUrlRelationshipsLanguage
+     * @return \Shopware6SDK\Model\SeoUrlRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -215,7 +215,7 @@ class SeoUrlRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \ShopwareSDK6\Model\SeoUrlRelationshipsLanguage $language language
+     * @param \Shopware6SDK\Model\SeoUrlRelationshipsLanguage $language language
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SeoUrlRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SeoUrlRelationshipsSalesChannel
+     * @return \Shopware6SDK\Model\SeoUrlRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -239,7 +239,7 @@ class SeoUrlRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SeoUrlRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SeoUrlRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */

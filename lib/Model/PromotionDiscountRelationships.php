@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionDiscountRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class PromotionDiscountRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'promotion' => '\ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotion',
-'discount_rules' => '\ShopwareSDK6\Model\PromotionDiscountRelationshipsDiscountRules',
-'promotion_discount_prices' => '\ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionDiscountPrices'    ];
+        'promotion' => '\Shopware6SDK\Model\PromotionDiscountRelationshipsPromotion',
+'discount_rules' => '\Shopware6SDK\Model\PromotionDiscountRelationshipsDiscountRules',
+'promotion_discount_prices' => '\Shopware6SDK\Model\PromotionDiscountRelationshipsPromotionDiscountPrices'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class PromotionDiscountRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets promotion
      *
-     * @return \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotion
+     * @return \Shopware6SDK\Model\PromotionDiscountRelationshipsPromotion
      */
     public function getPromotion()
     {
@@ -221,7 +221,7 @@ class PromotionDiscountRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets promotion
      *
-     * @param \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotion $promotion promotion
+     * @param \Shopware6SDK\Model\PromotionDiscountRelationshipsPromotion $promotion promotion
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class PromotionDiscountRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets discount_rules
      *
-     * @return \ShopwareSDK6\Model\PromotionDiscountRelationshipsDiscountRules
+     * @return \Shopware6SDK\Model\PromotionDiscountRelationshipsDiscountRules
      */
     public function getDiscountRules()
     {
@@ -245,7 +245,7 @@ class PromotionDiscountRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets discount_rules
      *
-     * @param \ShopwareSDK6\Model\PromotionDiscountRelationshipsDiscountRules $discount_rules discount_rules
+     * @param \Shopware6SDK\Model\PromotionDiscountRelationshipsDiscountRules $discount_rules discount_rules
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class PromotionDiscountRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_discount_prices
      *
-     * @return \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionDiscountPrices
+     * @return \Shopware6SDK\Model\PromotionDiscountRelationshipsPromotionDiscountPrices
      */
     public function getPromotionDiscountPrices()
     {
@@ -269,7 +269,7 @@ class PromotionDiscountRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_discount_prices
      *
-     * @param \ShopwareSDK6\Model\PromotionDiscountRelationshipsPromotionDiscountPrices $promotion_discount_prices promotion_discount_prices
+     * @param \Shopware6SDK\Model\PromotionDiscountRelationshipsPromotionDiscountPrices $promotion_discount_prices promotion_discount_prices
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaFolderRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,11 +56,11 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'parent' => '\ShopwareSDK6\Model\MediaFolderRelationshipsParent',
-'children' => '\ShopwareSDK6\Model\MediaFolderRelationshipsChildren',
-'media' => '\ShopwareSDK6\Model\MediaFolderRelationshipsMedia',
-'default_folder' => '\ShopwareSDK6\Model\MediaFolderRelationshipsDefaultFolder',
-'configuration' => '\ShopwareSDK6\Model\MediaFolderRelationshipsConfiguration'    ];
+        'parent' => '\Shopware6SDK\Model\MediaFolderRelationshipsParent',
+'children' => '\Shopware6SDK\Model\MediaFolderRelationshipsChildren',
+'media' => '\Shopware6SDK\Model\MediaFolderRelationshipsMedia',
+'default_folder' => '\Shopware6SDK\Model\MediaFolderRelationshipsDefaultFolder',
+'configuration' => '\Shopware6SDK\Model\MediaFolderRelationshipsConfiguration'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -223,7 +223,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \ShopwareSDK6\Model\MediaFolderRelationshipsParent
+     * @return \Shopware6SDK\Model\MediaFolderRelationshipsParent
      */
     public function getParent()
     {
@@ -233,7 +233,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \ShopwareSDK6\Model\MediaFolderRelationshipsParent $parent parent
+     * @param \Shopware6SDK\Model\MediaFolderRelationshipsParent $parent parent
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \ShopwareSDK6\Model\MediaFolderRelationshipsChildren
+     * @return \Shopware6SDK\Model\MediaFolderRelationshipsChildren
      */
     public function getChildren()
     {
@@ -257,7 +257,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \ShopwareSDK6\Model\MediaFolderRelationshipsChildren $children children
+     * @param \Shopware6SDK\Model\MediaFolderRelationshipsChildren $children children
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFolderRelationshipsMedia
+     * @return \Shopware6SDK\Model\MediaFolderRelationshipsMedia
      */
     public function getMedia()
     {
@@ -281,7 +281,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFolderRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\MediaFolderRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets default_folder
      *
-     * @return \ShopwareSDK6\Model\MediaFolderRelationshipsDefaultFolder
+     * @return \Shopware6SDK\Model\MediaFolderRelationshipsDefaultFolder
      */
     public function getDefaultFolder()
     {
@@ -305,7 +305,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets default_folder
      *
-     * @param \ShopwareSDK6\Model\MediaFolderRelationshipsDefaultFolder $default_folder default_folder
+     * @param \Shopware6SDK\Model\MediaFolderRelationshipsDefaultFolder $default_folder default_folder
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets configuration
      *
-     * @return \ShopwareSDK6\Model\MediaFolderRelationshipsConfiguration
+     * @return \Shopware6SDK\Model\MediaFolderRelationshipsConfiguration
      */
     public function getConfiguration()
     {
@@ -329,7 +329,7 @@ class MediaFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets configuration
      *
-     * @param \ShopwareSDK6\Model\MediaFolderRelationshipsConfiguration $configuration configuration
+     * @param \Shopware6SDK\Model\MediaFolderRelationshipsConfiguration $configuration configuration
      *
      * @return $this
      */

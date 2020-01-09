@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace ShopwareSDK6;
+namespace Shopware6SDK;
 
 /**
  * ImportExportLogAttributesTest Class Doc Comment
  *
  * @category    Class
  * @description ImportExportLogAttributes
- * @package     ShopwareSDK6
+ * @package     Shopware6SDK
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

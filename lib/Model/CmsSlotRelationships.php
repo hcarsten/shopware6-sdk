@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CmsSlotRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class CmsSlotRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'block' => '\ShopwareSDK6\Model\CmsSlotRelationshipsBlock'    ];
+        'block' => '\Shopware6SDK\Model\CmsSlotRelationshipsBlock'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class CmsSlotRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets block
      *
-     * @return \ShopwareSDK6\Model\CmsSlotRelationshipsBlock
+     * @return \Shopware6SDK\Model\CmsSlotRelationshipsBlock
      */
     public function getBlock()
     {
@@ -209,7 +209,7 @@ class CmsSlotRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets block
      *
-     * @param \ShopwareSDK6\Model\CmsSlotRelationshipsBlock $block block
+     * @param \Shopware6SDK\Model\CmsSlotRelationshipsBlock $block block
      *
      * @return $this
      */

@@ -14,9 +14,9 @@ Name | Type | Description | Notes
 **config** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**document_type** | [**\ShopwareSDK6\Model\DocumentTypeFlat**](DocumentTypeFlat.md) |  | 
-**logo** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**sales_channels** | [**\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat**](DocumentBaseConfigSalesChannelFlat.md) |  | [optional] 
+**document_type** | [**\Shopware6SDK\Model\DocumentTypeFlat**](DocumentTypeFlat.md) |  | 
+**logo** | [**\Shopware6SDK\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**sales_channels** | [**\Shopware6SDK\Model\DocumentBaseConfigSalesChannelFlat**](DocumentBaseConfigSalesChannelFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

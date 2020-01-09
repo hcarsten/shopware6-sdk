@@ -1,4 +1,4 @@
-# ShopwareSDK6\OrderDeliveryApi
+# Shopware6SDK\OrderDeliveryApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateOrderDelivery**](OrderDeliveryApi.md#updateorderdelivery) | **PATCH** /order-delivery/{id} | Partially update information about a Order Delivery resource
 
 # **createOrderDelivery**
-> \ShopwareSDK6\Model\InlineResponse200156 createOrderDelivery($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200156 createOrderDelivery($body, $_response)
 
 Create a new Order Delivery resources
 
@@ -22,12 +22,12 @@ Create a new Order Delivery resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderDeliveryApi(
+$apiInstance = new Shopware6SDK\Api\OrderDeliveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body102(); // \ShopwareSDK6\Model\Body102 | 
+$body = new \Shopware6SDK\Model\Body102(); // \Shopware6SDK\Model\Body102 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body102**](../Model/Body102.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body102**](../Model/Body102.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
+[**\Shopware6SDK\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createOrderDelivery**
-> \ShopwareSDK6\Model\InlineResponse200156 createOrderDelivery($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200156 createOrderDelivery($body, $_response)
 
 Create a new Order Delivery resources
 
@@ -73,12 +73,12 @@ Create a new Order Delivery resources. All required fields must be provided in o
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderDeliveryApi(
+$apiInstance = new Shopware6SDK\Api\OrderDeliveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\OrderDeliveryFlat(); // \ShopwareSDK6\Model\OrderDeliveryFlat | 
+$body = new \Shopware6SDK\Model\OrderDeliveryFlat(); // \Shopware6SDK\Model\OrderDeliveryFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\OrderDeliveryFlat**](../Model/OrderDeliveryFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\OrderDeliveryFlat**](../Model/OrderDeliveryFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
+[**\Shopware6SDK\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Order Delivery resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderDeliveryApi(
+$apiInstance = new Shopware6SDK\Api\OrderDeliveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOrderDelivery**
-> \ShopwareSDK6\Model\InlineResponse200156 getOrderDelivery($id)
+> \Shopware6SDK\Model\InlineResponse200156 getOrderDelivery($id)
 
 Detailed information about a Order Delivery resource
 
@@ -170,7 +170,7 @@ Detailed information about a Order Delivery resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderDeliveryApi(
+$apiInstance = new Shopware6SDK\Api\OrderDeliveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
+[**\Shopware6SDK\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOrderDeliveryList**
-> \ShopwareSDK6\Model\InlineResponse200154 getOrderDeliveryList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200154 getOrderDeliveryList($limit, $page, $query)
 
 List with basic information of Order Delivery resources
 
@@ -217,7 +217,7 @@ List with basic information of Order Delivery resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderDeliveryApi(
+$apiInstance = new Shopware6SDK\Api\OrderDeliveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200154**](../Model/InlineResponse200154.md)
+[**\Shopware6SDK\Model\InlineResponse200154**](../Model/InlineResponse200154.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateOrderDelivery**
-> \ShopwareSDK6\Model\InlineResponse200156 updateOrderDelivery($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200156 updateOrderDelivery($id, $body, $_response)
 
 Partially update information about a Order Delivery resource
 
@@ -268,13 +268,13 @@ Partially update information about a Order Delivery resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderDeliveryApi(
+$apiInstance = new Shopware6SDK\Api\OrderDeliveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the order_delivery
-$body = new \ShopwareSDK6\Model\Body103(); // \ShopwareSDK6\Model\Body103 | Partially update information about a Order Delivery resource.
+$body = new \Shopware6SDK\Model\Body103(); // \Shopware6SDK\Model\Body103 | Partially update information about a Order Delivery resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the order_delivery |
- **body** | [**\ShopwareSDK6\Model\Body103**](../Model/Body103.md)| Partially update information about a Order Delivery resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body103**](../Model/Body103.md)| Partially update information about a Order Delivery resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
+[**\Shopware6SDK\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateOrderDelivery**
-> \ShopwareSDK6\Model\InlineResponse200156 updateOrderDelivery($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200156 updateOrderDelivery($id, $body, $_response)
 
 Partially update information about a Order Delivery resource
 
@@ -319,13 +319,13 @@ Partially update information about a Order Delivery resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderDeliveryApi(
+$apiInstance = new Shopware6SDK\Api\OrderDeliveryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the order_delivery
-$body = new \ShopwareSDK6\Model\OrderDeliveryFlat(); // \ShopwareSDK6\Model\OrderDeliveryFlat | Partially update information about a Order Delivery resource.
+$body = new \Shopware6SDK\Model\OrderDeliveryFlat(); // \Shopware6SDK\Model\OrderDeliveryFlat | Partially update information about a Order Delivery resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the order_delivery |
- **body** | [**\ShopwareSDK6\Model\OrderDeliveryFlat**](../Model/OrderDeliveryFlat.md)| Partially update information about a Order Delivery resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\OrderDeliveryFlat**](../Model/OrderDeliveryFlat.md)| Partially update information about a Order Delivery resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
+[**\Shopware6SDK\Model\InlineResponse200156**](../Model/InlineResponse200156.md)
 
 ### Authorization
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SeoUrlTemplate Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class SeoUrlTemplate extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\SeoUrlTemplateAttributes',
-'links' => '\ShopwareSDK6\Model\SeoUrlTemplateLinks',
-'relationships' => '\ShopwareSDK6\Model\SeoUrlTemplateRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\SeoUrlTemplateAttributes',
+'links' => '\Shopware6SDK\Model\SeoUrlTemplateLinks',
+'relationships' => '\Shopware6SDK\Model\SeoUrlTemplateRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class SeoUrlTemplate extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\SeoUrlTemplateAttributes
+     * @return \Shopware6SDK\Model\SeoUrlTemplateAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class SeoUrlTemplate extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\SeoUrlTemplateAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\SeoUrlTemplateAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class SeoUrlTemplate extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\SeoUrlTemplateLinks
+     * @return \Shopware6SDK\Model\SeoUrlTemplateLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class SeoUrlTemplate extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\SeoUrlTemplateLinks $links links
+     * @param \Shopware6SDK\Model\SeoUrlTemplateLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class SeoUrlTemplate extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\SeoUrlTemplateRelationships
+     * @return \Shopware6SDK\Model\SeoUrlTemplateRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class SeoUrlTemplate extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\SeoUrlTemplateRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\SeoUrlTemplateRelationships $relationships relationships
      *
      * @return $this
      */

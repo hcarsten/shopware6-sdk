@@ -1,4 +1,4 @@
-# ShopwareSDK6\ProductManufacturerApi
+# Shopware6SDK\ProductManufacturerApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProductManufacturer**](ProductManufacturerApi.md#updateproductmanufacturer) | **PATCH** /product-manufacturer/{id} | Partially update information about a Product Manufacturer resource
 
 # **createProductManufacturer**
-> \ShopwareSDK6\Model\InlineResponse200189 createProductManufacturer($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200189 createProductManufacturer($body, $_response)
 
 Create a new Product Manufacturer resources
 
@@ -22,12 +22,12 @@ Create a new Product Manufacturer resources. All required fields must be provide
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductManufacturerApi(
+$apiInstance = new Shopware6SDK\Api\ProductManufacturerApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body124(); // \ShopwareSDK6\Model\Body124 | 
+$body = new \Shopware6SDK\Model\Body124(); // \Shopware6SDK\Model\Body124 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body124**](../Model/Body124.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body124**](../Model/Body124.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
+[**\Shopware6SDK\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProductManufacturer**
-> \ShopwareSDK6\Model\InlineResponse200189 createProductManufacturer($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200189 createProductManufacturer($body, $_response)
 
 Create a new Product Manufacturer resources
 
@@ -73,12 +73,12 @@ Create a new Product Manufacturer resources. All required fields must be provide
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductManufacturerApi(
+$apiInstance = new Shopware6SDK\Api\ProductManufacturerApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\ProductManufacturerFlat(); // \ShopwareSDK6\Model\ProductManufacturerFlat | 
+$body = new \Shopware6SDK\Model\ProductManufacturerFlat(); // \Shopware6SDK\Model\ProductManufacturerFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\ProductManufacturerFlat**](../Model/ProductManufacturerFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductManufacturerFlat**](../Model/ProductManufacturerFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
+[**\Shopware6SDK\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product Manufacturer resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductManufacturerApi(
+$apiInstance = new Shopware6SDK\Api\ProductManufacturerApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductManufacturer**
-> \ShopwareSDK6\Model\InlineResponse200189 getProductManufacturer($id)
+> \Shopware6SDK\Model\InlineResponse200189 getProductManufacturer($id)
 
 Detailed information about a Product Manufacturer resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product Manufacturer resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductManufacturerApi(
+$apiInstance = new Shopware6SDK\Api\ProductManufacturerApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
+[**\Shopware6SDK\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductManufacturerList**
-> \ShopwareSDK6\Model\InlineResponse200187 getProductManufacturerList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200187 getProductManufacturerList($limit, $page, $query)
 
 List with basic information of Product Manufacturer resources
 
@@ -217,7 +217,7 @@ List with basic information of Product Manufacturer resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductManufacturerApi(
+$apiInstance = new Shopware6SDK\Api\ProductManufacturerApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200187**](../Model/InlineResponse200187.md)
+[**\Shopware6SDK\Model\InlineResponse200187**](../Model/InlineResponse200187.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductManufacturer**
-> \ShopwareSDK6\Model\InlineResponse200189 updateProductManufacturer($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200189 updateProductManufacturer($id, $body, $_response)
 
 Partially update information about a Product Manufacturer resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product Manufacturer resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductManufacturerApi(
+$apiInstance = new Shopware6SDK\Api\ProductManufacturerApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_manufacturer
-$body = new \ShopwareSDK6\Model\Body125(); // \ShopwareSDK6\Model\Body125 | Partially update information about a Product Manufacturer resource.
+$body = new \Shopware6SDK\Model\Body125(); // \Shopware6SDK\Model\Body125 | Partially update information about a Product Manufacturer resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_manufacturer |
- **body** | [**\ShopwareSDK6\Model\Body125**](../Model/Body125.md)| Partially update information about a Product Manufacturer resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body125**](../Model/Body125.md)| Partially update information about a Product Manufacturer resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
+[**\Shopware6SDK\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductManufacturer**
-> \ShopwareSDK6\Model\InlineResponse200189 updateProductManufacturer($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200189 updateProductManufacturer($id, $body, $_response)
 
 Partially update information about a Product Manufacturer resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product Manufacturer resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductManufacturerApi(
+$apiInstance = new Shopware6SDK\Api\ProductManufacturerApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_manufacturer
-$body = new \ShopwareSDK6\Model\ProductManufacturerFlat(); // \ShopwareSDK6\Model\ProductManufacturerFlat | Partially update information about a Product Manufacturer resource.
+$body = new \Shopware6SDK\Model\ProductManufacturerFlat(); // \Shopware6SDK\Model\ProductManufacturerFlat | Partially update information about a Product Manufacturer resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_manufacturer |
- **body** | [**\ShopwareSDK6\Model\ProductManufacturerFlat**](../Model/ProductManufacturerFlat.md)| Partially update information about a Product Manufacturer resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductManufacturerFlat**](../Model/ProductManufacturerFlat.md)| Partially update information about a Product Manufacturer resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
+[**\Shopware6SDK\Model\InlineResponse200189**](../Model/InlineResponse200189.md)
 
 ### Authorization
 

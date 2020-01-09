@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CountryFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -70,12 +70,12 @@ class CountryFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'states' => '\ShopwareSDK6\Model\CountryStateFlat',
-'customer_addresses' => '\ShopwareSDK6\Model\CustomerAddressFlat',
-'order_addresses' => '\ShopwareSDK6\Model\OrderAddressFlat',
-'sales_channel_default_assignments' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'tax_rules' => '\ShopwareSDK6\Model\TaxRuleFlat'    ];
+'states' => '\Shopware6SDK\Model\CountryStateFlat',
+'customer_addresses' => '\Shopware6SDK\Model\CustomerAddressFlat',
+'order_addresses' => '\Shopware6SDK\Model\OrderAddressFlat',
+'sales_channel_default_assignments' => '\Shopware6SDK\Model\SalesChannelFlat',
+'sales_channels' => '\Shopware6SDK\Model\SalesChannelFlat',
+'tax_rules' => '\Shopware6SDK\Model\TaxRuleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -658,7 +658,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets states
      *
-     * @return \ShopwareSDK6\Model\CountryStateFlat
+     * @return \Shopware6SDK\Model\CountryStateFlat
      */
     public function getStates()
     {
@@ -668,7 +668,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets states
      *
-     * @param \ShopwareSDK6\Model\CountryStateFlat $states states
+     * @param \Shopware6SDK\Model\CountryStateFlat $states states
      *
      * @return $this
      */
@@ -682,7 +682,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customer_addresses
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressFlat
+     * @return \Shopware6SDK\Model\CustomerAddressFlat
      */
     public function getCustomerAddresses()
     {
@@ -692,7 +692,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customer_addresses
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressFlat $customer_addresses customer_addresses
+     * @param \Shopware6SDK\Model\CustomerAddressFlat $customer_addresses customer_addresses
      *
      * @return $this
      */
@@ -706,7 +706,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_addresses
      *
-     * @return \ShopwareSDK6\Model\OrderAddressFlat
+     * @return \Shopware6SDK\Model\OrderAddressFlat
      */
     public function getOrderAddresses()
     {
@@ -716,7 +716,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_addresses
      *
-     * @param \ShopwareSDK6\Model\OrderAddressFlat $order_addresses order_addresses
+     * @param \Shopware6SDK\Model\OrderAddressFlat $order_addresses order_addresses
      *
      * @return $this
      */
@@ -730,7 +730,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -740,7 +740,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */
@@ -754,7 +754,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -764,7 +764,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */
@@ -778,7 +778,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tax_rules
      *
-     * @return \ShopwareSDK6\Model\TaxRuleFlat
+     * @return \Shopware6SDK\Model\TaxRuleFlat
      */
     public function getTaxRules()
     {
@@ -788,7 +788,7 @@ class CountryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tax_rules
      *
-     * @param \ShopwareSDK6\Model\TaxRuleFlat $tax_rules tax_rules
+     * @param \Shopware6SDK\Model\TaxRuleFlat $tax_rules tax_rules
      *
      * @return $this
      */

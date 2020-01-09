@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CustomerAddressRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'customer' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsCustomer',
-'country' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsCountry',
-'country_state' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsCountryState',
-'salutation' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsSalutation'    ];
+        'customer' => '\Shopware6SDK\Model\CustomerAddressRelationshipsCustomer',
+'country' => '\Shopware6SDK\Model\CustomerAddressRelationshipsCountry',
+'country_state' => '\Shopware6SDK\Model\CustomerAddressRelationshipsCountryState',
+'salutation' => '\Shopware6SDK\Model\CustomerAddressRelationshipsSalutation'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -217,7 +217,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsCustomer
+     * @return \Shopware6SDK\Model\CustomerAddressRelationshipsCustomer
      */
     public function getCustomer()
     {
@@ -227,7 +227,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsCustomer $customer customer
+     * @param \Shopware6SDK\Model\CustomerAddressRelationshipsCustomer $customer customer
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsCountry
+     * @return \Shopware6SDK\Model\CustomerAddressRelationshipsCountry
      */
     public function getCountry()
     {
@@ -251,7 +251,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsCountry $country country
+     * @param \Shopware6SDK\Model\CustomerAddressRelationshipsCountry $country country
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets country_state
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsCountryState
+     * @return \Shopware6SDK\Model\CustomerAddressRelationshipsCountryState
      */
     public function getCountryState()
     {
@@ -275,7 +275,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets country_state
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsCountryState $country_state country_state
+     * @param \Shopware6SDK\Model\CustomerAddressRelationshipsCountryState $country_state country_state
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsSalutation
+     * @return \Shopware6SDK\Model\CustomerAddressRelationshipsSalutation
      */
     public function getSalutation()
     {
@@ -299,7 +299,7 @@ class CustomerAddressRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsSalutation $salutation salutation
+     * @param \Shopware6SDK\Model\CustomerAddressRelationshipsSalutation $salutation salutation
      *
      * @return $this
      */

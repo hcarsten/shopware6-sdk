@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionRelationshipsSetgroups Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PromotionRelationshipsSetgroups implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\PromotionRelationshipsSetgroupsLinks',
-'data' => '\ShopwareSDK6\Model\PromotionRelationshipsSetgroupsData[]'    ];
+        'links' => '\Shopware6SDK\Model\PromotionRelationshipsSetgroupsLinks',
+'data' => '\Shopware6SDK\Model\PromotionRelationshipsSetgroupsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PromotionRelationshipsSetgroups implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\PromotionRelationshipsSetgroupsLinks
+     * @return \Shopware6SDK\Model\PromotionRelationshipsSetgroupsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PromotionRelationshipsSetgroups implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\PromotionRelationshipsSetgroupsLinks $links links
+     * @param \Shopware6SDK\Model\PromotionRelationshipsSetgroupsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PromotionRelationshipsSetgroups implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\PromotionRelationshipsSetgroupsData[]
+     * @return \Shopware6SDK\Model\PromotionRelationshipsSetgroupsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PromotionRelationshipsSetgroups implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\PromotionRelationshipsSetgroupsData[] $data data
+     * @param \Shopware6SDK\Model\PromotionRelationshipsSetgroupsData[] $data data
      *
      * @return $this
      */

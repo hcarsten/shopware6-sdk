@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CurrencyRelationshipsSalesChannelDomains Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CurrencyRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDomainsLinks',
-'data' => '\ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDomainsData[]'    ];
+        'links' => '\Shopware6SDK\Model\CurrencyRelationshipsSalesChannelDomainsLinks',
+'data' => '\Shopware6SDK\Model\CurrencyRelationshipsSalesChannelDomainsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CurrencyRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDomainsLinks
+     * @return \Shopware6SDK\Model\CurrencyRelationshipsSalesChannelDomainsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CurrencyRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDomainsLinks $links links
+     * @param \Shopware6SDK\Model\CurrencyRelationshipsSalesChannelDomainsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CurrencyRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDomainsData[]
+     * @return \Shopware6SDK\Model\CurrencyRelationshipsSalesChannelDomainsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CurrencyRelationshipsSalesChannelDomains implements ModelInterface, ArrayA
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CurrencyRelationshipsSalesChannelDomainsData[] $data data
+     * @param \Shopware6SDK\Model\CurrencyRelationshipsSalesChannelDomainsData[] $data data
      *
      * @return $this
      */

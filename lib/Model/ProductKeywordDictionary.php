@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductKeywordDictionary Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductKeywordDictionary extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\ProductKeywordDictionaryAttributes',
-'links' => '\ShopwareSDK6\Model\ProductKeywordDictionaryLinks',
-'relationships' => '\ShopwareSDK6\Model\ProductKeywordDictionaryRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\ProductKeywordDictionaryAttributes',
+'links' => '\Shopware6SDK\Model\ProductKeywordDictionaryLinks',
+'relationships' => '\Shopware6SDK\Model\ProductKeywordDictionaryRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\ProductKeywordDictionaryAttributes
+     * @return \Shopware6SDK\Model\ProductKeywordDictionaryAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\ProductKeywordDictionaryAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\ProductKeywordDictionaryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ProductKeywordDictionaryLinks
+     * @return \Shopware6SDK\Model\ProductKeywordDictionaryLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ProductKeywordDictionaryLinks $links links
+     * @param \Shopware6SDK\Model\ProductKeywordDictionaryLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\ProductKeywordDictionaryRelationships
+     * @return \Shopware6SDK\Model\ProductKeywordDictionaryRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductKeywordDictionary extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\ProductKeywordDictionaryRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\ProductKeywordDictionaryRelationships $relationships relationships
      *
      * @return $this
      */

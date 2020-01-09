@@ -1,4 +1,4 @@
-# ShopwareSDK6\StateMachineHistoryApi
+# Shopware6SDK\StateMachineHistoryApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateStateMachineHistory**](StateMachineHistoryApi.md#updatestatemachinehistory) | **PATCH** /state-machine-history/{id} | Partially update information about a State Machine History resource
 
 # **createStateMachineHistory**
-> \ShopwareSDK6\Model\InlineResponse200279 createStateMachineHistory($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200279 createStateMachineHistory($body, $_response)
 
 Create a new State Machine History resources
 
@@ -22,12 +22,12 @@ Create a new State Machine History resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineHistoryApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineHistoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body184(); // \ShopwareSDK6\Model\Body184 | 
+$body = new \Shopware6SDK\Model\Body184(); // \Shopware6SDK\Model\Body184 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body184**](../Model/Body184.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body184**](../Model/Body184.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
+[**\Shopware6SDK\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createStateMachineHistory**
-> \ShopwareSDK6\Model\InlineResponse200279 createStateMachineHistory($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200279 createStateMachineHistory($body, $_response)
 
 Create a new State Machine History resources
 
@@ -73,12 +73,12 @@ Create a new State Machine History resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineHistoryApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineHistoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\StateMachineHistoryFlat(); // \ShopwareSDK6\Model\StateMachineHistoryFlat | 
+$body = new \Shopware6SDK\Model\StateMachineHistoryFlat(); // \Shopware6SDK\Model\StateMachineHistoryFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\StateMachineHistoryFlat**](../Model/StateMachineHistoryFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\StateMachineHistoryFlat**](../Model/StateMachineHistoryFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
+[**\Shopware6SDK\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a State Machine History resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineHistoryApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineHistoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStateMachineHistory**
-> \ShopwareSDK6\Model\InlineResponse200279 getStateMachineHistory($id)
+> \Shopware6SDK\Model\InlineResponse200279 getStateMachineHistory($id)
 
 Detailed information about a State Machine History resource
 
@@ -170,7 +170,7 @@ Detailed information about a State Machine History resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineHistoryApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineHistoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
+[**\Shopware6SDK\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStateMachineHistoryList**
-> \ShopwareSDK6\Model\InlineResponse200277 getStateMachineHistoryList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200277 getStateMachineHistoryList($limit, $page, $query)
 
 List with basic information of State Machine History resources
 
@@ -217,7 +217,7 @@ List with basic information of State Machine History resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineHistoryApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineHistoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200277**](../Model/InlineResponse200277.md)
+[**\Shopware6SDK\Model\InlineResponse200277**](../Model/InlineResponse200277.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateStateMachineHistory**
-> \ShopwareSDK6\Model\InlineResponse200279 updateStateMachineHistory($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200279 updateStateMachineHistory($id, $body, $_response)
 
 Partially update information about a State Machine History resource
 
@@ -268,13 +268,13 @@ Partially update information about a State Machine History resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineHistoryApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineHistoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the state_machine_history
-$body = new \ShopwareSDK6\Model\Body185(); // \ShopwareSDK6\Model\Body185 | Partially update information about a State Machine History resource.
+$body = new \Shopware6SDK\Model\Body185(); // \Shopware6SDK\Model\Body185 | Partially update information about a State Machine History resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the state_machine_history |
- **body** | [**\ShopwareSDK6\Model\Body185**](../Model/Body185.md)| Partially update information about a State Machine History resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body185**](../Model/Body185.md)| Partially update information about a State Machine History resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
+[**\Shopware6SDK\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateStateMachineHistory**
-> \ShopwareSDK6\Model\InlineResponse200279 updateStateMachineHistory($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200279 updateStateMachineHistory($id, $body, $_response)
 
 Partially update information about a State Machine History resource
 
@@ -319,13 +319,13 @@ Partially update information about a State Machine History resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineHistoryApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineHistoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the state_machine_history
-$body = new \ShopwareSDK6\Model\StateMachineHistoryFlat(); // \ShopwareSDK6\Model\StateMachineHistoryFlat | Partially update information about a State Machine History resource.
+$body = new \Shopware6SDK\Model\StateMachineHistoryFlat(); // \Shopware6SDK\Model\StateMachineHistoryFlat | Partially update information about a State Machine History resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the state_machine_history |
- **body** | [**\ShopwareSDK6\Model\StateMachineHistoryFlat**](../Model/StateMachineHistoryFlat.md)| Partially update information about a State Machine History resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\StateMachineHistoryFlat**](../Model/StateMachineHistoryFlat.md)| Partially update information about a State Machine History resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
+[**\Shopware6SDK\Model\InlineResponse200279**](../Model/InlineResponse200279.md)
 
 ### Authorization
 

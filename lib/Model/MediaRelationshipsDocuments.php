@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaRelationshipsDocuments Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaRelationshipsDocuments implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\MediaRelationshipsDocumentsLinks',
-'data' => '\ShopwareSDK6\Model\MediaRelationshipsDocumentsData[]'    ];
+        'links' => '\Shopware6SDK\Model\MediaRelationshipsDocumentsLinks',
+'data' => '\Shopware6SDK\Model\MediaRelationshipsDocumentsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaRelationshipsDocuments implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MediaRelationshipsDocumentsLinks
+     * @return \Shopware6SDK\Model\MediaRelationshipsDocumentsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MediaRelationshipsDocuments implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MediaRelationshipsDocumentsLinks $links links
+     * @param \Shopware6SDK\Model\MediaRelationshipsDocumentsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaRelationshipsDocuments implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\MediaRelationshipsDocumentsData[]
+     * @return \Shopware6SDK\Model\MediaRelationshipsDocumentsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MediaRelationshipsDocuments implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\MediaRelationshipsDocumentsData[] $data data
+     * @param \Shopware6SDK\Model\MediaRelationshipsDocumentsData[] $data data
      *
      * @return $this
      */

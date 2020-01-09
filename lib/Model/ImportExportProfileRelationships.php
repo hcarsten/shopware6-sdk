@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ImportExportProfileRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class ImportExportProfileRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'import_export_logs' => '\ShopwareSDK6\Model\ImportExportProfileRelationshipsImportExportLogs'    ];
+        'import_export_logs' => '\Shopware6SDK\Model\ImportExportProfileRelationshipsImportExportLogs'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class ImportExportProfileRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets import_export_logs
      *
-     * @return \ShopwareSDK6\Model\ImportExportProfileRelationshipsImportExportLogs
+     * @return \Shopware6SDK\Model\ImportExportProfileRelationshipsImportExportLogs
      */
     public function getImportExportLogs()
     {
@@ -209,7 +209,7 @@ class ImportExportProfileRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets import_export_logs
      *
-     * @param \ShopwareSDK6\Model\ImportExportProfileRelationshipsImportExportLogs $import_export_logs import_export_logs
+     * @param \Shopware6SDK\Model\ImportExportProfileRelationshipsImportExportLogs $import_export_logs import_export_logs
      *
      * @return $this
      */

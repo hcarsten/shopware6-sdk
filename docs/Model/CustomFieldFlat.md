@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **custom_field_set_id** | **string** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**custom_field_set** | [**\ShopwareSDK6\Model\CustomFieldSetFlat**](CustomFieldSetFlat.md) |  | [optional] 
+**custom_field_set** | [**\Shopware6SDK\Model\CustomFieldSetFlat**](CustomFieldSetFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

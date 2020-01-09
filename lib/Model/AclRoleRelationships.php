@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * AclRoleRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class AclRoleRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'acl_resources' => '\ShopwareSDK6\Model\AclRoleRelationshipsAclResources',
-'users' => '\ShopwareSDK6\Model\AclRoleRelationshipsUsers'    ];
+        'acl_resources' => '\Shopware6SDK\Model\AclRoleRelationshipsAclResources',
+'users' => '\Shopware6SDK\Model\AclRoleRelationshipsUsers'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class AclRoleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets acl_resources
      *
-     * @return \ShopwareSDK6\Model\AclRoleRelationshipsAclResources
+     * @return \Shopware6SDK\Model\AclRoleRelationshipsAclResources
      */
     public function getAclResources()
     {
@@ -215,7 +215,7 @@ class AclRoleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets acl_resources
      *
-     * @param \ShopwareSDK6\Model\AclRoleRelationshipsAclResources $acl_resources acl_resources
+     * @param \Shopware6SDK\Model\AclRoleRelationshipsAclResources $acl_resources acl_resources
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class AclRoleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets users
      *
-     * @return \ShopwareSDK6\Model\AclRoleRelationshipsUsers
+     * @return \Shopware6SDK\Model\AclRoleRelationshipsUsers
      */
     public function getUsers()
     {
@@ -239,7 +239,7 @@ class AclRoleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets users
      *
-     * @param \ShopwareSDK6\Model\AclRoleRelationshipsUsers $users users
+     * @param \Shopware6SDK\Model\AclRoleRelationshipsUsers $users users
      *
      * @return $this
      */

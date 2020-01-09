@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * NewsletterRecipientRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class NewsletterRecipientRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'tags' => '\ShopwareSDK6\Model\NewsletterRecipientRelationshipsTags',
-'salutation' => '\ShopwareSDK6\Model\NewsletterRecipientRelationshipsSalutation',
-'language' => '\ShopwareSDK6\Model\NewsletterRecipientRelationshipsLanguage',
-'sales_channel' => '\ShopwareSDK6\Model\NewsletterRecipientRelationshipsSalesChannel'    ];
+        'tags' => '\Shopware6SDK\Model\NewsletterRecipientRelationshipsTags',
+'salutation' => '\Shopware6SDK\Model\NewsletterRecipientRelationshipsSalutation',
+'language' => '\Shopware6SDK\Model\NewsletterRecipientRelationshipsLanguage',
+'sales_channel' => '\Shopware6SDK\Model\NewsletterRecipientRelationshipsSalesChannel'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -217,7 +217,7 @@ class NewsletterRecipientRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \ShopwareSDK6\Model\NewsletterRecipientRelationshipsTags
+     * @return \Shopware6SDK\Model\NewsletterRecipientRelationshipsTags
      */
     public function getTags()
     {
@@ -227,7 +227,7 @@ class NewsletterRecipientRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \ShopwareSDK6\Model\NewsletterRecipientRelationshipsTags $tags tags
+     * @param \Shopware6SDK\Model\NewsletterRecipientRelationshipsTags $tags tags
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class NewsletterRecipientRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \ShopwareSDK6\Model\NewsletterRecipientRelationshipsSalutation
+     * @return \Shopware6SDK\Model\NewsletterRecipientRelationshipsSalutation
      */
     public function getSalutation()
     {
@@ -251,7 +251,7 @@ class NewsletterRecipientRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \ShopwareSDK6\Model\NewsletterRecipientRelationshipsSalutation $salutation salutation
+     * @param \Shopware6SDK\Model\NewsletterRecipientRelationshipsSalutation $salutation salutation
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class NewsletterRecipientRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \ShopwareSDK6\Model\NewsletterRecipientRelationshipsLanguage
+     * @return \Shopware6SDK\Model\NewsletterRecipientRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -275,7 +275,7 @@ class NewsletterRecipientRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \ShopwareSDK6\Model\NewsletterRecipientRelationshipsLanguage $language language
+     * @param \Shopware6SDK\Model\NewsletterRecipientRelationshipsLanguage $language language
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class NewsletterRecipientRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\NewsletterRecipientRelationshipsSalesChannel
+     * @return \Shopware6SDK\Model\NewsletterRecipientRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -299,7 +299,7 @@ class NewsletterRecipientRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\NewsletterRecipientRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\NewsletterRecipientRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */

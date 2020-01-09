@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductStreamRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductStreamRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'filters' => '\ShopwareSDK6\Model\ProductStreamRelationshipsFilters',
-'product_cross_sellings' => '\ShopwareSDK6\Model\ProductStreamRelationshipsProductCrossSellings',
-'product_exports' => '\ShopwareSDK6\Model\ProductStreamRelationshipsProductExports'    ];
+        'filters' => '\Shopware6SDK\Model\ProductStreamRelationshipsFilters',
+'product_cross_sellings' => '\Shopware6SDK\Model\ProductStreamRelationshipsProductCrossSellings',
+'product_exports' => '\Shopware6SDK\Model\ProductStreamRelationshipsProductExports'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class ProductStreamRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets filters
      *
-     * @return \ShopwareSDK6\Model\ProductStreamRelationshipsFilters
+     * @return \Shopware6SDK\Model\ProductStreamRelationshipsFilters
      */
     public function getFilters()
     {
@@ -221,7 +221,7 @@ class ProductStreamRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets filters
      *
-     * @param \ShopwareSDK6\Model\ProductStreamRelationshipsFilters $filters filters
+     * @param \Shopware6SDK\Model\ProductStreamRelationshipsFilters $filters filters
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class ProductStreamRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_cross_sellings
      *
-     * @return \ShopwareSDK6\Model\ProductStreamRelationshipsProductCrossSellings
+     * @return \Shopware6SDK\Model\ProductStreamRelationshipsProductCrossSellings
      */
     public function getProductCrossSellings()
     {
@@ -245,7 +245,7 @@ class ProductStreamRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_cross_sellings
      *
-     * @param \ShopwareSDK6\Model\ProductStreamRelationshipsProductCrossSellings $product_cross_sellings product_cross_sellings
+     * @param \Shopware6SDK\Model\ProductStreamRelationshipsProductCrossSellings $product_cross_sellings product_cross_sellings
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class ProductStreamRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_exports
      *
-     * @return \ShopwareSDK6\Model\ProductStreamRelationshipsProductExports
+     * @return \Shopware6SDK\Model\ProductStreamRelationshipsProductExports
      */
     public function getProductExports()
     {
@@ -269,7 +269,7 @@ class ProductStreamRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_exports
      *
-     * @param \ShopwareSDK6\Model\ProductStreamRelationshipsProductExports $product_exports product_exports
+     * @param \Shopware6SDK\Model\ProductStreamRelationshipsProductExports $product_exports product_exports
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * DocumentFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -70,11 +70,11 @@ class DocumentFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'document_type' => '\ShopwareSDK6\Model\DocumentTypeFlat',
-'order' => '\ShopwareSDK6\Model\OrderFlat',
-'referenced_document' => '\ShopwareSDK6\Model\DocumentFlat',
-'dependent_documents' => '\ShopwareSDK6\Model\DocumentFlat',
-'document_media_file' => '\ShopwareSDK6\Model\MediaFlat'    ];
+'document_type' => '\Shopware6SDK\Model\DocumentTypeFlat',
+'order' => '\Shopware6SDK\Model\OrderFlat',
+'referenced_document' => '\Shopware6SDK\Model\DocumentFlat',
+'dependent_documents' => '\Shopware6SDK\Model\DocumentFlat',
+'document_media_file' => '\Shopware6SDK\Model\MediaFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -664,7 +664,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Gets document_type
      *
-     * @return \ShopwareSDK6\Model\DocumentTypeFlat
+     * @return \Shopware6SDK\Model\DocumentTypeFlat
      */
     public function getDocumentType()
     {
@@ -674,7 +674,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Sets document_type
      *
-     * @param \ShopwareSDK6\Model\DocumentTypeFlat $document_type document_type
+     * @param \Shopware6SDK\Model\DocumentTypeFlat $document_type document_type
      *
      * @return $this
      */
@@ -688,7 +688,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \ShopwareSDK6\Model\OrderFlat
+     * @return \Shopware6SDK\Model\OrderFlat
      */
     public function getOrder()
     {
@@ -698,7 +698,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \ShopwareSDK6\Model\OrderFlat $order order
+     * @param \Shopware6SDK\Model\OrderFlat $order order
      *
      * @return $this
      */
@@ -712,7 +712,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Gets referenced_document
      *
-     * @return \ShopwareSDK6\Model\DocumentFlat
+     * @return \Shopware6SDK\Model\DocumentFlat
      */
     public function getReferencedDocument()
     {
@@ -722,7 +722,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Sets referenced_document
      *
-     * @param \ShopwareSDK6\Model\DocumentFlat $referenced_document referenced_document
+     * @param \Shopware6SDK\Model\DocumentFlat $referenced_document referenced_document
      *
      * @return $this
      */
@@ -736,7 +736,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Gets dependent_documents
      *
-     * @return \ShopwareSDK6\Model\DocumentFlat
+     * @return \Shopware6SDK\Model\DocumentFlat
      */
     public function getDependentDocuments()
     {
@@ -746,7 +746,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Sets dependent_documents
      *
-     * @param \ShopwareSDK6\Model\DocumentFlat $dependent_documents dependent_documents
+     * @param \Shopware6SDK\Model\DocumentFlat $dependent_documents dependent_documents
      *
      * @return $this
      */
@@ -760,7 +760,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Gets document_media_file
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getDocumentMediaFile()
     {
@@ -770,7 +770,7 @@ class DocumentFlat implements ModelInterface, ArrayAccess
     /**
      * Sets document_media_file
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $document_media_file document_media_file
+     * @param \Shopware6SDK\Model\MediaFlat $document_media_file document_media_file
      *
      * @return $this
      */

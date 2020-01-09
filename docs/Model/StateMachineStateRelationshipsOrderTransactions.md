@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\ShopwareSDK6\Model\StateMachineStateRelationshipsOrderTransactionsLinks**](StateMachineStateRelationshipsOrderTransactionsLinks.md) |  | [optional] 
-**data** | [**\ShopwareSDK6\Model\StateMachineStateRelationshipsOrderTransactionsData[]**](StateMachineStateRelationshipsOrderTransactionsData.md) |  | [optional] 
+**links** | [**\Shopware6SDK\Model\StateMachineStateRelationshipsOrderTransactionsLinks**](StateMachineStateRelationshipsOrderTransactionsLinks.md) |  | [optional] 
+**data** | [**\Shopware6SDK\Model\StateMachineStateRelationshipsOrderTransactionsData[]**](StateMachineStateRelationshipsOrderTransactionsData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

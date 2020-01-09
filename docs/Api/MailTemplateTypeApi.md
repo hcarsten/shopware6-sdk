@@ -1,4 +1,4 @@
-# ShopwareSDK6\MailTemplateTypeApi
+# Shopware6SDK\MailTemplateTypeApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateMailTemplateType**](MailTemplateTypeApi.md#updatemailtemplatetype) | **PATCH** /mail-template-type/{id} | Partially update information about a Mail Template Type resource
 
 # **createMailTemplateType**
-> \ShopwareSDK6\Model\InlineResponse200105 createMailTemplateType($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200105 createMailTemplateType($body, $_response)
 
 Create a new Mail Template Type resources
 
@@ -22,12 +22,12 @@ Create a new Mail Template Type resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MailTemplateTypeApi(
+$apiInstance = new Shopware6SDK\Api\MailTemplateTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body68(); // \ShopwareSDK6\Model\Body68 | 
+$body = new \Shopware6SDK\Model\Body68(); // \Shopware6SDK\Model\Body68 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body68**](../Model/Body68.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body68**](../Model/Body68.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
+[**\Shopware6SDK\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createMailTemplateType**
-> \ShopwareSDK6\Model\InlineResponse200105 createMailTemplateType($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200105 createMailTemplateType($body, $_response)
 
 Create a new Mail Template Type resources
 
@@ -73,12 +73,12 @@ Create a new Mail Template Type resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MailTemplateTypeApi(
+$apiInstance = new Shopware6SDK\Api\MailTemplateTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\MailTemplateTypeFlat(); // \ShopwareSDK6\Model\MailTemplateTypeFlat | 
+$body = new \Shopware6SDK\Model\MailTemplateTypeFlat(); // \Shopware6SDK\Model\MailTemplateTypeFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\MailTemplateTypeFlat**](../Model/MailTemplateTypeFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\MailTemplateTypeFlat**](../Model/MailTemplateTypeFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
+[**\Shopware6SDK\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Mail Template Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MailTemplateTypeApi(
+$apiInstance = new Shopware6SDK\Api\MailTemplateTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMailTemplateType**
-> \ShopwareSDK6\Model\InlineResponse200105 getMailTemplateType($id)
+> \Shopware6SDK\Model\InlineResponse200105 getMailTemplateType($id)
 
 Detailed information about a Mail Template Type resource
 
@@ -170,7 +170,7 @@ Detailed information about a Mail Template Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MailTemplateTypeApi(
+$apiInstance = new Shopware6SDK\Api\MailTemplateTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
+[**\Shopware6SDK\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMailTemplateTypeList**
-> \ShopwareSDK6\Model\InlineResponse200103 getMailTemplateTypeList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200103 getMailTemplateTypeList($limit, $page, $query)
 
 List with basic information of Mail Template Type resources
 
@@ -217,7 +217,7 @@ List with basic information of Mail Template Type resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MailTemplateTypeApi(
+$apiInstance = new Shopware6SDK\Api\MailTemplateTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200103**](../Model/InlineResponse200103.md)
+[**\Shopware6SDK\Model\InlineResponse200103**](../Model/InlineResponse200103.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMailTemplateType**
-> \ShopwareSDK6\Model\InlineResponse200105 updateMailTemplateType($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200105 updateMailTemplateType($id, $body, $_response)
 
 Partially update information about a Mail Template Type resource
 
@@ -268,13 +268,13 @@ Partially update information about a Mail Template Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MailTemplateTypeApi(
+$apiInstance = new Shopware6SDK\Api\MailTemplateTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the mail_template_type
-$body = new \ShopwareSDK6\Model\Body69(); // \ShopwareSDK6\Model\Body69 | Partially update information about a Mail Template Type resource.
+$body = new \Shopware6SDK\Model\Body69(); // \Shopware6SDK\Model\Body69 | Partially update information about a Mail Template Type resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the mail_template_type |
- **body** | [**\ShopwareSDK6\Model\Body69**](../Model/Body69.md)| Partially update information about a Mail Template Type resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body69**](../Model/Body69.md)| Partially update information about a Mail Template Type resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
+[**\Shopware6SDK\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMailTemplateType**
-> \ShopwareSDK6\Model\InlineResponse200105 updateMailTemplateType($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200105 updateMailTemplateType($id, $body, $_response)
 
 Partially update information about a Mail Template Type resource
 
@@ -319,13 +319,13 @@ Partially update information about a Mail Template Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MailTemplateTypeApi(
+$apiInstance = new Shopware6SDK\Api\MailTemplateTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the mail_template_type
-$body = new \ShopwareSDK6\Model\MailTemplateTypeFlat(); // \ShopwareSDK6\Model\MailTemplateTypeFlat | Partially update information about a Mail Template Type resource.
+$body = new \Shopware6SDK\Model\MailTemplateTypeFlat(); // \Shopware6SDK\Model\MailTemplateTypeFlat | Partially update information about a Mail Template Type resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the mail_template_type |
- **body** | [**\ShopwareSDK6\Model\MailTemplateTypeFlat**](../Model/MailTemplateTypeFlat.md)| Partially update information about a Mail Template Type resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\MailTemplateTypeFlat**](../Model/MailTemplateTypeFlat.md)| Partially update information about a Mail Template Type resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
+[**\Shopware6SDK\Model\InlineResponse200105**](../Model/InlineResponse200105.md)
 
 ### Authorization
 

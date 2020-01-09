@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SalesChannelRelationshipsSeoUrls Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelRelationshipsSeoUrls implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrlsLinks',
-'data' => '\ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrlsData[]'    ];
+        'links' => '\Shopware6SDK\Model\SalesChannelRelationshipsSeoUrlsLinks',
+'data' => '\Shopware6SDK\Model\SalesChannelRelationshipsSeoUrlsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelRelationshipsSeoUrls implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrlsLinks
+     * @return \Shopware6SDK\Model\SalesChannelRelationshipsSeoUrlsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelRelationshipsSeoUrls implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrlsLinks $links links
+     * @param \Shopware6SDK\Model\SalesChannelRelationshipsSeoUrlsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelRelationshipsSeoUrls implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrlsData[]
+     * @return \Shopware6SDK\Model\SalesChannelRelationshipsSeoUrlsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelRelationshipsSeoUrls implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsSeoUrlsData[] $data data
+     * @param \Shopware6SDK\Model\SalesChannelRelationshipsSeoUrlsData[] $data data
      *
      * @return $this
      */

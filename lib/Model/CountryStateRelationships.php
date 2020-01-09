@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CountryStateRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CountryStateRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'country' => '\ShopwareSDK6\Model\CountryStateRelationshipsCountry',
-'customer_addresses' => '\ShopwareSDK6\Model\CountryStateRelationshipsCustomerAddresses',
-'order_addresses' => '\ShopwareSDK6\Model\CountryStateRelationshipsOrderAddresses'    ];
+        'country' => '\Shopware6SDK\Model\CountryStateRelationshipsCountry',
+'customer_addresses' => '\Shopware6SDK\Model\CountryStateRelationshipsCustomerAddresses',
+'order_addresses' => '\Shopware6SDK\Model\CountryStateRelationshipsOrderAddresses'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class CountryStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \ShopwareSDK6\Model\CountryStateRelationshipsCountry
+     * @return \Shopware6SDK\Model\CountryStateRelationshipsCountry
      */
     public function getCountry()
     {
@@ -221,7 +221,7 @@ class CountryStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \ShopwareSDK6\Model\CountryStateRelationshipsCountry $country country
+     * @param \Shopware6SDK\Model\CountryStateRelationshipsCountry $country country
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class CountryStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customer_addresses
      *
-     * @return \ShopwareSDK6\Model\CountryStateRelationshipsCustomerAddresses
+     * @return \Shopware6SDK\Model\CountryStateRelationshipsCustomerAddresses
      */
     public function getCustomerAddresses()
     {
@@ -245,7 +245,7 @@ class CountryStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customer_addresses
      *
-     * @param \ShopwareSDK6\Model\CountryStateRelationshipsCustomerAddresses $customer_addresses customer_addresses
+     * @param \Shopware6SDK\Model\CountryStateRelationshipsCustomerAddresses $customer_addresses customer_addresses
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class CountryStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_addresses
      *
-     * @return \ShopwareSDK6\Model\CountryStateRelationshipsOrderAddresses
+     * @return \Shopware6SDK\Model\CountryStateRelationshipsOrderAddresses
      */
     public function getOrderAddresses()
     {
@@ -269,7 +269,7 @@ class CountryStateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_addresses
      *
-     * @param \ShopwareSDK6\Model\CountryStateRelationshipsOrderAddresses $order_addresses order_addresses
+     * @param \Shopware6SDK\Model\CountryStateRelationshipsOrderAddresses $order_addresses order_addresses
      *
      * @return $this
      */

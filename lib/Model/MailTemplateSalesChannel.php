@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplateSalesChannel Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MailTemplateSalesChannel extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\MailTemplateSalesChannelAttributes',
-'links' => '\ShopwareSDK6\Model\MailTemplateSalesChannelLinks',
-'relationships' => '\ShopwareSDK6\Model\MailTemplateSalesChannelRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\MailTemplateSalesChannelAttributes',
+'links' => '\Shopware6SDK\Model\MailTemplateSalesChannelLinks',
+'relationships' => '\Shopware6SDK\Model\MailTemplateSalesChannelRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MailTemplateSalesChannel extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\MailTemplateSalesChannelAttributes
+     * @return \Shopware6SDK\Model\MailTemplateSalesChannelAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MailTemplateSalesChannel extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\MailTemplateSalesChannelAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\MailTemplateSalesChannelAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MailTemplateSalesChannel extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MailTemplateSalesChannelLinks
+     * @return \Shopware6SDK\Model\MailTemplateSalesChannelLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MailTemplateSalesChannel extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MailTemplateSalesChannelLinks $links links
+     * @param \Shopware6SDK\Model\MailTemplateSalesChannelLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MailTemplateSalesChannel extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\MailTemplateSalesChannelRelationships
+     * @return \Shopware6SDK\Model\MailTemplateSalesChannelRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MailTemplateSalesChannel extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\MailTemplateSalesChannelRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\MailTemplateSalesChannelRelationships $relationships relationships
      *
      * @return $this
      */

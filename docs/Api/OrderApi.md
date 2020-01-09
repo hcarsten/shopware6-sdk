@@ -1,4 +1,4 @@
-# ShopwareSDK6\OrderApi
+# Shopware6SDK\OrderApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateOrder**](OrderApi.md#updateorder) | **PATCH** /order/{id} | Partially update information about a Order resource
 
 # **createOrder**
-> \ShopwareSDK6\Model\InlineResponse200147 createOrder($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200147 createOrder($body, $_response)
 
 Create a new Order resources
 
@@ -22,12 +22,12 @@ Create a new Order resources. All required fields must be provided in order to c
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderApi(
+$apiInstance = new Shopware6SDK\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body96(); // \ShopwareSDK6\Model\Body96 | 
+$body = new \Shopware6SDK\Model\Body96(); // \Shopware6SDK\Model\Body96 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body96**](../Model/Body96.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body96**](../Model/Body96.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
+[**\Shopware6SDK\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createOrder**
-> \ShopwareSDK6\Model\InlineResponse200147 createOrder($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200147 createOrder($body, $_response)
 
 Create a new Order resources
 
@@ -73,12 +73,12 @@ Create a new Order resources. All required fields must be provided in order to c
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderApi(
+$apiInstance = new Shopware6SDK\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\OrderFlat(); // \ShopwareSDK6\Model\OrderFlat | 
+$body = new \Shopware6SDK\Model\OrderFlat(); // \Shopware6SDK\Model\OrderFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\OrderFlat**](../Model/OrderFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\OrderFlat**](../Model/OrderFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
+[**\Shopware6SDK\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Order resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderApi(
+$apiInstance = new Shopware6SDK\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOrder**
-> \ShopwareSDK6\Model\InlineResponse200147 getOrder($id)
+> \Shopware6SDK\Model\InlineResponse200147 getOrder($id)
 
 Detailed information about a Order resource
 
@@ -170,7 +170,7 @@ Detailed information about a Order resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderApi(
+$apiInstance = new Shopware6SDK\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
+[**\Shopware6SDK\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOrderList**
-> \ShopwareSDK6\Model\InlineResponse200145 getOrderList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200145 getOrderList($limit, $page, $query)
 
 List with basic information of Order resources
 
@@ -217,7 +217,7 @@ List with basic information of Order resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderApi(
+$apiInstance = new Shopware6SDK\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200145**](../Model/InlineResponse200145.md)
+[**\Shopware6SDK\Model\InlineResponse200145**](../Model/InlineResponse200145.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateOrder**
-> \ShopwareSDK6\Model\InlineResponse200147 updateOrder($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200147 updateOrder($id, $body, $_response)
 
 Partially update information about a Order resource
 
@@ -268,13 +268,13 @@ Partially update information about a Order resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderApi(
+$apiInstance = new Shopware6SDK\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the order
-$body = new \ShopwareSDK6\Model\Body97(); // \ShopwareSDK6\Model\Body97 | Partially update information about a Order resource.
+$body = new \Shopware6SDK\Model\Body97(); // \Shopware6SDK\Model\Body97 | Partially update information about a Order resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the order |
- **body** | [**\ShopwareSDK6\Model\Body97**](../Model/Body97.md)| Partially update information about a Order resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body97**](../Model/Body97.md)| Partially update information about a Order resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
+[**\Shopware6SDK\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateOrder**
-> \ShopwareSDK6\Model\InlineResponse200147 updateOrder($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200147 updateOrder($id, $body, $_response)
 
 Partially update information about a Order resource
 
@@ -319,13 +319,13 @@ Partially update information about a Order resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderApi(
+$apiInstance = new Shopware6SDK\Api\OrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the order
-$body = new \ShopwareSDK6\Model\OrderFlat(); // \ShopwareSDK6\Model\OrderFlat | Partially update information about a Order resource.
+$body = new \Shopware6SDK\Model\OrderFlat(); // \Shopware6SDK\Model\OrderFlat | Partially update information about a Order resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the order |
- **body** | [**\ShopwareSDK6\Model\OrderFlat**](../Model/OrderFlat.md)| Partially update information about a Order resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\OrderFlat**](../Model/OrderFlat.md)| Partially update information about a Order resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
+[**\Shopware6SDK\Model\InlineResponse200147**](../Model/InlineResponse200147.md)
 
 ### Authorization
 

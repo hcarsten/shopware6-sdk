@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * TaxRule Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class TaxRule extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\TaxRuleAttributes',
-'links' => '\ShopwareSDK6\Model\TaxRuleLinks',
-'relationships' => '\ShopwareSDK6\Model\TaxRuleRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\TaxRuleAttributes',
+'links' => '\Shopware6SDK\Model\TaxRuleLinks',
+'relationships' => '\Shopware6SDK\Model\TaxRuleRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class TaxRule extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\TaxRuleAttributes
+     * @return \Shopware6SDK\Model\TaxRuleAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class TaxRule extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\TaxRuleAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\TaxRuleAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class TaxRule extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\TaxRuleLinks
+     * @return \Shopware6SDK\Model\TaxRuleLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class TaxRule extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\TaxRuleLinks $links links
+     * @param \Shopware6SDK\Model\TaxRuleLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class TaxRule extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\TaxRuleRelationships
+     * @return \Shopware6SDK\Model\TaxRuleRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class TaxRule extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\TaxRuleRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\TaxRuleRelationships $relationships relationships
      *
      * @return $this
      */

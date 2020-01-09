@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductExport Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductExport extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\ProductExportAttributes',
-'links' => '\ShopwareSDK6\Model\ProductExportLinks',
-'relationships' => '\ShopwareSDK6\Model\ProductExportRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\ProductExportAttributes',
+'links' => '\Shopware6SDK\Model\ProductExportLinks',
+'relationships' => '\Shopware6SDK\Model\ProductExportRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductExport extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\ProductExportAttributes
+     * @return \Shopware6SDK\Model\ProductExportAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductExport extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\ProductExportAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\ProductExportAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductExport extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ProductExportLinks
+     * @return \Shopware6SDK\Model\ProductExportLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductExport extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ProductExportLinks $links links
+     * @param \Shopware6SDK\Model\ProductExportLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductExport extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\ProductExportRelationships
+     * @return \Shopware6SDK\Model\ProductExportRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductExport extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\ProductExportRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\ProductExportRelationships $relationships relationships
      *
      * @return $this
      */

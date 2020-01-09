@@ -1,4 +1,4 @@
-# ShopwareSDK6\MediaApi
+# Shopware6SDK\MediaApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateMedia**](MediaApi.md#updatemedia) | **PATCH** /media/{id} | Partially update information about a Media resource
 
 # **createMedia**
-> \ShopwareSDK6\Model\InlineResponse200111 createMedia($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200111 createMedia($body, $_response)
 
 Create a new Media resources
 
@@ -22,12 +22,12 @@ Create a new Media resources. All required fields must be provided in order to c
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MediaApi(
+$apiInstance = new Shopware6SDK\Api\MediaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body72(); // \ShopwareSDK6\Model\Body72 | 
+$body = new \Shopware6SDK\Model\Body72(); // \Shopware6SDK\Model\Body72 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body72**](../Model/Body72.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body72**](../Model/Body72.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
+[**\Shopware6SDK\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createMedia**
-> \ShopwareSDK6\Model\InlineResponse200111 createMedia($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200111 createMedia($body, $_response)
 
 Create a new Media resources
 
@@ -73,12 +73,12 @@ Create a new Media resources. All required fields must be provided in order to c
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MediaApi(
+$apiInstance = new Shopware6SDK\Api\MediaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\MediaFlat(); // \ShopwareSDK6\Model\MediaFlat | 
+$body = new \Shopware6SDK\Model\MediaFlat(); // \Shopware6SDK\Model\MediaFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\MediaFlat**](../Model/MediaFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\MediaFlat**](../Model/MediaFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
+[**\Shopware6SDK\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Media resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MediaApi(
+$apiInstance = new Shopware6SDK\Api\MediaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMedia**
-> \ShopwareSDK6\Model\InlineResponse200111 getMedia($id)
+> \Shopware6SDK\Model\InlineResponse200111 getMedia($id)
 
 Detailed information about a Media resource
 
@@ -170,7 +170,7 @@ Detailed information about a Media resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MediaApi(
+$apiInstance = new Shopware6SDK\Api\MediaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
+[**\Shopware6SDK\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMediaList**
-> \ShopwareSDK6\Model\InlineResponse200109 getMediaList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200109 getMediaList($limit, $page, $query)
 
 List with basic information of Media resources
 
@@ -217,7 +217,7 @@ List with basic information of Media resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MediaApi(
+$apiInstance = new Shopware6SDK\Api\MediaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200109**](../Model/InlineResponse200109.md)
+[**\Shopware6SDK\Model\InlineResponse200109**](../Model/InlineResponse200109.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMedia**
-> \ShopwareSDK6\Model\InlineResponse200111 updateMedia($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200111 updateMedia($id, $body, $_response)
 
 Partially update information about a Media resource
 
@@ -268,13 +268,13 @@ Partially update information about a Media resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MediaApi(
+$apiInstance = new Shopware6SDK\Api\MediaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the media
-$body = new \ShopwareSDK6\Model\Body73(); // \ShopwareSDK6\Model\Body73 | Partially update information about a Media resource.
+$body = new \Shopware6SDK\Model\Body73(); // \Shopware6SDK\Model\Body73 | Partially update information about a Media resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the media |
- **body** | [**\ShopwareSDK6\Model\Body73**](../Model/Body73.md)| Partially update information about a Media resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body73**](../Model/Body73.md)| Partially update information about a Media resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
+[**\Shopware6SDK\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMedia**
-> \ShopwareSDK6\Model\InlineResponse200111 updateMedia($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200111 updateMedia($id, $body, $_response)
 
 Partially update information about a Media resource
 
@@ -319,13 +319,13 @@ Partially update information about a Media resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\MediaApi(
+$apiInstance = new Shopware6SDK\Api\MediaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the media
-$body = new \ShopwareSDK6\Model\MediaFlat(); // \ShopwareSDK6\Model\MediaFlat | Partially update information about a Media resource.
+$body = new \Shopware6SDK\Model\MediaFlat(); // \Shopware6SDK\Model\MediaFlat | Partially update information about a Media resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the media |
- **body** | [**\ShopwareSDK6\Model\MediaFlat**](../Model/MediaFlat.md)| Partially update information about a Media resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\MediaFlat**](../Model/MediaFlat.md)| Partially update information about a Media resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
+[**\Shopware6SDK\Model\InlineResponse200111**](../Model/InlineResponse200111.md)
 
 ### Authorization
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MainCategory Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MainCategory extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\MainCategoryAttributes',
-'links' => '\ShopwareSDK6\Model\MainCategoryLinks',
-'relationships' => '\ShopwareSDK6\Model\MainCategoryRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\MainCategoryAttributes',
+'links' => '\Shopware6SDK\Model\MainCategoryLinks',
+'relationships' => '\Shopware6SDK\Model\MainCategoryRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MainCategory extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\MainCategoryAttributes
+     * @return \Shopware6SDK\Model\MainCategoryAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MainCategory extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\MainCategoryAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\MainCategoryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MainCategory extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MainCategoryLinks
+     * @return \Shopware6SDK\Model\MainCategoryLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MainCategory extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MainCategoryLinks $links links
+     * @param \Shopware6SDK\Model\MainCategoryLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MainCategory extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\MainCategoryRelationships
+     * @return \Shopware6SDK\Model\MainCategoryRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MainCategory extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\MainCategoryRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\MainCategoryRelationships $relationships relationships
      *
      * @return $this
      */

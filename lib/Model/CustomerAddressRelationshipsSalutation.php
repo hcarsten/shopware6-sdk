@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CustomerAddressRelationshipsSalutation Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CustomerAddressRelationshipsSalutation implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsSalutationLinks',
-'data' => '\ShopwareSDK6\Model\CustomerRelationshipsSalutationData'    ];
+        'links' => '\Shopware6SDK\Model\CustomerAddressRelationshipsSalutationLinks',
+'data' => '\Shopware6SDK\Model\CustomerRelationshipsSalutationData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CustomerAddressRelationshipsSalutation implements ModelInterface, ArrayAcc
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsSalutationLinks
+     * @return \Shopware6SDK\Model\CustomerAddressRelationshipsSalutationLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CustomerAddressRelationshipsSalutation implements ModelInterface, ArrayAcc
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsSalutationLinks $links links
+     * @param \Shopware6SDK\Model\CustomerAddressRelationshipsSalutationLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CustomerAddressRelationshipsSalutation implements ModelInterface, ArrayAcc
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CustomerRelationshipsSalutationData
+     * @return \Shopware6SDK\Model\CustomerRelationshipsSalutationData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CustomerAddressRelationshipsSalutation implements ModelInterface, ArrayAcc
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CustomerRelationshipsSalutationData $data data
+     * @param \Shopware6SDK\Model\CustomerRelationshipsSalutationData $data data
      *
      * @return $this
      */

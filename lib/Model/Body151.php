@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Body151 Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class Body151 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\ShopwareSDK6\Model\PromotionSetgroup',
-'included' => '\ShopwareSDK6\Model\Resource[]'    ];
+        'data' => '\Shopware6SDK\Model\PromotionSetgroup',
+'included' => '\Shopware6SDK\Model\Resource[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class Body151 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\PromotionSetgroup
+     * @return \Shopware6SDK\Model\PromotionSetgroup
      */
     public function getData()
     {
@@ -215,7 +215,7 @@ class Body151 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\PromotionSetgroup $data data
+     * @param \Shopware6SDK\Model\PromotionSetgroup $data data
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class Body151 implements ModelInterface, ArrayAccess
     /**
      * Gets included
      *
-     * @return \ShopwareSDK6\Model\Resource[]
+     * @return \Shopware6SDK\Model\Resource[]
      */
     public function getIncluded()
     {
@@ -239,7 +239,7 @@ class Body151 implements ModelInterface, ArrayAccess
     /**
      * Sets included
      *
-     * @param \ShopwareSDK6\Model\Resource[] $included included
+     * @param \Shopware6SDK\Model\Resource[] $included included
      *
      * @return $this
      */

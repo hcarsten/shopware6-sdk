@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaFlatExtensions Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaFlatExtensions implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'themes' => '\ShopwareSDK6\Model\ThemeFlat',
-'theme_media' => '\ShopwareSDK6\Model\ThemeFlat'    ];
+        'themes' => '\Shopware6SDK\Model\ThemeFlat',
+'theme_media' => '\Shopware6SDK\Model\ThemeFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaFlatExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets themes
      *
-     * @return \ShopwareSDK6\Model\ThemeFlat
+     * @return \Shopware6SDK\Model\ThemeFlat
      */
     public function getThemes()
     {
@@ -215,7 +215,7 @@ class MediaFlatExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets themes
      *
-     * @param \ShopwareSDK6\Model\ThemeFlat $themes themes
+     * @param \Shopware6SDK\Model\ThemeFlat $themes themes
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaFlatExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets theme_media
      *
-     * @return \ShopwareSDK6\Model\ThemeFlat
+     * @return \Shopware6SDK\Model\ThemeFlat
      */
     public function getThemeMedia()
     {
@@ -239,7 +239,7 @@ class MediaFlatExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets theme_media
      *
-     * @param \ShopwareSDK6\Model\ThemeFlat $theme_media theme_media
+     * @param \Shopware6SDK\Model\ThemeFlat $theme_media theme_media
      *
      * @return $this
      */

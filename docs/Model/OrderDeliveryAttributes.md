@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **tracking_codes** | **string[]** |  | 
 **shipping_date_earliest** | [**\DateTime**](\DateTime.md) |  | 
 **shipping_date_latest** | [**\DateTime**](\DateTime.md) |  | 
-**shipping_costs** | [**\ShopwareSDK6\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
+**shipping_costs** | [**\Shopware6SDK\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 

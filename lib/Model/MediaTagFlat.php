@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaTagFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class MediaTagFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'media_id' => 'string',
 'tag_id' => 'string',
-'media' => '\ShopwareSDK6\Model\MediaFlat',
-'tag' => '\ShopwareSDK6\Model\TagFlat'    ];
+'media' => '\Shopware6SDK\Model\MediaFlat',
+'tag' => '\Shopware6SDK\Model\TagFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class MediaTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -311,7 +311,7 @@ class MediaTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $media media
+     * @param \Shopware6SDK\Model\MediaFlat $media media
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class MediaTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tag
      *
-     * @return \ShopwareSDK6\Model\TagFlat
+     * @return \Shopware6SDK\Model\TagFlat
      */
     public function getTag()
     {
@@ -335,7 +335,7 @@ class MediaTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tag
      *
-     * @param \ShopwareSDK6\Model\TagFlat $tag tag
+     * @param \Shopware6SDK\Model\TagFlat $tag tag
      *
      * @return $this
      */

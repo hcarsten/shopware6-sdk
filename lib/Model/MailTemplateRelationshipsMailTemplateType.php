@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplateRelationshipsMailTemplateType Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MailTemplateRelationshipsMailTemplateType implements ModelInterface, Array
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\MailTemplateRelationshipsMailTemplateTypeLinks',
-'data' => '\ShopwareSDK6\Model\MailTemplateRelationshipsMailTemplateTypeData'    ];
+        'links' => '\Shopware6SDK\Model\MailTemplateRelationshipsMailTemplateTypeLinks',
+'data' => '\Shopware6SDK\Model\MailTemplateRelationshipsMailTemplateTypeData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MailTemplateRelationshipsMailTemplateType implements ModelInterface, Array
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MailTemplateRelationshipsMailTemplateTypeLinks
+     * @return \Shopware6SDK\Model\MailTemplateRelationshipsMailTemplateTypeLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MailTemplateRelationshipsMailTemplateType implements ModelInterface, Array
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MailTemplateRelationshipsMailTemplateTypeLinks $links links
+     * @param \Shopware6SDK\Model\MailTemplateRelationshipsMailTemplateTypeLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MailTemplateRelationshipsMailTemplateType implements ModelInterface, Array
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\MailTemplateRelationshipsMailTemplateTypeData
+     * @return \Shopware6SDK\Model\MailTemplateRelationshipsMailTemplateTypeData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MailTemplateRelationshipsMailTemplateType implements ModelInterface, Array
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\MailTemplateRelationshipsMailTemplateTypeData $data data
+     * @param \Shopware6SDK\Model\MailTemplateRelationshipsMailTemplateTypeData $data data
      *
      * @return $this
      */

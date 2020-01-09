@@ -1,4 +1,4 @@
-# ShopwareSDK6\ThemeApi
+# Shopware6SDK\ThemeApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateTheme**](ThemeApi.md#updatetheme) | **PATCH** /theme/{id} | Partially update information about a Theme resource
 
 # **createTheme**
-> \ShopwareSDK6\Model\InlineResponse200303 createTheme($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200303 createTheme($body, $_response)
 
 Create a new Theme resources
 
@@ -22,12 +22,12 @@ Create a new Theme resources. All required fields must be provided in order to c
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ThemeApi(
+$apiInstance = new Shopware6SDK\Api\ThemeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body200(); // \ShopwareSDK6\Model\Body200 | 
+$body = new \Shopware6SDK\Model\Body200(); // \Shopware6SDK\Model\Body200 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body200**](../Model/Body200.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body200**](../Model/Body200.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
+[**\Shopware6SDK\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createTheme**
-> \ShopwareSDK6\Model\InlineResponse200303 createTheme($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200303 createTheme($body, $_response)
 
 Create a new Theme resources
 
@@ -73,12 +73,12 @@ Create a new Theme resources. All required fields must be provided in order to c
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ThemeApi(
+$apiInstance = new Shopware6SDK\Api\ThemeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\ThemeFlat(); // \ShopwareSDK6\Model\ThemeFlat | 
+$body = new \Shopware6SDK\Model\ThemeFlat(); // \Shopware6SDK\Model\ThemeFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\ThemeFlat**](../Model/ThemeFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\ThemeFlat**](../Model/ThemeFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
+[**\Shopware6SDK\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Theme resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ThemeApi(
+$apiInstance = new Shopware6SDK\Api\ThemeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTheme**
-> \ShopwareSDK6\Model\InlineResponse200303 getTheme($id)
+> \Shopware6SDK\Model\InlineResponse200303 getTheme($id)
 
 Detailed information about a Theme resource
 
@@ -170,7 +170,7 @@ Detailed information about a Theme resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ThemeApi(
+$apiInstance = new Shopware6SDK\Api\ThemeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
+[**\Shopware6SDK\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getThemeList**
-> \ShopwareSDK6\Model\InlineResponse200301 getThemeList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200301 getThemeList($limit, $page, $query)
 
 List with basic information of Theme resources
 
@@ -217,7 +217,7 @@ List with basic information of Theme resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ThemeApi(
+$apiInstance = new Shopware6SDK\Api\ThemeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200301**](../Model/InlineResponse200301.md)
+[**\Shopware6SDK\Model\InlineResponse200301**](../Model/InlineResponse200301.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateTheme**
-> \ShopwareSDK6\Model\InlineResponse200303 updateTheme($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200303 updateTheme($id, $body, $_response)
 
 Partially update information about a Theme resource
 
@@ -268,13 +268,13 @@ Partially update information about a Theme resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ThemeApi(
+$apiInstance = new Shopware6SDK\Api\ThemeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the theme
-$body = new \ShopwareSDK6\Model\Body201(); // \ShopwareSDK6\Model\Body201 | Partially update information about a Theme resource.
+$body = new \Shopware6SDK\Model\Body201(); // \Shopware6SDK\Model\Body201 | Partially update information about a Theme resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the theme |
- **body** | [**\ShopwareSDK6\Model\Body201**](../Model/Body201.md)| Partially update information about a Theme resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body201**](../Model/Body201.md)| Partially update information about a Theme resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
+[**\Shopware6SDK\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateTheme**
-> \ShopwareSDK6\Model\InlineResponse200303 updateTheme($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200303 updateTheme($id, $body, $_response)
 
 Partially update information about a Theme resource
 
@@ -319,13 +319,13 @@ Partially update information about a Theme resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ThemeApi(
+$apiInstance = new Shopware6SDK\Api\ThemeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the theme
-$body = new \ShopwareSDK6\Model\ThemeFlat(); // \ShopwareSDK6\Model\ThemeFlat | Partially update information about a Theme resource.
+$body = new \Shopware6SDK\Model\ThemeFlat(); // \Shopware6SDK\Model\ThemeFlat | Partially update information about a Theme resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the theme |
- **body** | [**\ShopwareSDK6\Model\ThemeFlat**](../Model/ThemeFlat.md)| Partially update information about a Theme resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\ThemeFlat**](../Model/ThemeFlat.md)| Partially update information about a Theme resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
+[**\Shopware6SDK\Model\InlineResponse200303**](../Model/InlineResponse200303.md)
 
 ### Authorization
 

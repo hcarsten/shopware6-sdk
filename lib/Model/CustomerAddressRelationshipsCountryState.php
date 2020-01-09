@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CustomerAddressRelationshipsCountryState Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CustomerAddressRelationshipsCountryState implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsCountryStateLinks',
-'data' => '\ShopwareSDK6\Model\CustomerAddressRelationshipsCountryStateData'    ];
+        'links' => '\Shopware6SDK\Model\CustomerAddressRelationshipsCountryStateLinks',
+'data' => '\Shopware6SDK\Model\CustomerAddressRelationshipsCountryStateData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CustomerAddressRelationshipsCountryState implements ModelInterface, ArrayA
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsCountryStateLinks
+     * @return \Shopware6SDK\Model\CustomerAddressRelationshipsCountryStateLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CustomerAddressRelationshipsCountryState implements ModelInterface, ArrayA
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsCountryStateLinks $links links
+     * @param \Shopware6SDK\Model\CustomerAddressRelationshipsCountryStateLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CustomerAddressRelationshipsCountryState implements ModelInterface, ArrayA
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressRelationshipsCountryStateData
+     * @return \Shopware6SDK\Model\CustomerAddressRelationshipsCountryStateData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CustomerAddressRelationshipsCountryState implements ModelInterface, ArrayA
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressRelationshipsCountryStateData $data data
+     * @param \Shopware6SDK\Model\CustomerAddressRelationshipsCountryStateData $data data
      *
      * @return $this
      */

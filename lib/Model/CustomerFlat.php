@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CustomerFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -90,20 +90,20 @@ class CustomerFlat implements ModelInterface, ArrayAccess
 'remote_address' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'group' => '\ShopwareSDK6\Model\CustomerGroupFlat',
-'default_payment_method' => '\ShopwareSDK6\Model\PaymentMethodFlat',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'language' => '\ShopwareSDK6\Model\LanguageFlat',
-'last_payment_method' => '\ShopwareSDK6\Model\PaymentMethodFlat',
-'default_billing_address' => '\ShopwareSDK6\Model\CustomerAddressFlat',
-'default_shipping_address' => '\ShopwareSDK6\Model\CustomerAddressFlat',
-'salutation' => '\ShopwareSDK6\Model\SalutationFlat',
-'addresses' => '\ShopwareSDK6\Model\CustomerAddressFlat',
-'order_customers' => '\ShopwareSDK6\Model\OrderCustomerFlat',
-'tags' => '\ShopwareSDK6\Model\TagFlat',
-'promotions' => '\ShopwareSDK6\Model\PromotionFlat',
-'product_reviews' => '\ShopwareSDK6\Model\ProductReviewFlat',
-'recovery_customer' => '\ShopwareSDK6\Model\CustomerRecoveryFlat'    ];
+'group' => '\Shopware6SDK\Model\CustomerGroupFlat',
+'default_payment_method' => '\Shopware6SDK\Model\PaymentMethodFlat',
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat',
+'language' => '\Shopware6SDK\Model\LanguageFlat',
+'last_payment_method' => '\Shopware6SDK\Model\PaymentMethodFlat',
+'default_billing_address' => '\Shopware6SDK\Model\CustomerAddressFlat',
+'default_shipping_address' => '\Shopware6SDK\Model\CustomerAddressFlat',
+'salutation' => '\Shopware6SDK\Model\SalutationFlat',
+'addresses' => '\Shopware6SDK\Model\CustomerAddressFlat',
+'order_customers' => '\Shopware6SDK\Model\OrderCustomerFlat',
+'tags' => '\Shopware6SDK\Model\TagFlat',
+'promotions' => '\Shopware6SDK\Model\PromotionFlat',
+'product_reviews' => '\Shopware6SDK\Model\ProductReviewFlat',
+'recovery_customer' => '\Shopware6SDK\Model\CustomerRecoveryFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -1336,7 +1336,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets group
      *
-     * @return \ShopwareSDK6\Model\CustomerGroupFlat
+     * @return \Shopware6SDK\Model\CustomerGroupFlat
      */
     public function getGroup()
     {
@@ -1346,7 +1346,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets group
      *
-     * @param \ShopwareSDK6\Model\CustomerGroupFlat $group group
+     * @param \Shopware6SDK\Model\CustomerGroupFlat $group group
      *
      * @return $this
      */
@@ -1360,7 +1360,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets default_payment_method
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodFlat
+     * @return \Shopware6SDK\Model\PaymentMethodFlat
      */
     public function getDefaultPaymentMethod()
     {
@@ -1370,7 +1370,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets default_payment_method
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodFlat $default_payment_method default_payment_method
+     * @param \Shopware6SDK\Model\PaymentMethodFlat $default_payment_method default_payment_method
      *
      * @return $this
      */
@@ -1384,7 +1384,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -1394,7 +1394,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */
@@ -1408,7 +1408,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \ShopwareSDK6\Model\LanguageFlat
+     * @return \Shopware6SDK\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -1418,7 +1418,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \ShopwareSDK6\Model\LanguageFlat $language language
+     * @param \Shopware6SDK\Model\LanguageFlat $language language
      *
      * @return $this
      */
@@ -1432,7 +1432,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets last_payment_method
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodFlat
+     * @return \Shopware6SDK\Model\PaymentMethodFlat
      */
     public function getLastPaymentMethod()
     {
@@ -1442,7 +1442,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets last_payment_method
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodFlat $last_payment_method last_payment_method
+     * @param \Shopware6SDK\Model\PaymentMethodFlat $last_payment_method last_payment_method
      *
      * @return $this
      */
@@ -1456,7 +1456,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets default_billing_address
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressFlat
+     * @return \Shopware6SDK\Model\CustomerAddressFlat
      */
     public function getDefaultBillingAddress()
     {
@@ -1466,7 +1466,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets default_billing_address
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressFlat $default_billing_address default_billing_address
+     * @param \Shopware6SDK\Model\CustomerAddressFlat $default_billing_address default_billing_address
      *
      * @return $this
      */
@@ -1480,7 +1480,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets default_shipping_address
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressFlat
+     * @return \Shopware6SDK\Model\CustomerAddressFlat
      */
     public function getDefaultShippingAddress()
     {
@@ -1490,7 +1490,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets default_shipping_address
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressFlat $default_shipping_address default_shipping_address
+     * @param \Shopware6SDK\Model\CustomerAddressFlat $default_shipping_address default_shipping_address
      *
      * @return $this
      */
@@ -1504,7 +1504,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \ShopwareSDK6\Model\SalutationFlat
+     * @return \Shopware6SDK\Model\SalutationFlat
      */
     public function getSalutation()
     {
@@ -1514,7 +1514,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \ShopwareSDK6\Model\SalutationFlat $salutation salutation
+     * @param \Shopware6SDK\Model\SalutationFlat $salutation salutation
      *
      * @return $this
      */
@@ -1528,7 +1528,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets addresses
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressFlat
+     * @return \Shopware6SDK\Model\CustomerAddressFlat
      */
     public function getAddresses()
     {
@@ -1538,7 +1538,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets addresses
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressFlat $addresses addresses
+     * @param \Shopware6SDK\Model\CustomerAddressFlat $addresses addresses
      *
      * @return $this
      */
@@ -1552,7 +1552,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_customers
      *
-     * @return \ShopwareSDK6\Model\OrderCustomerFlat
+     * @return \Shopware6SDK\Model\OrderCustomerFlat
      */
     public function getOrderCustomers()
     {
@@ -1562,7 +1562,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_customers
      *
-     * @param \ShopwareSDK6\Model\OrderCustomerFlat $order_customers order_customers
+     * @param \Shopware6SDK\Model\OrderCustomerFlat $order_customers order_customers
      *
      * @return $this
      */
@@ -1576,7 +1576,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \ShopwareSDK6\Model\TagFlat
+     * @return \Shopware6SDK\Model\TagFlat
      */
     public function getTags()
     {
@@ -1586,7 +1586,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \ShopwareSDK6\Model\TagFlat $tags tags
+     * @param \Shopware6SDK\Model\TagFlat $tags tags
      *
      * @return $this
      */
@@ -1600,7 +1600,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotions
      *
-     * @return \ShopwareSDK6\Model\PromotionFlat
+     * @return \Shopware6SDK\Model\PromotionFlat
      */
     public function getPromotions()
     {
@@ -1610,7 +1610,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotions
      *
-     * @param \ShopwareSDK6\Model\PromotionFlat $promotions promotions
+     * @param \Shopware6SDK\Model\PromotionFlat $promotions promotions
      *
      * @return $this
      */
@@ -1624,7 +1624,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_reviews
      *
-     * @return \ShopwareSDK6\Model\ProductReviewFlat
+     * @return \Shopware6SDK\Model\ProductReviewFlat
      */
     public function getProductReviews()
     {
@@ -1634,7 +1634,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_reviews
      *
-     * @param \ShopwareSDK6\Model\ProductReviewFlat $product_reviews product_reviews
+     * @param \Shopware6SDK\Model\ProductReviewFlat $product_reviews product_reviews
      *
      * @return $this
      */
@@ -1648,7 +1648,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets recovery_customer
      *
-     * @return \ShopwareSDK6\Model\CustomerRecoveryFlat
+     * @return \Shopware6SDK\Model\CustomerRecoveryFlat
      */
     public function getRecoveryCustomer()
     {
@@ -1658,7 +1658,7 @@ class CustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets recovery_customer
      *
-     * @param \ShopwareSDK6\Model\CustomerRecoveryFlat $recovery_customer recovery_customer
+     * @param \Shopware6SDK\Model\CustomerRecoveryFlat $recovery_customer recovery_customer
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CategoryRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,18 +56,18 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'parent' => '\ShopwareSDK6\Model\CategoryRelationshipsParent',
-'children' => '\ShopwareSDK6\Model\CategoryRelationshipsChildren',
-'media' => '\ShopwareSDK6\Model\CategoryRelationshipsMedia',
-'products' => '\ShopwareSDK6\Model\CategoryRelationshipsProducts',
-'nested_products' => '\ShopwareSDK6\Model\CategoryRelationshipsNestedProducts',
-'tags' => '\ShopwareSDK6\Model\CategoryRelationshipsTags',
-'cms_page' => '\ShopwareSDK6\Model\CategoryRelationshipsCmsPage',
-'navigation_sales_channels' => '\ShopwareSDK6\Model\CategoryRelationshipsNavigationSalesChannels',
-'footer_sales_channels' => '\ShopwareSDK6\Model\CategoryRelationshipsFooterSalesChannels',
-'service_sales_channels' => '\ShopwareSDK6\Model\CategoryRelationshipsServiceSalesChannels',
-'main_categories' => '\ShopwareSDK6\Model\CategoryRelationshipsMainCategories',
-'seo_urls' => '\ShopwareSDK6\Model\CategoryRelationshipsSeoUrls'    ];
+        'parent' => '\Shopware6SDK\Model\CategoryRelationshipsParent',
+'children' => '\Shopware6SDK\Model\CategoryRelationshipsChildren',
+'media' => '\Shopware6SDK\Model\CategoryRelationshipsMedia',
+'products' => '\Shopware6SDK\Model\CategoryRelationshipsProducts',
+'nested_products' => '\Shopware6SDK\Model\CategoryRelationshipsNestedProducts',
+'tags' => '\Shopware6SDK\Model\CategoryRelationshipsTags',
+'cms_page' => '\Shopware6SDK\Model\CategoryRelationshipsCmsPage',
+'navigation_sales_channels' => '\Shopware6SDK\Model\CategoryRelationshipsNavigationSalesChannels',
+'footer_sales_channels' => '\Shopware6SDK\Model\CategoryRelationshipsFooterSalesChannels',
+'service_sales_channels' => '\Shopware6SDK\Model\CategoryRelationshipsServiceSalesChannels',
+'main_categories' => '\Shopware6SDK\Model\CategoryRelationshipsMainCategories',
+'seo_urls' => '\Shopware6SDK\Model\CategoryRelationshipsSeoUrls'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsParent
+     * @return \Shopware6SDK\Model\CategoryRelationshipsParent
      */
     public function getParent()
     {
@@ -275,7 +275,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsParent $parent parent
+     * @param \Shopware6SDK\Model\CategoryRelationshipsParent $parent parent
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsChildren
+     * @return \Shopware6SDK\Model\CategoryRelationshipsChildren
      */
     public function getChildren()
     {
@@ -299,7 +299,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsChildren $children children
+     * @param \Shopware6SDK\Model\CategoryRelationshipsChildren $children children
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsMedia
+     * @return \Shopware6SDK\Model\CategoryRelationshipsMedia
      */
     public function getMedia()
     {
@@ -323,7 +323,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\CategoryRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -337,7 +337,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsProducts
+     * @return \Shopware6SDK\Model\CategoryRelationshipsProducts
      */
     public function getProducts()
     {
@@ -347,7 +347,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsProducts $products products
+     * @param \Shopware6SDK\Model\CategoryRelationshipsProducts $products products
      *
      * @return $this
      */
@@ -361,7 +361,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets nested_products
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsNestedProducts
+     * @return \Shopware6SDK\Model\CategoryRelationshipsNestedProducts
      */
     public function getNestedProducts()
     {
@@ -371,7 +371,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets nested_products
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsNestedProducts $nested_products nested_products
+     * @param \Shopware6SDK\Model\CategoryRelationshipsNestedProducts $nested_products nested_products
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsTags
+     * @return \Shopware6SDK\Model\CategoryRelationshipsTags
      */
     public function getTags()
     {
@@ -395,7 +395,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsTags $tags tags
+     * @param \Shopware6SDK\Model\CategoryRelationshipsTags $tags tags
      *
      * @return $this
      */
@@ -409,7 +409,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets cms_page
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsCmsPage
+     * @return \Shopware6SDK\Model\CategoryRelationshipsCmsPage
      */
     public function getCmsPage()
     {
@@ -419,7 +419,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets cms_page
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsCmsPage $cms_page cms_page
+     * @param \Shopware6SDK\Model\CategoryRelationshipsCmsPage $cms_page cms_page
      *
      * @return $this
      */
@@ -433,7 +433,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets navigation_sales_channels
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsNavigationSalesChannels
+     * @return \Shopware6SDK\Model\CategoryRelationshipsNavigationSalesChannels
      */
     public function getNavigationSalesChannels()
     {
@@ -443,7 +443,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets navigation_sales_channels
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsNavigationSalesChannels $navigation_sales_channels navigation_sales_channels
+     * @param \Shopware6SDK\Model\CategoryRelationshipsNavigationSalesChannels $navigation_sales_channels navigation_sales_channels
      *
      * @return $this
      */
@@ -457,7 +457,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets footer_sales_channels
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsFooterSalesChannels
+     * @return \Shopware6SDK\Model\CategoryRelationshipsFooterSalesChannels
      */
     public function getFooterSalesChannels()
     {
@@ -467,7 +467,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets footer_sales_channels
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsFooterSalesChannels $footer_sales_channels footer_sales_channels
+     * @param \Shopware6SDK\Model\CategoryRelationshipsFooterSalesChannels $footer_sales_channels footer_sales_channels
      *
      * @return $this
      */
@@ -481,7 +481,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets service_sales_channels
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsServiceSalesChannels
+     * @return \Shopware6SDK\Model\CategoryRelationshipsServiceSalesChannels
      */
     public function getServiceSalesChannels()
     {
@@ -491,7 +491,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets service_sales_channels
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsServiceSalesChannels $service_sales_channels service_sales_channels
+     * @param \Shopware6SDK\Model\CategoryRelationshipsServiceSalesChannels $service_sales_channels service_sales_channels
      *
      * @return $this
      */
@@ -505,7 +505,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets main_categories
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsMainCategories
+     * @return \Shopware6SDK\Model\CategoryRelationshipsMainCategories
      */
     public function getMainCategories()
     {
@@ -515,7 +515,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets main_categories
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsMainCategories $main_categories main_categories
+     * @param \Shopware6SDK\Model\CategoryRelationshipsMainCategories $main_categories main_categories
      *
      * @return $this
      */
@@ -529,7 +529,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets seo_urls
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsSeoUrls
+     * @return \Shopware6SDK\Model\CategoryRelationshipsSeoUrls
      */
     public function getSeoUrls()
     {
@@ -539,7 +539,7 @@ class CategoryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets seo_urls
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsSeoUrls $seo_urls seo_urls
+     * @param \Shopware6SDK\Model\CategoryRelationshipsSeoUrls $seo_urls seo_urls
      *
      * @return $this
      */

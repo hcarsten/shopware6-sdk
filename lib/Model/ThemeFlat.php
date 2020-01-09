@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ThemeFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -72,10 +72,10 @@ class ThemeFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'media' => '\ShopwareSDK6\Model\MediaFlat',
-'preview_media' => '\ShopwareSDK6\Model\MediaFlat',
-'child_themes' => '\ShopwareSDK6\Model\ThemeFlat'    ];
+'sales_channels' => '\Shopware6SDK\Model\SalesChannelFlat',
+'media' => '\Shopware6SDK\Model\MediaFlat',
+'preview_media' => '\Shopware6SDK\Model\MediaFlat',
+'child_themes' => '\Shopware6SDK\Model\ThemeFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -712,7 +712,7 @@ class ThemeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -722,7 +722,7 @@ class ThemeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */
@@ -736,7 +736,7 @@ class ThemeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -746,7 +746,7 @@ class ThemeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $media media
+     * @param \Shopware6SDK\Model\MediaFlat $media media
      *
      * @return $this
      */
@@ -760,7 +760,7 @@ class ThemeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets preview_media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getPreviewMedia()
     {
@@ -770,7 +770,7 @@ class ThemeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets preview_media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $preview_media preview_media
+     * @param \Shopware6SDK\Model\MediaFlat $preview_media preview_media
      *
      * @return $this
      */
@@ -784,7 +784,7 @@ class ThemeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets child_themes
      *
-     * @return \ShopwareSDK6\Model\ThemeFlat
+     * @return \Shopware6SDK\Model\ThemeFlat
      */
     public function getChildThemes()
     {
@@ -794,7 +794,7 @@ class ThemeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets child_themes
      *
-     * @param \ShopwareSDK6\Model\ThemeFlat $child_themes child_themes
+     * @param \Shopware6SDK\Model\ThemeFlat $child_themes child_themes
      *
      * @return $this
      */

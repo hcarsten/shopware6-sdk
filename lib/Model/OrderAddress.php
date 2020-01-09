@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderAddress Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class OrderAddress extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\OrderAddressAttributes',
-'links' => '\ShopwareSDK6\Model\OrderAddressLinks',
-'relationships' => '\ShopwareSDK6\Model\OrderAddressRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\OrderAddressAttributes',
+'links' => '\Shopware6SDK\Model\OrderAddressLinks',
+'relationships' => '\Shopware6SDK\Model\OrderAddressRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class OrderAddress extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\OrderAddressAttributes
+     * @return \Shopware6SDK\Model\OrderAddressAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class OrderAddress extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\OrderAddressAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\OrderAddressAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class OrderAddress extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\OrderAddressLinks
+     * @return \Shopware6SDK\Model\OrderAddressLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class OrderAddress extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\OrderAddressLinks $links links
+     * @param \Shopware6SDK\Model\OrderAddressLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class OrderAddress extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\OrderAddressRelationships
+     * @return \Shopware6SDK\Model\OrderAddressRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class OrderAddress extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\OrderAddressRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\OrderAddressRelationships $relationships relationships
      *
      * @return $this
      */

@@ -12,8 +12,8 @@ Name | Type | Description | Notes
 **ranking** | **float** |  | 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**product** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**language** | [**\ShopwareSDK6\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
+**product** | [**\Shopware6SDK\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**language** | [**\Shopware6SDK\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

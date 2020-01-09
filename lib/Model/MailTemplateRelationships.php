@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplateRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MailTemplateRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sales_channels' => '\ShopwareSDK6\Model\MailTemplateRelationshipsSalesChannels',
-'mail_template_type' => '\ShopwareSDK6\Model\MailTemplateRelationshipsMailTemplateType',
-'media' => '\ShopwareSDK6\Model\MailTemplateRelationshipsMedia'    ];
+        'sales_channels' => '\Shopware6SDK\Model\MailTemplateRelationshipsSalesChannels',
+'mail_template_type' => '\Shopware6SDK\Model\MailTemplateRelationshipsMailTemplateType',
+'media' => '\Shopware6SDK\Model\MailTemplateRelationshipsMedia'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class MailTemplateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\MailTemplateRelationshipsSalesChannels
+     * @return \Shopware6SDK\Model\MailTemplateRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -221,7 +221,7 @@ class MailTemplateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\MailTemplateRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\MailTemplateRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class MailTemplateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets mail_template_type
      *
-     * @return \ShopwareSDK6\Model\MailTemplateRelationshipsMailTemplateType
+     * @return \Shopware6SDK\Model\MailTemplateRelationshipsMailTemplateType
      */
     public function getMailTemplateType()
     {
@@ -245,7 +245,7 @@ class MailTemplateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets mail_template_type
      *
-     * @param \ShopwareSDK6\Model\MailTemplateRelationshipsMailTemplateType $mail_template_type mail_template_type
+     * @param \Shopware6SDK\Model\MailTemplateRelationshipsMailTemplateType $mail_template_type mail_template_type
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class MailTemplateRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MailTemplateRelationshipsMedia
+     * @return \Shopware6SDK\Model\MailTemplateRelationshipsMedia
      */
     public function getMedia()
     {
@@ -269,7 +269,7 @@ class MailTemplateRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MailTemplateRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\MailTemplateRelationshipsMedia $media media
      *
      * @return $this
      */

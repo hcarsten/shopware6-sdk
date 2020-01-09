@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Resource Class Doc Comment
  *
  * @category Class
  * @description \&quot;Resource objects\&quot; appear in a JSON API document to represent resources.
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,10 +59,10 @@ class Resource implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'type' => 'string',
 'id' => 'string',
-'attributes' => '\ShopwareSDK6\Model\Attributes',
-'relationships' => '\ShopwareSDK6\Model\Relationships',
-'links' => '\ShopwareSDK6\Model\Links',
-'meta' => '\ShopwareSDK6\Model\Meta'    ];
+'attributes' => '\Shopware6SDK\Model\Attributes',
+'relationships' => '\Shopware6SDK\Model\Relationships',
+'links' => '\Shopware6SDK\Model\Links',
+'meta' => '\Shopware6SDK\Model\Meta'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -284,7 +284,7 @@ class Resource implements ModelInterface, ArrayAccess
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\Attributes
+     * @return \Shopware6SDK\Model\Attributes
      */
     public function getAttributes()
     {
@@ -294,7 +294,7 @@ class Resource implements ModelInterface, ArrayAccess
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\Attributes $attributes attributes
+     * @param \Shopware6SDK\Model\Attributes $attributes attributes
      *
      * @return $this
      */
@@ -308,7 +308,7 @@ class Resource implements ModelInterface, ArrayAccess
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\Relationships
+     * @return \Shopware6SDK\Model\Relationships
      */
     public function getRelationships()
     {
@@ -318,7 +318,7 @@ class Resource implements ModelInterface, ArrayAccess
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\Relationships $relationships relationships
+     * @param \Shopware6SDK\Model\Relationships $relationships relationships
      *
      * @return $this
      */
@@ -332,7 +332,7 @@ class Resource implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\Links
+     * @return \Shopware6SDK\Model\Links
      */
     public function getLinks()
     {
@@ -342,7 +342,7 @@ class Resource implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\Links $links links
+     * @param \Shopware6SDK\Model\Links $links links
      *
      * @return $this
      */
@@ -356,7 +356,7 @@ class Resource implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \ShopwareSDK6\Model\Meta
+     * @return \Shopware6SDK\Model\Meta
      */
     public function getMeta()
     {
@@ -366,7 +366,7 @@ class Resource implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \ShopwareSDK6\Model\Meta $meta meta
+     * @param \Shopware6SDK\Model\Meta $meta meta
      *
      * @return $this
      */

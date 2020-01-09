@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductVisibilityFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,8 +63,8 @@ class ProductVisibilityFlat implements ModelInterface, ArrayAccess
 'visibility' => 'int',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'product' => '\ShopwareSDK6\Model\ProductFlat'    ];
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat',
+'product' => '\Shopware6SDK\Model\ProductFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -430,7 +430,7 @@ class ProductVisibilityFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -440,7 +440,7 @@ class ProductVisibilityFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */
@@ -454,7 +454,7 @@ class ProductVisibilityFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -464,7 +464,7 @@ class ProductVisibilityFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $product product
+     * @param \Shopware6SDK\Model\ProductFlat $product product
      *
      * @return $this
      */

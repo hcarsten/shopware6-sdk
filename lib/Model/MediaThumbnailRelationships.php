@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaThumbnailRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class MediaThumbnailRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'media' => '\ShopwareSDK6\Model\MediaThumbnailRelationshipsMedia'    ];
+        'media' => '\Shopware6SDK\Model\MediaThumbnailRelationshipsMedia'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class MediaThumbnailRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaThumbnailRelationshipsMedia
+     * @return \Shopware6SDK\Model\MediaThumbnailRelationshipsMedia
      */
     public function getMedia()
     {
@@ -209,7 +209,7 @@ class MediaThumbnailRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaThumbnailRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\MediaThumbnailRelationshipsMedia $media media
      *
      * @return $this
      */

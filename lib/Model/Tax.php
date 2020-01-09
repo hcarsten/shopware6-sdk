@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Tax Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Tax extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\TaxAttributes',
-'links' => '\ShopwareSDK6\Model\TaxLinks',
-'relationships' => '\ShopwareSDK6\Model\TaxRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\TaxAttributes',
+'links' => '\Shopware6SDK\Model\TaxLinks',
+'relationships' => '\Shopware6SDK\Model\TaxRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Tax extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\TaxAttributes
+     * @return \Shopware6SDK\Model\TaxAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Tax extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\TaxAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\TaxAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Tax extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\TaxLinks
+     * @return \Shopware6SDK\Model\TaxLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Tax extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\TaxLinks $links links
+     * @param \Shopware6SDK\Model\TaxLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Tax extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\TaxRelationships
+     * @return \Shopware6SDK\Model\TaxRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Tax extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\TaxRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\TaxRelationships $relationships relationships
      *
      * @return $this
      */

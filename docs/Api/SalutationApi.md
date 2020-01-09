@@ -1,4 +1,4 @@
-# ShopwareSDK6\SalutationApi
+# Shopware6SDK\SalutationApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateSalutation**](SalutationApi.md#updatesalutation) | **PATCH** /salutation/{id} | Partially update information about a Salutation resource
 
 # **createSalutation**
-> \ShopwareSDK6\Model\InlineResponse200252 createSalutation($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200252 createSalutation($body, $_response)
 
 Create a new Salutation resources
 
@@ -22,12 +22,12 @@ Create a new Salutation resources. All required fields must be provided in order
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalutationApi(
+$apiInstance = new Shopware6SDK\Api\SalutationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body166(); // \ShopwareSDK6\Model\Body166 | 
+$body = new \Shopware6SDK\Model\Body166(); // \Shopware6SDK\Model\Body166 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body166**](../Model/Body166.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body166**](../Model/Body166.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
+[**\Shopware6SDK\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createSalutation**
-> \ShopwareSDK6\Model\InlineResponse200252 createSalutation($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200252 createSalutation($body, $_response)
 
 Create a new Salutation resources
 
@@ -73,12 +73,12 @@ Create a new Salutation resources. All required fields must be provided in order
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalutationApi(
+$apiInstance = new Shopware6SDK\Api\SalutationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\SalutationFlat(); // \ShopwareSDK6\Model\SalutationFlat | 
+$body = new \Shopware6SDK\Model\SalutationFlat(); // \Shopware6SDK\Model\SalutationFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\SalutationFlat**](../Model/SalutationFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\SalutationFlat**](../Model/SalutationFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
+[**\Shopware6SDK\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Salutation resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalutationApi(
+$apiInstance = new Shopware6SDK\Api\SalutationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSalutation**
-> \ShopwareSDK6\Model\InlineResponse200252 getSalutation($id)
+> \Shopware6SDK\Model\InlineResponse200252 getSalutation($id)
 
 Detailed information about a Salutation resource
 
@@ -170,7 +170,7 @@ Detailed information about a Salutation resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalutationApi(
+$apiInstance = new Shopware6SDK\Api\SalutationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
+[**\Shopware6SDK\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSalutationList**
-> \ShopwareSDK6\Model\InlineResponse200250 getSalutationList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200250 getSalutationList($limit, $page, $query)
 
 List with basic information of Salutation resources
 
@@ -217,7 +217,7 @@ List with basic information of Salutation resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalutationApi(
+$apiInstance = new Shopware6SDK\Api\SalutationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200250**](../Model/InlineResponse200250.md)
+[**\Shopware6SDK\Model\InlineResponse200250**](../Model/InlineResponse200250.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSalutation**
-> \ShopwareSDK6\Model\InlineResponse200252 updateSalutation($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200252 updateSalutation($id, $body, $_response)
 
 Partially update information about a Salutation resource
 
@@ -268,13 +268,13 @@ Partially update information about a Salutation resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalutationApi(
+$apiInstance = new Shopware6SDK\Api\SalutationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the salutation
-$body = new \ShopwareSDK6\Model\Body167(); // \ShopwareSDK6\Model\Body167 | Partially update information about a Salutation resource.
+$body = new \Shopware6SDK\Model\Body167(); // \Shopware6SDK\Model\Body167 | Partially update information about a Salutation resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the salutation |
- **body** | [**\ShopwareSDK6\Model\Body167**](../Model/Body167.md)| Partially update information about a Salutation resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body167**](../Model/Body167.md)| Partially update information about a Salutation resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
+[**\Shopware6SDK\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSalutation**
-> \ShopwareSDK6\Model\InlineResponse200252 updateSalutation($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200252 updateSalutation($id, $body, $_response)
 
 Partially update information about a Salutation resource
 
@@ -319,13 +319,13 @@ Partially update information about a Salutation resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalutationApi(
+$apiInstance = new Shopware6SDK\Api\SalutationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the salutation
-$body = new \ShopwareSDK6\Model\SalutationFlat(); // \ShopwareSDK6\Model\SalutationFlat | Partially update information about a Salutation resource.
+$body = new \Shopware6SDK\Model\SalutationFlat(); // \Shopware6SDK\Model\SalutationFlat | Partially update information about a Salutation resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the salutation |
- **body** | [**\ShopwareSDK6\Model\SalutationFlat**](../Model/SalutationFlat.md)| Partially update information about a Salutation resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\SalutationFlat**](../Model/SalutationFlat.md)| Partially update information about a Salutation resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
+[**\Shopware6SDK\Model\InlineResponse200252**](../Model/InlineResponse200252.md)
 
 ### Authorization
 

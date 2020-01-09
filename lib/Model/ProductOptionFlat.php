@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductOptionFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,8 +60,8 @@ class ProductOptionFlat implements ModelInterface, ArrayAccess
 'product_id' => 'string',
 'product_version_id' => 'string',
 'option_id' => 'string',
-'product' => '\ShopwareSDK6\Model\ProductFlat',
-'option' => '\ShopwareSDK6\Model\PropertyGroupOptionFlat'    ];
+'product' => '\Shopware6SDK\Model\ProductFlat',
+'option' => '\Shopware6SDK\Model\PropertyGroupOptionFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -331,7 +331,7 @@ class ProductOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -341,7 +341,7 @@ class ProductOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $product product
+     * @param \Shopware6SDK\Model\ProductFlat $product product
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class ProductOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets option
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionFlat
+     * @return \Shopware6SDK\Model\PropertyGroupOptionFlat
      */
     public function getOption()
     {
@@ -365,7 +365,7 @@ class ProductOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets option
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionFlat $option option
+     * @param \Shopware6SDK\Model\PropertyGroupOptionFlat $option option
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaDefaultFolderRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class MediaDefaultFolderRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'folder' => '\ShopwareSDK6\Model\MediaDefaultFolderRelationshipsFolder'    ];
+        'folder' => '\Shopware6SDK\Model\MediaDefaultFolderRelationshipsFolder'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class MediaDefaultFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets folder
      *
-     * @return \ShopwareSDK6\Model\MediaDefaultFolderRelationshipsFolder
+     * @return \Shopware6SDK\Model\MediaDefaultFolderRelationshipsFolder
      */
     public function getFolder()
     {
@@ -209,7 +209,7 @@ class MediaDefaultFolderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets folder
      *
-     * @param \ShopwareSDK6\Model\MediaDefaultFolderRelationshipsFolder $folder folder
+     * @param \Shopware6SDK\Model\MediaDefaultFolderRelationshipsFolder $folder folder
      *
      * @return $this
      */

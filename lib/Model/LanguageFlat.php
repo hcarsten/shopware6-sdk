@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * LanguageFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,19 +64,19 @@ class LanguageFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'parent' => '\ShopwareSDK6\Model\LanguageFlat',
-'locale' => '\ShopwareSDK6\Model\LocaleFlat',
-'translation_code' => '\ShopwareSDK6\Model\LocaleFlat',
-'children' => '\ShopwareSDK6\Model\LanguageFlat',
-'sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'sales_channel_default_assignments' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'sales_channel_domains' => '\ShopwareSDK6\Model\SalesChannelDomainFlat',
-'customers' => '\ShopwareSDK6\Model\CustomerFlat',
-'newsletter_recipients' => '\ShopwareSDK6\Model\NewsletterRecipientFlat',
-'orders' => '\ShopwareSDK6\Model\OrderFlat',
-'product_search_keywords' => '\ShopwareSDK6\Model\ProductSearchKeywordFlat',
-'product_keyword_dictionaries' => '\ShopwareSDK6\Model\ProductKeywordDictionaryFlat',
-'product_reviews' => '\ShopwareSDK6\Model\ProductReviewFlat'    ];
+'parent' => '\Shopware6SDK\Model\LanguageFlat',
+'locale' => '\Shopware6SDK\Model\LocaleFlat',
+'translation_code' => '\Shopware6SDK\Model\LocaleFlat',
+'children' => '\Shopware6SDK\Model\LanguageFlat',
+'sales_channels' => '\Shopware6SDK\Model\SalesChannelFlat',
+'sales_channel_default_assignments' => '\Shopware6SDK\Model\SalesChannelFlat',
+'sales_channel_domains' => '\Shopware6SDK\Model\SalesChannelDomainFlat',
+'customers' => '\Shopware6SDK\Model\CustomerFlat',
+'newsletter_recipients' => '\Shopware6SDK\Model\NewsletterRecipientFlat',
+'orders' => '\Shopware6SDK\Model\OrderFlat',
+'product_search_keywords' => '\Shopware6SDK\Model\ProductSearchKeywordFlat',
+'product_keyword_dictionaries' => '\Shopware6SDK\Model\ProductKeywordDictionaryFlat',
+'product_reviews' => '\Shopware6SDK\Model\ProductReviewFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -523,7 +523,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \ShopwareSDK6\Model\LanguageFlat
+     * @return \Shopware6SDK\Model\LanguageFlat
      */
     public function getParent()
     {
@@ -533,7 +533,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \ShopwareSDK6\Model\LanguageFlat $parent parent
+     * @param \Shopware6SDK\Model\LanguageFlat $parent parent
      *
      * @return $this
      */
@@ -547,7 +547,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets locale
      *
-     * @return \ShopwareSDK6\Model\LocaleFlat
+     * @return \Shopware6SDK\Model\LocaleFlat
      */
     public function getLocale()
     {
@@ -557,7 +557,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets locale
      *
-     * @param \ShopwareSDK6\Model\LocaleFlat $locale locale
+     * @param \Shopware6SDK\Model\LocaleFlat $locale locale
      *
      * @return $this
      */
@@ -571,7 +571,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets translation_code
      *
-     * @return \ShopwareSDK6\Model\LocaleFlat
+     * @return \Shopware6SDK\Model\LocaleFlat
      */
     public function getTranslationCode()
     {
@@ -581,7 +581,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets translation_code
      *
-     * @param \ShopwareSDK6\Model\LocaleFlat $translation_code translation_code
+     * @param \Shopware6SDK\Model\LocaleFlat $translation_code translation_code
      *
      * @return $this
      */
@@ -595,7 +595,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \ShopwareSDK6\Model\LanguageFlat
+     * @return \Shopware6SDK\Model\LanguageFlat
      */
     public function getChildren()
     {
@@ -605,7 +605,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \ShopwareSDK6\Model\LanguageFlat $children children
+     * @param \Shopware6SDK\Model\LanguageFlat $children children
      *
      * @return $this
      */
@@ -619,7 +619,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -629,7 +629,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */
@@ -643,7 +643,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -653,7 +653,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */
@@ -667,7 +667,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_domains
      *
-     * @return \ShopwareSDK6\Model\SalesChannelDomainFlat
+     * @return \Shopware6SDK\Model\SalesChannelDomainFlat
      */
     public function getSalesChannelDomains()
     {
@@ -677,7 +677,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_domains
      *
-     * @param \ShopwareSDK6\Model\SalesChannelDomainFlat $sales_channel_domains sales_channel_domains
+     * @param \Shopware6SDK\Model\SalesChannelDomainFlat $sales_channel_domains sales_channel_domains
      *
      * @return $this
      */
@@ -691,7 +691,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \ShopwareSDK6\Model\CustomerFlat
+     * @return \Shopware6SDK\Model\CustomerFlat
      */
     public function getCustomers()
     {
@@ -701,7 +701,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \ShopwareSDK6\Model\CustomerFlat $customers customers
+     * @param \Shopware6SDK\Model\CustomerFlat $customers customers
      *
      * @return $this
      */
@@ -715,7 +715,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets newsletter_recipients
      *
-     * @return \ShopwareSDK6\Model\NewsletterRecipientFlat
+     * @return \Shopware6SDK\Model\NewsletterRecipientFlat
      */
     public function getNewsletterRecipients()
     {
@@ -725,7 +725,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets newsletter_recipients
      *
-     * @param \ShopwareSDK6\Model\NewsletterRecipientFlat $newsletter_recipients newsletter_recipients
+     * @param \Shopware6SDK\Model\NewsletterRecipientFlat $newsletter_recipients newsletter_recipients
      *
      * @return $this
      */
@@ -739,7 +739,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \ShopwareSDK6\Model\OrderFlat
+     * @return \Shopware6SDK\Model\OrderFlat
      */
     public function getOrders()
     {
@@ -749,7 +749,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \ShopwareSDK6\Model\OrderFlat $orders orders
+     * @param \Shopware6SDK\Model\OrderFlat $orders orders
      *
      * @return $this
      */
@@ -763,7 +763,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_search_keywords
      *
-     * @return \ShopwareSDK6\Model\ProductSearchKeywordFlat
+     * @return \Shopware6SDK\Model\ProductSearchKeywordFlat
      */
     public function getProductSearchKeywords()
     {
@@ -773,7 +773,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_search_keywords
      *
-     * @param \ShopwareSDK6\Model\ProductSearchKeywordFlat $product_search_keywords product_search_keywords
+     * @param \Shopware6SDK\Model\ProductSearchKeywordFlat $product_search_keywords product_search_keywords
      *
      * @return $this
      */
@@ -787,7 +787,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_keyword_dictionaries
      *
-     * @return \ShopwareSDK6\Model\ProductKeywordDictionaryFlat
+     * @return \Shopware6SDK\Model\ProductKeywordDictionaryFlat
      */
     public function getProductKeywordDictionaries()
     {
@@ -797,7 +797,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_keyword_dictionaries
      *
-     * @param \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $product_keyword_dictionaries product_keyword_dictionaries
+     * @param \Shopware6SDK\Model\ProductKeywordDictionaryFlat $product_keyword_dictionaries product_keyword_dictionaries
      *
      * @return $this
      */
@@ -811,7 +811,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_reviews
      *
-     * @return \ShopwareSDK6\Model\ProductReviewFlat
+     * @return \Shopware6SDK\Model\ProductReviewFlat
      */
     public function getProductReviews()
     {
@@ -821,7 +821,7 @@ class LanguageFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_reviews
      *
-     * @param \ShopwareSDK6\Model\ProductReviewFlat $product_reviews product_reviews
+     * @param \Shopware6SDK\Model\ProductReviewFlat $product_reviews product_reviews
      *
      * @return $this
      */

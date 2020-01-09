@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ShippingMethodTagFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class ShippingMethodTagFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'shipping_method_id' => 'string',
 'tag_id' => 'string',
-'shipping_method' => '\ShopwareSDK6\Model\ShippingMethodFlat',
-'tag' => '\ShopwareSDK6\Model\TagFlat'    ];
+'shipping_method' => '\Shopware6SDK\Model\ShippingMethodFlat',
+'tag' => '\Shopware6SDK\Model\TagFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class ShippingMethodTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method
      *
-     * @return \ShopwareSDK6\Model\ShippingMethodFlat
+     * @return \Shopware6SDK\Model\ShippingMethodFlat
      */
     public function getShippingMethod()
     {
@@ -311,7 +311,7 @@ class ShippingMethodTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method
      *
-     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_method shipping_method
+     * @param \Shopware6SDK\Model\ShippingMethodFlat $shipping_method shipping_method
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class ShippingMethodTagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tag
      *
-     * @return \ShopwareSDK6\Model\TagFlat
+     * @return \Shopware6SDK\Model\TagFlat
      */
     public function getTag()
     {
@@ -335,7 +335,7 @@ class ShippingMethodTagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tag
      *
-     * @param \ShopwareSDK6\Model\TagFlat $tag tag
+     * @param \Shopware6SDK\Model\TagFlat $tag tag
      *
      * @return $this
      */

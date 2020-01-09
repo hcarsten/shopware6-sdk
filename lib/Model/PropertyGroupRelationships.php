@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PropertyGroupRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class PropertyGroupRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'options' => '\ShopwareSDK6\Model\PropertyGroupRelationshipsOptions'    ];
+        'options' => '\Shopware6SDK\Model\PropertyGroupRelationshipsOptions'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class PropertyGroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets options
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupRelationshipsOptions
+     * @return \Shopware6SDK\Model\PropertyGroupRelationshipsOptions
      */
     public function getOptions()
     {
@@ -209,7 +209,7 @@ class PropertyGroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets options
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupRelationshipsOptions $options options
+     * @param \Shopware6SDK\Model\PropertyGroupRelationshipsOptions $options options
      *
      * @return $this
      */

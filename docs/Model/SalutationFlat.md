@@ -10,11 +10,11 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**customers** | [**\ShopwareSDK6\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
-**customer_addresses** | [**\ShopwareSDK6\Model\CustomerAddressFlat**](CustomerAddressFlat.md) |  | [optional] 
-**order_customers** | [**\ShopwareSDK6\Model\OrderCustomerFlat**](OrderCustomerFlat.md) |  | [optional] 
-**order_addresses** | [**\ShopwareSDK6\Model\OrderAddressFlat**](OrderAddressFlat.md) |  | [optional] 
-**newsletter_recipients** | [**\ShopwareSDK6\Model\NewsletterRecipientFlat**](NewsletterRecipientFlat.md) |  | [optional] 
+**customers** | [**\Shopware6SDK\Model\CustomerFlat**](CustomerFlat.md) |  | [optional] 
+**customer_addresses** | [**\Shopware6SDK\Model\CustomerAddressFlat**](CustomerAddressFlat.md) |  | [optional] 
+**order_customers** | [**\Shopware6SDK\Model\OrderCustomerFlat**](OrderCustomerFlat.md) |  | [optional] 
+**order_addresses** | [**\Shopware6SDK\Model\OrderAddressFlat**](OrderAddressFlat.md) |  | [optional] 
+**newsletter_recipients** | [**\Shopware6SDK\Model\NewsletterRecipientFlat**](NewsletterRecipientFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

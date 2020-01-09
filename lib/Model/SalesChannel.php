@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SalesChannel Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class SalesChannel extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\SalesChannelAttributes',
-'links' => '\ShopwareSDK6\Model\SalesChannelLinks',
-'relationships' => '\ShopwareSDK6\Model\SalesChannelRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\SalesChannelAttributes',
+'links' => '\Shopware6SDK\Model\SalesChannelLinks',
+'relationships' => '\Shopware6SDK\Model\SalesChannelRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class SalesChannel extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\SalesChannelAttributes
+     * @return \Shopware6SDK\Model\SalesChannelAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class SalesChannel extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\SalesChannelAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\SalesChannelAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class SalesChannel extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\SalesChannelLinks
+     * @return \Shopware6SDK\Model\SalesChannelLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class SalesChannel extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\SalesChannelLinks $links links
+     * @param \Shopware6SDK\Model\SalesChannelLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class SalesChannel extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\SalesChannelRelationships
+     * @return \Shopware6SDK\Model\SalesChannelRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class SalesChannel extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\SalesChannelRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\SalesChannelRelationships $relationships relationships
      *
      * @return $this
      */

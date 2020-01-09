@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SalesChannelRelationshipsProductReviews Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelRelationshipsProductReviews implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\SalesChannelRelationshipsProductReviewsLinks',
-'data' => '\ShopwareSDK6\Model\SalesChannelRelationshipsProductReviewsData[]'    ];
+        'links' => '\Shopware6SDK\Model\SalesChannelRelationshipsProductReviewsLinks',
+'data' => '\Shopware6SDK\Model\SalesChannelRelationshipsProductReviewsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelRelationshipsProductReviews implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsProductReviewsLinks
+     * @return \Shopware6SDK\Model\SalesChannelRelationshipsProductReviewsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelRelationshipsProductReviews implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsProductReviewsLinks $links links
+     * @param \Shopware6SDK\Model\SalesChannelRelationshipsProductReviewsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelRelationshipsProductReviews implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsProductReviewsData[]
+     * @return \Shopware6SDK\Model\SalesChannelRelationshipsProductReviewsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelRelationshipsProductReviews implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsProductReviewsData[] $data data
+     * @param \Shopware6SDK\Model\SalesChannelRelationshipsProductReviewsData[] $data data
      *
      * @return $this
      */

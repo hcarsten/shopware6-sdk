@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Media Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Media extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\MediaAttributes',
-'links' => '\ShopwareSDK6\Model\MediaLinks',
-'relationships' => '\ShopwareSDK6\Model\MediaRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\MediaAttributes',
+'links' => '\Shopware6SDK\Model\MediaLinks',
+'relationships' => '\Shopware6SDK\Model\MediaRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Media extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\MediaAttributes
+     * @return \Shopware6SDK\Model\MediaAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Media extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\MediaAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\MediaAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Media extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MediaLinks
+     * @return \Shopware6SDK\Model\MediaLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Media extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MediaLinks $links links
+     * @param \Shopware6SDK\Model\MediaLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Media extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\MediaRelationships
+     * @return \Shopware6SDK\Model\MediaRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Media extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\MediaRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\MediaRelationships $relationships relationships
      *
      * @return $this
      */

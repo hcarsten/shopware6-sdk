@@ -17,8 +17,8 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**language** | [**\ShopwareSDK6\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
-**sales_channel** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**language** | [**\Shopware6SDK\Model\LanguageFlat**](LanguageFlat.md) |  | [optional] 
+**sales_channel** | [**\Shopware6SDK\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

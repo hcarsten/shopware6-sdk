@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CategoryRelationshipsProducts Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CategoryRelationshipsProducts implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CategoryRelationshipsProductsLinks',
-'data' => '\ShopwareSDK6\Model\CategoryRelationshipsProductsData[]'    ];
+        'links' => '\Shopware6SDK\Model\CategoryRelationshipsProductsLinks',
+'data' => '\Shopware6SDK\Model\CategoryRelationshipsProductsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CategoryRelationshipsProducts implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsProductsLinks
+     * @return \Shopware6SDK\Model\CategoryRelationshipsProductsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CategoryRelationshipsProducts implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsProductsLinks $links links
+     * @param \Shopware6SDK\Model\CategoryRelationshipsProductsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CategoryRelationshipsProducts implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsProductsData[]
+     * @return \Shopware6SDK\Model\CategoryRelationshipsProductsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CategoryRelationshipsProducts implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsProductsData[] $data data
+     * @param \Shopware6SDK\Model\CategoryRelationshipsProductsData[] $data data
      *
      * @return $this
      */

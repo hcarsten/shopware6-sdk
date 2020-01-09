@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CustomFieldSetRelationshipsCustomFields Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CustomFieldSetRelationshipsCustomFields implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CustomFieldSetRelationshipsCustomFieldsLinks',
-'data' => '\ShopwareSDK6\Model\CustomFieldSetRelationshipsCustomFieldsData[]'    ];
+        'links' => '\Shopware6SDK\Model\CustomFieldSetRelationshipsCustomFieldsLinks',
+'data' => '\Shopware6SDK\Model\CustomFieldSetRelationshipsCustomFieldsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CustomFieldSetRelationshipsCustomFields implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CustomFieldSetRelationshipsCustomFieldsLinks
+     * @return \Shopware6SDK\Model\CustomFieldSetRelationshipsCustomFieldsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CustomFieldSetRelationshipsCustomFields implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CustomFieldSetRelationshipsCustomFieldsLinks $links links
+     * @param \Shopware6SDK\Model\CustomFieldSetRelationshipsCustomFieldsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CustomFieldSetRelationshipsCustomFields implements ModelInterface, ArrayAc
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CustomFieldSetRelationshipsCustomFieldsData[]
+     * @return \Shopware6SDK\Model\CustomFieldSetRelationshipsCustomFieldsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CustomFieldSetRelationshipsCustomFields implements ModelInterface, ArrayAc
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CustomFieldSetRelationshipsCustomFieldsData[] $data data
+     * @param \Shopware6SDK\Model\CustomFieldSetRelationshipsCustomFieldsData[] $data data
      *
      * @return $this
      */

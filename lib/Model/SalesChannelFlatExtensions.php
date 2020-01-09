@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SalesChannelFlatExtensions Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class SalesChannelFlatExtensions implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'themes' => '\ShopwareSDK6\Model\ThemeFlat'    ];
+        'themes' => '\Shopware6SDK\Model\ThemeFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class SalesChannelFlatExtensions implements ModelInterface, ArrayAccess
     /**
      * Gets themes
      *
-     * @return \ShopwareSDK6\Model\ThemeFlat
+     * @return \Shopware6SDK\Model\ThemeFlat
      */
     public function getThemes()
     {
@@ -209,7 +209,7 @@ class SalesChannelFlatExtensions implements ModelInterface, ArrayAccess
     /**
      * Sets themes
      *
-     * @param \ShopwareSDK6\Model\ThemeFlat $themes themes
+     * @param \Shopware6SDK\Model\ThemeFlat $themes themes
      *
      * @return $this
      */

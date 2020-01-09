@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionSetgroupRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PromotionSetgroupRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'promotion' => '\ShopwareSDK6\Model\PromotionSetgroupRelationshipsPromotion',
-'set_group_rules' => '\ShopwareSDK6\Model\PromotionSetgroupRelationshipsSetGroupRules'    ];
+        'promotion' => '\Shopware6SDK\Model\PromotionSetgroupRelationshipsPromotion',
+'set_group_rules' => '\Shopware6SDK\Model\PromotionSetgroupRelationshipsSetGroupRules'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PromotionSetgroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets promotion
      *
-     * @return \ShopwareSDK6\Model\PromotionSetgroupRelationshipsPromotion
+     * @return \Shopware6SDK\Model\PromotionSetgroupRelationshipsPromotion
      */
     public function getPromotion()
     {
@@ -215,7 +215,7 @@ class PromotionSetgroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets promotion
      *
-     * @param \ShopwareSDK6\Model\PromotionSetgroupRelationshipsPromotion $promotion promotion
+     * @param \Shopware6SDK\Model\PromotionSetgroupRelationshipsPromotion $promotion promotion
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PromotionSetgroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets set_group_rules
      *
-     * @return \ShopwareSDK6\Model\PromotionSetgroupRelationshipsSetGroupRules
+     * @return \Shopware6SDK\Model\PromotionSetgroupRelationshipsSetGroupRules
      */
     public function getSetGroupRules()
     {
@@ -239,7 +239,7 @@ class PromotionSetgroupRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets set_group_rules
      *
-     * @param \ShopwareSDK6\Model\PromotionSetgroupRelationshipsSetGroupRules $set_group_rules set_group_rules
+     * @param \Shopware6SDK\Model\PromotionSetgroupRelationshipsSetGroupRules $set_group_rules set_group_rules
      *
      * @return $this
      */

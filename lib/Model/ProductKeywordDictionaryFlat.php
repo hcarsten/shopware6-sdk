@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductKeywordDictionaryFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class ProductKeywordDictionaryFlat implements ModelInterface, ArrayAccess
 'language_id' => 'string',
 'keyword' => 'string',
 'reversed' => 'string',
-'language' => '\ShopwareSDK6\Model\LanguageFlat'    ];
+'language' => '\Shopware6SDK\Model\LanguageFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -325,7 +325,7 @@ class ProductKeywordDictionaryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \ShopwareSDK6\Model\LanguageFlat
+     * @return \Shopware6SDK\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -335,7 +335,7 @@ class ProductKeywordDictionaryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \ShopwareSDK6\Model\LanguageFlat $language language
+     * @param \Shopware6SDK\Model\LanguageFlat $language language
      *
      * @return $this
      */

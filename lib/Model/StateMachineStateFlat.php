@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * StateMachineStateFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,14 +64,14 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'state_machine' => '\ShopwareSDK6\Model\StateMachineFlat',
-'from_state_machine_transitions' => '\ShopwareSDK6\Model\StateMachineTransitionFlat',
-'to_state_machine_transitions' => '\ShopwareSDK6\Model\StateMachineTransitionFlat',
-'order_transactions' => '\ShopwareSDK6\Model\OrderTransactionFlat',
-'order_deliveries' => '\ShopwareSDK6\Model\OrderDeliveryFlat',
-'orders' => '\ShopwareSDK6\Model\OrderFlat',
-'to_state_machine_history_entries' => '\ShopwareSDK6\Model\StateMachineHistoryFlat',
-'from_state_machine_history_entries' => '\ShopwareSDK6\Model\StateMachineHistoryFlat'    ];
+'state_machine' => '\Shopware6SDK\Model\StateMachineFlat',
+'from_state_machine_transitions' => '\Shopware6SDK\Model\StateMachineTransitionFlat',
+'to_state_machine_transitions' => '\Shopware6SDK\Model\StateMachineTransitionFlat',
+'order_transactions' => '\Shopware6SDK\Model\OrderTransactionFlat',
+'order_deliveries' => '\Shopware6SDK\Model\OrderDeliveryFlat',
+'orders' => '\Shopware6SDK\Model\OrderFlat',
+'to_state_machine_history_entries' => '\Shopware6SDK\Model\StateMachineHistoryFlat',
+'from_state_machine_history_entries' => '\Shopware6SDK\Model\StateMachineHistoryFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -496,7 +496,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine
      *
-     * @return \ShopwareSDK6\Model\StateMachineFlat
+     * @return \Shopware6SDK\Model\StateMachineFlat
      */
     public function getStateMachine()
     {
@@ -506,7 +506,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine
      *
-     * @param \ShopwareSDK6\Model\StateMachineFlat $state_machine state_machine
+     * @param \Shopware6SDK\Model\StateMachineFlat $state_machine state_machine
      *
      * @return $this
      */
@@ -520,7 +520,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets from_state_machine_transitions
      *
-     * @return \ShopwareSDK6\Model\StateMachineTransitionFlat
+     * @return \Shopware6SDK\Model\StateMachineTransitionFlat
      */
     public function getFromStateMachineTransitions()
     {
@@ -530,7 +530,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets from_state_machine_transitions
      *
-     * @param \ShopwareSDK6\Model\StateMachineTransitionFlat $from_state_machine_transitions from_state_machine_transitions
+     * @param \Shopware6SDK\Model\StateMachineTransitionFlat $from_state_machine_transitions from_state_machine_transitions
      *
      * @return $this
      */
@@ -544,7 +544,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets to_state_machine_transitions
      *
-     * @return \ShopwareSDK6\Model\StateMachineTransitionFlat
+     * @return \Shopware6SDK\Model\StateMachineTransitionFlat
      */
     public function getToStateMachineTransitions()
     {
@@ -554,7 +554,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets to_state_machine_transitions
      *
-     * @param \ShopwareSDK6\Model\StateMachineTransitionFlat $to_state_machine_transitions to_state_machine_transitions
+     * @param \Shopware6SDK\Model\StateMachineTransitionFlat $to_state_machine_transitions to_state_machine_transitions
      *
      * @return $this
      */
@@ -568,7 +568,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_transactions
      *
-     * @return \ShopwareSDK6\Model\OrderTransactionFlat
+     * @return \Shopware6SDK\Model\OrderTransactionFlat
      */
     public function getOrderTransactions()
     {
@@ -578,7 +578,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_transactions
      *
-     * @param \ShopwareSDK6\Model\OrderTransactionFlat $order_transactions order_transactions
+     * @param \Shopware6SDK\Model\OrderTransactionFlat $order_transactions order_transactions
      *
      * @return $this
      */
@@ -592,7 +592,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_deliveries
      *
-     * @return \ShopwareSDK6\Model\OrderDeliveryFlat
+     * @return \Shopware6SDK\Model\OrderDeliveryFlat
      */
     public function getOrderDeliveries()
     {
@@ -602,7 +602,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_deliveries
      *
-     * @param \ShopwareSDK6\Model\OrderDeliveryFlat $order_deliveries order_deliveries
+     * @param \Shopware6SDK\Model\OrderDeliveryFlat $order_deliveries order_deliveries
      *
      * @return $this
      */
@@ -616,7 +616,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \ShopwareSDK6\Model\OrderFlat
+     * @return \Shopware6SDK\Model\OrderFlat
      */
     public function getOrders()
     {
@@ -626,7 +626,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \ShopwareSDK6\Model\OrderFlat $orders orders
+     * @param \Shopware6SDK\Model\OrderFlat $orders orders
      *
      * @return $this
      */
@@ -640,7 +640,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets to_state_machine_history_entries
      *
-     * @return \ShopwareSDK6\Model\StateMachineHistoryFlat
+     * @return \Shopware6SDK\Model\StateMachineHistoryFlat
      */
     public function getToStateMachineHistoryEntries()
     {
@@ -650,7 +650,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets to_state_machine_history_entries
      *
-     * @param \ShopwareSDK6\Model\StateMachineHistoryFlat $to_state_machine_history_entries to_state_machine_history_entries
+     * @param \Shopware6SDK\Model\StateMachineHistoryFlat $to_state_machine_history_entries to_state_machine_history_entries
      *
      * @return $this
      */
@@ -664,7 +664,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets from_state_machine_history_entries
      *
-     * @return \ShopwareSDK6\Model\StateMachineHistoryFlat
+     * @return \Shopware6SDK\Model\StateMachineHistoryFlat
      */
     public function getFromStateMachineHistoryEntries()
     {
@@ -674,7 +674,7 @@ class StateMachineStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets from_state_machine_history_entries
      *
-     * @param \ShopwareSDK6\Model\StateMachineHistoryFlat $from_state_machine_history_entries from_state_machine_history_entries
+     * @param \Shopware6SDK\Model\StateMachineHistoryFlat $from_state_machine_history_entries from_state_machine_history_entries
      *
      * @return $this
      */

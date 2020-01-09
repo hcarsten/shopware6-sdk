@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaFolderFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,11 +66,11 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'parent' => '\ShopwareSDK6\Model\MediaFolderFlat',
-'children' => '\ShopwareSDK6\Model\MediaFolderFlat',
-'media' => '\ShopwareSDK6\Model\MediaFlat',
-'default_folder' => '\ShopwareSDK6\Model\MediaDefaultFolderFlat',
-'configuration' => '\ShopwareSDK6\Model\MediaFolderConfigurationFlat'    ];
+'parent' => '\Shopware6SDK\Model\MediaFolderFlat',
+'children' => '\Shopware6SDK\Model\MediaFolderFlat',
+'media' => '\Shopware6SDK\Model\MediaFlat',
+'default_folder' => '\Shopware6SDK\Model\MediaDefaultFolderFlat',
+'configuration' => '\Shopware6SDK\Model\MediaFolderConfigurationFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -535,7 +535,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \ShopwareSDK6\Model\MediaFolderFlat
+     * @return \Shopware6SDK\Model\MediaFolderFlat
      */
     public function getParent()
     {
@@ -545,7 +545,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \ShopwareSDK6\Model\MediaFolderFlat $parent parent
+     * @param \Shopware6SDK\Model\MediaFolderFlat $parent parent
      *
      * @return $this
      */
@@ -559,7 +559,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \ShopwareSDK6\Model\MediaFolderFlat
+     * @return \Shopware6SDK\Model\MediaFolderFlat
      */
     public function getChildren()
     {
@@ -569,7 +569,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \ShopwareSDK6\Model\MediaFolderFlat $children children
+     * @param \Shopware6SDK\Model\MediaFolderFlat $children children
      *
      * @return $this
      */
@@ -583,7 +583,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -593,7 +593,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $media media
+     * @param \Shopware6SDK\Model\MediaFlat $media media
      *
      * @return $this
      */
@@ -607,7 +607,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets default_folder
      *
-     * @return \ShopwareSDK6\Model\MediaDefaultFolderFlat
+     * @return \Shopware6SDK\Model\MediaDefaultFolderFlat
      */
     public function getDefaultFolder()
     {
@@ -617,7 +617,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets default_folder
      *
-     * @param \ShopwareSDK6\Model\MediaDefaultFolderFlat $default_folder default_folder
+     * @param \Shopware6SDK\Model\MediaDefaultFolderFlat $default_folder default_folder
      *
      * @return $this
      */
@@ -631,7 +631,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Gets configuration
      *
-     * @return \ShopwareSDK6\Model\MediaFolderConfigurationFlat
+     * @return \Shopware6SDK\Model\MediaFolderConfigurationFlat
      */
     public function getConfiguration()
     {
@@ -641,7 +641,7 @@ class MediaFolderFlat implements ModelInterface, ArrayAccess
     /**
      * Sets configuration
      *
-     * @param \ShopwareSDK6\Model\MediaFolderConfigurationFlat $configuration configuration
+     * @param \Shopware6SDK\Model\MediaFolderConfigurationFlat $configuration configuration
      *
      * @return $this
      */

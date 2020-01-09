@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductStreamFilterRelationshipsProductStream Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductStreamFilterRelationshipsProductStream implements ModelInterface, A
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\ProductStreamFilterRelationshipsProductStreamLinks',
-'data' => '\ShopwareSDK6\Model\ProductCrossSellingRelationshipsProductStreamData'    ];
+        'links' => '\Shopware6SDK\Model\ProductStreamFilterRelationshipsProductStreamLinks',
+'data' => '\Shopware6SDK\Model\ProductCrossSellingRelationshipsProductStreamData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductStreamFilterRelationshipsProductStream implements ModelInterface, A
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ProductStreamFilterRelationshipsProductStreamLinks
+     * @return \Shopware6SDK\Model\ProductStreamFilterRelationshipsProductStreamLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ProductStreamFilterRelationshipsProductStream implements ModelInterface, A
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ProductStreamFilterRelationshipsProductStreamLinks $links links
+     * @param \Shopware6SDK\Model\ProductStreamFilterRelationshipsProductStreamLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductStreamFilterRelationshipsProductStream implements ModelInterface, A
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\ProductCrossSellingRelationshipsProductStreamData
+     * @return \Shopware6SDK\Model\ProductCrossSellingRelationshipsProductStreamData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ProductStreamFilterRelationshipsProductStream implements ModelInterface, A
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\ProductCrossSellingRelationshipsProductStreamData $data data
+     * @param \Shopware6SDK\Model\ProductCrossSellingRelationshipsProductStreamData $data data
      *
      * @return $this
      */

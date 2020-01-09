@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PropertyGroupOptionRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,11 +56,11 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'media' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsMedia',
-'group' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroup',
-'product_configurator_settings' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettings',
-'product_properties' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductProperties',
-'product_options' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductOptions'    ];
+        'media' => '\Shopware6SDK\Model\PropertyGroupOptionRelationshipsMedia',
+'group' => '\Shopware6SDK\Model\PropertyGroupOptionRelationshipsGroup',
+'product_configurator_settings' => '\Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettings',
+'product_properties' => '\Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductProperties',
+'product_options' => '\Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductOptions'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -223,7 +223,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsMedia
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationshipsMedia
      */
     public function getMedia()
     {
@@ -233,7 +233,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets group
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroup
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationshipsGroup
      */
     public function getGroup()
     {
@@ -257,7 +257,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets group
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroup $group group
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationshipsGroup $group group
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_configurator_settings
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettings
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettings
      */
     public function getProductConfiguratorSettings()
     {
@@ -281,7 +281,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_configurator_settings
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettings $product_configurator_settings product_configurator_settings
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettings $product_configurator_settings product_configurator_settings
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_properties
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductProperties
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductProperties
      */
     public function getProductProperties()
     {
@@ -305,7 +305,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_properties
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductProperties $product_properties product_properties
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductProperties $product_properties product_properties
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_options
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductOptions
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductOptions
      */
     public function getProductOptions()
     {
@@ -329,7 +329,7 @@ class PropertyGroupOptionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_options
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductOptions $product_options product_options
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductOptions $product_options product_options
      *
      * @return $this
      */

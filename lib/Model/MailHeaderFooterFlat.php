@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailHeaderFooterFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -67,7 +67,7 @@ class MailHeaderFooterFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
+'sales_channels' => '\Shopware6SDK\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -538,7 +538,7 @@ class MailHeaderFooterFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -548,7 +548,7 @@ class MailHeaderFooterFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */

@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **order_delivery_version_id** | **string** |  | [optional] 
 **order_line_item_id** | **string** |  | 
 **order_line_item_version_id** | **string** |  | [optional] 
-**price** | [**\ShopwareSDK6\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
+**price** | [**\Shopware6SDK\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | [optional] 
 **unit_price** | **float** |  | [optional] 
 **total_price** | **float** |  | [optional] 
 **quantity** | **int** |  | [optional] 

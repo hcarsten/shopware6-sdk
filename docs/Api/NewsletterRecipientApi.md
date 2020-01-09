@@ -1,4 +1,4 @@
-# ShopwareSDK6\NewsletterRecipientApi
+# Shopware6SDK\NewsletterRecipientApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateNewsletterRecipient**](NewsletterRecipientApi.md#updatenewsletterrecipient) | **PATCH** /newsletter-recipient/{id} | Partially update information about a Newsletter Recipient resource
 
 # **createNewsletterRecipient**
-> \ShopwareSDK6\Model\InlineResponse200132 createNewsletterRecipient($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200132 createNewsletterRecipient($body, $_response)
 
 Create a new Newsletter Recipient resources
 
@@ -22,12 +22,12 @@ Create a new Newsletter Recipient resources. All required fields must be provide
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NewsletterRecipientApi(
+$apiInstance = new Shopware6SDK\Api\NewsletterRecipientApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body86(); // \ShopwareSDK6\Model\Body86 | 
+$body = new \Shopware6SDK\Model\Body86(); // \Shopware6SDK\Model\Body86 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body86**](../Model/Body86.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body86**](../Model/Body86.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
+[**\Shopware6SDK\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createNewsletterRecipient**
-> \ShopwareSDK6\Model\InlineResponse200132 createNewsletterRecipient($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200132 createNewsletterRecipient($body, $_response)
 
 Create a new Newsletter Recipient resources
 
@@ -73,12 +73,12 @@ Create a new Newsletter Recipient resources. All required fields must be provide
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NewsletterRecipientApi(
+$apiInstance = new Shopware6SDK\Api\NewsletterRecipientApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\NewsletterRecipientFlat(); // \ShopwareSDK6\Model\NewsletterRecipientFlat | 
+$body = new \Shopware6SDK\Model\NewsletterRecipientFlat(); // \Shopware6SDK\Model\NewsletterRecipientFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\NewsletterRecipientFlat**](../Model/NewsletterRecipientFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\NewsletterRecipientFlat**](../Model/NewsletterRecipientFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
+[**\Shopware6SDK\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Newsletter Recipient resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NewsletterRecipientApi(
+$apiInstance = new Shopware6SDK\Api\NewsletterRecipientApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNewsletterRecipient**
-> \ShopwareSDK6\Model\InlineResponse200132 getNewsletterRecipient($id)
+> \Shopware6SDK\Model\InlineResponse200132 getNewsletterRecipient($id)
 
 Detailed information about a Newsletter Recipient resource
 
@@ -170,7 +170,7 @@ Detailed information about a Newsletter Recipient resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NewsletterRecipientApi(
+$apiInstance = new Shopware6SDK\Api\NewsletterRecipientApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
+[**\Shopware6SDK\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNewsletterRecipientList**
-> \ShopwareSDK6\Model\InlineResponse200130 getNewsletterRecipientList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200130 getNewsletterRecipientList($limit, $page, $query)
 
 List with basic information of Newsletter Recipient resources
 
@@ -217,7 +217,7 @@ List with basic information of Newsletter Recipient resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NewsletterRecipientApi(
+$apiInstance = new Shopware6SDK\Api\NewsletterRecipientApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200130**](../Model/InlineResponse200130.md)
+[**\Shopware6SDK\Model\InlineResponse200130**](../Model/InlineResponse200130.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateNewsletterRecipient**
-> \ShopwareSDK6\Model\InlineResponse200132 updateNewsletterRecipient($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200132 updateNewsletterRecipient($id, $body, $_response)
 
 Partially update information about a Newsletter Recipient resource
 
@@ -268,13 +268,13 @@ Partially update information about a Newsletter Recipient resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NewsletterRecipientApi(
+$apiInstance = new Shopware6SDK\Api\NewsletterRecipientApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the newsletter_recipient
-$body = new \ShopwareSDK6\Model\Body87(); // \ShopwareSDK6\Model\Body87 | Partially update information about a Newsletter Recipient resource.
+$body = new \Shopware6SDK\Model\Body87(); // \Shopware6SDK\Model\Body87 | Partially update information about a Newsletter Recipient resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the newsletter_recipient |
- **body** | [**\ShopwareSDK6\Model\Body87**](../Model/Body87.md)| Partially update information about a Newsletter Recipient resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body87**](../Model/Body87.md)| Partially update information about a Newsletter Recipient resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
+[**\Shopware6SDK\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateNewsletterRecipient**
-> \ShopwareSDK6\Model\InlineResponse200132 updateNewsletterRecipient($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200132 updateNewsletterRecipient($id, $body, $_response)
 
 Partially update information about a Newsletter Recipient resource
 
@@ -319,13 +319,13 @@ Partially update information about a Newsletter Recipient resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NewsletterRecipientApi(
+$apiInstance = new Shopware6SDK\Api\NewsletterRecipientApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the newsletter_recipient
-$body = new \ShopwareSDK6\Model\NewsletterRecipientFlat(); // \ShopwareSDK6\Model\NewsletterRecipientFlat | Partially update information about a Newsletter Recipient resource.
+$body = new \Shopware6SDK\Model\NewsletterRecipientFlat(); // \Shopware6SDK\Model\NewsletterRecipientFlat | Partially update information about a Newsletter Recipient resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the newsletter_recipient |
- **body** | [**\ShopwareSDK6\Model\NewsletterRecipientFlat**](../Model/NewsletterRecipientFlat.md)| Partially update information about a Newsletter Recipient resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\NewsletterRecipientFlat**](../Model/NewsletterRecipientFlat.md)| Partially update information about a Newsletter Recipient resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
+[**\Shopware6SDK\Model\InlineResponse200132**](../Model/InlineResponse200132.md)
 
 ### Authorization
 

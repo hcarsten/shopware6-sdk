@@ -1,4 +1,4 @@
-# ShopwareSDK6\IntegrationApi
+# Shopware6SDK\IntegrationApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateIntegration**](IntegrationApi.md#updateintegration) | **PATCH** /integration/{id} | Partially update information about a Integration resource
 
 # **createIntegration**
-> \ShopwareSDK6\Model\InlineResponse20084 createIntegration($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20084 createIntegration($body, $_response)
 
 Create a new Integration resources
 
@@ -22,12 +22,12 @@ Create a new Integration resources. All required fields must be provided in orde
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\IntegrationApi(
+$apiInstance = new Shopware6SDK\Api\IntegrationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body54(); // \ShopwareSDK6\Model\Body54 | 
+$body = new \Shopware6SDK\Model\Body54(); // \Shopware6SDK\Model\Body54 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body54**](../Model/Body54.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body54**](../Model/Body54.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
+[**\Shopware6SDK\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createIntegration**
-> \ShopwareSDK6\Model\InlineResponse20084 createIntegration($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20084 createIntegration($body, $_response)
 
 Create a new Integration resources
 
@@ -73,12 +73,12 @@ Create a new Integration resources. All required fields must be provided in orde
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\IntegrationApi(
+$apiInstance = new Shopware6SDK\Api\IntegrationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\IntegrationFlat(); // \ShopwareSDK6\Model\IntegrationFlat | 
+$body = new \Shopware6SDK\Model\IntegrationFlat(); // \Shopware6SDK\Model\IntegrationFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\IntegrationFlat**](../Model/IntegrationFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\IntegrationFlat**](../Model/IntegrationFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
+[**\Shopware6SDK\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Integration resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\IntegrationApi(
+$apiInstance = new Shopware6SDK\Api\IntegrationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getIntegration**
-> \ShopwareSDK6\Model\InlineResponse20084 getIntegration($id)
+> \Shopware6SDK\Model\InlineResponse20084 getIntegration($id)
 
 Detailed information about a Integration resource
 
@@ -170,7 +170,7 @@ Detailed information about a Integration resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\IntegrationApi(
+$apiInstance = new Shopware6SDK\Api\IntegrationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
+[**\Shopware6SDK\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getIntegrationList**
-> \ShopwareSDK6\Model\InlineResponse20082 getIntegrationList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse20082 getIntegrationList($limit, $page, $query)
 
 List with basic information of Integration resources
 
@@ -217,7 +217,7 @@ List with basic information of Integration resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\IntegrationApi(
+$apiInstance = new Shopware6SDK\Api\IntegrationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20082**](../Model/InlineResponse20082.md)
+[**\Shopware6SDK\Model\InlineResponse20082**](../Model/InlineResponse20082.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateIntegration**
-> \ShopwareSDK6\Model\InlineResponse20084 updateIntegration($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20084 updateIntegration($id, $body, $_response)
 
 Partially update information about a Integration resource
 
@@ -268,13 +268,13 @@ Partially update information about a Integration resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\IntegrationApi(
+$apiInstance = new Shopware6SDK\Api\IntegrationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the integration
-$body = new \ShopwareSDK6\Model\Body55(); // \ShopwareSDK6\Model\Body55 | Partially update information about a Integration resource.
+$body = new \Shopware6SDK\Model\Body55(); // \Shopware6SDK\Model\Body55 | Partially update information about a Integration resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the integration |
- **body** | [**\ShopwareSDK6\Model\Body55**](../Model/Body55.md)| Partially update information about a Integration resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body55**](../Model/Body55.md)| Partially update information about a Integration resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
+[**\Shopware6SDK\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateIntegration**
-> \ShopwareSDK6\Model\InlineResponse20084 updateIntegration($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20084 updateIntegration($id, $body, $_response)
 
 Partially update information about a Integration resource
 
@@ -319,13 +319,13 @@ Partially update information about a Integration resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\IntegrationApi(
+$apiInstance = new Shopware6SDK\Api\IntegrationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the integration
-$body = new \ShopwareSDK6\Model\IntegrationFlat(); // \ShopwareSDK6\Model\IntegrationFlat | Partially update information about a Integration resource.
+$body = new \Shopware6SDK\Model\IntegrationFlat(); // \Shopware6SDK\Model\IntegrationFlat | Partially update information about a Integration resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the integration |
- **body** | [**\ShopwareSDK6\Model\IntegrationFlat**](../Model/IntegrationFlat.md)| Partially update information about a Integration resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\IntegrationFlat**](../Model/IntegrationFlat.md)| Partially update information about a Integration resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
+[**\Shopware6SDK\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
 
 ### Authorization
 

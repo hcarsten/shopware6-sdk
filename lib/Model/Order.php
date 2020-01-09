@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Order Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Order extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\OrderAttributes',
-'links' => '\ShopwareSDK6\Model\OrderLinks',
-'relationships' => '\ShopwareSDK6\Model\OrderRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\OrderAttributes',
+'links' => '\Shopware6SDK\Model\OrderLinks',
+'relationships' => '\Shopware6SDK\Model\OrderRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Order extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\OrderAttributes
+     * @return \Shopware6SDK\Model\OrderAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Order extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\OrderAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\OrderAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Order extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\OrderLinks
+     * @return \Shopware6SDK\Model\OrderLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Order extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\OrderLinks $links links
+     * @param \Shopware6SDK\Model\OrderLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Order extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\OrderRelationships
+     * @return \Shopware6SDK\Model\OrderRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Order extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\OrderRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\OrderRelationships $relationships relationships
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CurrencyRelationshipsPromotionDiscountPrices Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CurrencyRelationshipsPromotionDiscountPrices implements ModelInterface, Ar
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CurrencyRelationshipsPromotionDiscountPricesLinks',
-'data' => '\ShopwareSDK6\Model\CurrencyRelationshipsPromotionDiscountPricesData[]'    ];
+        'links' => '\Shopware6SDK\Model\CurrencyRelationshipsPromotionDiscountPricesLinks',
+'data' => '\Shopware6SDK\Model\CurrencyRelationshipsPromotionDiscountPricesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CurrencyRelationshipsPromotionDiscountPrices implements ModelInterface, Ar
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CurrencyRelationshipsPromotionDiscountPricesLinks
+     * @return \Shopware6SDK\Model\CurrencyRelationshipsPromotionDiscountPricesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CurrencyRelationshipsPromotionDiscountPrices implements ModelInterface, Ar
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CurrencyRelationshipsPromotionDiscountPricesLinks $links links
+     * @param \Shopware6SDK\Model\CurrencyRelationshipsPromotionDiscountPricesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CurrencyRelationshipsPromotionDiscountPrices implements ModelInterface, Ar
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CurrencyRelationshipsPromotionDiscountPricesData[]
+     * @return \Shopware6SDK\Model\CurrencyRelationshipsPromotionDiscountPricesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CurrencyRelationshipsPromotionDiscountPrices implements ModelInterface, Ar
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CurrencyRelationshipsPromotionDiscountPricesData[] $data data
+     * @param \Shopware6SDK\Model\CurrencyRelationshipsPromotionDiscountPricesData[] $data data
      *
      * @return $this
      */

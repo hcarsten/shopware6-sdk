@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductVisibility Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductVisibility extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\ProductVisibilityAttributes',
-'links' => '\ShopwareSDK6\Model\ProductVisibilityLinks',
-'relationships' => '\ShopwareSDK6\Model\ProductVisibilityRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\ProductVisibilityAttributes',
+'links' => '\Shopware6SDK\Model\ProductVisibilityLinks',
+'relationships' => '\Shopware6SDK\Model\ProductVisibilityRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductVisibility extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\ProductVisibilityAttributes
+     * @return \Shopware6SDK\Model\ProductVisibilityAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductVisibility extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\ProductVisibilityAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\ProductVisibilityAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductVisibility extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ProductVisibilityLinks
+     * @return \Shopware6SDK\Model\ProductVisibilityLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductVisibility extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ProductVisibilityLinks $links links
+     * @param \Shopware6SDK\Model\ProductVisibilityLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductVisibility extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\ProductVisibilityRelationships
+     * @return \Shopware6SDK\Model\ProductVisibilityRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductVisibility extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\ProductVisibilityRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\ProductVisibilityRelationships $relationships relationships
      *
      * @return $this
      */

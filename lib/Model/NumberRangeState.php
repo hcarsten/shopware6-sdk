@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * NumberRangeState Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class NumberRangeState extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\NumberRangeStateAttributes',
-'links' => '\ShopwareSDK6\Model\NumberRangeStateLinks',
-'relationships' => '\ShopwareSDK6\Model\NumberRangeStateRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\NumberRangeStateAttributes',
+'links' => '\Shopware6SDK\Model\NumberRangeStateLinks',
+'relationships' => '\Shopware6SDK\Model\NumberRangeStateRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class NumberRangeState extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\NumberRangeStateAttributes
+     * @return \Shopware6SDK\Model\NumberRangeStateAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class NumberRangeState extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\NumberRangeStateAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\NumberRangeStateAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class NumberRangeState extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\NumberRangeStateLinks
+     * @return \Shopware6SDK\Model\NumberRangeStateLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class NumberRangeState extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\NumberRangeStateLinks $links links
+     * @param \Shopware6SDK\Model\NumberRangeStateLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class NumberRangeState extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\NumberRangeStateRelationships
+     * @return \Shopware6SDK\Model\NumberRangeStateRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class NumberRangeState extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\NumberRangeStateRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\NumberRangeStateRelationships $relationships relationships
      *
      * @return $this
      */

@@ -1,4 +1,4 @@
-# ShopwareSDK6\OrderTransactionApi
+# Shopware6SDK\OrderTransactionApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateOrderTransaction**](OrderTransactionApi.md#updateordertransaction) | **PATCH** /order-transaction/{id} | Partially update information about a Order Transaction resource
 
 # **createOrderTransaction**
-> \ShopwareSDK6\Model\InlineResponse200165 createOrderTransaction($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200165 createOrderTransaction($body, $_response)
 
 Create a new Order Transaction resources
 
@@ -22,12 +22,12 @@ Create a new Order Transaction resources. All required fields must be provided i
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderTransactionApi(
+$apiInstance = new Shopware6SDK\Api\OrderTransactionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body108(); // \ShopwareSDK6\Model\Body108 | 
+$body = new \Shopware6SDK\Model\Body108(); // \Shopware6SDK\Model\Body108 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body108**](../Model/Body108.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body108**](../Model/Body108.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
+[**\Shopware6SDK\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createOrderTransaction**
-> \ShopwareSDK6\Model\InlineResponse200165 createOrderTransaction($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200165 createOrderTransaction($body, $_response)
 
 Create a new Order Transaction resources
 
@@ -73,12 +73,12 @@ Create a new Order Transaction resources. All required fields must be provided i
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderTransactionApi(
+$apiInstance = new Shopware6SDK\Api\OrderTransactionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\OrderTransactionFlat(); // \ShopwareSDK6\Model\OrderTransactionFlat | 
+$body = new \Shopware6SDK\Model\OrderTransactionFlat(); // \Shopware6SDK\Model\OrderTransactionFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\OrderTransactionFlat**](../Model/OrderTransactionFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\OrderTransactionFlat**](../Model/OrderTransactionFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
+[**\Shopware6SDK\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Order Transaction resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderTransactionApi(
+$apiInstance = new Shopware6SDK\Api\OrderTransactionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOrderTransaction**
-> \ShopwareSDK6\Model\InlineResponse200165 getOrderTransaction($id)
+> \Shopware6SDK\Model\InlineResponse200165 getOrderTransaction($id)
 
 Detailed information about a Order Transaction resource
 
@@ -170,7 +170,7 @@ Detailed information about a Order Transaction resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderTransactionApi(
+$apiInstance = new Shopware6SDK\Api\OrderTransactionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
+[**\Shopware6SDK\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOrderTransactionList**
-> \ShopwareSDK6\Model\InlineResponse200163 getOrderTransactionList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200163 getOrderTransactionList($limit, $page, $query)
 
 List with basic information of Order Transaction resources
 
@@ -217,7 +217,7 @@ List with basic information of Order Transaction resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderTransactionApi(
+$apiInstance = new Shopware6SDK\Api\OrderTransactionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200163**](../Model/InlineResponse200163.md)
+[**\Shopware6SDK\Model\InlineResponse200163**](../Model/InlineResponse200163.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateOrderTransaction**
-> \ShopwareSDK6\Model\InlineResponse200165 updateOrderTransaction($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200165 updateOrderTransaction($id, $body, $_response)
 
 Partially update information about a Order Transaction resource
 
@@ -268,13 +268,13 @@ Partially update information about a Order Transaction resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderTransactionApi(
+$apiInstance = new Shopware6SDK\Api\OrderTransactionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the order_transaction
-$body = new \ShopwareSDK6\Model\Body109(); // \ShopwareSDK6\Model\Body109 | Partially update information about a Order Transaction resource.
+$body = new \Shopware6SDK\Model\Body109(); // \Shopware6SDK\Model\Body109 | Partially update information about a Order Transaction resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the order_transaction |
- **body** | [**\ShopwareSDK6\Model\Body109**](../Model/Body109.md)| Partially update information about a Order Transaction resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body109**](../Model/Body109.md)| Partially update information about a Order Transaction resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
+[**\Shopware6SDK\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateOrderTransaction**
-> \ShopwareSDK6\Model\InlineResponse200165 updateOrderTransaction($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200165 updateOrderTransaction($id, $body, $_response)
 
 Partially update information about a Order Transaction resource
 
@@ -319,13 +319,13 @@ Partially update information about a Order Transaction resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\OrderTransactionApi(
+$apiInstance = new Shopware6SDK\Api\OrderTransactionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the order_transaction
-$body = new \ShopwareSDK6\Model\OrderTransactionFlat(); // \ShopwareSDK6\Model\OrderTransactionFlat | Partially update information about a Order Transaction resource.
+$body = new \Shopware6SDK\Model\OrderTransactionFlat(); // \Shopware6SDK\Model\OrderTransactionFlat | Partially update information about a Order Transaction resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the order_transaction |
- **body** | [**\ShopwareSDK6\Model\OrderTransactionFlat**](../Model/OrderTransactionFlat.md)| Partially update information about a Order Transaction resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\OrderTransactionFlat**](../Model/OrderTransactionFlat.md)| Partially update information about a Order Transaction resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
+[**\Shopware6SDK\Model\InlineResponse200165**](../Model/InlineResponse200165.md)
 
 ### Authorization
 

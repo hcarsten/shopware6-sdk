@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductConfiguratorSettingRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductConfiguratorSettingRelationships implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsProduct',
-'media' => '\ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsMedia',
-'option' => '\ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsOption'    ];
+        'product' => '\Shopware6SDK\Model\ProductConfiguratorSettingRelationshipsProduct',
+'media' => '\Shopware6SDK\Model\ProductConfiguratorSettingRelationshipsMedia',
+'option' => '\Shopware6SDK\Model\ProductConfiguratorSettingRelationshipsOption'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class ProductConfiguratorSettingRelationships implements ModelInterface, ArrayAc
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsProduct
+     * @return \Shopware6SDK\Model\ProductConfiguratorSettingRelationshipsProduct
      */
     public function getProduct()
     {
@@ -221,7 +221,7 @@ class ProductConfiguratorSettingRelationships implements ModelInterface, ArrayAc
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsProduct $product product
+     * @param \Shopware6SDK\Model\ProductConfiguratorSettingRelationshipsProduct $product product
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class ProductConfiguratorSettingRelationships implements ModelInterface, ArrayAc
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsMedia
+     * @return \Shopware6SDK\Model\ProductConfiguratorSettingRelationshipsMedia
      */
     public function getMedia()
     {
@@ -245,7 +245,7 @@ class ProductConfiguratorSettingRelationships implements ModelInterface, ArrayAc
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\ProductConfiguratorSettingRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class ProductConfiguratorSettingRelationships implements ModelInterface, ArrayAc
     /**
      * Gets option
      *
-     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsOption
+     * @return \Shopware6SDK\Model\ProductConfiguratorSettingRelationshipsOption
      */
     public function getOption()
     {
@@ -269,7 +269,7 @@ class ProductConfiguratorSettingRelationships implements ModelInterface, ArrayAc
     /**
      * Sets option
      *
-     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingRelationshipsOption $option option
+     * @param \Shopware6SDK\Model\ProductConfiguratorSettingRelationshipsOption $option option
      *
      * @return $this
      */

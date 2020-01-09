@@ -14,14 +14,14 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**delivery_time** | [**\ShopwareSDK6\Model\DeliveryTimeFlat**](DeliveryTimeFlat.md) |  | [optional] 
-**availability_rule** | [**\ShopwareSDK6\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
-**prices** | [**\ShopwareSDK6\Model\ShippingMethodPriceFlat**](ShippingMethodPriceFlat.md) |  | [optional] 
-**media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**tags** | [**\ShopwareSDK6\Model\TagFlat**](TagFlat.md) |  | [optional] 
-**order_deliveries** | [**\ShopwareSDK6\Model\OrderDeliveryFlat**](OrderDeliveryFlat.md) |  | [optional] 
-**sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**sales_channel_default_assignments** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**delivery_time** | [**\Shopware6SDK\Model\DeliveryTimeFlat**](DeliveryTimeFlat.md) |  | [optional] 
+**availability_rule** | [**\Shopware6SDK\Model\RuleFlat**](RuleFlat.md) |  | [optional] 
+**prices** | [**\Shopware6SDK\Model\ShippingMethodPriceFlat**](ShippingMethodPriceFlat.md) |  | [optional] 
+**media** | [**\Shopware6SDK\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**tags** | [**\Shopware6SDK\Model\TagFlat**](TagFlat.md) |  | [optional] 
+**order_deliveries** | [**\Shopware6SDK\Model\OrderDeliveryFlat**](OrderDeliveryFlat.md) |  | [optional] 
+**sales_channels** | [**\Shopware6SDK\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**sales_channel_default_assignments** | [**\Shopware6SDK\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

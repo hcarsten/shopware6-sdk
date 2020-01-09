@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaFolderConfigurationRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaFolderConfigurationRelationships implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'media_folders' => '\ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaFolders',
-'media_thumbnail_sizes' => '\ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizes'    ];
+        'media_folders' => '\Shopware6SDK\Model\MediaFolderConfigurationRelationshipsMediaFolders',
+'media_thumbnail_sizes' => '\Shopware6SDK\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizes'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaFolderConfigurationRelationships implements ModelInterface, ArrayAcce
     /**
      * Gets media_folders
      *
-     * @return \ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaFolders
+     * @return \Shopware6SDK\Model\MediaFolderConfigurationRelationshipsMediaFolders
      */
     public function getMediaFolders()
     {
@@ -215,7 +215,7 @@ class MediaFolderConfigurationRelationships implements ModelInterface, ArrayAcce
     /**
      * Sets media_folders
      *
-     * @param \ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaFolders $media_folders media_folders
+     * @param \Shopware6SDK\Model\MediaFolderConfigurationRelationshipsMediaFolders $media_folders media_folders
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaFolderConfigurationRelationships implements ModelInterface, ArrayAcce
     /**
      * Gets media_thumbnail_sizes
      *
-     * @return \ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizes
+     * @return \Shopware6SDK\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizes
      */
     public function getMediaThumbnailSizes()
     {
@@ -239,7 +239,7 @@ class MediaFolderConfigurationRelationships implements ModelInterface, ArrayAcce
     /**
      * Sets media_thumbnail_sizes
      *
-     * @param \ShopwareSDK6\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizes $media_thumbnail_sizes media_thumbnail_sizes
+     * @param \Shopware6SDK\Model\MediaFolderConfigurationRelationshipsMediaThumbnailSizes $media_thumbnail_sizes media_thumbnail_sizes
      *
      * @return $this
      */

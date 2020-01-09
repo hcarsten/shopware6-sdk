@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**options** | [**\ShopwareSDK6\Model\PropertyGroupOptionFlat**](PropertyGroupOptionFlat.md) |  | [optional] 
+**options** | [**\Shopware6SDK\Model\PropertyGroupOptionFlat**](PropertyGroupOptionFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CountryStateFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,9 +66,9 @@ class CountryStateFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'country' => '\ShopwareSDK6\Model\CountryFlat',
-'customer_addresses' => '\ShopwareSDK6\Model\CustomerAddressFlat',
-'order_addresses' => '\ShopwareSDK6\Model\OrderAddressFlat'    ];
+'country' => '\Shopware6SDK\Model\CountryFlat',
+'customer_addresses' => '\Shopware6SDK\Model\CustomerAddressFlat',
+'order_addresses' => '\Shopware6SDK\Model\OrderAddressFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -526,7 +526,7 @@ class CountryStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \ShopwareSDK6\Model\CountryFlat
+     * @return \Shopware6SDK\Model\CountryFlat
      */
     public function getCountry()
     {
@@ -536,7 +536,7 @@ class CountryStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \ShopwareSDK6\Model\CountryFlat $country country
+     * @param \Shopware6SDK\Model\CountryFlat $country country
      *
      * @return $this
      */
@@ -550,7 +550,7 @@ class CountryStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customer_addresses
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressFlat
+     * @return \Shopware6SDK\Model\CustomerAddressFlat
      */
     public function getCustomerAddresses()
     {
@@ -560,7 +560,7 @@ class CountryStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customer_addresses
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressFlat $customer_addresses customer_addresses
+     * @param \Shopware6SDK\Model\CustomerAddressFlat $customer_addresses customer_addresses
      *
      * @return $this
      */
@@ -574,7 +574,7 @@ class CountryStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_addresses
      *
-     * @return \ShopwareSDK6\Model\OrderAddressFlat
+     * @return \Shopware6SDK\Model\OrderAddressFlat
      */
     public function getOrderAddresses()
     {
@@ -584,7 +584,7 @@ class CountryStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_addresses
      *
-     * @param \ShopwareSDK6\Model\OrderAddressFlat $order_addresses order_addresses
+     * @param \Shopware6SDK\Model\OrderAddressFlat $order_addresses order_addresses
      *
      * @return $this
      */

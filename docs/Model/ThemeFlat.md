@@ -19,10 +19,10 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**preview_media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**child_themes** | [**\ShopwareSDK6\Model\ThemeFlat**](ThemeFlat.md) |  | [optional] 
+**sales_channels** | [**\Shopware6SDK\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**media** | [**\Shopware6SDK\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**preview_media** | [**\Shopware6SDK\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**child_themes** | [**\Shopware6SDK\Model\ThemeFlat**](ThemeFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

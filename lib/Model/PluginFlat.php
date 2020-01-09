@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PluginFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -81,7 +81,7 @@ class PluginFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'payment_methods' => '\ShopwareSDK6\Model\PaymentMethodFlat'    ];
+'payment_methods' => '\Shopware6SDK\Model\PaymentMethodFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -970,7 +970,7 @@ class PluginFlat implements ModelInterface, ArrayAccess
     /**
      * Gets payment_methods
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodFlat
+     * @return \Shopware6SDK\Model\PaymentMethodFlat
      */
     public function getPaymentMethods()
     {
@@ -980,7 +980,7 @@ class PluginFlat implements ModelInterface, ArrayAccess
     /**
      * Sets payment_methods
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodFlat $payment_methods payment_methods
+     * @param \Shopware6SDK\Model\PaymentMethodFlat $payment_methods payment_methods
      *
      * @return $this
      */

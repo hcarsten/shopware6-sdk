@@ -15,9 +15,9 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**sales_channels** | [**\ShopwareSDK6\Model\MailTemplateSalesChannelFlat**](MailTemplateSalesChannelFlat.md) |  | [optional] 
-**mail_template_type** | [**\ShopwareSDK6\Model\MailTemplateTypeFlat**](MailTemplateTypeFlat.md) |  | [optional] 
-**media** | [**\ShopwareSDK6\Model\MailTemplateMediaFlat**](MailTemplateMediaFlat.md) |  | [optional] 
+**sales_channels** | [**\Shopware6SDK\Model\MailTemplateSalesChannelFlat**](MailTemplateSalesChannelFlat.md) |  | [optional] 
+**mail_template_type** | [**\Shopware6SDK\Model\MailTemplateTypeFlat**](MailTemplateTypeFlat.md) |  | [optional] 
+**media** | [**\Shopware6SDK\Model\MailTemplateMediaFlat**](MailTemplateMediaFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

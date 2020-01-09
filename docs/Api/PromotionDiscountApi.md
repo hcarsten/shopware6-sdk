@@ -1,4 +1,4 @@
-# ShopwareSDK6\PromotionDiscountApi
+# Shopware6SDK\PromotionDiscountApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updatePromotionDiscount**](PromotionDiscountApi.md#updatepromotiondiscount) | **PATCH** /promotion-discount/{id} | Partially update information about a Promotion Discount resource
 
 # **createPromotionDiscount**
-> \ShopwareSDK6\Model\InlineResponse200216 createPromotionDiscount($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200216 createPromotionDiscount($body, $_response)
 
 Create a new Promotion Discount resources
 
@@ -22,12 +22,12 @@ Create a new Promotion Discount resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionDiscountApi(
+$apiInstance = new Shopware6SDK\Api\PromotionDiscountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body142(); // \ShopwareSDK6\Model\Body142 | 
+$body = new \Shopware6SDK\Model\Body142(); // \Shopware6SDK\Model\Body142 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body142**](../Model/Body142.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body142**](../Model/Body142.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
+[**\Shopware6SDK\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createPromotionDiscount**
-> \ShopwareSDK6\Model\InlineResponse200216 createPromotionDiscount($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200216 createPromotionDiscount($body, $_response)
 
 Create a new Promotion Discount resources
 
@@ -73,12 +73,12 @@ Create a new Promotion Discount resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionDiscountApi(
+$apiInstance = new Shopware6SDK\Api\PromotionDiscountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\PromotionDiscountFlat(); // \ShopwareSDK6\Model\PromotionDiscountFlat | 
+$body = new \Shopware6SDK\Model\PromotionDiscountFlat(); // \Shopware6SDK\Model\PromotionDiscountFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\PromotionDiscountFlat**](../Model/PromotionDiscountFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\PromotionDiscountFlat**](../Model/PromotionDiscountFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
+[**\Shopware6SDK\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Promotion Discount resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionDiscountApi(
+$apiInstance = new Shopware6SDK\Api\PromotionDiscountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPromotionDiscount**
-> \ShopwareSDK6\Model\InlineResponse200216 getPromotionDiscount($id)
+> \Shopware6SDK\Model\InlineResponse200216 getPromotionDiscount($id)
 
 Detailed information about a Promotion Discount resource
 
@@ -170,7 +170,7 @@ Detailed information about a Promotion Discount resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionDiscountApi(
+$apiInstance = new Shopware6SDK\Api\PromotionDiscountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
+[**\Shopware6SDK\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPromotionDiscountList**
-> \ShopwareSDK6\Model\InlineResponse200214 getPromotionDiscountList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200214 getPromotionDiscountList($limit, $page, $query)
 
 List with basic information of Promotion Discount resources
 
@@ -217,7 +217,7 @@ List with basic information of Promotion Discount resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionDiscountApi(
+$apiInstance = new Shopware6SDK\Api\PromotionDiscountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200214**](../Model/InlineResponse200214.md)
+[**\Shopware6SDK\Model\InlineResponse200214**](../Model/InlineResponse200214.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePromotionDiscount**
-> \ShopwareSDK6\Model\InlineResponse200216 updatePromotionDiscount($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200216 updatePromotionDiscount($id, $body, $_response)
 
 Partially update information about a Promotion Discount resource
 
@@ -268,13 +268,13 @@ Partially update information about a Promotion Discount resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionDiscountApi(
+$apiInstance = new Shopware6SDK\Api\PromotionDiscountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the promotion_discount
-$body = new \ShopwareSDK6\Model\Body143(); // \ShopwareSDK6\Model\Body143 | Partially update information about a Promotion Discount resource.
+$body = new \Shopware6SDK\Model\Body143(); // \Shopware6SDK\Model\Body143 | Partially update information about a Promotion Discount resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the promotion_discount |
- **body** | [**\ShopwareSDK6\Model\Body143**](../Model/Body143.md)| Partially update information about a Promotion Discount resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body143**](../Model/Body143.md)| Partially update information about a Promotion Discount resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
+[**\Shopware6SDK\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePromotionDiscount**
-> \ShopwareSDK6\Model\InlineResponse200216 updatePromotionDiscount($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200216 updatePromotionDiscount($id, $body, $_response)
 
 Partially update information about a Promotion Discount resource
 
@@ -319,13 +319,13 @@ Partially update information about a Promotion Discount resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionDiscountApi(
+$apiInstance = new Shopware6SDK\Api\PromotionDiscountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the promotion_discount
-$body = new \ShopwareSDK6\Model\PromotionDiscountFlat(); // \ShopwareSDK6\Model\PromotionDiscountFlat | Partially update information about a Promotion Discount resource.
+$body = new \Shopware6SDK\Model\PromotionDiscountFlat(); // \Shopware6SDK\Model\PromotionDiscountFlat | Partially update information about a Promotion Discount resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the promotion_discount |
- **body** | [**\ShopwareSDK6\Model\PromotionDiscountFlat**](../Model/PromotionDiscountFlat.md)| Partially update information about a Promotion Discount resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\PromotionDiscountFlat**](../Model/PromotionDiscountFlat.md)| Partially update information about a Promotion Discount resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
+[**\Shopware6SDK\Model\InlineResponse200216**](../Model/InlineResponse200216.md)
 
 ### Authorization
 

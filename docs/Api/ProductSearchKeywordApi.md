@@ -1,4 +1,4 @@
-# ShopwareSDK6\ProductSearchKeywordApi
+# Shopware6SDK\ProductSearchKeywordApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProductSearchKeyword**](ProductSearchKeywordApi.md#updateproductsearchkeyword) | **PATCH** /product-search-keyword/{id} | Partially update information about a Product Search Keyword resource
 
 # **createProductSearchKeyword**
-> \ShopwareSDK6\Model\InlineResponse200201 createProductSearchKeyword($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200201 createProductSearchKeyword($body, $_response)
 
 Create a new Product Search Keyword resources
 
@@ -22,12 +22,12 @@ Create a new Product Search Keyword resources. All required fields must be provi
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductSearchKeywordApi(
+$apiInstance = new Shopware6SDK\Api\ProductSearchKeywordApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body132(); // \ShopwareSDK6\Model\Body132 | 
+$body = new \Shopware6SDK\Model\Body132(); // \Shopware6SDK\Model\Body132 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body132**](../Model/Body132.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body132**](../Model/Body132.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
+[**\Shopware6SDK\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProductSearchKeyword**
-> \ShopwareSDK6\Model\InlineResponse200201 createProductSearchKeyword($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200201 createProductSearchKeyword($body, $_response)
 
 Create a new Product Search Keyword resources
 
@@ -73,12 +73,12 @@ Create a new Product Search Keyword resources. All required fields must be provi
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductSearchKeywordApi(
+$apiInstance = new Shopware6SDK\Api\ProductSearchKeywordApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\ProductSearchKeywordFlat(); // \ShopwareSDK6\Model\ProductSearchKeywordFlat | 
+$body = new \Shopware6SDK\Model\ProductSearchKeywordFlat(); // \Shopware6SDK\Model\ProductSearchKeywordFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\ProductSearchKeywordFlat**](../Model/ProductSearchKeywordFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductSearchKeywordFlat**](../Model/ProductSearchKeywordFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
+[**\Shopware6SDK\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product Search Keyword resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductSearchKeywordApi(
+$apiInstance = new Shopware6SDK\Api\ProductSearchKeywordApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductSearchKeyword**
-> \ShopwareSDK6\Model\InlineResponse200201 getProductSearchKeyword($id)
+> \Shopware6SDK\Model\InlineResponse200201 getProductSearchKeyword($id)
 
 Detailed information about a Product Search Keyword resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product Search Keyword resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductSearchKeywordApi(
+$apiInstance = new Shopware6SDK\Api\ProductSearchKeywordApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
+[**\Shopware6SDK\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductSearchKeywordList**
-> \ShopwareSDK6\Model\InlineResponse200199 getProductSearchKeywordList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200199 getProductSearchKeywordList($limit, $page, $query)
 
 List with basic information of Product Search Keyword resources
 
@@ -217,7 +217,7 @@ List with basic information of Product Search Keyword resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductSearchKeywordApi(
+$apiInstance = new Shopware6SDK\Api\ProductSearchKeywordApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200199**](../Model/InlineResponse200199.md)
+[**\Shopware6SDK\Model\InlineResponse200199**](../Model/InlineResponse200199.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductSearchKeyword**
-> \ShopwareSDK6\Model\InlineResponse200201 updateProductSearchKeyword($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200201 updateProductSearchKeyword($id, $body, $_response)
 
 Partially update information about a Product Search Keyword resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product Search Keyword resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductSearchKeywordApi(
+$apiInstance = new Shopware6SDK\Api\ProductSearchKeywordApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_search_keyword
-$body = new \ShopwareSDK6\Model\Body133(); // \ShopwareSDK6\Model\Body133 | Partially update information about a Product Search Keyword resource.
+$body = new \Shopware6SDK\Model\Body133(); // \Shopware6SDK\Model\Body133 | Partially update information about a Product Search Keyword resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_search_keyword |
- **body** | [**\ShopwareSDK6\Model\Body133**](../Model/Body133.md)| Partially update information about a Product Search Keyword resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body133**](../Model/Body133.md)| Partially update information about a Product Search Keyword resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
+[**\Shopware6SDK\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductSearchKeyword**
-> \ShopwareSDK6\Model\InlineResponse200201 updateProductSearchKeyword($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200201 updateProductSearchKeyword($id, $body, $_response)
 
 Partially update information about a Product Search Keyword resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product Search Keyword resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductSearchKeywordApi(
+$apiInstance = new Shopware6SDK\Api\ProductSearchKeywordApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_search_keyword
-$body = new \ShopwareSDK6\Model\ProductSearchKeywordFlat(); // \ShopwareSDK6\Model\ProductSearchKeywordFlat | Partially update information about a Product Search Keyword resource.
+$body = new \Shopware6SDK\Model\ProductSearchKeywordFlat(); // \Shopware6SDK\Model\ProductSearchKeywordFlat | Partially update information about a Product Search Keyword resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_search_keyword |
- **body** | [**\ShopwareSDK6\Model\ProductSearchKeywordFlat**](../Model/ProductSearchKeywordFlat.md)| Partially update information about a Product Search Keyword resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductSearchKeywordFlat**](../Model/ProductSearchKeywordFlat.md)| Partially update information about a Product Search Keyword resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
+[**\Shopware6SDK\Model\InlineResponse200201**](../Model/InlineResponse200201.md)
 
 ### Authorization
 

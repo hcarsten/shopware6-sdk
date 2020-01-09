@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\ShopwareSDK6\Model\StateMachineRelationshipsHistoryEntriesLinks**](StateMachineRelationshipsHistoryEntriesLinks.md) |  | [optional] 
-**data** | [**\ShopwareSDK6\Model\StateMachineRelationshipsHistoryEntriesData[]**](StateMachineRelationshipsHistoryEntriesData.md) |  | [optional] 
+**links** | [**\Shopware6SDK\Model\StateMachineRelationshipsHistoryEntriesLinks**](StateMachineRelationshipsHistoryEntriesLinks.md) |  | [optional] 
+**data** | [**\Shopware6SDK\Model\StateMachineRelationshipsHistoryEntriesData[]**](StateMachineRelationshipsHistoryEntriesData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

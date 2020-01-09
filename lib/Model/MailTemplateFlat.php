@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplateFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -68,9 +68,9 @@ class MailTemplateFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'sales_channels' => '\ShopwareSDK6\Model\MailTemplateSalesChannelFlat',
-'mail_template_type' => '\ShopwareSDK6\Model\MailTemplateTypeFlat',
-'media' => '\ShopwareSDK6\Model\MailTemplateMediaFlat'    ];
+'sales_channels' => '\Shopware6SDK\Model\MailTemplateSalesChannelFlat',
+'mail_template_type' => '\Shopware6SDK\Model\MailTemplateTypeFlat',
+'media' => '\Shopware6SDK\Model\MailTemplateMediaFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -589,7 +589,7 @@ class MailTemplateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\MailTemplateSalesChannelFlat
+     * @return \Shopware6SDK\Model\MailTemplateSalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -599,7 +599,7 @@ class MailTemplateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\MailTemplateSalesChannelFlat $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\MailTemplateSalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */
@@ -613,7 +613,7 @@ class MailTemplateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets mail_template_type
      *
-     * @return \ShopwareSDK6\Model\MailTemplateTypeFlat
+     * @return \Shopware6SDK\Model\MailTemplateTypeFlat
      */
     public function getMailTemplateType()
     {
@@ -623,7 +623,7 @@ class MailTemplateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets mail_template_type
      *
-     * @param \ShopwareSDK6\Model\MailTemplateTypeFlat $mail_template_type mail_template_type
+     * @param \Shopware6SDK\Model\MailTemplateTypeFlat $mail_template_type mail_template_type
      *
      * @return $this
      */
@@ -637,7 +637,7 @@ class MailTemplateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MailTemplateMediaFlat
+     * @return \Shopware6SDK\Model\MailTemplateMediaFlat
      */
     public function getMedia()
     {
@@ -647,7 +647,7 @@ class MailTemplateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MailTemplateMediaFlat $media media
+     * @param \Shopware6SDK\Model\MailTemplateMediaFlat $media media
      *
      * @return $this
      */

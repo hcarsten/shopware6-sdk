@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductRelationshipsSearchKeywords Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductRelationshipsSearchKeywords implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\ProductRelationshipsSearchKeywordsLinks',
-'data' => '\ShopwareSDK6\Model\ProductRelationshipsSearchKeywordsData[]'    ];
+        'links' => '\Shopware6SDK\Model\ProductRelationshipsSearchKeywordsLinks',
+'data' => '\Shopware6SDK\Model\ProductRelationshipsSearchKeywordsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductRelationshipsSearchKeywords implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsSearchKeywordsLinks
+     * @return \Shopware6SDK\Model\ProductRelationshipsSearchKeywordsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class ProductRelationshipsSearchKeywords implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsSearchKeywordsLinks $links links
+     * @param \Shopware6SDK\Model\ProductRelationshipsSearchKeywordsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductRelationshipsSearchKeywords implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\ProductRelationshipsSearchKeywordsData[]
+     * @return \Shopware6SDK\Model\ProductRelationshipsSearchKeywordsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class ProductRelationshipsSearchKeywords implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\ProductRelationshipsSearchKeywordsData[] $data data
+     * @param \Shopware6SDK\Model\ProductRelationshipsSearchKeywordsData[] $data data
      *
      * @return $this
      */

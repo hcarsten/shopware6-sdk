@@ -1,4 +1,4 @@
-# ShopwareSDK6\CustomFieldSetRelationApi
+# Shopware6SDK\CustomFieldSetRelationApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCustomFieldSetRelation**](CustomFieldSetRelationApi.md#updatecustomfieldsetrelation) | **PATCH** /custom-field-set-relation/{id} | Partially update information about a Custom Field Set Relation resource
 
 # **createCustomFieldSetRelation**
-> \ShopwareSDK6\Model\InlineResponse20039 createCustomFieldSetRelation($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20039 createCustomFieldSetRelation($body, $_response)
 
 Create a new Custom Field Set Relation resources
 
@@ -22,12 +22,12 @@ Create a new Custom Field Set Relation resources. All required fields must be pr
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CustomFieldSetRelationApi(
+$apiInstance = new Shopware6SDK\Api\CustomFieldSetRelationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body24(); // \ShopwareSDK6\Model\Body24 | 
+$body = new \Shopware6SDK\Model\Body24(); // \Shopware6SDK\Model\Body24 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body24**](../Model/Body24.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body24**](../Model/Body24.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
+[**\Shopware6SDK\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCustomFieldSetRelation**
-> \ShopwareSDK6\Model\InlineResponse20039 createCustomFieldSetRelation($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20039 createCustomFieldSetRelation($body, $_response)
 
 Create a new Custom Field Set Relation resources
 
@@ -73,12 +73,12 @@ Create a new Custom Field Set Relation resources. All required fields must be pr
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CustomFieldSetRelationApi(
+$apiInstance = new Shopware6SDK\Api\CustomFieldSetRelationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\CustomFieldSetRelationFlat(); // \ShopwareSDK6\Model\CustomFieldSetRelationFlat | 
+$body = new \Shopware6SDK\Model\CustomFieldSetRelationFlat(); // \Shopware6SDK\Model\CustomFieldSetRelationFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\CustomFieldSetRelationFlat**](../Model/CustomFieldSetRelationFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\CustomFieldSetRelationFlat**](../Model/CustomFieldSetRelationFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
+[**\Shopware6SDK\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Custom Field Set Relation resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CustomFieldSetRelationApi(
+$apiInstance = new Shopware6SDK\Api\CustomFieldSetRelationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCustomFieldSetRelation**
-> \ShopwareSDK6\Model\InlineResponse20039 getCustomFieldSetRelation($id)
+> \Shopware6SDK\Model\InlineResponse20039 getCustomFieldSetRelation($id)
 
 Detailed information about a Custom Field Set Relation resource
 
@@ -170,7 +170,7 @@ Detailed information about a Custom Field Set Relation resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CustomFieldSetRelationApi(
+$apiInstance = new Shopware6SDK\Api\CustomFieldSetRelationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
+[**\Shopware6SDK\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCustomFieldSetRelationList**
-> \ShopwareSDK6\Model\InlineResponse20037 getCustomFieldSetRelationList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse20037 getCustomFieldSetRelationList($limit, $page, $query)
 
 List with basic information of Custom Field Set Relation resources
 
@@ -217,7 +217,7 @@ List with basic information of Custom Field Set Relation resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CustomFieldSetRelationApi(
+$apiInstance = new Shopware6SDK\Api\CustomFieldSetRelationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20037**](../Model/InlineResponse20037.md)
+[**\Shopware6SDK\Model\InlineResponse20037**](../Model/InlineResponse20037.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCustomFieldSetRelation**
-> \ShopwareSDK6\Model\InlineResponse20039 updateCustomFieldSetRelation($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20039 updateCustomFieldSetRelation($id, $body, $_response)
 
 Partially update information about a Custom Field Set Relation resource
 
@@ -268,13 +268,13 @@ Partially update information about a Custom Field Set Relation resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CustomFieldSetRelationApi(
+$apiInstance = new Shopware6SDK\Api\CustomFieldSetRelationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the custom_field_set_relation
-$body = new \ShopwareSDK6\Model\Body25(); // \ShopwareSDK6\Model\Body25 | Partially update information about a Custom Field Set Relation resource.
+$body = new \Shopware6SDK\Model\Body25(); // \Shopware6SDK\Model\Body25 | Partially update information about a Custom Field Set Relation resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the custom_field_set_relation |
- **body** | [**\ShopwareSDK6\Model\Body25**](../Model/Body25.md)| Partially update information about a Custom Field Set Relation resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body25**](../Model/Body25.md)| Partially update information about a Custom Field Set Relation resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
+[**\Shopware6SDK\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCustomFieldSetRelation**
-> \ShopwareSDK6\Model\InlineResponse20039 updateCustomFieldSetRelation($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20039 updateCustomFieldSetRelation($id, $body, $_response)
 
 Partially update information about a Custom Field Set Relation resource
 
@@ -319,13 +319,13 @@ Partially update information about a Custom Field Set Relation resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CustomFieldSetRelationApi(
+$apiInstance = new Shopware6SDK\Api\CustomFieldSetRelationApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the custom_field_set_relation
-$body = new \ShopwareSDK6\Model\CustomFieldSetRelationFlat(); // \ShopwareSDK6\Model\CustomFieldSetRelationFlat | Partially update information about a Custom Field Set Relation resource.
+$body = new \Shopware6SDK\Model\CustomFieldSetRelationFlat(); // \Shopware6SDK\Model\CustomFieldSetRelationFlat | Partially update information about a Custom Field Set Relation resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the custom_field_set_relation |
- **body** | [**\ShopwareSDK6\Model\CustomFieldSetRelationFlat**](../Model/CustomFieldSetRelationFlat.md)| Partially update information about a Custom Field Set Relation resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\CustomFieldSetRelationFlat**](../Model/CustomFieldSetRelationFlat.md)| Partially update information about a Custom Field Set Relation resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
+[**\Shopware6SDK\Model\InlineResponse20039**](../Model/InlineResponse20039.md)
 
 ### Authorization
 

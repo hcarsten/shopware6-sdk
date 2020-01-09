@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CategoryRelationshipsFooterSalesChannels Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CategoryRelationshipsFooterSalesChannels implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CategoryRelationshipsFooterSalesChannelsLinks',
-'data' => '\ShopwareSDK6\Model\CategoryRelationshipsFooterSalesChannelsData[]'    ];
+        'links' => '\Shopware6SDK\Model\CategoryRelationshipsFooterSalesChannelsLinks',
+'data' => '\Shopware6SDK\Model\CategoryRelationshipsFooterSalesChannelsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CategoryRelationshipsFooterSalesChannels implements ModelInterface, ArrayA
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsFooterSalesChannelsLinks
+     * @return \Shopware6SDK\Model\CategoryRelationshipsFooterSalesChannelsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CategoryRelationshipsFooterSalesChannels implements ModelInterface, ArrayA
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsFooterSalesChannelsLinks $links links
+     * @param \Shopware6SDK\Model\CategoryRelationshipsFooterSalesChannelsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CategoryRelationshipsFooterSalesChannels implements ModelInterface, ArrayA
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsFooterSalesChannelsData[]
+     * @return \Shopware6SDK\Model\CategoryRelationshipsFooterSalesChannelsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CategoryRelationshipsFooterSalesChannels implements ModelInterface, ArrayA
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsFooterSalesChannelsData[] $data data
+     * @param \Shopware6SDK\Model\CategoryRelationshipsFooterSalesChannelsData[] $data data
      *
      * @return $this
      */

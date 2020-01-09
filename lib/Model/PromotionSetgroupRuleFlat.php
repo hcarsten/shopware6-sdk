@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionSetgroupRuleFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class PromotionSetgroupRuleFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'setgroup_id' => 'string',
 'rule_id' => 'string',
-'setgroup' => '\ShopwareSDK6\Model\PromotionSetgroupFlat',
-'rule' => '\ShopwareSDK6\Model\RuleFlat'    ];
+'setgroup' => '\Shopware6SDK\Model\PromotionSetgroupFlat',
+'rule' => '\Shopware6SDK\Model\RuleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class PromotionSetgroupRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets setgroup
      *
-     * @return \ShopwareSDK6\Model\PromotionSetgroupFlat
+     * @return \Shopware6SDK\Model\PromotionSetgroupFlat
      */
     public function getSetgroup()
     {
@@ -311,7 +311,7 @@ class PromotionSetgroupRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets setgroup
      *
-     * @param \ShopwareSDK6\Model\PromotionSetgroupFlat $setgroup setgroup
+     * @param \Shopware6SDK\Model\PromotionSetgroupFlat $setgroup setgroup
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class PromotionSetgroupRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets rule
      *
-     * @return \ShopwareSDK6\Model\RuleFlat
+     * @return \Shopware6SDK\Model\RuleFlat
      */
     public function getRule()
     {
@@ -335,7 +335,7 @@ class PromotionSetgroupRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets rule
      *
-     * @param \ShopwareSDK6\Model\RuleFlat $rule rule
+     * @param \Shopware6SDK\Model\RuleFlat $rule rule
      *
      * @return $this
      */

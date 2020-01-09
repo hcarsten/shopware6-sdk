@@ -1,4 +1,4 @@
-# ShopwareSDK6\CategoryApi
+# Shopware6SDK\CategoryApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCategory**](CategoryApi.md#updatecategory) | **PATCH** /category/{id} | Partially update information about a Category resource
 
 # **createCategory**
-> \ShopwareSDK6\Model\InlineResponse2009 createCategory($body, $_response)
+> \Shopware6SDK\Model\InlineResponse2009 createCategory($body, $_response)
 
 Create a new Category resources
 
@@ -22,12 +22,12 @@ Create a new Category resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CategoryApi(
+$apiInstance = new Shopware6SDK\Api\CategoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body4(); // \ShopwareSDK6\Model\Body4 | 
+$body = new \Shopware6SDK\Model\Body4(); // \Shopware6SDK\Model\Body4 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body4**](../Model/Body4.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body4**](../Model/Body4.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
+[**\Shopware6SDK\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCategory**
-> \ShopwareSDK6\Model\InlineResponse2009 createCategory($body, $_response)
+> \Shopware6SDK\Model\InlineResponse2009 createCategory($body, $_response)
 
 Create a new Category resources
 
@@ -73,12 +73,12 @@ Create a new Category resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CategoryApi(
+$apiInstance = new Shopware6SDK\Api\CategoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\CategoryFlat(); // \ShopwareSDK6\Model\CategoryFlat | 
+$body = new \Shopware6SDK\Model\CategoryFlat(); // \Shopware6SDK\Model\CategoryFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\CategoryFlat**](../Model/CategoryFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\CategoryFlat**](../Model/CategoryFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
+[**\Shopware6SDK\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Category resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CategoryApi(
+$apiInstance = new Shopware6SDK\Api\CategoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCategory**
-> \ShopwareSDK6\Model\InlineResponse2009 getCategory($id)
+> \Shopware6SDK\Model\InlineResponse2009 getCategory($id)
 
 Detailed information about a Category resource
 
@@ -170,7 +170,7 @@ Detailed information about a Category resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CategoryApi(
+$apiInstance = new Shopware6SDK\Api\CategoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
+[**\Shopware6SDK\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCategoryList**
-> \ShopwareSDK6\Model\InlineResponse2007 getCategoryList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse2007 getCategoryList($limit, $page, $query)
 
 List with basic information of Category resources
 
@@ -217,7 +217,7 @@ List with basic information of Category resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CategoryApi(
+$apiInstance = new Shopware6SDK\Api\CategoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2007**](../Model/InlineResponse2007.md)
+[**\Shopware6SDK\Model\InlineResponse2007**](../Model/InlineResponse2007.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCategory**
-> \ShopwareSDK6\Model\InlineResponse2009 updateCategory($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse2009 updateCategory($id, $body, $_response)
 
 Partially update information about a Category resource
 
@@ -268,13 +268,13 @@ Partially update information about a Category resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CategoryApi(
+$apiInstance = new Shopware6SDK\Api\CategoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the category
-$body = new \ShopwareSDK6\Model\Body5(); // \ShopwareSDK6\Model\Body5 | Partially update information about a Category resource.
+$body = new \Shopware6SDK\Model\Body5(); // \Shopware6SDK\Model\Body5 | Partially update information about a Category resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the category |
- **body** | [**\ShopwareSDK6\Model\Body5**](../Model/Body5.md)| Partially update information about a Category resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body5**](../Model/Body5.md)| Partially update information about a Category resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
+[**\Shopware6SDK\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCategory**
-> \ShopwareSDK6\Model\InlineResponse2009 updateCategory($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse2009 updateCategory($id, $body, $_response)
 
 Partially update information about a Category resource
 
@@ -319,13 +319,13 @@ Partially update information about a Category resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CategoryApi(
+$apiInstance = new Shopware6SDK\Api\CategoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the category
-$body = new \ShopwareSDK6\Model\CategoryFlat(); // \ShopwareSDK6\Model\CategoryFlat | Partially update information about a Category resource.
+$body = new \Shopware6SDK\Model\CategoryFlat(); // \Shopware6SDK\Model\CategoryFlat | Partially update information about a Category resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the category |
- **body** | [**\ShopwareSDK6\Model\CategoryFlat**](../Model/CategoryFlat.md)| Partially update information about a Category resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\CategoryFlat**](../Model/CategoryFlat.md)| Partially update information about a Category resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
+[**\Shopware6SDK\Model\InlineResponse2009**](../Model/InlineResponse2009.md)
 
 ### Authorization
 

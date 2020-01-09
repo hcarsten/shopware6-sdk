@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * DocumentBaseConfigSalesChannelRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'document_type' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType',
-'document_base_config' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig',
-'sales_channel' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel'    ];
+        'document_type' => '\Shopware6SDK\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType',
+'document_base_config' => '\Shopware6SDK\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig',
+'sales_channel' => '\Shopware6SDK\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Gets document_type
      *
-     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType
+     * @return \Shopware6SDK\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType
      */
     public function getDocumentType()
     {
@@ -221,7 +221,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Sets document_type
      *
-     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType $document_type document_type
+     * @param \Shopware6SDK\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentType $document_type document_type
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Gets document_base_config
      *
-     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig
+     * @return \Shopware6SDK\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig
      */
     public function getDocumentBaseConfig()
     {
@@ -245,7 +245,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Sets document_base_config
      *
-     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig $document_base_config document_base_config
+     * @param \Shopware6SDK\Model\DocumentBaseConfigSalesChannelRelationshipsDocumentBaseConfig $document_base_config document_base_config
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel
+     * @return \Shopware6SDK\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -269,7 +269,7 @@ class DocumentBaseConfigSalesChannelRelationships implements ModelInterface, Arr
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\DocumentBaseConfigSalesChannelRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CategoryFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -84,18 +84,18 @@ class CategoryFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'parent' => '\ShopwareSDK6\Model\CategoryFlat',
-'children' => '\ShopwareSDK6\Model\CategoryFlat',
-'media' => '\ShopwareSDK6\Model\MediaFlat',
-'products' => '\ShopwareSDK6\Model\ProductFlat',
-'nested_products' => '\ShopwareSDK6\Model\ProductFlat',
-'tags' => '\ShopwareSDK6\Model\TagFlat',
-'cms_page' => '\ShopwareSDK6\Model\CmsPageFlat',
-'navigation_sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'footer_sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'service_sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'main_categories' => '\ShopwareSDK6\Model\MainCategoryFlat',
-'seo_urls' => '\ShopwareSDK6\Model\SeoUrlFlat'    ];
+'parent' => '\Shopware6SDK\Model\CategoryFlat',
+'children' => '\Shopware6SDK\Model\CategoryFlat',
+'media' => '\Shopware6SDK\Model\MediaFlat',
+'products' => '\Shopware6SDK\Model\ProductFlat',
+'nested_products' => '\Shopware6SDK\Model\ProductFlat',
+'tags' => '\Shopware6SDK\Model\TagFlat',
+'cms_page' => '\Shopware6SDK\Model\CmsPageFlat',
+'navigation_sales_channels' => '\Shopware6SDK\Model\SalesChannelFlat',
+'footer_sales_channels' => '\Shopware6SDK\Model\SalesChannelFlat',
+'service_sales_channels' => '\Shopware6SDK\Model\SalesChannelFlat',
+'main_categories' => '\Shopware6SDK\Model\MainCategoryFlat',
+'seo_urls' => '\Shopware6SDK\Model\SeoUrlFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -1120,7 +1120,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \ShopwareSDK6\Model\CategoryFlat
+     * @return \Shopware6SDK\Model\CategoryFlat
      */
     public function getParent()
     {
@@ -1130,7 +1130,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \ShopwareSDK6\Model\CategoryFlat $parent parent
+     * @param \Shopware6SDK\Model\CategoryFlat $parent parent
      *
      * @return $this
      */
@@ -1144,7 +1144,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \ShopwareSDK6\Model\CategoryFlat
+     * @return \Shopware6SDK\Model\CategoryFlat
      */
     public function getChildren()
     {
@@ -1154,7 +1154,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \ShopwareSDK6\Model\CategoryFlat $children children
+     * @param \Shopware6SDK\Model\CategoryFlat $children children
      *
      * @return $this
      */
@@ -1168,7 +1168,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -1178,7 +1178,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $media media
+     * @param \Shopware6SDK\Model\MediaFlat $media media
      *
      * @return $this
      */
@@ -1192,7 +1192,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProducts()
     {
@@ -1202,7 +1202,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $products products
+     * @param \Shopware6SDK\Model\ProductFlat $products products
      *
      * @return $this
      */
@@ -1216,7 +1216,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets nested_products
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getNestedProducts()
     {
@@ -1226,7 +1226,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets nested_products
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $nested_products nested_products
+     * @param \Shopware6SDK\Model\ProductFlat $nested_products nested_products
      *
      * @return $this
      */
@@ -1240,7 +1240,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \ShopwareSDK6\Model\TagFlat
+     * @return \Shopware6SDK\Model\TagFlat
      */
     public function getTags()
     {
@@ -1250,7 +1250,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \ShopwareSDK6\Model\TagFlat $tags tags
+     * @param \Shopware6SDK\Model\TagFlat $tags tags
      *
      * @return $this
      */
@@ -1264,7 +1264,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets cms_page
      *
-     * @return \ShopwareSDK6\Model\CmsPageFlat
+     * @return \Shopware6SDK\Model\CmsPageFlat
      */
     public function getCmsPage()
     {
@@ -1274,7 +1274,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets cms_page
      *
-     * @param \ShopwareSDK6\Model\CmsPageFlat $cms_page cms_page
+     * @param \Shopware6SDK\Model\CmsPageFlat $cms_page cms_page
      *
      * @return $this
      */
@@ -1288,7 +1288,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets navigation_sales_channels
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getNavigationSalesChannels()
     {
@@ -1298,7 +1298,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets navigation_sales_channels
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $navigation_sales_channels navigation_sales_channels
+     * @param \Shopware6SDK\Model\SalesChannelFlat $navigation_sales_channels navigation_sales_channels
      *
      * @return $this
      */
@@ -1312,7 +1312,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets footer_sales_channels
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getFooterSalesChannels()
     {
@@ -1322,7 +1322,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets footer_sales_channels
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $footer_sales_channels footer_sales_channels
+     * @param \Shopware6SDK\Model\SalesChannelFlat $footer_sales_channels footer_sales_channels
      *
      * @return $this
      */
@@ -1336,7 +1336,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets service_sales_channels
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getServiceSalesChannels()
     {
@@ -1346,7 +1346,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets service_sales_channels
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $service_sales_channels service_sales_channels
+     * @param \Shopware6SDK\Model\SalesChannelFlat $service_sales_channels service_sales_channels
      *
      * @return $this
      */
@@ -1360,7 +1360,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets main_categories
      *
-     * @return \ShopwareSDK6\Model\MainCategoryFlat
+     * @return \Shopware6SDK\Model\MainCategoryFlat
      */
     public function getMainCategories()
     {
@@ -1370,7 +1370,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets main_categories
      *
-     * @param \ShopwareSDK6\Model\MainCategoryFlat $main_categories main_categories
+     * @param \Shopware6SDK\Model\MainCategoryFlat $main_categories main_categories
      *
      * @return $this
      */
@@ -1384,7 +1384,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets seo_urls
      *
-     * @return \ShopwareSDK6\Model\SeoUrlFlat
+     * @return \Shopware6SDK\Model\SeoUrlFlat
      */
     public function getSeoUrls()
     {
@@ -1394,7 +1394,7 @@ class CategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets seo_urls
      *
-     * @param \ShopwareSDK6\Model\SeoUrlFlat $seo_urls seo_urls
+     * @param \Shopware6SDK\Model\SeoUrlFlat $seo_urls seo_urls
      *
      * @return $this
      */

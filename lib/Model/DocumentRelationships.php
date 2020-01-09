@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * DocumentRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,11 +56,11 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'document_type' => '\ShopwareSDK6\Model\DocumentRelationshipsDocumentType',
-'order' => '\ShopwareSDK6\Model\DocumentRelationshipsOrder',
-'referenced_document' => '\ShopwareSDK6\Model\DocumentRelationshipsReferencedDocument',
-'dependent_documents' => '\ShopwareSDK6\Model\DocumentRelationshipsDependentDocuments',
-'document_media_file' => '\ShopwareSDK6\Model\DocumentRelationshipsDocumentMediaFile'    ];
+        'document_type' => '\Shopware6SDK\Model\DocumentRelationshipsDocumentType',
+'order' => '\Shopware6SDK\Model\DocumentRelationshipsOrder',
+'referenced_document' => '\Shopware6SDK\Model\DocumentRelationshipsReferencedDocument',
+'dependent_documents' => '\Shopware6SDK\Model\DocumentRelationshipsDependentDocuments',
+'document_media_file' => '\Shopware6SDK\Model\DocumentRelationshipsDocumentMediaFile'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -223,7 +223,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets document_type
      *
-     * @return \ShopwareSDK6\Model\DocumentRelationshipsDocumentType
+     * @return \Shopware6SDK\Model\DocumentRelationshipsDocumentType
      */
     public function getDocumentType()
     {
@@ -233,7 +233,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets document_type
      *
-     * @param \ShopwareSDK6\Model\DocumentRelationshipsDocumentType $document_type document_type
+     * @param \Shopware6SDK\Model\DocumentRelationshipsDocumentType $document_type document_type
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \ShopwareSDK6\Model\DocumentRelationshipsOrder
+     * @return \Shopware6SDK\Model\DocumentRelationshipsOrder
      */
     public function getOrder()
     {
@@ -257,7 +257,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \ShopwareSDK6\Model\DocumentRelationshipsOrder $order order
+     * @param \Shopware6SDK\Model\DocumentRelationshipsOrder $order order
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets referenced_document
      *
-     * @return \ShopwareSDK6\Model\DocumentRelationshipsReferencedDocument
+     * @return \Shopware6SDK\Model\DocumentRelationshipsReferencedDocument
      */
     public function getReferencedDocument()
     {
@@ -281,7 +281,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets referenced_document
      *
-     * @param \ShopwareSDK6\Model\DocumentRelationshipsReferencedDocument $referenced_document referenced_document
+     * @param \Shopware6SDK\Model\DocumentRelationshipsReferencedDocument $referenced_document referenced_document
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets dependent_documents
      *
-     * @return \ShopwareSDK6\Model\DocumentRelationshipsDependentDocuments
+     * @return \Shopware6SDK\Model\DocumentRelationshipsDependentDocuments
      */
     public function getDependentDocuments()
     {
@@ -305,7 +305,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets dependent_documents
      *
-     * @param \ShopwareSDK6\Model\DocumentRelationshipsDependentDocuments $dependent_documents dependent_documents
+     * @param \Shopware6SDK\Model\DocumentRelationshipsDependentDocuments $dependent_documents dependent_documents
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets document_media_file
      *
-     * @return \ShopwareSDK6\Model\DocumentRelationshipsDocumentMediaFile
+     * @return \Shopware6SDK\Model\DocumentRelationshipsDocumentMediaFile
      */
     public function getDocumentMediaFile()
     {
@@ -329,7 +329,7 @@ class DocumentRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets document_media_file
      *
-     * @param \ShopwareSDK6\Model\DocumentRelationshipsDocumentMediaFile $document_media_file document_media_file
+     * @param \Shopware6SDK\Model\DocumentRelationshipsDocumentMediaFile $document_media_file document_media_file
      *
      * @return $this
      */

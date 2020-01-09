@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**customer** | [**\ShopwareSDK6\Model\CustomerRecoveryRelationshipsCustomer**](CustomerRecoveryRelationshipsCustomer.md) |  | [optional] 
+**customer** | [**\Shopware6SDK\Model\CustomerRecoveryRelationshipsCustomer**](CustomerRecoveryRelationshipsCustomer.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

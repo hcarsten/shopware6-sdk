@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * NewsletterRecipientFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -73,10 +73,10 @@ class NewsletterRecipientFlat implements ModelInterface, ArrayAccess
 'sales_channel_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'tags' => '\ShopwareSDK6\Model\TagFlat',
-'salutation' => '\ShopwareSDK6\Model\SalutationFlat',
-'language' => '\ShopwareSDK6\Model\LanguageFlat',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
+'tags' => '\Shopware6SDK\Model\TagFlat',
+'salutation' => '\Shopware6SDK\Model\SalutationFlat',
+'language' => '\Shopware6SDK\Model\LanguageFlat',
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -748,7 +748,7 @@ class NewsletterRecipientFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \ShopwareSDK6\Model\TagFlat
+     * @return \Shopware6SDK\Model\TagFlat
      */
     public function getTags()
     {
@@ -758,7 +758,7 @@ class NewsletterRecipientFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \ShopwareSDK6\Model\TagFlat $tags tags
+     * @param \Shopware6SDK\Model\TagFlat $tags tags
      *
      * @return $this
      */
@@ -772,7 +772,7 @@ class NewsletterRecipientFlat implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \ShopwareSDK6\Model\SalutationFlat
+     * @return \Shopware6SDK\Model\SalutationFlat
      */
     public function getSalutation()
     {
@@ -782,7 +782,7 @@ class NewsletterRecipientFlat implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \ShopwareSDK6\Model\SalutationFlat $salutation salutation
+     * @param \Shopware6SDK\Model\SalutationFlat $salutation salutation
      *
      * @return $this
      */
@@ -796,7 +796,7 @@ class NewsletterRecipientFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \ShopwareSDK6\Model\LanguageFlat
+     * @return \Shopware6SDK\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -806,7 +806,7 @@ class NewsletterRecipientFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \ShopwareSDK6\Model\LanguageFlat $language language
+     * @param \Shopware6SDK\Model\LanguageFlat $language language
      *
      * @return $this
      */
@@ -820,7 +820,7 @@ class NewsletterRecipientFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -830,7 +830,7 @@ class NewsletterRecipientFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */

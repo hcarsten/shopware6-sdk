@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Locale Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Locale extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\LocaleAttributes',
-'links' => '\ShopwareSDK6\Model\LocaleLinks',
-'relationships' => '\ShopwareSDK6\Model\LocaleRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\LocaleAttributes',
+'links' => '\Shopware6SDK\Model\LocaleLinks',
+'relationships' => '\Shopware6SDK\Model\LocaleRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Locale extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\LocaleAttributes
+     * @return \Shopware6SDK\Model\LocaleAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Locale extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\LocaleAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\LocaleAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Locale extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\LocaleLinks
+     * @return \Shopware6SDK\Model\LocaleLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Locale extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\LocaleLinks $links links
+     * @param \Shopware6SDK\Model\LocaleLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Locale extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\LocaleRelationships
+     * @return \Shopware6SDK\Model\LocaleRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Locale extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\LocaleRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\LocaleRelationships $relationships relationships
      *
      * @return $this
      */

@@ -1,4 +1,4 @@
-# ShopwareSDK6\ProductApi
+# Shopware6SDK\ProductApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProduct**](ProductApi.md#updateproduct) | **PATCH** /product/{id} | Partially update information about a Product resource
 
 # **createProduct**
-> \ShopwareSDK6\Model\InlineResponse200174 createProduct($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200174 createProduct($body, $_response)
 
 Create a new Product resources
 
@@ -22,12 +22,12 @@ Create a new Product resources. All required fields must be provided in order to
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductApi(
+$apiInstance = new Shopware6SDK\Api\ProductApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body114(); // \ShopwareSDK6\Model\Body114 | 
+$body = new \Shopware6SDK\Model\Body114(); // \Shopware6SDK\Model\Body114 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body114**](../Model/Body114.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body114**](../Model/Body114.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
+[**\Shopware6SDK\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProduct**
-> \ShopwareSDK6\Model\InlineResponse200174 createProduct($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200174 createProduct($body, $_response)
 
 Create a new Product resources
 
@@ -73,12 +73,12 @@ Create a new Product resources. All required fields must be provided in order to
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductApi(
+$apiInstance = new Shopware6SDK\Api\ProductApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\ProductFlat(); // \ShopwareSDK6\Model\ProductFlat | 
+$body = new \Shopware6SDK\Model\ProductFlat(); // \Shopware6SDK\Model\ProductFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\ProductFlat**](../Model/ProductFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductFlat**](../Model/ProductFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
+[**\Shopware6SDK\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductApi(
+$apiInstance = new Shopware6SDK\Api\ProductApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProduct**
-> \ShopwareSDK6\Model\InlineResponse200174 getProduct($id)
+> \Shopware6SDK\Model\InlineResponse200174 getProduct($id)
 
 Detailed information about a Product resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductApi(
+$apiInstance = new Shopware6SDK\Api\ProductApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
+[**\Shopware6SDK\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductList**
-> \ShopwareSDK6\Model\InlineResponse200172 getProductList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200172 getProductList($limit, $page, $query)
 
 List with basic information of Product resources
 
@@ -217,7 +217,7 @@ List with basic information of Product resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductApi(
+$apiInstance = new Shopware6SDK\Api\ProductApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200172**](../Model/InlineResponse200172.md)
+[**\Shopware6SDK\Model\InlineResponse200172**](../Model/InlineResponse200172.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProduct**
-> \ShopwareSDK6\Model\InlineResponse200174 updateProduct($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200174 updateProduct($id, $body, $_response)
 
 Partially update information about a Product resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductApi(
+$apiInstance = new Shopware6SDK\Api\ProductApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product
-$body = new \ShopwareSDK6\Model\Body115(); // \ShopwareSDK6\Model\Body115 | Partially update information about a Product resource.
+$body = new \Shopware6SDK\Model\Body115(); // \Shopware6SDK\Model\Body115 | Partially update information about a Product resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product |
- **body** | [**\ShopwareSDK6\Model\Body115**](../Model/Body115.md)| Partially update information about a Product resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body115**](../Model/Body115.md)| Partially update information about a Product resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
+[**\Shopware6SDK\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProduct**
-> \ShopwareSDK6\Model\InlineResponse200174 updateProduct($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200174 updateProduct($id, $body, $_response)
 
 Partially update information about a Product resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductApi(
+$apiInstance = new Shopware6SDK\Api\ProductApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product
-$body = new \ShopwareSDK6\Model\ProductFlat(); // \ShopwareSDK6\Model\ProductFlat | Partially update information about a Product resource.
+$body = new \Shopware6SDK\Model\ProductFlat(); // \Shopware6SDK\Model\ProductFlat | Partially update information about a Product resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product |
- **body** | [**\ShopwareSDK6\Model\ProductFlat**](../Model/ProductFlat.md)| Partially update information about a Product resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductFlat**](../Model/ProductFlat.md)| Partially update information about a Product resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
+[**\Shopware6SDK\Model\InlineResponse200174**](../Model/InlineResponse200174.md)
 
 ### Authorization
 

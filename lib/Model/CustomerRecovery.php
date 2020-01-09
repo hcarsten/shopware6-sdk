@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CustomerRecovery Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CustomerRecovery extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\CustomerRecoveryAttributes',
-'links' => '\ShopwareSDK6\Model\CustomerRecoveryLinks',
-'relationships' => '\ShopwareSDK6\Model\CustomerRecoveryRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\CustomerRecoveryAttributes',
+'links' => '\Shopware6SDK\Model\CustomerRecoveryLinks',
+'relationships' => '\Shopware6SDK\Model\CustomerRecoveryRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CustomerRecovery extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\CustomerRecoveryAttributes
+     * @return \Shopware6SDK\Model\CustomerRecoveryAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CustomerRecovery extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\CustomerRecoveryAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\CustomerRecoveryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CustomerRecovery extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CustomerRecoveryLinks
+     * @return \Shopware6SDK\Model\CustomerRecoveryLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CustomerRecovery extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CustomerRecoveryLinks $links links
+     * @param \Shopware6SDK\Model\CustomerRecoveryLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CustomerRecovery extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\CustomerRecoveryRelationships
+     * @return \Shopware6SDK\Model\CustomerRecoveryRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CustomerRecovery extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\CustomerRecoveryRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\CustomerRecoveryRelationships $relationships relationships
      *
      * @return $this
      */

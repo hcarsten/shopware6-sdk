@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductCrossSellingFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -69,8 +69,8 @@ class ProductCrossSellingFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'product' => '\ShopwareSDK6\Model\ProductFlat',
-'product_stream' => '\ShopwareSDK6\Model\ProductStreamFlat'    ];
+'product' => '\Shopware6SDK\Model\ProductFlat',
+'product_stream' => '\Shopware6SDK\Model\ProductStreamFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -610,7 +610,7 @@ class ProductCrossSellingFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -620,7 +620,7 @@ class ProductCrossSellingFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $product product
+     * @param \Shopware6SDK\Model\ProductFlat $product product
      *
      * @return $this
      */
@@ -634,7 +634,7 @@ class ProductCrossSellingFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_stream
      *
-     * @return \ShopwareSDK6\Model\ProductStreamFlat
+     * @return \Shopware6SDK\Model\ProductStreamFlat
      */
     public function getProductStream()
     {
@@ -644,7 +644,7 @@ class ProductCrossSellingFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_stream
      *
-     * @param \ShopwareSDK6\Model\ProductStreamFlat $product_stream product_stream
+     * @param \Shopware6SDK\Model\ProductStreamFlat $product_stream product_stream
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CmsSectionFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -71,9 +71,9 @@ class CmsSectionFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'page' => '\ShopwareSDK6\Model\CmsPageFlat',
-'background_media' => '\ShopwareSDK6\Model\MediaFlat',
-'blocks' => '\ShopwareSDK6\Model\CmsBlockFlat'    ];
+'page' => '\Shopware6SDK\Model\CmsPageFlat',
+'background_media' => '\Shopware6SDK\Model\MediaFlat',
+'blocks' => '\Shopware6SDK\Model\CmsBlockFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -676,7 +676,7 @@ class CmsSectionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets page
      *
-     * @return \ShopwareSDK6\Model\CmsPageFlat
+     * @return \Shopware6SDK\Model\CmsPageFlat
      */
     public function getPage()
     {
@@ -686,7 +686,7 @@ class CmsSectionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets page
      *
-     * @param \ShopwareSDK6\Model\CmsPageFlat $page page
+     * @param \Shopware6SDK\Model\CmsPageFlat $page page
      *
      * @return $this
      */
@@ -700,7 +700,7 @@ class CmsSectionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets background_media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getBackgroundMedia()
     {
@@ -710,7 +710,7 @@ class CmsSectionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets background_media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $background_media background_media
+     * @param \Shopware6SDK\Model\MediaFlat $background_media background_media
      *
      * @return $this
      */
@@ -724,7 +724,7 @@ class CmsSectionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets blocks
      *
-     * @return \ShopwareSDK6\Model\CmsBlockFlat
+     * @return \Shopware6SDK\Model\CmsBlockFlat
      */
     public function getBlocks()
     {
@@ -734,7 +734,7 @@ class CmsSectionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets blocks
      *
-     * @param \ShopwareSDK6\Model\CmsBlockFlat $blocks blocks
+     * @param \Shopware6SDK\Model\CmsBlockFlat $blocks blocks
      *
      * @return $this
      */

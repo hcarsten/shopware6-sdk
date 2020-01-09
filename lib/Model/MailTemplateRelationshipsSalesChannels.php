@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplateRelationshipsSalesChannels Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MailTemplateRelationshipsSalesChannels implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\MailTemplateRelationshipsSalesChannelsLinks',
-'data' => '\ShopwareSDK6\Model\MailTemplateRelationshipsSalesChannelsData[]'    ];
+        'links' => '\Shopware6SDK\Model\MailTemplateRelationshipsSalesChannelsLinks',
+'data' => '\Shopware6SDK\Model\MailTemplateRelationshipsSalesChannelsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MailTemplateRelationshipsSalesChannels implements ModelInterface, ArrayAcc
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MailTemplateRelationshipsSalesChannelsLinks
+     * @return \Shopware6SDK\Model\MailTemplateRelationshipsSalesChannelsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MailTemplateRelationshipsSalesChannels implements ModelInterface, ArrayAcc
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MailTemplateRelationshipsSalesChannelsLinks $links links
+     * @param \Shopware6SDK\Model\MailTemplateRelationshipsSalesChannelsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MailTemplateRelationshipsSalesChannels implements ModelInterface, ArrayAcc
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\MailTemplateRelationshipsSalesChannelsData[]
+     * @return \Shopware6SDK\Model\MailTemplateRelationshipsSalesChannelsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MailTemplateRelationshipsSalesChannels implements ModelInterface, ArrayAcc
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\MailTemplateRelationshipsSalesChannelsData[] $data data
+     * @param \Shopware6SDK\Model\MailTemplateRelationshipsSalesChannelsData[] $data data
      *
      * @return $this
      */

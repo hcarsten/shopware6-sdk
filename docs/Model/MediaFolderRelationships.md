@@ -3,11 +3,11 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**parent** | [**\ShopwareSDK6\Model\MediaFolderRelationshipsParent**](MediaFolderRelationshipsParent.md) |  | [optional] 
-**children** | [**\ShopwareSDK6\Model\MediaFolderRelationshipsChildren**](MediaFolderRelationshipsChildren.md) |  | [optional] 
-**media** | [**\ShopwareSDK6\Model\MediaFolderRelationshipsMedia**](MediaFolderRelationshipsMedia.md) |  | [optional] 
-**default_folder** | [**\ShopwareSDK6\Model\MediaFolderRelationshipsDefaultFolder**](MediaFolderRelationshipsDefaultFolder.md) |  | [optional] 
-**configuration** | [**\ShopwareSDK6\Model\MediaFolderRelationshipsConfiguration**](MediaFolderRelationshipsConfiguration.md) |  | [optional] 
+**parent** | [**\Shopware6SDK\Model\MediaFolderRelationshipsParent**](MediaFolderRelationshipsParent.md) |  | [optional] 
+**children** | [**\Shopware6SDK\Model\MediaFolderRelationshipsChildren**](MediaFolderRelationshipsChildren.md) |  | [optional] 
+**media** | [**\Shopware6SDK\Model\MediaFolderRelationshipsMedia**](MediaFolderRelationshipsMedia.md) |  | [optional] 
+**default_folder** | [**\Shopware6SDK\Model\MediaFolderRelationshipsDefaultFolder**](MediaFolderRelationshipsDefaultFolder.md) |  | [optional] 
+**configuration** | [**\Shopware6SDK\Model\MediaFolderRelationshipsConfiguration**](MediaFolderRelationshipsConfiguration.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

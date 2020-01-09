@@ -9,8 +9,8 @@ Name | Type | Description | Notes
 **active** | **bool** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**custom_fields** | [**\ShopwareSDK6\Model\CustomFieldFlat**](CustomFieldFlat.md) |  | [optional] 
-**relations** | [**\ShopwareSDK6\Model\CustomFieldSetRelationFlat**](CustomFieldSetRelationFlat.md) |  | [optional] 
+**custom_fields** | [**\Shopware6SDK\Model\CustomFieldFlat**](CustomFieldFlat.md) |  | [optional] 
+**relations** | [**\Shopware6SDK\Model\CustomFieldSetRelationFlat**](CustomFieldSetRelationFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PaymentMethodFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -69,13 +69,13 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'media' => '\ShopwareSDK6\Model\MediaFlat',
-'availability_rule' => '\ShopwareSDK6\Model\RuleFlat',
-'sales_channel_default_assignments' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'plugin' => '\ShopwareSDK6\Model\PluginFlat',
-'customers' => '\ShopwareSDK6\Model\CustomerFlat',
-'order_transactions' => '\ShopwareSDK6\Model\OrderTransactionFlat',
-'sales_channels' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
+'media' => '\Shopware6SDK\Model\MediaFlat',
+'availability_rule' => '\Shopware6SDK\Model\RuleFlat',
+'sales_channel_default_assignments' => '\Shopware6SDK\Model\SalesChannelFlat',
+'plugin' => '\Shopware6SDK\Model\PluginFlat',
+'customers' => '\Shopware6SDK\Model\CustomerFlat',
+'order_transactions' => '\Shopware6SDK\Model\OrderTransactionFlat',
+'sales_channels' => '\Shopware6SDK\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -634,7 +634,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -644,7 +644,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $media media
+     * @param \Shopware6SDK\Model\MediaFlat $media media
      *
      * @return $this
      */
@@ -658,7 +658,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets availability_rule
      *
-     * @return \ShopwareSDK6\Model\RuleFlat
+     * @return \Shopware6SDK\Model\RuleFlat
      */
     public function getAvailabilityRule()
     {
@@ -668,7 +668,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets availability_rule
      *
-     * @param \ShopwareSDK6\Model\RuleFlat $availability_rule availability_rule
+     * @param \Shopware6SDK\Model\RuleFlat $availability_rule availability_rule
      *
      * @return $this
      */
@@ -682,7 +682,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -692,7 +692,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */
@@ -706,7 +706,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets plugin
      *
-     * @return \ShopwareSDK6\Model\PluginFlat
+     * @return \Shopware6SDK\Model\PluginFlat
      */
     public function getPlugin()
     {
@@ -716,7 +716,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets plugin
      *
-     * @param \ShopwareSDK6\Model\PluginFlat $plugin plugin
+     * @param \Shopware6SDK\Model\PluginFlat $plugin plugin
      *
      * @return $this
      */
@@ -730,7 +730,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \ShopwareSDK6\Model\CustomerFlat
+     * @return \Shopware6SDK\Model\CustomerFlat
      */
     public function getCustomers()
     {
@@ -740,7 +740,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \ShopwareSDK6\Model\CustomerFlat $customers customers
+     * @param \Shopware6SDK\Model\CustomerFlat $customers customers
      *
      * @return $this
      */
@@ -754,7 +754,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_transactions
      *
-     * @return \ShopwareSDK6\Model\OrderTransactionFlat
+     * @return \Shopware6SDK\Model\OrderTransactionFlat
      */
     public function getOrderTransactions()
     {
@@ -764,7 +764,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_transactions
      *
-     * @param \ShopwareSDK6\Model\OrderTransactionFlat $order_transactions order_transactions
+     * @param \Shopware6SDK\Model\OrderTransactionFlat $order_transactions order_transactions
      *
      * @return $this
      */
@@ -778,7 +778,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -788,7 +788,7 @@ class PaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */

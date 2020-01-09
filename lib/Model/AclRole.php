@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * AclRole Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class AclRole extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\AclRoleAttributes',
-'links' => '\ShopwareSDK6\Model\AclRoleLinks',
-'relationships' => '\ShopwareSDK6\Model\AclRoleRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\AclRoleAttributes',
+'links' => '\Shopware6SDK\Model\AclRoleLinks',
+'relationships' => '\Shopware6SDK\Model\AclRoleRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class AclRole extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\AclRoleAttributes
+     * @return \Shopware6SDK\Model\AclRoleAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class AclRole extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\AclRoleAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\AclRoleAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class AclRole extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\AclRoleLinks
+     * @return \Shopware6SDK\Model\AclRoleLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class AclRole extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\AclRoleLinks $links links
+     * @param \Shopware6SDK\Model\AclRoleLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class AclRole extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\AclRoleRelationships
+     * @return \Shopware6SDK\Model\AclRoleRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class AclRole extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\AclRoleRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\AclRoleRelationships $relationships relationships
      *
      * @return $this
      */

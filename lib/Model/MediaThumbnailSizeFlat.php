@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaThumbnailSizeFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,7 +62,7 @@ class MediaThumbnailSizeFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'media_folder_configurations' => '\ShopwareSDK6\Model\MediaFolderConfigurationFlat'    ];
+'media_folder_configurations' => '\Shopware6SDK\Model\MediaFolderConfigurationFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -391,7 +391,7 @@ class MediaThumbnailSizeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media_folder_configurations
      *
-     * @return \ShopwareSDK6\Model\MediaFolderConfigurationFlat
+     * @return \Shopware6SDK\Model\MediaFolderConfigurationFlat
      */
     public function getMediaFolderConfigurations()
     {
@@ -401,7 +401,7 @@ class MediaThumbnailSizeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media_folder_configurations
      *
-     * @param \ShopwareSDK6\Model\MediaFolderConfigurationFlat $media_folder_configurations media_folder_configurations
+     * @param \Shopware6SDK\Model\MediaFolderConfigurationFlat $media_folder_configurations media_folder_configurations
      *
      * @return $this
      */

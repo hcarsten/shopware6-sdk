@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderAddressFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -78,11 +78,11 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'country' => '\ShopwareSDK6\Model\CountryFlat',
-'country_state' => '\ShopwareSDK6\Model\CountryStateFlat',
-'order' => '\ShopwareSDK6\Model\OrderFlat',
-'salutation' => '\ShopwareSDK6\Model\SalutationFlat',
-'order_deliveries' => '\ShopwareSDK6\Model\OrderDeliveryFlat'    ];
+'country' => '\Shopware6SDK\Model\CountryFlat',
+'country_state' => '\Shopware6SDK\Model\CountryStateFlat',
+'order' => '\Shopware6SDK\Model\OrderFlat',
+'salutation' => '\Shopware6SDK\Model\SalutationFlat',
+'order_deliveries' => '\Shopware6SDK\Model\OrderDeliveryFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -913,7 +913,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \ShopwareSDK6\Model\CountryFlat
+     * @return \Shopware6SDK\Model\CountryFlat
      */
     public function getCountry()
     {
@@ -923,7 +923,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \ShopwareSDK6\Model\CountryFlat $country country
+     * @param \Shopware6SDK\Model\CountryFlat $country country
      *
      * @return $this
      */
@@ -937,7 +937,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Gets country_state
      *
-     * @return \ShopwareSDK6\Model\CountryStateFlat
+     * @return \Shopware6SDK\Model\CountryStateFlat
      */
     public function getCountryState()
     {
@@ -947,7 +947,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Sets country_state
      *
-     * @param \ShopwareSDK6\Model\CountryStateFlat $country_state country_state
+     * @param \Shopware6SDK\Model\CountryStateFlat $country_state country_state
      *
      * @return $this
      */
@@ -961,7 +961,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \ShopwareSDK6\Model\OrderFlat
+     * @return \Shopware6SDK\Model\OrderFlat
      */
     public function getOrder()
     {
@@ -971,7 +971,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \ShopwareSDK6\Model\OrderFlat $order order
+     * @param \Shopware6SDK\Model\OrderFlat $order order
      *
      * @return $this
      */
@@ -985,7 +985,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \ShopwareSDK6\Model\SalutationFlat
+     * @return \Shopware6SDK\Model\SalutationFlat
      */
     public function getSalutation()
     {
@@ -995,7 +995,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \ShopwareSDK6\Model\SalutationFlat $salutation salutation
+     * @param \Shopware6SDK\Model\SalutationFlat $salutation salutation
      *
      * @return $this
      */
@@ -1009,7 +1009,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_deliveries
      *
-     * @return \ShopwareSDK6\Model\OrderDeliveryFlat
+     * @return \Shopware6SDK\Model\OrderDeliveryFlat
      */
     public function getOrderDeliveries()
     {
@@ -1019,7 +1019,7 @@ class OrderAddressFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_deliveries
      *
-     * @param \ShopwareSDK6\Model\OrderDeliveryFlat $order_deliveries order_deliveries
+     * @param \Shopware6SDK\Model\OrderDeliveryFlat $order_deliveries order_deliveries
      *
      * @return $this
      */

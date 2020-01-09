@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PropertyGroupFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,7 +65,7 @@ class PropertyGroupFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'options' => '\ShopwareSDK6\Model\PropertyGroupOptionFlat'    ];
+'options' => '\Shopware6SDK\Model\PropertyGroupOptionFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -484,7 +484,7 @@ class PropertyGroupFlat implements ModelInterface, ArrayAccess
     /**
      * Gets options
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionFlat
+     * @return \Shopware6SDK\Model\PropertyGroupOptionFlat
      */
     public function getOptions()
     {
@@ -494,7 +494,7 @@ class PropertyGroupFlat implements ModelInterface, ArrayAccess
     /**
      * Sets options
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionFlat $options options
+     * @param \Shopware6SDK\Model\PropertyGroupOptionFlat $options options
      *
      * @return $this
      */

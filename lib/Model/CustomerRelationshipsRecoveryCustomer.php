@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CustomerRelationshipsRecoveryCustomer Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CustomerRelationshipsRecoveryCustomer implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CustomerRelationshipsRecoveryCustomerLinks',
-'data' => '\ShopwareSDK6\Model\CustomerRelationshipsRecoveryCustomerData'    ];
+        'links' => '\Shopware6SDK\Model\CustomerRelationshipsRecoveryCustomerLinks',
+'data' => '\Shopware6SDK\Model\CustomerRelationshipsRecoveryCustomerData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CustomerRelationshipsRecoveryCustomer implements ModelInterface, ArrayAcce
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CustomerRelationshipsRecoveryCustomerLinks
+     * @return \Shopware6SDK\Model\CustomerRelationshipsRecoveryCustomerLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CustomerRelationshipsRecoveryCustomer implements ModelInterface, ArrayAcce
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CustomerRelationshipsRecoveryCustomerLinks $links links
+     * @param \Shopware6SDK\Model\CustomerRelationshipsRecoveryCustomerLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CustomerRelationshipsRecoveryCustomer implements ModelInterface, ArrayAcce
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CustomerRelationshipsRecoveryCustomerData
+     * @return \Shopware6SDK\Model\CustomerRelationshipsRecoveryCustomerData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CustomerRelationshipsRecoveryCustomer implements ModelInterface, ArrayAcce
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CustomerRelationshipsRecoveryCustomerData $data data
+     * @param \Shopware6SDK\Model\CustomerRelationshipsRecoveryCustomerData $data data
      *
      * @return $this
      */

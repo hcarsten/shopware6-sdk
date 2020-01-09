@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * LogEntry Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LogEntry extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\LogEntryAttributes',
-'links' => '\ShopwareSDK6\Model\LogEntryLinks'    ];
+'attributes' => '\Shopware6SDK\Model\LogEntryAttributes',
+'links' => '\Shopware6SDK\Model\LogEntryLinks'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -259,7 +259,7 @@ class LogEntry extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\LogEntryAttributes
+     * @return \Shopware6SDK\Model\LogEntryAttributes
      */
     public function getAttributes()
     {
@@ -269,7 +269,7 @@ class LogEntry extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\LogEntryAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\LogEntryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class LogEntry extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\LogEntryLinks
+     * @return \Shopware6SDK\Model\LogEntryLinks
      */
     public function getLinks()
     {
@@ -293,7 +293,7 @@ class LogEntry extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\LogEntryLinks $links links
+     * @param \Shopware6SDK\Model\LogEntryLinks $links links
      *
      * @return $this
      */

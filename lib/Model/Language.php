@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Language Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Language extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\LanguageAttributes',
-'links' => '\ShopwareSDK6\Model\LanguageLinks',
-'relationships' => '\ShopwareSDK6\Model\LanguageRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\LanguageAttributes',
+'links' => '\Shopware6SDK\Model\LanguageLinks',
+'relationships' => '\Shopware6SDK\Model\LanguageRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Language extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\LanguageAttributes
+     * @return \Shopware6SDK\Model\LanguageAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Language extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\LanguageAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\LanguageAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Language extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\LanguageLinks
+     * @return \Shopware6SDK\Model\LanguageLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Language extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\LanguageLinks $links links
+     * @param \Shopware6SDK\Model\LanguageLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Language extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\LanguageRelationships
+     * @return \Shopware6SDK\Model\LanguageRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Language extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\LanguageRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\LanguageRelationships $relationships relationships
      *
      * @return $this
      */

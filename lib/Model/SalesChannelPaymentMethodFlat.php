@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SalesChannelPaymentMethodFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class SalesChannelPaymentMethodFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'sales_channel_id' => 'string',
 'payment_method_id' => 'string',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'payment_method' => '\ShopwareSDK6\Model\PaymentMethodFlat'    ];
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat',
+'payment_method' => '\Shopware6SDK\Model\PaymentMethodFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class SalesChannelPaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -311,7 +311,7 @@ class SalesChannelPaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class SalesChannelPaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets payment_method
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodFlat
+     * @return \Shopware6SDK\Model\PaymentMethodFlat
      */
     public function getPaymentMethod()
     {
@@ -335,7 +335,7 @@ class SalesChannelPaymentMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets payment_method
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodFlat $payment_method payment_method
+     * @param \Shopware6SDK\Model\PaymentMethodFlat $payment_method payment_method
      *
      * @return $this
      */

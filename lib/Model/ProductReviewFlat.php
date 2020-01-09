@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductReviewFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -71,10 +71,10 @@ class ProductReviewFlat implements ModelInterface, ArrayAccess
 'comment' => 'string',
 'updated_at' => '\DateTime',
 'created_at' => '\DateTime',
-'product' => '\ShopwareSDK6\Model\ProductFlat',
-'customer' => '\ShopwareSDK6\Model\CustomerFlat',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'language' => '\ShopwareSDK6\Model\LanguageFlat'    ];
+'product' => '\Shopware6SDK\Model\ProductFlat',
+'customer' => '\Shopware6SDK\Model\CustomerFlat',
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat',
+'language' => '\Shopware6SDK\Model\LanguageFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -691,7 +691,7 @@ class ProductReviewFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -701,7 +701,7 @@ class ProductReviewFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $product product
+     * @param \Shopware6SDK\Model\ProductFlat $product product
      *
      * @return $this
      */
@@ -715,7 +715,7 @@ class ProductReviewFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \ShopwareSDK6\Model\CustomerFlat
+     * @return \Shopware6SDK\Model\CustomerFlat
      */
     public function getCustomer()
     {
@@ -725,7 +725,7 @@ class ProductReviewFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \ShopwareSDK6\Model\CustomerFlat $customer customer
+     * @param \Shopware6SDK\Model\CustomerFlat $customer customer
      *
      * @return $this
      */
@@ -739,7 +739,7 @@ class ProductReviewFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -749,7 +749,7 @@ class ProductReviewFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */
@@ -763,7 +763,7 @@ class ProductReviewFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \ShopwareSDK6\Model\LanguageFlat
+     * @return \Shopware6SDK\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -773,7 +773,7 @@ class ProductReviewFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \ShopwareSDK6\Model\LanguageFlat $language language
+     * @param \Shopware6SDK\Model\LanguageFlat $language language
      *
      * @return $this
      */

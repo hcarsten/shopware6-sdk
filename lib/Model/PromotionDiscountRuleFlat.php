@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionDiscountRuleFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class PromotionDiscountRuleFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'discount_id' => 'string',
 'rule_id' => 'string',
-'discount' => '\ShopwareSDK6\Model\PromotionDiscountFlat',
-'rule' => '\ShopwareSDK6\Model\RuleFlat'    ];
+'discount' => '\Shopware6SDK\Model\PromotionDiscountFlat',
+'rule' => '\Shopware6SDK\Model\RuleFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class PromotionDiscountRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets discount
      *
-     * @return \ShopwareSDK6\Model\PromotionDiscountFlat
+     * @return \Shopware6SDK\Model\PromotionDiscountFlat
      */
     public function getDiscount()
     {
@@ -311,7 +311,7 @@ class PromotionDiscountRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets discount
      *
-     * @param \ShopwareSDK6\Model\PromotionDiscountFlat $discount discount
+     * @param \Shopware6SDK\Model\PromotionDiscountFlat $discount discount
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class PromotionDiscountRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets rule
      *
-     * @return \ShopwareSDK6\Model\RuleFlat
+     * @return \Shopware6SDK\Model\RuleFlat
      */
     public function getRule()
     {
@@ -335,7 +335,7 @@ class PromotionDiscountRuleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets rule
      *
-     * @param \ShopwareSDK6\Model\RuleFlat $rule rule
+     * @param \Shopware6SDK\Model\RuleFlat $rule rule
      *
      * @return $this
      */

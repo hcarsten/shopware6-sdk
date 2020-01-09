@@ -17,11 +17,11 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**document_type** | [**\ShopwareSDK6\Model\DocumentTypeFlat**](DocumentTypeFlat.md) |  | [optional] 
-**order** | [**\ShopwareSDK6\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
-**referenced_document** | [**\ShopwareSDK6\Model\DocumentFlat**](DocumentFlat.md) |  | [optional] 
-**dependent_documents** | [**\ShopwareSDK6\Model\DocumentFlat**](DocumentFlat.md) |  | [optional] 
-**document_media_file** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**document_type** | [**\Shopware6SDK\Model\DocumentTypeFlat**](DocumentTypeFlat.md) |  | [optional] 
+**order** | [**\Shopware6SDK\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
+**referenced_document** | [**\Shopware6SDK\Model\DocumentFlat**](DocumentFlat.md) |  | [optional] 
+**dependent_documents** | [**\Shopware6SDK\Model\DocumentFlat**](DocumentFlat.md) |  | [optional] 
+**document_media_file** | [**\Shopware6SDK\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductExportFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -75,11 +75,11 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
 'footer_template' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'product_stream' => '\ShopwareSDK6\Model\ProductStreamFlat',
-'storefront_sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'sales_channel_domain' => '\ShopwareSDK6\Model\SalesChannelDomainFlat',
-'currency' => '\ShopwareSDK6\Model\CurrencyFlat'    ];
+'product_stream' => '\Shopware6SDK\Model\ProductStreamFlat',
+'storefront_sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat',
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat',
+'sales_channel_domain' => '\Shopware6SDK\Model\SalesChannelDomainFlat',
+'currency' => '\Shopware6SDK\Model\CurrencyFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -832,7 +832,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_stream
      *
-     * @return \ShopwareSDK6\Model\ProductStreamFlat
+     * @return \Shopware6SDK\Model\ProductStreamFlat
      */
     public function getProductStream()
     {
@@ -842,7 +842,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_stream
      *
-     * @param \ShopwareSDK6\Model\ProductStreamFlat $product_stream product_stream
+     * @param \Shopware6SDK\Model\ProductStreamFlat $product_stream product_stream
      *
      * @return $this
      */
@@ -856,7 +856,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Gets storefront_sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getStorefrontSalesChannel()
     {
@@ -866,7 +866,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Sets storefront_sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $storefront_sales_channel storefront_sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $storefront_sales_channel storefront_sales_channel
      *
      * @return $this
      */
@@ -880,7 +880,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -890,7 +890,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */
@@ -904,7 +904,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_domain
      *
-     * @return \ShopwareSDK6\Model\SalesChannelDomainFlat
+     * @return \Shopware6SDK\Model\SalesChannelDomainFlat
      */
     public function getSalesChannelDomain()
     {
@@ -914,7 +914,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_domain
      *
-     * @param \ShopwareSDK6\Model\SalesChannelDomainFlat $sales_channel_domain sales_channel_domain
+     * @param \Shopware6SDK\Model\SalesChannelDomainFlat $sales_channel_domain sales_channel_domain
      *
      * @return $this
      */
@@ -928,7 +928,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \ShopwareSDK6\Model\CurrencyFlat
+     * @return \Shopware6SDK\Model\CurrencyFlat
      */
     public function getCurrency()
     {
@@ -938,7 +938,7 @@ class ProductExportFlat implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \ShopwareSDK6\Model\CurrencyFlat $currency currency
+     * @param \Shopware6SDK\Model\CurrencyFlat $currency currency
      *
      * @return $this
      */

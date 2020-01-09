@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderCustomerFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -72,9 +72,9 @@ class OrderCustomerFlat implements ModelInterface, ArrayAccess
 'remote_address' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'order' => '\ShopwareSDK6\Model\OrderFlat',
-'customer' => '\ShopwareSDK6\Model\CustomerFlat',
-'salutation' => '\ShopwareSDK6\Model\SalutationFlat'    ];
+'order' => '\Shopware6SDK\Model\OrderFlat',
+'customer' => '\Shopware6SDK\Model\CustomerFlat',
+'salutation' => '\Shopware6SDK\Model\SalutationFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -712,7 +712,7 @@ class OrderCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \ShopwareSDK6\Model\OrderFlat
+     * @return \Shopware6SDK\Model\OrderFlat
      */
     public function getOrder()
     {
@@ -722,7 +722,7 @@ class OrderCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \ShopwareSDK6\Model\OrderFlat $order order
+     * @param \Shopware6SDK\Model\OrderFlat $order order
      *
      * @return $this
      */
@@ -736,7 +736,7 @@ class OrderCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \ShopwareSDK6\Model\CustomerFlat
+     * @return \Shopware6SDK\Model\CustomerFlat
      */
     public function getCustomer()
     {
@@ -746,7 +746,7 @@ class OrderCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \ShopwareSDK6\Model\CustomerFlat $customer customer
+     * @param \Shopware6SDK\Model\CustomerFlat $customer customer
      *
      * @return $this
      */
@@ -760,7 +760,7 @@ class OrderCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \ShopwareSDK6\Model\SalutationFlat
+     * @return \Shopware6SDK\Model\SalutationFlat
      */
     public function getSalutation()
     {
@@ -770,7 +770,7 @@ class OrderCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \ShopwareSDK6\Model\SalutationFlat $salutation salutation
+     * @param \Shopware6SDK\Model\SalutationFlat $salutation salutation
      *
      * @return $this
      */

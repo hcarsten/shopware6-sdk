@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * TaxRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class TaxRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'products' => '\ShopwareSDK6\Model\TaxRelationshipsProducts',
-'rules' => '\ShopwareSDK6\Model\TaxRelationshipsRules'    ];
+        'products' => '\Shopware6SDK\Model\TaxRelationshipsProducts',
+'rules' => '\Shopware6SDK\Model\TaxRelationshipsRules'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class TaxRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \ShopwareSDK6\Model\TaxRelationshipsProducts
+     * @return \Shopware6SDK\Model\TaxRelationshipsProducts
      */
     public function getProducts()
     {
@@ -215,7 +215,7 @@ class TaxRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \ShopwareSDK6\Model\TaxRelationshipsProducts $products products
+     * @param \Shopware6SDK\Model\TaxRelationshipsProducts $products products
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class TaxRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets rules
      *
-     * @return \ShopwareSDK6\Model\TaxRelationshipsRules
+     * @return \Shopware6SDK\Model\TaxRelationshipsRules
      */
     public function getRules()
     {
@@ -239,7 +239,7 @@ class TaxRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets rules
      *
-     * @param \ShopwareSDK6\Model\TaxRelationshipsRules $rules rules
+     * @param \Shopware6SDK\Model\TaxRelationshipsRules $rules rules
      *
      * @return $this
      */

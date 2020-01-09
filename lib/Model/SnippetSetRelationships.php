@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SnippetSetRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SnippetSetRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'snippets' => '\ShopwareSDK6\Model\SnippetSetRelationshipsSnippets',
-'sales_channel_domains' => '\ShopwareSDK6\Model\SnippetSetRelationshipsSalesChannelDomains'    ];
+        'snippets' => '\Shopware6SDK\Model\SnippetSetRelationshipsSnippets',
+'sales_channel_domains' => '\Shopware6SDK\Model\SnippetSetRelationshipsSalesChannelDomains'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SnippetSetRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets snippets
      *
-     * @return \ShopwareSDK6\Model\SnippetSetRelationshipsSnippets
+     * @return \Shopware6SDK\Model\SnippetSetRelationshipsSnippets
      */
     public function getSnippets()
     {
@@ -215,7 +215,7 @@ class SnippetSetRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets snippets
      *
-     * @param \ShopwareSDK6\Model\SnippetSetRelationshipsSnippets $snippets snippets
+     * @param \Shopware6SDK\Model\SnippetSetRelationshipsSnippets $snippets snippets
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SnippetSetRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_domains
      *
-     * @return \ShopwareSDK6\Model\SnippetSetRelationshipsSalesChannelDomains
+     * @return \Shopware6SDK\Model\SnippetSetRelationshipsSalesChannelDomains
      */
     public function getSalesChannelDomains()
     {
@@ -239,7 +239,7 @@ class SnippetSetRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_domains
      *
-     * @param \ShopwareSDK6\Model\SnippetSetRelationshipsSalesChannelDomains $sales_channel_domains sales_channel_domains
+     * @param \Shopware6SDK\Model\SnippetSetRelationshipsSalesChannelDomains $sales_channel_domains sales_channel_domains
      *
      * @return $this
      */

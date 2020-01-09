@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * NumberRangeTypeRelationshipsNumberRanges Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class NumberRangeTypeRelationshipsNumberRanges implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\NumberRangeTypeRelationshipsNumberRangesLinks',
-'data' => '\ShopwareSDK6\Model\NumberRangeTypeRelationshipsNumberRangesData[]'    ];
+        'links' => '\Shopware6SDK\Model\NumberRangeTypeRelationshipsNumberRangesLinks',
+'data' => '\Shopware6SDK\Model\NumberRangeTypeRelationshipsNumberRangesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class NumberRangeTypeRelationshipsNumberRanges implements ModelInterface, ArrayA
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\NumberRangeTypeRelationshipsNumberRangesLinks
+     * @return \Shopware6SDK\Model\NumberRangeTypeRelationshipsNumberRangesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class NumberRangeTypeRelationshipsNumberRanges implements ModelInterface, ArrayA
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\NumberRangeTypeRelationshipsNumberRangesLinks $links links
+     * @param \Shopware6SDK\Model\NumberRangeTypeRelationshipsNumberRangesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class NumberRangeTypeRelationshipsNumberRanges implements ModelInterface, ArrayA
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\NumberRangeTypeRelationshipsNumberRangesData[]
+     * @return \Shopware6SDK\Model\NumberRangeTypeRelationshipsNumberRangesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class NumberRangeTypeRelationshipsNumberRanges implements ModelInterface, ArrayA
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\NumberRangeTypeRelationshipsNumberRangesData[] $data data
+     * @param \Shopware6SDK\Model\NumberRangeTypeRelationshipsNumberRangesData[] $data data
      *
      * @return $this
      */

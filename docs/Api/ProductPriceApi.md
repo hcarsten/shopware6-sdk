@@ -1,4 +1,4 @@
-# ShopwareSDK6\ProductPriceApi
+# Shopware6SDK\ProductPriceApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProductPrice**](ProductPriceApi.md#updateproductprice) | **PATCH** /product-price/{id} | Partially update information about a Product Price resource
 
 # **createProductPrice**
-> \ShopwareSDK6\Model\InlineResponse200195 createProductPrice($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200195 createProductPrice($body, $_response)
 
 Create a new Product Price resources
 
@@ -22,12 +22,12 @@ Create a new Product Price resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductPriceApi(
+$apiInstance = new Shopware6SDK\Api\ProductPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body128(); // \ShopwareSDK6\Model\Body128 | 
+$body = new \Shopware6SDK\Model\Body128(); // \Shopware6SDK\Model\Body128 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body128**](../Model/Body128.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body128**](../Model/Body128.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
+[**\Shopware6SDK\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProductPrice**
-> \ShopwareSDK6\Model\InlineResponse200195 createProductPrice($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200195 createProductPrice($body, $_response)
 
 Create a new Product Price resources
 
@@ -73,12 +73,12 @@ Create a new Product Price resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductPriceApi(
+$apiInstance = new Shopware6SDK\Api\ProductPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\ProductPriceFlat(); // \ShopwareSDK6\Model\ProductPriceFlat | 
+$body = new \Shopware6SDK\Model\ProductPriceFlat(); // \Shopware6SDK\Model\ProductPriceFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\ProductPriceFlat**](../Model/ProductPriceFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductPriceFlat**](../Model/ProductPriceFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
+[**\Shopware6SDK\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product Price resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductPriceApi(
+$apiInstance = new Shopware6SDK\Api\ProductPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductPrice**
-> \ShopwareSDK6\Model\InlineResponse200195 getProductPrice($id)
+> \Shopware6SDK\Model\InlineResponse200195 getProductPrice($id)
 
 Detailed information about a Product Price resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product Price resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductPriceApi(
+$apiInstance = new Shopware6SDK\Api\ProductPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
+[**\Shopware6SDK\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductPriceList**
-> \ShopwareSDK6\Model\InlineResponse200193 getProductPriceList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200193 getProductPriceList($limit, $page, $query)
 
 List with basic information of Product Price resources
 
@@ -217,7 +217,7 @@ List with basic information of Product Price resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductPriceApi(
+$apiInstance = new Shopware6SDK\Api\ProductPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200193**](../Model/InlineResponse200193.md)
+[**\Shopware6SDK\Model\InlineResponse200193**](../Model/InlineResponse200193.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductPrice**
-> \ShopwareSDK6\Model\InlineResponse200195 updateProductPrice($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200195 updateProductPrice($id, $body, $_response)
 
 Partially update information about a Product Price resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product Price resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductPriceApi(
+$apiInstance = new Shopware6SDK\Api\ProductPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_price
-$body = new \ShopwareSDK6\Model\Body129(); // \ShopwareSDK6\Model\Body129 | Partially update information about a Product Price resource.
+$body = new \Shopware6SDK\Model\Body129(); // \Shopware6SDK\Model\Body129 | Partially update information about a Product Price resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_price |
- **body** | [**\ShopwareSDK6\Model\Body129**](../Model/Body129.md)| Partially update information about a Product Price resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body129**](../Model/Body129.md)| Partially update information about a Product Price resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
+[**\Shopware6SDK\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductPrice**
-> \ShopwareSDK6\Model\InlineResponse200195 updateProductPrice($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200195 updateProductPrice($id, $body, $_response)
 
 Partially update information about a Product Price resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product Price resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductPriceApi(
+$apiInstance = new Shopware6SDK\Api\ProductPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_price
-$body = new \ShopwareSDK6\Model\ProductPriceFlat(); // \ShopwareSDK6\Model\ProductPriceFlat | Partially update information about a Product Price resource.
+$body = new \Shopware6SDK\Model\ProductPriceFlat(); // \Shopware6SDK\Model\ProductPriceFlat | Partially update information about a Product Price resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_price |
- **body** | [**\ShopwareSDK6\Model\ProductPriceFlat**](../Model/ProductPriceFlat.md)| Partially update information about a Product Price resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductPriceFlat**](../Model/ProductPriceFlat.md)| Partially update information about a Product Price resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
+[**\Shopware6SDK\Model\InlineResponse200195**](../Model/InlineResponse200195.md)
 
 ### Authorization
 

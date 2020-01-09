@@ -1,4 +1,4 @@
-# ShopwareSDK6\NumberRangeApi
+# Shopware6SDK\NumberRangeApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateNumberRange**](NumberRangeApi.md#updatenumberrange) | **PATCH** /number-range/{id} | Partially update information about a Number Range resource
 
 # **createNumberRange**
-> \ShopwareSDK6\Model\InlineResponse200135 createNumberRange($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200135 createNumberRange($body, $_response)
 
 Create a new Number Range resources
 
@@ -22,12 +22,12 @@ Create a new Number Range resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NumberRangeApi(
+$apiInstance = new Shopware6SDK\Api\NumberRangeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body88(); // \ShopwareSDK6\Model\Body88 | 
+$body = new \Shopware6SDK\Model\Body88(); // \Shopware6SDK\Model\Body88 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body88**](../Model/Body88.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body88**](../Model/Body88.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
+[**\Shopware6SDK\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createNumberRange**
-> \ShopwareSDK6\Model\InlineResponse200135 createNumberRange($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200135 createNumberRange($body, $_response)
 
 Create a new Number Range resources
 
@@ -73,12 +73,12 @@ Create a new Number Range resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NumberRangeApi(
+$apiInstance = new Shopware6SDK\Api\NumberRangeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\NumberRangeFlat(); // \ShopwareSDK6\Model\NumberRangeFlat | 
+$body = new \Shopware6SDK\Model\NumberRangeFlat(); // \Shopware6SDK\Model\NumberRangeFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\NumberRangeFlat**](../Model/NumberRangeFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\NumberRangeFlat**](../Model/NumberRangeFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
+[**\Shopware6SDK\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Number Range resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NumberRangeApi(
+$apiInstance = new Shopware6SDK\Api\NumberRangeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNumberRange**
-> \ShopwareSDK6\Model\InlineResponse200135 getNumberRange($id)
+> \Shopware6SDK\Model\InlineResponse200135 getNumberRange($id)
 
 Detailed information about a Number Range resource
 
@@ -170,7 +170,7 @@ Detailed information about a Number Range resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NumberRangeApi(
+$apiInstance = new Shopware6SDK\Api\NumberRangeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
+[**\Shopware6SDK\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNumberRangeList**
-> \ShopwareSDK6\Model\InlineResponse200133 getNumberRangeList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200133 getNumberRangeList($limit, $page, $query)
 
 List with basic information of Number Range resources
 
@@ -217,7 +217,7 @@ List with basic information of Number Range resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NumberRangeApi(
+$apiInstance = new Shopware6SDK\Api\NumberRangeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200133**](../Model/InlineResponse200133.md)
+[**\Shopware6SDK\Model\InlineResponse200133**](../Model/InlineResponse200133.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateNumberRange**
-> \ShopwareSDK6\Model\InlineResponse200135 updateNumberRange($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200135 updateNumberRange($id, $body, $_response)
 
 Partially update information about a Number Range resource
 
@@ -268,13 +268,13 @@ Partially update information about a Number Range resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NumberRangeApi(
+$apiInstance = new Shopware6SDK\Api\NumberRangeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the number_range
-$body = new \ShopwareSDK6\Model\Body89(); // \ShopwareSDK6\Model\Body89 | Partially update information about a Number Range resource.
+$body = new \Shopware6SDK\Model\Body89(); // \Shopware6SDK\Model\Body89 | Partially update information about a Number Range resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the number_range |
- **body** | [**\ShopwareSDK6\Model\Body89**](../Model/Body89.md)| Partially update information about a Number Range resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body89**](../Model/Body89.md)| Partially update information about a Number Range resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
+[**\Shopware6SDK\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateNumberRange**
-> \ShopwareSDK6\Model\InlineResponse200135 updateNumberRange($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200135 updateNumberRange($id, $body, $_response)
 
 Partially update information about a Number Range resource
 
@@ -319,13 +319,13 @@ Partially update information about a Number Range resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\NumberRangeApi(
+$apiInstance = new Shopware6SDK\Api\NumberRangeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the number_range
-$body = new \ShopwareSDK6\Model\NumberRangeFlat(); // \ShopwareSDK6\Model\NumberRangeFlat | Partially update information about a Number Range resource.
+$body = new \Shopware6SDK\Model\NumberRangeFlat(); // \Shopware6SDK\Model\NumberRangeFlat | Partially update information about a Number Range resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the number_range |
- **body** | [**\ShopwareSDK6\Model\NumberRangeFlat**](../Model/NumberRangeFlat.md)| Partially update information about a Number Range resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\NumberRangeFlat**](../Model/NumberRangeFlat.md)| Partially update information about a Number Range resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
+[**\Shopware6SDK\Model\InlineResponse200135**](../Model/InlineResponse200135.md)
 
 ### Authorization
 

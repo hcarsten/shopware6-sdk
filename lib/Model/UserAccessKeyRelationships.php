@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * UserAccessKeyRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class UserAccessKeyRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'user' => '\ShopwareSDK6\Model\UserAccessKeyRelationshipsUser'    ];
+        'user' => '\Shopware6SDK\Model\UserAccessKeyRelationshipsUser'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class UserAccessKeyRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \ShopwareSDK6\Model\UserAccessKeyRelationshipsUser
+     * @return \Shopware6SDK\Model\UserAccessKeyRelationshipsUser
      */
     public function getUser()
     {
@@ -209,7 +209,7 @@ class UserAccessKeyRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \ShopwareSDK6\Model\UserAccessKeyRelationshipsUser $user user
+     * @param \Shopware6SDK\Model\UserAccessKeyRelationshipsUser $user user
      *
      * @return $this
      */

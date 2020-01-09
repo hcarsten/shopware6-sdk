@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * DeliveryTime Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class DeliveryTime extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\DeliveryTimeAttributes',
-'links' => '\ShopwareSDK6\Model\DeliveryTimeLinks',
-'relationships' => '\ShopwareSDK6\Model\DeliveryTimeRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\DeliveryTimeAttributes',
+'links' => '\Shopware6SDK\Model\DeliveryTimeLinks',
+'relationships' => '\Shopware6SDK\Model\DeliveryTimeRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class DeliveryTime extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\DeliveryTimeAttributes
+     * @return \Shopware6SDK\Model\DeliveryTimeAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class DeliveryTime extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\DeliveryTimeAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\DeliveryTimeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class DeliveryTime extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\DeliveryTimeLinks
+     * @return \Shopware6SDK\Model\DeliveryTimeLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class DeliveryTime extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\DeliveryTimeLinks $links links
+     * @param \Shopware6SDK\Model\DeliveryTimeLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class DeliveryTime extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\DeliveryTimeRelationships
+     * @return \Shopware6SDK\Model\DeliveryTimeRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class DeliveryTime extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\DeliveryTimeRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\DeliveryTimeRelationships $relationships relationships
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CountryRelationshipsTaxRules Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CountryRelationshipsTaxRules implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CountryRelationshipsTaxRulesLinks',
-'data' => '\ShopwareSDK6\Model\CountryRelationshipsTaxRulesData[]'    ];
+        'links' => '\Shopware6SDK\Model\CountryRelationshipsTaxRulesLinks',
+'data' => '\Shopware6SDK\Model\CountryRelationshipsTaxRulesData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CountryRelationshipsTaxRules implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CountryRelationshipsTaxRulesLinks
+     * @return \Shopware6SDK\Model\CountryRelationshipsTaxRulesLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CountryRelationshipsTaxRules implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CountryRelationshipsTaxRulesLinks $links links
+     * @param \Shopware6SDK\Model\CountryRelationshipsTaxRulesLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CountryRelationshipsTaxRules implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CountryRelationshipsTaxRulesData[]
+     * @return \Shopware6SDK\Model\CountryRelationshipsTaxRulesData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CountryRelationshipsTaxRules implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CountryRelationshipsTaxRulesData[] $data data
+     * @param \Shopware6SDK\Model\CountryRelationshipsTaxRulesData[] $data data
      *
      * @return $this
      */

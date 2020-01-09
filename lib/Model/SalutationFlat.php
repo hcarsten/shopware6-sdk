@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SalutationFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,11 +63,11 @@ class SalutationFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'customers' => '\ShopwareSDK6\Model\CustomerFlat',
-'customer_addresses' => '\ShopwareSDK6\Model\CustomerAddressFlat',
-'order_customers' => '\ShopwareSDK6\Model\OrderCustomerFlat',
-'order_addresses' => '\ShopwareSDK6\Model\OrderAddressFlat',
-'newsletter_recipients' => '\ShopwareSDK6\Model\NewsletterRecipientFlat'    ];
+'customers' => '\Shopware6SDK\Model\CustomerFlat',
+'customer_addresses' => '\Shopware6SDK\Model\CustomerAddressFlat',
+'order_customers' => '\Shopware6SDK\Model\OrderCustomerFlat',
+'order_addresses' => '\Shopware6SDK\Model\OrderAddressFlat',
+'newsletter_recipients' => '\Shopware6SDK\Model\NewsletterRecipientFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -448,7 +448,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \ShopwareSDK6\Model\CustomerFlat
+     * @return \Shopware6SDK\Model\CustomerFlat
      */
     public function getCustomers()
     {
@@ -458,7 +458,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \ShopwareSDK6\Model\CustomerFlat $customers customers
+     * @param \Shopware6SDK\Model\CustomerFlat $customers customers
      *
      * @return $this
      */
@@ -472,7 +472,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customer_addresses
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressFlat
+     * @return \Shopware6SDK\Model\CustomerAddressFlat
      */
     public function getCustomerAddresses()
     {
@@ -482,7 +482,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customer_addresses
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressFlat $customer_addresses customer_addresses
+     * @param \Shopware6SDK\Model\CustomerAddressFlat $customer_addresses customer_addresses
      *
      * @return $this
      */
@@ -496,7 +496,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_customers
      *
-     * @return \ShopwareSDK6\Model\OrderCustomerFlat
+     * @return \Shopware6SDK\Model\OrderCustomerFlat
      */
     public function getOrderCustomers()
     {
@@ -506,7 +506,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_customers
      *
-     * @param \ShopwareSDK6\Model\OrderCustomerFlat $order_customers order_customers
+     * @param \Shopware6SDK\Model\OrderCustomerFlat $order_customers order_customers
      *
      * @return $this
      */
@@ -520,7 +520,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_addresses
      *
-     * @return \ShopwareSDK6\Model\OrderAddressFlat
+     * @return \Shopware6SDK\Model\OrderAddressFlat
      */
     public function getOrderAddresses()
     {
@@ -530,7 +530,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_addresses
      *
-     * @param \ShopwareSDK6\Model\OrderAddressFlat $order_addresses order_addresses
+     * @param \Shopware6SDK\Model\OrderAddressFlat $order_addresses order_addresses
      *
      * @return $this
      */
@@ -544,7 +544,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Gets newsletter_recipients
      *
-     * @return \ShopwareSDK6\Model\NewsletterRecipientFlat
+     * @return \Shopware6SDK\Model\NewsletterRecipientFlat
      */
     public function getNewsletterRecipients()
     {
@@ -554,7 +554,7 @@ class SalutationFlat implements ModelInterface, ArrayAccess
     /**
      * Sets newsletter_recipients
      *
-     * @param \ShopwareSDK6\Model\NewsletterRecipientFlat $newsletter_recipients newsletter_recipients
+     * @param \Shopware6SDK\Model\NewsletterRecipientFlat $newsletter_recipients newsletter_recipients
      *
      * @return $this
      */

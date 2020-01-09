@@ -1,4 +1,4 @@
-# ShopwareSDK6\SalesChannelTypeApi
+# Shopware6SDK\SalesChannelTypeApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateSalesChannelType**](SalesChannelTypeApi.md#updatesaleschanneltype) | **PATCH** /sales-channel-type/{id} | Partially update information about a Sales Channel Type resource
 
 # **createSalesChannelType**
-> \ShopwareSDK6\Model\InlineResponse200249 createSalesChannelType($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200249 createSalesChannelType($body, $_response)
 
 Create a new Sales Channel Type resources
 
@@ -22,12 +22,12 @@ Create a new Sales Channel Type resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalesChannelTypeApi(
+$apiInstance = new Shopware6SDK\Api\SalesChannelTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body164(); // \ShopwareSDK6\Model\Body164 | 
+$body = new \Shopware6SDK\Model\Body164(); // \Shopware6SDK\Model\Body164 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body164**](../Model/Body164.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body164**](../Model/Body164.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
+[**\Shopware6SDK\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createSalesChannelType**
-> \ShopwareSDK6\Model\InlineResponse200249 createSalesChannelType($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200249 createSalesChannelType($body, $_response)
 
 Create a new Sales Channel Type resources
 
@@ -73,12 +73,12 @@ Create a new Sales Channel Type resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalesChannelTypeApi(
+$apiInstance = new Shopware6SDK\Api\SalesChannelTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\SalesChannelTypeFlat(); // \ShopwareSDK6\Model\SalesChannelTypeFlat | 
+$body = new \Shopware6SDK\Model\SalesChannelTypeFlat(); // \Shopware6SDK\Model\SalesChannelTypeFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\SalesChannelTypeFlat**](../Model/SalesChannelTypeFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\SalesChannelTypeFlat**](../Model/SalesChannelTypeFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
+[**\Shopware6SDK\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Sales Channel Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalesChannelTypeApi(
+$apiInstance = new Shopware6SDK\Api\SalesChannelTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSalesChannelType**
-> \ShopwareSDK6\Model\InlineResponse200249 getSalesChannelType($id)
+> \Shopware6SDK\Model\InlineResponse200249 getSalesChannelType($id)
 
 Detailed information about a Sales Channel Type resource
 
@@ -170,7 +170,7 @@ Detailed information about a Sales Channel Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalesChannelTypeApi(
+$apiInstance = new Shopware6SDK\Api\SalesChannelTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
+[**\Shopware6SDK\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSalesChannelTypeList**
-> \ShopwareSDK6\Model\InlineResponse200247 getSalesChannelTypeList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200247 getSalesChannelTypeList($limit, $page, $query)
 
 List with basic information of Sales Channel Type resources
 
@@ -217,7 +217,7 @@ List with basic information of Sales Channel Type resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalesChannelTypeApi(
+$apiInstance = new Shopware6SDK\Api\SalesChannelTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200247**](../Model/InlineResponse200247.md)
+[**\Shopware6SDK\Model\InlineResponse200247**](../Model/InlineResponse200247.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSalesChannelType**
-> \ShopwareSDK6\Model\InlineResponse200249 updateSalesChannelType($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200249 updateSalesChannelType($id, $body, $_response)
 
 Partially update information about a Sales Channel Type resource
 
@@ -268,13 +268,13 @@ Partially update information about a Sales Channel Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalesChannelTypeApi(
+$apiInstance = new Shopware6SDK\Api\SalesChannelTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the sales_channel_type
-$body = new \ShopwareSDK6\Model\Body165(); // \ShopwareSDK6\Model\Body165 | Partially update information about a Sales Channel Type resource.
+$body = new \Shopware6SDK\Model\Body165(); // \Shopware6SDK\Model\Body165 | Partially update information about a Sales Channel Type resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the sales_channel_type |
- **body** | [**\ShopwareSDK6\Model\Body165**](../Model/Body165.md)| Partially update information about a Sales Channel Type resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body165**](../Model/Body165.md)| Partially update information about a Sales Channel Type resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
+[**\Shopware6SDK\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSalesChannelType**
-> \ShopwareSDK6\Model\InlineResponse200249 updateSalesChannelType($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200249 updateSalesChannelType($id, $body, $_response)
 
 Partially update information about a Sales Channel Type resource
 
@@ -319,13 +319,13 @@ Partially update information about a Sales Channel Type resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SalesChannelTypeApi(
+$apiInstance = new Shopware6SDK\Api\SalesChannelTypeApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the sales_channel_type
-$body = new \ShopwareSDK6\Model\SalesChannelTypeFlat(); // \ShopwareSDK6\Model\SalesChannelTypeFlat | Partially update information about a Sales Channel Type resource.
+$body = new \Shopware6SDK\Model\SalesChannelTypeFlat(); // \Shopware6SDK\Model\SalesChannelTypeFlat | Partially update information about a Sales Channel Type resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the sales_channel_type |
- **body** | [**\ShopwareSDK6\Model\SalesChannelTypeFlat**](../Model/SalesChannelTypeFlat.md)| Partially update information about a Sales Channel Type resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\SalesChannelTypeFlat**](../Model/SalesChannelTypeFlat.md)| Partially update information about a Sales Channel Type resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
+[**\Shopware6SDK\Model\InlineResponse200249**](../Model/InlineResponse200249.md)
 
 ### Authorization
 

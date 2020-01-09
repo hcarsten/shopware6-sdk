@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SnippetRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class SnippetRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'set' => '\ShopwareSDK6\Model\SnippetRelationshipsSet'    ];
+        'set' => '\Shopware6SDK\Model\SnippetRelationshipsSet'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class SnippetRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets set
      *
-     * @return \ShopwareSDK6\Model\SnippetRelationshipsSet
+     * @return \Shopware6SDK\Model\SnippetRelationshipsSet
      */
     public function getSet()
     {
@@ -209,7 +209,7 @@ class SnippetRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets set
      *
-     * @param \ShopwareSDK6\Model\SnippetRelationshipsSet $set set
+     * @param \Shopware6SDK\Model\SnippetRelationshipsSet $set set
      *
      * @return $this
      */

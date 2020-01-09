@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplateSalesChannelRelationshipsMailTemplate Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MailTemplateSalesChannelRelationshipsMailTemplate implements ModelInterfac
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\MailTemplateSalesChannelRelationshipsMailTemplateLinks',
-'data' => '\ShopwareSDK6\Model\MailTemplateSalesChannelRelationshipsMailTemplateData'    ];
+        'links' => '\Shopware6SDK\Model\MailTemplateSalesChannelRelationshipsMailTemplateLinks',
+'data' => '\Shopware6SDK\Model\MailTemplateSalesChannelRelationshipsMailTemplateData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MailTemplateSalesChannelRelationshipsMailTemplate implements ModelInterfac
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MailTemplateSalesChannelRelationshipsMailTemplateLinks
+     * @return \Shopware6SDK\Model\MailTemplateSalesChannelRelationshipsMailTemplateLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MailTemplateSalesChannelRelationshipsMailTemplate implements ModelInterfac
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MailTemplateSalesChannelRelationshipsMailTemplateLinks $links links
+     * @param \Shopware6SDK\Model\MailTemplateSalesChannelRelationshipsMailTemplateLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MailTemplateSalesChannelRelationshipsMailTemplate implements ModelInterfac
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\MailTemplateSalesChannelRelationshipsMailTemplateData
+     * @return \Shopware6SDK\Model\MailTemplateSalesChannelRelationshipsMailTemplateData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MailTemplateSalesChannelRelationshipsMailTemplate implements ModelInterfac
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\MailTemplateSalesChannelRelationshipsMailTemplateData $data data
+     * @param \Shopware6SDK\Model\MailTemplateSalesChannelRelationshipsMailTemplateData $data data
      *
      * @return $this
      */

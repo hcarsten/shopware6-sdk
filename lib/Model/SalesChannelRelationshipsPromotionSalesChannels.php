@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SalesChannelRelationshipsPromotionSalesChannels Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class SalesChannelRelationshipsPromotionSalesChannels implements ModelInterface,
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\SalesChannelRelationshipsPromotionSalesChannelsLinks',
-'data' => '\ShopwareSDK6\Model\SalesChannelRelationshipsPromotionSalesChannelsData[]'    ];
+        'links' => '\Shopware6SDK\Model\SalesChannelRelationshipsPromotionSalesChannelsLinks',
+'data' => '\Shopware6SDK\Model\SalesChannelRelationshipsPromotionSalesChannelsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class SalesChannelRelationshipsPromotionSalesChannels implements ModelInterface,
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsPromotionSalesChannelsLinks
+     * @return \Shopware6SDK\Model\SalesChannelRelationshipsPromotionSalesChannelsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class SalesChannelRelationshipsPromotionSalesChannels implements ModelInterface,
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsPromotionSalesChannelsLinks $links links
+     * @param \Shopware6SDK\Model\SalesChannelRelationshipsPromotionSalesChannelsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class SalesChannelRelationshipsPromotionSalesChannels implements ModelInterface,
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\SalesChannelRelationshipsPromotionSalesChannelsData[]
+     * @return \Shopware6SDK\Model\SalesChannelRelationshipsPromotionSalesChannelsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class SalesChannelRelationshipsPromotionSalesChannels implements ModelInterface,
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\SalesChannelRelationshipsPromotionSalesChannelsData[] $data data
+     * @param \Shopware6SDK\Model\SalesChannelRelationshipsPromotionSalesChannelsData[] $data data
      *
      * @return $this
      */

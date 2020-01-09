@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ImportExportFileFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,7 +64,7 @@ class ImportExportFileFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'access_token' => 'string',
 'updated_at' => '\DateTime',
-'log' => '\ShopwareSDK6\Model\ImportExportLogFlat'    ];
+'log' => '\Shopware6SDK\Model\ImportExportLogFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -457,7 +457,7 @@ class ImportExportFileFlat implements ModelInterface, ArrayAccess
     /**
      * Gets log
      *
-     * @return \ShopwareSDK6\Model\ImportExportLogFlat
+     * @return \Shopware6SDK\Model\ImportExportLogFlat
      */
     public function getLog()
     {
@@ -467,7 +467,7 @@ class ImportExportFileFlat implements ModelInterface, ArrayAccess
     /**
      * Sets log
      *
-     * @param \ShopwareSDK6\Model\ImportExportLogFlat $log log
+     * @param \Shopware6SDK\Model\ImportExportLogFlat $log log
      *
      * @return $this
      */

@@ -1,4 +1,4 @@
-# ShopwareSDK6\SnippetSetApi
+# Shopware6SDK\SnippetSetApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateSnippetSet**](SnippetSetApi.md#updatesnippetset) | **PATCH** /snippet-set/{id} | Partially update information about a Snippet Set resource
 
 # **createSnippetSet**
-> \ShopwareSDK6\Model\InlineResponse200273 createSnippetSet($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200273 createSnippetSet($body, $_response)
 
 Create a new Snippet Set resources
 
@@ -22,12 +22,12 @@ Create a new Snippet Set resources. All required fields must be provided in orde
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SnippetSetApi(
+$apiInstance = new Shopware6SDK\Api\SnippetSetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body180(); // \ShopwareSDK6\Model\Body180 | 
+$body = new \Shopware6SDK\Model\Body180(); // \Shopware6SDK\Model\Body180 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body180**](../Model/Body180.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body180**](../Model/Body180.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
+[**\Shopware6SDK\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createSnippetSet**
-> \ShopwareSDK6\Model\InlineResponse200273 createSnippetSet($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200273 createSnippetSet($body, $_response)
 
 Create a new Snippet Set resources
 
@@ -73,12 +73,12 @@ Create a new Snippet Set resources. All required fields must be provided in orde
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SnippetSetApi(
+$apiInstance = new Shopware6SDK\Api\SnippetSetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\SnippetSetFlat(); // \ShopwareSDK6\Model\SnippetSetFlat | 
+$body = new \Shopware6SDK\Model\SnippetSetFlat(); // \Shopware6SDK\Model\SnippetSetFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\SnippetSetFlat**](../Model/SnippetSetFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\SnippetSetFlat**](../Model/SnippetSetFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
+[**\Shopware6SDK\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Snippet Set resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SnippetSetApi(
+$apiInstance = new Shopware6SDK\Api\SnippetSetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSnippetSet**
-> \ShopwareSDK6\Model\InlineResponse200273 getSnippetSet($id)
+> \Shopware6SDK\Model\InlineResponse200273 getSnippetSet($id)
 
 Detailed information about a Snippet Set resource
 
@@ -170,7 +170,7 @@ Detailed information about a Snippet Set resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SnippetSetApi(
+$apiInstance = new Shopware6SDK\Api\SnippetSetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
+[**\Shopware6SDK\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSnippetSetList**
-> \ShopwareSDK6\Model\InlineResponse200271 getSnippetSetList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200271 getSnippetSetList($limit, $page, $query)
 
 List with basic information of Snippet Set resources
 
@@ -217,7 +217,7 @@ List with basic information of Snippet Set resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SnippetSetApi(
+$apiInstance = new Shopware6SDK\Api\SnippetSetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200271**](../Model/InlineResponse200271.md)
+[**\Shopware6SDK\Model\InlineResponse200271**](../Model/InlineResponse200271.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSnippetSet**
-> \ShopwareSDK6\Model\InlineResponse200273 updateSnippetSet($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200273 updateSnippetSet($id, $body, $_response)
 
 Partially update information about a Snippet Set resource
 
@@ -268,13 +268,13 @@ Partially update information about a Snippet Set resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SnippetSetApi(
+$apiInstance = new Shopware6SDK\Api\SnippetSetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the snippet_set
-$body = new \ShopwareSDK6\Model\Body181(); // \ShopwareSDK6\Model\Body181 | Partially update information about a Snippet Set resource.
+$body = new \Shopware6SDK\Model\Body181(); // \Shopware6SDK\Model\Body181 | Partially update information about a Snippet Set resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the snippet_set |
- **body** | [**\ShopwareSDK6\Model\Body181**](../Model/Body181.md)| Partially update information about a Snippet Set resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body181**](../Model/Body181.md)| Partially update information about a Snippet Set resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
+[**\Shopware6SDK\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSnippetSet**
-> \ShopwareSDK6\Model\InlineResponse200273 updateSnippetSet($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200273 updateSnippetSet($id, $body, $_response)
 
 Partially update information about a Snippet Set resource
 
@@ -319,13 +319,13 @@ Partially update information about a Snippet Set resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SnippetSetApi(
+$apiInstance = new Shopware6SDK\Api\SnippetSetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the snippet_set
-$body = new \ShopwareSDK6\Model\SnippetSetFlat(); // \ShopwareSDK6\Model\SnippetSetFlat | Partially update information about a Snippet Set resource.
+$body = new \Shopware6SDK\Model\SnippetSetFlat(); // \Shopware6SDK\Model\SnippetSetFlat | Partially update information about a Snippet Set resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the snippet_set |
- **body** | [**\ShopwareSDK6\Model\SnippetSetFlat**](../Model/SnippetSetFlat.md)| Partially update information about a Snippet Set resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\SnippetSetFlat**](../Model/SnippetSetFlat.md)| Partially update information about a Snippet Set resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
+[**\Shopware6SDK\Model\InlineResponse200273**](../Model/InlineResponse200273.md)
 
 ### Authorization
 

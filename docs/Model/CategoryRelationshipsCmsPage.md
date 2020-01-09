@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\ShopwareSDK6\Model\CategoryRelationshipsCmsPageLinks**](CategoryRelationshipsCmsPageLinks.md) |  | [optional] 
-**data** | [**\ShopwareSDK6\Model\CategoryRelationshipsCmsPageData**](CategoryRelationshipsCmsPageData.md) |  | [optional] 
+**links** | [**\Shopware6SDK\Model\CategoryRelationshipsCmsPageLinks**](CategoryRelationshipsCmsPageLinks.md) |  | [optional] 
+**data** | [**\Shopware6SDK\Model\CategoryRelationshipsCmsPageData**](CategoryRelationshipsCmsPageData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

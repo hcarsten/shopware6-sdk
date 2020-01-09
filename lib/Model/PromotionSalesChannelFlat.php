@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionSalesChannelFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,8 +62,8 @@ class PromotionSalesChannelFlat implements ModelInterface, ArrayAccess
 'priority' => 'int',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'promotion' => '\ShopwareSDK6\Model\PromotionFlat',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
+'promotion' => '\Shopware6SDK\Model\PromotionFlat',
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -400,7 +400,7 @@ class PromotionSalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion
      *
-     * @return \ShopwareSDK6\Model\PromotionFlat
+     * @return \Shopware6SDK\Model\PromotionFlat
      */
     public function getPromotion()
     {
@@ -410,7 +410,7 @@ class PromotionSalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion
      *
-     * @param \ShopwareSDK6\Model\PromotionFlat $promotion promotion
+     * @param \Shopware6SDK\Model\PromotionFlat $promotion promotion
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class PromotionSalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -434,7 +434,7 @@ class PromotionSalesChannelFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */

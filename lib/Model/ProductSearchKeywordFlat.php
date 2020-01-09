@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductSearchKeywordFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,8 +65,8 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
 'ranking' => 'float',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'product' => '\ShopwareSDK6\Model\ProductFlat',
-'language' => '\ShopwareSDK6\Model\LanguageFlat'    ];
+'product' => '\Shopware6SDK\Model\ProductFlat',
+'language' => '\Shopware6SDK\Model\LanguageFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -493,7 +493,7 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -503,7 +503,7 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $product product
+     * @param \Shopware6SDK\Model\ProductFlat $product product
      *
      * @return $this
      */
@@ -517,7 +517,7 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \ShopwareSDK6\Model\LanguageFlat
+     * @return \Shopware6SDK\Model\LanguageFlat
      */
     public function getLanguage()
     {
@@ -527,7 +527,7 @@ class ProductSearchKeywordFlat implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \ShopwareSDK6\Model\LanguageFlat $language language
+     * @param \Shopware6SDK\Model\LanguageFlat $language language
      *
      * @return $this
      */

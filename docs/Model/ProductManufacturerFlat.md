@@ -13,8 +13,8 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**products** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**media** | [**\Shopware6SDK\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**products** | [**\Shopware6SDK\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

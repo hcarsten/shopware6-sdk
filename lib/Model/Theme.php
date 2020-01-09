@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Theme Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Theme extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\ThemeAttributes',
-'links' => '\ShopwareSDK6\Model\ThemeLinks',
-'relationships' => '\ShopwareSDK6\Model\ThemeRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\ThemeAttributes',
+'links' => '\Shopware6SDK\Model\ThemeLinks',
+'relationships' => '\Shopware6SDK\Model\ThemeRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Theme extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\ThemeAttributes
+     * @return \Shopware6SDK\Model\ThemeAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Theme extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\ThemeAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\ThemeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Theme extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ThemeLinks
+     * @return \Shopware6SDK\Model\ThemeLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Theme extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ThemeLinks $links links
+     * @param \Shopware6SDK\Model\ThemeLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Theme extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\ThemeRelationships
+     * @return \Shopware6SDK\Model\ThemeRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Theme extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\ThemeRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\ThemeRelationships $relationships relationships
      *
      * @return $this
      */

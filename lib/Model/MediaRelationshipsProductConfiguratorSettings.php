@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaRelationshipsProductConfiguratorSettings Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class MediaRelationshipsProductConfiguratorSettings implements ModelInterface, A
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\MediaRelationshipsProductConfiguratorSettingsLinks',
-'data' => '\ShopwareSDK6\Model\MediaRelationshipsProductConfiguratorSettingsData[]'    ];
+        'links' => '\Shopware6SDK\Model\MediaRelationshipsProductConfiguratorSettingsLinks',
+'data' => '\Shopware6SDK\Model\MediaRelationshipsProductConfiguratorSettingsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class MediaRelationshipsProductConfiguratorSettings implements ModelInterface, A
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MediaRelationshipsProductConfiguratorSettingsLinks
+     * @return \Shopware6SDK\Model\MediaRelationshipsProductConfiguratorSettingsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class MediaRelationshipsProductConfiguratorSettings implements ModelInterface, A
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MediaRelationshipsProductConfiguratorSettingsLinks $links links
+     * @param \Shopware6SDK\Model\MediaRelationshipsProductConfiguratorSettingsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class MediaRelationshipsProductConfiguratorSettings implements ModelInterface, A
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\MediaRelationshipsProductConfiguratorSettingsData[]
+     * @return \Shopware6SDK\Model\MediaRelationshipsProductConfiguratorSettingsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class MediaRelationshipsProductConfiguratorSettings implements ModelInterface, A
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\MediaRelationshipsProductConfiguratorSettingsData[] $data data
+     * @param \Shopware6SDK\Model\MediaRelationshipsProductConfiguratorSettingsData[] $data data
      *
      * @return $this
      */

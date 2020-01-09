@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * StateMachine Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class StateMachine extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\StateMachineAttributes',
-'links' => '\ShopwareSDK6\Model\StateMachineLinks',
-'relationships' => '\ShopwareSDK6\Model\StateMachineRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\StateMachineAttributes',
+'links' => '\Shopware6SDK\Model\StateMachineLinks',
+'relationships' => '\Shopware6SDK\Model\StateMachineRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class StateMachine extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\StateMachineAttributes
+     * @return \Shopware6SDK\Model\StateMachineAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class StateMachine extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\StateMachineAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\StateMachineAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class StateMachine extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\StateMachineLinks
+     * @return \Shopware6SDK\Model\StateMachineLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class StateMachine extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\StateMachineLinks $links links
+     * @param \Shopware6SDK\Model\StateMachineLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class StateMachine extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\StateMachineRelationships
+     * @return \Shopware6SDK\Model\StateMachineRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class StateMachine extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\StateMachineRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\StateMachineRelationships $relationships relationships
      *
      * @return $this
      */

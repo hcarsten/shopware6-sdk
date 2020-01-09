@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * StateMachineTransitionFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,9 +64,9 @@ class StateMachineTransitionFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'state_machine' => '\ShopwareSDK6\Model\StateMachineFlat',
-'from_state_machine_state' => '\ShopwareSDK6\Model\StateMachineStateFlat',
-'to_state_machine_state' => '\ShopwareSDK6\Model\StateMachineStateFlat'    ];
+'state_machine' => '\Shopware6SDK\Model\StateMachineFlat',
+'from_state_machine_state' => '\Shopware6SDK\Model\StateMachineStateFlat',
+'to_state_machine_state' => '\Shopware6SDK\Model\StateMachineStateFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -469,7 +469,7 @@ class StateMachineTransitionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine
      *
-     * @return \ShopwareSDK6\Model\StateMachineFlat
+     * @return \Shopware6SDK\Model\StateMachineFlat
      */
     public function getStateMachine()
     {
@@ -479,7 +479,7 @@ class StateMachineTransitionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine
      *
-     * @param \ShopwareSDK6\Model\StateMachineFlat $state_machine state_machine
+     * @param \Shopware6SDK\Model\StateMachineFlat $state_machine state_machine
      *
      * @return $this
      */
@@ -493,7 +493,7 @@ class StateMachineTransitionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets from_state_machine_state
      *
-     * @return \ShopwareSDK6\Model\StateMachineStateFlat
+     * @return \Shopware6SDK\Model\StateMachineStateFlat
      */
     public function getFromStateMachineState()
     {
@@ -503,7 +503,7 @@ class StateMachineTransitionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets from_state_machine_state
      *
-     * @param \ShopwareSDK6\Model\StateMachineStateFlat $from_state_machine_state from_state_machine_state
+     * @param \Shopware6SDK\Model\StateMachineStateFlat $from_state_machine_state from_state_machine_state
      *
      * @return $this
      */
@@ -517,7 +517,7 @@ class StateMachineTransitionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets to_state_machine_state
      *
-     * @return \ShopwareSDK6\Model\StateMachineStateFlat
+     * @return \Shopware6SDK\Model\StateMachineStateFlat
      */
     public function getToStateMachineState()
     {
@@ -527,7 +527,7 @@ class StateMachineTransitionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets to_state_machine_state
      *
-     * @param \ShopwareSDK6\Model\StateMachineStateFlat $to_state_machine_state to_state_machine_state
+     * @param \Shopware6SDK\Model\StateMachineStateFlat $to_state_machine_state to_state_machine_state
      *
      * @return $this
      */

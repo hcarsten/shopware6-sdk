@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * NumberRangeStateRelationshipsNumberRange Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class NumberRangeStateRelationshipsNumberRange implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\NumberRangeStateRelationshipsNumberRangeLinks',
-'data' => '\ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRangeData'    ];
+        'links' => '\Shopware6SDK\Model\NumberRangeStateRelationshipsNumberRangeLinks',
+'data' => '\Shopware6SDK\Model\NumberRangeSalesChannelRelationshipsNumberRangeData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class NumberRangeStateRelationshipsNumberRange implements ModelInterface, ArrayA
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\NumberRangeStateRelationshipsNumberRangeLinks
+     * @return \Shopware6SDK\Model\NumberRangeStateRelationshipsNumberRangeLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class NumberRangeStateRelationshipsNumberRange implements ModelInterface, ArrayA
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\NumberRangeStateRelationshipsNumberRangeLinks $links links
+     * @param \Shopware6SDK\Model\NumberRangeStateRelationshipsNumberRangeLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class NumberRangeStateRelationshipsNumberRange implements ModelInterface, ArrayA
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRangeData
+     * @return \Shopware6SDK\Model\NumberRangeSalesChannelRelationshipsNumberRangeData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class NumberRangeStateRelationshipsNumberRange implements ModelInterface, ArrayA
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\NumberRangeSalesChannelRelationshipsNumberRangeData $data data
+     * @param \Shopware6SDK\Model\NumberRangeSalesChannelRelationshipsNumberRangeData $data data
      *
      * @return $this
      */

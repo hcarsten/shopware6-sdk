@@ -1,4 +1,4 @@
-# ShopwareSDK6\CmsSectionApi
+# Shopware6SDK\CmsSectionApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCmsSection**](CmsSectionApi.md#updatecmssection) | **PATCH** /cms-section/{id} | Partially update information about a Cms Section resource
 
 # **createCmsSection**
-> \ShopwareSDK6\Model\InlineResponse20018 createCmsSection($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20018 createCmsSection($body, $_response)
 
 Create a new Cms Section resources
 
@@ -22,12 +22,12 @@ Create a new Cms Section resources. All required fields must be provided in orde
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSectionApi(
+$apiInstance = new Shopware6SDK\Api\CmsSectionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body10(); // \ShopwareSDK6\Model\Body10 | 
+$body = new \Shopware6SDK\Model\Body10(); // \Shopware6SDK\Model\Body10 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body10**](../Model/Body10.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body10**](../Model/Body10.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
+[**\Shopware6SDK\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCmsSection**
-> \ShopwareSDK6\Model\InlineResponse20018 createCmsSection($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20018 createCmsSection($body, $_response)
 
 Create a new Cms Section resources
 
@@ -73,12 +73,12 @@ Create a new Cms Section resources. All required fields must be provided in orde
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSectionApi(
+$apiInstance = new Shopware6SDK\Api\CmsSectionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\CmsSectionFlat(); // \ShopwareSDK6\Model\CmsSectionFlat | 
+$body = new \Shopware6SDK\Model\CmsSectionFlat(); // \Shopware6SDK\Model\CmsSectionFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\CmsSectionFlat**](../Model/CmsSectionFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\CmsSectionFlat**](../Model/CmsSectionFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
+[**\Shopware6SDK\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Cms Section resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSectionApi(
+$apiInstance = new Shopware6SDK\Api\CmsSectionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCmsSection**
-> \ShopwareSDK6\Model\InlineResponse20018 getCmsSection($id)
+> \Shopware6SDK\Model\InlineResponse20018 getCmsSection($id)
 
 Detailed information about a Cms Section resource
 
@@ -170,7 +170,7 @@ Detailed information about a Cms Section resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSectionApi(
+$apiInstance = new Shopware6SDK\Api\CmsSectionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
+[**\Shopware6SDK\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCmsSectionList**
-> \ShopwareSDK6\Model\InlineResponse20016 getCmsSectionList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse20016 getCmsSectionList($limit, $page, $query)
 
 List with basic information of Cms Section resources
 
@@ -217,7 +217,7 @@ List with basic information of Cms Section resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSectionApi(
+$apiInstance = new Shopware6SDK\Api\CmsSectionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20016**](../Model/InlineResponse20016.md)
+[**\Shopware6SDK\Model\InlineResponse20016**](../Model/InlineResponse20016.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCmsSection**
-> \ShopwareSDK6\Model\InlineResponse20018 updateCmsSection($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20018 updateCmsSection($id, $body, $_response)
 
 Partially update information about a Cms Section resource
 
@@ -268,13 +268,13 @@ Partially update information about a Cms Section resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSectionApi(
+$apiInstance = new Shopware6SDK\Api\CmsSectionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the cms_section
-$body = new \ShopwareSDK6\Model\Body11(); // \ShopwareSDK6\Model\Body11 | Partially update information about a Cms Section resource.
+$body = new \Shopware6SDK\Model\Body11(); // \Shopware6SDK\Model\Body11 | Partially update information about a Cms Section resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the cms_section |
- **body** | [**\ShopwareSDK6\Model\Body11**](../Model/Body11.md)| Partially update information about a Cms Section resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body11**](../Model/Body11.md)| Partially update information about a Cms Section resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
+[**\Shopware6SDK\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCmsSection**
-> \ShopwareSDK6\Model\InlineResponse20018 updateCmsSection($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20018 updateCmsSection($id, $body, $_response)
 
 Partially update information about a Cms Section resource
 
@@ -319,13 +319,13 @@ Partially update information about a Cms Section resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSectionApi(
+$apiInstance = new Shopware6SDK\Api\CmsSectionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the cms_section
-$body = new \ShopwareSDK6\Model\CmsSectionFlat(); // \ShopwareSDK6\Model\CmsSectionFlat | Partially update information about a Cms Section resource.
+$body = new \Shopware6SDK\Model\CmsSectionFlat(); // \Shopware6SDK\Model\CmsSectionFlat | Partially update information about a Cms Section resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the cms_section |
- **body** | [**\ShopwareSDK6\Model\CmsSectionFlat**](../Model/CmsSectionFlat.md)| Partially update information about a Cms Section resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\CmsSectionFlat**](../Model/CmsSectionFlat.md)| Partially update information about a Cms Section resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
+[**\Shopware6SDK\Model\InlineResponse20018**](../Model/InlineResponse20018.md)
 
 ### Authorization
 

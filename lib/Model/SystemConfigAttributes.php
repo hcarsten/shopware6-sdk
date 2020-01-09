@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SystemConfigAttributes Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class SystemConfigAttributes implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'configuration_key' => 'string',
-'configuration_value' => '\ShopwareSDK6\Model\SystemConfigAttributesConfigurationValue',
+'configuration_value' => '\Shopware6SDK\Model\SystemConfigAttributesConfigurationValue',
 'sales_channel_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime'    ];
@@ -259,7 +259,7 @@ class SystemConfigAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets configuration_value
      *
-     * @return \ShopwareSDK6\Model\SystemConfigAttributesConfigurationValue
+     * @return \Shopware6SDK\Model\SystemConfigAttributesConfigurationValue
      */
     public function getConfigurationValue()
     {
@@ -269,7 +269,7 @@ class SystemConfigAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets configuration_value
      *
-     * @param \ShopwareSDK6\Model\SystemConfigAttributesConfigurationValue $configuration_value configuration_value
+     * @param \Shopware6SDK\Model\SystemConfigAttributesConfigurationValue $configuration_value configuration_value
      *
      * @return $this
      */

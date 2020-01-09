@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CmsPageAttributes Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class CmsPageAttributes implements ModelInterface, ArrayAccess
         'name' => 'string',
 'type' => 'string',
 'entity' => 'string',
-'config' => '\ShopwareSDK6\Model\CmsPageAttributesConfig',
+'config' => '\Shopware6SDK\Model\CmsPageAttributesConfig',
 'preview_media_id' => 'string',
 'custom_fields' => 'object',
 'locked' => 'bool',
@@ -337,7 +337,7 @@ class CmsPageAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets config
      *
-     * @return \ShopwareSDK6\Model\CmsPageAttributesConfig
+     * @return \Shopware6SDK\Model\CmsPageAttributesConfig
      */
     public function getConfig()
     {
@@ -347,7 +347,7 @@ class CmsPageAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets config
      *
-     * @param \ShopwareSDK6\Model\CmsPageAttributesConfig $config config
+     * @param \Shopware6SDK\Model\CmsPageAttributesConfig $config config
      *
      * @return $this
      */

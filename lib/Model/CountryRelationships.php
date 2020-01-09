@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CountryRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,12 +56,12 @@ class CountryRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'states' => '\ShopwareSDK6\Model\CountryRelationshipsStates',
-'customer_addresses' => '\ShopwareSDK6\Model\CountryRelationshipsCustomerAddresses',
-'order_addresses' => '\ShopwareSDK6\Model\CountryRelationshipsOrderAddresses',
-'sales_channel_default_assignments' => '\ShopwareSDK6\Model\CountryRelationshipsSalesChannelDefaultAssignments',
-'sales_channels' => '\ShopwareSDK6\Model\CountryRelationshipsSalesChannels',
-'tax_rules' => '\ShopwareSDK6\Model\CountryRelationshipsTaxRules'    ];
+        'states' => '\Shopware6SDK\Model\CountryRelationshipsStates',
+'customer_addresses' => '\Shopware6SDK\Model\CountryRelationshipsCustomerAddresses',
+'order_addresses' => '\Shopware6SDK\Model\CountryRelationshipsOrderAddresses',
+'sales_channel_default_assignments' => '\Shopware6SDK\Model\CountryRelationshipsSalesChannelDefaultAssignments',
+'sales_channels' => '\Shopware6SDK\Model\CountryRelationshipsSalesChannels',
+'tax_rules' => '\Shopware6SDK\Model\CountryRelationshipsTaxRules'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -229,7 +229,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets states
      *
-     * @return \ShopwareSDK6\Model\CountryRelationshipsStates
+     * @return \Shopware6SDK\Model\CountryRelationshipsStates
      */
     public function getStates()
     {
@@ -239,7 +239,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets states
      *
-     * @param \ShopwareSDK6\Model\CountryRelationshipsStates $states states
+     * @param \Shopware6SDK\Model\CountryRelationshipsStates $states states
      *
      * @return $this
      */
@@ -253,7 +253,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customer_addresses
      *
-     * @return \ShopwareSDK6\Model\CountryRelationshipsCustomerAddresses
+     * @return \Shopware6SDK\Model\CountryRelationshipsCustomerAddresses
      */
     public function getCustomerAddresses()
     {
@@ -263,7 +263,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customer_addresses
      *
-     * @param \ShopwareSDK6\Model\CountryRelationshipsCustomerAddresses $customer_addresses customer_addresses
+     * @param \Shopware6SDK\Model\CountryRelationshipsCustomerAddresses $customer_addresses customer_addresses
      *
      * @return $this
      */
@@ -277,7 +277,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_addresses
      *
-     * @return \ShopwareSDK6\Model\CountryRelationshipsOrderAddresses
+     * @return \Shopware6SDK\Model\CountryRelationshipsOrderAddresses
      */
     public function getOrderAddresses()
     {
@@ -287,7 +287,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_addresses
      *
-     * @param \ShopwareSDK6\Model\CountryRelationshipsOrderAddresses $order_addresses order_addresses
+     * @param \Shopware6SDK\Model\CountryRelationshipsOrderAddresses $order_addresses order_addresses
      *
      * @return $this
      */
@@ -301,7 +301,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \ShopwareSDK6\Model\CountryRelationshipsSalesChannelDefaultAssignments
+     * @return \Shopware6SDK\Model\CountryRelationshipsSalesChannelDefaultAssignments
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -311,7 +311,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \ShopwareSDK6\Model\CountryRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \Shopware6SDK\Model\CountryRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\CountryRelationshipsSalesChannels
+     * @return \Shopware6SDK\Model\CountryRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -335,7 +335,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\CountryRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\CountryRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */
@@ -349,7 +349,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tax_rules
      *
-     * @return \ShopwareSDK6\Model\CountryRelationshipsTaxRules
+     * @return \Shopware6SDK\Model\CountryRelationshipsTaxRules
      */
     public function getTaxRules()
     {
@@ -359,7 +359,7 @@ class CountryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tax_rules
      *
-     * @param \ShopwareSDK6\Model\CountryRelationshipsTaxRules $tax_rules tax_rules
+     * @param \Shopware6SDK\Model\CountryRelationshipsTaxRules $tax_rules tax_rules
      *
      * @return $this
      */

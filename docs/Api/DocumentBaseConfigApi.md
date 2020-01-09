@@ -1,4 +1,4 @@
-# ShopwareSDK6\DocumentBaseConfigApi
+# Shopware6SDK\DocumentBaseConfigApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateDocumentBaseConfig**](DocumentBaseConfigApi.md#updatedocumentbaseconfig) | **PATCH** /document-base-config/{id} | Partially update information about a Document Base Config resource
 
 # **createDocumentBaseConfig**
-> \ShopwareSDK6\Model\InlineResponse20063 createDocumentBaseConfig($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20063 createDocumentBaseConfig($body, $_response)
 
 Create a new Document Base Config resources
 
@@ -22,12 +22,12 @@ Create a new Document Base Config resources. All required fields must be provide
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\DocumentBaseConfigApi(
+$apiInstance = new Shopware6SDK\Api\DocumentBaseConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body40(); // \ShopwareSDK6\Model\Body40 | 
+$body = new \Shopware6SDK\Model\Body40(); // \Shopware6SDK\Model\Body40 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body40**](../Model/Body40.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body40**](../Model/Body40.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
+[**\Shopware6SDK\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createDocumentBaseConfig**
-> \ShopwareSDK6\Model\InlineResponse20063 createDocumentBaseConfig($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20063 createDocumentBaseConfig($body, $_response)
 
 Create a new Document Base Config resources
 
@@ -73,12 +73,12 @@ Create a new Document Base Config resources. All required fields must be provide
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\DocumentBaseConfigApi(
+$apiInstance = new Shopware6SDK\Api\DocumentBaseConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\DocumentBaseConfigFlat(); // \ShopwareSDK6\Model\DocumentBaseConfigFlat | 
+$body = new \Shopware6SDK\Model\DocumentBaseConfigFlat(); // \Shopware6SDK\Model\DocumentBaseConfigFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\DocumentBaseConfigFlat**](../Model/DocumentBaseConfigFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\DocumentBaseConfigFlat**](../Model/DocumentBaseConfigFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
+[**\Shopware6SDK\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Document Base Config resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\DocumentBaseConfigApi(
+$apiInstance = new Shopware6SDK\Api\DocumentBaseConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDocumentBaseConfig**
-> \ShopwareSDK6\Model\InlineResponse20063 getDocumentBaseConfig($id)
+> \Shopware6SDK\Model\InlineResponse20063 getDocumentBaseConfig($id)
 
 Detailed information about a Document Base Config resource
 
@@ -170,7 +170,7 @@ Detailed information about a Document Base Config resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\DocumentBaseConfigApi(
+$apiInstance = new Shopware6SDK\Api\DocumentBaseConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
+[**\Shopware6SDK\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDocumentBaseConfigList**
-> \ShopwareSDK6\Model\InlineResponse20061 getDocumentBaseConfigList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse20061 getDocumentBaseConfigList($limit, $page, $query)
 
 List with basic information of Document Base Config resources
 
@@ -217,7 +217,7 @@ List with basic information of Document Base Config resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\DocumentBaseConfigApi(
+$apiInstance = new Shopware6SDK\Api\DocumentBaseConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20061**](../Model/InlineResponse20061.md)
+[**\Shopware6SDK\Model\InlineResponse20061**](../Model/InlineResponse20061.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDocumentBaseConfig**
-> \ShopwareSDK6\Model\InlineResponse20063 updateDocumentBaseConfig($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20063 updateDocumentBaseConfig($id, $body, $_response)
 
 Partially update information about a Document Base Config resource
 
@@ -268,13 +268,13 @@ Partially update information about a Document Base Config resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\DocumentBaseConfigApi(
+$apiInstance = new Shopware6SDK\Api\DocumentBaseConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the document_base_config
-$body = new \ShopwareSDK6\Model\Body41(); // \ShopwareSDK6\Model\Body41 | Partially update information about a Document Base Config resource.
+$body = new \Shopware6SDK\Model\Body41(); // \Shopware6SDK\Model\Body41 | Partially update information about a Document Base Config resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the document_base_config |
- **body** | [**\ShopwareSDK6\Model\Body41**](../Model/Body41.md)| Partially update information about a Document Base Config resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body41**](../Model/Body41.md)| Partially update information about a Document Base Config resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
+[**\Shopware6SDK\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateDocumentBaseConfig**
-> \ShopwareSDK6\Model\InlineResponse20063 updateDocumentBaseConfig($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20063 updateDocumentBaseConfig($id, $body, $_response)
 
 Partially update information about a Document Base Config resource
 
@@ -319,13 +319,13 @@ Partially update information about a Document Base Config resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\DocumentBaseConfigApi(
+$apiInstance = new Shopware6SDK\Api\DocumentBaseConfigApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the document_base_config
-$body = new \ShopwareSDK6\Model\DocumentBaseConfigFlat(); // \ShopwareSDK6\Model\DocumentBaseConfigFlat | Partially update information about a Document Base Config resource.
+$body = new \Shopware6SDK\Model\DocumentBaseConfigFlat(); // \Shopware6SDK\Model\DocumentBaseConfigFlat | Partially update information about a Document Base Config resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the document_base_config |
- **body** | [**\ShopwareSDK6\Model\DocumentBaseConfigFlat**](../Model/DocumentBaseConfigFlat.md)| Partially update information about a Document Base Config resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\DocumentBaseConfigFlat**](../Model/DocumentBaseConfigFlat.md)| Partially update information about a Document Base Config resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
+[**\Shopware6SDK\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
 
 ### Authorization
 

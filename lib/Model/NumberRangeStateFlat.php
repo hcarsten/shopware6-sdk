@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * NumberRangeStateFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,7 +61,7 @@ class NumberRangeStateFlat implements ModelInterface, ArrayAccess
 'last_value' => 'int',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'number_range' => '\ShopwareSDK6\Model\NumberRangeFlat'    ];
+'number_range' => '\Shopware6SDK\Model\NumberRangeFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -361,7 +361,7 @@ class NumberRangeStateFlat implements ModelInterface, ArrayAccess
     /**
      * Gets number_range
      *
-     * @return \ShopwareSDK6\Model\NumberRangeFlat
+     * @return \Shopware6SDK\Model\NumberRangeFlat
      */
     public function getNumberRange()
     {
@@ -371,7 +371,7 @@ class NumberRangeStateFlat implements ModelInterface, ArrayAccess
     /**
      * Sets number_range
      *
-     * @param \ShopwareSDK6\Model\NumberRangeFlat $number_range number_range
+     * @param \Shopware6SDK\Model\NumberRangeFlat $number_range number_range
      *
      * @return $this
      */

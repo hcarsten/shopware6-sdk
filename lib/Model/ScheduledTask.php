@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ScheduledTask Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ScheduledTask extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\ScheduledTaskAttributes',
-'links' => '\ShopwareSDK6\Model\ScheduledTaskLinks',
-'relationships' => '\ShopwareSDK6\Model\ScheduledTaskRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\ScheduledTaskAttributes',
+'links' => '\Shopware6SDK\Model\ScheduledTaskLinks',
+'relationships' => '\Shopware6SDK\Model\ScheduledTaskRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ScheduledTask extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\ScheduledTaskAttributes
+     * @return \Shopware6SDK\Model\ScheduledTaskAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ScheduledTask extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\ScheduledTaskAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\ScheduledTaskAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ScheduledTask extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ScheduledTaskLinks
+     * @return \Shopware6SDK\Model\ScheduledTaskLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ScheduledTask extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ScheduledTaskLinks $links links
+     * @param \Shopware6SDK\Model\ScheduledTaskLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ScheduledTask extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\ScheduledTaskRelationships
+     * @return \Shopware6SDK\Model\ScheduledTaskRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ScheduledTask extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\ScheduledTaskRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\ScheduledTaskRelationships $relationships relationships
      *
      * @return $this
      */

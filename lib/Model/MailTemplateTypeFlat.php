@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplateTypeFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,8 +64,8 @@ class MailTemplateTypeFlat implements ModelInterface, ArrayAccess
 'updated_at' => '\DateTime',
 'custom_fields' => 'object',
 'translated' => 'object',
-'mail_templates' => '\ShopwareSDK6\Model\MailTemplateFlat',
-'sales_channels' => '\ShopwareSDK6\Model\MailTemplateSalesChannelFlat'    ];
+'mail_templates' => '\Shopware6SDK\Model\MailTemplateFlat',
+'sales_channels' => '\Shopware6SDK\Model\MailTemplateSalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -457,7 +457,7 @@ class MailTemplateTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets mail_templates
      *
-     * @return \ShopwareSDK6\Model\MailTemplateFlat
+     * @return \Shopware6SDK\Model\MailTemplateFlat
      */
     public function getMailTemplates()
     {
@@ -467,7 +467,7 @@ class MailTemplateTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets mail_templates
      *
-     * @param \ShopwareSDK6\Model\MailTemplateFlat $mail_templates mail_templates
+     * @param \Shopware6SDK\Model\MailTemplateFlat $mail_templates mail_templates
      *
      * @return $this
      */
@@ -481,7 +481,7 @@ class MailTemplateTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\MailTemplateSalesChannelFlat
+     * @return \Shopware6SDK\Model\MailTemplateSalesChannelFlat
      */
     public function getSalesChannels()
     {
@@ -491,7 +491,7 @@ class MailTemplateTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\MailTemplateSalesChannelFlat $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\MailTemplateSalesChannelFlat $sales_channels sales_channels
      *
      * @return $this
      */

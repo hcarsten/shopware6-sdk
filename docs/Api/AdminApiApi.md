@@ -1,4 +1,4 @@
-# ShopwareSDK6\AdminApiApi
+# Shopware6SDK\AdminApiApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -7,7 +7,7 @@ Method | HTTP request | Description
 [**compositeSearch**](AdminApiApi.md#compositesearch) | **GET** /_search | 
 
 # **compositeSearch**
-> \ShopwareSDK6\Model\InlineResponse200[] compositeSearch($term, $limit)
+> \Shopware6SDK\Model\InlineResponse200[] compositeSearch($term, $limit)
 
 
 
@@ -18,7 +18,7 @@ Search for multiple entites by a given term
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\AdminApiApi(
+$apiInstance = new Shopware6SDK\Api\AdminApiApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -44,7 +44,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200[]**](../Model/InlineResponse200.md)
+[**\Shopware6SDK\Model\InlineResponse200[]**](../Model/InlineResponse200.md)
 
 ### Authorization
 

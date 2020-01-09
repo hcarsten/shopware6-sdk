@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * AclRoleFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,8 +60,8 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'name' => 'string',
-'acl_resources' => '\ShopwareSDK6\Model\AclResourceFlat',
-'users' => '\ShopwareSDK6\Model\UserFlat'    ];
+'acl_resources' => '\Shopware6SDK\Model\AclResourceFlat',
+'users' => '\Shopware6SDK\Model\UserFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -334,7 +334,7 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets acl_resources
      *
-     * @return \ShopwareSDK6\Model\AclResourceFlat
+     * @return \Shopware6SDK\Model\AclResourceFlat
      */
     public function getAclResources()
     {
@@ -344,7 +344,7 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets acl_resources
      *
-     * @param \ShopwareSDK6\Model\AclResourceFlat $acl_resources acl_resources
+     * @param \Shopware6SDK\Model\AclResourceFlat $acl_resources acl_resources
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Gets users
      *
-     * @return \ShopwareSDK6\Model\UserFlat
+     * @return \Shopware6SDK\Model\UserFlat
      */
     public function getUsers()
     {
@@ -368,7 +368,7 @@ class AclRoleFlat implements ModelInterface, ArrayAccess
     /**
      * Sets users
      *
-     * @param \ShopwareSDK6\Model\UserFlat $users users
+     * @param \Shopware6SDK\Model\UserFlat $users users
      *
      * @return $this
      */

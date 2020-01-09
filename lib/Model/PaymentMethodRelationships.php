@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PaymentMethodRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,13 +56,13 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'media' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsMedia',
-'availability_rule' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsAvailabilityRule',
-'sales_channel_default_assignments' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannelDefaultAssignments',
-'plugin' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsPlugin',
-'customers' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsCustomers',
-'order_transactions' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsOrderTransactions',
-'sales_channels' => '\ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannels'    ];
+        'media' => '\Shopware6SDK\Model\PaymentMethodRelationshipsMedia',
+'availability_rule' => '\Shopware6SDK\Model\PaymentMethodRelationshipsAvailabilityRule',
+'sales_channel_default_assignments' => '\Shopware6SDK\Model\PaymentMethodRelationshipsSalesChannelDefaultAssignments',
+'plugin' => '\Shopware6SDK\Model\PaymentMethodRelationshipsPlugin',
+'customers' => '\Shopware6SDK\Model\PaymentMethodRelationshipsCustomers',
+'order_transactions' => '\Shopware6SDK\Model\PaymentMethodRelationshipsOrderTransactions',
+'sales_channels' => '\Shopware6SDK\Model\PaymentMethodRelationshipsSalesChannels'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -235,7 +235,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsMedia
+     * @return \Shopware6SDK\Model\PaymentMethodRelationshipsMedia
      */
     public function getMedia()
     {
@@ -245,7 +245,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\PaymentMethodRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets availability_rule
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsAvailabilityRule
+     * @return \Shopware6SDK\Model\PaymentMethodRelationshipsAvailabilityRule
      */
     public function getAvailabilityRule()
     {
@@ -269,7 +269,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets availability_rule
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsAvailabilityRule $availability_rule availability_rule
+     * @param \Shopware6SDK\Model\PaymentMethodRelationshipsAvailabilityRule $availability_rule availability_rule
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_default_assignments
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannelDefaultAssignments
+     * @return \Shopware6SDK\Model\PaymentMethodRelationshipsSalesChannelDefaultAssignments
      */
     public function getSalesChannelDefaultAssignments()
     {
@@ -293,7 +293,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_default_assignments
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
+     * @param \Shopware6SDK\Model\PaymentMethodRelationshipsSalesChannelDefaultAssignments $sales_channel_default_assignments sales_channel_default_assignments
      *
      * @return $this
      */
@@ -307,7 +307,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets plugin
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsPlugin
+     * @return \Shopware6SDK\Model\PaymentMethodRelationshipsPlugin
      */
     public function getPlugin()
     {
@@ -317,7 +317,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets plugin
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsPlugin $plugin plugin
+     * @param \Shopware6SDK\Model\PaymentMethodRelationshipsPlugin $plugin plugin
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsCustomers
+     * @return \Shopware6SDK\Model\PaymentMethodRelationshipsCustomers
      */
     public function getCustomers()
     {
@@ -341,7 +341,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsCustomers $customers customers
+     * @param \Shopware6SDK\Model\PaymentMethodRelationshipsCustomers $customers customers
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_transactions
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsOrderTransactions
+     * @return \Shopware6SDK\Model\PaymentMethodRelationshipsOrderTransactions
      */
     public function getOrderTransactions()
     {
@@ -365,7 +365,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_transactions
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsOrderTransactions $order_transactions order_transactions
+     * @param \Shopware6SDK\Model\PaymentMethodRelationshipsOrderTransactions $order_transactions order_transactions
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannels
+     * @return \Shopware6SDK\Model\PaymentMethodRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -389,7 +389,7 @@ class PaymentMethodRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\PaymentMethodRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */

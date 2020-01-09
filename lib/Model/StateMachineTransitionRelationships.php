@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * StateMachineTransitionRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'state_machine' => '\ShopwareSDK6\Model\StateMachineTransitionRelationshipsStateMachine',
-'from_state_machine_state' => '\ShopwareSDK6\Model\StateMachineTransitionRelationshipsFromStateMachineState',
-'to_state_machine_state' => '\ShopwareSDK6\Model\StateMachineTransitionRelationshipsToStateMachineState'    ];
+        'state_machine' => '\Shopware6SDK\Model\StateMachineTransitionRelationshipsStateMachine',
+'from_state_machine_state' => '\Shopware6SDK\Model\StateMachineTransitionRelationshipsFromStateMachineState',
+'to_state_machine_state' => '\Shopware6SDK\Model\StateMachineTransitionRelationshipsToStateMachineState'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine
      *
-     * @return \ShopwareSDK6\Model\StateMachineTransitionRelationshipsStateMachine
+     * @return \Shopware6SDK\Model\StateMachineTransitionRelationshipsStateMachine
      */
     public function getStateMachine()
     {
@@ -221,7 +221,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine
      *
-     * @param \ShopwareSDK6\Model\StateMachineTransitionRelationshipsStateMachine $state_machine state_machine
+     * @param \Shopware6SDK\Model\StateMachineTransitionRelationshipsStateMachine $state_machine state_machine
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets from_state_machine_state
      *
-     * @return \ShopwareSDK6\Model\StateMachineTransitionRelationshipsFromStateMachineState
+     * @return \Shopware6SDK\Model\StateMachineTransitionRelationshipsFromStateMachineState
      */
     public function getFromStateMachineState()
     {
@@ -245,7 +245,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets from_state_machine_state
      *
-     * @param \ShopwareSDK6\Model\StateMachineTransitionRelationshipsFromStateMachineState $from_state_machine_state from_state_machine_state
+     * @param \Shopware6SDK\Model\StateMachineTransitionRelationshipsFromStateMachineState $from_state_machine_state from_state_machine_state
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets to_state_machine_state
      *
-     * @return \ShopwareSDK6\Model\StateMachineTransitionRelationshipsToStateMachineState
+     * @return \Shopware6SDK\Model\StateMachineTransitionRelationshipsToStateMachineState
      */
     public function getToStateMachineState()
     {
@@ -269,7 +269,7 @@ class StateMachineTransitionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets to_state_machine_state
      *
-     * @param \ShopwareSDK6\Model\StateMachineTransitionRelationshipsToStateMachineState $to_state_machine_state to_state_machine_state
+     * @param \Shopware6SDK\Model\StateMachineTransitionRelationshipsToStateMachineState $to_state_machine_state to_state_machine_state
      *
      * @return $this
      */

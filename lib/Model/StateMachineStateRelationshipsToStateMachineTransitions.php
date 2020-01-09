@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * StateMachineStateRelationshipsToStateMachineTransitions Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class StateMachineStateRelationshipsToStateMachineTransitions implements ModelIn
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineTransitionsLinks',
-'data' => '\ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineTransitionsData[]'    ];
+        'links' => '\Shopware6SDK\Model\StateMachineStateRelationshipsToStateMachineTransitionsLinks',
+'data' => '\Shopware6SDK\Model\StateMachineStateRelationshipsToStateMachineTransitionsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class StateMachineStateRelationshipsToStateMachineTransitions implements ModelIn
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineTransitionsLinks
+     * @return \Shopware6SDK\Model\StateMachineStateRelationshipsToStateMachineTransitionsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class StateMachineStateRelationshipsToStateMachineTransitions implements ModelIn
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineTransitionsLinks $links links
+     * @param \Shopware6SDK\Model\StateMachineStateRelationshipsToStateMachineTransitionsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class StateMachineStateRelationshipsToStateMachineTransitions implements ModelIn
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineTransitionsData[]
+     * @return \Shopware6SDK\Model\StateMachineStateRelationshipsToStateMachineTransitionsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class StateMachineStateRelationshipsToStateMachineTransitions implements ModelIn
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\StateMachineStateRelationshipsToStateMachineTransitionsData[] $data data
+     * @param \Shopware6SDK\Model\StateMachineStateRelationshipsToStateMachineTransitionsData[] $data data
      *
      * @return $this
      */

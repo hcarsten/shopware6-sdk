@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductPriceRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductPriceRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\ShopwareSDK6\Model\ProductPriceRelationshipsProduct',
-'rule' => '\ShopwareSDK6\Model\ProductPriceRelationshipsRule'    ];
+        'product' => '\Shopware6SDK\Model\ProductPriceRelationshipsProduct',
+'rule' => '\Shopware6SDK\Model\ProductPriceRelationshipsRule'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductPriceRelationshipsProduct
+     * @return \Shopware6SDK\Model\ProductPriceRelationshipsProduct
      */
     public function getProduct()
     {
@@ -215,7 +215,7 @@ class ProductPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductPriceRelationshipsProduct $product product
+     * @param \Shopware6SDK\Model\ProductPriceRelationshipsProduct $product product
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets rule
      *
-     * @return \ShopwareSDK6\Model\ProductPriceRelationshipsRule
+     * @return \Shopware6SDK\Model\ProductPriceRelationshipsRule
      */
     public function getRule()
     {
@@ -239,7 +239,7 @@ class ProductPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets rule
      *
-     * @param \ShopwareSDK6\Model\ProductPriceRelationshipsRule $rule rule
+     * @param \Shopware6SDK\Model\ProductPriceRelationshipsRule $rule rule
      *
      * @return $this
      */

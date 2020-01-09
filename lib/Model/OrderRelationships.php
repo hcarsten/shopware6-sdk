@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,17 +56,17 @@ class OrderRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'state_machine_state' => '\ShopwareSDK6\Model\OrderRelationshipsStateMachineState',
-'order_customer' => '\ShopwareSDK6\Model\OrderRelationshipsOrderCustomer',
-'currency' => '\ShopwareSDK6\Model\OrderRelationshipsCurrency',
-'language' => '\ShopwareSDK6\Model\OrderRelationshipsLanguage',
-'sales_channel' => '\ShopwareSDK6\Model\OrderRelationshipsSalesChannel',
-'addresses' => '\ShopwareSDK6\Model\OrderRelationshipsAddresses',
-'deliveries' => '\ShopwareSDK6\Model\OrderRelationshipsDeliveries',
-'line_items' => '\ShopwareSDK6\Model\OrderRelationshipsLineItems',
-'transactions' => '\ShopwareSDK6\Model\OrderRelationshipsTransactions',
-'documents' => '\ShopwareSDK6\Model\OrderRelationshipsDocuments',
-'tags' => '\ShopwareSDK6\Model\OrderRelationshipsTags'    ];
+        'state_machine_state' => '\Shopware6SDK\Model\OrderRelationshipsStateMachineState',
+'order_customer' => '\Shopware6SDK\Model\OrderRelationshipsOrderCustomer',
+'currency' => '\Shopware6SDK\Model\OrderRelationshipsCurrency',
+'language' => '\Shopware6SDK\Model\OrderRelationshipsLanguage',
+'sales_channel' => '\Shopware6SDK\Model\OrderRelationshipsSalesChannel',
+'addresses' => '\Shopware6SDK\Model\OrderRelationshipsAddresses',
+'deliveries' => '\Shopware6SDK\Model\OrderRelationshipsDeliveries',
+'line_items' => '\Shopware6SDK\Model\OrderRelationshipsLineItems',
+'transactions' => '\Shopware6SDK\Model\OrderRelationshipsTransactions',
+'documents' => '\Shopware6SDK\Model\OrderRelationshipsDocuments',
+'tags' => '\Shopware6SDK\Model\OrderRelationshipsTags'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -259,7 +259,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine_state
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsStateMachineState
+     * @return \Shopware6SDK\Model\OrderRelationshipsStateMachineState
      */
     public function getStateMachineState()
     {
@@ -269,7 +269,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine_state
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsStateMachineState $state_machine_state state_machine_state
+     * @param \Shopware6SDK\Model\OrderRelationshipsStateMachineState $state_machine_state state_machine_state
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_customer
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsOrderCustomer
+     * @return \Shopware6SDK\Model\OrderRelationshipsOrderCustomer
      */
     public function getOrderCustomer()
     {
@@ -293,7 +293,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_customer
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsOrderCustomer $order_customer order_customer
+     * @param \Shopware6SDK\Model\OrderRelationshipsOrderCustomer $order_customer order_customer
      *
      * @return $this
      */
@@ -307,7 +307,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsCurrency
+     * @return \Shopware6SDK\Model\OrderRelationshipsCurrency
      */
     public function getCurrency()
     {
@@ -317,7 +317,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsCurrency $currency currency
+     * @param \Shopware6SDK\Model\OrderRelationshipsCurrency $currency currency
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsLanguage
+     * @return \Shopware6SDK\Model\OrderRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -341,7 +341,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsLanguage $language language
+     * @param \Shopware6SDK\Model\OrderRelationshipsLanguage $language language
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsSalesChannel
+     * @return \Shopware6SDK\Model\OrderRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -365,7 +365,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\OrderRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets addresses
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsAddresses
+     * @return \Shopware6SDK\Model\OrderRelationshipsAddresses
      */
     public function getAddresses()
     {
@@ -389,7 +389,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets addresses
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsAddresses $addresses addresses
+     * @param \Shopware6SDK\Model\OrderRelationshipsAddresses $addresses addresses
      *
      * @return $this
      */
@@ -403,7 +403,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets deliveries
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsDeliveries
+     * @return \Shopware6SDK\Model\OrderRelationshipsDeliveries
      */
     public function getDeliveries()
     {
@@ -413,7 +413,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets deliveries
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsDeliveries $deliveries deliveries
+     * @param \Shopware6SDK\Model\OrderRelationshipsDeliveries $deliveries deliveries
      *
      * @return $this
      */
@@ -427,7 +427,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets line_items
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsLineItems
+     * @return \Shopware6SDK\Model\OrderRelationshipsLineItems
      */
     public function getLineItems()
     {
@@ -437,7 +437,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets line_items
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsLineItems $line_items line_items
+     * @param \Shopware6SDK\Model\OrderRelationshipsLineItems $line_items line_items
      *
      * @return $this
      */
@@ -451,7 +451,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets transactions
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsTransactions
+     * @return \Shopware6SDK\Model\OrderRelationshipsTransactions
      */
     public function getTransactions()
     {
@@ -461,7 +461,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets transactions
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsTransactions $transactions transactions
+     * @param \Shopware6SDK\Model\OrderRelationshipsTransactions $transactions transactions
      *
      * @return $this
      */
@@ -475,7 +475,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsDocuments
+     * @return \Shopware6SDK\Model\OrderRelationshipsDocuments
      */
     public function getDocuments()
     {
@@ -485,7 +485,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsDocuments $documents documents
+     * @param \Shopware6SDK\Model\OrderRelationshipsDocuments $documents documents
      *
      * @return $this
      */
@@ -499,7 +499,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \ShopwareSDK6\Model\OrderRelationshipsTags
+     * @return \Shopware6SDK\Model\OrderRelationshipsTags
      */
     public function getTags()
     {
@@ -509,7 +509,7 @@ class OrderRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \ShopwareSDK6\Model\OrderRelationshipsTags $tags tags
+     * @param \Shopware6SDK\Model\OrderRelationshipsTags $tags tags
      *
      * @return $this
      */

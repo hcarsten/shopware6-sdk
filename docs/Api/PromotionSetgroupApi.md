@@ -1,4 +1,4 @@
-# ShopwareSDK6\PromotionSetgroupApi
+# Shopware6SDK\PromotionSetgroupApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updatePromotionSetgroup**](PromotionSetgroupApi.md#updatepromotionsetgroup) | **PATCH** /promotion-setgroup/{id} | Partially update information about a Promotion Setgroup resource
 
 # **createPromotionSetgroup**
-> \ShopwareSDK6\Model\InlineResponse200228 createPromotionSetgroup($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200228 createPromotionSetgroup($body, $_response)
 
 Create a new Promotion Setgroup resources
 
@@ -22,12 +22,12 @@ Create a new Promotion Setgroup resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionSetgroupApi(
+$apiInstance = new Shopware6SDK\Api\PromotionSetgroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body150(); // \ShopwareSDK6\Model\Body150 | 
+$body = new \Shopware6SDK\Model\Body150(); // \Shopware6SDK\Model\Body150 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body150**](../Model/Body150.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body150**](../Model/Body150.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
+[**\Shopware6SDK\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createPromotionSetgroup**
-> \ShopwareSDK6\Model\InlineResponse200228 createPromotionSetgroup($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200228 createPromotionSetgroup($body, $_response)
 
 Create a new Promotion Setgroup resources
 
@@ -73,12 +73,12 @@ Create a new Promotion Setgroup resources. All required fields must be provided 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionSetgroupApi(
+$apiInstance = new Shopware6SDK\Api\PromotionSetgroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\PromotionSetgroupFlat(); // \ShopwareSDK6\Model\PromotionSetgroupFlat | 
+$body = new \Shopware6SDK\Model\PromotionSetgroupFlat(); // \Shopware6SDK\Model\PromotionSetgroupFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\PromotionSetgroupFlat**](../Model/PromotionSetgroupFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\PromotionSetgroupFlat**](../Model/PromotionSetgroupFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
+[**\Shopware6SDK\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Promotion Setgroup resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionSetgroupApi(
+$apiInstance = new Shopware6SDK\Api\PromotionSetgroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPromotionSetgroup**
-> \ShopwareSDK6\Model\InlineResponse200228 getPromotionSetgroup($id)
+> \Shopware6SDK\Model\InlineResponse200228 getPromotionSetgroup($id)
 
 Detailed information about a Promotion Setgroup resource
 
@@ -170,7 +170,7 @@ Detailed information about a Promotion Setgroup resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionSetgroupApi(
+$apiInstance = new Shopware6SDK\Api\PromotionSetgroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
+[**\Shopware6SDK\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPromotionSetgroupList**
-> \ShopwareSDK6\Model\InlineResponse200226 getPromotionSetgroupList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200226 getPromotionSetgroupList($limit, $page, $query)
 
 List with basic information of Promotion Setgroup resources
 
@@ -217,7 +217,7 @@ List with basic information of Promotion Setgroup resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionSetgroupApi(
+$apiInstance = new Shopware6SDK\Api\PromotionSetgroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200226**](../Model/InlineResponse200226.md)
+[**\Shopware6SDK\Model\InlineResponse200226**](../Model/InlineResponse200226.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePromotionSetgroup**
-> \ShopwareSDK6\Model\InlineResponse200228 updatePromotionSetgroup($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200228 updatePromotionSetgroup($id, $body, $_response)
 
 Partially update information about a Promotion Setgroup resource
 
@@ -268,13 +268,13 @@ Partially update information about a Promotion Setgroup resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionSetgroupApi(
+$apiInstance = new Shopware6SDK\Api\PromotionSetgroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the promotion_setgroup
-$body = new \ShopwareSDK6\Model\Body151(); // \ShopwareSDK6\Model\Body151 | Partially update information about a Promotion Setgroup resource.
+$body = new \Shopware6SDK\Model\Body151(); // \Shopware6SDK\Model\Body151 | Partially update information about a Promotion Setgroup resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the promotion_setgroup |
- **body** | [**\ShopwareSDK6\Model\Body151**](../Model/Body151.md)| Partially update information about a Promotion Setgroup resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body151**](../Model/Body151.md)| Partially update information about a Promotion Setgroup resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
+[**\Shopware6SDK\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePromotionSetgroup**
-> \ShopwareSDK6\Model\InlineResponse200228 updatePromotionSetgroup($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200228 updatePromotionSetgroup($id, $body, $_response)
 
 Partially update information about a Promotion Setgroup resource
 
@@ -319,13 +319,13 @@ Partially update information about a Promotion Setgroup resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PromotionSetgroupApi(
+$apiInstance = new Shopware6SDK\Api\PromotionSetgroupApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the promotion_setgroup
-$body = new \ShopwareSDK6\Model\PromotionSetgroupFlat(); // \ShopwareSDK6\Model\PromotionSetgroupFlat | Partially update information about a Promotion Setgroup resource.
+$body = new \Shopware6SDK\Model\PromotionSetgroupFlat(); // \Shopware6SDK\Model\PromotionSetgroupFlat | Partially update information about a Promotion Setgroup resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the promotion_setgroup |
- **body** | [**\ShopwareSDK6\Model\PromotionSetgroupFlat**](../Model/PromotionSetgroupFlat.md)| Partially update information about a Promotion Setgroup resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\PromotionSetgroupFlat**](../Model/PromotionSetgroupFlat.md)| Partially update information about a Promotion Setgroup resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
+[**\Shopware6SDK\Model\InlineResponse200228**](../Model/InlineResponse200228.md)
 
 ### Authorization
 

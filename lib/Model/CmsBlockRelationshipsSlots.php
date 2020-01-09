@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CmsBlockRelationshipsSlots Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CmsBlockRelationshipsSlots implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CmsBlockRelationshipsSlotsLinks',
-'data' => '\ShopwareSDK6\Model\CmsBlockRelationshipsSlotsData[]'    ];
+        'links' => '\Shopware6SDK\Model\CmsBlockRelationshipsSlotsLinks',
+'data' => '\Shopware6SDK\Model\CmsBlockRelationshipsSlotsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CmsBlockRelationshipsSlots implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CmsBlockRelationshipsSlotsLinks
+     * @return \Shopware6SDK\Model\CmsBlockRelationshipsSlotsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CmsBlockRelationshipsSlots implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CmsBlockRelationshipsSlotsLinks $links links
+     * @param \Shopware6SDK\Model\CmsBlockRelationshipsSlotsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CmsBlockRelationshipsSlots implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CmsBlockRelationshipsSlotsData[]
+     * @return \Shopware6SDK\Model\CmsBlockRelationshipsSlotsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CmsBlockRelationshipsSlots implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CmsBlockRelationshipsSlotsData[] $data data
+     * @param \Shopware6SDK\Model\CmsBlockRelationshipsSlotsData[] $data data
      *
      * @return $this
      */

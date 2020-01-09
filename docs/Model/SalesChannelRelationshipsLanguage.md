@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\ShopwareSDK6\Model\SalesChannelRelationshipsLanguageLinks**](SalesChannelRelationshipsLanguageLinks.md) |  | [optional] 
-**data** | [**\ShopwareSDK6\Model\CustomerRelationshipsLanguageData**](CustomerRelationshipsLanguageData.md) |  | [optional] 
+**links** | [**\Shopware6SDK\Model\SalesChannelRelationshipsLanguageLinks**](SalesChannelRelationshipsLanguageLinks.md) |  | [optional] 
+**data** | [**\Shopware6SDK\Model\CustomerRelationshipsLanguageData**](CustomerRelationshipsLanguageData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

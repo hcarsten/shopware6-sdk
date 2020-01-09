@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6\Model
+ * @package  Shopware6SDK\Model
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,12 +26,12 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 /**
  * Interface abstracting model access.
  *
- * @package ShopwareSDK6\Model
+ * @package Shopware6SDK\Model
  * @author  Swagger Codegen team
  */
 interface ModelInterface

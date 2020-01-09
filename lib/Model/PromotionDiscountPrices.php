@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionDiscountPrices Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class PromotionDiscountPrices extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\PromotionDiscountPricesAttributes',
-'links' => '\ShopwareSDK6\Model\PromotionDiscountPricesLinks',
-'relationships' => '\ShopwareSDK6\Model\PromotionDiscountPricesRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\PromotionDiscountPricesAttributes',
+'links' => '\Shopware6SDK\Model\PromotionDiscountPricesLinks',
+'relationships' => '\Shopware6SDK\Model\PromotionDiscountPricesRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class PromotionDiscountPrices extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\PromotionDiscountPricesAttributes
+     * @return \Shopware6SDK\Model\PromotionDiscountPricesAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class PromotionDiscountPrices extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\PromotionDiscountPricesAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\PromotionDiscountPricesAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class PromotionDiscountPrices extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\PromotionDiscountPricesLinks
+     * @return \Shopware6SDK\Model\PromotionDiscountPricesLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class PromotionDiscountPrices extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\PromotionDiscountPricesLinks $links links
+     * @param \Shopware6SDK\Model\PromotionDiscountPricesLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class PromotionDiscountPrices extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\PromotionDiscountPricesRelationships
+     * @return \Shopware6SDK\Model\PromotionDiscountPricesRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class PromotionDiscountPrices extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\PromotionDiscountPricesRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\PromotionDiscountPricesRelationships $relationships relationships
      *
      * @return $this
      */

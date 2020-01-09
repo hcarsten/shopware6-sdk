@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionIndividualCodeFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,7 +62,7 @@ class PromotionIndividualCodeFlat implements ModelInterface, ArrayAccess
 'payload' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'promotion' => '\ShopwareSDK6\Model\PromotionFlat'    ];
+'promotion' => '\Shopware6SDK\Model\PromotionFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -391,7 +391,7 @@ class PromotionIndividualCodeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion
      *
-     * @return \ShopwareSDK6\Model\PromotionFlat
+     * @return \Shopware6SDK\Model\PromotionFlat
      */
     public function getPromotion()
     {
@@ -401,7 +401,7 @@ class PromotionIndividualCodeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion
      *
-     * @param \ShopwareSDK6\Model\PromotionFlat $promotion promotion
+     * @param \Shopware6SDK\Model\PromotionFlat $promotion promotion
      *
      * @return $this
      */

@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**data** | [**\ShopwareSDK6\Model\Tag**](Tag.md) |  | [optional] 
-**included** | [**\ShopwareSDK6\Model\Resource[]**](Resource.md) |  | [optional] 
+**data** | [**\Shopware6SDK\Model\Tag**](Tag.md) |  | [optional] 
+**included** | [**\Shopware6SDK\Model\Resource[]**](Resource.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

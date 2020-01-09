@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionDiscountPricesRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PromotionDiscountPricesRelationships implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'promotion_discount' => '\ShopwareSDK6\Model\PromotionDiscountPricesRelationshipsPromotionDiscount',
-'currency' => '\ShopwareSDK6\Model\PromotionDiscountPricesRelationshipsCurrency'    ];
+        'promotion_discount' => '\Shopware6SDK\Model\PromotionDiscountPricesRelationshipsPromotionDiscount',
+'currency' => '\Shopware6SDK\Model\PromotionDiscountPricesRelationshipsCurrency'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PromotionDiscountPricesRelationships implements ModelInterface, ArrayAcces
     /**
      * Gets promotion_discount
      *
-     * @return \ShopwareSDK6\Model\PromotionDiscountPricesRelationshipsPromotionDiscount
+     * @return \Shopware6SDK\Model\PromotionDiscountPricesRelationshipsPromotionDiscount
      */
     public function getPromotionDiscount()
     {
@@ -215,7 +215,7 @@ class PromotionDiscountPricesRelationships implements ModelInterface, ArrayAcces
     /**
      * Sets promotion_discount
      *
-     * @param \ShopwareSDK6\Model\PromotionDiscountPricesRelationshipsPromotionDiscount $promotion_discount promotion_discount
+     * @param \Shopware6SDK\Model\PromotionDiscountPricesRelationshipsPromotionDiscount $promotion_discount promotion_discount
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PromotionDiscountPricesRelationships implements ModelInterface, ArrayAcces
     /**
      * Gets currency
      *
-     * @return \ShopwareSDK6\Model\PromotionDiscountPricesRelationshipsCurrency
+     * @return \Shopware6SDK\Model\PromotionDiscountPricesRelationshipsCurrency
      */
     public function getCurrency()
     {
@@ -239,7 +239,7 @@ class PromotionDiscountPricesRelationships implements ModelInterface, ArrayAcces
     /**
      * Sets currency
      *
-     * @param \ShopwareSDK6\Model\PromotionDiscountPricesRelationshipsCurrency $currency currency
+     * @param \Shopware6SDK\Model\PromotionDiscountPricesRelationshipsCurrency $currency currency
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CustomField Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CustomField extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\CustomFieldAttributes',
-'links' => '\ShopwareSDK6\Model\CustomFieldLinks',
-'relationships' => '\ShopwareSDK6\Model\CustomFieldRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\CustomFieldAttributes',
+'links' => '\Shopware6SDK\Model\CustomFieldLinks',
+'relationships' => '\Shopware6SDK\Model\CustomFieldRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CustomField extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\CustomFieldAttributes
+     * @return \Shopware6SDK\Model\CustomFieldAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CustomField extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\CustomFieldAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\CustomFieldAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CustomField extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CustomFieldLinks
+     * @return \Shopware6SDK\Model\CustomFieldLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CustomField extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CustomFieldLinks $links links
+     * @param \Shopware6SDK\Model\CustomFieldLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CustomField extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\CustomFieldRelationships
+     * @return \Shopware6SDK\Model\CustomFieldRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CustomField extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\CustomFieldRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\CustomFieldRelationships $relationships relationships
      *
      * @return $this
      */

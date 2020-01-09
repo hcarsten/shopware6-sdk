@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ThemeMediaFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class ThemeMediaFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'theme_id' => 'string',
 'media_id' => 'string',
-'theme' => '\ShopwareSDK6\Model\ThemeFlat',
-'media' => '\ShopwareSDK6\Model\MediaFlat'    ];
+'theme' => '\Shopware6SDK\Model\ThemeFlat',
+'media' => '\Shopware6SDK\Model\MediaFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class ThemeMediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets theme
      *
-     * @return \ShopwareSDK6\Model\ThemeFlat
+     * @return \Shopware6SDK\Model\ThemeFlat
      */
     public function getTheme()
     {
@@ -311,7 +311,7 @@ class ThemeMediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets theme
      *
-     * @param \ShopwareSDK6\Model\ThemeFlat $theme theme
+     * @param \Shopware6SDK\Model\ThemeFlat $theme theme
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class ThemeMediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -335,7 +335,7 @@ class ThemeMediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $media media
+     * @param \Shopware6SDK\Model\MediaFlat $media media
      *
      * @return $this
      */

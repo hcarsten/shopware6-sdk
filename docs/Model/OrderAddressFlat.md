@@ -25,11 +25,11 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**country** | [**\ShopwareSDK6\Model\CountryFlat**](CountryFlat.md) |  | [optional] 
-**country_state** | [**\ShopwareSDK6\Model\CountryStateFlat**](CountryStateFlat.md) |  | [optional] 
-**order** | [**\ShopwareSDK6\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
-**salutation** | [**\ShopwareSDK6\Model\SalutationFlat**](SalutationFlat.md) |  | [optional] 
-**order_deliveries** | [**\ShopwareSDK6\Model\OrderDeliveryFlat**](OrderDeliveryFlat.md) |  | [optional] 
+**country** | [**\Shopware6SDK\Model\CountryFlat**](CountryFlat.md) |  | [optional] 
+**country_state** | [**\Shopware6SDK\Model\CountryStateFlat**](CountryStateFlat.md) |  | [optional] 
+**order** | [**\Shopware6SDK\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
+**salutation** | [**\Shopware6SDK\Model\SalutationFlat**](SalutationFlat.md) |  | [optional] 
+**order_deliveries** | [**\Shopware6SDK\Model\OrderDeliveryFlat**](OrderDeliveryFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

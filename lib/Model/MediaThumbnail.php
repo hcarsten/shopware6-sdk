@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaThumbnail Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MediaThumbnail extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\MediaThumbnailAttributes',
-'links' => '\ShopwareSDK6\Model\MediaThumbnailLinks',
-'relationships' => '\ShopwareSDK6\Model\MediaThumbnailRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\MediaThumbnailAttributes',
+'links' => '\Shopware6SDK\Model\MediaThumbnailLinks',
+'relationships' => '\Shopware6SDK\Model\MediaThumbnailRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MediaThumbnail extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\MediaThumbnailAttributes
+     * @return \Shopware6SDK\Model\MediaThumbnailAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MediaThumbnail extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\MediaThumbnailAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\MediaThumbnailAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MediaThumbnail extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MediaThumbnailLinks
+     * @return \Shopware6SDK\Model\MediaThumbnailLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MediaThumbnail extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MediaThumbnailLinks $links links
+     * @param \Shopware6SDK\Model\MediaThumbnailLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MediaThumbnail extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\MediaThumbnailRelationships
+     * @return \Shopware6SDK\Model\MediaThumbnailRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MediaThumbnail extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\MediaThumbnailRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\MediaThumbnailRelationships $relationships relationships
      *
      * @return $this
      */

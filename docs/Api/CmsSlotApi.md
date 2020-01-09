@@ -1,4 +1,4 @@
-# ShopwareSDK6\CmsSlotApi
+# Shopware6SDK\CmsSlotApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCmsSlot**](CmsSlotApi.md#updatecmsslot) | **PATCH** /cms-slot/{id} | Partially update information about a Cms Slot resource
 
 # **createCmsSlot**
-> \ShopwareSDK6\Model\InlineResponse20021 createCmsSlot($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20021 createCmsSlot($body, $_response)
 
 Create a new Cms Slot resources
 
@@ -22,12 +22,12 @@ Create a new Cms Slot resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSlotApi(
+$apiInstance = new Shopware6SDK\Api\CmsSlotApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body12(); // \ShopwareSDK6\Model\Body12 | 
+$body = new \Shopware6SDK\Model\Body12(); // \Shopware6SDK\Model\Body12 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body12**](../Model/Body12.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body12**](../Model/Body12.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
+[**\Shopware6SDK\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCmsSlot**
-> \ShopwareSDK6\Model\InlineResponse20021 createCmsSlot($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20021 createCmsSlot($body, $_response)
 
 Create a new Cms Slot resources
 
@@ -73,12 +73,12 @@ Create a new Cms Slot resources. All required fields must be provided in order t
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSlotApi(
+$apiInstance = new Shopware6SDK\Api\CmsSlotApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\CmsSlotFlat(); // \ShopwareSDK6\Model\CmsSlotFlat | 
+$body = new \Shopware6SDK\Model\CmsSlotFlat(); // \Shopware6SDK\Model\CmsSlotFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\CmsSlotFlat**](../Model/CmsSlotFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\CmsSlotFlat**](../Model/CmsSlotFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
+[**\Shopware6SDK\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Cms Slot resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSlotApi(
+$apiInstance = new Shopware6SDK\Api\CmsSlotApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCmsSlot**
-> \ShopwareSDK6\Model\InlineResponse20021 getCmsSlot($id)
+> \Shopware6SDK\Model\InlineResponse20021 getCmsSlot($id)
 
 Detailed information about a Cms Slot resource
 
@@ -170,7 +170,7 @@ Detailed information about a Cms Slot resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSlotApi(
+$apiInstance = new Shopware6SDK\Api\CmsSlotApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
+[**\Shopware6SDK\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCmsSlotList**
-> \ShopwareSDK6\Model\InlineResponse20019 getCmsSlotList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse20019 getCmsSlotList($limit, $page, $query)
 
 List with basic information of Cms Slot resources
 
@@ -217,7 +217,7 @@ List with basic information of Cms Slot resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSlotApi(
+$apiInstance = new Shopware6SDK\Api\CmsSlotApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20019**](../Model/InlineResponse20019.md)
+[**\Shopware6SDK\Model\InlineResponse20019**](../Model/InlineResponse20019.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCmsSlot**
-> \ShopwareSDK6\Model\InlineResponse20021 updateCmsSlot($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20021 updateCmsSlot($id, $body, $_response)
 
 Partially update information about a Cms Slot resource
 
@@ -268,13 +268,13 @@ Partially update information about a Cms Slot resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSlotApi(
+$apiInstance = new Shopware6SDK\Api\CmsSlotApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the cms_slot
-$body = new \ShopwareSDK6\Model\Body13(); // \ShopwareSDK6\Model\Body13 | Partially update information about a Cms Slot resource.
+$body = new \Shopware6SDK\Model\Body13(); // \Shopware6SDK\Model\Body13 | Partially update information about a Cms Slot resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the cms_slot |
- **body** | [**\ShopwareSDK6\Model\Body13**](../Model/Body13.md)| Partially update information about a Cms Slot resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body13**](../Model/Body13.md)| Partially update information about a Cms Slot resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
+[**\Shopware6SDK\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCmsSlot**
-> \ShopwareSDK6\Model\InlineResponse20021 updateCmsSlot($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20021 updateCmsSlot($id, $body, $_response)
 
 Partially update information about a Cms Slot resource
 
@@ -319,13 +319,13 @@ Partially update information about a Cms Slot resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CmsSlotApi(
+$apiInstance = new Shopware6SDK\Api\CmsSlotApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the cms_slot
-$body = new \ShopwareSDK6\Model\CmsSlotFlat(); // \ShopwareSDK6\Model\CmsSlotFlat | Partially update information about a Cms Slot resource.
+$body = new \Shopware6SDK\Model\CmsSlotFlat(); // \Shopware6SDK\Model\CmsSlotFlat | Partially update information about a Cms Slot resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the cms_slot |
- **body** | [**\ShopwareSDK6\Model\CmsSlotFlat**](../Model/CmsSlotFlat.md)| Partially update information about a Cms Slot resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\CmsSlotFlat**](../Model/CmsSlotFlat.md)| Partially update information about a Cms Slot resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
+[**\Shopware6SDK\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
 
 ### Authorization
 

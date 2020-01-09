@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Api;
+namespace Shopware6SDK\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use ShopwareSDK6\ApiException;
-use ShopwareSDK6\Configuration;
-use ShopwareSDK6\HeaderSelector;
-use ShopwareSDK6\ObjectSerializer;
+use Shopware6SDK\ApiException;
+use Shopware6SDK\Configuration;
+use Shopware6SDK\HeaderSelector;
+use Shopware6SDK\ObjectSerializer;
 
 /**
  * CategoryApi Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class CategoryApi
      *
      * Create a new Category resources
      *
-     * @param  \ShopwareSDK6\Model\Body4 $body body (optional)
+     * @param  \Shopware6SDK\Model\Body4 $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse2009
+     * @return \Shopware6SDK\Model\InlineResponse2009
      */
     public function createCategory($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class CategoryApi
      *
      * Create a new Category resources
      *
-     * @param  \ShopwareSDK6\Model\Body4 $body (optional)
+     * @param  \Shopware6SDK\Model\Body4 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
      */
     public function createCategoryWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->createCategoryRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class CategoryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse2009',
+                        '\Shopware6SDK\Model\InlineResponse2009',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class CategoryApi
      *
      * Create a new Category resources
      *
-     * @param  \ShopwareSDK6\Model\Body4 $body (optional)
+     * @param  \Shopware6SDK\Model\Body4 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class CategoryApi
      *
      * Create a new Category resources
      *
-     * @param  \ShopwareSDK6\Model\Body4 $body (optional)
+     * @param  \Shopware6SDK\Model\Body4 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class CategoryApi
      */
     public function createCategoryAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->createCategoryRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class CategoryApi
     /**
      * Create request for operation 'createCategory'
      *
-     * @param  \ShopwareSDK6\Model\Body4 $body (optional)
+     * @param  \Shopware6SDK\Model\Body4 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class CategoryApi
      *
      * Create a new Category resources
      *
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body body (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse2009
+     * @return \Shopware6SDK\Model\InlineResponse2009
      */
     public function createCategory($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class CategoryApi
      *
      * Create a new Category resources
      *
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
      */
     public function createCategoryWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->createCategoryRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class CategoryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse2009',
+                        '\Shopware6SDK\Model\InlineResponse2009',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class CategoryApi
      *
      * Create a new Category resources
      *
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class CategoryApi
      *
      * Create a new Category resources
      *
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class CategoryApi
      */
     public function createCategoryAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->createCategoryRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class CategoryApi
     /**
      * Create request for operation 'createCategory'
      *
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class CategoryApi
      * @param  string $id Identifier for the category (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class CategoryApi
      * @param  string $id Identifier for the category (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class CategoryApi
      *
      * @param  string $id Identifier for the category (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse2009
+     * @return \Shopware6SDK\Model\InlineResponse2009
      */
     public function getCategory($id)
     {
@@ -864,13 +864,13 @@ class CategoryApi
      *
      * @param  string $id Identifier for the category (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCategoryWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->getCategoryRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class CategoryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse2009',
+                        '\Shopware6SDK\Model\InlineResponse2009',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class CategoryApi
      */
     public function getCategoryAsyncWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->getCategoryRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class CategoryApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse2007
+     * @return \Shopware6SDK\Model\InlineResponse2007
      */
     public function getCategoryList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class CategoryApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse2007, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse2007, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCategoryListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2007';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2007';
         $request = $this->getCategoryListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class CategoryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse2007',
+                        '\Shopware6SDK\Model\InlineResponse2007',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class CategoryApi
      */
     public function getCategoryListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2007';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2007';
         $request = $this->getCategoryListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class CategoryApi
      * Partially update information about a Category resource
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\Body5 $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\Body5 $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse2009
+     * @return \Shopware6SDK\Model\InlineResponse2009
      */
     public function updateCategory($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class CategoryApi
      * Partially update information about a Category resource
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\Body5 $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\Body5 $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateCategoryWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->updateCategoryRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class CategoryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse2009',
+                        '\Shopware6SDK\Model\InlineResponse2009',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class CategoryApi
      * Partially update information about a Category resource
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\Body5 $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\Body5 $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class CategoryApi
      * Partially update information about a Category resource
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\Body5 $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\Body5 $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class CategoryApi
      */
     public function updateCategoryAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->updateCategoryRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class CategoryApi
      * Create request for operation 'updateCategory'
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\Body5 $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\Body5 $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class CategoryApi
      * Partially update information about a Category resource
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse2009
+     * @return \Shopware6SDK\Model\InlineResponse2009
      */
     public function updateCategory($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class CategoryApi
      * Partially update information about a Category resource
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse2009, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateCategoryWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->updateCategoryRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class CategoryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse2009',
+                        '\Shopware6SDK\Model\InlineResponse2009',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class CategoryApi
      * Partially update information about a Category resource
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class CategoryApi
      * Partially update information about a Category resource
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class CategoryApi
      */
     public function updateCategoryAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse2009';
+        $returnType = '\Shopware6SDK\Model\InlineResponse2009';
         $request = $this->updateCategoryRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class CategoryApi
      * Create request for operation 'updateCategory'
      *
      * @param  string $id Identifier for the category (required)
-     * @param  \ShopwareSDK6\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
+     * @param  \Shopware6SDK\Model\CategoryFlat $body Partially update information about a Category resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

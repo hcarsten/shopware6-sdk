@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ShippingMethodPriceRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class ShippingMethodPriceRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'shipping_method' => '\ShopwareSDK6\Model\ShippingMethodPriceRelationshipsShippingMethod',
-'currency' => '\ShopwareSDK6\Model\ShippingMethodPriceRelationshipsCurrency',
-'rule' => '\ShopwareSDK6\Model\ShippingMethodPriceRelationshipsRule',
-'calculation_rule' => '\ShopwareSDK6\Model\ShippingMethodPriceRelationshipsCalculationRule'    ];
+        'shipping_method' => '\Shopware6SDK\Model\ShippingMethodPriceRelationshipsShippingMethod',
+'currency' => '\Shopware6SDK\Model\ShippingMethodPriceRelationshipsCurrency',
+'rule' => '\Shopware6SDK\Model\ShippingMethodPriceRelationshipsRule',
+'calculation_rule' => '\Shopware6SDK\Model\ShippingMethodPriceRelationshipsCalculationRule'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -217,7 +217,7 @@ class ShippingMethodPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method
      *
-     * @return \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsShippingMethod
+     * @return \Shopware6SDK\Model\ShippingMethodPriceRelationshipsShippingMethod
      */
     public function getShippingMethod()
     {
@@ -227,7 +227,7 @@ class ShippingMethodPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method
      *
-     * @param \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsShippingMethod $shipping_method shipping_method
+     * @param \Shopware6SDK\Model\ShippingMethodPriceRelationshipsShippingMethod $shipping_method shipping_method
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class ShippingMethodPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsCurrency
+     * @return \Shopware6SDK\Model\ShippingMethodPriceRelationshipsCurrency
      */
     public function getCurrency()
     {
@@ -251,7 +251,7 @@ class ShippingMethodPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsCurrency $currency currency
+     * @param \Shopware6SDK\Model\ShippingMethodPriceRelationshipsCurrency $currency currency
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class ShippingMethodPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets rule
      *
-     * @return \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsRule
+     * @return \Shopware6SDK\Model\ShippingMethodPriceRelationshipsRule
      */
     public function getRule()
     {
@@ -275,7 +275,7 @@ class ShippingMethodPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets rule
      *
-     * @param \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsRule $rule rule
+     * @param \Shopware6SDK\Model\ShippingMethodPriceRelationshipsRule $rule rule
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ShippingMethodPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets calculation_rule
      *
-     * @return \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsCalculationRule
+     * @return \Shopware6SDK\Model\ShippingMethodPriceRelationshipsCalculationRule
      */
     public function getCalculationRule()
     {
@@ -299,7 +299,7 @@ class ShippingMethodPriceRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets calculation_rule
      *
-     * @param \ShopwareSDK6\Model\ShippingMethodPriceRelationshipsCalculationRule $calculation_rule calculation_rule
+     * @param \Shopware6SDK\Model\ShippingMethodPriceRelationshipsCalculationRule $calculation_rule calculation_rule
      *
      * @return $this
      */

@@ -13,11 +13,11 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**group** | [**\ShopwareSDK6\Model\PropertyGroupFlat**](PropertyGroupFlat.md) |  | [optional] 
-**product_configurator_settings** | [**\ShopwareSDK6\Model\ProductConfiguratorSettingFlat**](ProductConfiguratorSettingFlat.md) |  | [optional] 
-**product_properties** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**product_options** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**media** | [**\Shopware6SDK\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**group** | [**\Shopware6SDK\Model\PropertyGroupFlat**](PropertyGroupFlat.md) |  | [optional] 
+**product_configurator_settings** | [**\Shopware6SDK\Model\ProductConfiguratorSettingFlat**](ProductConfiguratorSettingFlat.md) |  | [optional] 
+**product_properties** | [**\Shopware6SDK\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**product_options** | [**\Shopware6SDK\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

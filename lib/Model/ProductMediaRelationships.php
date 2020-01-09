@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductMediaRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductMediaRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\ShopwareSDK6\Model\ProductMediaRelationshipsProduct',
-'media' => '\ShopwareSDK6\Model\ProductMediaRelationshipsMedia'    ];
+        'product' => '\Shopware6SDK\Model\ProductMediaRelationshipsProduct',
+'media' => '\Shopware6SDK\Model\ProductMediaRelationshipsMedia'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductMediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductMediaRelationshipsProduct
+     * @return \Shopware6SDK\Model\ProductMediaRelationshipsProduct
      */
     public function getProduct()
     {
@@ -215,7 +215,7 @@ class ProductMediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductMediaRelationshipsProduct $product product
+     * @param \Shopware6SDK\Model\ProductMediaRelationshipsProduct $product product
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductMediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\ProductMediaRelationshipsMedia
+     * @return \Shopware6SDK\Model\ProductMediaRelationshipsMedia
      */
     public function getMedia()
     {
@@ -239,7 +239,7 @@ class ProductMediaRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\ProductMediaRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\ProductMediaRelationshipsMedia $media media
      *
      * @return $this
      */

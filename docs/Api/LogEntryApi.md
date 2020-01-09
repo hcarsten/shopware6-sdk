@@ -1,4 +1,4 @@
-# ShopwareSDK6\LogEntryApi
+# Shopware6SDK\LogEntryApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateLogEntry**](LogEntryApi.md#updatelogentry) | **PATCH** /log-entry/{id} | Partially update information about a Log Entry resource
 
 # **createLogEntry**
-> \ShopwareSDK6\Model\InlineResponse20093 createLogEntry($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20093 createLogEntry($body, $_response)
 
 Create a new Log Entry resources
 
@@ -22,12 +22,12 @@ Create a new Log Entry resources. All required fields must be provided in order 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\LogEntryApi(
+$apiInstance = new Shopware6SDK\Api\LogEntryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body60(); // \ShopwareSDK6\Model\Body60 | 
+$body = new \Shopware6SDK\Model\Body60(); // \Shopware6SDK\Model\Body60 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body60**](../Model/Body60.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body60**](../Model/Body60.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
+[**\Shopware6SDK\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createLogEntry**
-> \ShopwareSDK6\Model\InlineResponse20093 createLogEntry($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20093 createLogEntry($body, $_response)
 
 Create a new Log Entry resources
 
@@ -73,12 +73,12 @@ Create a new Log Entry resources. All required fields must be provided in order 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\LogEntryApi(
+$apiInstance = new Shopware6SDK\Api\LogEntryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\LogEntryFlat(); // \ShopwareSDK6\Model\LogEntryFlat | 
+$body = new \Shopware6SDK\Model\LogEntryFlat(); // \Shopware6SDK\Model\LogEntryFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\LogEntryFlat**](../Model/LogEntryFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\LogEntryFlat**](../Model/LogEntryFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
+[**\Shopware6SDK\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Log Entry resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\LogEntryApi(
+$apiInstance = new Shopware6SDK\Api\LogEntryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getLogEntry**
-> \ShopwareSDK6\Model\InlineResponse20093 getLogEntry($id)
+> \Shopware6SDK\Model\InlineResponse20093 getLogEntry($id)
 
 Detailed information about a Log Entry resource
 
@@ -170,7 +170,7 @@ Detailed information about a Log Entry resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\LogEntryApi(
+$apiInstance = new Shopware6SDK\Api\LogEntryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
+[**\Shopware6SDK\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getLogEntryList**
-> \ShopwareSDK6\Model\InlineResponse20091 getLogEntryList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse20091 getLogEntryList($limit, $page, $query)
 
 List with basic information of Log Entry resources
 
@@ -217,7 +217,7 @@ List with basic information of Log Entry resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\LogEntryApi(
+$apiInstance = new Shopware6SDK\Api\LogEntryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20091**](../Model/InlineResponse20091.md)
+[**\Shopware6SDK\Model\InlineResponse20091**](../Model/InlineResponse20091.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateLogEntry**
-> \ShopwareSDK6\Model\InlineResponse20093 updateLogEntry($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20093 updateLogEntry($id, $body, $_response)
 
 Partially update information about a Log Entry resource
 
@@ -268,13 +268,13 @@ Partially update information about a Log Entry resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\LogEntryApi(
+$apiInstance = new Shopware6SDK\Api\LogEntryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the log_entry
-$body = new \ShopwareSDK6\Model\Body61(); // \ShopwareSDK6\Model\Body61 | Partially update information about a Log Entry resource.
+$body = new \Shopware6SDK\Model\Body61(); // \Shopware6SDK\Model\Body61 | Partially update information about a Log Entry resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the log_entry |
- **body** | [**\ShopwareSDK6\Model\Body61**](../Model/Body61.md)| Partially update information about a Log Entry resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body61**](../Model/Body61.md)| Partially update information about a Log Entry resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
+[**\Shopware6SDK\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateLogEntry**
-> \ShopwareSDK6\Model\InlineResponse20093 updateLogEntry($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20093 updateLogEntry($id, $body, $_response)
 
 Partially update information about a Log Entry resource
 
@@ -319,13 +319,13 @@ Partially update information about a Log Entry resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\LogEntryApi(
+$apiInstance = new Shopware6SDK\Api\LogEntryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the log_entry
-$body = new \ShopwareSDK6\Model\LogEntryFlat(); // \ShopwareSDK6\Model\LogEntryFlat | Partially update information about a Log Entry resource.
+$body = new \Shopware6SDK\Model\LogEntryFlat(); // \Shopware6SDK\Model\LogEntryFlat | Partially update information about a Log Entry resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the log_entry |
- **body** | [**\ShopwareSDK6\Model\LogEntryFlat**](../Model/LogEntryFlat.md)| Partially update information about a Log Entry resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\LogEntryFlat**](../Model/LogEntryFlat.md)| Partially update information about a Log Entry resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
+[**\Shopware6SDK\Model\InlineResponse20093**](../Model/InlineResponse20093.md)
 
 ### Authorization
 

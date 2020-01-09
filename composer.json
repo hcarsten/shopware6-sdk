@@ -1,5 +1,5 @@
 {
-    "name": "industryarena/ShopwareSDK6",
+    "name": "industryarena/shopware6-sdk",
     "description": "",
     "keywords": [
         "swagger",
@@ -28,9 +28,9 @@
         "friendsofphp/php-cs-fixer": "~1.12"
     },
     "autoload": {
-        "psr-4": { "ShopwareSDK6\\" : "lib/" }
+        "psr-4": { "Shopware6SDK\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "ShopwareSDK6\\" : "test/" }
+        "psr-4": { "Shopware6SDK\\" : "test/" }
     }
 }

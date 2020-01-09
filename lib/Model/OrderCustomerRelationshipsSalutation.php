@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderCustomerRelationshipsSalutation Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class OrderCustomerRelationshipsSalutation implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\OrderCustomerRelationshipsSalutationLinks',
-'data' => '\ShopwareSDK6\Model\CustomerRelationshipsSalutationData'    ];
+        'links' => '\Shopware6SDK\Model\OrderCustomerRelationshipsSalutationLinks',
+'data' => '\Shopware6SDK\Model\CustomerRelationshipsSalutationData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class OrderCustomerRelationshipsSalutation implements ModelInterface, ArrayAcces
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\OrderCustomerRelationshipsSalutationLinks
+     * @return \Shopware6SDK\Model\OrderCustomerRelationshipsSalutationLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class OrderCustomerRelationshipsSalutation implements ModelInterface, ArrayAcces
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\OrderCustomerRelationshipsSalutationLinks $links links
+     * @param \Shopware6SDK\Model\OrderCustomerRelationshipsSalutationLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class OrderCustomerRelationshipsSalutation implements ModelInterface, ArrayAcces
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CustomerRelationshipsSalutationData
+     * @return \Shopware6SDK\Model\CustomerRelationshipsSalutationData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class OrderCustomerRelationshipsSalutation implements ModelInterface, ArrayAcces
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CustomerRelationshipsSalutationData $data data
+     * @param \Shopware6SDK\Model\CustomerRelationshipsSalutationData $data data
      *
      * @return $this
      */

@@ -1,4 +1,4 @@
-# ShopwareSDK6\RuleApi
+# Shopware6SDK\RuleApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateRule**](RuleApi.md#updaterule) | **PATCH** /rule/{id} | Partially update information about a Rule resource
 
 # **createRule**
-> \ShopwareSDK6\Model\InlineResponse200237 createRule($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200237 createRule($body, $_response)
 
 Create a new Rule resources
 
@@ -22,12 +22,12 @@ Create a new Rule resources. All required fields must be provided in order to cr
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\RuleApi(
+$apiInstance = new Shopware6SDK\Api\RuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body156(); // \ShopwareSDK6\Model\Body156 | 
+$body = new \Shopware6SDK\Model\Body156(); // \Shopware6SDK\Model\Body156 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body156**](../Model/Body156.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body156**](../Model/Body156.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
+[**\Shopware6SDK\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createRule**
-> \ShopwareSDK6\Model\InlineResponse200237 createRule($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200237 createRule($body, $_response)
 
 Create a new Rule resources
 
@@ -73,12 +73,12 @@ Create a new Rule resources. All required fields must be provided in order to cr
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\RuleApi(
+$apiInstance = new Shopware6SDK\Api\RuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\RuleFlat(); // \ShopwareSDK6\Model\RuleFlat | 
+$body = new \Shopware6SDK\Model\RuleFlat(); // \Shopware6SDK\Model\RuleFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\RuleFlat**](../Model/RuleFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\RuleFlat**](../Model/RuleFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
+[**\Shopware6SDK\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Rule resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\RuleApi(
+$apiInstance = new Shopware6SDK\Api\RuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRule**
-> \ShopwareSDK6\Model\InlineResponse200237 getRule($id)
+> \Shopware6SDK\Model\InlineResponse200237 getRule($id)
 
 Detailed information about a Rule resource
 
@@ -170,7 +170,7 @@ Detailed information about a Rule resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\RuleApi(
+$apiInstance = new Shopware6SDK\Api\RuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
+[**\Shopware6SDK\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRuleList**
-> \ShopwareSDK6\Model\InlineResponse200235 getRuleList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200235 getRuleList($limit, $page, $query)
 
 List with basic information of Rule resources
 
@@ -217,7 +217,7 @@ List with basic information of Rule resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\RuleApi(
+$apiInstance = new Shopware6SDK\Api\RuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200235**](../Model/InlineResponse200235.md)
+[**\Shopware6SDK\Model\InlineResponse200235**](../Model/InlineResponse200235.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateRule**
-> \ShopwareSDK6\Model\InlineResponse200237 updateRule($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200237 updateRule($id, $body, $_response)
 
 Partially update information about a Rule resource
 
@@ -268,13 +268,13 @@ Partially update information about a Rule resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\RuleApi(
+$apiInstance = new Shopware6SDK\Api\RuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the rule
-$body = new \ShopwareSDK6\Model\Body157(); // \ShopwareSDK6\Model\Body157 | Partially update information about a Rule resource.
+$body = new \Shopware6SDK\Model\Body157(); // \Shopware6SDK\Model\Body157 | Partially update information about a Rule resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the rule |
- **body** | [**\ShopwareSDK6\Model\Body157**](../Model/Body157.md)| Partially update information about a Rule resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body157**](../Model/Body157.md)| Partially update information about a Rule resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
+[**\Shopware6SDK\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateRule**
-> \ShopwareSDK6\Model\InlineResponse200237 updateRule($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200237 updateRule($id, $body, $_response)
 
 Partially update information about a Rule resource
 
@@ -319,13 +319,13 @@ Partially update information about a Rule resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\RuleApi(
+$apiInstance = new Shopware6SDK\Api\RuleApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the rule
-$body = new \ShopwareSDK6\Model\RuleFlat(); // \ShopwareSDK6\Model\RuleFlat | Partially update information about a Rule resource.
+$body = new \Shopware6SDK\Model\RuleFlat(); // \Shopware6SDK\Model\RuleFlat | Partially update information about a Rule resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the rule |
- **body** | [**\ShopwareSDK6\Model\RuleFlat**](../Model/RuleFlat.md)| Partially update information about a Rule resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\RuleFlat**](../Model/RuleFlat.md)| Partially update information about a Rule resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
+[**\Shopware6SDK\Model\InlineResponse200237**](../Model/InlineResponse200237.md)
 
 ### Authorization
 

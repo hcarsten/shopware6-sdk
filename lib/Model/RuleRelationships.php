@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * RuleRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,17 +56,17 @@ class RuleRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'conditions' => '\ShopwareSDK6\Model\RuleRelationshipsConditions',
-'product_prices' => '\ShopwareSDK6\Model\RuleRelationshipsProductPrices',
-'shipping_method_prices' => '\ShopwareSDK6\Model\RuleRelationshipsShippingMethodPrices',
-'shipping_method_price_calculations' => '\ShopwareSDK6\Model\RuleRelationshipsShippingMethodPriceCalculations',
-'shipping_methods' => '\ShopwareSDK6\Model\RuleRelationshipsShippingMethods',
-'payment_methods' => '\ShopwareSDK6\Model\RuleRelationshipsPaymentMethods',
-'persona_promotions' => '\ShopwareSDK6\Model\RuleRelationshipsPersonaPromotions',
-'order_promotions' => '\ShopwareSDK6\Model\RuleRelationshipsOrderPromotions',
-'cart_promotions' => '\ShopwareSDK6\Model\RuleRelationshipsCartPromotions',
-'promotion_discounts' => '\ShopwareSDK6\Model\RuleRelationshipsPromotionDiscounts',
-'promotion_set_groups' => '\ShopwareSDK6\Model\RuleRelationshipsPromotionSetGroups'    ];
+        'conditions' => '\Shopware6SDK\Model\RuleRelationshipsConditions',
+'product_prices' => '\Shopware6SDK\Model\RuleRelationshipsProductPrices',
+'shipping_method_prices' => '\Shopware6SDK\Model\RuleRelationshipsShippingMethodPrices',
+'shipping_method_price_calculations' => '\Shopware6SDK\Model\RuleRelationshipsShippingMethodPriceCalculations',
+'shipping_methods' => '\Shopware6SDK\Model\RuleRelationshipsShippingMethods',
+'payment_methods' => '\Shopware6SDK\Model\RuleRelationshipsPaymentMethods',
+'persona_promotions' => '\Shopware6SDK\Model\RuleRelationshipsPersonaPromotions',
+'order_promotions' => '\Shopware6SDK\Model\RuleRelationshipsOrderPromotions',
+'cart_promotions' => '\Shopware6SDK\Model\RuleRelationshipsCartPromotions',
+'promotion_discounts' => '\Shopware6SDK\Model\RuleRelationshipsPromotionDiscounts',
+'promotion_set_groups' => '\Shopware6SDK\Model\RuleRelationshipsPromotionSetGroups'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -259,7 +259,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets conditions
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsConditions
+     * @return \Shopware6SDK\Model\RuleRelationshipsConditions
      */
     public function getConditions()
     {
@@ -269,7 +269,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets conditions
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsConditions $conditions conditions
+     * @param \Shopware6SDK\Model\RuleRelationshipsConditions $conditions conditions
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_prices
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsProductPrices
+     * @return \Shopware6SDK\Model\RuleRelationshipsProductPrices
      */
     public function getProductPrices()
     {
@@ -293,7 +293,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_prices
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsProductPrices $product_prices product_prices
+     * @param \Shopware6SDK\Model\RuleRelationshipsProductPrices $product_prices product_prices
      *
      * @return $this
      */
@@ -307,7 +307,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method_prices
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsShippingMethodPrices
+     * @return \Shopware6SDK\Model\RuleRelationshipsShippingMethodPrices
      */
     public function getShippingMethodPrices()
     {
@@ -317,7 +317,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method_prices
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsShippingMethodPrices $shipping_method_prices shipping_method_prices
+     * @param \Shopware6SDK\Model\RuleRelationshipsShippingMethodPrices $shipping_method_prices shipping_method_prices
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method_price_calculations
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsShippingMethodPriceCalculations
+     * @return \Shopware6SDK\Model\RuleRelationshipsShippingMethodPriceCalculations
      */
     public function getShippingMethodPriceCalculations()
     {
@@ -341,7 +341,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method_price_calculations
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsShippingMethodPriceCalculations $shipping_method_price_calculations shipping_method_price_calculations
+     * @param \Shopware6SDK\Model\RuleRelationshipsShippingMethodPriceCalculations $shipping_method_price_calculations shipping_method_price_calculations
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsShippingMethods
+     * @return \Shopware6SDK\Model\RuleRelationshipsShippingMethods
      */
     public function getShippingMethods()
     {
@@ -365,7 +365,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsShippingMethods $shipping_methods shipping_methods
+     * @param \Shopware6SDK\Model\RuleRelationshipsShippingMethods $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets payment_methods
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsPaymentMethods
+     * @return \Shopware6SDK\Model\RuleRelationshipsPaymentMethods
      */
     public function getPaymentMethods()
     {
@@ -389,7 +389,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets payment_methods
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsPaymentMethods $payment_methods payment_methods
+     * @param \Shopware6SDK\Model\RuleRelationshipsPaymentMethods $payment_methods payment_methods
      *
      * @return $this
      */
@@ -403,7 +403,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets persona_promotions
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsPersonaPromotions
+     * @return \Shopware6SDK\Model\RuleRelationshipsPersonaPromotions
      */
     public function getPersonaPromotions()
     {
@@ -413,7 +413,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets persona_promotions
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsPersonaPromotions $persona_promotions persona_promotions
+     * @param \Shopware6SDK\Model\RuleRelationshipsPersonaPromotions $persona_promotions persona_promotions
      *
      * @return $this
      */
@@ -427,7 +427,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_promotions
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsOrderPromotions
+     * @return \Shopware6SDK\Model\RuleRelationshipsOrderPromotions
      */
     public function getOrderPromotions()
     {
@@ -437,7 +437,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_promotions
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsOrderPromotions $order_promotions order_promotions
+     * @param \Shopware6SDK\Model\RuleRelationshipsOrderPromotions $order_promotions order_promotions
      *
      * @return $this
      */
@@ -451,7 +451,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets cart_promotions
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsCartPromotions
+     * @return \Shopware6SDK\Model\RuleRelationshipsCartPromotions
      */
     public function getCartPromotions()
     {
@@ -461,7 +461,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets cart_promotions
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsCartPromotions $cart_promotions cart_promotions
+     * @param \Shopware6SDK\Model\RuleRelationshipsCartPromotions $cart_promotions cart_promotions
      *
      * @return $this
      */
@@ -475,7 +475,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_discounts
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsPromotionDiscounts
+     * @return \Shopware6SDK\Model\RuleRelationshipsPromotionDiscounts
      */
     public function getPromotionDiscounts()
     {
@@ -485,7 +485,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_discounts
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsPromotionDiscounts $promotion_discounts promotion_discounts
+     * @param \Shopware6SDK\Model\RuleRelationshipsPromotionDiscounts $promotion_discounts promotion_discounts
      *
      * @return $this
      */
@@ -499,7 +499,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_set_groups
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsPromotionSetGroups
+     * @return \Shopware6SDK\Model\RuleRelationshipsPromotionSetGroups
      */
     public function getPromotionSetGroups()
     {
@@ -509,7 +509,7 @@ class RuleRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_set_groups
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsPromotionSetGroups $promotion_set_groups promotion_set_groups
+     * @param \Shopware6SDK\Model\RuleRelationshipsPromotionSetGroups $promotion_set_groups promotion_set_groups
      *
      * @return $this
      */

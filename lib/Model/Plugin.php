@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Plugin Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Plugin extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\PluginAttributes',
-'links' => '\ShopwareSDK6\Model\PluginLinks',
-'relationships' => '\ShopwareSDK6\Model\PluginRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\PluginAttributes',
+'links' => '\Shopware6SDK\Model\PluginLinks',
+'relationships' => '\Shopware6SDK\Model\PluginRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Plugin extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\PluginAttributes
+     * @return \Shopware6SDK\Model\PluginAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Plugin extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\PluginAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\PluginAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Plugin extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\PluginLinks
+     * @return \Shopware6SDK\Model\PluginLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Plugin extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\PluginLinks $links links
+     * @param \Shopware6SDK\Model\PluginLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Plugin extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\PluginRelationships
+     * @return \Shopware6SDK\Model\PluginRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Plugin extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\PluginRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\PluginRelationships $relationships relationships
      *
      * @return $this
      */

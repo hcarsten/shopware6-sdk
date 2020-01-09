@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductMedia Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductMedia extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\ProductMediaAttributes',
-'links' => '\ShopwareSDK6\Model\ProductMediaLinks',
-'relationships' => '\ShopwareSDK6\Model\ProductMediaRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\ProductMediaAttributes',
+'links' => '\Shopware6SDK\Model\ProductMediaLinks',
+'relationships' => '\Shopware6SDK\Model\ProductMediaRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductMedia extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\ProductMediaAttributes
+     * @return \Shopware6SDK\Model\ProductMediaAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductMedia extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\ProductMediaAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\ProductMediaAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductMedia extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ProductMediaLinks
+     * @return \Shopware6SDK\Model\ProductMediaLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductMedia extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ProductMediaLinks $links links
+     * @param \Shopware6SDK\Model\ProductMediaLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductMedia extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\ProductMediaRelationships
+     * @return \Shopware6SDK\Model\ProductMediaRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductMedia extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\ProductMediaRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\ProductMediaRelationships $relationships relationships
      *
      * @return $this
      */

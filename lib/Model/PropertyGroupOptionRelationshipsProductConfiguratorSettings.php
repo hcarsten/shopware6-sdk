@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PropertyGroupOptionRelationshipsProductConfiguratorSettings Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PropertyGroupOptionRelationshipsProductConfiguratorSettings implements Mod
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsLinks',
-'data' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsData[]'    ];
+        'links' => '\Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsLinks',
+'data' => '\Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PropertyGroupOptionRelationshipsProductConfiguratorSettings implements Mod
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsLinks
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PropertyGroupOptionRelationshipsProductConfiguratorSettings implements Mod
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsLinks $links links
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PropertyGroupOptionRelationshipsProductConfiguratorSettings implements Mod
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsData[]
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PropertyGroupOptionRelationshipsProductConfiguratorSettings implements Mod
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsData[] $data data
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationshipsProductConfiguratorSettingsData[] $data data
      *
      * @return $this
      */

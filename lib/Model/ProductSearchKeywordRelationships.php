@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductSearchKeywordRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\ShopwareSDK6\Model\ProductSearchKeywordRelationshipsProduct',
-'language' => '\ShopwareSDK6\Model\ProductSearchKeywordRelationshipsLanguage'    ];
+        'product' => '\Shopware6SDK\Model\ProductSearchKeywordRelationshipsProduct',
+'language' => '\Shopware6SDK\Model\ProductSearchKeywordRelationshipsLanguage'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductSearchKeywordRelationshipsProduct
+     * @return \Shopware6SDK\Model\ProductSearchKeywordRelationshipsProduct
      */
     public function getProduct()
     {
@@ -215,7 +215,7 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductSearchKeywordRelationshipsProduct $product product
+     * @param \Shopware6SDK\Model\ProductSearchKeywordRelationshipsProduct $product product
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \ShopwareSDK6\Model\ProductSearchKeywordRelationshipsLanguage
+     * @return \Shopware6SDK\Model\ProductSearchKeywordRelationshipsLanguage
      */
     public function getLanguage()
     {
@@ -239,7 +239,7 @@ class ProductSearchKeywordRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \ShopwareSDK6\Model\ProductSearchKeywordRelationshipsLanguage $language language
+     * @param \Shopware6SDK\Model\ProductSearchKeywordRelationshipsLanguage $language language
      *
      * @return $this
      */

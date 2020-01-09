@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CmsSlot Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CmsSlot extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\CmsSlotAttributes',
-'links' => '\ShopwareSDK6\Model\CmsSlotLinks',
-'relationships' => '\ShopwareSDK6\Model\CmsSlotRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\CmsSlotAttributes',
+'links' => '\Shopware6SDK\Model\CmsSlotLinks',
+'relationships' => '\Shopware6SDK\Model\CmsSlotRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CmsSlot extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\CmsSlotAttributes
+     * @return \Shopware6SDK\Model\CmsSlotAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CmsSlot extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\CmsSlotAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\CmsSlotAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CmsSlot extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CmsSlotLinks
+     * @return \Shopware6SDK\Model\CmsSlotLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CmsSlot extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CmsSlotLinks $links links
+     * @param \Shopware6SDK\Model\CmsSlotLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CmsSlot extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\CmsSlotRelationships
+     * @return \Shopware6SDK\Model\CmsSlotRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CmsSlot extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\CmsSlotRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\CmsSlotRelationships $relationships relationships
      *
      * @return $this
      */

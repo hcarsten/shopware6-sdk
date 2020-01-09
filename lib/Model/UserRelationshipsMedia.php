@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * UserRelationshipsMedia Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class UserRelationshipsMedia implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\UserRelationshipsMediaLinks',
-'data' => '\ShopwareSDK6\Model\UserRelationshipsMediaData[]'    ];
+        'links' => '\Shopware6SDK\Model\UserRelationshipsMediaLinks',
+'data' => '\Shopware6SDK\Model\UserRelationshipsMediaData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class UserRelationshipsMedia implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\UserRelationshipsMediaLinks
+     * @return \Shopware6SDK\Model\UserRelationshipsMediaLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class UserRelationshipsMedia implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\UserRelationshipsMediaLinks $links links
+     * @param \Shopware6SDK\Model\UserRelationshipsMediaLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class UserRelationshipsMedia implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\UserRelationshipsMediaData[]
+     * @return \Shopware6SDK\Model\UserRelationshipsMediaData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class UserRelationshipsMedia implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\UserRelationshipsMediaData[] $data data
+     * @param \Shopware6SDK\Model\UserRelationshipsMediaData[] $data data
      *
      * @return $this
      */

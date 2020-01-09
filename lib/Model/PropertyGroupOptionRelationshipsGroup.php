@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PropertyGroupOptionRelationshipsGroup Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupLinks',
-'data' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupData'    ];
+        'links' => '\Shopware6SDK\Model\PropertyGroupOptionRelationshipsGroupLinks',
+'data' => '\Shopware6SDK\Model\PropertyGroupOptionRelationshipsGroupData'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupLinks
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationshipsGroupLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupLinks $links links
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationshipsGroupLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupData
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationshipsGroupData
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PropertyGroupOptionRelationshipsGroup implements ModelInterface, ArrayAcce
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationshipsGroupData $data data
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationshipsGroupData $data data
      *
      * @return $this
      */

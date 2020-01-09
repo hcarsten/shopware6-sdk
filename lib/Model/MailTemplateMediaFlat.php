@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplateMediaFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,8 +60,8 @@ class MailTemplateMediaFlat implements ModelInterface, ArrayAccess
 'mail_template_id' => 'string',
 'media_id' => 'string',
 'position' => 'int',
-'mail_template' => '\ShopwareSDK6\Model\MailTemplateFlat',
-'media' => '\ShopwareSDK6\Model\MediaFlat'    ];
+'mail_template' => '\Shopware6SDK\Model\MailTemplateFlat',
+'media' => '\Shopware6SDK\Model\MediaFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -331,7 +331,7 @@ class MailTemplateMediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets mail_template
      *
-     * @return \ShopwareSDK6\Model\MailTemplateFlat
+     * @return \Shopware6SDK\Model\MailTemplateFlat
      */
     public function getMailTemplate()
     {
@@ -341,7 +341,7 @@ class MailTemplateMediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets mail_template
      *
-     * @param \ShopwareSDK6\Model\MailTemplateFlat $mail_template mail_template
+     * @param \Shopware6SDK\Model\MailTemplateFlat $mail_template mail_template
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class MailTemplateMediaFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -365,7 +365,7 @@ class MailTemplateMediaFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $media media
+     * @param \Shopware6SDK\Model\MediaFlat $media media
      *
      * @return $this
      */

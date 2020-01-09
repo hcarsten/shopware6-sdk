@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * TagFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,13 +60,13 @@ class TagFlat implements ModelInterface, ArrayAccess
 'name' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'products' => '\ShopwareSDK6\Model\ProductFlat',
-'media' => '\ShopwareSDK6\Model\MediaFlat',
-'categories' => '\ShopwareSDK6\Model\CategoryFlat',
-'customers' => '\ShopwareSDK6\Model\CustomerFlat',
-'orders' => '\ShopwareSDK6\Model\OrderFlat',
-'shipping_methods' => '\ShopwareSDK6\Model\ShippingMethodFlat',
-'newsletter_recipients' => '\ShopwareSDK6\Model\NewsletterRecipientFlat'    ];
+'products' => '\Shopware6SDK\Model\ProductFlat',
+'media' => '\Shopware6SDK\Model\MediaFlat',
+'categories' => '\Shopware6SDK\Model\CategoryFlat',
+'customers' => '\Shopware6SDK\Model\CustomerFlat',
+'orders' => '\Shopware6SDK\Model\OrderFlat',
+'shipping_methods' => '\Shopware6SDK\Model\ShippingMethodFlat',
+'newsletter_recipients' => '\Shopware6SDK\Model\NewsletterRecipientFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -364,7 +364,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProducts()
     {
@@ -374,7 +374,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $products products
+     * @param \Shopware6SDK\Model\ProductFlat $products products
      *
      * @return $this
      */
@@ -388,7 +388,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -398,7 +398,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $media media
+     * @param \Shopware6SDK\Model\MediaFlat $media media
      *
      * @return $this
      */
@@ -412,7 +412,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \ShopwareSDK6\Model\CategoryFlat
+     * @return \Shopware6SDK\Model\CategoryFlat
      */
     public function getCategories()
     {
@@ -422,7 +422,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \ShopwareSDK6\Model\CategoryFlat $categories categories
+     * @param \Shopware6SDK\Model\CategoryFlat $categories categories
      *
      * @return $this
      */
@@ -436,7 +436,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \ShopwareSDK6\Model\CustomerFlat
+     * @return \Shopware6SDK\Model\CustomerFlat
      */
     public function getCustomers()
     {
@@ -446,7 +446,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \ShopwareSDK6\Model\CustomerFlat $customers customers
+     * @param \Shopware6SDK\Model\CustomerFlat $customers customers
      *
      * @return $this
      */
@@ -460,7 +460,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \ShopwareSDK6\Model\OrderFlat
+     * @return \Shopware6SDK\Model\OrderFlat
      */
     public function getOrders()
     {
@@ -470,7 +470,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \ShopwareSDK6\Model\OrderFlat $orders orders
+     * @param \Shopware6SDK\Model\OrderFlat $orders orders
      *
      * @return $this
      */
@@ -484,7 +484,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \ShopwareSDK6\Model\ShippingMethodFlat
+     * @return \Shopware6SDK\Model\ShippingMethodFlat
      */
     public function getShippingMethods()
     {
@@ -494,7 +494,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_methods shipping_methods
+     * @param \Shopware6SDK\Model\ShippingMethodFlat $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -508,7 +508,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Gets newsletter_recipients
      *
-     * @return \ShopwareSDK6\Model\NewsletterRecipientFlat
+     * @return \Shopware6SDK\Model\NewsletterRecipientFlat
      */
     public function getNewsletterRecipients()
     {
@@ -518,7 +518,7 @@ class TagFlat implements ModelInterface, ArrayAccess
     /**
      * Sets newsletter_recipients
      *
-     * @param \ShopwareSDK6\Model\NewsletterRecipientFlat $newsletter_recipients newsletter_recipients
+     * @param \Shopware6SDK\Model\NewsletterRecipientFlat $newsletter_recipients newsletter_recipients
      *
      * @return $this
      */

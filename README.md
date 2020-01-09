@@ -20,11 +20,11 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/industryarena/ShopwareSDK6.git"
+      "url": "https://github.com/industryarena/shopware6-sdk.git"
     }
   ],
   "require": {
-    "industryarena/ShopwareSDK6": "*@dev"
+    "industryarena/shopware6-sdk": "*@dev"
   }
 }
 ```
@@ -56,12 +56,12 @@ Please follow the [installation procedure](#installation--usage) and then run th
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body(); // \ShopwareSDK6\Model\Body | 
+$body = new \Shopware6SDK\Model\Body(); // \Shopware6SDK\Model\Body | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -71,7 +71,7 @@ try {
     echo 'Exception when calling AclResourceApi->createAclResource: ', $e->getMessage(), PHP_EOL;
 }
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -85,7 +85,7 @@ try {
     echo 'Exception when calling AclResourceApi->deleteAclResource: ', $e->getMessage(), PHP_EOL;
 }
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -99,7 +99,7 @@ try {
     echo 'Exception when calling AclResourceApi->getAclResource: ', $e->getMessage(), PHP_EOL;
 }
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -115,13 +115,13 @@ try {
     echo 'Exception when calling AclResourceApi->getAclResourceList: ', $e->getMessage(), PHP_EOL;
 }
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the acl_resource
-$body = new \ShopwareSDK6\Model\Body1(); // \ShopwareSDK6\Model\Body1 | Partially update information about a Acl Resource resource.
+$body = new \Shopware6SDK\Model\Body1(); // \Shopware6SDK\Model\Body1 | Partially update information about a Acl Resource resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {

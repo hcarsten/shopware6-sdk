@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,17 +26,17 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Jsonapi Class Doc Comment
  *
  * @category Class
  * @description An object describing the server&#x27;s implementation
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class Jsonapi implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'version' => 'string',
-'meta' => '\ShopwareSDK6\Model\Meta'    ];
+'meta' => '\Shopware6SDK\Model\Meta'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -230,7 +230,7 @@ class Jsonapi implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \ShopwareSDK6\Model\Meta
+     * @return \Shopware6SDK\Model\Meta
      */
     public function getMeta()
     {
@@ -240,7 +240,7 @@ class Jsonapi implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \ShopwareSDK6\Model\Meta $meta meta
+     * @param \Shopware6SDK\Model\Meta $meta meta
      *
      * @return $this
      */

@@ -5,9 +5,9 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | [****](.md) |  | [optional] 
 **id** | [****](.md) |  | [optional] 
-**attributes** | [**\ShopwareSDK6\Model\StateMachineHistoryAttributes**](StateMachineHistoryAttributes.md) |  | [optional] 
-**links** | [**\ShopwareSDK6\Model\StateMachineHistoryLinks**](StateMachineHistoryLinks.md) |  | [optional] 
-**relationships** | [**\ShopwareSDK6\Model\StateMachineHistoryRelationships**](StateMachineHistoryRelationships.md) |  | [optional] 
+**attributes** | [**\Shopware6SDK\Model\StateMachineHistoryAttributes**](StateMachineHistoryAttributes.md) |  | [optional] 
+**links** | [**\Shopware6SDK\Model\StateMachineHistoryLinks**](StateMachineHistoryLinks.md) |  | [optional] 
+**relationships** | [**\Shopware6SDK\Model\StateMachineHistoryRelationships**](StateMachineHistoryRelationships.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

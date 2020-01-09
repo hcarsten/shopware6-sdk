@@ -5,9 +5,9 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | [****](.md) |  | [optional] 
 **id** | [****](.md) |  | [optional] 
-**attributes** | [**\ShopwareSDK6\Model\CmsBlockAttributes**](CmsBlockAttributes.md) |  | [optional] 
-**links** | [**\ShopwareSDK6\Model\CmsBlockLinks**](CmsBlockLinks.md) |  | [optional] 
-**relationships** | [**\ShopwareSDK6\Model\CmsBlockRelationships**](CmsBlockRelationships.md) |  | [optional] 
+**attributes** | [**\Shopware6SDK\Model\CmsBlockAttributes**](CmsBlockAttributes.md) |  | [optional] 
+**links** | [**\Shopware6SDK\Model\CmsBlockLinks**](CmsBlockLinks.md) |  | [optional] 
+**relationships** | [**\Shopware6SDK\Model\CmsBlockRelationships**](CmsBlockRelationships.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

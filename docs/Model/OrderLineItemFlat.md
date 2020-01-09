@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 **removable** | **bool** |  | [optional] 
 **stackable** | **bool** |  | [optional] 
 **position** | **int** |  | 
-**price** | [**\ShopwareSDK6\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | 
+**price** | [**\Shopware6SDK\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | 
 **price_definition** | **object** |  | [optional] 
 **unit_price** | **float** |  | [optional] 
 **total_price** | **float** |  | [optional] 
@@ -30,10 +30,10 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**cover** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**order** | [**\ShopwareSDK6\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
-**product** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**order_delivery_positions** | [**\ShopwareSDK6\Model\OrderDeliveryPositionFlat**](OrderDeliveryPositionFlat.md) |  | [optional] 
+**cover** | [**\Shopware6SDK\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**order** | [**\Shopware6SDK\Model\OrderFlat**](OrderFlat.md) |  | [optional] 
+**product** | [**\Shopware6SDK\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**order_delivery_positions** | [**\Shopware6SDK\Model\OrderDeliveryPositionFlat**](OrderDeliveryPositionFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

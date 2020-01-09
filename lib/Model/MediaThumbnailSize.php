@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaThumbnailSize Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MediaThumbnailSize extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\MediaThumbnailSizeAttributes',
-'links' => '\ShopwareSDK6\Model\MediaThumbnailSizeLinks',
-'relationships' => '\ShopwareSDK6\Model\MediaThumbnailSizeRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\MediaThumbnailSizeAttributes',
+'links' => '\Shopware6SDK\Model\MediaThumbnailSizeLinks',
+'relationships' => '\Shopware6SDK\Model\MediaThumbnailSizeRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MediaThumbnailSize extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\MediaThumbnailSizeAttributes
+     * @return \Shopware6SDK\Model\MediaThumbnailSizeAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MediaThumbnailSize extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\MediaThumbnailSizeAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\MediaThumbnailSizeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MediaThumbnailSize extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MediaThumbnailSizeLinks
+     * @return \Shopware6SDK\Model\MediaThumbnailSizeLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MediaThumbnailSize extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MediaThumbnailSizeLinks $links links
+     * @param \Shopware6SDK\Model\MediaThumbnailSizeLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MediaThumbnailSize extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\MediaThumbnailSizeRelationships
+     * @return \Shopware6SDK\Model\MediaThumbnailSizeRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MediaThumbnailSize extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\MediaThumbnailSizeRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\MediaThumbnailSizeRelationships $relationships relationships
      *
      * @return $this
      */

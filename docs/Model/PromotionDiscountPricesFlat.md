@@ -9,8 +9,8 @@ Name | Type | Description | Notes
 **price** | **float** |  | 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**promotion_discount** | [**\ShopwareSDK6\Model\PromotionDiscountFlat**](PromotionDiscountFlat.md) |  | [optional] 
-**currency** | [**\ShopwareSDK6\Model\CurrencyFlat**](CurrencyFlat.md) |  | [optional] 
+**promotion_discount** | [**\Shopware6SDK\Model\PromotionDiscountFlat**](PromotionDiscountFlat.md) |  | [optional] 
+**currency** | [**\Shopware6SDK\Model\CurrencyFlat**](CurrencyFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

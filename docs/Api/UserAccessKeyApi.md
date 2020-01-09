@@ -1,4 +1,4 @@
-# ShopwareSDK6\UserAccessKeyApi
+# Shopware6SDK\UserAccessKeyApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateUserAccessKey**](UserAccessKeyApi.md#updateuseraccesskey) | **PATCH** /user-access-key/{id} | Partially update information about a User Access Key resource
 
 # **createUserAccessKey**
-> \ShopwareSDK6\Model\InlineResponse200312 createUserAccessKey($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200312 createUserAccessKey($body, $_response)
 
 Create a new User Access Key resources
 
@@ -22,12 +22,12 @@ Create a new User Access Key resources. All required fields must be provided in 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\UserAccessKeyApi(
+$apiInstance = new Shopware6SDK\Api\UserAccessKeyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body206(); // \ShopwareSDK6\Model\Body206 | 
+$body = new \Shopware6SDK\Model\Body206(); // \Shopware6SDK\Model\Body206 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body206**](../Model/Body206.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body206**](../Model/Body206.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
+[**\Shopware6SDK\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createUserAccessKey**
-> \ShopwareSDK6\Model\InlineResponse200312 createUserAccessKey($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200312 createUserAccessKey($body, $_response)
 
 Create a new User Access Key resources
 
@@ -73,12 +73,12 @@ Create a new User Access Key resources. All required fields must be provided in 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\UserAccessKeyApi(
+$apiInstance = new Shopware6SDK\Api\UserAccessKeyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\UserAccessKeyFlat(); // \ShopwareSDK6\Model\UserAccessKeyFlat | 
+$body = new \Shopware6SDK\Model\UserAccessKeyFlat(); // \Shopware6SDK\Model\UserAccessKeyFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\UserAccessKeyFlat**](../Model/UserAccessKeyFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\UserAccessKeyFlat**](../Model/UserAccessKeyFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
+[**\Shopware6SDK\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a User Access Key resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\UserAccessKeyApi(
+$apiInstance = new Shopware6SDK\Api\UserAccessKeyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUserAccessKey**
-> \ShopwareSDK6\Model\InlineResponse200312 getUserAccessKey($id)
+> \Shopware6SDK\Model\InlineResponse200312 getUserAccessKey($id)
 
 Detailed information about a User Access Key resource
 
@@ -170,7 +170,7 @@ Detailed information about a User Access Key resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\UserAccessKeyApi(
+$apiInstance = new Shopware6SDK\Api\UserAccessKeyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
+[**\Shopware6SDK\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUserAccessKeyList**
-> \ShopwareSDK6\Model\InlineResponse200310 getUserAccessKeyList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200310 getUserAccessKeyList($limit, $page, $query)
 
 List with basic information of User Access Key resources
 
@@ -217,7 +217,7 @@ List with basic information of User Access Key resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\UserAccessKeyApi(
+$apiInstance = new Shopware6SDK\Api\UserAccessKeyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200310**](../Model/InlineResponse200310.md)
+[**\Shopware6SDK\Model\InlineResponse200310**](../Model/InlineResponse200310.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateUserAccessKey**
-> \ShopwareSDK6\Model\InlineResponse200312 updateUserAccessKey($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200312 updateUserAccessKey($id, $body, $_response)
 
 Partially update information about a User Access Key resource
 
@@ -268,13 +268,13 @@ Partially update information about a User Access Key resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\UserAccessKeyApi(
+$apiInstance = new Shopware6SDK\Api\UserAccessKeyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the user_access_key
-$body = new \ShopwareSDK6\Model\Body207(); // \ShopwareSDK6\Model\Body207 | Partially update information about a User Access Key resource.
+$body = new \Shopware6SDK\Model\Body207(); // \Shopware6SDK\Model\Body207 | Partially update information about a User Access Key resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the user_access_key |
- **body** | [**\ShopwareSDK6\Model\Body207**](../Model/Body207.md)| Partially update information about a User Access Key resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body207**](../Model/Body207.md)| Partially update information about a User Access Key resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
+[**\Shopware6SDK\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateUserAccessKey**
-> \ShopwareSDK6\Model\InlineResponse200312 updateUserAccessKey($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200312 updateUserAccessKey($id, $body, $_response)
 
 Partially update information about a User Access Key resource
 
@@ -319,13 +319,13 @@ Partially update information about a User Access Key resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\UserAccessKeyApi(
+$apiInstance = new Shopware6SDK\Api\UserAccessKeyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the user_access_key
-$body = new \ShopwareSDK6\Model\UserAccessKeyFlat(); // \ShopwareSDK6\Model\UserAccessKeyFlat | Partially update information about a User Access Key resource.
+$body = new \Shopware6SDK\Model\UserAccessKeyFlat(); // \Shopware6SDK\Model\UserAccessKeyFlat | Partially update information about a User Access Key resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the user_access_key |
- **body** | [**\ShopwareSDK6\Model\UserAccessKeyFlat**](../Model/UserAccessKeyFlat.md)| Partially update information about a User Access Key resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\UserAccessKeyFlat**](../Model/UserAccessKeyFlat.md)| Partially update information about a User Access Key resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
+[**\Shopware6SDK\Model\InlineResponse200312**](../Model/InlineResponse200312.md)
 
 ### Authorization
 

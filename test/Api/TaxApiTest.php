@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,17 +25,17 @@
  * Please update the test case below to test the endpoint.
  */
 
-namespace ShopwareSDK6;
+namespace Shopware6SDK;
 
-use ShopwareSDK6\Configuration;
-use ShopwareSDK6\ApiException;
-use ShopwareSDK6\ObjectSerializer;
+use Shopware6SDK\Configuration;
+use Shopware6SDK\ApiException;
+use Shopware6SDK\ObjectSerializer;
 
 /**
  * TaxApiTest Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */

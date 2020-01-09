@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\ShopwareSDK6\Model\TagRelationshipsNewsletterRecipientsLinks**](TagRelationshipsNewsletterRecipientsLinks.md) |  | [optional] 
-**data** | [**\ShopwareSDK6\Model\TagRelationshipsNewsletterRecipientsData[]**](TagRelationshipsNewsletterRecipientsData.md) |  | [optional] 
+**links** | [**\Shopware6SDK\Model\TagRelationshipsNewsletterRecipientsLinks**](TagRelationshipsNewsletterRecipientsLinks.md) |  | [optional] 
+**data** | [**\Shopware6SDK\Model\TagRelationshipsNewsletterRecipientsData[]**](TagRelationshipsNewsletterRecipientsData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

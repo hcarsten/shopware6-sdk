@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplateType Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MailTemplateType extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\MailTemplateTypeAttributes',
-'links' => '\ShopwareSDK6\Model\MailTemplateTypeLinks',
-'relationships' => '\ShopwareSDK6\Model\MailTemplateTypeRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\MailTemplateTypeAttributes',
+'links' => '\Shopware6SDK\Model\MailTemplateTypeLinks',
+'relationships' => '\Shopware6SDK\Model\MailTemplateTypeRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MailTemplateType extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\MailTemplateTypeAttributes
+     * @return \Shopware6SDK\Model\MailTemplateTypeAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MailTemplateType extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\MailTemplateTypeAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\MailTemplateTypeAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MailTemplateType extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MailTemplateTypeLinks
+     * @return \Shopware6SDK\Model\MailTemplateTypeLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MailTemplateType extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MailTemplateTypeLinks $links links
+     * @param \Shopware6SDK\Model\MailTemplateTypeLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MailTemplateType extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\MailTemplateTypeRelationships
+     * @return \Shopware6SDK\Model\MailTemplateTypeRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MailTemplateType extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\MailTemplateTypeRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\MailTemplateTypeRelationships $relationships relationships
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * TagRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,13 +56,13 @@ class TagRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'products' => '\ShopwareSDK6\Model\TagRelationshipsProducts',
-'media' => '\ShopwareSDK6\Model\TagRelationshipsMedia',
-'categories' => '\ShopwareSDK6\Model\TagRelationshipsCategories',
-'customers' => '\ShopwareSDK6\Model\TagRelationshipsCustomers',
-'orders' => '\ShopwareSDK6\Model\TagRelationshipsOrders',
-'shipping_methods' => '\ShopwareSDK6\Model\TagRelationshipsShippingMethods',
-'newsletter_recipients' => '\ShopwareSDK6\Model\TagRelationshipsNewsletterRecipients'    ];
+        'products' => '\Shopware6SDK\Model\TagRelationshipsProducts',
+'media' => '\Shopware6SDK\Model\TagRelationshipsMedia',
+'categories' => '\Shopware6SDK\Model\TagRelationshipsCategories',
+'customers' => '\Shopware6SDK\Model\TagRelationshipsCustomers',
+'orders' => '\Shopware6SDK\Model\TagRelationshipsOrders',
+'shipping_methods' => '\Shopware6SDK\Model\TagRelationshipsShippingMethods',
+'newsletter_recipients' => '\Shopware6SDK\Model\TagRelationshipsNewsletterRecipients'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -235,7 +235,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \ShopwareSDK6\Model\TagRelationshipsProducts
+     * @return \Shopware6SDK\Model\TagRelationshipsProducts
      */
     public function getProducts()
     {
@@ -245,7 +245,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \ShopwareSDK6\Model\TagRelationshipsProducts $products products
+     * @param \Shopware6SDK\Model\TagRelationshipsProducts $products products
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\TagRelationshipsMedia
+     * @return \Shopware6SDK\Model\TagRelationshipsMedia
      */
     public function getMedia()
     {
@@ -269,7 +269,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\TagRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\TagRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \ShopwareSDK6\Model\TagRelationshipsCategories
+     * @return \Shopware6SDK\Model\TagRelationshipsCategories
      */
     public function getCategories()
     {
@@ -293,7 +293,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \ShopwareSDK6\Model\TagRelationshipsCategories $categories categories
+     * @param \Shopware6SDK\Model\TagRelationshipsCategories $categories categories
      *
      * @return $this
      */
@@ -307,7 +307,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \ShopwareSDK6\Model\TagRelationshipsCustomers
+     * @return \Shopware6SDK\Model\TagRelationshipsCustomers
      */
     public function getCustomers()
     {
@@ -317,7 +317,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \ShopwareSDK6\Model\TagRelationshipsCustomers $customers customers
+     * @param \Shopware6SDK\Model\TagRelationshipsCustomers $customers customers
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \ShopwareSDK6\Model\TagRelationshipsOrders
+     * @return \Shopware6SDK\Model\TagRelationshipsOrders
      */
     public function getOrders()
     {
@@ -341,7 +341,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \ShopwareSDK6\Model\TagRelationshipsOrders $orders orders
+     * @param \Shopware6SDK\Model\TagRelationshipsOrders $orders orders
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_methods
      *
-     * @return \ShopwareSDK6\Model\TagRelationshipsShippingMethods
+     * @return \Shopware6SDK\Model\TagRelationshipsShippingMethods
      */
     public function getShippingMethods()
     {
@@ -365,7 +365,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_methods
      *
-     * @param \ShopwareSDK6\Model\TagRelationshipsShippingMethods $shipping_methods shipping_methods
+     * @param \Shopware6SDK\Model\TagRelationshipsShippingMethods $shipping_methods shipping_methods
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets newsletter_recipients
      *
-     * @return \ShopwareSDK6\Model\TagRelationshipsNewsletterRecipients
+     * @return \Shopware6SDK\Model\TagRelationshipsNewsletterRecipients
      */
     public function getNewsletterRecipients()
     {
@@ -389,7 +389,7 @@ class TagRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets newsletter_recipients
      *
-     * @param \ShopwareSDK6\Model\TagRelationshipsNewsletterRecipients $newsletter_recipients newsletter_recipients
+     * @param \Shopware6SDK\Model\TagRelationshipsNewsletterRecipients $newsletter_recipients newsletter_recipients
      *
      * @return $this
      */

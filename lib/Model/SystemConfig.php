@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SystemConfig Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class SystemConfig extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\SystemConfigAttributes',
-'links' => '\ShopwareSDK6\Model\SystemConfigLinks',
-'relationships' => '\ShopwareSDK6\Model\SystemConfigRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\SystemConfigAttributes',
+'links' => '\Shopware6SDK\Model\SystemConfigLinks',
+'relationships' => '\Shopware6SDK\Model\SystemConfigRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class SystemConfig extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\SystemConfigAttributes
+     * @return \Shopware6SDK\Model\SystemConfigAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class SystemConfig extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\SystemConfigAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\SystemConfigAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class SystemConfig extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\SystemConfigLinks
+     * @return \Shopware6SDK\Model\SystemConfigLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class SystemConfig extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\SystemConfigLinks $links links
+     * @param \Shopware6SDK\Model\SystemConfigLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class SystemConfig extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\SystemConfigRelationships
+     * @return \Shopware6SDK\Model\SystemConfigRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class SystemConfig extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\SystemConfigRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\SystemConfigRelationships $relationships relationships
      *
      * @return $this
      */

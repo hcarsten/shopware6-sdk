@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SnippetFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,7 +64,7 @@ class SnippetFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'set' => '\ShopwareSDK6\Model\SnippetSetFlat'    ];
+'set' => '\Shopware6SDK\Model\SnippetSetFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -457,7 +457,7 @@ class SnippetFlat implements ModelInterface, ArrayAccess
     /**
      * Gets set
      *
-     * @return \ShopwareSDK6\Model\SnippetSetFlat
+     * @return \Shopware6SDK\Model\SnippetSetFlat
      */
     public function getSet()
     {
@@ -467,7 +467,7 @@ class SnippetFlat implements ModelInterface, ArrayAccess
     /**
      * Sets set
      *
-     * @param \ShopwareSDK6\Model\SnippetSetFlat $set set
+     * @param \Shopware6SDK\Model\SnippetSetFlat $set set
      *
      * @return $this
      */

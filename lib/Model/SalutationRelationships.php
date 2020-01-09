@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SalutationRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,11 +56,11 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'customers' => '\ShopwareSDK6\Model\SalutationRelationshipsCustomers',
-'customer_addresses' => '\ShopwareSDK6\Model\SalutationRelationshipsCustomerAddresses',
-'order_customers' => '\ShopwareSDK6\Model\SalutationRelationshipsOrderCustomers',
-'order_addresses' => '\ShopwareSDK6\Model\SalutationRelationshipsOrderAddresses',
-'newsletter_recipients' => '\ShopwareSDK6\Model\SalutationRelationshipsNewsletterRecipients'    ];
+        'customers' => '\Shopware6SDK\Model\SalutationRelationshipsCustomers',
+'customer_addresses' => '\Shopware6SDK\Model\SalutationRelationshipsCustomerAddresses',
+'order_customers' => '\Shopware6SDK\Model\SalutationRelationshipsOrderCustomers',
+'order_addresses' => '\Shopware6SDK\Model\SalutationRelationshipsOrderAddresses',
+'newsletter_recipients' => '\Shopware6SDK\Model\SalutationRelationshipsNewsletterRecipients'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -223,7 +223,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customers
      *
-     * @return \ShopwareSDK6\Model\SalutationRelationshipsCustomers
+     * @return \Shopware6SDK\Model\SalutationRelationshipsCustomers
      */
     public function getCustomers()
     {
@@ -233,7 +233,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customers
      *
-     * @param \ShopwareSDK6\Model\SalutationRelationshipsCustomers $customers customers
+     * @param \Shopware6SDK\Model\SalutationRelationshipsCustomers $customers customers
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customer_addresses
      *
-     * @return \ShopwareSDK6\Model\SalutationRelationshipsCustomerAddresses
+     * @return \Shopware6SDK\Model\SalutationRelationshipsCustomerAddresses
      */
     public function getCustomerAddresses()
     {
@@ -257,7 +257,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customer_addresses
      *
-     * @param \ShopwareSDK6\Model\SalutationRelationshipsCustomerAddresses $customer_addresses customer_addresses
+     * @param \Shopware6SDK\Model\SalutationRelationshipsCustomerAddresses $customer_addresses customer_addresses
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_customers
      *
-     * @return \ShopwareSDK6\Model\SalutationRelationshipsOrderCustomers
+     * @return \Shopware6SDK\Model\SalutationRelationshipsOrderCustomers
      */
     public function getOrderCustomers()
     {
@@ -281,7 +281,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_customers
      *
-     * @param \ShopwareSDK6\Model\SalutationRelationshipsOrderCustomers $order_customers order_customers
+     * @param \Shopware6SDK\Model\SalutationRelationshipsOrderCustomers $order_customers order_customers
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order_addresses
      *
-     * @return \ShopwareSDK6\Model\SalutationRelationshipsOrderAddresses
+     * @return \Shopware6SDK\Model\SalutationRelationshipsOrderAddresses
      */
     public function getOrderAddresses()
     {
@@ -305,7 +305,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order_addresses
      *
-     * @param \ShopwareSDK6\Model\SalutationRelationshipsOrderAddresses $order_addresses order_addresses
+     * @param \Shopware6SDK\Model\SalutationRelationshipsOrderAddresses $order_addresses order_addresses
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets newsletter_recipients
      *
-     * @return \ShopwareSDK6\Model\SalutationRelationshipsNewsletterRecipients
+     * @return \Shopware6SDK\Model\SalutationRelationshipsNewsletterRecipients
      */
     public function getNewsletterRecipients()
     {
@@ -329,7 +329,7 @@ class SalutationRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets newsletter_recipients
      *
-     * @param \ShopwareSDK6\Model\SalutationRelationshipsNewsletterRecipients $newsletter_recipients newsletter_recipients
+     * @param \Shopware6SDK\Model\SalutationRelationshipsNewsletterRecipients $newsletter_recipients newsletter_recipients
      *
      * @return $this
      */

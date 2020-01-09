@@ -1,4 +1,4 @@
-# ShopwareSDK6\PluginApi
+# Shopware6SDK\PluginApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updatePlugin**](PluginApi.md#updateplugin) | **PATCH** /plugin/{id} | Partially update information about a Plugin resource
 
 # **createPlugin**
-> \ShopwareSDK6\Model\InlineResponse200171 createPlugin($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200171 createPlugin($body, $_response)
 
 Create a new Plugin resources
 
@@ -22,12 +22,12 @@ Create a new Plugin resources. All required fields must be provided in order to 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PluginApi(
+$apiInstance = new Shopware6SDK\Api\PluginApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body112(); // \ShopwareSDK6\Model\Body112 | 
+$body = new \Shopware6SDK\Model\Body112(); // \Shopware6SDK\Model\Body112 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body112**](../Model/Body112.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body112**](../Model/Body112.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
+[**\Shopware6SDK\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createPlugin**
-> \ShopwareSDK6\Model\InlineResponse200171 createPlugin($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200171 createPlugin($body, $_response)
 
 Create a new Plugin resources
 
@@ -73,12 +73,12 @@ Create a new Plugin resources. All required fields must be provided in order to 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PluginApi(
+$apiInstance = new Shopware6SDK\Api\PluginApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\PluginFlat(); // \ShopwareSDK6\Model\PluginFlat | 
+$body = new \Shopware6SDK\Model\PluginFlat(); // \Shopware6SDK\Model\PluginFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\PluginFlat**](../Model/PluginFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\PluginFlat**](../Model/PluginFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
+[**\Shopware6SDK\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Plugin resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PluginApi(
+$apiInstance = new Shopware6SDK\Api\PluginApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPlugin**
-> \ShopwareSDK6\Model\InlineResponse200171 getPlugin($id)
+> \Shopware6SDK\Model\InlineResponse200171 getPlugin($id)
 
 Detailed information about a Plugin resource
 
@@ -170,7 +170,7 @@ Detailed information about a Plugin resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PluginApi(
+$apiInstance = new Shopware6SDK\Api\PluginApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
+[**\Shopware6SDK\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPluginList**
-> \ShopwareSDK6\Model\InlineResponse200169 getPluginList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200169 getPluginList($limit, $page, $query)
 
 List with basic information of Plugin resources
 
@@ -217,7 +217,7 @@ List with basic information of Plugin resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PluginApi(
+$apiInstance = new Shopware6SDK\Api\PluginApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200169**](../Model/InlineResponse200169.md)
+[**\Shopware6SDK\Model\InlineResponse200169**](../Model/InlineResponse200169.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePlugin**
-> \ShopwareSDK6\Model\InlineResponse200171 updatePlugin($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200171 updatePlugin($id, $body, $_response)
 
 Partially update information about a Plugin resource
 
@@ -268,13 +268,13 @@ Partially update information about a Plugin resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PluginApi(
+$apiInstance = new Shopware6SDK\Api\PluginApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the plugin
-$body = new \ShopwareSDK6\Model\Body113(); // \ShopwareSDK6\Model\Body113 | Partially update information about a Plugin resource.
+$body = new \Shopware6SDK\Model\Body113(); // \Shopware6SDK\Model\Body113 | Partially update information about a Plugin resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the plugin |
- **body** | [**\ShopwareSDK6\Model\Body113**](../Model/Body113.md)| Partially update information about a Plugin resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body113**](../Model/Body113.md)| Partially update information about a Plugin resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
+[**\Shopware6SDK\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePlugin**
-> \ShopwareSDK6\Model\InlineResponse200171 updatePlugin($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200171 updatePlugin($id, $body, $_response)
 
 Partially update information about a Plugin resource
 
@@ -319,13 +319,13 @@ Partially update information about a Plugin resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\PluginApi(
+$apiInstance = new Shopware6SDK\Api\PluginApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the plugin
-$body = new \ShopwareSDK6\Model\PluginFlat(); // \ShopwareSDK6\Model\PluginFlat | Partially update information about a Plugin resource.
+$body = new \Shopware6SDK\Model\PluginFlat(); // \Shopware6SDK\Model\PluginFlat | Partially update information about a Plugin resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the plugin |
- **body** | [**\ShopwareSDK6\Model\PluginFlat**](../Model/PluginFlat.md)| Partially update information about a Plugin resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\PluginFlat**](../Model/PluginFlat.md)| Partially update information about a Plugin resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
+[**\Shopware6SDK\Model\InlineResponse200171**](../Model/InlineResponse200171.md)
 
 ### Authorization
 

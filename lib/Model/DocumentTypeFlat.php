@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * DocumentTypeFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,9 +63,9 @@ class DocumentTypeFlat implements ModelInterface, ArrayAccess
 'updated_at' => '\DateTime',
 'custom_fields' => 'object',
 'translated' => 'object',
-'documents' => '\ShopwareSDK6\Model\DocumentFlat',
-'document_base_configs' => '\ShopwareSDK6\Model\DocumentBaseConfigFlat',
-'document_base_config_sales_channels' => '\ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat'    ];
+'documents' => '\Shopware6SDK\Model\DocumentFlat',
+'document_base_configs' => '\Shopware6SDK\Model\DocumentBaseConfigFlat',
+'document_base_config_sales_channels' => '\Shopware6SDK\Model\DocumentBaseConfigSalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -433,7 +433,7 @@ class DocumentTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \ShopwareSDK6\Model\DocumentFlat
+     * @return \Shopware6SDK\Model\DocumentFlat
      */
     public function getDocuments()
     {
@@ -443,7 +443,7 @@ class DocumentTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \ShopwareSDK6\Model\DocumentFlat $documents documents
+     * @param \Shopware6SDK\Model\DocumentFlat $documents documents
      *
      * @return $this
      */
@@ -457,7 +457,7 @@ class DocumentTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets document_base_configs
      *
-     * @return \ShopwareSDK6\Model\DocumentBaseConfigFlat
+     * @return \Shopware6SDK\Model\DocumentBaseConfigFlat
      */
     public function getDocumentBaseConfigs()
     {
@@ -467,7 +467,7 @@ class DocumentTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets document_base_configs
      *
-     * @param \ShopwareSDK6\Model\DocumentBaseConfigFlat $document_base_configs document_base_configs
+     * @param \Shopware6SDK\Model\DocumentBaseConfigFlat $document_base_configs document_base_configs
      *
      * @return $this
      */
@@ -481,7 +481,7 @@ class DocumentTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Gets document_base_config_sales_channels
      *
-     * @return \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat
+     * @return \Shopware6SDK\Model\DocumentBaseConfigSalesChannelFlat
      */
     public function getDocumentBaseConfigSalesChannels()
     {
@@ -491,7 +491,7 @@ class DocumentTypeFlat implements ModelInterface, ArrayAccess
     /**
      * Sets document_base_config_sales_channels
      *
-     * @param \ShopwareSDK6\Model\DocumentBaseConfigSalesChannelFlat $document_base_config_sales_channels document_base_config_sales_channels
+     * @param \Shopware6SDK\Model\DocumentBaseConfigSalesChannelFlat $document_base_config_sales_channels document_base_config_sales_channels
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionPersonaCustomerFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class PromotionPersonaCustomerFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'promotion_id' => 'string',
 'customer_id' => 'string',
-'promotion' => '\ShopwareSDK6\Model\PromotionFlat',
-'customer' => '\ShopwareSDK6\Model\CustomerFlat'    ];
+'promotion' => '\Shopware6SDK\Model\PromotionFlat',
+'customer' => '\Shopware6SDK\Model\CustomerFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class PromotionPersonaCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets promotion
      *
-     * @return \ShopwareSDK6\Model\PromotionFlat
+     * @return \Shopware6SDK\Model\PromotionFlat
      */
     public function getPromotion()
     {
@@ -311,7 +311,7 @@ class PromotionPersonaCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets promotion
      *
-     * @param \ShopwareSDK6\Model\PromotionFlat $promotion promotion
+     * @param \Shopware6SDK\Model\PromotionFlat $promotion promotion
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class PromotionPersonaCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \ShopwareSDK6\Model\CustomerFlat
+     * @return \Shopware6SDK\Model\CustomerFlat
      */
     public function getCustomer()
     {
@@ -335,7 +335,7 @@ class PromotionPersonaCustomerFlat implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \ShopwareSDK6\Model\CustomerFlat $customer customer
+     * @param \Shopware6SDK\Model\CustomerFlat $customer customer
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ImportExportFile Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ImportExportFile extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\ImportExportFileAttributes',
-'links' => '\ShopwareSDK6\Model\ImportExportFileLinks',
-'relationships' => '\ShopwareSDK6\Model\ImportExportFileRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\ImportExportFileAttributes',
+'links' => '\Shopware6SDK\Model\ImportExportFileLinks',
+'relationships' => '\Shopware6SDK\Model\ImportExportFileRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ImportExportFile extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\ImportExportFileAttributes
+     * @return \Shopware6SDK\Model\ImportExportFileAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ImportExportFile extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\ImportExportFileAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\ImportExportFileAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ImportExportFile extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ImportExportFileLinks
+     * @return \Shopware6SDK\Model\ImportExportFileLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ImportExportFile extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ImportExportFileLinks $links links
+     * @param \Shopware6SDK\Model\ImportExportFileLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ImportExportFile extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\ImportExportFileRelationships
+     * @return \Shopware6SDK\Model\ImportExportFileRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ImportExportFile extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\ImportExportFileRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\ImportExportFileRelationships $relationships relationships
      *
      * @return $this
      */

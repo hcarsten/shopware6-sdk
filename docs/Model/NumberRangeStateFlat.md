@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **last_value** | **int** |  | 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**number_range** | [**\ShopwareSDK6\Model\NumberRangeFlat**](NumberRangeFlat.md) |  | [optional] 
+**number_range** | [**\Shopware6SDK\Model\NumberRangeFlat**](NumberRangeFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

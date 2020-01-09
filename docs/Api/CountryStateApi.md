@@ -1,4 +1,4 @@
-# ShopwareSDK6\CountryStateApi
+# Shopware6SDK\CountryStateApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCountryState**](CountryStateApi.md#updatecountrystate) | **PATCH** /country-state/{id} | Partially update information about a Country State resource
 
 # **createCountryState**
-> \ShopwareSDK6\Model\InlineResponse20027 createCountryState($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20027 createCountryState($body, $_response)
 
 Create a new Country State resources
 
@@ -22,12 +22,12 @@ Create a new Country State resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CountryStateApi(
+$apiInstance = new Shopware6SDK\Api\CountryStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body16(); // \ShopwareSDK6\Model\Body16 | 
+$body = new \Shopware6SDK\Model\Body16(); // \Shopware6SDK\Model\Body16 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body16**](../Model/Body16.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body16**](../Model/Body16.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
+[**\Shopware6SDK\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createCountryState**
-> \ShopwareSDK6\Model\InlineResponse20027 createCountryState($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20027 createCountryState($body, $_response)
 
 Create a new Country State resources
 
@@ -73,12 +73,12 @@ Create a new Country State resources. All required fields must be provided in or
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CountryStateApi(
+$apiInstance = new Shopware6SDK\Api\CountryStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\CountryStateFlat(); // \ShopwareSDK6\Model\CountryStateFlat | 
+$body = new \Shopware6SDK\Model\CountryStateFlat(); // \Shopware6SDK\Model\CountryStateFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\CountryStateFlat**](../Model/CountryStateFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\CountryStateFlat**](../Model/CountryStateFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
+[**\Shopware6SDK\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Country State resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CountryStateApi(
+$apiInstance = new Shopware6SDK\Api\CountryStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCountryState**
-> \ShopwareSDK6\Model\InlineResponse20027 getCountryState($id)
+> \Shopware6SDK\Model\InlineResponse20027 getCountryState($id)
 
 Detailed information about a Country State resource
 
@@ -170,7 +170,7 @@ Detailed information about a Country State resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CountryStateApi(
+$apiInstance = new Shopware6SDK\Api\CountryStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
+[**\Shopware6SDK\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCountryStateList**
-> \ShopwareSDK6\Model\InlineResponse20025 getCountryStateList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse20025 getCountryStateList($limit, $page, $query)
 
 List with basic information of Country State resources
 
@@ -217,7 +217,7 @@ List with basic information of Country State resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CountryStateApi(
+$apiInstance = new Shopware6SDK\Api\CountryStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20025**](../Model/InlineResponse20025.md)
+[**\Shopware6SDK\Model\InlineResponse20025**](../Model/InlineResponse20025.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCountryState**
-> \ShopwareSDK6\Model\InlineResponse20027 updateCountryState($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20027 updateCountryState($id, $body, $_response)
 
 Partially update information about a Country State resource
 
@@ -268,13 +268,13 @@ Partially update information about a Country State resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CountryStateApi(
+$apiInstance = new Shopware6SDK\Api\CountryStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the country_state
-$body = new \ShopwareSDK6\Model\Body17(); // \ShopwareSDK6\Model\Body17 | Partially update information about a Country State resource.
+$body = new \Shopware6SDK\Model\Body17(); // \Shopware6SDK\Model\Body17 | Partially update information about a Country State resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the country_state |
- **body** | [**\ShopwareSDK6\Model\Body17**](../Model/Body17.md)| Partially update information about a Country State resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body17**](../Model/Body17.md)| Partially update information about a Country State resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
+[**\Shopware6SDK\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCountryState**
-> \ShopwareSDK6\Model\InlineResponse20027 updateCountryState($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20027 updateCountryState($id, $body, $_response)
 
 Partially update information about a Country State resource
 
@@ -319,13 +319,13 @@ Partially update information about a Country State resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\CountryStateApi(
+$apiInstance = new Shopware6SDK\Api\CountryStateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the country_state
-$body = new \ShopwareSDK6\Model\CountryStateFlat(); // \ShopwareSDK6\Model\CountryStateFlat | Partially update information about a Country State resource.
+$body = new \Shopware6SDK\Model\CountryStateFlat(); // \Shopware6SDK\Model\CountryStateFlat | Partially update information about a Country State resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the country_state |
- **body** | [**\ShopwareSDK6\Model\CountryStateFlat**](../Model/CountryStateFlat.md)| Partially update information about a Country State resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\CountryStateFlat**](../Model/CountryStateFlat.md)| Partially update information about a Country State resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
+[**\Shopware6SDK\Model\InlineResponse20027**](../Model/InlineResponse20027.md)
 
 ### Authorization
 

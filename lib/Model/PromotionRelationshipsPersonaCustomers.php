@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PromotionRelationshipsPersonaCustomers Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class PromotionRelationshipsPersonaCustomers implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\PromotionRelationshipsPersonaCustomersLinks',
-'data' => '\ShopwareSDK6\Model\PromotionRelationshipsPersonaCustomersData[]'    ];
+        'links' => '\Shopware6SDK\Model\PromotionRelationshipsPersonaCustomersLinks',
+'data' => '\Shopware6SDK\Model\PromotionRelationshipsPersonaCustomersData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class PromotionRelationshipsPersonaCustomers implements ModelInterface, ArrayAcc
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\PromotionRelationshipsPersonaCustomersLinks
+     * @return \Shopware6SDK\Model\PromotionRelationshipsPersonaCustomersLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class PromotionRelationshipsPersonaCustomers implements ModelInterface, ArrayAcc
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\PromotionRelationshipsPersonaCustomersLinks $links links
+     * @param \Shopware6SDK\Model\PromotionRelationshipsPersonaCustomersLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class PromotionRelationshipsPersonaCustomers implements ModelInterface, ArrayAcc
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\PromotionRelationshipsPersonaCustomersData[]
+     * @return \Shopware6SDK\Model\PromotionRelationshipsPersonaCustomersData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class PromotionRelationshipsPersonaCustomers implements ModelInterface, ArrayAcc
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\PromotionRelationshipsPersonaCustomersData[] $data data
+     * @param \Shopware6SDK\Model\PromotionRelationshipsPersonaCustomersData[] $data data
      *
      * @return $this
      */

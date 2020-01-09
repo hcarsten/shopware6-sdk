@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Integration Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class Integration extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\IntegrationAttributes',
-'links' => '\ShopwareSDK6\Model\IntegrationLinks'    ];
+'attributes' => '\Shopware6SDK\Model\IntegrationAttributes',
+'links' => '\Shopware6SDK\Model\IntegrationLinks'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -259,7 +259,7 @@ class Integration extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\IntegrationAttributes
+     * @return \Shopware6SDK\Model\IntegrationAttributes
      */
     public function getAttributes()
     {
@@ -269,7 +269,7 @@ class Integration extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\IntegrationAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\IntegrationAttributes $attributes attributes
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class Integration extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\IntegrationLinks
+     * @return \Shopware6SDK\Model\IntegrationLinks
      */
     public function getLinks()
     {
@@ -293,7 +293,7 @@ class Integration extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\IntegrationLinks $links links
+     * @param \Shopware6SDK\Model\IntegrationLinks $links links
      *
      * @return $this
      */

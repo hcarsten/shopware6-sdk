@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Country Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Country extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\CountryAttributes',
-'links' => '\ShopwareSDK6\Model\CountryLinks',
-'relationships' => '\ShopwareSDK6\Model\CountryRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\CountryAttributes',
+'links' => '\Shopware6SDK\Model\CountryLinks',
+'relationships' => '\Shopware6SDK\Model\CountryRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Country extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\CountryAttributes
+     * @return \Shopware6SDK\Model\CountryAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Country extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\CountryAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\CountryAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Country extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CountryLinks
+     * @return \Shopware6SDK\Model\CountryLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Country extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CountryLinks $links links
+     * @param \Shopware6SDK\Model\CountryLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Country extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\CountryRelationships
+     * @return \Shopware6SDK\Model\CountryRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Country extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\CountryRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\CountryRelationships $relationships relationships
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * DocumentBaseConfig Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class DocumentBaseConfig extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\DocumentBaseConfigAttributes',
-'links' => '\ShopwareSDK6\Model\DocumentBaseConfigLinks',
-'relationships' => '\ShopwareSDK6\Model\DocumentBaseConfigRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\DocumentBaseConfigAttributes',
+'links' => '\Shopware6SDK\Model\DocumentBaseConfigLinks',
+'relationships' => '\Shopware6SDK\Model\DocumentBaseConfigRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class DocumentBaseConfig extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\DocumentBaseConfigAttributes
+     * @return \Shopware6SDK\Model\DocumentBaseConfigAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class DocumentBaseConfig extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\DocumentBaseConfigAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\DocumentBaseConfigAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class DocumentBaseConfig extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\DocumentBaseConfigLinks
+     * @return \Shopware6SDK\Model\DocumentBaseConfigLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class DocumentBaseConfig extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\DocumentBaseConfigLinks $links links
+     * @param \Shopware6SDK\Model\DocumentBaseConfigLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class DocumentBaseConfig extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\DocumentBaseConfigRelationships
+     * @return \Shopware6SDK\Model\DocumentBaseConfigRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class DocumentBaseConfig extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\DocumentBaseConfigRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\DocumentBaseConfigRelationships $relationships relationships
      *
      * @return $this
      */

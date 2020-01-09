@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductStreamFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,9 +65,9 @@ class ProductStreamFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'filters' => '\ShopwareSDK6\Model\ProductStreamFilterFlat',
-'product_cross_sellings' => '\ShopwareSDK6\Model\ProductCrossSellingFlat',
-'product_exports' => '\ShopwareSDK6\Model\ProductExportFlat'    ];
+'filters' => '\Shopware6SDK\Model\ProductStreamFilterFlat',
+'product_cross_sellings' => '\Shopware6SDK\Model\ProductCrossSellingFlat',
+'product_exports' => '\Shopware6SDK\Model\ProductExportFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -490,7 +490,7 @@ class ProductStreamFlat implements ModelInterface, ArrayAccess
     /**
      * Gets filters
      *
-     * @return \ShopwareSDK6\Model\ProductStreamFilterFlat
+     * @return \Shopware6SDK\Model\ProductStreamFilterFlat
      */
     public function getFilters()
     {
@@ -500,7 +500,7 @@ class ProductStreamFlat implements ModelInterface, ArrayAccess
     /**
      * Sets filters
      *
-     * @param \ShopwareSDK6\Model\ProductStreamFilterFlat $filters filters
+     * @param \Shopware6SDK\Model\ProductStreamFilterFlat $filters filters
      *
      * @return $this
      */
@@ -514,7 +514,7 @@ class ProductStreamFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_cross_sellings
      *
-     * @return \ShopwareSDK6\Model\ProductCrossSellingFlat
+     * @return \Shopware6SDK\Model\ProductCrossSellingFlat
      */
     public function getProductCrossSellings()
     {
@@ -524,7 +524,7 @@ class ProductStreamFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_cross_sellings
      *
-     * @param \ShopwareSDK6\Model\ProductCrossSellingFlat $product_cross_sellings product_cross_sellings
+     * @param \Shopware6SDK\Model\ProductCrossSellingFlat $product_cross_sellings product_cross_sellings
      *
      * @return $this
      */
@@ -538,7 +538,7 @@ class ProductStreamFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_exports
      *
-     * @return \ShopwareSDK6\Model\ProductExportFlat
+     * @return \Shopware6SDK\Model\ProductExportFlat
      */
     public function getProductExports()
     {
@@ -548,7 +548,7 @@ class ProductStreamFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_exports
      *
-     * @param \ShopwareSDK6\Model\ProductExportFlat $product_exports product_exports
+     * @param \Shopware6SDK\Model\ProductExportFlat $product_exports product_exports
      *
      * @return $this
      */

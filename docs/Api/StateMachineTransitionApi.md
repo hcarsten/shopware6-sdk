@@ -1,4 +1,4 @@
-# ShopwareSDK6\StateMachineTransitionApi
+# Shopware6SDK\StateMachineTransitionApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateStateMachineTransition**](StateMachineTransitionApi.md#updatestatemachinetransition) | **PATCH** /state-machine-transition/{id} | Partially update information about a State Machine Transition resource
 
 # **createStateMachineTransition**
-> \ShopwareSDK6\Model\InlineResponse200285 createStateMachineTransition($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200285 createStateMachineTransition($body, $_response)
 
 Create a new State Machine Transition resources
 
@@ -22,12 +22,12 @@ Create a new State Machine Transition resources. All required fields must be pro
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineTransitionApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineTransitionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body188(); // \ShopwareSDK6\Model\Body188 | 
+$body = new \Shopware6SDK\Model\Body188(); // \Shopware6SDK\Model\Body188 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body188**](../Model/Body188.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body188**](../Model/Body188.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
+[**\Shopware6SDK\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createStateMachineTransition**
-> \ShopwareSDK6\Model\InlineResponse200285 createStateMachineTransition($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200285 createStateMachineTransition($body, $_response)
 
 Create a new State Machine Transition resources
 
@@ -73,12 +73,12 @@ Create a new State Machine Transition resources. All required fields must be pro
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineTransitionApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineTransitionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\StateMachineTransitionFlat(); // \ShopwareSDK6\Model\StateMachineTransitionFlat | 
+$body = new \Shopware6SDK\Model\StateMachineTransitionFlat(); // \Shopware6SDK\Model\StateMachineTransitionFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\StateMachineTransitionFlat**](../Model/StateMachineTransitionFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\StateMachineTransitionFlat**](../Model/StateMachineTransitionFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
+[**\Shopware6SDK\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a State Machine Transition resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineTransitionApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineTransitionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStateMachineTransition**
-> \ShopwareSDK6\Model\InlineResponse200285 getStateMachineTransition($id)
+> \Shopware6SDK\Model\InlineResponse200285 getStateMachineTransition($id)
 
 Detailed information about a State Machine Transition resource
 
@@ -170,7 +170,7 @@ Detailed information about a State Machine Transition resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineTransitionApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineTransitionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
+[**\Shopware6SDK\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStateMachineTransitionList**
-> \ShopwareSDK6\Model\InlineResponse200283 getStateMachineTransitionList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200283 getStateMachineTransitionList($limit, $page, $query)
 
 List with basic information of State Machine Transition resources
 
@@ -217,7 +217,7 @@ List with basic information of State Machine Transition resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineTransitionApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineTransitionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200283**](../Model/InlineResponse200283.md)
+[**\Shopware6SDK\Model\InlineResponse200283**](../Model/InlineResponse200283.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateStateMachineTransition**
-> \ShopwareSDK6\Model\InlineResponse200285 updateStateMachineTransition($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200285 updateStateMachineTransition($id, $body, $_response)
 
 Partially update information about a State Machine Transition resource
 
@@ -268,13 +268,13 @@ Partially update information about a State Machine Transition resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineTransitionApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineTransitionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the state_machine_transition
-$body = new \ShopwareSDK6\Model\Body189(); // \ShopwareSDK6\Model\Body189 | Partially update information about a State Machine Transition resource.
+$body = new \Shopware6SDK\Model\Body189(); // \Shopware6SDK\Model\Body189 | Partially update information about a State Machine Transition resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the state_machine_transition |
- **body** | [**\ShopwareSDK6\Model\Body189**](../Model/Body189.md)| Partially update information about a State Machine Transition resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body189**](../Model/Body189.md)| Partially update information about a State Machine Transition resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
+[**\Shopware6SDK\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateStateMachineTransition**
-> \ShopwareSDK6\Model\InlineResponse200285 updateStateMachineTransition($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200285 updateStateMachineTransition($id, $body, $_response)
 
 Partially update information about a State Machine Transition resource
 
@@ -319,13 +319,13 @@ Partially update information about a State Machine Transition resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\StateMachineTransitionApi(
+$apiInstance = new Shopware6SDK\Api\StateMachineTransitionApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the state_machine_transition
-$body = new \ShopwareSDK6\Model\StateMachineTransitionFlat(); // \ShopwareSDK6\Model\StateMachineTransitionFlat | Partially update information about a State Machine Transition resource.
+$body = new \Shopware6SDK\Model\StateMachineTransitionFlat(); // \Shopware6SDK\Model\StateMachineTransitionFlat | Partially update information about a State Machine Transition resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the state_machine_transition |
- **body** | [**\ShopwareSDK6\Model\StateMachineTransitionFlat**](../Model/StateMachineTransitionFlat.md)| Partially update information about a State Machine Transition resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\StateMachineTransitionFlat**](../Model/StateMachineTransitionFlat.md)| Partially update information about a State Machine Transition resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
+[**\Shopware6SDK\Model\InlineResponse200285**](../Model/InlineResponse200285.md)
 
 ### Authorization
 

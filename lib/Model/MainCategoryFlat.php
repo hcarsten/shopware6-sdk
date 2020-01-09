@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MainCategoryFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,9 +64,9 @@ class MainCategoryFlat implements ModelInterface, ArrayAccess
 'sales_channel_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'product' => '\ShopwareSDK6\Model\ProductFlat',
-'category' => '\ShopwareSDK6\Model\CategoryFlat',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
+'product' => '\Shopware6SDK\Model\ProductFlat',
+'category' => '\Shopware6SDK\Model\CategoryFlat',
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -466,7 +466,7 @@ class MainCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -476,7 +476,7 @@ class MainCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $product product
+     * @param \Shopware6SDK\Model\ProductFlat $product product
      *
      * @return $this
      */
@@ -490,7 +490,7 @@ class MainCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets category
      *
-     * @return \ShopwareSDK6\Model\CategoryFlat
+     * @return \Shopware6SDK\Model\CategoryFlat
      */
     public function getCategory()
     {
@@ -500,7 +500,7 @@ class MainCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets category
      *
-     * @param \ShopwareSDK6\Model\CategoryFlat $category category
+     * @param \Shopware6SDK\Model\CategoryFlat $category category
      *
      * @return $this
      */
@@ -514,7 +514,7 @@ class MainCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -524,7 +524,7 @@ class MainCategoryFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */

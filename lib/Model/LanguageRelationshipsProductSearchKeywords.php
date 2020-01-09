@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * LanguageRelationshipsProductSearchKeywords Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsLinks',
-'data' => '\ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsData[]'    ];
+        'links' => '\Shopware6SDK\Model\LanguageRelationshipsProductSearchKeywordsLinks',
+'data' => '\Shopware6SDK\Model\LanguageRelationshipsProductSearchKeywordsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsLinks
+     * @return \Shopware6SDK\Model\LanguageRelationshipsProductSearchKeywordsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsLinks $links links
+     * @param \Shopware6SDK\Model\LanguageRelationshipsProductSearchKeywordsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsData[]
+     * @return \Shopware6SDK\Model\LanguageRelationshipsProductSearchKeywordsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class LanguageRelationshipsProductSearchKeywords implements ModelInterface, Arra
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\LanguageRelationshipsProductSearchKeywordsData[] $data data
+     * @param \Shopware6SDK\Model\LanguageRelationshipsProductSearchKeywordsData[] $data data
      *
      * @return $this
      */

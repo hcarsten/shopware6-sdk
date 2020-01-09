@@ -1,4 +1,4 @@
-# ShopwareSDK6\SeoUrlTemplateApi
+# Shopware6SDK\SeoUrlTemplateApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateSeoUrlTemplate**](SeoUrlTemplateApi.md#updateseourltemplate) | **PATCH** /seo-url-template/{id} | Partially update information about a Seo Url Template resource
 
 # **createSeoUrlTemplate**
-> \ShopwareSDK6\Model\InlineResponse200261 createSeoUrlTemplate($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200261 createSeoUrlTemplate($body, $_response)
 
 Create a new Seo Url Template resources
 
@@ -22,12 +22,12 @@ Create a new Seo Url Template resources. All required fields must be provided in
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SeoUrlTemplateApi(
+$apiInstance = new Shopware6SDK\Api\SeoUrlTemplateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body172(); // \ShopwareSDK6\Model\Body172 | 
+$body = new \Shopware6SDK\Model\Body172(); // \Shopware6SDK\Model\Body172 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body172**](../Model/Body172.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body172**](../Model/Body172.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
+[**\Shopware6SDK\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createSeoUrlTemplate**
-> \ShopwareSDK6\Model\InlineResponse200261 createSeoUrlTemplate($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200261 createSeoUrlTemplate($body, $_response)
 
 Create a new Seo Url Template resources
 
@@ -73,12 +73,12 @@ Create a new Seo Url Template resources. All required fields must be provided in
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SeoUrlTemplateApi(
+$apiInstance = new Shopware6SDK\Api\SeoUrlTemplateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\SeoUrlTemplateFlat(); // \ShopwareSDK6\Model\SeoUrlTemplateFlat | 
+$body = new \Shopware6SDK\Model\SeoUrlTemplateFlat(); // \Shopware6SDK\Model\SeoUrlTemplateFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\SeoUrlTemplateFlat**](../Model/SeoUrlTemplateFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\SeoUrlTemplateFlat**](../Model/SeoUrlTemplateFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
+[**\Shopware6SDK\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Seo Url Template resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SeoUrlTemplateApi(
+$apiInstance = new Shopware6SDK\Api\SeoUrlTemplateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSeoUrlTemplate**
-> \ShopwareSDK6\Model\InlineResponse200261 getSeoUrlTemplate($id)
+> \Shopware6SDK\Model\InlineResponse200261 getSeoUrlTemplate($id)
 
 Detailed information about a Seo Url Template resource
 
@@ -170,7 +170,7 @@ Detailed information about a Seo Url Template resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SeoUrlTemplateApi(
+$apiInstance = new Shopware6SDK\Api\SeoUrlTemplateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
+[**\Shopware6SDK\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSeoUrlTemplateList**
-> \ShopwareSDK6\Model\InlineResponse200259 getSeoUrlTemplateList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200259 getSeoUrlTemplateList($limit, $page, $query)
 
 List with basic information of Seo Url Template resources
 
@@ -217,7 +217,7 @@ List with basic information of Seo Url Template resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SeoUrlTemplateApi(
+$apiInstance = new Shopware6SDK\Api\SeoUrlTemplateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200259**](../Model/InlineResponse200259.md)
+[**\Shopware6SDK\Model\InlineResponse200259**](../Model/InlineResponse200259.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSeoUrlTemplate**
-> \ShopwareSDK6\Model\InlineResponse200261 updateSeoUrlTemplate($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200261 updateSeoUrlTemplate($id, $body, $_response)
 
 Partially update information about a Seo Url Template resource
 
@@ -268,13 +268,13 @@ Partially update information about a Seo Url Template resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SeoUrlTemplateApi(
+$apiInstance = new Shopware6SDK\Api\SeoUrlTemplateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the seo_url_template
-$body = new \ShopwareSDK6\Model\Body173(); // \ShopwareSDK6\Model\Body173 | Partially update information about a Seo Url Template resource.
+$body = new \Shopware6SDK\Model\Body173(); // \Shopware6SDK\Model\Body173 | Partially update information about a Seo Url Template resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the seo_url_template |
- **body** | [**\ShopwareSDK6\Model\Body173**](../Model/Body173.md)| Partially update information about a Seo Url Template resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body173**](../Model/Body173.md)| Partially update information about a Seo Url Template resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
+[**\Shopware6SDK\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSeoUrlTemplate**
-> \ShopwareSDK6\Model\InlineResponse200261 updateSeoUrlTemplate($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200261 updateSeoUrlTemplate($id, $body, $_response)
 
 Partially update information about a Seo Url Template resource
 
@@ -319,13 +319,13 @@ Partially update information about a Seo Url Template resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\SeoUrlTemplateApi(
+$apiInstance = new Shopware6SDK\Api\SeoUrlTemplateApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the seo_url_template
-$body = new \ShopwareSDK6\Model\SeoUrlTemplateFlat(); // \ShopwareSDK6\Model\SeoUrlTemplateFlat | Partially update information about a Seo Url Template resource.
+$body = new \Shopware6SDK\Model\SeoUrlTemplateFlat(); // \Shopware6SDK\Model\SeoUrlTemplateFlat | Partially update information about a Seo Url Template resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the seo_url_template |
- **body** | [**\ShopwareSDK6\Model\SeoUrlTemplateFlat**](../Model/SeoUrlTemplateFlat.md)| Partially update information about a Seo Url Template resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\SeoUrlTemplateFlat**](../Model/SeoUrlTemplateFlat.md)| Partially update information about a Seo Url Template resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
+[**\Shopware6SDK\Model\InlineResponse200261**](../Model/InlineResponse200261.md)
 
 ### Authorization
 

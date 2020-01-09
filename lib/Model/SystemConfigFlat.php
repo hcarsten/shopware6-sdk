@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SystemConfigFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,11 +58,11 @@ class SystemConfigFlat implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'string',
 'configuration_key' => 'string',
-'configuration_value' => '\ShopwareSDK6\Model\SystemConfigAttributesConfigurationValue',
+'configuration_value' => '\Shopware6SDK\Model\SystemConfigAttributesConfigurationValue',
 'sales_channel_id' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat'    ];
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -295,7 +295,7 @@ class SystemConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Gets configuration_value
      *
-     * @return \ShopwareSDK6\Model\SystemConfigAttributesConfigurationValue
+     * @return \Shopware6SDK\Model\SystemConfigAttributesConfigurationValue
      */
     public function getConfigurationValue()
     {
@@ -305,7 +305,7 @@ class SystemConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Sets configuration_value
      *
-     * @param \ShopwareSDK6\Model\SystemConfigAttributesConfigurationValue $configuration_value configuration_value
+     * @param \Shopware6SDK\Model\SystemConfigAttributesConfigurationValue $configuration_value configuration_value
      *
      * @return $this
      */
@@ -391,7 +391,7 @@ class SystemConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -401,7 +401,7 @@ class SystemConfigFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */

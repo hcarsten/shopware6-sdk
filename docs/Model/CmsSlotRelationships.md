@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**block** | [**\ShopwareSDK6\Model\CmsSlotRelationshipsBlock**](CmsSlotRelationshipsBlock.md) |  | [optional] 
+**block** | [**\Shopware6SDK\Model\CmsSlotRelationshipsBlock**](CmsSlotRelationshipsBlock.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

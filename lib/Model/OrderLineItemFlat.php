@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderLineItemFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -74,7 +74,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
 'removable' => 'bool',
 'stackable' => 'bool',
 'position' => 'int',
-'price' => '\ShopwareSDK6\Model\OrderAttributesShippingCosts',
+'price' => '\Shopware6SDK\Model\OrderAttributesShippingCosts',
 'price_definition' => 'object',
 'unit_price' => 'float',
 'total_price' => 'float',
@@ -83,10 +83,10 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'cover' => '\ShopwareSDK6\Model\MediaFlat',
-'order' => '\ShopwareSDK6\Model\OrderFlat',
-'product' => '\ShopwareSDK6\Model\ProductFlat',
-'order_delivery_positions' => '\ShopwareSDK6\Model\OrderDeliveryPositionFlat'    ];
+'cover' => '\Shopware6SDK\Model\MediaFlat',
+'order' => '\Shopware6SDK\Model\OrderFlat',
+'product' => '\Shopware6SDK\Model\ProductFlat',
+'order_delivery_positions' => '\Shopware6SDK\Model\OrderDeliveryPositionFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -835,7 +835,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Gets price
      *
-     * @return \ShopwareSDK6\Model\OrderAttributesShippingCosts
+     * @return \Shopware6SDK\Model\OrderAttributesShippingCosts
      */
     public function getPrice()
     {
@@ -845,7 +845,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Sets price
      *
-     * @param \ShopwareSDK6\Model\OrderAttributesShippingCosts $price price
+     * @param \Shopware6SDK\Model\OrderAttributesShippingCosts $price price
      *
      * @return $this
      */
@@ -1051,7 +1051,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Gets cover
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getCover()
     {
@@ -1061,7 +1061,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Sets cover
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $cover cover
+     * @param \Shopware6SDK\Model\MediaFlat $cover cover
      *
      * @return $this
      */
@@ -1075,7 +1075,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \ShopwareSDK6\Model\OrderFlat
+     * @return \Shopware6SDK\Model\OrderFlat
      */
     public function getOrder()
     {
@@ -1085,7 +1085,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \ShopwareSDK6\Model\OrderFlat $order order
+     * @param \Shopware6SDK\Model\OrderFlat $order order
      *
      * @return $this
      */
@@ -1099,7 +1099,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProduct()
     {
@@ -1109,7 +1109,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $product product
+     * @param \Shopware6SDK\Model\ProductFlat $product product
      *
      * @return $this
      */
@@ -1123,7 +1123,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_delivery_positions
      *
-     * @return \ShopwareSDK6\Model\OrderDeliveryPositionFlat
+     * @return \Shopware6SDK\Model\OrderDeliveryPositionFlat
      */
     public function getOrderDeliveryPositions()
     {
@@ -1133,7 +1133,7 @@ class OrderLineItemFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_delivery_positions
      *
-     * @param \ShopwareSDK6\Model\OrderDeliveryPositionFlat $order_delivery_positions order_delivery_positions
+     * @param \Shopware6SDK\Model\OrderDeliveryPositionFlat $order_delivery_positions order_delivery_positions
      *
      * @return $this
      */

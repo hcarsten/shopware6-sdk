@@ -31,18 +31,18 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**parent** | [**\ShopwareSDK6\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
-**children** | [**\ShopwareSDK6\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
-**media** | [**\ShopwareSDK6\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
-**products** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**nested_products** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**tags** | [**\ShopwareSDK6\Model\TagFlat**](TagFlat.md) |  | [optional] 
-**cms_page** | [**\ShopwareSDK6\Model\CmsPageFlat**](CmsPageFlat.md) |  | [optional] 
-**navigation_sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**footer_sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**service_sales_channels** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
-**main_categories** | [**\ShopwareSDK6\Model\MainCategoryFlat**](MainCategoryFlat.md) |  | [optional] 
-**seo_urls** | [**\ShopwareSDK6\Model\SeoUrlFlat**](SeoUrlFlat.md) |  | [optional] 
+**parent** | [**\Shopware6SDK\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
+**children** | [**\Shopware6SDK\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
+**media** | [**\Shopware6SDK\Model\MediaFlat**](MediaFlat.md) |  | [optional] 
+**products** | [**\Shopware6SDK\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**nested_products** | [**\Shopware6SDK\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**tags** | [**\Shopware6SDK\Model\TagFlat**](TagFlat.md) |  | [optional] 
+**cms_page** | [**\Shopware6SDK\Model\CmsPageFlat**](CmsPageFlat.md) |  | [optional] 
+**navigation_sales_channels** | [**\Shopware6SDK\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**footer_sales_channels** | [**\Shopware6SDK\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**service_sales_channels** | [**\Shopware6SDK\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**main_categories** | [**\Shopware6SDK\Model\MainCategoryFlat**](MainCategoryFlat.md) |  | [optional] 
+**seo_urls** | [**\Shopware6SDK\Model\SeoUrlFlat**](SeoUrlFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

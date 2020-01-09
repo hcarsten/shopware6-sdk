@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Api;
+namespace Shopware6SDK\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use ShopwareSDK6\ApiException;
-use ShopwareSDK6\Configuration;
-use ShopwareSDK6\HeaderSelector;
-use ShopwareSDK6\ObjectSerializer;
+use Shopware6SDK\ApiException;
+use Shopware6SDK\Configuration;
+use Shopware6SDK\HeaderSelector;
+use Shopware6SDK\ObjectSerializer;
 
 /**
  * ShippingMethodPriceApi Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class ShippingMethodPriceApi
      *
      * Create a new Shipping Method Price resources
      *
-     * @param  \ShopwareSDK6\Model\Body176 $body body (optional)
+     * @param  \Shopware6SDK\Model\Body176 $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200267
+     * @return \Shopware6SDK\Model\InlineResponse200267
      */
     public function createShippingMethodPrice($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class ShippingMethodPriceApi
      *
      * Create a new Shipping Method Price resources
      *
-     * @param  \ShopwareSDK6\Model\Body176 $body (optional)
+     * @param  \Shopware6SDK\Model\Body176 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
      */
     public function createShippingMethodPriceWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->createShippingMethodPriceRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class ShippingMethodPriceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200267',
+                        '\Shopware6SDK\Model\InlineResponse200267',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class ShippingMethodPriceApi
      *
      * Create a new Shipping Method Price resources
      *
-     * @param  \ShopwareSDK6\Model\Body176 $body (optional)
+     * @param  \Shopware6SDK\Model\Body176 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class ShippingMethodPriceApi
      *
      * Create a new Shipping Method Price resources
      *
-     * @param  \ShopwareSDK6\Model\Body176 $body (optional)
+     * @param  \Shopware6SDK\Model\Body176 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class ShippingMethodPriceApi
      */
     public function createShippingMethodPriceAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->createShippingMethodPriceRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class ShippingMethodPriceApi
     /**
      * Create request for operation 'createShippingMethodPrice'
      *
-     * @param  \ShopwareSDK6\Model\Body176 $body (optional)
+     * @param  \Shopware6SDK\Model\Body176 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class ShippingMethodPriceApi
      *
      * Create a new Shipping Method Price resources
      *
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body body (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200267
+     * @return \Shopware6SDK\Model\InlineResponse200267
      */
     public function createShippingMethodPrice($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class ShippingMethodPriceApi
      *
      * Create a new Shipping Method Price resources
      *
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
      */
     public function createShippingMethodPriceWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->createShippingMethodPriceRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class ShippingMethodPriceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200267',
+                        '\Shopware6SDK\Model\InlineResponse200267',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class ShippingMethodPriceApi
      *
      * Create a new Shipping Method Price resources
      *
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class ShippingMethodPriceApi
      *
      * Create a new Shipping Method Price resources
      *
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class ShippingMethodPriceApi
      */
     public function createShippingMethodPriceAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->createShippingMethodPriceRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class ShippingMethodPriceApi
     /**
      * Create request for operation 'createShippingMethodPrice'
      *
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class ShippingMethodPriceApi
      * @param  string $id Identifier for the shipping_method_price (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class ShippingMethodPriceApi
      * @param  string $id Identifier for the shipping_method_price (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class ShippingMethodPriceApi
      *
      * @param  string $id Identifier for the shipping_method_price (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200267
+     * @return \Shopware6SDK\Model\InlineResponse200267
      */
     public function getShippingMethodPrice($id)
     {
@@ -864,13 +864,13 @@ class ShippingMethodPriceApi
      *
      * @param  string $id Identifier for the shipping_method_price (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
      */
     public function getShippingMethodPriceWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->getShippingMethodPriceRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class ShippingMethodPriceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200267',
+                        '\Shopware6SDK\Model\InlineResponse200267',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class ShippingMethodPriceApi
      */
     public function getShippingMethodPriceAsyncWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->getShippingMethodPriceRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class ShippingMethodPriceApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200265
+     * @return \Shopware6SDK\Model\InlineResponse200265
      */
     public function getShippingMethodPriceList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class ShippingMethodPriceApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200265, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200265, HTTP status code, HTTP response headers (array of strings)
      */
     public function getShippingMethodPriceListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200265';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200265';
         $request = $this->getShippingMethodPriceListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class ShippingMethodPriceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200265',
+                        '\Shopware6SDK\Model\InlineResponse200265',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class ShippingMethodPriceApi
      */
     public function getShippingMethodPriceListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200265';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200265';
         $request = $this->getShippingMethodPriceListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class ShippingMethodPriceApi
      * Partially update information about a Shipping Method Price resource
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200267
+     * @return \Shopware6SDK\Model\InlineResponse200267
      */
     public function updateShippingMethodPrice($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class ShippingMethodPriceApi
      * Partially update information about a Shipping Method Price resource
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateShippingMethodPriceWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->updateShippingMethodPriceRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class ShippingMethodPriceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200267',
+                        '\Shopware6SDK\Model\InlineResponse200267',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class ShippingMethodPriceApi
      * Partially update information about a Shipping Method Price resource
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class ShippingMethodPriceApi
      * Partially update information about a Shipping Method Price resource
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class ShippingMethodPriceApi
      */
     public function updateShippingMethodPriceAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->updateShippingMethodPriceRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class ShippingMethodPriceApi
      * Create request for operation 'updateShippingMethodPrice'
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\Body177 $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class ShippingMethodPriceApi
      * Partially update information about a Shipping Method Price resource
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200267
+     * @return \Shopware6SDK\Model\InlineResponse200267
      */
     public function updateShippingMethodPrice($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class ShippingMethodPriceApi
      * Partially update information about a Shipping Method Price resource
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200267, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateShippingMethodPriceWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->updateShippingMethodPriceRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class ShippingMethodPriceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200267',
+                        '\Shopware6SDK\Model\InlineResponse200267',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class ShippingMethodPriceApi
      * Partially update information about a Shipping Method Price resource
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class ShippingMethodPriceApi
      * Partially update information about a Shipping Method Price resource
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class ShippingMethodPriceApi
      */
     public function updateShippingMethodPriceAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200267';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200267';
         $request = $this->updateShippingMethodPriceRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class ShippingMethodPriceApi
      * Create request for operation 'updateShippingMethodPrice'
      *
      * @param  string $id Identifier for the shipping_method_price (required)
-     * @param  \ShopwareSDK6\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
+     * @param  \Shopware6SDK\Model\ShippingMethodPriceFlat $body Partially update information about a Shipping Method Price resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

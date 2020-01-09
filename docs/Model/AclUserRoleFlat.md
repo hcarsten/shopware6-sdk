@@ -8,8 +8,8 @@ Name | Type | Description | Notes
 **acl_role_id** | **string** |  | 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**user** | [**\ShopwareSDK6\Model\UserFlat**](UserFlat.md) |  | [optional] 
-**acl_role** | [**\ShopwareSDK6\Model\AclRoleFlat**](AclRoleFlat.md) |  | [optional] 
+**user** | [**\Shopware6SDK\Model\UserFlat**](UserFlat.md) |  | [optional] 
+**acl_role** | [**\Shopware6SDK\Model\AclRoleFlat**](AclRoleFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

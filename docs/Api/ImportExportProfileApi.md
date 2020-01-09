@@ -1,4 +1,4 @@
-# ShopwareSDK6\ImportExportProfileApi
+# Shopware6SDK\ImportExportProfileApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateImportExportProfile**](ImportExportProfileApi.md#updateimportexportprofile) | **PATCH** /import-export-profile/{id} | Partially update information about a Import Export Profile resource
 
 # **createImportExportProfile**
-> \ShopwareSDK6\Model\InlineResponse20081 createImportExportProfile($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20081 createImportExportProfile($body, $_response)
 
 Create a new Import Export Profile resources
 
@@ -22,12 +22,12 @@ Create a new Import Export Profile resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ImportExportProfileApi(
+$apiInstance = new Shopware6SDK\Api\ImportExportProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body52(); // \ShopwareSDK6\Model\Body52 | 
+$body = new \Shopware6SDK\Model\Body52(); // \Shopware6SDK\Model\Body52 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body52**](../Model/Body52.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body52**](../Model/Body52.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
+[**\Shopware6SDK\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createImportExportProfile**
-> \ShopwareSDK6\Model\InlineResponse20081 createImportExportProfile($body, $_response)
+> \Shopware6SDK\Model\InlineResponse20081 createImportExportProfile($body, $_response)
 
 Create a new Import Export Profile resources
 
@@ -73,12 +73,12 @@ Create a new Import Export Profile resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ImportExportProfileApi(
+$apiInstance = new Shopware6SDK\Api\ImportExportProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\ImportExportProfileFlat(); // \ShopwareSDK6\Model\ImportExportProfileFlat | 
+$body = new \Shopware6SDK\Model\ImportExportProfileFlat(); // \Shopware6SDK\Model\ImportExportProfileFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\ImportExportProfileFlat**](../Model/ImportExportProfileFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\ImportExportProfileFlat**](../Model/ImportExportProfileFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
+[**\Shopware6SDK\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Import Export Profile resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ImportExportProfileApi(
+$apiInstance = new Shopware6SDK\Api\ImportExportProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getImportExportProfile**
-> \ShopwareSDK6\Model\InlineResponse20081 getImportExportProfile($id)
+> \Shopware6SDK\Model\InlineResponse20081 getImportExportProfile($id)
 
 Detailed information about a Import Export Profile resource
 
@@ -170,7 +170,7 @@ Detailed information about a Import Export Profile resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ImportExportProfileApi(
+$apiInstance = new Shopware6SDK\Api\ImportExportProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
+[**\Shopware6SDK\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getImportExportProfileList**
-> \ShopwareSDK6\Model\InlineResponse20079 getImportExportProfileList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse20079 getImportExportProfileList($limit, $page, $query)
 
 List with basic information of Import Export Profile resources
 
@@ -217,7 +217,7 @@ List with basic information of Import Export Profile resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ImportExportProfileApi(
+$apiInstance = new Shopware6SDK\Api\ImportExportProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20079**](../Model/InlineResponse20079.md)
+[**\Shopware6SDK\Model\InlineResponse20079**](../Model/InlineResponse20079.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateImportExportProfile**
-> \ShopwareSDK6\Model\InlineResponse20081 updateImportExportProfile($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20081 updateImportExportProfile($id, $body, $_response)
 
 Partially update information about a Import Export Profile resource
 
@@ -268,13 +268,13 @@ Partially update information about a Import Export Profile resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ImportExportProfileApi(
+$apiInstance = new Shopware6SDK\Api\ImportExportProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the import_export_profile
-$body = new \ShopwareSDK6\Model\Body53(); // \ShopwareSDK6\Model\Body53 | Partially update information about a Import Export Profile resource.
+$body = new \Shopware6SDK\Model\Body53(); // \Shopware6SDK\Model\Body53 | Partially update information about a Import Export Profile resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the import_export_profile |
- **body** | [**\ShopwareSDK6\Model\Body53**](../Model/Body53.md)| Partially update information about a Import Export Profile resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body53**](../Model/Body53.md)| Partially update information about a Import Export Profile resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
+[**\Shopware6SDK\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateImportExportProfile**
-> \ShopwareSDK6\Model\InlineResponse20081 updateImportExportProfile($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse20081 updateImportExportProfile($id, $body, $_response)
 
 Partially update information about a Import Export Profile resource
 
@@ -319,13 +319,13 @@ Partially update information about a Import Export Profile resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ImportExportProfileApi(
+$apiInstance = new Shopware6SDK\Api\ImportExportProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the import_export_profile
-$body = new \ShopwareSDK6\Model\ImportExportProfileFlat(); // \ShopwareSDK6\Model\ImportExportProfileFlat | Partially update information about a Import Export Profile resource.
+$body = new \Shopware6SDK\Model\ImportExportProfileFlat(); // \Shopware6SDK\Model\ImportExportProfileFlat | Partially update information about a Import Export Profile resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the import_export_profile |
- **body** | [**\ShopwareSDK6\Model\ImportExportProfileFlat**](../Model/ImportExportProfileFlat.md)| Partially update information about a Import Export Profile resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\ImportExportProfileFlat**](../Model/ImportExportProfileFlat.md)| Partially update information about a Import Export Profile resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
+[**\Shopware6SDK\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 

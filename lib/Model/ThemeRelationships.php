@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ThemeRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,10 +56,10 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sales_channels' => '\ShopwareSDK6\Model\ThemeRelationshipsSalesChannels',
-'media' => '\ShopwareSDK6\Model\ThemeRelationshipsMedia',
-'preview_media' => '\ShopwareSDK6\Model\ThemeRelationshipsPreviewMedia',
-'child_themes' => '\ShopwareSDK6\Model\ThemeRelationshipsChildThemes'    ];
+        'sales_channels' => '\Shopware6SDK\Model\ThemeRelationshipsSalesChannels',
+'media' => '\Shopware6SDK\Model\ThemeRelationshipsMedia',
+'preview_media' => '\Shopware6SDK\Model\ThemeRelationshipsPreviewMedia',
+'child_themes' => '\Shopware6SDK\Model\ThemeRelationshipsChildThemes'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -217,7 +217,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channels
      *
-     * @return \ShopwareSDK6\Model\ThemeRelationshipsSalesChannels
+     * @return \Shopware6SDK\Model\ThemeRelationshipsSalesChannels
      */
     public function getSalesChannels()
     {
@@ -227,7 +227,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channels
      *
-     * @param \ShopwareSDK6\Model\ThemeRelationshipsSalesChannels $sales_channels sales_channels
+     * @param \Shopware6SDK\Model\ThemeRelationshipsSalesChannels $sales_channels sales_channels
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\ThemeRelationshipsMedia
+     * @return \Shopware6SDK\Model\ThemeRelationshipsMedia
      */
     public function getMedia()
     {
@@ -251,7 +251,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\ThemeRelationshipsMedia $media media
+     * @param \Shopware6SDK\Model\ThemeRelationshipsMedia $media media
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets preview_media
      *
-     * @return \ShopwareSDK6\Model\ThemeRelationshipsPreviewMedia
+     * @return \Shopware6SDK\Model\ThemeRelationshipsPreviewMedia
      */
     public function getPreviewMedia()
     {
@@ -275,7 +275,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets preview_media
      *
-     * @param \ShopwareSDK6\Model\ThemeRelationshipsPreviewMedia $preview_media preview_media
+     * @param \Shopware6SDK\Model\ThemeRelationshipsPreviewMedia $preview_media preview_media
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets child_themes
      *
-     * @return \ShopwareSDK6\Model\ThemeRelationshipsChildThemes
+     * @return \Shopware6SDK\Model\ThemeRelationshipsChildThemes
      */
     public function getChildThemes()
     {
@@ -299,7 +299,7 @@ class ThemeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets child_themes
      *
-     * @param \ShopwareSDK6\Model\ThemeRelationshipsChildThemes $child_themes child_themes
+     * @param \Shopware6SDK\Model\ThemeRelationshipsChildThemes $child_themes child_themes
      *
      * @return $this
      */

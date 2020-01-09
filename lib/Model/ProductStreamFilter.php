@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductStreamFilter Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class ProductStreamFilter extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\ProductStreamFilterAttributes',
-'links' => '\ShopwareSDK6\Model\ProductStreamFilterLinks',
-'relationships' => '\ShopwareSDK6\Model\ProductStreamFilterRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\ProductStreamFilterAttributes',
+'links' => '\Shopware6SDK\Model\ProductStreamFilterLinks',
+'relationships' => '\Shopware6SDK\Model\ProductStreamFilterRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class ProductStreamFilter extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\ProductStreamFilterAttributes
+     * @return \Shopware6SDK\Model\ProductStreamFilterAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class ProductStreamFilter extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\ProductStreamFilterAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\ProductStreamFilterAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ProductStreamFilter extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\ProductStreamFilterLinks
+     * @return \Shopware6SDK\Model\ProductStreamFilterLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class ProductStreamFilter extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\ProductStreamFilterLinks $links links
+     * @param \Shopware6SDK\Model\ProductStreamFilterLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ProductStreamFilter extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\ProductStreamFilterRelationships
+     * @return \Shopware6SDK\Model\ProductStreamFilterRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class ProductStreamFilter extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\ProductStreamFilterRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\ProductStreamFilterRelationships $relationships relationships
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PropertyGroupOption Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class PropertyGroupOption extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\PropertyGroupOptionAttributes',
-'links' => '\ShopwareSDK6\Model\PropertyGroupOptionLinks',
-'relationships' => '\ShopwareSDK6\Model\PropertyGroupOptionRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\PropertyGroupOptionAttributes',
+'links' => '\Shopware6SDK\Model\PropertyGroupOptionLinks',
+'relationships' => '\Shopware6SDK\Model\PropertyGroupOptionRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class PropertyGroupOption extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionAttributes
+     * @return \Shopware6SDK\Model\PropertyGroupOptionAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class PropertyGroupOption extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\PropertyGroupOptionAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class PropertyGroupOption extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionLinks
+     * @return \Shopware6SDK\Model\PropertyGroupOptionLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class PropertyGroupOption extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionLinks $links links
+     * @param \Shopware6SDK\Model\PropertyGroupOptionLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class PropertyGroupOption extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionRelationships
+     * @return \Shopware6SDK\Model\PropertyGroupOptionRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class PropertyGroupOption extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\PropertyGroupOptionRelationships $relationships relationships
      *
      * @return $this
      */

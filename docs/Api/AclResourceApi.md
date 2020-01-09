@@ -1,4 +1,4 @@
-# ShopwareSDK6\AclResourceApi
+# Shopware6SDK\AclResourceApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateAclResource**](AclResourceApi.md#updateaclresource) | **PATCH** /acl-resource/{id} | Partially update information about a Acl Resource resource
 
 # **createAclResource**
-> \ShopwareSDK6\Model\InlineResponse2003 createAclResource($body, $_response)
+> \Shopware6SDK\Model\InlineResponse2003 createAclResource($body, $_response)
 
 Create a new Acl Resource resources
 
@@ -22,12 +22,12 @@ Create a new Acl Resource resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body(); // \ShopwareSDK6\Model\Body | 
+$body = new \Shopware6SDK\Model\Body(); // \Shopware6SDK\Model\Body | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body**](../Model/Body.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body**](../Model/Body.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
+[**\Shopware6SDK\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createAclResource**
-> \ShopwareSDK6\Model\InlineResponse2003 createAclResource($body, $_response)
+> \Shopware6SDK\Model\InlineResponse2003 createAclResource($body, $_response)
 
 Create a new Acl Resource resources
 
@@ -73,12 +73,12 @@ Create a new Acl Resource resources. All required fields must be provided in ord
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\AclResourceFlat(); // \ShopwareSDK6\Model\AclResourceFlat | 
+$body = new \Shopware6SDK\Model\AclResourceFlat(); // \Shopware6SDK\Model\AclResourceFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\AclResourceFlat**](../Model/AclResourceFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\AclResourceFlat**](../Model/AclResourceFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
+[**\Shopware6SDK\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Acl Resource resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getAclResource**
-> \ShopwareSDK6\Model\InlineResponse2003 getAclResource($id)
+> \Shopware6SDK\Model\InlineResponse2003 getAclResource($id)
 
 Detailed information about a Acl Resource resource
 
@@ -170,7 +170,7 @@ Detailed information about a Acl Resource resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
+[**\Shopware6SDK\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getAclResourceList**
-> \ShopwareSDK6\Model\InlineResponse2001 getAclResourceList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse2001 getAclResourceList($limit, $page, $query)
 
 List with basic information of Acl Resource resources
 
@@ -217,7 +217,7 @@ List with basic information of Acl Resource resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2001**](../Model/InlineResponse2001.md)
+[**\Shopware6SDK\Model\InlineResponse2001**](../Model/InlineResponse2001.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateAclResource**
-> \ShopwareSDK6\Model\InlineResponse2003 updateAclResource($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse2003 updateAclResource($id, $body, $_response)
 
 Partially update information about a Acl Resource resource
 
@@ -268,13 +268,13 @@ Partially update information about a Acl Resource resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the acl_resource
-$body = new \ShopwareSDK6\Model\Body1(); // \ShopwareSDK6\Model\Body1 | Partially update information about a Acl Resource resource.
+$body = new \Shopware6SDK\Model\Body1(); // \Shopware6SDK\Model\Body1 | Partially update information about a Acl Resource resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the acl_resource |
- **body** | [**\ShopwareSDK6\Model\Body1**](../Model/Body1.md)| Partially update information about a Acl Resource resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body1**](../Model/Body1.md)| Partially update information about a Acl Resource resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
+[**\Shopware6SDK\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateAclResource**
-> \ShopwareSDK6\Model\InlineResponse2003 updateAclResource($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse2003 updateAclResource($id, $body, $_response)
 
 Partially update information about a Acl Resource resource
 
@@ -319,13 +319,13 @@ Partially update information about a Acl Resource resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\AclResourceApi(
+$apiInstance = new Shopware6SDK\Api\AclResourceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the acl_resource
-$body = new \ShopwareSDK6\Model\AclResourceFlat(); // \ShopwareSDK6\Model\AclResourceFlat | Partially update information about a Acl Resource resource.
+$body = new \Shopware6SDK\Model\AclResourceFlat(); // \Shopware6SDK\Model\AclResourceFlat | Partially update information about a Acl Resource resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the acl_resource |
- **body** | [**\ShopwareSDK6\Model\AclResourceFlat**](../Model/AclResourceFlat.md)| Partially update information about a Acl Resource resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\AclResourceFlat**](../Model/AclResourceFlat.md)| Partially update information about a Acl Resource resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
+[**\Shopware6SDK\Model\InlineResponse2003**](../Model/InlineResponse2003.md)
 
 ### Authorization
 

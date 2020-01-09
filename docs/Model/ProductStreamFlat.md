@@ -12,9 +12,9 @@ Name | Type | Description | Notes
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
 **translated** | **object** |  | [optional] 
-**filters** | [**\ShopwareSDK6\Model\ProductStreamFilterFlat**](ProductStreamFilterFlat.md) |  | [optional] 
-**product_cross_sellings** | [**\ShopwareSDK6\Model\ProductCrossSellingFlat**](ProductCrossSellingFlat.md) |  | [optional] 
-**product_exports** | [**\ShopwareSDK6\Model\ProductExportFlat**](ProductExportFlat.md) |  | [optional] 
+**filters** | [**\Shopware6SDK\Model\ProductStreamFilterFlat**](ProductStreamFilterFlat.md) |  | [optional] 
+**product_cross_sellings** | [**\Shopware6SDK\Model\ProductCrossSellingFlat**](ProductCrossSellingFlat.md) |  | [optional] 
+**product_exports** | [**\Shopware6SDK\Model\ProductExportFlat**](ProductExportFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 **removable** | **bool** |  | [optional] 
 **stackable** | **bool** |  | [optional] 
 **position** | **int** |  | 
-**price** | [**\ShopwareSDK6\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | 
+**price** | [**\Shopware6SDK\Model\OrderAttributesShippingCosts**](OrderAttributesShippingCosts.md) |  | 
 **price_definition** | **object** |  | [optional] 
 **unit_price** | **float** |  | [optional] 
 **total_price** | **float** |  | [optional] 

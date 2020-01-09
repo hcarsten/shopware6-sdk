@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MediaThumbnailSizeRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class MediaThumbnailSizeRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'media_folder_configurations' => '\ShopwareSDK6\Model\MediaThumbnailSizeRelationshipsMediaFolderConfigurations'    ];
+        'media_folder_configurations' => '\Shopware6SDK\Model\MediaThumbnailSizeRelationshipsMediaFolderConfigurations'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class MediaThumbnailSizeRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets media_folder_configurations
      *
-     * @return \ShopwareSDK6\Model\MediaThumbnailSizeRelationshipsMediaFolderConfigurations
+     * @return \Shopware6SDK\Model\MediaThumbnailSizeRelationshipsMediaFolderConfigurations
      */
     public function getMediaFolderConfigurations()
     {
@@ -209,7 +209,7 @@ class MediaThumbnailSizeRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets media_folder_configurations
      *
-     * @param \ShopwareSDK6\Model\MediaThumbnailSizeRelationshipsMediaFolderConfigurations $media_folder_configurations media_folder_configurations
+     * @param \Shopware6SDK\Model\MediaThumbnailSizeRelationshipsMediaFolderConfigurations $media_folder_configurations media_folder_configurations
      *
      * @return $this
      */

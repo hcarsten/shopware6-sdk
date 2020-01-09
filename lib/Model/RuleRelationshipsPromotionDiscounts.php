@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * RuleRelationshipsPromotionDiscounts Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class RuleRelationshipsPromotionDiscounts implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\RuleRelationshipsPromotionDiscountsLinks',
-'data' => '\ShopwareSDK6\Model\RuleRelationshipsPromotionDiscountsData[]'    ];
+        'links' => '\Shopware6SDK\Model\RuleRelationshipsPromotionDiscountsLinks',
+'data' => '\Shopware6SDK\Model\RuleRelationshipsPromotionDiscountsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class RuleRelationshipsPromotionDiscounts implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsPromotionDiscountsLinks
+     * @return \Shopware6SDK\Model\RuleRelationshipsPromotionDiscountsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class RuleRelationshipsPromotionDiscounts implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsPromotionDiscountsLinks $links links
+     * @param \Shopware6SDK\Model\RuleRelationshipsPromotionDiscountsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class RuleRelationshipsPromotionDiscounts implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\RuleRelationshipsPromotionDiscountsData[]
+     * @return \Shopware6SDK\Model\RuleRelationshipsPromotionDiscountsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class RuleRelationshipsPromotionDiscounts implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\RuleRelationshipsPromotionDiscountsData[] $data data
+     * @param \Shopware6SDK\Model\RuleRelationshipsPromotionDiscountsData[] $data data
      *
      * @return $this
      */

@@ -1,4 +1,4 @@
-# ShopwareSDK6\ShippingMethodPriceApi
+# Shopware6SDK\ShippingMethodPriceApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateShippingMethodPrice**](ShippingMethodPriceApi.md#updateshippingmethodprice) | **PATCH** /shipping-method-price/{id} | Partially update information about a Shipping Method Price resource
 
 # **createShippingMethodPrice**
-> \ShopwareSDK6\Model\InlineResponse200267 createShippingMethodPrice($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200267 createShippingMethodPrice($body, $_response)
 
 Create a new Shipping Method Price resources
 
@@ -22,12 +22,12 @@ Create a new Shipping Method Price resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ShippingMethodPriceApi(
+$apiInstance = new Shopware6SDK\Api\ShippingMethodPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body176(); // \ShopwareSDK6\Model\Body176 | 
+$body = new \Shopware6SDK\Model\Body176(); // \Shopware6SDK\Model\Body176 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body176**](../Model/Body176.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body176**](../Model/Body176.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
+[**\Shopware6SDK\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createShippingMethodPrice**
-> \ShopwareSDK6\Model\InlineResponse200267 createShippingMethodPrice($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200267 createShippingMethodPrice($body, $_response)
 
 Create a new Shipping Method Price resources
 
@@ -73,12 +73,12 @@ Create a new Shipping Method Price resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ShippingMethodPriceApi(
+$apiInstance = new Shopware6SDK\Api\ShippingMethodPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\ShippingMethodPriceFlat(); // \ShopwareSDK6\Model\ShippingMethodPriceFlat | 
+$body = new \Shopware6SDK\Model\ShippingMethodPriceFlat(); // \Shopware6SDK\Model\ShippingMethodPriceFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\ShippingMethodPriceFlat**](../Model/ShippingMethodPriceFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\ShippingMethodPriceFlat**](../Model/ShippingMethodPriceFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
+[**\Shopware6SDK\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Shipping Method Price resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ShippingMethodPriceApi(
+$apiInstance = new Shopware6SDK\Api\ShippingMethodPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getShippingMethodPrice**
-> \ShopwareSDK6\Model\InlineResponse200267 getShippingMethodPrice($id)
+> \Shopware6SDK\Model\InlineResponse200267 getShippingMethodPrice($id)
 
 Detailed information about a Shipping Method Price resource
 
@@ -170,7 +170,7 @@ Detailed information about a Shipping Method Price resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ShippingMethodPriceApi(
+$apiInstance = new Shopware6SDK\Api\ShippingMethodPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
+[**\Shopware6SDK\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getShippingMethodPriceList**
-> \ShopwareSDK6\Model\InlineResponse200265 getShippingMethodPriceList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200265 getShippingMethodPriceList($limit, $page, $query)
 
 List with basic information of Shipping Method Price resources
 
@@ -217,7 +217,7 @@ List with basic information of Shipping Method Price resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ShippingMethodPriceApi(
+$apiInstance = new Shopware6SDK\Api\ShippingMethodPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200265**](../Model/InlineResponse200265.md)
+[**\Shopware6SDK\Model\InlineResponse200265**](../Model/InlineResponse200265.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateShippingMethodPrice**
-> \ShopwareSDK6\Model\InlineResponse200267 updateShippingMethodPrice($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200267 updateShippingMethodPrice($id, $body, $_response)
 
 Partially update information about a Shipping Method Price resource
 
@@ -268,13 +268,13 @@ Partially update information about a Shipping Method Price resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ShippingMethodPriceApi(
+$apiInstance = new Shopware6SDK\Api\ShippingMethodPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the shipping_method_price
-$body = new \ShopwareSDK6\Model\Body177(); // \ShopwareSDK6\Model\Body177 | Partially update information about a Shipping Method Price resource.
+$body = new \Shopware6SDK\Model\Body177(); // \Shopware6SDK\Model\Body177 | Partially update information about a Shipping Method Price resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the shipping_method_price |
- **body** | [**\ShopwareSDK6\Model\Body177**](../Model/Body177.md)| Partially update information about a Shipping Method Price resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body177**](../Model/Body177.md)| Partially update information about a Shipping Method Price resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
+[**\Shopware6SDK\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateShippingMethodPrice**
-> \ShopwareSDK6\Model\InlineResponse200267 updateShippingMethodPrice($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200267 updateShippingMethodPrice($id, $body, $_response)
 
 Partially update information about a Shipping Method Price resource
 
@@ -319,13 +319,13 @@ Partially update information about a Shipping Method Price resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ShippingMethodPriceApi(
+$apiInstance = new Shopware6SDK\Api\ShippingMethodPriceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the shipping_method_price
-$body = new \ShopwareSDK6\Model\ShippingMethodPriceFlat(); // \ShopwareSDK6\Model\ShippingMethodPriceFlat | Partially update information about a Shipping Method Price resource.
+$body = new \Shopware6SDK\Model\ShippingMethodPriceFlat(); // \Shopware6SDK\Model\ShippingMethodPriceFlat | Partially update information about a Shipping Method Price resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the shipping_method_price |
- **body** | [**\ShopwareSDK6\Model\ShippingMethodPriceFlat**](../Model/ShippingMethodPriceFlat.md)| Partially update information about a Shipping Method Price resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\ShippingMethodPriceFlat**](../Model/ShippingMethodPriceFlat.md)| Partially update information about a Shipping Method Price resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
+[**\Shopware6SDK\Model\InlineResponse200267**](../Model/InlineResponse200267.md)
 
 ### Authorization
 

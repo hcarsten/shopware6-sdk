@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Api;
+namespace Shopware6SDK\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use ShopwareSDK6\ApiException;
-use ShopwareSDK6\Configuration;
-use ShopwareSDK6\HeaderSelector;
-use ShopwareSDK6\ObjectSerializer;
+use Shopware6SDK\ApiException;
+use Shopware6SDK\Configuration;
+use Shopware6SDK\HeaderSelector;
+use Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductKeywordDictionaryApi Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class ProductKeywordDictionaryApi
      *
      * Create a new Product Keyword Dictionary resources
      *
-     * @param  \ShopwareSDK6\Model\Body122 $body body (optional)
+     * @param  \Shopware6SDK\Model\Body122 $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200186
+     * @return \Shopware6SDK\Model\InlineResponse200186
      */
     public function createProductKeywordDictionary($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class ProductKeywordDictionaryApi
      *
      * Create a new Product Keyword Dictionary resources
      *
-     * @param  \ShopwareSDK6\Model\Body122 $body (optional)
+     * @param  \Shopware6SDK\Model\Body122 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
      */
     public function createProductKeywordDictionaryWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->createProductKeywordDictionaryRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class ProductKeywordDictionaryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200186',
+                        '\Shopware6SDK\Model\InlineResponse200186',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class ProductKeywordDictionaryApi
      *
      * Create a new Product Keyword Dictionary resources
      *
-     * @param  \ShopwareSDK6\Model\Body122 $body (optional)
+     * @param  \Shopware6SDK\Model\Body122 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class ProductKeywordDictionaryApi
      *
      * Create a new Product Keyword Dictionary resources
      *
-     * @param  \ShopwareSDK6\Model\Body122 $body (optional)
+     * @param  \Shopware6SDK\Model\Body122 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class ProductKeywordDictionaryApi
      */
     public function createProductKeywordDictionaryAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->createProductKeywordDictionaryRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class ProductKeywordDictionaryApi
     /**
      * Create request for operation 'createProductKeywordDictionary'
      *
-     * @param  \ShopwareSDK6\Model\Body122 $body (optional)
+     * @param  \Shopware6SDK\Model\Body122 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class ProductKeywordDictionaryApi
      *
      * Create a new Product Keyword Dictionary resources
      *
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body body (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200186
+     * @return \Shopware6SDK\Model\InlineResponse200186
      */
     public function createProductKeywordDictionary($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class ProductKeywordDictionaryApi
      *
      * Create a new Product Keyword Dictionary resources
      *
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
      */
     public function createProductKeywordDictionaryWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->createProductKeywordDictionaryRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class ProductKeywordDictionaryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200186',
+                        '\Shopware6SDK\Model\InlineResponse200186',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class ProductKeywordDictionaryApi
      *
      * Create a new Product Keyword Dictionary resources
      *
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class ProductKeywordDictionaryApi
      *
      * Create a new Product Keyword Dictionary resources
      *
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class ProductKeywordDictionaryApi
      */
     public function createProductKeywordDictionaryAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->createProductKeywordDictionaryRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class ProductKeywordDictionaryApi
     /**
      * Create request for operation 'createProductKeywordDictionary'
      *
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class ProductKeywordDictionaryApi
      * @param  string $id Identifier for the product_keyword_dictionary (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class ProductKeywordDictionaryApi
      * @param  string $id Identifier for the product_keyword_dictionary (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class ProductKeywordDictionaryApi
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200186
+     * @return \Shopware6SDK\Model\InlineResponse200186
      */
     public function getProductKeywordDictionary($id)
     {
@@ -864,13 +864,13 @@ class ProductKeywordDictionaryApi
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
      */
     public function getProductKeywordDictionaryWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->getProductKeywordDictionaryRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class ProductKeywordDictionaryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200186',
+                        '\Shopware6SDK\Model\InlineResponse200186',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class ProductKeywordDictionaryApi
      */
     public function getProductKeywordDictionaryAsyncWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->getProductKeywordDictionaryRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class ProductKeywordDictionaryApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200184
+     * @return \Shopware6SDK\Model\InlineResponse200184
      */
     public function getProductKeywordDictionaryList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class ProductKeywordDictionaryApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200184, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200184, HTTP status code, HTTP response headers (array of strings)
      */
     public function getProductKeywordDictionaryListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200184';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200184';
         $request = $this->getProductKeywordDictionaryListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class ProductKeywordDictionaryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200184',
+                        '\Shopware6SDK\Model\InlineResponse200184',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class ProductKeywordDictionaryApi
      */
     public function getProductKeywordDictionaryListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200184';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200184';
         $request = $this->getProductKeywordDictionaryListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class ProductKeywordDictionaryApi
      * Partially update information about a Product Keyword Dictionary resource
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200186
+     * @return \Shopware6SDK\Model\InlineResponse200186
      */
     public function updateProductKeywordDictionary($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class ProductKeywordDictionaryApi
      * Partially update information about a Product Keyword Dictionary resource
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateProductKeywordDictionaryWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->updateProductKeywordDictionaryRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class ProductKeywordDictionaryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200186',
+                        '\Shopware6SDK\Model\InlineResponse200186',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class ProductKeywordDictionaryApi
      * Partially update information about a Product Keyword Dictionary resource
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class ProductKeywordDictionaryApi
      * Partially update information about a Product Keyword Dictionary resource
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class ProductKeywordDictionaryApi
      */
     public function updateProductKeywordDictionaryAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->updateProductKeywordDictionaryRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class ProductKeywordDictionaryApi
      * Create request for operation 'updateProductKeywordDictionary'
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\Body123 $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class ProductKeywordDictionaryApi
      * Partially update information about a Product Keyword Dictionary resource
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200186
+     * @return \Shopware6SDK\Model\InlineResponse200186
      */
     public function updateProductKeywordDictionary($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class ProductKeywordDictionaryApi
      * Partially update information about a Product Keyword Dictionary resource
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200186, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateProductKeywordDictionaryWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->updateProductKeywordDictionaryRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class ProductKeywordDictionaryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200186',
+                        '\Shopware6SDK\Model\InlineResponse200186',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class ProductKeywordDictionaryApi
      * Partially update information about a Product Keyword Dictionary resource
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class ProductKeywordDictionaryApi
      * Partially update information about a Product Keyword Dictionary resource
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class ProductKeywordDictionaryApi
      */
     public function updateProductKeywordDictionaryAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200186';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200186';
         $request = $this->updateProductKeywordDictionaryRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class ProductKeywordDictionaryApi
      * Create request for operation 'updateProductKeywordDictionary'
      *
      * @param  string $id Identifier for the product_keyword_dictionary (required)
-     * @param  \ShopwareSDK6\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
+     * @param  \Shopware6SDK\Model\ProductKeywordDictionaryFlat $body Partially update information about a Product Keyword Dictionary resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * Customer Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class Customer extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\CustomerAttributes',
-'links' => '\ShopwareSDK6\Model\CustomerLinks',
-'relationships' => '\ShopwareSDK6\Model\CustomerRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\CustomerAttributes',
+'links' => '\Shopware6SDK\Model\CustomerLinks',
+'relationships' => '\Shopware6SDK\Model\CustomerRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class Customer extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\CustomerAttributes
+     * @return \Shopware6SDK\Model\CustomerAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class Customer extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\CustomerAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\CustomerAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Customer extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CustomerLinks
+     * @return \Shopware6SDK\Model\CustomerLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class Customer extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CustomerLinks $links links
+     * @param \Shopware6SDK\Model\CustomerLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class Customer extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\CustomerRelationships
+     * @return \Shopware6SDK\Model\CustomerRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class Customer extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\CustomerRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\CustomerRelationships $relationships relationships
      *
      * @return $this
      */

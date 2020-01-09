@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderDeliveryPositionAttributes Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,7 +61,7 @@ class OrderDeliveryPositionAttributes implements ModelInterface, ArrayAccess
 'order_delivery_version_id' => 'string',
 'order_line_item_id' => 'string',
 'order_line_item_version_id' => 'string',
-'price' => '\ShopwareSDK6\Model\OrderAttributesShippingCosts',
+'price' => '\Shopware6SDK\Model\OrderAttributesShippingCosts',
 'unit_price' => 'float',
 'total_price' => 'float',
 'quantity' => 'int',
@@ -397,7 +397,7 @@ class OrderDeliveryPositionAttributes implements ModelInterface, ArrayAccess
     /**
      * Gets price
      *
-     * @return \ShopwareSDK6\Model\OrderAttributesShippingCosts
+     * @return \Shopware6SDK\Model\OrderAttributesShippingCosts
      */
     public function getPrice()
     {
@@ -407,7 +407,7 @@ class OrderDeliveryPositionAttributes implements ModelInterface, ArrayAccess
     /**
      * Sets price
      *
-     * @param \ShopwareSDK6\Model\OrderAttributesShippingCosts $price price
+     * @param \Shopware6SDK\Model\OrderAttributesShippingCosts $price price
      *
      * @return $this
      */

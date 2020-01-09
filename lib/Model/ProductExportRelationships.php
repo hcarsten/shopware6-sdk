@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductExportRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,11 +56,11 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product_stream' => '\ShopwareSDK6\Model\ProductExportRelationshipsProductStream',
-'storefront_sales_channel' => '\ShopwareSDK6\Model\ProductExportRelationshipsStorefrontSalesChannel',
-'sales_channel' => '\ShopwareSDK6\Model\ProductExportRelationshipsSalesChannel',
-'sales_channel_domain' => '\ShopwareSDK6\Model\ProductExportRelationshipsSalesChannelDomain',
-'currency' => '\ShopwareSDK6\Model\ProductExportRelationshipsCurrency'    ];
+        'product_stream' => '\Shopware6SDK\Model\ProductExportRelationshipsProductStream',
+'storefront_sales_channel' => '\Shopware6SDK\Model\ProductExportRelationshipsStorefrontSalesChannel',
+'sales_channel' => '\Shopware6SDK\Model\ProductExportRelationshipsSalesChannel',
+'sales_channel_domain' => '\Shopware6SDK\Model\ProductExportRelationshipsSalesChannelDomain',
+'currency' => '\Shopware6SDK\Model\ProductExportRelationshipsCurrency'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -223,7 +223,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets product_stream
      *
-     * @return \ShopwareSDK6\Model\ProductExportRelationshipsProductStream
+     * @return \Shopware6SDK\Model\ProductExportRelationshipsProductStream
      */
     public function getProductStream()
     {
@@ -233,7 +233,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets product_stream
      *
-     * @param \ShopwareSDK6\Model\ProductExportRelationshipsProductStream $product_stream product_stream
+     * @param \Shopware6SDK\Model\ProductExportRelationshipsProductStream $product_stream product_stream
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets storefront_sales_channel
      *
-     * @return \ShopwareSDK6\Model\ProductExportRelationshipsStorefrontSalesChannel
+     * @return \Shopware6SDK\Model\ProductExportRelationshipsStorefrontSalesChannel
      */
     public function getStorefrontSalesChannel()
     {
@@ -257,7 +257,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets storefront_sales_channel
      *
-     * @param \ShopwareSDK6\Model\ProductExportRelationshipsStorefrontSalesChannel $storefront_sales_channel storefront_sales_channel
+     * @param \Shopware6SDK\Model\ProductExportRelationshipsStorefrontSalesChannel $storefront_sales_channel storefront_sales_channel
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\ProductExportRelationshipsSalesChannel
+     * @return \Shopware6SDK\Model\ProductExportRelationshipsSalesChannel
      */
     public function getSalesChannel()
     {
@@ -281,7 +281,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\ProductExportRelationshipsSalesChannel $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\ProductExportRelationshipsSalesChannel $sales_channel sales_channel
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel_domain
      *
-     * @return \ShopwareSDK6\Model\ProductExportRelationshipsSalesChannelDomain
+     * @return \Shopware6SDK\Model\ProductExportRelationshipsSalesChannelDomain
      */
     public function getSalesChannelDomain()
     {
@@ -305,7 +305,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel_domain
      *
-     * @param \ShopwareSDK6\Model\ProductExportRelationshipsSalesChannelDomain $sales_channel_domain sales_channel_domain
+     * @param \Shopware6SDK\Model\ProductExportRelationshipsSalesChannelDomain $sales_channel_domain sales_channel_domain
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \ShopwareSDK6\Model\ProductExportRelationshipsCurrency
+     * @return \Shopware6SDK\Model\ProductExportRelationshipsCurrency
      */
     public function getCurrency()
     {
@@ -329,7 +329,7 @@ class ProductExportRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \ShopwareSDK6\Model\ProductExportRelationshipsCurrency $currency currency
+     * @param \Shopware6SDK\Model\ProductExportRelationshipsCurrency $currency currency
      *
      * @return $this
      */

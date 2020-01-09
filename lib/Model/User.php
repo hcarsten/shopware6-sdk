@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * User Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class User extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\UserAttributes',
-'links' => '\ShopwareSDK6\Model\UserLinks',
-'relationships' => '\ShopwareSDK6\Model\UserRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\UserAttributes',
+'links' => '\Shopware6SDK\Model\UserLinks',
+'relationships' => '\Shopware6SDK\Model\UserRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class User extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\UserAttributes
+     * @return \Shopware6SDK\Model\UserAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class User extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\UserAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\UserAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class User extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\UserLinks
+     * @return \Shopware6SDK\Model\UserLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class User extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\UserLinks $links links
+     * @param \Shopware6SDK\Model\UserLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class User extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\UserRelationships
+     * @return \Shopware6SDK\Model\UserRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class User extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\UserRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\UserRelationships $relationships relationships
      *
      * @return $this
      */

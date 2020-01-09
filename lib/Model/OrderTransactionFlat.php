@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderTransactionFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,14 +61,14 @@ class OrderTransactionFlat implements ModelInterface, ArrayAccess
 'order_id' => 'string',
 'order_version_id' => 'string',
 'payment_method_id' => 'string',
-'amount' => '\ShopwareSDK6\Model\OrderAttributesShippingCosts',
+'amount' => '\Shopware6SDK\Model\OrderAttributesShippingCosts',
 'state_id' => 'string',
 'custom_fields' => 'object',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'state_machine_state' => '\ShopwareSDK6\Model\StateMachineStateFlat',
-'order' => '\ShopwareSDK6\Model\OrderFlat',
-'payment_method' => '\ShopwareSDK6\Model\PaymentMethodFlat'    ];
+'state_machine_state' => '\Shopware6SDK\Model\StateMachineStateFlat',
+'order' => '\Shopware6SDK\Model\OrderFlat',
+'payment_method' => '\Shopware6SDK\Model\PaymentMethodFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -409,7 +409,7 @@ class OrderTransactionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets amount
      *
-     * @return \ShopwareSDK6\Model\OrderAttributesShippingCosts
+     * @return \Shopware6SDK\Model\OrderAttributesShippingCosts
      */
     public function getAmount()
     {
@@ -419,7 +419,7 @@ class OrderTransactionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets amount
      *
-     * @param \ShopwareSDK6\Model\OrderAttributesShippingCosts $amount amount
+     * @param \Shopware6SDK\Model\OrderAttributesShippingCosts $amount amount
      *
      * @return $this
      */
@@ -529,7 +529,7 @@ class OrderTransactionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine_state
      *
-     * @return \ShopwareSDK6\Model\StateMachineStateFlat
+     * @return \Shopware6SDK\Model\StateMachineStateFlat
      */
     public function getStateMachineState()
     {
@@ -539,7 +539,7 @@ class OrderTransactionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine_state
      *
-     * @param \ShopwareSDK6\Model\StateMachineStateFlat $state_machine_state state_machine_state
+     * @param \Shopware6SDK\Model\StateMachineStateFlat $state_machine_state state_machine_state
      *
      * @return $this
      */
@@ -553,7 +553,7 @@ class OrderTransactionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \ShopwareSDK6\Model\OrderFlat
+     * @return \Shopware6SDK\Model\OrderFlat
      */
     public function getOrder()
     {
@@ -563,7 +563,7 @@ class OrderTransactionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \ShopwareSDK6\Model\OrderFlat $order order
+     * @param \Shopware6SDK\Model\OrderFlat $order order
      *
      * @return $this
      */
@@ -577,7 +577,7 @@ class OrderTransactionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets payment_method
      *
-     * @return \ShopwareSDK6\Model\PaymentMethodFlat
+     * @return \Shopware6SDK\Model\PaymentMethodFlat
      */
     public function getPaymentMethod()
     {
@@ -587,7 +587,7 @@ class OrderTransactionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets payment_method
      *
-     * @param \ShopwareSDK6\Model\PaymentMethodFlat $payment_method payment_method
+     * @param \Shopware6SDK\Model\PaymentMethodFlat $payment_method payment_method
      *
      * @return $this
      */

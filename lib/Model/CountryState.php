@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CountryState Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CountryState extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\CountryStateAttributes',
-'links' => '\ShopwareSDK6\Model\CountryStateLinks',
-'relationships' => '\ShopwareSDK6\Model\CountryStateRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\CountryStateAttributes',
+'links' => '\Shopware6SDK\Model\CountryStateLinks',
+'relationships' => '\Shopware6SDK\Model\CountryStateRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CountryState extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\CountryStateAttributes
+     * @return \Shopware6SDK\Model\CountryStateAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CountryState extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\CountryStateAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\CountryStateAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CountryState extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CountryStateLinks
+     * @return \Shopware6SDK\Model\CountryStateLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CountryState extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CountryStateLinks $links links
+     * @param \Shopware6SDK\Model\CountryStateLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CountryState extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\CountryStateRelationships
+     * @return \Shopware6SDK\Model\CountryStateRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CountryState extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\CountryStateRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\CountryStateRelationships $relationships relationships
      *
      * @return $this
      */

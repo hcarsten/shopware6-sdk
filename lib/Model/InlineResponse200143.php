@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * InlineResponse200143 Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class InlineResponse200143 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'total' => 'int',
-'data' => '\ShopwareSDK6\Model\NumberRangeTypeFlat[]'    ];
+'data' => '\Shopware6SDK\Model\NumberRangeTypeFlat[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -229,7 +229,7 @@ class InlineResponse200143 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\NumberRangeTypeFlat[]
+     * @return \Shopware6SDK\Model\NumberRangeTypeFlat[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class InlineResponse200143 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\NumberRangeTypeFlat[] $data data
+     * @param \Shopware6SDK\Model\NumberRangeTypeFlat[] $data data
      *
      * @return $this
      */

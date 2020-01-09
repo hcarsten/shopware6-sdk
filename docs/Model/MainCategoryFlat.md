@@ -11,9 +11,9 @@ Name | Type | Description | Notes
 **sales_channel_id** | **string** |  | 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**product** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**category** | [**\ShopwareSDK6\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
-**sales_channel** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**product** | [**\Shopware6SDK\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**category** | [**\Shopware6SDK\Model\CategoryFlat**](CategoryFlat.md) |  | [optional] 
+**sales_channel** | [**\Shopware6SDK\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

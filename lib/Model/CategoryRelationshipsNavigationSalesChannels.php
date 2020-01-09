@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CategoryRelationshipsNavigationSalesChannels Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class CategoryRelationshipsNavigationSalesChannels implements ModelInterface, Ar
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\CategoryRelationshipsNavigationSalesChannelsLinks',
-'data' => '\ShopwareSDK6\Model\CategoryRelationshipsNavigationSalesChannelsData[]'    ];
+        'links' => '\Shopware6SDK\Model\CategoryRelationshipsNavigationSalesChannelsLinks',
+'data' => '\Shopware6SDK\Model\CategoryRelationshipsNavigationSalesChannelsData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class CategoryRelationshipsNavigationSalesChannels implements ModelInterface, Ar
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsNavigationSalesChannelsLinks
+     * @return \Shopware6SDK\Model\CategoryRelationshipsNavigationSalesChannelsLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class CategoryRelationshipsNavigationSalesChannels implements ModelInterface, Ar
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsNavigationSalesChannelsLinks $links links
+     * @param \Shopware6SDK\Model\CategoryRelationshipsNavigationSalesChannelsLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CategoryRelationshipsNavigationSalesChannels implements ModelInterface, Ar
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\CategoryRelationshipsNavigationSalesChannelsData[]
+     * @return \Shopware6SDK\Model\CategoryRelationshipsNavigationSalesChannelsData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class CategoryRelationshipsNavigationSalesChannels implements ModelInterface, Ar
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\CategoryRelationshipsNavigationSalesChannelsData[] $data data
+     * @param \Shopware6SDK\Model\CategoryRelationshipsNavigationSalesChannelsData[] $data data
      *
      * @return $this
      */

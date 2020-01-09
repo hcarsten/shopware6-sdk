@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * MailTemplate Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class MailTemplate extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\MailTemplateAttributes',
-'links' => '\ShopwareSDK6\Model\MailTemplateLinks',
-'relationships' => '\ShopwareSDK6\Model\MailTemplateRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\MailTemplateAttributes',
+'links' => '\Shopware6SDK\Model\MailTemplateLinks',
+'relationships' => '\Shopware6SDK\Model\MailTemplateRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class MailTemplate extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\MailTemplateAttributes
+     * @return \Shopware6SDK\Model\MailTemplateAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class MailTemplate extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\MailTemplateAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\MailTemplateAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class MailTemplate extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\MailTemplateLinks
+     * @return \Shopware6SDK\Model\MailTemplateLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class MailTemplate extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\MailTemplateLinks $links links
+     * @param \Shopware6SDK\Model\MailTemplateLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class MailTemplate extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\MailTemplateRelationships
+     * @return \Shopware6SDK\Model\MailTemplateRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class MailTemplate extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\MailTemplateRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\MailTemplateRelationships $relationships relationships
      *
      * @return $this
      */

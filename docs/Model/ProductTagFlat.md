@@ -7,8 +7,8 @@ Name | Type | Description | Notes
 **product_id** | **string** |  | 
 **product_version_id** | **string** |  | [optional] 
 **tag_id** | **string** |  | 
-**product** | [**\ShopwareSDK6\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
-**tag** | [**\ShopwareSDK6\Model\TagFlat**](TagFlat.md) |  | [optional] 
+**product** | [**\Shopware6SDK\Model\ProductFlat**](ProductFlat.md) |  | [optional] 
+**tag** | [**\Shopware6SDK\Model\TagFlat**](TagFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

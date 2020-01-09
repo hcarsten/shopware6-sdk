@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CustomerAddress Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CustomerAddress extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\CustomerAddressAttributes',
-'links' => '\ShopwareSDK6\Model\CustomerAddressLinks',
-'relationships' => '\ShopwareSDK6\Model\CustomerAddressRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\CustomerAddressAttributes',
+'links' => '\Shopware6SDK\Model\CustomerAddressLinks',
+'relationships' => '\Shopware6SDK\Model\CustomerAddressRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class CustomerAddress extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressAttributes
+     * @return \Shopware6SDK\Model\CustomerAddressAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class CustomerAddress extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\CustomerAddressAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class CustomerAddress extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressLinks
+     * @return \Shopware6SDK\Model\CustomerAddressLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class CustomerAddress extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressLinks $links links
+     * @param \Shopware6SDK\Model\CustomerAddressLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class CustomerAddress extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\CustomerAddressRelationships
+     * @return \Shopware6SDK\Model\CustomerAddressRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class CustomerAddress extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\CustomerAddressRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\CustomerAddressRelationships $relationships relationships
      *
      * @return $this
      */

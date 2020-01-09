@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderDeliveryRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,11 +56,11 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'state_machine_state' => '\ShopwareSDK6\Model\OrderDeliveryRelationshipsStateMachineState',
-'order' => '\ShopwareSDK6\Model\OrderDeliveryRelationshipsOrder',
-'shipping_order_address' => '\ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingOrderAddress',
-'shipping_method' => '\ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingMethod',
-'positions' => '\ShopwareSDK6\Model\OrderDeliveryRelationshipsPositions'    ];
+        'state_machine_state' => '\Shopware6SDK\Model\OrderDeliveryRelationshipsStateMachineState',
+'order' => '\Shopware6SDK\Model\OrderDeliveryRelationshipsOrder',
+'shipping_order_address' => '\Shopware6SDK\Model\OrderDeliveryRelationshipsShippingOrderAddress',
+'shipping_method' => '\Shopware6SDK\Model\OrderDeliveryRelationshipsShippingMethod',
+'positions' => '\Shopware6SDK\Model\OrderDeliveryRelationshipsPositions'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -223,7 +223,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine_state
      *
-     * @return \ShopwareSDK6\Model\OrderDeliveryRelationshipsStateMachineState
+     * @return \Shopware6SDK\Model\OrderDeliveryRelationshipsStateMachineState
      */
     public function getStateMachineState()
     {
@@ -233,7 +233,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine_state
      *
-     * @param \ShopwareSDK6\Model\OrderDeliveryRelationshipsStateMachineState $state_machine_state state_machine_state
+     * @param \Shopware6SDK\Model\OrderDeliveryRelationshipsStateMachineState $state_machine_state state_machine_state
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \ShopwareSDK6\Model\OrderDeliveryRelationshipsOrder
+     * @return \Shopware6SDK\Model\OrderDeliveryRelationshipsOrder
      */
     public function getOrder()
     {
@@ -257,7 +257,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \ShopwareSDK6\Model\OrderDeliveryRelationshipsOrder $order order
+     * @param \Shopware6SDK\Model\OrderDeliveryRelationshipsOrder $order order
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_order_address
      *
-     * @return \ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingOrderAddress
+     * @return \Shopware6SDK\Model\OrderDeliveryRelationshipsShippingOrderAddress
      */
     public function getShippingOrderAddress()
     {
@@ -281,7 +281,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_order_address
      *
-     * @param \ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingOrderAddress $shipping_order_address shipping_order_address
+     * @param \Shopware6SDK\Model\OrderDeliveryRelationshipsShippingOrderAddress $shipping_order_address shipping_order_address
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method
      *
-     * @return \ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingMethod
+     * @return \Shopware6SDK\Model\OrderDeliveryRelationshipsShippingMethod
      */
     public function getShippingMethod()
     {
@@ -305,7 +305,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method
      *
-     * @param \ShopwareSDK6\Model\OrderDeliveryRelationshipsShippingMethod $shipping_method shipping_method
+     * @param \Shopware6SDK\Model\OrderDeliveryRelationshipsShippingMethod $shipping_method shipping_method
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets positions
      *
-     * @return \ShopwareSDK6\Model\OrderDeliveryRelationshipsPositions
+     * @return \Shopware6SDK\Model\OrderDeliveryRelationshipsPositions
      */
     public function getPositions()
     {
@@ -329,7 +329,7 @@ class OrderDeliveryRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets positions
      *
-     * @param \ShopwareSDK6\Model\OrderDeliveryRelationshipsPositions $positions positions
+     * @param \Shopware6SDK\Model\OrderDeliveryRelationshipsPositions $positions positions
      *
      * @return $this
      */

@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**links** | [**\ShopwareSDK6\Model\OrderRelationshipsCurrencyLinks**](OrderRelationshipsCurrencyLinks.md) |  | [optional] 
-**data** | [**\ShopwareSDK6\Model\OrderRelationshipsCurrencyData**](OrderRelationshipsCurrencyData.md) |  | [optional] 
+**links** | [**\Shopware6SDK\Model\OrderRelationshipsCurrencyLinks**](OrderRelationshipsCurrencyLinks.md) |  | [optional] 
+**data** | [**\Shopware6SDK\Model\OrderRelationshipsCurrencyData**](OrderRelationshipsCurrencyData.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

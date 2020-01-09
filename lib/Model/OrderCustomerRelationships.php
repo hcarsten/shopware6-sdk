@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderCustomerRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class OrderCustomerRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'order' => '\ShopwareSDK6\Model\OrderCustomerRelationshipsOrder',
-'customer' => '\ShopwareSDK6\Model\OrderCustomerRelationshipsCustomer',
-'salutation' => '\ShopwareSDK6\Model\OrderCustomerRelationshipsSalutation'    ];
+        'order' => '\Shopware6SDK\Model\OrderCustomerRelationshipsOrder',
+'customer' => '\Shopware6SDK\Model\OrderCustomerRelationshipsCustomer',
+'salutation' => '\Shopware6SDK\Model\OrderCustomerRelationshipsSalutation'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class OrderCustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \ShopwareSDK6\Model\OrderCustomerRelationshipsOrder
+     * @return \Shopware6SDK\Model\OrderCustomerRelationshipsOrder
      */
     public function getOrder()
     {
@@ -221,7 +221,7 @@ class OrderCustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \ShopwareSDK6\Model\OrderCustomerRelationshipsOrder $order order
+     * @param \Shopware6SDK\Model\OrderCustomerRelationshipsOrder $order order
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class OrderCustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \ShopwareSDK6\Model\OrderCustomerRelationshipsCustomer
+     * @return \Shopware6SDK\Model\OrderCustomerRelationshipsCustomer
      */
     public function getCustomer()
     {
@@ -245,7 +245,7 @@ class OrderCustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \ShopwareSDK6\Model\OrderCustomerRelationshipsCustomer $customer customer
+     * @param \Shopware6SDK\Model\OrderCustomerRelationshipsCustomer $customer customer
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class OrderCustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets salutation
      *
-     * @return \ShopwareSDK6\Model\OrderCustomerRelationshipsSalutation
+     * @return \Shopware6SDK\Model\OrderCustomerRelationshipsSalutation
      */
     public function getSalutation()
     {
@@ -269,7 +269,7 @@ class OrderCustomerRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets salutation
      *
-     * @param \ShopwareSDK6\Model\OrderCustomerRelationshipsSalutation $salutation salutation
+     * @param \Shopware6SDK\Model\OrderCustomerRelationshipsSalutation $salutation salutation
      *
      * @return $this
      */

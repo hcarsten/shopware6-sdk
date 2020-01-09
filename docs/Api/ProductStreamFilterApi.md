@@ -1,4 +1,4 @@
-# ShopwareSDK6\ProductStreamFilterApi
+# Shopware6SDK\ProductStreamFilterApi
 
 All URIs are relative to *http://shopware.test/api/v1*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateProductStreamFilter**](ProductStreamFilterApi.md#updateproductstreamfilter) | **PATCH** /product-stream-filter/{id} | Partially update information about a Product Stream Filter resource
 
 # **createProductStreamFilter**
-> \ShopwareSDK6\Model\InlineResponse200207 createProductStreamFilter($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200207 createProductStreamFilter($body, $_response)
 
 Create a new Product Stream Filter resources
 
@@ -22,12 +22,12 @@ Create a new Product Stream Filter resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductStreamFilterApi(
+$apiInstance = new Shopware6SDK\Api\ProductStreamFilterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\Body136(); // \ShopwareSDK6\Model\Body136 | 
+$body = new \Shopware6SDK\Model\Body136(); // \Shopware6SDK\Model\Body136 | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -43,12 +43,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\Body136**](../Model/Body136.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\Body136**](../Model/Body136.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
+[**\Shopware6SDK\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createProductStreamFilter**
-> \ShopwareSDK6\Model\InlineResponse200207 createProductStreamFilter($body, $_response)
+> \Shopware6SDK\Model\InlineResponse200207 createProductStreamFilter($body, $_response)
 
 Create a new Product Stream Filter resources
 
@@ -73,12 +73,12 @@ Create a new Product Stream Filter resources. All required fields must be provid
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductStreamFilterApi(
+$apiInstance = new Shopware6SDK\Api\ProductStreamFilterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$body = new \ShopwareSDK6\Model\ProductStreamFilterFlat(); // \ShopwareSDK6\Model\ProductStreamFilterFlat | 
+$body = new \Shopware6SDK\Model\ProductStreamFilterFlat(); // \Shopware6SDK\Model\ProductStreamFilterFlat | 
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -94,12 +94,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\ShopwareSDK6\Model\ProductStreamFilterFlat**](../Model/ProductStreamFilterFlat.md)|  | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductStreamFilterFlat**](../Model/ProductStreamFilterFlat.md)|  | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
+[**\Shopware6SDK\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
 
 ### Authorization
 
@@ -122,7 +122,7 @@ Delete a Product Stream Filter resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductStreamFilterApi(
+$apiInstance = new Shopware6SDK\Api\ProductStreamFilterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductStreamFilter**
-> \ShopwareSDK6\Model\InlineResponse200207 getProductStreamFilter($id)
+> \Shopware6SDK\Model\InlineResponse200207 getProductStreamFilter($id)
 
 Detailed information about a Product Stream Filter resource
 
@@ -170,7 +170,7 @@ Detailed information about a Product Stream Filter resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductStreamFilterApi(
+$apiInstance = new Shopware6SDK\Api\ProductStreamFilterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
+[**\Shopware6SDK\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProductStreamFilterList**
-> \ShopwareSDK6\Model\InlineResponse200205 getProductStreamFilterList($limit, $page, $query)
+> \Shopware6SDK\Model\InlineResponse200205 getProductStreamFilterList($limit, $page, $query)
 
 List with basic information of Product Stream Filter resources
 
@@ -217,7 +217,7 @@ List with basic information of Product Stream Filter resources
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductStreamFilterApi(
+$apiInstance = new Shopware6SDK\Api\ProductStreamFilterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -245,7 +245,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200205**](../Model/InlineResponse200205.md)
+[**\Shopware6SDK\Model\InlineResponse200205**](../Model/InlineResponse200205.md)
 
 ### Authorization
 
@@ -259,7 +259,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductStreamFilter**
-> \ShopwareSDK6\Model\InlineResponse200207 updateProductStreamFilter($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200207 updateProductStreamFilter($id, $body, $_response)
 
 Partially update information about a Product Stream Filter resource
 
@@ -268,13 +268,13 @@ Partially update information about a Product Stream Filter resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductStreamFilterApi(
+$apiInstance = new Shopware6SDK\Api\ProductStreamFilterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_stream_filter
-$body = new \ShopwareSDK6\Model\Body137(); // \ShopwareSDK6\Model\Body137 | Partially update information about a Product Stream Filter resource.
+$body = new \Shopware6SDK\Model\Body137(); // \Shopware6SDK\Model\Body137 | Partially update information about a Product Stream Filter resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -291,12 +291,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_stream_filter |
- **body** | [**\ShopwareSDK6\Model\Body137**](../Model/Body137.md)| Partially update information about a Product Stream Filter resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\Body137**](../Model/Body137.md)| Partially update information about a Product Stream Filter resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
+[**\Shopware6SDK\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
 
 ### Authorization
 
@@ -310,7 +310,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateProductStreamFilter**
-> \ShopwareSDK6\Model\InlineResponse200207 updateProductStreamFilter($id, $body, $_response)
+> \Shopware6SDK\Model\InlineResponse200207 updateProductStreamFilter($id, $body, $_response)
 
 Partially update information about a Product Stream Filter resource
 
@@ -319,13 +319,13 @@ Partially update information about a Product Stream Filter resource
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new ShopwareSDK6\Api\ProductStreamFilterApi(
+$apiInstance = new Shopware6SDK\Api\ProductStreamFilterApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
 $id = "38400000-8cf0-11bd-b23e-10b96e4ef00d"; // string | Identifier for the product_stream_filter
-$body = new \ShopwareSDK6\Model\ProductStreamFilterFlat(); // \ShopwareSDK6\Model\ProductStreamFilterFlat | Partially update information about a Product Stream Filter resource.
+$body = new \Shopware6SDK\Model\ProductStreamFilterFlat(); // \Shopware6SDK\Model\ProductStreamFilterFlat | Partially update information about a Product Stream Filter resource.
 $_response = "_response_example"; // string | Data format for response. Empty if none is provided.
 
 try {
@@ -342,12 +342,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**string**](../Model/.md)| Identifier for the product_stream_filter |
- **body** | [**\ShopwareSDK6\Model\ProductStreamFilterFlat**](../Model/ProductStreamFilterFlat.md)| Partially update information about a Product Stream Filter resource. | [optional]
+ **body** | [**\Shopware6SDK\Model\ProductStreamFilterFlat**](../Model/ProductStreamFilterFlat.md)| Partially update information about a Product Stream Filter resource. | [optional]
  **_response** | **string**| Data format for response. Empty if none is provided. | [optional]
 
 ### Return type
 
-[**\ShopwareSDK6\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
+[**\Shopware6SDK\Model\InlineResponse200207**](../Model/InlineResponse200207.md)
 
 ### Authorization
 

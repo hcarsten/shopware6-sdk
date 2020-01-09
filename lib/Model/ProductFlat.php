@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ProductFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -113,28 +113,28 @@ class ProductFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'categories_ro' => '\ShopwareSDK6\Model\CategoryFlat',
-'delivery_time' => '\ShopwareSDK6\Model\DeliveryTimeFlat',
-'parent' => '\ShopwareSDK6\Model\ProductFlat',
-'children' => '\ShopwareSDK6\Model\ProductFlat',
-'tax' => '\ShopwareSDK6\Model\TaxFlat',
-'manufacturer' => '\ShopwareSDK6\Model\ProductManufacturerFlat',
-'unit' => '\ShopwareSDK6\Model\UnitFlat',
-'cover' => '\ShopwareSDK6\Model\ProductMediaFlat',
-'prices' => '\ShopwareSDK6\Model\ProductPriceFlat',
-'media' => '\ShopwareSDK6\Model\ProductMediaFlat',
-'cross_sellings' => '\ShopwareSDK6\Model\ProductCrossSellingFlat',
-'properties' => '\ShopwareSDK6\Model\PropertyGroupOptionFlat',
-'categories' => '\ShopwareSDK6\Model\CategoryFlat',
-'tags' => '\ShopwareSDK6\Model\TagFlat',
-'configurator_settings' => '\ShopwareSDK6\Model\ProductConfiguratorSettingFlat',
-'options' => '\ShopwareSDK6\Model\PropertyGroupOptionFlat',
-'visibilities' => '\ShopwareSDK6\Model\ProductVisibilityFlat',
-'search_keywords' => '\ShopwareSDK6\Model\ProductSearchKeywordFlat',
-'product_reviews' => '\ShopwareSDK6\Model\ProductReviewFlat',
-'main_categories' => '\ShopwareSDK6\Model\MainCategoryFlat',
-'seo_urls' => '\ShopwareSDK6\Model\SeoUrlFlat',
-'order_line_items' => '\ShopwareSDK6\Model\OrderLineItemFlat'    ];
+'categories_ro' => '\Shopware6SDK\Model\CategoryFlat',
+'delivery_time' => '\Shopware6SDK\Model\DeliveryTimeFlat',
+'parent' => '\Shopware6SDK\Model\ProductFlat',
+'children' => '\Shopware6SDK\Model\ProductFlat',
+'tax' => '\Shopware6SDK\Model\TaxFlat',
+'manufacturer' => '\Shopware6SDK\Model\ProductManufacturerFlat',
+'unit' => '\Shopware6SDK\Model\UnitFlat',
+'cover' => '\Shopware6SDK\Model\ProductMediaFlat',
+'prices' => '\Shopware6SDK\Model\ProductPriceFlat',
+'media' => '\Shopware6SDK\Model\ProductMediaFlat',
+'cross_sellings' => '\Shopware6SDK\Model\ProductCrossSellingFlat',
+'properties' => '\Shopware6SDK\Model\PropertyGroupOptionFlat',
+'categories' => '\Shopware6SDK\Model\CategoryFlat',
+'tags' => '\Shopware6SDK\Model\TagFlat',
+'configurator_settings' => '\Shopware6SDK\Model\ProductConfiguratorSettingFlat',
+'options' => '\Shopware6SDK\Model\PropertyGroupOptionFlat',
+'visibilities' => '\Shopware6SDK\Model\ProductVisibilityFlat',
+'search_keywords' => '\Shopware6SDK\Model\ProductSearchKeywordFlat',
+'product_reviews' => '\Shopware6SDK\Model\ProductReviewFlat',
+'main_categories' => '\Shopware6SDK\Model\MainCategoryFlat',
+'seo_urls' => '\Shopware6SDK\Model\SeoUrlFlat',
+'order_line_items' => '\Shopware6SDK\Model\OrderLineItemFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -2056,7 +2056,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets categories_ro
      *
-     * @return \ShopwareSDK6\Model\CategoryFlat
+     * @return \Shopware6SDK\Model\CategoryFlat
      */
     public function getCategoriesRo()
     {
@@ -2066,7 +2066,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets categories_ro
      *
-     * @param \ShopwareSDK6\Model\CategoryFlat $categories_ro categories_ro
+     * @param \Shopware6SDK\Model\CategoryFlat $categories_ro categories_ro
      *
      * @return $this
      */
@@ -2080,7 +2080,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_time
      *
-     * @return \ShopwareSDK6\Model\DeliveryTimeFlat
+     * @return \Shopware6SDK\Model\DeliveryTimeFlat
      */
     public function getDeliveryTime()
     {
@@ -2090,7 +2090,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_time
      *
-     * @param \ShopwareSDK6\Model\DeliveryTimeFlat $delivery_time delivery_time
+     * @param \Shopware6SDK\Model\DeliveryTimeFlat $delivery_time delivery_time
      *
      * @return $this
      */
@@ -2104,7 +2104,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets parent
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getParent()
     {
@@ -2114,7 +2114,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets parent
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $parent parent
+     * @param \Shopware6SDK\Model\ProductFlat $parent parent
      *
      * @return $this
      */
@@ -2128,7 +2128,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets children
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getChildren()
     {
@@ -2138,7 +2138,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets children
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $children children
+     * @param \Shopware6SDK\Model\ProductFlat $children children
      *
      * @return $this
      */
@@ -2152,7 +2152,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tax
      *
-     * @return \ShopwareSDK6\Model\TaxFlat
+     * @return \Shopware6SDK\Model\TaxFlat
      */
     public function getTax()
     {
@@ -2162,7 +2162,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tax
      *
-     * @param \ShopwareSDK6\Model\TaxFlat $tax tax
+     * @param \Shopware6SDK\Model\TaxFlat $tax tax
      *
      * @return $this
      */
@@ -2176,7 +2176,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets manufacturer
      *
-     * @return \ShopwareSDK6\Model\ProductManufacturerFlat
+     * @return \Shopware6SDK\Model\ProductManufacturerFlat
      */
     public function getManufacturer()
     {
@@ -2186,7 +2186,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets manufacturer
      *
-     * @param \ShopwareSDK6\Model\ProductManufacturerFlat $manufacturer manufacturer
+     * @param \Shopware6SDK\Model\ProductManufacturerFlat $manufacturer manufacturer
      *
      * @return $this
      */
@@ -2200,7 +2200,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets unit
      *
-     * @return \ShopwareSDK6\Model\UnitFlat
+     * @return \Shopware6SDK\Model\UnitFlat
      */
     public function getUnit()
     {
@@ -2210,7 +2210,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets unit
      *
-     * @param \ShopwareSDK6\Model\UnitFlat $unit unit
+     * @param \Shopware6SDK\Model\UnitFlat $unit unit
      *
      * @return $this
      */
@@ -2224,7 +2224,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets cover
      *
-     * @return \ShopwareSDK6\Model\ProductMediaFlat
+     * @return \Shopware6SDK\Model\ProductMediaFlat
      */
     public function getCover()
     {
@@ -2234,7 +2234,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets cover
      *
-     * @param \ShopwareSDK6\Model\ProductMediaFlat $cover cover
+     * @param \Shopware6SDK\Model\ProductMediaFlat $cover cover
      *
      * @return $this
      */
@@ -2248,7 +2248,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets prices
      *
-     * @return \ShopwareSDK6\Model\ProductPriceFlat
+     * @return \Shopware6SDK\Model\ProductPriceFlat
      */
     public function getPrices()
     {
@@ -2258,7 +2258,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets prices
      *
-     * @param \ShopwareSDK6\Model\ProductPriceFlat $prices prices
+     * @param \Shopware6SDK\Model\ProductPriceFlat $prices prices
      *
      * @return $this
      */
@@ -2272,7 +2272,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\ProductMediaFlat
+     * @return \Shopware6SDK\Model\ProductMediaFlat
      */
     public function getMedia()
     {
@@ -2282,7 +2282,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\ProductMediaFlat $media media
+     * @param \Shopware6SDK\Model\ProductMediaFlat $media media
      *
      * @return $this
      */
@@ -2296,7 +2296,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets cross_sellings
      *
-     * @return \ShopwareSDK6\Model\ProductCrossSellingFlat
+     * @return \Shopware6SDK\Model\ProductCrossSellingFlat
      */
     public function getCrossSellings()
     {
@@ -2306,7 +2306,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets cross_sellings
      *
-     * @param \ShopwareSDK6\Model\ProductCrossSellingFlat $cross_sellings cross_sellings
+     * @param \Shopware6SDK\Model\ProductCrossSellingFlat $cross_sellings cross_sellings
      *
      * @return $this
      */
@@ -2320,7 +2320,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets properties
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionFlat
+     * @return \Shopware6SDK\Model\PropertyGroupOptionFlat
      */
     public function getProperties()
     {
@@ -2330,7 +2330,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets properties
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionFlat $properties properties
+     * @param \Shopware6SDK\Model\PropertyGroupOptionFlat $properties properties
      *
      * @return $this
      */
@@ -2344,7 +2344,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \ShopwareSDK6\Model\CategoryFlat
+     * @return \Shopware6SDK\Model\CategoryFlat
      */
     public function getCategories()
     {
@@ -2354,7 +2354,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \ShopwareSDK6\Model\CategoryFlat $categories categories
+     * @param \Shopware6SDK\Model\CategoryFlat $categories categories
      *
      * @return $this
      */
@@ -2368,7 +2368,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets tags
      *
-     * @return \ShopwareSDK6\Model\TagFlat
+     * @return \Shopware6SDK\Model\TagFlat
      */
     public function getTags()
     {
@@ -2378,7 +2378,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets tags
      *
-     * @param \ShopwareSDK6\Model\TagFlat $tags tags
+     * @param \Shopware6SDK\Model\TagFlat $tags tags
      *
      * @return $this
      */
@@ -2392,7 +2392,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets configurator_settings
      *
-     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingFlat
+     * @return \Shopware6SDK\Model\ProductConfiguratorSettingFlat
      */
     public function getConfiguratorSettings()
     {
@@ -2402,7 +2402,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets configurator_settings
      *
-     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingFlat $configurator_settings configurator_settings
+     * @param \Shopware6SDK\Model\ProductConfiguratorSettingFlat $configurator_settings configurator_settings
      *
      * @return $this
      */
@@ -2416,7 +2416,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets options
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupOptionFlat
+     * @return \Shopware6SDK\Model\PropertyGroupOptionFlat
      */
     public function getOptions()
     {
@@ -2426,7 +2426,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets options
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupOptionFlat $options options
+     * @param \Shopware6SDK\Model\PropertyGroupOptionFlat $options options
      *
      * @return $this
      */
@@ -2440,7 +2440,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets visibilities
      *
-     * @return \ShopwareSDK6\Model\ProductVisibilityFlat
+     * @return \Shopware6SDK\Model\ProductVisibilityFlat
      */
     public function getVisibilities()
     {
@@ -2450,7 +2450,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets visibilities
      *
-     * @param \ShopwareSDK6\Model\ProductVisibilityFlat $visibilities visibilities
+     * @param \Shopware6SDK\Model\ProductVisibilityFlat $visibilities visibilities
      *
      * @return $this
      */
@@ -2464,7 +2464,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets search_keywords
      *
-     * @return \ShopwareSDK6\Model\ProductSearchKeywordFlat
+     * @return \Shopware6SDK\Model\ProductSearchKeywordFlat
      */
     public function getSearchKeywords()
     {
@@ -2474,7 +2474,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets search_keywords
      *
-     * @param \ShopwareSDK6\Model\ProductSearchKeywordFlat $search_keywords search_keywords
+     * @param \Shopware6SDK\Model\ProductSearchKeywordFlat $search_keywords search_keywords
      *
      * @return $this
      */
@@ -2488,7 +2488,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_reviews
      *
-     * @return \ShopwareSDK6\Model\ProductReviewFlat
+     * @return \Shopware6SDK\Model\ProductReviewFlat
      */
     public function getProductReviews()
     {
@@ -2498,7 +2498,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_reviews
      *
-     * @param \ShopwareSDK6\Model\ProductReviewFlat $product_reviews product_reviews
+     * @param \Shopware6SDK\Model\ProductReviewFlat $product_reviews product_reviews
      *
      * @return $this
      */
@@ -2512,7 +2512,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets main_categories
      *
-     * @return \ShopwareSDK6\Model\MainCategoryFlat
+     * @return \Shopware6SDK\Model\MainCategoryFlat
      */
     public function getMainCategories()
     {
@@ -2522,7 +2522,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets main_categories
      *
-     * @param \ShopwareSDK6\Model\MainCategoryFlat $main_categories main_categories
+     * @param \Shopware6SDK\Model\MainCategoryFlat $main_categories main_categories
      *
      * @return $this
      */
@@ -2536,7 +2536,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets seo_urls
      *
-     * @return \ShopwareSDK6\Model\SeoUrlFlat
+     * @return \Shopware6SDK\Model\SeoUrlFlat
      */
     public function getSeoUrls()
     {
@@ -2546,7 +2546,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets seo_urls
      *
-     * @param \ShopwareSDK6\Model\SeoUrlFlat $seo_urls seo_urls
+     * @param \Shopware6SDK\Model\SeoUrlFlat $seo_urls seo_urls
      *
      * @return $this
      */
@@ -2560,7 +2560,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Gets order_line_items
      *
-     * @return \ShopwareSDK6\Model\OrderLineItemFlat
+     * @return \Shopware6SDK\Model\OrderLineItemFlat
      */
     public function getOrderLineItems()
     {
@@ -2570,7 +2570,7 @@ class ProductFlat implements ModelInterface, ArrayAccess
     /**
      * Sets order_line_items
      *
-     * @param \ShopwareSDK6\Model\OrderLineItemFlat $order_line_items order_line_items
+     * @param \Shopware6SDK\Model\OrderLineItemFlat $order_line_items order_line_items
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * PropertyGroupOptionFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,11 +66,11 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
 'translated' => 'object',
-'media' => '\ShopwareSDK6\Model\MediaFlat',
-'group' => '\ShopwareSDK6\Model\PropertyGroupFlat',
-'product_configurator_settings' => '\ShopwareSDK6\Model\ProductConfiguratorSettingFlat',
-'product_properties' => '\ShopwareSDK6\Model\ProductFlat',
-'product_options' => '\ShopwareSDK6\Model\ProductFlat'    ];
+'media' => '\Shopware6SDK\Model\MediaFlat',
+'group' => '\Shopware6SDK\Model\PropertyGroupFlat',
+'product_configurator_settings' => '\Shopware6SDK\Model\ProductConfiguratorSettingFlat',
+'product_properties' => '\Shopware6SDK\Model\ProductFlat',
+'product_options' => '\Shopware6SDK\Model\ProductFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -535,7 +535,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets media
      *
-     * @return \ShopwareSDK6\Model\MediaFlat
+     * @return \Shopware6SDK\Model\MediaFlat
      */
     public function getMedia()
     {
@@ -545,7 +545,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets media
      *
-     * @param \ShopwareSDK6\Model\MediaFlat $media media
+     * @param \Shopware6SDK\Model\MediaFlat $media media
      *
      * @return $this
      */
@@ -559,7 +559,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets group
      *
-     * @return \ShopwareSDK6\Model\PropertyGroupFlat
+     * @return \Shopware6SDK\Model\PropertyGroupFlat
      */
     public function getGroup()
     {
@@ -569,7 +569,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets group
      *
-     * @param \ShopwareSDK6\Model\PropertyGroupFlat $group group
+     * @param \Shopware6SDK\Model\PropertyGroupFlat $group group
      *
      * @return $this
      */
@@ -583,7 +583,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_configurator_settings
      *
-     * @return \ShopwareSDK6\Model\ProductConfiguratorSettingFlat
+     * @return \Shopware6SDK\Model\ProductConfiguratorSettingFlat
      */
     public function getProductConfiguratorSettings()
     {
@@ -593,7 +593,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_configurator_settings
      *
-     * @param \ShopwareSDK6\Model\ProductConfiguratorSettingFlat $product_configurator_settings product_configurator_settings
+     * @param \Shopware6SDK\Model\ProductConfiguratorSettingFlat $product_configurator_settings product_configurator_settings
      *
      * @return $this
      */
@@ -607,7 +607,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_properties
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProductProperties()
     {
@@ -617,7 +617,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_properties
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $product_properties product_properties
+     * @param \Shopware6SDK\Model\ProductFlat $product_properties product_properties
      *
      * @return $this
      */
@@ -631,7 +631,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Gets product_options
      *
-     * @return \ShopwareSDK6\Model\ProductFlat
+     * @return \Shopware6SDK\Model\ProductFlat
      */
     public function getProductOptions()
     {
@@ -641,7 +641,7 @@ class PropertyGroupOptionFlat implements ModelInterface, ArrayAccess
     /**
      * Sets product_options
      *
-     * @param \ShopwareSDK6\Model\ProductFlat $product_options product_options
+     * @param \Shopware6SDK\Model\ProductFlat $product_options product_options
      *
      * @return $this
      */

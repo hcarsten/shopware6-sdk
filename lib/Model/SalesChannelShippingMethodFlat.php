@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * SalesChannelShippingMethodFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class SalesChannelShippingMethodFlat implements ModelInterface, ArrayAccess
         'id' => 'string',
 'sales_channel_id' => 'string',
 'shipping_method_id' => 'string',
-'sales_channel' => '\ShopwareSDK6\Model\SalesChannelFlat',
-'shipping_method' => '\ShopwareSDK6\Model\ShippingMethodFlat'    ];
+'sales_channel' => '\Shopware6SDK\Model\SalesChannelFlat',
+'shipping_method' => '\Shopware6SDK\Model\ShippingMethodFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -301,7 +301,7 @@ class SalesChannelShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets sales_channel
      *
-     * @return \ShopwareSDK6\Model\SalesChannelFlat
+     * @return \Shopware6SDK\Model\SalesChannelFlat
      */
     public function getSalesChannel()
     {
@@ -311,7 +311,7 @@ class SalesChannelShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets sales_channel
      *
-     * @param \ShopwareSDK6\Model\SalesChannelFlat $sales_channel sales_channel
+     * @param \Shopware6SDK\Model\SalesChannelFlat $sales_channel sales_channel
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class SalesChannelShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method
      *
-     * @return \ShopwareSDK6\Model\ShippingMethodFlat
+     * @return \Shopware6SDK\Model\ShippingMethodFlat
      */
     public function getShippingMethod()
     {
@@ -335,7 +335,7 @@ class SalesChannelShippingMethodFlat implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method
      *
-     * @param \ShopwareSDK6\Model\ShippingMethodFlat $shipping_method shipping_method
+     * @param \Shopware6SDK\Model\ShippingMethodFlat $shipping_method shipping_method
      *
      * @return $this
      */

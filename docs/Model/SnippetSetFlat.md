@@ -10,8 +10,8 @@ Name | Type | Description | Notes
 **custom_fields** | **object** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**snippets** | [**\ShopwareSDK6\Model\SnippetFlat**](SnippetFlat.md) |  | [optional] 
-**sales_channel_domains** | [**\ShopwareSDK6\Model\SalesChannelDomainFlat**](SalesChannelDomainFlat.md) |  | [optional] 
+**snippets** | [**\Shopware6SDK\Model\SnippetFlat**](SnippetFlat.md) |  | [optional] 
+**sales_channel_domains** | [**\Shopware6SDK\Model\SalesChannelDomainFlat**](SalesChannelDomainFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

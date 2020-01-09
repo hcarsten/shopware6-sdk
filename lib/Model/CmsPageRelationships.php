@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * CmsPageRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class CmsPageRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sections' => '\ShopwareSDK6\Model\CmsPageRelationshipsSections',
-'preview_media' => '\ShopwareSDK6\Model\CmsPageRelationshipsPreviewMedia',
-'categories' => '\ShopwareSDK6\Model\CmsPageRelationshipsCategories'    ];
+        'sections' => '\Shopware6SDK\Model\CmsPageRelationshipsSections',
+'preview_media' => '\Shopware6SDK\Model\CmsPageRelationshipsPreviewMedia',
+'categories' => '\Shopware6SDK\Model\CmsPageRelationshipsCategories'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class CmsPageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets sections
      *
-     * @return \ShopwareSDK6\Model\CmsPageRelationshipsSections
+     * @return \Shopware6SDK\Model\CmsPageRelationshipsSections
      */
     public function getSections()
     {
@@ -221,7 +221,7 @@ class CmsPageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets sections
      *
-     * @param \ShopwareSDK6\Model\CmsPageRelationshipsSections $sections sections
+     * @param \Shopware6SDK\Model\CmsPageRelationshipsSections $sections sections
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class CmsPageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets preview_media
      *
-     * @return \ShopwareSDK6\Model\CmsPageRelationshipsPreviewMedia
+     * @return \Shopware6SDK\Model\CmsPageRelationshipsPreviewMedia
      */
     public function getPreviewMedia()
     {
@@ -245,7 +245,7 @@ class CmsPageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets preview_media
      *
-     * @param \ShopwareSDK6\Model\CmsPageRelationshipsPreviewMedia $preview_media preview_media
+     * @param \Shopware6SDK\Model\CmsPageRelationshipsPreviewMedia $preview_media preview_media
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class CmsPageRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \ShopwareSDK6\Model\CmsPageRelationshipsCategories
+     * @return \Shopware6SDK\Model\CmsPageRelationshipsCategories
      */
     public function getCategories()
     {
@@ -269,7 +269,7 @@ class CmsPageRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \ShopwareSDK6\Model\CmsPageRelationshipsCategories $categories categories
+     * @param \Shopware6SDK\Model\CmsPageRelationshipsCategories $categories categories
      *
      * @return $this
      */

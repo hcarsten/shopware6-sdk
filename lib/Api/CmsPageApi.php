@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Api;
+namespace Shopware6SDK\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use ShopwareSDK6\ApiException;
-use ShopwareSDK6\Configuration;
-use ShopwareSDK6\HeaderSelector;
-use ShopwareSDK6\ObjectSerializer;
+use Shopware6SDK\ApiException;
+use Shopware6SDK\Configuration;
+use Shopware6SDK\HeaderSelector;
+use Shopware6SDK\ObjectSerializer;
 
 /**
  * CmsPageApi Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class CmsPageApi
      *
      * Create a new Cms Page resources
      *
-     * @param  \ShopwareSDK6\Model\Body8 $body body (optional)
+     * @param  \Shopware6SDK\Model\Body8 $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse20015
+     * @return \Shopware6SDK\Model\InlineResponse20015
      */
     public function createCmsPage($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class CmsPageApi
      *
      * Create a new Cms Page resources
      *
-     * @param  \ShopwareSDK6\Model\Body8 $body (optional)
+     * @param  \Shopware6SDK\Model\Body8 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
      */
     public function createCmsPageWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->createCmsPageRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class CmsPageApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse20015',
+                        '\Shopware6SDK\Model\InlineResponse20015',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class CmsPageApi
      *
      * Create a new Cms Page resources
      *
-     * @param  \ShopwareSDK6\Model\Body8 $body (optional)
+     * @param  \Shopware6SDK\Model\Body8 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class CmsPageApi
      *
      * Create a new Cms Page resources
      *
-     * @param  \ShopwareSDK6\Model\Body8 $body (optional)
+     * @param  \Shopware6SDK\Model\Body8 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class CmsPageApi
      */
     public function createCmsPageAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->createCmsPageRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class CmsPageApi
     /**
      * Create request for operation 'createCmsPage'
      *
-     * @param  \ShopwareSDK6\Model\Body8 $body (optional)
+     * @param  \Shopware6SDK\Model\Body8 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class CmsPageApi
      *
      * Create a new Cms Page resources
      *
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body body (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse20015
+     * @return \Shopware6SDK\Model\InlineResponse20015
      */
     public function createCmsPage($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class CmsPageApi
      *
      * Create a new Cms Page resources
      *
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
      */
     public function createCmsPageWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->createCmsPageRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class CmsPageApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse20015',
+                        '\Shopware6SDK\Model\InlineResponse20015',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class CmsPageApi
      *
      * Create a new Cms Page resources
      *
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class CmsPageApi
      *
      * Create a new Cms Page resources
      *
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class CmsPageApi
      */
     public function createCmsPageAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->createCmsPageRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class CmsPageApi
     /**
      * Create request for operation 'createCmsPage'
      *
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class CmsPageApi
      * @param  string $id Identifier for the cms_page (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class CmsPageApi
      * @param  string $id Identifier for the cms_page (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class CmsPageApi
      *
      * @param  string $id Identifier for the cms_page (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse20015
+     * @return \Shopware6SDK\Model\InlineResponse20015
      */
     public function getCmsPage($id)
     {
@@ -864,13 +864,13 @@ class CmsPageApi
      *
      * @param  string $id Identifier for the cms_page (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCmsPageWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->getCmsPageRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class CmsPageApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse20015',
+                        '\Shopware6SDK\Model\InlineResponse20015',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class CmsPageApi
      */
     public function getCmsPageAsyncWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->getCmsPageRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class CmsPageApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse20013
+     * @return \Shopware6SDK\Model\InlineResponse20013
      */
     public function getCmsPageList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class CmsPageApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse20013, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse20013, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCmsPageListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20013';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20013';
         $request = $this->getCmsPageListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class CmsPageApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse20013',
+                        '\Shopware6SDK\Model\InlineResponse20013',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class CmsPageApi
      */
     public function getCmsPageListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20013';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20013';
         $request = $this->getCmsPageListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class CmsPageApi
      * Partially update information about a Cms Page resource
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse20015
+     * @return \Shopware6SDK\Model\InlineResponse20015
      */
     public function updateCmsPage($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class CmsPageApi
      * Partially update information about a Cms Page resource
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateCmsPageWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->updateCmsPageRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class CmsPageApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse20015',
+                        '\Shopware6SDK\Model\InlineResponse20015',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class CmsPageApi
      * Partially update information about a Cms Page resource
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class CmsPageApi
      * Partially update information about a Cms Page resource
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class CmsPageApi
      */
     public function updateCmsPageAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->updateCmsPageRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class CmsPageApi
      * Create request for operation 'updateCmsPage'
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\Body9 $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class CmsPageApi
      * Partially update information about a Cms Page resource
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse20015
+     * @return \Shopware6SDK\Model\InlineResponse20015
      */
     public function updateCmsPage($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class CmsPageApi
      * Partially update information about a Cms Page resource
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse20015, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateCmsPageWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->updateCmsPageRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class CmsPageApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse20015',
+                        '\Shopware6SDK\Model\InlineResponse20015',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class CmsPageApi
      * Partially update information about a Cms Page resource
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class CmsPageApi
      * Partially update information about a Cms Page resource
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class CmsPageApi
      */
     public function updateCmsPageAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse20015';
+        $returnType = '\Shopware6SDK\Model\InlineResponse20015';
         $request = $this->updateCmsPageRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class CmsPageApi
      * Create request for operation 'updateCmsPage'
      *
      * @param  string $id Identifier for the cms_page (required)
-     * @param  \ShopwareSDK6\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
+     * @param  \Shopware6SDK\Model\CmsPageFlat $body Partially update information about a Cms Page resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

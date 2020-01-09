@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * ImportExportLogFlat Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -67,9 +67,9 @@ class ImportExportLogFlat implements ModelInterface, ArrayAccess
 'profile_name' => 'string',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime',
-'user' => '\ShopwareSDK6\Model\UserFlat',
-'profile' => '\ShopwareSDK6\Model\ImportExportProfileFlat',
-'file' => '\ShopwareSDK6\Model\ImportExportFileFlat'    ];
+'user' => '\Shopware6SDK\Model\UserFlat',
+'profile' => '\Shopware6SDK\Model\ImportExportProfileFlat',
+'file' => '\Shopware6SDK\Model\ImportExportFileFlat'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -556,7 +556,7 @@ class ImportExportLogFlat implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \ShopwareSDK6\Model\UserFlat
+     * @return \Shopware6SDK\Model\UserFlat
      */
     public function getUser()
     {
@@ -566,7 +566,7 @@ class ImportExportLogFlat implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \ShopwareSDK6\Model\UserFlat $user user
+     * @param \Shopware6SDK\Model\UserFlat $user user
      *
      * @return $this
      */
@@ -580,7 +580,7 @@ class ImportExportLogFlat implements ModelInterface, ArrayAccess
     /**
      * Gets profile
      *
-     * @return \ShopwareSDK6\Model\ImportExportProfileFlat
+     * @return \Shopware6SDK\Model\ImportExportProfileFlat
      */
     public function getProfile()
     {
@@ -590,7 +590,7 @@ class ImportExportLogFlat implements ModelInterface, ArrayAccess
     /**
      * Sets profile
      *
-     * @param \ShopwareSDK6\Model\ImportExportProfileFlat $profile profile
+     * @param \Shopware6SDK\Model\ImportExportProfileFlat $profile profile
      *
      * @return $this
      */
@@ -604,7 +604,7 @@ class ImportExportLogFlat implements ModelInterface, ArrayAccess
     /**
      * Gets file
      *
-     * @return \ShopwareSDK6\Model\ImportExportFileFlat
+     * @return \Shopware6SDK\Model\ImportExportFileFlat
      */
     public function getFile()
     {
@@ -614,7 +614,7 @@ class ImportExportLogFlat implements ModelInterface, ArrayAccess
     /**
      * Sets file
      *
-     * @param \ShopwareSDK6\Model\ImportExportFileFlat $file file
+     * @param \Shopware6SDK\Model\ImportExportFileFlat $file file
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * OrderTransactionRelationships Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class OrderTransactionRelationships implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'state_machine_state' => '\ShopwareSDK6\Model\OrderTransactionRelationshipsStateMachineState',
-'order' => '\ShopwareSDK6\Model\OrderTransactionRelationshipsOrder',
-'payment_method' => '\ShopwareSDK6\Model\OrderTransactionRelationshipsPaymentMethod'    ];
+        'state_machine_state' => '\Shopware6SDK\Model\OrderTransactionRelationshipsStateMachineState',
+'order' => '\Shopware6SDK\Model\OrderTransactionRelationshipsOrder',
+'payment_method' => '\Shopware6SDK\Model\OrderTransactionRelationshipsPaymentMethod'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class OrderTransactionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets state_machine_state
      *
-     * @return \ShopwareSDK6\Model\OrderTransactionRelationshipsStateMachineState
+     * @return \Shopware6SDK\Model\OrderTransactionRelationshipsStateMachineState
      */
     public function getStateMachineState()
     {
@@ -221,7 +221,7 @@ class OrderTransactionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets state_machine_state
      *
-     * @param \ShopwareSDK6\Model\OrderTransactionRelationshipsStateMachineState $state_machine_state state_machine_state
+     * @param \Shopware6SDK\Model\OrderTransactionRelationshipsStateMachineState $state_machine_state state_machine_state
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class OrderTransactionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \ShopwareSDK6\Model\OrderTransactionRelationshipsOrder
+     * @return \Shopware6SDK\Model\OrderTransactionRelationshipsOrder
      */
     public function getOrder()
     {
@@ -245,7 +245,7 @@ class OrderTransactionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \ShopwareSDK6\Model\OrderTransactionRelationshipsOrder $order order
+     * @param \Shopware6SDK\Model\OrderTransactionRelationshipsOrder $order order
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class OrderTransactionRelationships implements ModelInterface, ArrayAccess
     /**
      * Gets payment_method
      *
-     * @return \ShopwareSDK6\Model\OrderTransactionRelationshipsPaymentMethod
+     * @return \Shopware6SDK\Model\OrderTransactionRelationshipsPaymentMethod
      */
     public function getPaymentMethod()
     {
@@ -269,7 +269,7 @@ class OrderTransactionRelationships implements ModelInterface, ArrayAccess
     /**
      * Sets payment_method
      *
-     * @param \ShopwareSDK6\Model\OrderTransactionRelationshipsPaymentMethod $payment_method payment_method
+     * @param \Shopware6SDK\Model\OrderTransactionRelationshipsPaymentMethod $payment_method payment_method
      *
      * @return $this
      */

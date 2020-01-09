@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * DeadMessage Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class DeadMessage extends Resource
     protected static $swaggerTypes = [
         'type' => '',
 'id' => '',
-'attributes' => '\ShopwareSDK6\Model\DeadMessageAttributes',
-'links' => '\ShopwareSDK6\Model\DeadMessageLinks',
-'relationships' => '\ShopwareSDK6\Model\DeadMessageRelationships'    ];
+'attributes' => '\Shopware6SDK\Model\DeadMessageAttributes',
+'links' => '\Shopware6SDK\Model\DeadMessageLinks',
+'relationships' => '\Shopware6SDK\Model\DeadMessageRelationships'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -265,7 +265,7 @@ class DeadMessage extends Resource
     /**
      * Gets attributes
      *
-     * @return \ShopwareSDK6\Model\DeadMessageAttributes
+     * @return \Shopware6SDK\Model\DeadMessageAttributes
      */
     public function getAttributes()
     {
@@ -275,7 +275,7 @@ class DeadMessage extends Resource
     /**
      * Sets attributes
      *
-     * @param \ShopwareSDK6\Model\DeadMessageAttributes $attributes attributes
+     * @param \Shopware6SDK\Model\DeadMessageAttributes $attributes attributes
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class DeadMessage extends Resource
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\DeadMessageLinks
+     * @return \Shopware6SDK\Model\DeadMessageLinks
      */
     public function getLinks()
     {
@@ -299,7 +299,7 @@ class DeadMessage extends Resource
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\DeadMessageLinks $links links
+     * @param \Shopware6SDK\Model\DeadMessageLinks $links links
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class DeadMessage extends Resource
     /**
      * Gets relationships
      *
-     * @return \ShopwareSDK6\Model\DeadMessageRelationships
+     * @return \Shopware6SDK\Model\DeadMessageRelationships
      */
     public function getRelationships()
     {
@@ -323,7 +323,7 @@ class DeadMessage extends Resource
     /**
      * Sets relationships
      *
-     * @param \ShopwareSDK6\Model\DeadMessageRelationships $relationships relationships
+     * @param \Shopware6SDK\Model\DeadMessageRelationships $relationships relationships
      *
      * @return $this
      */

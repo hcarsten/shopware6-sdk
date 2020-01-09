@@ -9,9 +9,9 @@ Name | Type | Description | Notes
 **document_type_id** | **string** |  | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | 
-**document_type** | [**\ShopwareSDK6\Model\DocumentTypeFlat**](DocumentTypeFlat.md) |  | [optional] 
-**document_base_config** | [**\ShopwareSDK6\Model\DocumentBaseConfigFlat**](DocumentBaseConfigFlat.md) |  | [optional] 
-**sales_channel** | [**\ShopwareSDK6\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
+**document_type** | [**\Shopware6SDK\Model\DocumentTypeFlat**](DocumentTypeFlat.md) |  | [optional] 
+**document_base_config** | [**\Shopware6SDK\Model\DocumentBaseConfigFlat**](DocumentBaseConfigFlat.md) |  | [optional] 
+**sales_channel** | [**\Shopware6SDK\Model\SalesChannelFlat**](SalesChannelFlat.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

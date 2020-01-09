@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,14 +26,14 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
-use \ShopwareSDK6\ObjectSerializer;
+namespace Shopware6SDK\Model;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * InlineResponse20063 Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -54,7 +54,7 @@ class InlineResponse20063 extends Success
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\ShopwareSDK6\Model\DocumentBaseConfig'    ];
+        'data' => '\Shopware6SDK\Model\DocumentBaseConfig'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -193,7 +193,7 @@ class InlineResponse20063 extends Success
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\DocumentBaseConfig
+     * @return \Shopware6SDK\Model\DocumentBaseConfig
      */
     public function getData()
     {
@@ -203,7 +203,7 @@ class InlineResponse20063 extends Success
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\DocumentBaseConfig $data data
+     * @param \Shopware6SDK\Model\DocumentBaseConfig $data data
      *
      * @return $this
      */

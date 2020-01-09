@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Api;
+namespace Shopware6SDK\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use ShopwareSDK6\ApiException;
-use ShopwareSDK6\Configuration;
-use ShopwareSDK6\HeaderSelector;
-use ShopwareSDK6\ObjectSerializer;
+use Shopware6SDK\ApiException;
+use Shopware6SDK\Configuration;
+use Shopware6SDK\HeaderSelector;
+use Shopware6SDK\ObjectSerializer;
 
 /**
  * NumberRangeTypeApi Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -91,12 +91,12 @@ class NumberRangeTypeApi
      *
      * Create a new Number Range Type resources
      *
-     * @param  \ShopwareSDK6\Model\Body94 $body body (optional)
+     * @param  \Shopware6SDK\Model\Body94 $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200144
+     * @return \Shopware6SDK\Model\InlineResponse200144
      */
     public function createNumberRangeType($body = null, $_response = null)
     {
@@ -109,16 +109,16 @@ class NumberRangeTypeApi
      *
      * Create a new Number Range Type resources
      *
-     * @param  \ShopwareSDK6\Model\Body94 $body (optional)
+     * @param  \Shopware6SDK\Model\Body94 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
      */
     public function createNumberRangeTypeWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->createNumberRangeTypeRequest($body, $_response);
 
         try {
@@ -170,7 +170,7 @@ class NumberRangeTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200144',
+                        '\Shopware6SDK\Model\InlineResponse200144',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class NumberRangeTypeApi
      *
      * Create a new Number Range Type resources
      *
-     * @param  \ShopwareSDK6\Model\Body94 $body (optional)
+     * @param  \Shopware6SDK\Model\Body94 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -206,7 +206,7 @@ class NumberRangeTypeApi
      *
      * Create a new Number Range Type resources
      *
-     * @param  \ShopwareSDK6\Model\Body94 $body (optional)
+     * @param  \Shopware6SDK\Model\Body94 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -214,7 +214,7 @@ class NumberRangeTypeApi
      */
     public function createNumberRangeTypeAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->createNumberRangeTypeRequest($body, $_response);
 
         return $this->client
@@ -257,7 +257,7 @@ class NumberRangeTypeApi
     /**
      * Create request for operation 'createNumberRangeType'
      *
-     * @param  \ShopwareSDK6\Model\Body94 $body (optional)
+     * @param  \Shopware6SDK\Model\Body94 $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -351,12 +351,12 @@ class NumberRangeTypeApi
      *
      * Create a new Number Range Type resources
      *
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body body (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200144
+     * @return \Shopware6SDK\Model\InlineResponse200144
      */
     public function createNumberRangeType($body = null, $_response = null)
     {
@@ -369,16 +369,16 @@ class NumberRangeTypeApi
      *
      * Create a new Number Range Type resources
      *
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
      */
     public function createNumberRangeTypeWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->createNumberRangeTypeRequest($body, $_response);
 
         try {
@@ -430,7 +430,7 @@ class NumberRangeTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200144',
+                        '\Shopware6SDK\Model\InlineResponse200144',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class NumberRangeTypeApi
      *
      * Create a new Number Range Type resources
      *
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -466,7 +466,7 @@ class NumberRangeTypeApi
      *
      * Create a new Number Range Type resources
      *
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -474,7 +474,7 @@ class NumberRangeTypeApi
      */
     public function createNumberRangeTypeAsyncWithHttpInfo($body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->createNumberRangeTypeRequest($body, $_response);
 
         return $this->client
@@ -517,7 +517,7 @@ class NumberRangeTypeApi
     /**
      * Create request for operation 'createNumberRangeType'
      *
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -614,7 +614,7 @@ class NumberRangeTypeApi
      * @param  string $id Identifier for the number_range_type (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -631,7 +631,7 @@ class NumberRangeTypeApi
      * @param  string $id Identifier for the number_range_type (required)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -847,9 +847,9 @@ class NumberRangeTypeApi
      *
      * @param  string $id Identifier for the number_range_type (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200144
+     * @return \Shopware6SDK\Model\InlineResponse200144
      */
     public function getNumberRangeType($id)
     {
@@ -864,13 +864,13 @@ class NumberRangeTypeApi
      *
      * @param  string $id Identifier for the number_range_type (required)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
      */
     public function getNumberRangeTypeWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->getNumberRangeTypeRequest($id);
 
         try {
@@ -922,7 +922,7 @@ class NumberRangeTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200144',
+                        '\Shopware6SDK\Model\InlineResponse200144',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -964,7 +964,7 @@ class NumberRangeTypeApi
      */
     public function getNumberRangeTypeAsyncWithHttpInfo($id)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->getNumberRangeTypeRequest($id);
 
         return $this->client
@@ -1111,9 +1111,9 @@ class NumberRangeTypeApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200142
+     * @return \Shopware6SDK\Model\InlineResponse200142
      */
     public function getNumberRangeTypeList($limit = null, $page = null, $query = null)
     {
@@ -1130,13 +1130,13 @@ class NumberRangeTypeApi
      * @param  int $page The page to be returned (optional)
      * @param  string $query Encoded SwagQL in JSON (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200142, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200142, HTTP status code, HTTP response headers (array of strings)
      */
     public function getNumberRangeTypeListWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200142';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200142';
         $request = $this->getNumberRangeTypeListRequest($limit, $page, $query);
 
         try {
@@ -1188,7 +1188,7 @@ class NumberRangeTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200142',
+                        '\Shopware6SDK\Model\InlineResponse200142',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1234,7 +1234,7 @@ class NumberRangeTypeApi
      */
     public function getNumberRangeTypeListAsyncWithHttpInfo($limit = null, $page = null, $query = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200142';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200142';
         $request = $this->getNumberRangeTypeListRequest($limit, $page, $query);
 
         return $this->client
@@ -1378,12 +1378,12 @@ class NumberRangeTypeApi
      * Partially update information about a Number Range Type resource
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200144
+     * @return \Shopware6SDK\Model\InlineResponse200144
      */
     public function updateNumberRangeType($id, $body = null, $_response = null)
     {
@@ -1397,16 +1397,16 @@ class NumberRangeTypeApi
      * Partially update information about a Number Range Type resource
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateNumberRangeTypeWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->updateNumberRangeTypeRequest($id, $body, $_response);
 
         try {
@@ -1458,7 +1458,7 @@ class NumberRangeTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200144',
+                        '\Shopware6SDK\Model\InlineResponse200144',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1474,7 +1474,7 @@ class NumberRangeTypeApi
      * Partially update information about a Number Range Type resource
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1496,7 +1496,7 @@ class NumberRangeTypeApi
      * Partially update information about a Number Range Type resource
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1504,7 +1504,7 @@ class NumberRangeTypeApi
      */
     public function updateNumberRangeTypeAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->updateNumberRangeTypeRequest($id, $body, $_response);
 
         return $this->client
@@ -1548,7 +1548,7 @@ class NumberRangeTypeApi
      * Create request for operation 'updateNumberRangeType'
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\Body95 $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1657,12 +1657,12 @@ class NumberRangeTypeApi
      * Partially update information about a Number Range Type resource
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \ShopwareSDK6\Model\InlineResponse200144
+     * @return \Shopware6SDK\Model\InlineResponse200144
      */
     public function updateNumberRangeType($id, $body = null, $_response = null)
     {
@@ -1676,16 +1676,16 @@ class NumberRangeTypeApi
      * Partially update information about a Number Range Type resource
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
-     * @throws \ShopwareSDK6\ApiException on non-2xx response
+     * @throws \Shopware6SDK\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \ShopwareSDK6\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Shopware6SDK\Model\InlineResponse200144, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateNumberRangeTypeWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->updateNumberRangeTypeRequest($id, $body, $_response);
 
         try {
@@ -1737,7 +1737,7 @@ class NumberRangeTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\ShopwareSDK6\Model\InlineResponse200144',
+                        '\Shopware6SDK\Model\InlineResponse200144',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1753,7 +1753,7 @@ class NumberRangeTypeApi
      * Partially update information about a Number Range Type resource
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1775,7 +1775,7 @@ class NumberRangeTypeApi
      * Partially update information about a Number Range Type resource
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException
@@ -1783,7 +1783,7 @@ class NumberRangeTypeApi
      */
     public function updateNumberRangeTypeAsyncWithHttpInfo($id, $body = null, $_response = null)
     {
-        $returnType = '\ShopwareSDK6\Model\InlineResponse200144';
+        $returnType = '\Shopware6SDK\Model\InlineResponse200144';
         $request = $this->updateNumberRangeTypeRequest($id, $body, $_response);
 
         return $this->client
@@ -1827,7 +1827,7 @@ class NumberRangeTypeApi
      * Create request for operation 'updateNumberRangeType'
      *
      * @param  string $id Identifier for the number_range_type (required)
-     * @param  \ShopwareSDK6\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
+     * @param  \Shopware6SDK\Model\NumberRangeTypeFlat $body Partially update information about a Number Range Type resource. (optional)
      * @param  string $_response Data format for response. Empty if none is provided. (optional)
      *
      * @throws \InvalidArgumentException

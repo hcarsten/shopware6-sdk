@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,16 +26,16 @@
  * Do not edit the class manually.
  */
 
-namespace ShopwareSDK6\Model;
+namespace Shopware6SDK\Model;
 
 use \ArrayAccess;
-use \ShopwareSDK6\ObjectSerializer;
+use \Shopware6SDK\ObjectSerializer;
 
 /**
  * LocaleRelationshipsUsers Class Doc Comment
  *
  * @category Class
- * @package  ShopwareSDK6
+ * @package  Shopware6SDK
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,8 +56,8 @@ class LocaleRelationshipsUsers implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\ShopwareSDK6\Model\LocaleRelationshipsUsersLinks',
-'data' => '\ShopwareSDK6\Model\LocaleRelationshipsUsersData[]'    ];
+        'links' => '\Shopware6SDK\Model\LocaleRelationshipsUsersLinks',
+'data' => '\Shopware6SDK\Model\LocaleRelationshipsUsersData[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -205,7 +205,7 @@ class LocaleRelationshipsUsers implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \ShopwareSDK6\Model\LocaleRelationshipsUsersLinks
+     * @return \Shopware6SDK\Model\LocaleRelationshipsUsersLinks
      */
     public function getLinks()
     {
@@ -215,7 +215,7 @@ class LocaleRelationshipsUsers implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \ShopwareSDK6\Model\LocaleRelationshipsUsersLinks $links links
+     * @param \Shopware6SDK\Model\LocaleRelationshipsUsersLinks $links links
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class LocaleRelationshipsUsers implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \ShopwareSDK6\Model\LocaleRelationshipsUsersData[]
+     * @return \Shopware6SDK\Model\LocaleRelationshipsUsersData[]
      */
     public function getData()
     {
@@ -239,7 +239,7 @@ class LocaleRelationshipsUsers implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \ShopwareSDK6\Model\LocaleRelationshipsUsersData[] $data data
+     * @param \Shopware6SDK\Model\LocaleRelationshipsUsersData[] $data data
      *
      * @return $this
      */
